@@ -6,5 +6,11 @@
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
-/*
-** this will contain common theme variables */
+
+// functions require
+.base(margin; @base: 1) {
+	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+.base(padding; @base: 1) {
+	padding: unit((@font-size * (@line-height * @base) / 10), rem);
+}
