@@ -1,0 +1,65 @@
+/*!
+*	Theme vX.X.X
+*	Copyright 2016 Songfarm Inc.
+*/
+/*
+* GRID STYLES
+*/
+.row {
+	padding: 1.414%;
+	clear: both;
+	height: auto;
+	margin: 0;
+}
+.col {
+	box-sizing: border-box;
+	display: block;
+	float:left;
+	margin-right: 1.414%;
+	margin-bottom: 1.414%;
+}
+.col:last-child {
+	margin-right: 0;
+}
+.row:before,
+.row:after {
+	content:"";
+	display:table;
+}
+.row:after {
+	clear:both;
+}
+.row {
+	zoom:1; /* For IE 6/7 */
+}
+.span-1,
+.span-2,
+.span-3,
+.span-4,
+.span-5,
+.span-6,
+.span-7,
+.span-8,
+.span-9,
+.span-10,
+.span-11,
+.span-12 {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+// go full-width at specified breakpoint
+@media (@sm-query) {
+	.col {
+		margin-bottom: 0;
+	}
+	.create-grid(@grid-columns);
+	.create-grid(@columns, @i: 1) when (@i =< @columns) {
+		@gutter: (@line-height * (@grid-columns - 1));
+		@diff: 100% - @gutter;
+		.span-@{i} {
+			width: @diff/@grid-columns;
+		}
+		.create-grid(@columns, (@i + 1));
+	}
+}

@@ -1,0 +1,27 @@
+/*!
+*	Theme vX.X.X
+*	Copyright 2016 Songfarm Inc.
+*/
+
+/*
+* THEME STYLE DECLARATIONS
+*/
+
+// base font
+@font-size: 18;
+@line-height: 1.414;
+@grid-columns: 12;
+
+// media queries
+@sm-screen: 768; // tablet sizes
+@md-screen: 992; // desktop sizes
+@lg-screen: 1200; // large desktop sizes
+
+// media queries (relative)
+@sm-screen-rem: (@sm-screen / @font-size);
+@md-screen-rem: (@md-screen / @font-size);
+@lg-screen-rem: (@lg-screen / @font-size);
+
+@sm-query: ~"min-width: @{sm-screen-rem}rem";
+@md-query: ~"min-width: @{md-screen-rem}rem";
+@lg-query: ~"min-width: @{lg-screen-rem}rem";
