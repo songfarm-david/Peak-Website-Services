@@ -63,12 +63,17 @@
   }
   //links
   a {
-    background-color: transparent; /* 1 */
-    -webkit-text-decoration-skip: objects; /* 2 */
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: @link-color;
   }
   a:active,
   a:hover {
     outline-width: 0;
+    color: @link-color-hover;
+  }
+  a:visited {
+    text-decoration: none;
   }
   //textLevel
   abbr[title] {
@@ -109,6 +114,8 @@
   }
   img {
     border-style: none;
+    max-width: 100%;
+    height: auto;
   }
   svg:not(:root) {
     overflow: hidden;
