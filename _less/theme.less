@@ -7,16 +7,18 @@
 * THEME STYLE DECLARATIONS
 */
 
-// base font
+// Declare base font, line-height and # of columns:
 @font-size: 18;
 @line-height: 1.414;
 @grid-columns: 12;
 
-// media queries
-@sm-screen: 768; // tablet sizes
-@md-screen: 992; // desktop sizes
-@lg-screen: 1200; // large desktop sizes
+// Declare Media sizes:
+@sm-screen: 768;
+@md-screen: 992;
+@lg-screen: 1200;
 
+/* NOTE: could write a function that does the conversions internally
+	and outputs each size as separate variable */
 // media queries (relative)
 @sm-screen-rem: (@sm-screen / @font-size);
 @md-screen-rem: (@md-screen / @font-size);
