@@ -53,22 +53,23 @@ template,
   display: none;
 }
 html {
-  font-size: 18;
+  font-size: 0.625em;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-size: 1.7rem;
   line-height: 1.414;
 }
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #ff0000;
+  color: #fcffe4;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: #800080;
+  color: #22333b;
 }
 a:visited {
   text-decoration: none;
@@ -208,10 +209,7 @@ textarea {
 /*
 * THEME STYLE DECLARATIONS
 */
-/* NOTE: could write a function that does the conversions internally
-	and outputs each size as separate variable */
-/* main colors */
-/* link colors */
+/* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
 /*!
 *	Theme vX.X.X
 *	Copyright 2016 Songfarm Inc.
@@ -262,7 +260,7 @@ textarea {
   width: 100%;
   box-sizing: border-box;
 }
-@media (min-width: 42.666666666666664rem) {
+@media (min-width: 451.7647058823529remrem) {
   .col {
     margin-bottom: 0;
   }
@@ -303,9 +301,45 @@ textarea {
     width: 7.03716667%;
   }
 }
+/*!
+*	Theme vX.X.X
+*	Copyright 2016 Songfarm Inc.
+*/
+/*
+* TYPOGRAPHY AND TYPESETTING
+*/
+p,
+ul,
+ol,
+dl {
+  font-size: 1.7rem;
+  font-size: 2.4038rem;
+  margin-bottom: 1.414rem;
+}
+.lead {
+  font-size: 194.038%;
+}
+small {
+  font-size: 1.20226308rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414rem 0 .5rem;
+}
+h4 {
+  font-size: 3.3989732rem;
+}
+h3 {
+  font-size: 4.8061481rem;
+}
+h2 {
+  font-size: 6.79589342rem;
+}
+h1 {
+  font-size: 9.6093933rem;
+}
 /*
 * MAIN PAGE STYLES
 */
-p {
-  border: 1px solid red;
-}

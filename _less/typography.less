@@ -7,10 +7,48 @@
 * TYPOGRAPHY AND TYPESETTING
 */
 
-// functions require
-.base(margin; @base: 1) {
+// function to grow margin/padding/etc by line-height exponentially
+.base(margin; @base: 1) when not (@base = 0){
 	margin: unit((@font-size * (@line-height * @base) / 10), rem);
 }
 .base(padding; @base: 1) {
 	padding: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+.base(fontsize) {
+	font-size: unit(@font-size, rem);
+}
+.base(fontsize; @i: 1) when not (@i = true){
+	font-size: pow(@line-height, @i) * @font-size;
+}
+
+p,
+ul,
+ol,
+dl {
+	.base(fontsize);
+	margin-bottom: unit(@line-height,rem);
+}
+.lead {
+	font-size: @font-size * 114.14%;
+}
+small {
+	font-size: @font-size / @line-height;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin: 1.414rem 0 .5rem;
+}
+h4 {
+	.base(fontsize,2);
+}
+h3 {
+	.base(fontsize,3);
+}
+h2 {
+	.base(fontsize,4);
+}
+h1 {
+	.base(fontsize,5);
 }

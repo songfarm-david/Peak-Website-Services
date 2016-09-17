@@ -9,8 +9,6 @@
 /*
 ** a normalizer and cross-browser regulator
  	will also include form elements, print media queries */
-
-
   * {
   	box-sizing: border-box;
   	margin: 0;
@@ -53,12 +51,14 @@
   	display: none;
   }
   html {
-  	font-size: @font-size;
+  	// font-size: @font-size;
+    font-size: 0.625em;
   	//font-family: @main-font;
   	-ms-text-size-adjust: 100%; // ??
   	-webkit-text-size-adjust: 100%; // ??
   }
   body {
+    font-size: @font-size;
   	line-height: @line-height;
   }
   //links
