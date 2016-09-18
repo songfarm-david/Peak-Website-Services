@@ -7,16 +7,6 @@
 	height: auto;
 	margin: 0;
 }
-.col {
-	box-sizing: border-box;
-	display: block;
-	float:left;
-	margin-right: 1.414%;
-	margin-bottom: 1.414%;
-}
-.col:last-child {
-	margin-right: 0;
-}
 .row:before,
 .row:after {
 	content:"";
@@ -27,6 +17,17 @@
 }
 .row {
 	zoom:1; /* For IE 6/7 */
+}
+.col {
+	box-sizing: border-box;
+	display: block;
+	float:left;
+	margin-right: 1.414%;
+	margin-bottom: 1.414%;
+	border: 2px solid black;
+}
+.col:last-child {
+	margin-right: 0;
 }
 .span-1,
 .span-2,
@@ -49,13 +50,13 @@
 	.col {
 		margin-bottom: 0;
 	}
-	.create-grid(@grid-columns);
-	.create-grid(@columns, @i: 1) when (@i =< @columns) {
-		@gutter: (@line-height * (@grid-columns - 1));
-		@diff: 100% - @gutter;
+	// generate grid with allowance given for
+	.create-grid(@i: 1) when (@i =< @grid-columns) {
+		@each: (@i / @grid-columns) * 100%;
 		.span-@{i} {
-			width: @diff/@grid-columns;
+			width: @each - @line-height;
 		}
-		.create-grid(@columns, (@i + 1));
+		.create-grid(@i + 1);
 	}
+	.create-grid();
 }
