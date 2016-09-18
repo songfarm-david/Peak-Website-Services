@@ -6,7 +6,7 @@
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <script type="javascript" src="_js/vendor/modernizr.js"></script>
 <!-- JS Helper Functions -->
-<script src="_js/vendor/plugins.js"></script>
+<!-- <script src="_js/vendor/plugins.js"></script> -->
 <!-- supports media queries in IE6-8 -->
 <!--[if lte 8]>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
