@@ -1,0 +1,11 @@
+// Declare Media sizes:
+@sm-screen: 768;
+@md-screen: 992;
+@lg-screen: 1200;
+/* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
+@sm-screen-rem: unit((@sm-screen / @browser-size-default), rem);
+@md-screen-rem: unit((@md-screen / @browser-size-default), rem);
+@lg-screen-rem: unit((@lg-screen / @browser-size-default), rem);
+@sm-query: ~"min-width: @{sm-screen-rem}";
+@md-query: ~"min-width: @{md-screen-rem}";
+@lg-query: ~"min-width: @{lg-screen-rem}";

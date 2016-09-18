@@ -1,21 +1,45 @@
-/*!
-*	Theme vX.X.X
-*	Copyright 2016 Songfarm Inc.
-*/
-
 /*
-* THEME STYLE DECLARATIONS
+* THEME DEFAULTS
 */
+@browser-size-default: 16;
+@base-size: 17;
+@base-size-px: unit(@base-size, px);
+@base-size-em: unit(@base-size / @browser-size-default,em);
+@font-size-rem: unit((@base-size / 10), rem);
+@line-height: 1.414;
+@grid-columns: 12;
+
 html {
-	// font-size: @font-size;
-	font-size: 17px;
-	//font-family: @main-font;
+	font-size: @base-size-px;
 }
 body {
-	// font-size: @font-size;
-	// line-height: @line-height;
-	font-size: 1rem;
 	font: @body-font;
+	font-size: @base-size-em;
+	line-height: @line-height;
+}
+
+// modularly scaled font
+// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
+.font-size() {
+	font-size: 1rem;
+}
+.font-size(@x) when (isnumber(@x)){
+	font-size: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
+}
+p {
+	.font-size();
+}
+h4 {
+	.font-size(1);
+}
+h3 {
+	.font-size(2);
+}
+h2 {
+	.font-size(3);
+}
+h1 {
+	.font-size(4);
 }
 a:active,
 a:hover {
@@ -24,23 +48,9 @@ a:hover {
 }
 
 
-// Declare base font, line-height and # of columns:
-@base-size: 17; // in px
-@font-size: unit((@base-size / 10), rem);
-@line-height: 1.414;
-@grid-columns: 12;
 
-// Declare Media sizes:
-@sm-screen: 768;
-@md-screen: 992;
-@lg-screen: 1200;
-/* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
-@sm-screen-rem: (@sm-screen / @font-size);
-@md-screen-rem: (@md-screen / @font-size);
-@lg-screen-rem: (@lg-screen / @font-size);
-@sm-query: ~"min-width: @{sm-screen-rem}rem";
-@md-query: ~"min-width: @{md-screen-rem}rem";
-@lg-query: ~"min-width: @{lg-screen-rem}rem";
+
+
 
 // Colors:
 @mint-cream: #f8fff4;
@@ -53,15 +63,6 @@ a:hover {
 @gradient-color-list: #ECA400 0%, #FCA311 33%, #EFCB68 66%, #D17A22;
 @link-color: @light-yellow;
 @link-color-hover: @gunmetal-blue;
-
-// Fonts
-@header-font: 700 1rem 'Asap', 'Georgia', 'Times New Roman', serif;
-@header-font-light: 400 1rem 'Asap', 'Georgia', 'Times New Roman', serif;
-@body-font: 400 1rem 'Noto Sans', Verdana, Arial, sans-serif;
-@body-font-bold: 700 1rem 'Noto Sans', Verdana, Arial, sans-serif;
-@special-font: 400 1rem 'Nunito', Verdana, Arial, sans-serif;
-@special-font-light: 300 1rem 'Nunito', Verdana, Arial, sans-serif;
-@special-font-bold: 700 1rem 'Nunito', Verdana, Arial, sans-serif;
 
 // Transitions
 @transition: color 100ms ease-in;

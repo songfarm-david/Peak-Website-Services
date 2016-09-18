@@ -20,12 +20,7 @@
 // .base(padding; @base: 1) {
 // 	padding: unit((@font-size * (@line-height * @base) / 10), rem);
 // }
-// .base(fontsize) {
-// 	font-size: unit(@font-size, rem);
-// }
-// .base(fontsize; @i: 1) when not (@i = true){
-// 	font-size: pow(@line-height, @i) * @font-size;
-// }
+
 
 // p,
 // ul,
@@ -40,21 +35,3 @@
 // small {
 // 	font-size: @font-size / @line-height;
 // }
-// h1,
-// h2,
-// h3,
-// h4 {
-// 	margin: 1.414rem 0 .5rem;
-// }
-h4 {
-	font-size: unit(1.7*1.414, em);
-}
-h3 {
-	font-size: unit(2.4*1.414, em);
-}
-h2 {
-	font-size: unit(3.4*1.414, em);
-}
-h1 {
-	font-size: unit(4.8*1.414, em);
-}
