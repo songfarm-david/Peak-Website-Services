@@ -4,30 +4,30 @@
 @browser-size-default: 16;
 @base-size: 17;
 @base-size-px: unit(@base-size, px);
-@base-size-em: unit(@base-size / @browser-size-default,em);
+@base-size-em: unit(@base-size / @base-size,em);
 @font-size-rem: unit((@base-size / 10), rem);
 @line-height: 1.414;
+@second-modular: 1.2;
 @grid-columns: 12;
 
 html {
 	font-size: @base-size-px;
+	overflow-x: hidden;
 }
 body {
 	font: @body-font;
 	font-size: @base-size-em;
 	line-height: @line-height;
 }
-
-// modularly scaled font
-// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
-.font-size() {
-	font-size: 1rem;
-}
-.font-size(@x) when (isnumber(@x)){
-	font-size: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
-}
 p {
 	.font-size();
+}
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 1.414rem 0 0.5rem;
 }
 h4 {
 	.font-size(1);
@@ -40,6 +40,7 @@ h2 {
 }
 h1 {
 	.font-size(4);
+	margin-top: 1.414rem;
 }
 a:active,
 a:hover {
@@ -47,22 +48,52 @@ a:hover {
 	color: @link-color-hover;
 }
 
+// p,
+// ul,
+// ol,
+// dl {
+// 	.base(fontsize);
+// 	margin-bottom: unit(@line-height,rem);
+// }
+// .lead {
+// 	font-size: @font-size * 114.14%;
+// }
+// small {
+// 	font-size: @font-size / @line-height;
+// }
 
 
 
 
 
-// Colors:
-@mint-cream: #f8fff4;
-@light-yellow: #fcffe4;
-@pomona-green: #314e22;
-@dark-green: darken(@pomona-green, 16%);
-@gunmetal-blue: #22333b;
-@dark-blue: darken(@gunmetal-blue, 16%);
-@accent-color: #D5A021;
-@gradient-color-list: #ECA400 0%, #FCA311 33%, #EFCB68 66%, #D17A22;
-@link-color: @light-yellow;
-@link-color-hover: @gunmetal-blue;
+// modularly scaled font
+// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
+.font-size() {
+	font-size: 1rem;
+}
+.font-size(@x) when (isnumber(@x)){
+	@in-rem: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
+	font-size: @in-rem;
+}
+// NOTE: review results
+// used to exponentially expand or decrease margins based on a chosen ratio
+.base(margin; @base: 1) when not (@base = 0){
+	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+// function to grow margin/padding/etc by line-height exponentially
+.base(margin; @base: 1) when not (@base = 0){
+	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+.base(padding; @base: 1) {
+	padding: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+
+
+
+
+
+
+
 
 // Transitions
 @transition: color 100ms ease-in;
