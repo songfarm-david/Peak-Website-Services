@@ -9,25 +9,36 @@
 @line-height: 1.414;
 @second-modular: 1.2;
 @grid-columns: 12;
+@min-width-px: unit(320, px);
+@page-width: @md-screen-rem / @second-modular;
 
+// containers
+.main-container {
+	max-width: @page-width;
+	margin: 0 auto;
+	background-color: #ddd;
+	display: block;
+}
 html {
 	font-size: @base-size-px;
 	overflow-x: hidden;
+	min-width: @min-width-px;
 }
 body {
 	font: @body-font;
 	font-size: @base-size-em;
 	line-height: @line-height;
 }
-p {
-	.font-size();
-}
+// type & text
 h1,
 h2,
 h3,
 h4,
 p {
 	margin: 1.414rem 0 0.5rem;
+}
+p {
+	.font-size();
 }
 h4 {
 	.font-size(1);
@@ -42,19 +53,41 @@ h1 {
 	.font-size(4);
 	margin-top: 1.414rem;
 }
+.lead {
+	text-transform: uppercase;
+	font-size: 1rem * @second-modular;
+	line-height: @second-modular;
+	letter-spacing: 1px;
+}
+// links
+a {
+	text-decoration: none;
+}
 a:active,
 a:hover {
 	outline-width: 0;
 	color: @link-color-hover;
+	text-decoration: underline;
 }
-
-// p,
-// ul,
-// ol,
-// dl {
-// 	.base(fontsize);
-// 	margin-bottom: unit(@line-height,rem);
-// }
+// lists
+ul,
+ol,
+dl {
+	.font-size;
+	margin-bottom: unit(@line-height, rem);
+	padding-left: unit(@line-height, rem);
+	list-style: none;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+dd {
+	padding-left: 1em;
+}
+li {
+	line-height: @line-height * @line-height;
+}
 // .lead {
 // 	font-size: @font-size * 114.14%;
 // }
@@ -87,12 +120,6 @@ a:hover {
 .base(padding; @base: 1) {
 	padding: unit((@font-size * (@line-height * @base) / 10), rem);
 }
-
-
-
-
-
-
 
 
 // Transitions

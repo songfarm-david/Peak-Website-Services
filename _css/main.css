@@ -195,17 +195,21 @@ textarea {
 /*
 * THEME DEFAULTS
 */
+.main-container {
+  max-width: 51.66666667rem;
+  margin: 0 auto;
+  background-color: #ddd;
+  display: block;
+}
 html {
   font-size: 17px;
   overflow-x: hidden;
+  min-width: 320px;
 }
 body {
   font: 400 1rem 'Noto Sans', Verdana, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.414;
-}
-p {
-  font-size: 1rem;
 }
 h1,
 h2,
@@ -213,6 +217,9 @@ h3,
 h4,
 p {
   margin: 1.414rem 0 0.5rem;
+}
+p {
+  font-size: 1rem;
 }
 h4 {
   font-size: 2.4rem;
@@ -227,10 +234,38 @@ h1 {
   font-size: 6.8rem;
   margin-top: 1.414rem;
 }
+.lead {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+}
 a:active,
 a:hover {
   outline-width: 0;
   color: #22333b;
+  text-decoration: underline;
+}
+ul,
+ol,
+dl {
+  font-size: 1rem;
+  margin-bottom: 1.414rem;
+  padding-left: 1.414rem;
+  list-style: none;
+}
+dt {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+dd {
+  padding-left: 1em;
+}
+li {
+  line-height: 1.999396;
 }
 /*!
 *	Theme vX.X.X
