@@ -1,18 +1,7 @@
 /*
 * THEME DEFAULTS
 */
-@browser-size-default: 16;
-@base-size: 17;
-@base-size-px: unit(@base-size, px);
-@base-size-em: unit(@base-size / @base-size,em);
-@font-size-rem: unit((@base-size / 10), rem);
-@line-height: 1.414;
-@second-modular: 1.2;
-@grid-columns: 12;
-@min-width-px: unit(320, px);
-@page-width: @md-screen-rem / @second-modular;
-
-// containers
+/* containers */
 .main-container {
 	max-width: @page-width;
 	margin: 0 auto;
@@ -29,7 +18,7 @@ body {
 	font-size: @base-size-em;
 	line-height: @line-height;
 }
-// type & text
+/* type & text */
 h1,
 h2,
 h3,
@@ -59,7 +48,10 @@ h1 {
 	line-height: @second-modular;
 	letter-spacing: 1px;
 }
-// links
+small {
+	font-size: 80%;
+}
+/* links */
 a {
 	text-decoration: none;
 }
@@ -69,7 +61,7 @@ a:hover {
 	color: @link-color-hover;
 	text-decoration: underline;
 }
-// lists
+/* lists */
 ul,
 ol,
 dl {
@@ -88,39 +80,4 @@ dd {
 li {
 	line-height: @line-height * @line-height;
 }
-// .lead {
-// 	font-size: @font-size * 114.14%;
-// }
-// small {
-// 	font-size: @font-size / @line-height;
-// }
-
-
-
-
-
-// modularly scaled font
-// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
-.font-size() {
-	font-size: 1rem;
-}
-.font-size(@x) when (isnumber(@x)){
-	@in-rem: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
-	font-size: @in-rem;
-}
-// NOTE: review results
-// used to exponentially expand or decrease margins based on a chosen ratio
-.base(margin; @base: 1) when not (@base = 0){
-	margin: unit((@font-size * (@line-height * @base) / 10), rem);
-}
-// function to grow margin/padding/etc by line-height exponentially
-.base(margin; @base: 1) when not (@base = 0){
-	margin: unit((@font-size * (@line-height * @base) / 10), rem);
-}
-.base(padding; @base: 1) {
-	padding: unit((@font-size * (@line-height * @base) / 10), rem);
-}
-
-
-// Transitions
-@transition: color 100ms ease-in;
+/* forms */

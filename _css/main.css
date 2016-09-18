@@ -2,16 +2,9 @@
 *	Theme vX.X.X
 *	Copyright 2016 Songfarm Inc.
 */
-/*!
-*	Theme vX.X.X
-*	Copyright 2016 Songfarm Inc.
-*/
 /*
 * RESET STYLES
 */
-/*
-** a normalizer and cross-browser regulator
- 	will also include form elements, print media queries */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +14,7 @@
   font: inherit;
   vertical-align: baseline;
 }
+/* html5 */
 article,
 aside,
 details,
@@ -56,6 +50,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+/* links */
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -64,6 +59,7 @@ a {
 a:visited {
   text-decoration: none;
 }
+/* inline elements */
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -121,6 +117,7 @@ hr {
   height: 0;
   overflow: visible;
 }
+/* forms */
 button,
 input,
 select,
@@ -195,6 +192,7 @@ textarea {
 /*
 * THEME DEFAULTS
 */
+/* containers */
 .main-container {
   max-width: 51.66666667rem;
   margin: 0 auto;
@@ -211,6 +209,7 @@ body {
   font-size: 1em;
   line-height: 1.414;
 }
+/* type & text */
 h1,
 h2,
 h3,
@@ -240,6 +239,10 @@ h1 {
   line-height: 1.2;
   letter-spacing: 1px;
 }
+small {
+  font-size: 80%;
+}
+/* links */
 a {
   text-decoration: none;
 }
@@ -249,6 +252,7 @@ a:hover {
   color: #22333b;
   text-decoration: underline;
 }
+/* lists */
 ul,
 ol,
 dl {
@@ -267,10 +271,7 @@ dd {
 li {
   line-height: 1.999396;
 }
-/*!
-*	Theme vX.X.X
-*	Copyright 2016 Songfarm Inc.
-*/
+/* forms */
 /*
 * GRID STYLES
 */
@@ -359,10 +360,6 @@ li {
   }
 }
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
-/*!
-*	Theme vX.X.X
-*	Copyright 2016 Songfarm Inc.
-*/
 /*
 * TYPOGRAPHY AND TYPESETTING
 */

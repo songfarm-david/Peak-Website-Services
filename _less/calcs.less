@@ -1,0 +1,22 @@
+// modularly scaled font
+// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
+.font-size() {
+	font-size: 1rem;
+}
+.font-size(@x) when (isnumber(@x)){
+	@in-rem: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
+	font-size: @in-rem;
+}
+
+// // NOTE: review results
+// // used to exponentially expand or decrease margins based on a chosen ratio
+// .base(margin; @base: 1) when not (@base = 0){
+// 	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+// }
+// // function to grow margin/padding/etc by line-height exponentially
+// .base(margin; @base: 1) when not (@base = 0){
+// 	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+// }
+// .base(padding; @base: 1) {
+// 	padding: unit((@font-size * (@line-height * @base) / 10), rem);
+// }
