@@ -60,6 +60,9 @@
 	MAIN SITE HEADER
 	*****************/
 header {
+	.main-container {
+		background-color: transparent;
+	}
 	&:before {
 		.overlay(@light-yellow, 0.9);
 	}
@@ -101,4 +104,88 @@ header {
 	a {
 		color: @pomona-green;
 	}
+}
+
+/************
+	NAVIGATION
+	***********/
+nav {
+	font: @body-font;
+	color: #fff;
+	background-color: @pomona-green;
+	text-align: left;
+	position: relative;
+	z-index: 100;
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,.35);
+	ul {
+		.main-container;
+		background-color: transparent;
+		font-size: 1.414rem;
+		padding-left: 0;
+		@media (@sm-query) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: nowrap;
+			> .dropdown-btn {
+				flex: 1 1 auto;
+				display: flex;
+				display: inline-block;
+				&:hover .dropdown-content {
+					opacity: 1;
+					transform: translateX(0);
+				}
+				ul {
+					flex-direction: column;
+					box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.5), inset -1px 2px 7px rgba(0, 0, 0, 0.35);
+					li {
+						font-size: .9em;
+						white-space: normal;
+						align-items: flex-start;
+						&:hover {
+							background-color: @gunmetal-blue;
+						}
+					}
+				}
+			}
+		}
+		@media (@lg-query) {
+			white-space: nowrap;
+		}
+		> .dropdown-btn {
+			// @media (@sm-query) {
+			// 	display: inline-block;
+			// }
+			position: relative;
+			&:hover {
+				background-color: @gunmetal-blue;
+			}
+			a {
+				display: block;
+				padding: 0.7rem 1.2rem;
+				&:hover {
+					color: inherit;
+				}
+			}
+			.dropdown-content {
+				height: auto;
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				opacity: 0;
+				background-color: rgba(34, 51, 59, 0.9);
+				transition: opacity 250ms ease-out 100ms;
+				transform: translateX(-5000%);
+				li {
+					text-align: left;
+					width: 100%;
+				}
+			}
+		}
+		li {
+			line-height: @line-height;
+		}
+	}
+	@import 'dependencies/bootstrap-nav';
 }

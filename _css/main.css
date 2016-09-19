@@ -300,7 +300,6 @@ li {
   float: left;
   margin-right: 1.414%;
   margin-bottom: 1.414%;
-  border: 2px solid black;
 }
 .col:last-child {
   margin-right: 0;
@@ -427,6 +426,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+header .main-container {
+  background-color: transparent;
+}
 header:before {
   content: "";
   position: absolute;
@@ -466,4 +468,105 @@ header .col:last-of-type div:first-of-type {
 }
 header a {
   color: #314e22;
+}
+/************
+	NAVIGATION
+	***********/
+nav {
+  font: 400 1rem 'Noto Sans', Verdana, Arial, sans-serif;
+  color: #fff;
+  background-color: #314e22;
+  text-align: left;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.35);
+}
+nav ul {
+  max-width: 62.5rem;
+  margin: 0 auto;
+  background-color: #ddd;
+  display: block;
+  background-color: transparent;
+  font-size: 1.414rem;
+  padding-left: 0;
+}
+@media (min-width: 48rem) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  nav ul > .dropdown-btn {
+    flex: 1 1 auto;
+    display: flex;
+    display: inline-block;
+  }
+  nav ul > .dropdown-btn:hover .dropdown-content {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  nav ul > .dropdown-btn ul {
+    flex-direction: column;
+    box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.5), inset -1px 2px 7px rgba(0, 0, 0, 0.35);
+  }
+  nav ul > .dropdown-btn ul li {
+    font-size: .9em;
+    white-space: normal;
+    align-items: flex-start;
+  }
+  nav ul > .dropdown-btn ul li:hover {
+    background-color: #22333b;
+  }
+}
+@media (min-width: 75rem) {
+  nav ul {
+    white-space: nowrap;
+  }
+}
+nav ul > .dropdown-btn {
+  position: relative;
+}
+nav ul > .dropdown-btn:hover {
+  background-color: #22333b;
+}
+nav ul > .dropdown-btn a {
+  display: block;
+  padding: 0.7rem 1.2rem;
+}
+nav ul > .dropdown-btn a:hover {
+  color: inherit;
+}
+nav ul > .dropdown-btn .dropdown-content {
+  height: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: rgba(34, 51, 59, 0.9);
+  transition: opacity 250ms ease-out 100ms;
+  transform: translateX(-5000%);
+}
+nav ul > .dropdown-btn .dropdown-content li {
+  text-align: left;
+  width: 100%;
+}
+nav ul li {
+  line-height: 1.414;
+}
+nav .navbar-header {
+  display: block;
+}
+@media (min-width: 48rem) {
+  nav .navbar-header {
+    display: none;
+  }
+}
+nav button.navbar-toggle .icon-bar {
+  width: 2.88rem;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #fcffe4;
+  margin: 0.65rem 0;
 }

@@ -9,7 +9,9 @@
 
 		<!-- Brand Header -->
 		<?php include_once('_includes/theme/header-brand.php') ?>
+
 		<!-- Navigation -->
+		<?php include_once('_includes/theme/navigation.php') ?>
 
 		<!-- //	Feature Section 1	-->
 			<!-- Sliding Carousel -->
