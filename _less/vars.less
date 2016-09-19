@@ -3,9 +3,10 @@
 @browser-size-default: 16;
 @base-size: 17;
 @base-size-px: unit(@base-size, px);
-@base-size-em: unit(@base-size / @base-size, em);
-@font-size-rem: unit((@base-size / 10), rem);
-@line-height: 1.414;
+@base-size-em: unit(@base-size / @browser-size-default, em);
+@base-size-rem: unit(@base-size / @base-size, rem);
+@line-height: @first-modular;
+@first-modular: 1.414;
 @second-modular: 1.2;
 @grid-columns: 12;
 @min-width-px: unit(320, px);

@@ -1,11 +1,11 @@
 // modularly scaled font
 // when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
 .font-size() {
-	font-size: 1rem;
+	font-size: @base-size-rem;
 }
 .font-size(@x) when (isnumber(@x)){
-	@in-rem: unit( round( (@base-size * pow(@line-height, @x) ) / 10, 1 ), rem);
-	font-size: @in-rem;
+	@font-size-rem: unit( round( (@base-size-rem * pow(@line-height, @x) ), 1 ), rem);
+	font-size: @font-size-rem;
 }
 
 // // NOTE: review results
