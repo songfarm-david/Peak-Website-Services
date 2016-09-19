@@ -19,8 +19,8 @@
 #main-page-3,
 #main-page-4 {
 	display: block;
-	border: 2px solid red;
 	height: 100vh;
+	overflow: hidden;
 }
 
 /********
@@ -28,6 +28,7 @@
 	*******/
 #banner {
 	width: 100%;
+	font: @special-font;
 	line-height: @line-height * @second-modular;
 	.font-size(2);
 	background-color: @accent-color;
@@ -196,5 +197,35 @@ nav {
 			color: #fff;
 		}
 	}
-	@import 'dependencies/bootstrap-nav';
+	@import 'dependencies/bs-nav-dropdown';
+}
+
+/***************
+	FEATURE CAROUSEL
+	*******************/
+#feature-carousel {
+	background-color: @light-yellow;
+	height: 100%;
+	position: relative;
+	.carousel-inner {
+		height: 100%;
+		.feature-photo {
+			background-size: cover;
+			height: inherit;
+			&[name="feature-1"] {
+				background-image: url(../_images/features/feature-1.jpg);
+			}
+			&[name="feature-2"] {
+				background-image: url(../_images/features/feature-2.jpg);
+			}
+			&[name="feature-3"] {
+				background-image: url(../_images/features/feature-3.jpg);
+			}
+			&[name="feature-4"] {
+				background-image: url(../_images/features/feature-4.jpg);
+			}
+
+		}
+	}
+	@import 'dependencies/bs-carousel.less';
 }

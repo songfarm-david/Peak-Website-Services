@@ -15,6 +15,7 @@
 
 		<!-- //	Feature Section 1	-->
 			<!-- Sliding Carousel -->
+			<?php include_once('_includes/theme/feature-carousel.php') ?>
 
 	</div>
 	<div class="" id="main-page-2">

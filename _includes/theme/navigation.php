@@ -1,4 +1,4 @@
-<nav class="navbar" data-spy="affix" data-offset-top="200" data-offset-bottom="200">
+<nav class="navbar" data-spy="" data-offset-top="" data-offset-bottom="">
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
       <span class="icon-bar"></span>
