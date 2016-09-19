@@ -29,7 +29,7 @@
 #banner {
 	width: 100%;
 	line-height: @line-height * @second-modular;
-	.font-size();
+	.font-size(2);
 	background-color: @accent-color;
 	// add svg-gradient here
 	span, a {
@@ -39,6 +39,7 @@
 	span {
 		display: table;
 		text-align: center;
+		white-space: nowrap;
 		@media (@sm-query) {
 			width: 80%;
 		}
@@ -64,6 +65,7 @@ header {
 	color: @pomona-green;
 	position: relative;
 	overflow: hidden;
+	.font-size(3);
 	background-image: url(../_images/backgrounds/polyester.png);
 	.main-container {
 		background-color: transparent;
@@ -89,18 +91,22 @@ header {
 		&:last-of-type {
 			display: table;
 			text-align: right;
-			div:first-of-type {
+			.cta > a {
+				white-space: nowrap;
 				text-align: center;
 				@media (@sm-query) {
 					text-align: inherit;
 				}
 			}
+			.cta + div {
+				font-size: 0.8em;
+				margin-top: 1rem;
+			}
 		}
 	}
 	// end of flexbox backup
-	// display: flex;
-	// justify-content: center;
-	// align-items: center;
+	display: flex;
+	justify-content: flex-start;
 	a {
 		color: @pomona-green;
 	}
@@ -120,7 +126,7 @@ nav {
 	ul {
 		.main-container;
 		background-color: transparent;
-		font-size: 1.414rem;
+		.font-size(1);
 		padding-left: 0;
 		@media (@sm-query) {
 			display: flex;

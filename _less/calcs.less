@@ -8,15 +8,15 @@
 	font-size: @font-size-rem;
 }
 
-// // NOTE: review results
-// // used to exponentially expand or decrease margins based on a chosen ratio
-// .base(margin; @base: 1) when not (@base = 0){
-// 	margin: unit((@font-size * (@line-height * @base) / 10), rem);
-// }
-// // function to grow margin/padding/etc by line-height exponentially
-// .base(margin; @base: 1) when not (@base = 0){
-// 	margin: unit((@font-size * (@line-height * @base) / 10), rem);
-// }
-// .base(padding; @base: 1) {
-// 	padding: unit((@font-size * (@line-height * @base) / 10), rem);
-// }
+// NOTE: review results
+// used to exponentially expand or decrease margins based on a chosen ratio
+.base(margin; @base: 1) when not (@base = 0){
+	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+// function to grow margin/padding/etc by line-height exponentially
+.base(margin; @base: 1) when not (@base = 0){
+	margin: unit((@font-size * (@line-height * @base) / 10), rem);
+}
+.base(padding; @base: 1) {
+	padding: unit((@font-size * (@line-height * @base) / 10), rem);
+}

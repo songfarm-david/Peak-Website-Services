@@ -383,7 +383,7 @@ li {
 #banner {
   width: 100%;
   line-height: 1.6968;
-  font-size: 1rem;
+  font-size: 2rem;
   background-color: #d5a021;
 }
 #banner span,
@@ -394,6 +394,7 @@ li {
 #banner span {
   display: table;
   text-align: center;
+  white-space: nowrap;
 }
 @media (min-width: 48rem) {
   #banner span {
@@ -422,8 +423,11 @@ header {
   color: #314e22;
   position: relative;
   overflow: hidden;
+  font-size: 2.8rem;
   background-image: url(../_images/backgrounds/polyester.png);
   /* flexbox backup */
+  display: flex;
+  justify-content: flex-start;
 }
 header .main-container {
   background-color: transparent;
@@ -457,13 +461,18 @@ header .col:last-of-type {
   display: table;
   text-align: right;
 }
-header .col:last-of-type div:first-of-type {
+header .col:last-of-type .cta > a {
+  white-space: nowrap;
   text-align: center;
 }
 @media (min-width: 48rem) {
-  header .col:last-of-type div:first-of-type {
+  header .col:last-of-type .cta > a {
     text-align: inherit;
   }
+}
+header .col:last-of-type .cta + div {
+  font-size: 0.8em;
+  margin-top: 1rem;
 }
 header a {
   color: #314e22;
@@ -486,7 +495,7 @@ nav ul {
   background-color: #ddd;
   display: block;
   background-color: transparent;
-  font-size: 1.414rem;
+  font-size: 1.4rem;
   padding-left: 0;
 }
 @media (min-width: 48rem) {
