@@ -194,7 +194,7 @@ textarea {
 */
 /* containers */
 .main-container {
-  max-width: 51.66666667rem;
+  max-width: 62.5rem;
   margin: 0 auto;
   background-color: #ddd;
   display: block;
@@ -272,6 +272,7 @@ li {
   line-height: 1.999396;
 }
 /* forms */
+/* overlays & misc */
 /*
 * GRID STYLES
 */
@@ -280,16 +281,6 @@ li {
   clear: both;
   height: auto;
   margin: 0;
-}
-.col {
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  margin-right: 1.414%;
-  margin-bottom: 1.414%;
-}
-.col:last-child {
-  margin-right: 0;
 }
 .row:before,
 .row:after {
@@ -302,6 +293,17 @@ li {
 .row {
   zoom: 1;
   /* For IE 6/7 */
+}
+.col {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  margin-right: 1.414%;
+  margin-bottom: 1.414%;
+  border: 2px solid black;
+}
+.col:last-child {
+  margin-right: 0;
 }
 .span-1,
 .span-2,
@@ -323,40 +325,40 @@ li {
     margin-bottom: 0;
   }
   .span-1 {
-    width: 7.03716667%;
+    width: 6.91933333%;
   }
   .span-2 {
-    width: 7.03716667%;
+    width: 15.25266667%;
   }
   .span-3 {
-    width: 7.03716667%;
+    width: 23.586%;
   }
   .span-4 {
-    width: 7.03716667%;
+    width: 31.91933333%;
   }
   .span-5 {
-    width: 7.03716667%;
+    width: 40.25266667%;
   }
   .span-6 {
-    width: 7.03716667%;
+    width: 48.586%;
   }
   .span-7 {
-    width: 7.03716667%;
+    width: 56.91933333%;
   }
   .span-8 {
-    width: 7.03716667%;
+    width: 65.25266667%;
   }
   .span-9 {
-    width: 7.03716667%;
+    width: 73.586%;
   }
   .span-10 {
-    width: 7.03716667%;
+    width: 81.91933333%;
   }
   .span-11 {
-    width: 7.03716667%;
+    width: 90.25266667%;
   }
   .span-12 {
-    width: 7.03716667%;
+    width: 98.586%;
   }
 }
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
@@ -371,8 +373,12 @@ li {
 #main-page-3,
 #main-page-4 {
   display: block;
-  color: #000;
+  border: 2px solid red;
+  height: 100vh;
 }
+/********
+	BANNER
+	*******/
 #banner {
   width: 100%;
   line-height: 1.6968;
@@ -383,7 +389,6 @@ li {
 #banner a {
   margin: 0 auto;
   width: 100%;
-  height: 100%;
 }
 #banner span {
   display: table;
@@ -407,4 +412,58 @@ li {
 #banner a {
   display: table-cell;
   vertical-align: middle;
+}
+/******************
+	MAIN SITE HEADER
+	*****************/
+header {
+  font: 700 1rem 'Asap', 'Georgia', 'Times New Roman', serif;
+  color: #314e22;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../_images/backgrounds/polyester.png);
+  /* flexbox backup */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  background-color: #fcffe4;
+}
+header .row {
+  position: relative;
+  z-index: 10;
+}
+header .row > div > a {
+  display: block;
+}
+header .row {
+  display: table;
+  width: 100%;
+  height: 15vh;
+}
+header .col {
+  display: table-cell;
+}
+header .col:last-of-type {
+  display: table;
+  text-align: right;
+}
+header .col:last-of-type div:first-of-type {
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  header .col:last-of-type div:first-of-type {
+    text-align: inherit;
+  }
+}
+header a {
+  color: #314e22;
 }

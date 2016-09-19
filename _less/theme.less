@@ -81,3 +81,16 @@ li {
 	line-height: @line-height * @line-height;
 }
 /* forms */
+
+
+/* overlays & misc */
+.overlay(@background-color: '#333', @opacity: 0.9) {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: @opacity;
+	background-color: @background-color;
+}

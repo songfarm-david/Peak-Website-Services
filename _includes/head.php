@@ -13,6 +13,7 @@
 		<meta name="description" content="">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="_css/main.css" media="screen" title="main page styles">
+		<script src="https://use.fontawesome.com/85510088e9.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 8]>

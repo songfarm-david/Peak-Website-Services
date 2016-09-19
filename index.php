@@ -8,7 +8,7 @@
 		<?php include_once('_includes/theme/banner.php') ?>
 
 		<!-- Brand Header -->
-
+		<?php include_once('_includes/theme/header-brand.php') ?>
 		<!-- Navigation -->
 
 		<!-- //	Feature Section 1	-->
