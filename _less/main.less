@@ -60,17 +60,17 @@
 	MAIN SITE HEADER
 	*****************/
 header {
+	font: @header-font;
+	color: @pomona-green;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../_images/backgrounds/polyester.png);
 	.main-container {
 		background-color: transparent;
 	}
 	&:before {
 		.overlay(@light-yellow, 0.9);
 	}
-	font: @header-font;
-	color: @pomona-green;
-	position: relative;
-	overflow: hidden;
-	background-image: url(../_images/backgrounds/polyester.png);
 	.row {
 		position: relative;
 		z-index: 10;
@@ -98,9 +98,9 @@ header {
 		}
 	}
 	// end of flexbox backup
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
 	a {
 		color: @pomona-green;
 	}
@@ -185,6 +185,9 @@ nav {
 		}
 		li {
 			line-height: @line-height;
+		}
+		a {
+			color: #fff;
 		}
 	}
 	@import 'dependencies/bootstrap-nav';

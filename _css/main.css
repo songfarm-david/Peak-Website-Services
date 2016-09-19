@@ -98,6 +98,8 @@ sup {
 }
 img {
   border-style: none;
+  width: 100%;
+  /* ie fallback */
   max-width: 100%;
   height: auto;
 }
@@ -206,7 +208,7 @@ html {
 }
 body {
   font: 400 1rem 'Noto Sans', Verdana, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 1.0625em;
   line-height: 1.414;
 }
 /* type & text */
@@ -221,16 +223,16 @@ p {
   font-size: 1rem;
 }
 h4 {
-  font-size: 2.4rem;
+  font-size: 1.4rem;
 }
 h3 {
-  font-size: 3.4rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 4.8rem;
+  font-size: 2.8rem;
 }
 h1 {
-  font-size: 6.8rem;
+  font-size: 4rem;
   margin-top: 1.414rem;
 }
 .lead {
@@ -422,9 +424,6 @@ header {
   overflow: hidden;
   background-image: url(../_images/backgrounds/polyester.png);
   /* flexbox backup */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 header .main-container {
   background-color: transparent;
@@ -554,6 +553,9 @@ nav ul > .dropdown-btn .dropdown-content li {
 }
 nav ul li {
   line-height: 1.414;
+}
+nav ul a {
+  color: #fff;
 }
 nav .navbar-header {
   display: block;
