@@ -19,8 +19,26 @@
 				<script src="_js/vendor/html5shiv.js"></script>
 				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
+		<h1 class="hide">Welcome to Triad Sign</h1>
 
 			<!-- Content Here -->
+		<header id="prime-header">
+
+			<img src="logo-here" alt="" />
+			<?php include_once('_includes/navigation.php') ?>
+
+		</header>
+
+		<main>
+			<section id="case-studies">
+				<h2></h2>
+			</section>
+		</main>
+
+
+		<footer>
+
+		</footer>
 
 	</body>
 	<!--jQuery CDN: NOTE: continue to update 3rd party reliances -->

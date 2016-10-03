@@ -50,7 +50,6 @@ html {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: @link-color;
 }
 a:visited {
   text-decoration: none;
@@ -97,12 +96,10 @@ img {
 	width: 100%; /* ie fallback */
   max-width: 100%;
   height: auto;
+	vertical-align: middle; /* removes gap below image and it's parent */
 }
 svg:not(:root) {
   overflow: hidden;
-}
-figure {
-  margin: 1em 40px;
 }
 hr {
   display:block;
@@ -121,6 +118,10 @@ select,
 textarea {
   font: inherit;
   margin: 0;
+	width: 100%;
+}
+button {
+	width: auto;
 }
 optgroup {
   font-weight: bold;

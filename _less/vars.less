@@ -1,15 +1,29 @@
 // THEME VARIABLES
+
+// Modular Scales
+// (meaningfully) chosen space-to-relationship definitions
+@first-modular: 1.250;
+@second-modular: 1.618;
+
+// Grid Variables
+@grid-columns: 12;
+@grid-padding: unit(@first-modular, %);
+
 // site-wide variables
-@browser-size-default: 16;
+@browser-size-default: 16; // refers to default px size in browsers
+// how big will the base size be for this website?
 @base-size: 17;
+// base size conversion to alternate formats (px, ems)
 @base-size-px: unit(@base-size, px);
 @base-size-em: unit(@base-size / @browser-size-default, em);
 @base-size-rem: unit(@base-size / @base-size, rem);
 @line-height: @first-modular;
-@first-modular: 1.414;
-@second-modular: 1.2;
-@grid-columns: 12;
+
 @min-width-px: unit(320, px);
-@page-width: @lg-screen-rem / @second-modular;
+@page-width: 100% / @second-modular;
+@page-width-alt: 100% / @first-modular;
 // Transitions
 @transition: color 100ms ease-in;
+
+@1-rem: unit(@first-modular, rem);
+@1-rem-s: unit(@second-modular, rem);
