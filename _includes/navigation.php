@@ -1,10 +1,10 @@
 <nav class="navbar">
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
       <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
     </button>
 	</div>
-	<div class="collapse navbar-collapse" id="main-nav">
+	<div class="collapse navbar-collapse main-nav">
 		<ul>
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="what-we-do.php">What We Do</a></li>
