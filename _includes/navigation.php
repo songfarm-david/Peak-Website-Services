@@ -1,6 +1,6 @@
 <nav class="navbar">
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
+		<button type="button" class="navbar-toggle" data-toggle="" data-target=".main-nav">
       <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
     </button>
 	</div>
@@ -9,7 +9,7 @@
 			<li><a href="about-us.php">About Us</a></li>
 			<li><a href="what-we-do.php">What We Do</a></li>
 			<li class="dropdown-btn">
-				<a href="types-of-signs.php" data-toggle="collapse" data-target=".sub-nav-collapse-1">Types of Signs</a>
+				<a href="types-of-signs.php" data-toggle="" data-target=".sub-nav-collapse-1">Types of Signs</a>
 				<div class="collapse navbar-collapse sub-nav-collapse-1">
 					<ul class="dropdown-content">
 						<li><a href="about-us.php">Sign Type A</a></li>

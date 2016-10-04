@@ -32,7 +32,7 @@ h2,
 h3,
 h4 {
 	font: @header-font;
-	margin: 1.414rem 0 0.5rem;
+	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 }
 p {
 	margin: 1.2rem 0 0.5rem;
@@ -63,9 +63,9 @@ small {
 }
 /* links */
 a {
-	text-decoration: none;
-	color: @link-color;
-
+	display: block;
+	margin-top: unit(@first-modular, rem);
+	color: #000;
 }
 a:active,
 a:hover {
