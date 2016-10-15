@@ -19,6 +19,12 @@
 					Need more information? Learn from these <a href="/">useful case studies</a>.
 				</p>
 			</section> -->
+			<a href="#">Leave the technical work of building and maintaining your website to us.</a>
+
+
+			<!-- Testimonials here -->
+
+
 		</main>
 
 		<?php require_once('_includes/footer.php') ?>

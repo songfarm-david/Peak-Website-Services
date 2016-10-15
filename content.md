@@ -1,5 +1,8 @@
 # PEAK
 
+## Free Website Assessment
+An objective, third-party critique of the clients existing website, including notes on design, content, usability, website health/speed, SEO grades/rankings.
+
 ## What is my tag-line? What is my exact service/services?
 You run your business, we'll look after the rest.
 Get/Have your Website Working For You
@@ -8,30 +11,70 @@ Total Web Services so you focus on running your business
 Get Your Website Working For Your Business
 
 ### website development services (an h3)
-* professionally coded custom websites (keywords here)
-* SEO 'baked right in' (except better phrasing)
-* Fast, Secure, Search Engine Friendly websites
+These are highlights of what's included in the web service development.
+* professionally coded, **custom** or template websites (keywords here)
+* SEO Enhanced (except better phrasing)
+* Fast & Secure Websites
 * Mobile Friendly
-* Responsive design
-* Works Everywhere (Compatible across devices/browsers)
-* User Experience
+* Responsive Design
+* Works Everywhere
+* Built strong under-the-hood
+* User Experience/Accessibility in Mind
+* Quick turn-around
+
 ### website creation services
 * content creation (extra $$$)
 * branding services (logo)
+* unlimited content updates *this needs to be specified somewhere to define the term*
+* You Own Your Website. No contracts.
+* Unlimited Pages
+* Fully Managed Website
+* Free Domain ?
+
 ### website design services
+* Wireframe Design mock-ups ??
+* Personal Branding/Business Branding (research best term, i.e: keywords)
+
 ### website hosting services
+This will be based on the hosting provider that I choose to partner with.
+* Server-Side Modifications/Updates/Requirements
+* Domain Name Registration/Re-Registration
+* Hosting Set-Up
+* Site Monitoring
+* Monthly Health Reports
 
-#Contact
+### website optimization
+* security (SSL) certificate
+	* firewall, HTTPS
+* SEO Campaign Management
+* Keyword Research & Analysis
+* Unlimited Support
+* Unlimited Content Updates
+*
 
+#Contact Form/Questionnaire
 I invite you to contact me at your convenience about your business goals. (growth/challenge)
+The contact form should evoke:
+1. What are your online business goals? What do you hope to achieve by working with a Web Services provider?
+2. What does your website *need* to be able to do?
+	* What would you *like* your website to be able to do?
 
 #About
+I am a *professional website developer* and creative with a broad knowledge of the web and strong technical skills to match.
+I specialize in being the technical and creative lead for personal and small businesses by taking the questions, worries, and guesswork out of creating, maintaining, and growing an online presence/business.
+When you work with me, you save time and money. My ability to quickly get to the root of your business concern, and to reliably and effectively bring to fruition your business goals  
+Feel free to call me at XXX-XXX-XXXX or [link]fill in a project inquiry to receive a free website assessment.
+(I would like to provide a free assessment for the right client, a client who displays the right potential).
+Working with me is a savings in time and money because I can quickly get to the root of your business concern and effectively guide you to your apex.  
 
-I am a *professional website developer*
+#FAQ
+Begin to build a list of FAQs.
+	ex:
+	* How will my website be maintained?
+	* What does a Service Plan look like?
 
 ### Secondary Selling Points
 * Easy to Maintain/Client Ownership
-
 * Personal Relationship
 	When you work with me, you get much more than just a website. You get an ally and a friend. You get a professional web services provider that cares about the performance and success of your online business. We understand that personal a business can be, and that, in many ways, it's an extension of yourself. We appreciate and respect that. That's why when you work with Peak, you get the integrity and trust, bla bla bla...
 * We Go the Extra Mile/Satisfactied Customers
@@ -70,6 +113,37 @@ Here we would discuss our approach to our work for our clients.
 	Not only do we oversee the journey, we also provide our clients with valuable and clarifying reports and projections surrounding the health and visibility of your website.
 	When it comes to SEO, strong planning and patience is rewarded. Fortunately for us, those are two of our strong suits. Allow us to guide your online business to acheive for your website optimal visibility for your key audience and begin to fulfill your online business goals.
 
+### SEO E-Book
+Keep in your back pocket the idea of creating and selling an SEO E-Book.
 
 #### SoundsBites
 * Getting visitors to your site is half the battle. The next step is enticing them to click, call, book or buy (Geeks)
+
+#### Future SEO Strategy Ideas
+- Post Answers on Q & A sites that my customer base might use
+- Get/Achieve/Elicit Reviews on Google+, Yelp, any other industry or related review SoundsBites
+- Social Media Ads
+- Local SEO (or regional based on Keywords)[ Google+ Local, Bing Places, Yelp for listing your business ]
+- Link Building Opportunities (clubs, orgs)
+- Blogging
+- Google+
+- Business Cards with QR code
+- LinkedIn Forums (choice)
+
+### List of Immediate and Broad competitors
+SeriouslyCreative.ca
+AtomicCrayon
+DryFive
+zerozendesign
+squarex.ca
+marketiq.ca
+try.websites.ca
+mylesenglish
+
+### CMS/ECommerce ??
+
+### Survey
+I saw a survey example somewhere that was quite effective but also provided the webmaster with important, smart data.
+
+### Newsletter
+Is it worth my while getting visitors/clients to sign up for something?
