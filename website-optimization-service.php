@@ -15,4 +15,13 @@
 	Have your online business working <em>for you</em>.
 </p>
 
+<h2>What's included in the Website Optimization Service?</h2>
+
+* security (SSL) certificate
+	* firewall, HTTPS
+* SEO Campaign Management
+* Keyword Research & Analysis
+* Unlimited Support
+* Unlimited Content Updates
+
 <?php require_once('_includes/footer.php') ?>

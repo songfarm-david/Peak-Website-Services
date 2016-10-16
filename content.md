@@ -76,9 +76,9 @@ The contact form should evoke:
 Visit [Braizen Contact](http://braizen.com/contact/) for more inspiration about being creative in your contact form
 
 #About
-Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-featured, unique and affordable solution to online business owners who would rather run their business than manage a website.
+Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-featured, unique and affordable solution to online business owners who would rather run their business than run a website.
 
-We understand that a lot goes into running a business, least of all an online business. That's why Peak Creative Website Services offers a full-suite of fully-managed website services that will take the pain out of having an online presence. We make it easy! From new websites to existing ones, whatever your online business goals, Peak Creative is behind you every step of the way to ensure that you reach your online business goals.
+We understand that a lot goes into running a business, least of all an online business. That's why Peak Creative Website Services offers a complete-suite of fully-managed website services that will take the pain out of having an online presence. We make it easy! From new websites to existing ones, whatever your online business goals, Peak Creative is behind you every step of the way to ensure that you reach the pinnacle of your online business goals.
 
 Have a look at our Website Services or Submit a Project Inquiry Form
 
