@@ -2,7 +2,6 @@
 
 ###General Notes:
 Stress the importance of having an effective online business in today's day and age.
-Discuss Social Media Integration
 Google Analytics
 
 ## Free Website Assessment/Free Quote
@@ -190,7 +189,7 @@ Keep in your back pocket the idea of creating and selling an SEO E-Book.
 - Post Answers on Q & A sites that my customer base might use
 	* [AllExperts](http://www.allexperts.com/)
 - Get/Achieve/Elicit Reviews on Google+, Yelp, any other industry or related review SoundsBites
-- Social Media Ads
+- Social Media Ads/Social Media Integration
 - Local SEO (or regional based on Keywords)[ Google+ Local, Bing Places, Yelp for listing your business ]
 - Link Building Opportunities (clubs, orgs)
 	- [fslocal](http://www.fslocal.com/)
