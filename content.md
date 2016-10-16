@@ -36,12 +36,20 @@ These are highlights of what's included in the web service development.
 * Personal Branding/Business Branding (research best term, i.e: keywords)
 
 ### website hosting services
+- Explain, as if to a 5 year old, what website hosting is first.
+- Maybe talk about the hosting service more specifically, a few highlights about the hosting partner we're using.
+- We offer website & database migration (website migration is typically free, custom code for migration will become billable).
+- Ensure that we can make the whole process - hosting and migration - painless.
+- We will also set up your Domain Name Registration, Website Emails. 
+
 This will be based on the hosting provider that I choose to partner with.
 * Server-Side Modifications/Updates/Requirements
 * Domain Name Registration/Re-Registration
 * Hosting Set-Up
 * Site Monitoring
 * Monthly Health Reports
+* [Canadian Hosted Website](http://www.seriouslycreative.ca/local-web-hosting/)
+	> If you want to protect your data from the likes of the Patriot Act and The Donald then hosting your website and email on a Canadian Hosting Server is the way to go.
 
 ### website optimization
 * security (SSL) certificate
@@ -50,7 +58,6 @@ This will be based on the hosting provider that I choose to partner with.
 * Keyword Research & Analysis
 * Unlimited Support
 * Unlimited Content Updates
-*
 
 #Contact Form/Questionnaire
 I invite you to contact me at your convenience about your business goals. (growth/challenge)
@@ -60,12 +67,18 @@ The contact form should evoke:
 	* What would you *like* your website to be able to do?
 
 #About
+Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven search engine optimization into a full-featured, affordable and unique website creation and maintenance service for online business owners hoping to establish their online presence.
+
+(Talk a little about the work ethic)Behind what we do is a work ethic of quality, excellence and consistency.
+
 I am a *professional website developer* and creative with a broad knowledge of the web and strong technical skills to match.
 I specialize in being the technical and creative lead for personal and small businesses by taking the questions, worries, and guesswork out of creating, maintaining, and growing an online presence/business.
 When you work with me, you save time and money. My ability to quickly get to the root of your business concern, and to reliably and effectively bring to fruition your business goals  
 Feel free to call me at XXX-XXX-XXXX or [link]fill in a project inquiry to receive a free website assessment.
 (I would like to provide a free assessment for the right client, a client who displays the right potential).
 Working with me is a savings in time and money because I can quickly get to the root of your business concern and effectively guide you to your apex.  
+
+Peak Creative Website Services is located in beautiful Victoria, British Columbia, Canada.
 
 #FAQ
 Begin to build a list of FAQs.
@@ -125,10 +138,13 @@ Keep in your back pocket the idea of creating and selling an SEO E-Book.
 - Social Media Ads
 - Local SEO (or regional based on Keywords)[ Google+ Local, Bing Places, Yelp for listing your business ]
 - Link Building Opportunities (clubs, orgs)
+	- [fslocal](http://www.fslocal.com/)
+	- [Yelp](https://biz.yelp.ca/)
 - Blogging
 - Google+
 - Business Cards with QR code
 - LinkedIn Forums (choice)
+* Future Package: Website MakeOver Package"
 
 ### List of Immediate and Broad competitors
 SeriouslyCreative.ca
@@ -137,8 +153,8 @@ DryFive
 zerozendesign
 squarex.ca
 marketiq.ca
-try.websites.ca
 mylesenglish
+braizen
 
 ### CMS/ECommerce ??
 
