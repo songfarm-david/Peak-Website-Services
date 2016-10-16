@@ -16,11 +16,11 @@ Total Web Services so you focus on running your business
 Get Your Website Working For Your Business
 
 ### website development services (an h3)
-These are highlights of what's included in the web service development.
+These are highlights of what's included in the web service development. It would be smart to include more information about each highlight, should the client be interested in that.
 * professionally coded, **custom** or template websites (keywords here)
 * SEO Enhanced (except better phrasing)
 * Fast & Secure Websites
-* Mobile Friendly
+* Mobile Friendly [Peak Designs](http://www.peakdesign.net/cta/mobile-friendly)
 * Responsive Design
 * Works Everywhere
 * Built strong under-the-hood
@@ -74,9 +74,14 @@ The contact form should evoke:
 1. What are your online business goals? What do you hope to achieve by working with a Web Services provider?
 2. What does your website *need* to be able to do?
 	* What would you *like* your website to be able to do?
+Visit [Braizen Contact](http://braizen.com/contact/) for more inspiration about being creative in your contact form
 
 #About
 Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-featured, unique and affordable solution to online business owners who would rather run their business than manage a website.
+
+We understand that a lot goes into running a business, least of all an online business. That's why Peak Creative Website Services offers a full-suite of fully-managed website services that will take the pain out of having an online presence. We make it easy! From new websites to existing ones, whatever your online business goals, Peak Creative is behind you every step of the way to ensure that you reach your online business goals.
+
+Have a look at our Website Services or Submit a Project Inquiry Form
 
 **Talk about Why the should choose me?**
 
@@ -143,6 +148,10 @@ Here we would discuss our approach to our work for our clients.
 
 #Website Creation Service
 When setting off for the online world, employing a professional to act as guide as you navigate your way up the rock face will ensure a higher level of success than going it alone. Whatever your website requirement, Peak Creative Website Services will lead you to the solution, and if we can't, you'll have already received a free consultation?
+Talk about integrating online stores, email marketing functionality, e-commerce, content management systems for managing your client/product databases.
+We can translate your vision into reality.
+-Provide Analytic Reports on your biggest sellors/smallest sellors.
+Good Services + Explanations here [Peak Designs](http://www.peakdesign.net/services), also [here](http://www.peakdesign.net/get-convert-nurture#GCN)
 
 #Website Maintenance Service/The Website LifeCycle
 	Websites don't live in a vacuum. Just like most things, they need to be *maintained*. As technology evolves, one must keep a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
@@ -163,6 +172,13 @@ When setting off for the online world, employing a professional to act as guide 
 	* Local SEO
 	* Citations
 	* Reviews
+
+##Portfolio
+The portfolio section does not need to follow any particular format, although it does have to be pleasing and intuitive for visitors. One idea is to have added testimonials around the client/subject, as well as adding a preface about the project and 'prev/next' buttons for going on to the next portfolio item.
+[Braizen Portfolio](http://braizen.com/portfolio/)
+
+##Pricing
+Look at [squarex](http://www.squarex.ca/web-maintenance/) for immediate inspiration for pricing tables
 
 ### SEO E-Book
 Keep in your back pocket the idea of creating and selling an SEO E-Book.
@@ -207,3 +223,5 @@ Is it worth my while getting visitors/clients to sign up for something?
 
 ## Checkout
 Have a good check-out process should someone perform a transaction on my site.
+
+[BrandId](https://thebrandidthemes.com/) sells website templates from their website!
