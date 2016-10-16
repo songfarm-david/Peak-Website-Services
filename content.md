@@ -1,6 +1,11 @@
 # PEAK
 
-## Free Website Assessment
+###General Notes:
+Stress the importance of having an effective online business in today's day and age.
+Discuss Social Media Integration
+Google Analytics
+
+## Free Website Assessment/Free Quote
 An objective, third-party critique of the clients existing website, including notes on design, content, usability, website health/speed, SEO grades/rankings.
 
 ## What is my tag-line? What is my exact service/services?
@@ -23,6 +28,8 @@ These are highlights of what's included in the web service development.
 * Quick turn-around
 
 ### website creation services
+- We offer content writing and creative services for creating new websites, or improving an existing website.
+- Maybe describe the creation services process in a little bit of detail so they know what's involved?
 * content creation (extra $$$)
 * branding services (logo)
 * unlimited content updates *this needs to be specified somewhere to define the term*
@@ -40,7 +47,7 @@ These are highlights of what's included in the web service development.
 - Maybe talk about the hosting service more specifically, a few highlights about the hosting partner we're using.
 - We offer website & database migration (website migration is typically free, custom code for migration will become billable).
 - Ensure that we can make the whole process - hosting and migration - painless.
-- We will also set up your Domain Name Registration, Website Emails. 
+- We will also set up your Domain Name Registration, Website Emails.
 
 This will be based on the hosting provider that I choose to partner with.
 * Server-Side Modifications/Updates/Requirements
@@ -50,6 +57,8 @@ This will be based on the hosting provider that I choose to partner with.
 * Monthly Health Reports
 * [Canadian Hosted Website](http://www.seriouslycreative.ca/local-web-hosting/)
 	> If you want to protect your data from the likes of the Patriot Act and The Donald then hosting your website and email on a Canadian Hosting Server is the way to go.
+
+* Daily Back-Up
 
 ### website optimization
 * security (SSL) certificate
@@ -67,7 +76,17 @@ The contact form should evoke:
 	* What would you *like* your website to be able to do?
 
 #About
-Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven search engine optimization into a full-featured, affordable and unique website creation and maintenance service for online business owners hoping to establish their online presence.
+Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-featured, unique and affordable solution to online business owners who would rather run their business than manage a website.
+
+**Talk about Why the should choose me?**
+
+Peak Creative facilitates your technical business needs, ensures that you have a reliable online presence, and optimizes your website for effective customer targeting, optimum search engine visibility and performance under the hood.
+
+We see far too many under maintained, under-developed websites online; we strongly believe that a website should serve a purpose, and when it comes to an online business, it should
+
+There are no "tricks" or "quick fixes" in the internet game. And for those who think they can trick the system, Google and the other major search engines are good and always getting better at refining their algorithmic processes, including their quality assurance and security measures put in place to prevent against old, out-dated search engine gimmicks.
+
+c  the technical, and continual task of developing and maintaining a website presence in the ever-changing online world.
 
 (Talk a little about the work ethic)Behind what we do is a work ethic of quality, excellence and consistency.
 
@@ -81,14 +100,22 @@ Working with me is a savings in time and money because I can quickly get to the 
 Peak Creative Website Services is located in beautiful Victoria, British Columbia, Canada.
 
 #FAQ
-Begin to build a list of FAQs.
+Begin to build a list of FAQs. This FAQ might appear on a sales page or around a call to action to help to put the sale over the top.
+	[DryFive FAQ](http://www.dryfive.com/website-packages)
+	[ZenZero](http://zerozendesign.com/website-packages/)
+		* how many pages are included?
+		* Can I update my own website? How do updates work?
+		* What about hosting and domains?
+		* Added functionality like E-Commerce/CMS?
+		* Will my website work on phones and tablets?
+		* Can you work with existing websites?
 	ex:
 	* How will my website be maintained?
 	* What does a Service Plan look like?
 
 ### Secondary Selling Points
 * Easy to Maintain/Client Ownership
-* Personal Relationship
+* Personal Relationship (this should speak to quality of service)
 	When you work with me, you get much more than just a website. You get an ally and a friend. You get a professional web services provider that cares about the performance and success of your online business. We understand that personal a business can be, and that, in many ways, it's an extension of yourself. We appreciate and respect that. That's why when you work with Peak, you get the integrity and trust, bla bla bla...
 * We Go the Extra Mile/Satisfactied Customers
 	While the success of your online business is paramount to why we do what we do, at the end of the day, it's all about having happy, satisfied clients. We take pride in going the extra mile so you feel good about your investment in us and about your online business.
@@ -114,9 +141,13 @@ Here we would discuss our approach to our work for our clients.
 * Unlimited Support.
 * Domain Name Registration/Hosting Caretaking
 
+#Website Creation Service
+When setting off for the online world, employing a professional to act as guide as you navigate your way up the rock face will ensure a higher level of success than going it alone. Whatever your website requirement, Peak Creative Website Services will lead you to the solution, and if we can't, you'll have already received a free consultation?
+
 #Website Maintenance Service/The Website LifeCycle
 	Websites don't live in a vacuum. Just like most things, they need to be *maintained*. As technology evolves, one must keep a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
-	Peak Maintenance Service
+	Peak Maintenance Service includes:
+	* website analytics tracking
 
 #Website Optimization
 	Anyone who's serious and committed about their online business strives to increase the impact their time and money has towards having their website working *for them*. Search Engine Optimization, or SEO, as it's referred to more commonly in industry, is the ongoing process of remaining relevant and consistently connecting in the search results to your online target audience. That's how you get your online business working FOR you.
@@ -125,6 +156,13 @@ Here we would discuss our approach to our work for our clients.
 	We begin by getting a broad sense of your particular market climate, the competition, and any unique opportunities and potential that becomes apparent through our research efforts. We also get a clear feel of the current health of your web presence in light of your competitors and your desired goal.
 	Not only do we oversee the journey, we also provide our clients with valuable and clarifying reports and projections surrounding the health and visibility of your website.
 	When it comes to SEO, strong planning and patience is rewarded. Fortunately for us, those are two of our strong suits. Allow us to guide your online business to acheive for your website optimal visibility for your key audience and begin to fulfill your online business goals.
+	website opt. services include:
+	* Link-Building Activities
+	* Ensuring crawls and SEO health
+	* AdWords Campaigns
+	* Local SEO
+	* Citations
+	* Reviews
 
 ### SEO E-Book
 Keep in your back pocket the idea of creating and selling an SEO E-Book.
@@ -134,6 +172,7 @@ Keep in your back pocket the idea of creating and selling an SEO E-Book.
 
 #### Future SEO Strategy Ideas
 - Post Answers on Q & A sites that my customer base might use
+	* [AllExperts](http://www.allexperts.com/)
 - Get/Achieve/Elicit Reviews on Google+, Yelp, any other industry or related review SoundsBites
 - Social Media Ads
 - Local SEO (or regional based on Keywords)[ Google+ Local, Bing Places, Yelp for listing your business ]
@@ -144,7 +183,9 @@ Keep in your back pocket the idea of creating and selling an SEO E-Book.
 - Google+
 - Business Cards with QR code
 - LinkedIn Forums (choice)
-* Future Package: Website MakeOver Package"
+* Future Package: Website MakeOver Package
+* Digital Marketing Services
+
 
 ### List of Immediate and Broad competitors
 SeriouslyCreative.ca
@@ -163,3 +204,6 @@ I saw a survey example somewhere that was quite effective but also provided the 
 
 ### Newsletter
 Is it worth my while getting visitors/clients to sign up for something?
+
+## Checkout
+Have a good check-out process should someone perform a transaction on my site.
