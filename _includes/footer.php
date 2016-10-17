@@ -21,15 +21,15 @@
 			</form>
 		</article>
 		<article id="mission-statement">
-			<h4>Mission Statement</h4>
+			<h3>Peak Website Services</h3>
 			<p>
-				Our goal is to provide our clients with safe, regulated, and beautiful signage. We will guide you through the process step by step so you can have peace of mind that you are getting the job done right.
+				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
 			</p>
 		</article>
 
 	<!-- </div> -->
 	<div class="copyright">
-		<span>Copyright &copy; <?php echo date("Y"); ?> Triad Sign LLC.</span>
+		<span>Copyright &copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 	</div>
 </footer>
 
