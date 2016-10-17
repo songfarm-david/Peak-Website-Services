@@ -8,23 +8,15 @@ body {
 	color: #000;
 	background-color: #fff;
 }
-
-.container {
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	@media (@sm-query) {
-		width: 100% / @first-modular;
-	}
-}
 html {
 	font-size: @base-size-px;
-	min-width: @min-width-px;
 }
 body {
-	line-height: @line-height;
 	font: @body-font;
 	font-size: @base-size-em;
+}
+.container {
+	min-width: @min-width-px;
 }
 /* type & text */
 h1,
@@ -38,6 +30,9 @@ p {
 	margin: 1.2rem 0 0.5rem;
 	line-height: 1.5;
 	.font-size(0);
+}
+a {
+	text-transform: capitalize;
 }
 h4 {
 	.font-size(1);
@@ -63,9 +58,12 @@ small {
 }
 /* links */
 a {
+	color: #000;
+}
+/* make links display as block and have a top margin - for call-to-action type links */
+.cta-links {
 	display: block;
 	margin-top: unit(@first-modular, rem);
-	color: #000;
 }
 a:active,
 a:hover {

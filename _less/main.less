@@ -16,7 +16,6 @@
 html {
 	background-color: #fff;
 	body {
-		max-width: @page-width-rem;
 		margin: 0 auto;
 		background: #eee;
 		display: flex;
@@ -33,7 +32,7 @@ html {
 	}
 }
 
-header#prime-header {
+header {
 	position: relative;
 	background-color: white;
 	>div {
@@ -44,8 +43,7 @@ header#prime-header {
 
 nav {
 	color: #000;
-	// font-size: 75%;
-	height: 100%;
+	.border;
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
@@ -53,12 +51,14 @@ nav {
 		justify-content: flex-end;
 		flex-wrap: wrap;
 		text-align: center;
+		.border(green);
 		li {
 			flex: 0 0 auto;
+			.border(purple);
 			a {
 				display: block;
-				height: 100%;
 				padding: .5rem 1rem;
+				.border(black);
 			}
 		}
 	}
@@ -66,9 +66,9 @@ nav {
 		.navbar-header {
 			display: none;
 		}
-		.collapse {
-			display: block;
-		}
+		// .collapse {
+		// 	display: block;
+		// }
 		li {
 			margin: @1-rem/@second-modular 0;
 			&:hover a {
