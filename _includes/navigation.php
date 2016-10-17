@@ -1,25 +1,27 @@
 <nav class="navbar">
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="" data-target=".main-nav">
-      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+		<button type="button" class="navbar-toggle" data-toggle="" data-target="#primary-nav">
+      <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
     </button>
 	</div>
-	<div class="collapse navbar-collapse main-nav">
+	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="about-us.php">About Us</a></li>
-			<li><a href="what-we-do.php">What We Do</a></li>
+			<li><a href="mission-statement.php">Mission Statement</a></li>
 			<li class="dropdown-btn">
-				<a href="types-of-signs.php" data-toggle="" data-target=".sub-nav-collapse-1">Types of Signs</a>
-				<div class="collapse navbar-collapse sub-nav-collapse-1">
+				<a href="website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
+				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
-						<li><a href="about-us.php">Sign Type A</a></li>
-						<li><a href="about-us.php">Sign Type B</a></li>
-						<li><a href="about-us.php">Sign Type C</a></li>
-						<li><a href="about-us.php">Sign Type D</a></li>
+						<li><a href="website-services/website-creation-services.php">Website Creation Services</a></li>
+						<li><a href="website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
+						<li><a href="website-services/website-optimization-services.php">Website Optimization Services</a></li>
 					</ul>
 				</div>
 			</li>
+			<li><a href="what-we-do.php">Portfolio</a></li>
 			<li><a href="contact-us.php">Contact Us</a></li>
+			<li><a href="#">FREE Website Assessment</a></li>
 		</ul>
 	</div>
 </nav>
