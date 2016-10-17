@@ -1,5 +1,9 @@
 # PEAK
 
+<p>
+	Creation. Maintenance. Optimization.
+</p>
+
 ###General Notes:
 Stress the importance of having an effective online business in today's day and age.
 Google Analytics
@@ -224,3 +228,9 @@ Is it worth my while getting visitors/clients to sign up for something?
 Have a good check-out process should someone perform a transaction on my site.
 
 [BrandId](https://thebrandidthemes.com/) sells website templates from their website!
+
+
+
+From new custom designed websites or remodelling your existing one to personal branding and corporate branding creation services, <a href="">web development and maintenance services</a>, and website optimization services to maximize your search engine visibility and improve your targeted traffic.
+
+We are the complete solution to your online business.
