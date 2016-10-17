@@ -2,16 +2,21 @@
 
 		<main>
 
-			<a href="#">
-				Leave the technical work of building and maintaining your website to us.
-			</a>
+			<span>
+				Leave the technical work of building and maintaining a website to us.
+			</span>
 			<p>
-				Peak Website Services is a complete solution to business owners who are not tech-savvy and would rather run their business than worry about code.
+				Peak Website Services is a complete solution to business owners who are not tech-savvy and would rather run their business than worry about writing code.
 			</p>
 			<p>
-				Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online presence and make handling the technical aspects of having an online business a breeze.
+				Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online success and make handling the technical aspects of having an online business a breeze.
 			</p>
-
+			<p>
+				Read more about our Website Services
+			</p>
+			<p>
+				View Pricing
+			</p>
 
 		</main>
 
