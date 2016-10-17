@@ -235,16 +235,20 @@ p {
 a {
   text-transform: capitalize;
 }
-h4 {
+h4,
+.h4 {
   font-size: 1.6rem;
 }
-h3 {
+h3,
+.h3 {
   font-size: 2.6rem;
 }
-h2 {
+h2,
+.h2 {
   font-size: 4.2rem;
 }
-h1 {
+h1,
+.h1 {
   font-size: 6.9rem;
   margin-top: 1.414rem;
 }
@@ -526,13 +530,29 @@ html body main {
   background-color: #ddd;
   height: 100%;
 }
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+header h1.h3 {
+  margin: 0;
+  padding-left: 0.809rem;
+  color: #fff;
+  line-height: 1.618;
+}
 nav {
   color: #fff;
-  background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 1000;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 nav ul {
   padding-left: 0;
@@ -541,32 +561,32 @@ nav ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
   text-align: center;
+  height: 100%;
 }
 nav ul li {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 nav ul li a {
-  display: block;
   padding: .5rem 1rem;
   color: #fff;
+  text-decoration: none;
 }
 @media (min-width: 58.0625rem) {
   nav .navbar-header {
     display: none;
-  }
-  nav li {
-    margin: 1.21654135rem 0;
   }
   nav li:hover a {
     background-color: #730d09;
@@ -586,8 +606,9 @@ nav ul li a {
   background-color: #eee;
   background-image: url(../_images/backgrounds/majestic-peak.jpg);
   background-size: cover;
+  background-position: 50% center;
   position: relative;
-  border: 2px solid #ff0000;
+  padding-top: 61.80469716vh;
 }
 footer {
   position: relative;

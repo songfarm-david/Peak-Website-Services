@@ -32,26 +32,46 @@ html {
 	}
 }
 
+header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	h1.h3 {
+		margin: 0;
+		padding-left: @1-rem/2;
+		color: #fff;
+		line-height: @line-height;
+	}
+}
+
 nav {
 	color: #fff;
-	background-color: transparent;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	right: 0;
 	z-index: 1000;
+	height: 100%;
+	display: flex;
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
 		display: flex;
-		justify-content: flex-end;
-		flex-wrap: wrap;
+		// justify-content: flex-end;
+		// flex-wrap: wrap;
 		text-align: center;
+		height: 100%;
 		li {
-			flex: 0 0 auto;
+			display: flex;
+			// flex: 0 0 auto;
+			flex-direction: column;
+			justify-content: center;
 			a {
-				display: block;
+				// display: block;
 				padding: .5rem 1rem;
 				color: #fff;
+				text-decoration: none;
+				// border-bottom: 2px solid white;
 			}
 		}
 	}
@@ -63,7 +83,7 @@ nav {
 		// 	display: block;
 		// }
 		li {
-			margin: @1-rem/@second-modular 0;
+			// margin: @1-rem/@second-modular 0;
 			&:hover a {
 				background-color: @hero-color;
 			}
@@ -85,8 +105,9 @@ nav {
 	background-color: #eee;
 	background-image: url(../_images/backgrounds/majestic-peak.jpg);
 	background-size: cover;
+	background-position: 50% center;
 	position: relative;
-	.border();
+	padding-top: 100vh / @line-height;
 }
 //
 // main {
