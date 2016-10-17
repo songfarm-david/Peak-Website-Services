@@ -5,22 +5,16 @@
 <section>
 	<h2>Do I need a website if I do business online?</h2>
 	<p>
-		If you do business online, or plan on having your own online business, having a website is essential to your online success. Apart from representing your business online, a website is where site visitors have an opportunity to become paying customers.
+		If you do business online, or plan on having your own online business, having a website is essential to your online success. Besides representing your business online, a website is where site visitors have an opportunity to become paying customers.
 	</p>
 	<p>
-		The sad fact, however, is that too many websites today make converting visitors harder than it needs to be and what might have started off as paying customer for your business is now one for your <u>competitors</u>.
+		The unfortunate fact, however, is that too many websites today make converting visitors harder than it needs to be and what might have started off as paying customer for your business is now one for your <u>competitors</u>.
 	</p>
-	<!-- <p>
-		So why do so many websites fail to convert potential leads into loyal customers? And whats the difference between an effective website &mdash; one that works <em>for</em> you &mdash; and a not-so-effective one?
-	</p> -->
-	<!-- <p>
-		Peak Creative believes that a website should serve a clear purpose and it is that purpose that should guide and inform what everything that goes into the site. From the content on the page to the presentation of the words and images, everything on the page serves to benefit your business and fulfill the purpose of your website.
-	</p> -->
 	<p>
 		Peak Creative is different. We think a website should serve a clear purpose, and that that purpose should guide and inform everything else. Every project begins by first understanding the goal of the project. That is step one of the <a href="">website creation process</a>.
 	</p>
 	<p>
-		From there... 
+		From there...
 	</p>
 	<blockquote cite="http://">
 		"The purpose of having a website is to convert site visitors into paying customers" (can search 'what is the purpose of having a website or smthg')
@@ -29,7 +23,7 @@
 		We know first hand what goes into creating a website and getting it off the ground. From content writing and brand creation to website hosting and maintenance services, Peak Creative gives you everything you need to create, establish, and maintain a purposeful and effective web presence online.
 	</p>
 	<p>
-		Find out how affordable it is to Create a Website for your business (to pricing)?
+		Find out how affordable it is to Create a Website for your business with Peak Website Services (to pricing)?
 	</p>
 	<h2>What else is included in the Website Creation Service</h2>
 </section>
