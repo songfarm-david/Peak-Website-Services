@@ -19,7 +19,7 @@
 				<p>
 					Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
 				</p>
-				<a href="#">Read more</a>
+				<a href="#" class="cta-link">Read more</a>
 			</article>
 			<!-- slide 2 -->
 			<article class="slide">
@@ -27,7 +27,7 @@
 				<p>
 					Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer sugar plum tiramisu wafer donut. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
 				</p>
-				<a href="#">Read more</a>
+				<a href="#" class="cta-link">Read more</a>
 			</article>
 			<!-- slide 3 -->
 			<article class="slide">
@@ -35,7 +35,7 @@
 				<p>
 					Bear claw sweet roll sugar plum jelly-o gingerbread lollipop sweet chocolate. Candy canes gingerbread croissant. Carrot cake cake ice cream cotton candy marzipan chocolate bar pastry tootsie roll sesame snaps.
 				</p>
-				<a href="#">Read more</a>
+				<a href="#" class="cta-link">Read more</a>
 			</article>
 		</div>
 		<!-- end of carousel slider -->	</section>
@@ -49,7 +49,7 @@
 		<p>
 			Muffin tart chocolate bar ice cream. Pastry biscuit marshmallow chocolate cake tiramisu powder marshmallow ice cream muffin. Candy lollipop I love liquorice halvah candy. I love marzipan topping sesame snaps gummi bears I love candy canes I love. Dragée bonbon jelly tootsie roll jelly-o.
 		</p>
-		<a href="#">Read more</a>
+		<a href="#" class="cta-link">Read more</a>
 		<!-- about video -->
 		<div id="about-video">
 			<!-- demo video here -->
@@ -66,25 +66,23 @@
 			<p>
 				Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
 			</p>
-			<a href="#">Read more</a>
+			<a href="#" class="cta-link">Read more</a>
 		</section>
-
 		<!-- service 2 -->
 		<section>
 			<h3>Service 1</h3>
 			<p>
 				Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
 			</p>
-			<a href="#">Read more</a>
+			<a href="#" class="cta-link">Read more</a>
 		</section>
-
 		<!-- service 3 -->
 		<section>
 			<h3>Service 1</h3>
 			<p>
 				Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
 			</p>
-			<a href="#">Read more</a>
+			<a href="#" class="cta-link">Read more</a>
 		</section>
 
 	</section>
