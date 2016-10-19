@@ -1,45 +1,115 @@
 <?php require_once('_includes/header.php') ?>
 
+<!-- main site header -->
+<h1 class="hide">Hollis Wealth</h1>
+
 <header>
 	<!-- Logo Here -->
 	<?php include_once('_includes/navigation.php') ?>
 </header>
 
-	<!-- carousel slider here -->
-	<div id="carousel-slider">
+	<section>
+		<h2>Highlights</h2>
+		<!-- carousel slider here -->
+		<div id="carousel-slider">
+			<!-- slide 1 -->
+			<article>
+				<h3>Specialist, client-focused Financial Advisors</h3>
+				<p>
+					Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
+				</p>
+				<a href="#">Read more</a>
+			</article>
+			<!-- slide 2 -->
+			<article>
+				<h3>A disciplined investment process that is personalized to your needs</h3>
+				<p>
+					Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer sugar plum tiramisu wafer donut. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
+				</p>
+				<a href="#">Read more</a>
+			</article>
+			<!-- slide 3 -->
+			<article>
+				<h3>Portfolio Management supported by rigorous research</h3>
+				<p>
+					Bear claw sweet roll sugar plum jelly-o gingerbread lollipop sweet chocolate. Candy canes gingerbread croissant. Carrot cake cake ice cream cotton candy marzipan chocolate bar pastry tootsie roll sesame snaps.
+				</p>
+				<a href="#">Read more</a>
+			</article>
+		</div>
+		<!-- end of carousel slider -->	</section>
 
-		<article>
-			<h3>Put Your Business On Top</h3>
+
+	<!-- about -->
+	<section id="about">
+		<h2>About</h2>
+		<p>
+			Gummies marzipan lemon drops jelly. Caramels tart chupa chups I love tart marshmallow gummi bears croissant jujubes. Tiramisu gummi bears sugar plum bonbon. Chocolate halvah toffee I love danish. I love I love marshmallow ice cream topping dessert caramels gummies.
+		</p>
+		<p>
+			Muffin tart chocolate bar ice cream. Pastry biscuit marshmallow chocolate cake tiramisu powder marshmallow ice cream muffin. Candy lollipop I love liquorice halvah candy. I love marzipan topping sesame snaps gummi bears I love candy canes I love. Dragée bonbon jelly tootsie roll jelly-o.
+		</p>
+		<a href="#">Read more</a>
+		<!-- about video -->
+		<div id="about-video">
+			<!-- demo video here -->
+		</div>
+	</section>
+
+	<!-- services -->
+	<section>
+		<h2>Services</h2>
+
+		<!-- service 1 -->
+		<section>
+			<h3>Service 1</h3>
 			<p>
-				You know how important having the <em>right</em> website is to success online.
-				Our professional website developers and designers make online success an affordable reality.
-				<a href="../about.php">Read more</a>
+				Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
 			</p>
-			<a href="#">See website services</a>
-		</article>
-		<article>
-			<h3>Put Your Business On Top</h3>
+			<a href="#">Read more</a>
+		</section>
+
+		<!-- service 2 -->
+		<section>
+			<h3>Service 1</h3>
 			<p>
-				You know how important having the <em>right</em> website is to success online.
-				Our professional website developers and designers make online success an affordable reality.
-				<a href="../about.php">Read more</a>
+				Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
 			</p>
-			<a href="#">See website services</a>
-		</article>
-		<article>
-			<h3>Put Your Business On Top</h3>
+			<a href="#">Read more</a>
+		</section>
+
+		<!-- service 3 -->
+		<section>
+			<h3>Service 1</h3>
 			<p>
-				You know how important having the <em>right</em> website is to success online.
-				Our professional website developers and designers make online success an affordable reality.
-				<a href="../about.php">Read more</a>
+				Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
 			</p>
-			<a href="#">See website services</a>
-		</article>
+			<a href="#">Read more</a>
+		</section>
 
-	</div>
-	<!-- end of carousel slider -->
+	</section>
 
+	<!-- Market Insights -->
+	<section>
+		<h2>Market Insights</h2>
+		<!-- insight 1 -->
+		<div class="">
+			<img src="" alt="" />
+			<h3>Title Here</h3>
+			<p>
+				Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
+			</p>
+		</div>
+		<!-- insight 2 -->
+		<div class="">
+			<img src="" alt="" />
+			<h3>Title Here</h3>
+			<p>
+				Cheesecake cake topping I love cupcake. Danish I love apple pie. Cake cake I love pudding jelly beans jelly-o.
+			</p>
+		</div>
 
+	</section>
 
 	<!-- footer -->
 	<footer>
