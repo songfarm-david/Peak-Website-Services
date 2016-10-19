@@ -14,29 +14,30 @@
 @import 'helper';
 
 html {
-	background-color: #fff;
+	background-color: #eef;
 	body {
+		width: @page-width-rem;
 		margin: 0 auto;
-		background: #eee;
+		background: #fff;
 		// display: flex;
 		// flex-direction: column;
-		height: 100%;
+		// height: 100%;
 		// header, footer {
 		// 	flex: 0 0 auto;
 		// }
 		main {
 			flex: 1 1 0px;
 			background-color: #ddd;
-			height: 100%;
+			// height: 100%;
 		}
 	}
 }
 
 header {
-	position: fixed;
-	top: 0;
-	z-index: 999;
-	width: 100%;
+	// position: fixed;
+	// top: 0;
+	// z-index: 999;
+	// width: 100%;
 	h1.h3 {
 		margin: 0;
 		padding-left: @1-rem/2;
@@ -46,11 +47,11 @@ header {
 }
 
 nav {
-	color: #fff;
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: 1000;
+	color: #000;
+	// position: absolute;
+	// top: 0;
+	// right: 0;
+	// z-index: 1000;
 	height: 100%;
 	display: flex;
 	ul {
@@ -60,7 +61,6 @@ nav {
 		// justify-content: flex-end;
 		// flex-wrap: wrap;
 		text-align: center;
-		height: 100%;
 		li {
 			display: flex;
 			// flex: 0 0 auto;
@@ -69,7 +69,7 @@ nav {
 			a {
 				// display: block;
 				padding: .5rem 1rem;
-				color: #fff;
+				color: #000;
 				text-decoration: none;
 				// border-bottom: 2px solid white;
 			}
@@ -149,74 +149,38 @@ nav {
 // 	.base(padding, 0.5);
 // }
 
-
 footer {
-	position: relative;
-	background-color: #e9e9e9;
-	>article {
-		.base(padding, 0.5);
+	#address {
+		span {
+			line-height: @first-modular;
+		}
 	}
 	#mission-statement {
-		width: 50%;
-		h4 {
-			font-family: Arial, sans-serif;
-			margin-top: 0.5rem;
+		>h4 {
+			margin-top: 0;
+			margin-bottom: 0;
 		}
-		p {
+	}
+	#disclaimer {
+		text-align: center;
+		font-size: 90%;
+		>h4 {
+			margin-top: 0;
+			margin-bottom: unit(@second-modular, rem) / 2;
 			line-height: @second-modular;
 		}
-	}
-	#newsletter {
-		width: 61%;
-		h3 {
-			font-family: Arial, sans-serif;
-		}
-		form {
-			width: 61%;
-			fieldset {
-				border-radius: 2px;
-			}
-			input {
-				padding-left: @1-rem / @first-modular;
-			}
-			div.container-newsletter {
-				display: flex;
-				button {
-					flex: 0 0 auto;
-					padding: 0.75rem;
-					margin: 0;
-					>span.fa {
-						margin: 0;
-					}
-				}
-			}
-		}
-		h3 {
-			.font-size(@first-modular);
+		small {
+			margin-top: unit(@first-modular, em);
+			font-style: italic; // NOTE: import italic font here
 		}
 	}
-	#contact-info {
-		float: right;
-		width: 38%;
-		h3 {
-			.font-size(1);
-			font-weight: normal;
-			background-color: #ccc;
-			padding: 0.25em;
-		}
-		ul {
-			padding-left: 0.5rem;
-			li {
-				padding: 0.38rem 0;
-			}
-		}
-	}
-	.copyright {
+	#copyright {
 		text-align: center;
-		font-size: 61%;
-		padding: 0.5rem 0 0.5rem;
-
-		background-color: darken(#e9e9e9, 15%);
+		padding-top: 0;
+		padding-bottom: @4-rem;
+		small {
+			line-height: 0;
+		}
 	}
 }
 
