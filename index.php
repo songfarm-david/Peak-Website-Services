@@ -57,54 +57,69 @@
 	</section>
 
 	<!-- Services -->
-	<section>
+	<section id="services">
 		<h2>Services</h2>
+		<div class="row">
+			<div class="col col-4">
+				<!-- service 1 -->
+				<section>
+					<img src="_images/kayaking-victoria.jpg" alt="" />
+					<h3>Service 1</h3>
+					<p>
+						Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
+					</p>
+					<a href="#" class="cta-link">Read more</a>
+				</section>
+			</div>
+			<div class="col col-4">
+				<!-- service 2 -->
+				<section>
+					<img src="_images/features/tofino.jpg" alt="" height="250" />
+					<h3>Service 1</h3>
+					<p>
+						Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
+					</p>
+					<a href="#" class="cta-link">Read more</a>
+				</section>
+			</div>
+			<div class="col col-4">
+				<!-- service 3 -->
+				<section>
+					<img src="_images/bayview-place.jpg" alt="" height="250" />
+					<h3>Service 1</h3>
+					<p>
+						Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
+					</p>
+					<a href="#" class="cta-link">Read more</a>
+				</section>
+			</div>
+		</div>
 
-		<!-- service 1 -->
-		<section>
-			<h3>Service 1</h3>
-			<p>
-				Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
-			</p>
-			<a href="#" class="cta-link">Read more</a>
-		</section>
-		<!-- service 2 -->
-		<section>
-			<h3>Service 1</h3>
-			<p>
-				Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
-			</p>
-			<a href="#" class="cta-link">Read more</a>
-		</section>
-		<!-- service 3 -->
-		<section>
-			<h3>Service 1</h3>
-			<p>
-				Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
-			</p>
-			<a href="#" class="cta-link">Read more</a>
-		</section>
 
 	</section>
 
 	<!-- Market Insights -->
 	<section>
 		<h2>Market Insights</h2>
-		<!-- insight 1 -->
-		<div class="">
-			<img src="" alt="" />
-			<h3>Title Here</h3>
-			<p>
-				Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
-			</p>
-		</div>
-		<!-- insight 2 -->
-		<div class="">
-			<img src="" alt="" />
-			<h3>Title Here</h3>
-			<p>
-				Cheesecake cake topping I love cupcake. Danish I love apple pie. Cake cake I love pudding jelly beans jelly-o.
-			</p>
+		<div class="row">
+			<!-- insight 1 -->
+			<div class="col col-6">
+				<img src="" alt="" />
+				<h3>Title Here</h3>
+				<p>
+					Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
+				</p>
+				<a href="#" class="cta-link">Read more</a>
+			</div>
+			<!-- insight 2 -->
+			<div class="col col-6">
+				<img src="" alt="" />
+				<h3>Title Here</h3>
+				<p>
+					Cheesecake cake topping I love cupcake. Danish I love apple pie. Cake cake I love pudding jelly beans jelly-o.
+				</p>
+				<a href="#" class="cta-link">Read more</a>
+			</div>
 		</div>
 
 	</section>
@@ -150,7 +165,6 @@
 				</section>
 			</div>
 		</div>
-
 
 		<!-- copyright -->
 		<section id="copyright">
