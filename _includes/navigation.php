@@ -1,4 +1,5 @@
 <nav class="navbar">
+	<h2 class="hide">Navigation</h2>
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="" data-target="#primary-nav">
       <span class="icon-bar"></span>
