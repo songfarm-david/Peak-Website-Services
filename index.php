@@ -63,7 +63,7 @@
 			<div class="col col-4">
 				<!-- service 1 -->
 				<section>
-					<img src="_images/kayaking-victoria.jpg" alt="" />
+					<img src="_images/kayaking-victoria.jpg" alt="" height="284" />
 					<h3>Service 1</h3>
 					<p>
 						Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
@@ -74,7 +74,7 @@
 			<div class="col col-4">
 				<!-- service 2 -->
 				<section>
-					<img src="_images/features/tofino.jpg" alt="" height="250" />
+					<img src="_images/tofino.jpg" alt="" height="284" />
 					<h3>Service 1</h3>
 					<p>
 						Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
@@ -85,7 +85,7 @@
 			<div class="col col-4">
 				<!-- service 3 -->
 				<section>
-					<img src="_images/bayview-place.jpg" alt="" height="250" />
+					<img src="_images/bayview-place.jpg" alt="" height="284" />
 					<h3>Service 1</h3>
 					<p>
 						Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
@@ -104,7 +104,7 @@
 		<div class="row">
 			<!-- insight 1 -->
 			<div class="col col-6">
-				<img src="" alt="" />
+				<img src="_images/getaway.jpg" alt="" height="400"/>
 				<h3>Title Here</h3>
 				<p>
 					Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
@@ -113,7 +113,7 @@
 			</div>
 			<!-- insight 2 -->
 			<div class="col col-6">
-				<img src="" alt="" />
+				<img src="_images/scuba.jpg" alt="" height="400"/>
 				<h3>Title Here</h3>
 				<p>
 					Cheesecake cake topping I love cupcake. Danish I love apple pie. Cake cake I love pudding jelly beans jelly-o.
@@ -133,8 +133,8 @@
 				<section id="address">
 					<h4 class="hide">Address and Contact Information</h4>
 					<div id="address-container">
-						<span class="address">P.O Box V5N 1P9</span>
-						<span class="address">123 Granville Street, Suite 700</span>
+						<span class="address">P.O Box V5N 1P9</span><br>
+						<span class="address">123 Granville Street, Suite 700</span><br>
 						<span class="address">Victoria, BC V7Y 1G5</span>
 						<!-- phone contact -->
 						<p>
