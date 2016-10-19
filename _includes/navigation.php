@@ -9,20 +9,20 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="mission-statement.php">Mission Statement</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
 			<li class="dropdown-btn">
-				<a href="website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
+				<a href="#" data-target="#sub-menu-1" data-toggle="">Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
-						<li><a href="website-services/website-creation-services.php">Website Creation Services</a></li>
-						<li><a href="website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
-						<li><a href="website-services/website-optimization-services.php">Website Optimization Services</a></li>
+						<li><a href="#">Service 1</a></li>
+						<li><a href="#">Service 2</a></li>
+						<li><a href="#">Service 3</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a href="what-we-do.php">Portfolio</a></li>
-			<li><a href="contact-us.php">Contact Us</a></li>
-			<li><a href="#">FREE Website Assessment</a></li>
+			<li><a href="what-we-do.php">Insights</a></li>
+			<li><a href="contact-us.php">Contact</a></li>
 		</ul>
 	</div>
 </nav>
