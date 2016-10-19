@@ -3,7 +3,7 @@
 // Modular Scales
 // (meaningfully) chosen space-to-relationship definitions
 @first-modular: 1.416;
-@second-modular: 1.33;
+@second-modular: 1.2;
 
 // Grid Variables
 @grid-columns: 12;
@@ -33,3 +33,7 @@
 // NOTE: write a base rem sizing function
 @1-rem: unit(@first-modular, rem);
 @1-rem-s: unit(@second-modular, rem);
+
+@2-rem: unit(@first-modular, rem) * 2;
+@3-rem: unit(@first-modular, rem) * 3;
+@4-rem: unit(@first-modular, rem) * 4;

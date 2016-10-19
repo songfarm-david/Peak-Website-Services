@@ -2,10 +2,11 @@
 * GRID STYLES
 */
 .row {
-	padding: @grid-padding; // @grid-padding;
+	// padding: @grid-padding; // @grid-padding;
 	clear: both;
 	height: auto;
 	margin: 0;
+	padding: 0;
 }
 .row:before,
 .row:after {
@@ -21,40 +22,41 @@
 .col {
 	box-sizing: border-box;
 	display: block;
-	float:left;
-	margin-right: 1.414%;
-	margin-bottom: 1.414%;
+	float: left;
+	margin-left: unit(@first-modular, %);
+	margin-top: unit(@first-modular, %);
+	margin-bottom: unit(@first-modular, %);
 	height: 100%;
 }
 .col:last-child {
-	margin-right: 0;
+	margin-right: unit(@first-modular, %);
 }
-.span-1,
-.span-2,
-.span-3,
-.span-4,
-.span-5,
-.span-6,
-.span-7,
-.span-8,
-.span-9,
-.span-10,
-.span-11,
-.span-12 {
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
 	width: 100%;
 	box-sizing: border-box;
 }
 
 // go full-width at specified breakpoint
 @media (@sm-query) {
-	.col {
-		margin-bottom: 0;
-	}
+	// .col {
+	// 	margin-bottom: 0;
+	// }
 	// generate grid with allowance given for
 	.create-grid(@i: 1) when (@i =< @grid-columns) {
 		@each: (@i / @grid-columns) * 100%;
-		.span-@{i} {
-			width: @each - @line-height;
+		.col-@{i} {
+			width: @each - (unit(@first-modular, %) + .8);
 		}
 		.create-grid(@i + 1);
 	}
