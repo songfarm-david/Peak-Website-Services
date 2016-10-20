@@ -89,6 +89,13 @@ header#site-header {
 				}
 			}
 		}
+		a {
+			transition: color 100ms ease-in;
+			&:hover {
+				color: @hero-color-alt;
+				text-decoration: underline;
+			}
+		}
 	}
 }
 
@@ -225,3 +232,11 @@ footer {
 @import 'plugins/collapse';
 @import 'plugins/carousel';
 // @import 'pages.less';
+.carousel-indicators {
+	li {
+		border-color: #ccc;
+	}
+	li.active {
+		background-color: @hero-color-alt;
+	}
+}
