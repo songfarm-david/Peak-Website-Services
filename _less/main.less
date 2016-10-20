@@ -135,8 +135,13 @@ footer {
 			line-height: @second-modular;
 		}
 		small {
+			display: block;
 			margin-top: unit(@first-modular, em);
 			font-style: italic; // NOTE: import italic font here
+			transition: font-size 0.5s ease;
+			&:hover {
+				font-size: 100%;
+			}
 		}
 	}
 	#copyright {
