@@ -43,17 +43,27 @@
 	<!-- About -->
 	<section id="about">
 		<h2>About</h2>
-		<p>
-			Gummies marzipan lemon drops jelly. Caramels tart chupa chups I love tart marshmallow gummi bears croissant jujubes. Tiramisu gummi bears sugar plum bonbon. Chocolate halvah toffee I love danish. I love I love marshmallow ice cream topping dessert caramels gummies.
-		</p>
-		<p>
-			Muffin tart chocolate bar ice cream. Pastry biscuit marshmallow chocolate cake tiramisu powder marshmallow ice cream muffin. Candy lollipop I love liquorice halvah candy. I love marzipan topping sesame snaps gummi bears I love candy canes I love. Dragée bonbon jelly tootsie roll jelly-o.
-		</p>
-		<a href="#" class="cta-link">Read more</a>
-		<!-- about video -->
-		<div id="about-video">
-			<!-- demo video here -->
+		<div class="row">
+			<div class="col col-5">
+				<p>
+					Gummies marzipan lemon drops jelly. Caramels tart chupa chups I love tart marshmallow gummi bears croissant jujubes. Tiramisu gummi bears sugar plum bonbon. Chocolate halvah toffee I love danish. I love I love marshmallow ice cream topping dessert caramels gummies.
+				</p>
+				<p>
+					Muffin tart chocolate bar ice cream. Pastry biscuit marshmallow chocolate cake tiramisu powder marshmallow ice cream muffin. Candy lollipop I love liquorice halvah candy. I love marzipan topping sesame snaps gummi bears I love candy canes I love. Dragée bonbon jelly tootsie roll jelly-o.
+				</p>
+				<a href="#" class="cta-link">Read more</a>
+			</div>
+			<!-- About Video -->
+			<div class="col col-7">
+				<div id="about-video">
+					<!-- demo video here -->
+				</div>
+			</div>
 		</div>
+
+
+
+
 	</section>
 
 	<!-- Services -->
@@ -127,7 +137,7 @@
 	<!-- Footer -->
 	<footer>
 
-		<!-- address -->
+		<!-- Address -->
 		<div class="row">
 			<div class="col col-4">
 				<section id="address">
