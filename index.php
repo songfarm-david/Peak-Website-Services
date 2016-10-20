@@ -30,7 +30,7 @@
 			<article class="slide">
 				<h3 class="h1">Specialist, client-focused<br> Financial Advisors</h3>
 				<p>
-					Our Financial Advice combines market leading financial solutions from all of the highest quality  financial institutions in Australia. When combined with our client focused, service driven support this produces the highest standard of financial solutions for our clients.
+					Our Financial Advice combines market leading financial solutions from all of the highest quality  financial institutions. This produces the highest standard of financial solutions for our clients.
 				</p>
 				<a href="#" class="cta-link">Click here for Forward-Thinking</a>
 			</article>
@@ -121,7 +121,7 @@
 		<div class="row">
 			<!-- insight 1 -->
 			<div class="col col-6">
-				<img src="_images/quarterly-solar-power.jpg" alt="" height="400"/>
+				<img src="_images/graph.jpg" alt="" height="400"/>
 				<h3>Title Here</h3>
 				<p>
 					Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
@@ -152,7 +152,7 @@
 						<span class="address">123 Granville Street, Suite 700</span><br>
 						<span class="address">Victoria, BC V7Y 1G5</span><br>
 						<!-- phone contact -->
-						<span><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
+						<span class="phone"><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
 
 						<!-- <p>
 

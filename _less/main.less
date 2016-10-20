@@ -112,7 +112,7 @@ header#site-header {
 		.slide {
 			text-align: center;
 			height: 100%;
-			padding-top: @4-rem * @first-modular;
+			padding-top: @3-rem * @first-modular;
 			background-color: #eee;
 			background-size: cover;
 			h3 {
@@ -172,15 +172,21 @@ footer {
 				a {
 					display: block;
 					padding: 0.25rem;
+					color: @hero-color;
 				}
 			}
 		}
 	}
 	#address {
 		>#address-container {
+			position: relative;
 			margin-top: 1.2rem;
 			span {
 				line-height: @line-height;
+				margin-top: 1.2rem;
+			}
+			.fa {
+				top: 2px;
 			}
 		}
 	}
