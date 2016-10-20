@@ -16,7 +16,7 @@ h1,
 h2,
 h3,
 h4 {
-	font: @header-font;
+	font: @header-font-b;
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 }
 p {
@@ -27,6 +27,9 @@ p {
 a {
 	text-transform: capitalize;
 	color: @hero-color;
+}
+h5 {
+	// font-size: 75%;
 }
 h4,
 .h4 {
@@ -51,7 +54,8 @@ h1,
 	line-height: @second-modular;
 	letter-spacing: 1px;
 }
-small {
+small,
+.small {
 	font-size: 75%;
 	line-height: @line-height;
 }
@@ -64,6 +68,7 @@ section {
 	>h4, >h3 {
 		margin-top: 0;
 		margin-bottom: 0;
+		font-weight: 300;
 	}
 	img {
 		width: 100%;
@@ -75,7 +80,7 @@ section {
 		padding: 0;
 	}
 	p {
-		font: @header-font;
+		line-height: @line-height;
 	}
 }
 

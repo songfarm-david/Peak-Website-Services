@@ -190,7 +190,7 @@
 		<div class="row">
 			<div class="col col-12">
 				<section id="disclaimer">
-					<h4 class="small">Disclaimer</h4>
+					<h5>Disclaimer</h5>
 					<small>
 						Jelly beans ice cream powder carrot cake topping I love danish. Chocolate I love liquorice candy sweet roll sesame snaps. Wafer lollipop jelly beans donut I love chocolate cake cake marzipan. Biscuit danish pudding apple pie halvah danish marshmallow apple pie bonbon. Bonbon biscuit lollipop tart sesame snaps lollipop tart jelly beans. Gingerbread jelly fruitcake powder wafer dessert I love. Lemon drops liquorice jelly. Tart cake bear claw. Sweet roll oat cake sweet I love dragée I love sugar plum I love pudding. Lemon drops wafer pastry gummies ice cream wafer soufflé oat cake marzipan.
 					</small>
@@ -199,7 +199,7 @@
 		</div>
 		<!-- Copyright -->
 		<section id="copyright">
-			<h4 class="hide">Copyright</h4>
+			<h5 class="hide">Copyright</h5>
 			<small>&copy; <?php echo date("Y"); ?> Hollis Wealth</small>
 		</section>
 
