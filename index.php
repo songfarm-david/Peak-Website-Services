@@ -26,12 +26,12 @@
 		<h2 class="hide">Highlights</h2>
 
 		<!-- carousel slider here -->
-		<div id="carousel-slider" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="3250">
+		<div id="carousel-slider" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="6500">
 
 			<div class="carousel-inner" role="listbox">
 
 				<!-- slide 1 -->
-				<article class="slide">
+				<article class="slide active">
 					<h3 class="h1">Specialist, client-focused<br> Financial Advisors</h3>
 					<p>
 						Our Financial Advice combines market leading financial solutions from all of the highest quality  financial institutions. This produces the highest standard of financial solutions for our clients.
@@ -39,7 +39,7 @@
 					<a href="#" class="cta-link">Click here for Forward-Thinking</a>
 				</article>
 				<!-- slide 2 -->
-				<article class="slide hide">
+				<article class="slide">
 					<h3 class="h1">An investment process personalized to your needs</h3>
 					<p>
 						Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
@@ -47,7 +47,7 @@
 					<a href="#" class="cta-link">Read more</a>
 				</article>
 				<!-- slide 3 -->
-				<article class="slide hide">
+				<article class="slide">
 					<h3 class="h1">Portfolio Management supported by rigorous research</h3>
 					<p>
 						Bear claw sweet roll sugar plum jelly-o gingerbread lollipop sweet chocolate. Candy canes gingerbread croissant. Carrot cake cake ice cream cotton candy marzipan chocolate bar pastry tootsie roll sesame snaps.
