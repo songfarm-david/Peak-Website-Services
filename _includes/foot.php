@@ -6,6 +6,8 @@
 <script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window); || document.write('<script src="_js/vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <script type="javascript" src="_js/vendor/modernizr.js"></script>
+<!-- custom script -->
+<script type="text/javascript" src="_js/script.js"></script>
 <!-- Bootstrap Collapse script -->
 <script type="text/javascript" src="_js/helper/bs-collapse.js"></script>
 <!-- carousel-slider -->

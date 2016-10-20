@@ -1,5 +1,5 @@
 	<?php require_once('_includes/header.php') ?>
-
+	<div id="preloader"></div>
 	<!-- main site header -->
 	<h1 class="hide">Hollis Wealth</h1>
 

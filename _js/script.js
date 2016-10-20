@@ -1,3 +1,7 @@
+(function(){
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+})();
+
 (function($){
 
 	/* NOTE: change this to whatever site root is */
