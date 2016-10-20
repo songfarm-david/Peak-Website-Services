@@ -36,9 +36,9 @@
 			</article>
 			<!-- slide 2 -->
 			<article class="slide hide">
-				<h3 class="h1">A disciplined investment process that is personalized to your needs</h3>
+				<h3 class="h1">An investment process personalized to your needs</h3>
 				<p>
-					Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer sugar plum tiramisu wafer donut. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
+					Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
 				</p>
 				<a href="#" class="cta-link">Read more</a>
 			</article>

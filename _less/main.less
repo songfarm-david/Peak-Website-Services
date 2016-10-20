@@ -19,17 +19,6 @@ html {
 		width: @page-width-rem;
 		margin: 0 auto;
 		background: #fff;
-		// display: flex;
-		// flex-direction: column;
-		// height: 100%;
-		// header, footer {
-		// 	flex: 0 0 auto;
-		// }
-		main {
-			flex: 1 1 0px;
-			background-color: #ddd;
-			// height: 100%;
-		}
 	}
 }
 
@@ -115,6 +104,7 @@ header#site-header {
 			padding-top: @3-rem * @first-modular;
 			background-color: #eee;
 			background-size: cover;
+			background-repeat: no-repeat;
 			h3 {
 				line-height: @second-modular;
 				text-transform: capitalize;
@@ -126,22 +116,29 @@ header#site-header {
 			}
 			p {
 				line-height: @line-height;
-				.font-size(1.2);
+				.font-size(1);
 			}
 			&:nth-child(1) {
 				background-image: url(../_images/features/victoria-island-gully.jpg);
 			}
 			&:nth-child(2) {
-				background-image: url(../_images/features/yoho.jpg);
+				background-image: url(../_images/features/yoho-national-park.jpg);
+				filter:contrast(75%);
 			}
 			&:nth-child(3) {
-				background-image: url(../_images/features/victoria-island-trail.jpg);
-			}
+				background-image: url(../_images/features/villa-eyrie-vancouver-island.jpg);
+				background-position: center 100%;
+		}
 			a {
 				margin-top: @1-rem*@first-modular;
 				color: #fff;
 				.font-size(1.416);
 				font-weight: bold;
+			}
+			h3,
+			p,
+			a {
+				text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 			}
 		}
 	}
