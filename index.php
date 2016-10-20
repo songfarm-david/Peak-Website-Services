@@ -8,7 +8,7 @@
 			<div class="col col-7">
 				<!-- Logo Here -->
 				<div id="logo">
-					<img src="_assets/temp-logo.png" alt="" height="90" />
+					<img class="logo" src="_assets/temp-logo.png" alt="" height="90" />
 				</div>
 			</div>
 			<div class="col col-5">
@@ -87,7 +87,7 @@
 			<div class="col col-6">
 				<div id="about-video">
 					<!-- demo video here -->
-					<img src="_images/partners.jpg" alt="" height="250" />
+					<img class="logo" src="_images/partners.jpg" alt="" height="250" />
 				</div>
 			</div>
 		</div>
