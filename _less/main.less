@@ -15,7 +15,6 @@
 	.font-size(2);
 }
 
-
 @import 'reset';
 @import 'vars';
 @import 'calcs';
@@ -53,19 +52,30 @@ header#site-header {
 		}
 	}
 	div#call-now {
+		color: #fff;
 		position: absolute;
-		top: unit(@first-modular, %);
+		top: unit(@first-modular, %) * 3;
 		right: @1-rem * @second-modular;
-		span {
+		border-radius: 30px;
+		.font-size(.7);
+		a {
 			line-height: @line-height;
+			color: @hero-color;
 		}
 		.fa {
 			position: relative;
 			top: 4px;
 			.font-size(1.1);
 		}
+		&:after {
+			.header-blip;
+			right: unit(@first-modular, %);
+			width: unit((@first-modular * @first-modular), rem);
+		}
 	}
 	nav {
+		position: relative;
+		top: unit(@first-modular, rem) - 1;
 		color: #000;
 		height: 100%;
 		display: flex;
@@ -104,10 +114,10 @@ header#site-header {
 			}
 		}
 		a {
-			transition: color 100ms ease-in;
+			transition: color 50ms ease-in-out;
 			&:hover {
 				color: @hero-color-alt;
-				text-decoration: underline;
+				// text-decoration: underline;
 			}
 		}
 	}
@@ -137,14 +147,13 @@ header#site-header {
 			}
 			p {
 				line-height: @line-height;
-				.font-size(1);
+				.font-size(0.5);
 			}
 			&:nth-child(1) {
 				background-image: url(../_images/features/victoria-island-gully.jpg);
 			}
 			&:nth-child(2) {
 				background-image: url(../_images/features/yoho-national-park.jpg);
-				filter:contrast(75%);
 			}
 			&:nth-child(3) {
 				background-image: url(../_images/features/villa-eyrie-vancouver-island.jpg);
@@ -154,7 +163,7 @@ header#site-header {
 				margin-top: @1-rem*@first-modular;
 				color: #fff;
 				.font-size(1.416);
-				font-weight: bold;
+				// font-weight: bold;
 			}
 			h3,
 			p,
@@ -186,6 +195,8 @@ header#site-header {
 }
 
 footer {
+	background-color: @secondary-color;
+	color: @hero-color;
 	border-top: 1px solid @hero-color;
 	margin-top: @1-rem * @second-modular;
 	h3,
@@ -268,9 +279,10 @@ footer {
 // @import 'pages.less';
 .carousel-indicators {
 	li {
-		border-color: #ccc;
+		border-color: #fff;
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
 	}
 	li.active {
-		background-color: @hero-color-alt;
+		background-color: #fff;
 	}
 }
