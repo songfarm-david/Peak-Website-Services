@@ -14,7 +14,7 @@
 @import 'helper';
 
 html {
-	background-color: #eef;
+	background-color: @background-color;
 	body {
 		width: @page-width-rem;
 		margin: 0 auto;
@@ -33,72 +33,74 @@ html {
 	}
 }
 
-header {
-	// position: fixed;
-	// top: 0;
-	// z-index: 999;
-	// width: 100%;
-	h1.h3 {
-		margin: 0;
-		padding-left: @1-rem/2;
-		color: #fff;
-		line-height: @line-height;
+header#site-header {
+	position: relative;
+	.col {
+		margin-bottom: 0.25rem;
 	}
-}
-
-nav {
-	color: #000;
-	// position: absolute;
-	// top: 0;
-	// right: 0;
-	// z-index: 1000;
-	height: 100%;
-	display: flex;
-	justify-content: flex-end;
-	ul {
-		padding-left: 0; // undo resets
-		margin-bottom: 0; // undo resets
+	div#logo {
+		display: block;
+		background-size: cover;
+		/* custom-fix while temp logo */
+		position: relative;
+		top: -3px;
+		height: 100%;
+		img {
+			width: auto;
+		}
+	}
+	div#call-now {
+		position: absolute;
+		top: unit(@first-modular, %);
+		right: @1-rem * @second-modular;
+		span {
+			line-height: @line-height;
+		}
+		.fa {
+			position: relative;
+			top: 4px;
+			.font-size(1.1);
+		}
+	}
+	nav {
+		color: #000;
+		height: 100%;
 		display: flex;
 		justify-content: flex-end;
-		// flex-wrap: wrap;
-		text-align: center;
-		li {
+		clear: right;
+		margin-top: @1-rem;
+		margin-bottom: 0;
+		ul {
+			padding-left: 0; // undo resets
+			margin-bottom: 0; // undo resets
 			display: flex;
-			// flex: 0 0 auto;
-			flex-direction: column;
-			justify-content: center;
-			a {
-				// display: block;
-				padding: .5rem 1rem;
-				color: #000;
-				text-decoration: none;
-				// border-bottom: 2px solid white;
+			justify-content: flex-end;
+			// flex-wrap: wrap;
+			text-align: center;
+			li {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				a {
+					padding: @1-rem (@1-rem / @first-modular);
+					color: #000;
+					text-decoration: none;
+				}
+			}
+		}
+		@media (@sm-query) {
+			.navbar-header {
+				display: none;
+			}
+			li.dropdown-btn {
+				position: relative;
+				ul.dropdown-content {
+					position: absolute;
+					transform: translateX(5000%);
+				}
 			}
 		}
 	}
-	@media (@sm-query) {
-		.navbar-header {
-			display: none;
-		}
-		// .collapse {
-		// 	display: block;
-		// }
-		li {
-			// margin: @1-rem/@second-modular 0;
-			&:hover a {
-				background-color: @hero-color;
-			}
-		}
-		li.dropdown-btn {
-			position: relative;
-			ul.dropdown-content {
-				position: absolute;
-				transform: translateX(5000%);
-			}
-		}
-
-	}
-
 }
 
 #highlights {
@@ -124,6 +126,7 @@ nav {
 			}
 			p {
 				line-height: @line-height;
+				.font-size(1.2);
 			}
 			&:nth-child(1) {
 				background-image: url(../_images/features/victoria-island-gully.jpg);
@@ -136,7 +139,9 @@ nav {
 			}
 			a {
 				margin-top: @1-rem*@first-modular;
-				color: @hero-color;
+				color: #fff;
+				.font-size(1.416);
+				font-weight: bold;
 			}
 		}
 	}
@@ -151,8 +156,8 @@ nav {
 }
 
 footer {
-	border-top: 1px solid black;
-	margin-top: @1-rem*@second-modular;
+	border-top: 1px solid @hero-color;
+	margin-top: @1-rem * @second-modular;
 	#site-map {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -170,7 +175,6 @@ footer {
 				}
 			}
 		}
-
 	}
 	#address {
 		>#address-container {
@@ -214,7 +218,6 @@ footer {
 		}
 	}
 }
-
 
 @import 'plugins/collapse';
 @import 'pages.less';

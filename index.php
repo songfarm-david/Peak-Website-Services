@@ -3,9 +3,22 @@
 	<!-- main site header -->
 	<h1 class="hide">Hollis Wealth</h1>
 
-	<header>
-		<!-- Logo Here -->
-		<?php include_once('_includes/navigation.php') ?>
+	<header id="site-header">
+		<div class="row">
+			<div class="col col-7">
+				<!-- Logo Here -->
+				<div id="logo">
+					<img src="_assets/temp-logo.png" alt="" height="90" />
+				</div>
+			</div>
+			<div class="col col-5">
+				<!-- CTA -->
+				<div id="call-now" class="float-right">
+					<span><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
+				</div>
+				<?php include_once('_includes/navigation.php') ?>
+			</div>
+		</div>
 	</header>
 
 	<!-- Highlights Carousel -->
@@ -15,11 +28,11 @@
 		<div id="carousel-slider">
 			<!-- slide 1 -->
 			<article class="slide">
-				<h3 class="h1">Specialist, client-focused Financial Advisors</h3>
+				<h3 class="h1">Specialist, client-focused<br> Financial Advisors</h3>
 				<p>
 					Our Financial Advice combines market leading financial solutions from all of the highest quality  financial institutions in Australia. When combined with our client focused, service driven support this produces the highest standard of financial solutions for our clients.
 				</p>
-				<a href="#" class="cta-link">Read more</a>
+				<a href="#" class="cta-link">Click here for Forward-Thinking</a>
 			</article>
 			<!-- slide 2 -->
 			<article class="slide hide">
@@ -100,8 +113,6 @@
 				</section>
 			</div>
 		</div>
-
-
 	</section>
 
 	<!-- Market Insights -->
@@ -110,7 +121,7 @@
 		<div class="row">
 			<!-- insight 1 -->
 			<div class="col col-6">
-				<img src="_images/getaway.jpg" alt="" height="400"/>
+				<img src="_images/quarterly-solar-power.jpg" alt="" height="400"/>
 				<h3>Title Here</h3>
 				<p>
 					Tiramisu candy canes cotton candy candy canes I love cake lemon drops cookie. Chocolate cake lemon drops jelly lollipop. Sweet cookie halvah sesame snaps I love cake bonbon I love muffin.
@@ -119,7 +130,7 @@
 			</div>
 			<!-- insight 2 -->
 			<div class="col col-6">
-				<img src="_images/scuba.jpg" alt="" height="400"/>
+				<img src="_images/vector-graph.jpg" alt="" height="400"/>
 				<h3>Title Here</h3>
 				<p>
 					Cheesecake cake topping I love cupcake. Danish I love apple pie. Cake cake I love pudding jelly beans jelly-o.
@@ -127,12 +138,10 @@
 				<a href="#" class="cta-link">Read more</a>
 			</div>
 		</div>
-
 	</section>
 
 	<!-- Footer -->
 	<footer>
-
 		<!-- Address -->
 		<div class="row">
 			<div class="col col-4">
@@ -141,11 +150,14 @@
 					<div id="address-container">
 						<span class="address">P.O Box V5N 1P9</span><br>
 						<span class="address">123 Granville Street, Suite 700</span><br>
-						<span class="address">Victoria, BC V7Y 1G5</span>
+						<span class="address">Victoria, BC V7Y 1G5</span><br>
 						<!-- phone contact -->
-						<p>
+						<span><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
+
+						<!-- <p>
+
 							Contact Us: <a href="tel:1234567890" class="contact contact-phone">123-456-7890</a>
-						</p>
+						</p> -->
 					</div>
 				</section>
 			</div>
@@ -159,7 +171,6 @@
 				</section>
 			</div>
 		</div>
-
 		<!-- Site Map -->
 		<div class="row">
 			<div class="col col-12">
@@ -175,7 +186,6 @@
 				</section>
 			</div>
 		</div>
-
 		<!-- Disclaimer -->
 		<div class="row">
 			<div class="col col-12">
@@ -187,7 +197,6 @@
 				</section>
 			</div>
 		</div>
-
 		<!-- Copyright -->
 		<section id="copyright">
 			<h4 class="hide">Copyright</h4>
