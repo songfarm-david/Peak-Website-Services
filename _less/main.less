@@ -54,11 +54,12 @@ nav {
 	// z-index: 1000;
 	height: 100%;
 	display: flex;
+	justify-content: flex-end;
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
 		display: flex;
-		// justify-content: flex-end;
+		justify-content: flex-end;
 		// flex-wrap: wrap;
 		text-align: center;
 		li {
@@ -100,10 +101,43 @@ nav {
 
 }
 
-#carousel-slider {
-	>article {
-		>h3 {
-			text-transform: capitalize;
+#highlights {
+	height: 100vh / @first-modular;
+	padding: 0;
+	color: #fff;
+	#carousel-slider {
+		height: 100%;
+		.slide {
+			text-align: center;
+			height: 100%;
+			padding-top: @4-rem * @first-modular;
+			background-color: #eee;
+			background-size: cover;
+			h3 {
+				line-height: @second-modular;
+				text-transform: capitalize;
+			}
+			h3, p {
+				width: 100% / @first-modular;
+				margin: 0 auto;
+				margin-bottom: @1-rem;
+			}
+			p {
+				line-height: @line-height;
+			}
+			&:nth-child(1) {
+				background-image: url(../_images/features/victoria-island-gully.jpg);
+			}
+			&:nth-child(2) {
+				background-image: url(../_images/features/yoho.jpg);
+			}
+			&:nth-child(3) {
+				background-image: url(../_images/features/victoria-island-trail.jpg);
+			}
+			a {
+				margin-top: @1-rem*@first-modular;
+				color: @hero-color;
+			}
 		}
 	}
 }
@@ -164,7 +198,7 @@ footer {
 			display: block;
 			margin-top: unit(@first-modular, em);
 			font-style: italic; // NOTE: import italic font here
-			transition: font-size 0.5s ease;
+			transition: font-size 0.75s ease-out;
 			&:hover {
 				font-size: 100%;
 			}

@@ -9,29 +9,29 @@
 	</header>
 
 	<!-- Highlights Carousel -->
-	<section>
-		<h2>Highlights</h2>
+	<section id="highlights">
+		<h2 class="hide">Highlights</h2>
 		<!-- carousel slider here -->
 		<div id="carousel-slider">
 			<!-- slide 1 -->
 			<article class="slide">
-				<h3>Specialist, client-focused Financial Advisors</h3>
+				<h3 class="h1">Specialist, client-focused Financial Advisors</h3>
 				<p>
-					Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
+					Our Financial Advice combines market leading financial solutions from all of the highest quality  financial institutions in Australia. When combined with our client focused, service driven support this produces the highest standard of financial solutions for our clients.
 				</p>
 				<a href="#" class="cta-link">Read more</a>
 			</article>
 			<!-- slide 2 -->
-			<article class="slide">
-				<h3>A disciplined investment process that is personalized to your needs</h3>
+			<article class="slide hide">
+				<h3 class="h1">A disciplined investment process that is personalized to your needs</h3>
 				<p>
 					Gummies ice cream pie biscuit pastry sweet roll. Oat cake dessert candy I love sweet jelly-o. Sugar plum lollipop cake marshmallow wafer sugar plum tiramisu wafer donut. Muffin cupcake I love chupa chups chupa chups I love candy canes I love.
 				</p>
 				<a href="#" class="cta-link">Read more</a>
 			</article>
 			<!-- slide 3 -->
-			<article class="slide">
-				<h3>Portfolio Management supported by rigorous research</h3>
+			<article class="slide hide">
+				<h3 class="h1">Portfolio Management supported by rigorous research</h3>
 				<p>
 					Bear claw sweet roll sugar plum jelly-o gingerbread lollipop sweet chocolate. Candy canes gingerbread croissant. Carrot cake cake ice cream cotton candy marzipan chocolate bar pastry tootsie roll sesame snaps.
 				</p>
@@ -44,7 +44,7 @@
 	<section id="about">
 		<h2>About</h2>
 		<div class="row">
-			<div class="col col-5">
+			<div class="col col-6">
 				<p>
 					Gummies marzipan lemon drops jelly. Caramels tart chupa chups I love tart marshmallow gummi bears croissant jujubes. Tiramisu gummi bears sugar plum bonbon. Chocolate halvah toffee I love danish. I love I love marshmallow ice cream topping dessert caramels gummies.
 				</p>
@@ -54,16 +54,12 @@
 				<a href="#" class="cta-link">Read more</a>
 			</div>
 			<!-- About Video -->
-			<div class="col col-7">
+			<div class="col col-6">
 				<div id="about-video">
 					<!-- demo video here -->
 				</div>
 			</div>
 		</div>
-
-
-
-
 	</section>
 
 	<!-- Services -->
