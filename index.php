@@ -1,4 +1,4 @@
-<?php require_once('_includes/header.php') ?>
+	<?php require_once('_includes/header.php') ?>
 
 	<!-- main site header -->
 	<h1 class="hide">Hollis Wealth</h1>
@@ -127,11 +127,11 @@
 	<!-- Footer -->
 	<footer>
 
+		<!-- address -->
 		<div class="row">
 			<div class="col col-4">
-				<!-- address -->
 				<section id="address">
-					<h4 class="hide">Address and Contact Information</h4>
+					<h4>Address</h4>
 					<div id="address-container">
 						<span class="address">P.O Box V5N 1P9</span><br>
 						<span class="address">123 Granville Street, Suite 700</span><br>
@@ -154,9 +154,9 @@
 			</div>
 		</div>
 
+		<!-- disclaimer -->
 		<div class="row">
 			<div class="col col-12">
-				<!-- disclaimer -->
 				<section id="disclaimer">
 					<h4 class="small">Disclaimer</h4>
 					<small>
