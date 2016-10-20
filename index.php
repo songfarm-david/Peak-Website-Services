@@ -154,7 +154,23 @@
 			</div>
 		</div>
 
-		<!-- disclaimer -->
+		<!-- Site Map -->
+		<div class="row">
+			<div class="col col-12">
+				<section id="site-map">
+					<h3 class="h4">Site Map</h3>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Insights</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<!-- Disclaimer -->
 		<div class="row">
 			<div class="col col-12">
 				<section id="disclaimer">
@@ -166,7 +182,7 @@
 			</div>
 		</div>
 
-		<!-- copyright -->
+		<!-- Copyright -->
 		<section id="copyright">
 			<h4 class="hide">Copyright</h4>
 			<small>&copy; <?php echo date("Y"); ?> Hollis Wealth</small>

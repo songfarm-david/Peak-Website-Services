@@ -115,6 +115,25 @@ nav {
 footer {
 	border-top: 1px solid black;
 	margin-top: @1-rem*@second-modular;
+	#site-map {
+		padding-top: 0;
+		padding-bottom: 0;
+		>h3 {
+			margin-bottom: unit(@second-modular, rem);
+		}
+		ul {
+			padding-left: 0;
+			margin-bottom: 0;
+			li {
+				display: inline-block;
+				a {
+					display: block;
+					padding: 0.25rem;
+				}
+			}
+		}
+
+	}
 	#address {
 		>#address-container {
 			margin-top: 1.2rem;
@@ -152,6 +171,7 @@ footer {
 		padding-top: 0;
 		padding-bottom: @4-rem;
 		small {
+			font-size: 90%;
 			line-height: 0;
 		}
 	}
