@@ -14,7 +14,7 @@
 			<div class="col col-5">
 				<!-- CTA -->
 				<div id="call-now" class="float-right">
-					<span><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
+					<a href="#" class="phone"><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</a>
 				</div>
 				<?php include_once('_includes/navigation.php') ?>
 			</div>
@@ -87,6 +87,7 @@
 			<div class="col col-6">
 				<div id="about-video">
 					<!-- demo video here -->
+					<img src="_images/partners.jpg" alt="" height="250" />
 				</div>
 			</div>
 		</div>
@@ -169,7 +170,7 @@
 						<span class="address">123 Granville Street, Suite 700</span><br>
 						<span class="address">Victoria, BC V7Y 1G5</span><br>
 						<!-- phone contact -->
-						<span class="phone"><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</span>
+						<a href="#" class="phone"><span class="fa fa-phone"></span>&nbsp;(012)-345-6789</a>
 
 						<!-- <p>
 

@@ -151,6 +151,18 @@ header#site-header {
 	}
 }
 
+#about {
+	h2 {
+
+	}
+	#about-video {
+		img {
+			height: auto;
+			margin-top: -2rem;
+		}
+	}
+}
+
 #services {
 	section {
 		>img+h3 {
@@ -162,6 +174,10 @@ header#site-header {
 footer {
 	border-top: 1px solid @hero-color;
 	margin-top: @1-rem * @second-modular;
+	h3,
+	h4 {
+		font-weight: 400;
+	}
 	#site-map {
 		padding-top: 0;
 		padding-bottom: 0;
@@ -188,6 +204,10 @@ footer {
 			span {
 				line-height: @line-height;
 				margin-top: 1.2rem;
+			}
+			a.phone {
+				color: @hero-color;
+				font-size: 105%;
 			}
 			.fa {
 				top: 2px;
