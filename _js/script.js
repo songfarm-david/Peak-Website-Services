@@ -1,5 +1,23 @@
 (function(){
+
 	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+
+	var newsletterArticle = $("#ticket-newsletter");
+	var ticketTrigger = $('#ticket');
+
+	$(ticketTrigger).on('click', function() {
+		$(newsletterArticle).toggleClass('open');
+		if (!$(newsletterArticle).hasClass('open')) {
+			$(newsletterArticle).animate({
+				right: '-12.8%'
+			});
+			return;
+		}
+		$(newsletterArticle).animate({
+			right: 0
+		});
+	})
+
 })();
 
 // (function($){
