@@ -120,7 +120,7 @@
 					<!-- service 1 -->
 					<section>
 						<img src="_images/kayaking-victoria.jpg" alt="" height="284" />
-						<h3>Service 1</h3>
+						<h3>Retirement Planning</h3>
 						<p>
 							Cupcake chocolate bar I love. Dragée dragée pie bonbon cookie chupa chups I love topping. Lemon drops danish wafer pastry. Brownie cheesecake biscuit oat cake.
 						</p>
@@ -131,7 +131,7 @@
 					<!-- service 2 -->
 					<section>
 						<img src="_images/tofino.jpg" alt="" height="284" />
-						<h3>Service 1</h3>
+						<h3>Wealth Accumulation</h3>
 						<p>
 							Chocolate cake gummies. Jelly beans marzipan lollipop. Gingerbread gummies pastry.
 						</p>
@@ -142,7 +142,7 @@
 					<!-- service 3 -->
 					<section>
 						<img src="_images/bayview-place.jpg" alt="" height="284" />
-						<h3>Service 1</h3>
+						<h3>Portfolio Management</h3>
 						<p>
 							Carrot cake chocolate bar I love oat cake liquorice apple pie macaroon cheesecake. Pastry sugar plum chupa chups donut candy canes candy chocolate bar caramels pudding. Chocolate bar pastry I love biscuit candy.
 						</p>
