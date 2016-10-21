@@ -206,6 +206,9 @@ header#site-header {
 					padding: @1-rem (@1-rem / @first-modular);
 					color: #000;
 					text-decoration: none;
+					&:hover {
+						color: @hero-color-alt;
+					}
 				}
 			}
 		}
@@ -221,12 +224,6 @@ header#site-header {
 				}
 			}
 		}
-		// a {
-		// 	transition: color 50ms ease-in-out;
-		// 	&:hover {
-		// 		color: @hero-color-alt;
-		// 	}
-		// }
 	}
 }
 
@@ -270,7 +267,9 @@ header#site-header {
 				margin-top: @1-rem*@first-modular;
 				color: #fff;
 				.font-size(1.416);
-				// font-weight: bold;
+				&:hover {
+					color: @hero-color-alt;
+				}
 			}
 			h3,
 			p,
