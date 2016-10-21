@@ -1,10 +1,27 @@
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
-@header-font-a: 1rem 'Open Sans Condensed', Georgia, sans-serif;
+// @header-font-a: 1rem 'Open Sans Condensed', Georgia, sans-serif;
 @header-font-b: 300 1rem 'Source Sans Pro', sans-serif;
-@body-font: 1rem 'Raleway', Verdana, serif;
+@header-font: 'Source Sans Pro', sans-serif;
+@body-font: 1rem 'Poppins', sans-serif;
+@body: 'Poppins', sans-serif;
+
+#highlights {
+	h3 {
+		font-family: @header-font;
+	}
+	p {
+		font: @body-font;
+	}
+}
 
 nav {
-	font: @body-font;
+	font: @header-font-b;
+}
+
+footer {
+	#site-map {
+		font-family: @header-font;
+	}
 }
