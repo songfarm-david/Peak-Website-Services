@@ -10,14 +10,15 @@
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
 			<span class="">Put Your Business On Top</span>
-			<p>
-				You know how important having the <em>right</em> website is to success online.
-				Our professional website developers and designers make online success an affordable reality.
-				<br>
-				<a href="../about.php">Read more</a>
-		</p>
-		<a href="#">See website services</a>
-
+			<div>
+				<p>
+					You know how important having the <em>right</em> website is to success online.
+					Our professional website developers and designers make online success an affordable reality.
+					<br>
+					<a href="../about.php">Read more</a>
+			</p>
+			<a href="#">See website services</a>
+			</div>
 		</div>
 	</section>
 

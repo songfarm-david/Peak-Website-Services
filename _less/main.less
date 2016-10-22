@@ -36,37 +36,37 @@ header {
 	h1.h3 {
 		margin: 0;
 		padding-left: @1-rem/2;
-		line-height: @line-height;
+		color: @deep-purple;
+		line-height: @second-modular;
 	}
 }
 
 nav {
-	color: #111;
+	color: @deep-purple;
 	position: absolute;
 	top: 0;
 	right: 0;
 	z-index: 1000;
 	height: 100%;
 	display: flex;
+	margin-right: @1-rem / @first-modular;
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
 		display: flex;
-		// justify-content: flex-end;
-		// flex-wrap: wrap;
 		text-align: center;
 		height: 100%;
 		li {
 			display: table;
-			// flex: 0 0 auto;
 			flex-direction: column;
 			justify-content: center;
 			a {
 				display: table-cell;
 				vertical-align: middle;
-				padding: 1.25rem 1rem;
+				padding: .7rem 1rem;
 				color: #111;
 				text-decoration: none;
+				.font-size(0.3);
 			}
 		}
 	}
@@ -97,12 +97,11 @@ nav {
 
 #landing-page {
 	height: 100vh;
-	background-color: #eee;
+	background-color: @secondary-color;
 	background-image: url(../_images/business-on-top.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
-	// padding-top: 100vh / @line-height;
 	#landing-page-intro {
 		font: @header-font-900;
 		position: relative;
@@ -113,25 +112,41 @@ nav {
 		span {
 			.font-size(4);
 			width: auto;
+			display: block;
+			background-color: transparent;
 		}
-		p {
-			font: @header-font-400;
-			.font-size(1);
-			width: 50% / @first-modular;
-			line-height: @second-modular;
-			margin-bottom: 0;
-		}
-		a {
-			color: @secondary-color;
-			margin-top: @1-rem / @second-modular;
-			float: left;
-			font: @header-font-400;
-			.font-size(2);
-			padding: 0.25rem .5rem;
-		}
-		a:first-of-type {
-			margin-right: 0.5rem;
-			margin-left: -.25rem;
+		>div {
+			background-color: fadeout(@deep-purple, 70%);
+			max-width: 50% / @first-modular;
+			.base(padding,0.3);
+			p {
+				font: @header-font-400;
+				font-family: 'Abel', sans-serif;
+				margin-top: 0;
+				color: @secondary-color;
+				text-shadow: 1px 1px 2px @deep-purple;
+				.font-size(1.25);
+				line-height: @second-modular;
+				margin-bottom: 0;
+				>em {
+					color: #fff;
+					text-shadow: none;
+				}
+				a {
+					float: left;
+				}
+			}
+			a {
+				color: @secondary-color;
+				margin-top: @1-rem / @second-modular;
+				font: @header-font-400;
+				.font-size(1.4);
+				padding: 0.25rem .5rem;
+				float: right;
+			}
+			&:after {
+				.clear-float;
+			}
 		}
 	}
 }
