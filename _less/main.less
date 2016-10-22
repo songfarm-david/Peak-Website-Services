@@ -98,12 +98,11 @@ nav {
 
 #landing-page {
 	height: 100vh;
-	background-color: #eee;
+	background-color: @secondary-color;
 	background-image: url(../_images/business-on-top.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
-	// padding-top: 100vh / @line-height;
 	#landing-page-intro {
 		font: @header-font-900;
 		position: relative;
@@ -114,31 +113,41 @@ nav {
 		span {
 			.font-size(4);
 			width: auto;
+			display: block;
+			background-color: transparent;
 		}
-		p {
-			font: @header-font-400;
-			color: @deep-purple;
-			text-shadow: 1px 1px 2px @secondary-color;
-			.font-size(1.25);
-			width: 50% / @first-modular;
-			line-height: @second-modular;
-			margin-bottom: 0;
-			>em {
-				color: #fff;
-				text-shadow: none;
+		>div {
+			background-color: green;
+			p {
+				font: @header-font-400;
+				font-family: 'Abel', sans-serif;
+
+				color: @secondary-color;
+				text-shadow: 1px 1px 2px @deep-purple;
+				.font-size(1.25);
+				width: 50% / @first-modular;
+				line-height: @second-modular;
+				margin-bottom: 0;
+				>em {
+					color: #fff;
+					text-shadow: none;
+				}
 			}
-		}
-		a {
-			color: @secondary-color;
-			margin-top: @1-rem / @second-modular;
-			float: left;
-			font: @header-font-400;
-			.font-size(2);
-			padding: 0.25rem .5rem;
-		}
-		a:first-of-type {
-			margin-right: 0.5rem;
-			margin-left: -.25rem;
+			a {
+				color: @secondary-color;
+				margin-top: @1-rem / @second-modular;
+				float: left;
+				font: @header-font-400;
+				.font-size(2);
+				padding: 0.25rem .5rem;
+				&:first-of-type {
+					margin-right: 0.5rem;
+					margin-left: -.25rem;
+				}
+			}
+			&:after {
+				.clear-float;
+			}
 		}
 	}
 }
