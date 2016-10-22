@@ -1,7 +1,13 @@
 <?php require_once('_includes/header.php') ?>
+<header>
+	<h1 class="h3">About Peak Website Services</h1>
+	<?php include_once('_includes/navigation.php') ?>
+</header>
 
-		<main>
+	<main>
 
+		<div id="about">
+			<h2>About our services</h2>
 			<span>
 				Leave the technical work of building and maintaining a website to us.
 			</span>
@@ -17,7 +23,11 @@
 			<a href="#">
 				View Pricing
 			</a>
+		</div>
 
-		</main>
+	</main>
+
+
+
 
 		<?php require_once('_includes/footer.php') ?>
