@@ -549,10 +549,12 @@ header {
 header h1.h3 {
   margin: 0;
   padding-left: 0.809rem;
-  line-height: 1.618;
+  color: #f2e8f0;
+  line-height: 1.33;
+  text-shadow: 0px 0px 4px #2a1826;
 }
 nav {
-  color: #111;
+  color: #2a1826;
   position: absolute;
   top: 0;
   right: 0;
@@ -628,10 +630,16 @@ nav ul li a {
 }
 #landing-page #landing-page-intro p {
   font: 400 100% 'Passion One', cursive;
-  font-size: 1.6rem;
+  color: #2a1826;
+  text-shadow: 1px 1px 2px #fbfffe;
+  font-size: 1.8rem;
   width: 30.90234858%;
   line-height: 1.33;
   margin-bottom: 0;
+}
+#landing-page #landing-page-intro p > em {
+  color: #fff;
+  text-shadow: none;
 }
 #landing-page #landing-page-intro a {
   color: #fbfffe;
