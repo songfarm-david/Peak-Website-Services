@@ -18,12 +18,7 @@ html {
 	body {
 		margin: 0 auto;
 		background: #eee;
-		// display: flex;
-		// flex-direction: column;
 		height: 100%;
-		// header, footer {
-		// 	flex: 0 0 auto;
-		// }
 		main {
 			flex: 1 1 0px;
 			background-color: #ddd;
@@ -46,7 +41,8 @@ header {
 }
 
 nav {
-	color: #fff;
+
+	color: #111;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -62,16 +58,16 @@ nav {
 		text-align: center;
 		height: 100%;
 		li {
-			display: flex;
+			display: table;
 			// flex: 0 0 auto;
 			flex-direction: column;
 			justify-content: center;
 			a {
-				// display: block;
-				padding: .5rem 1rem;
-				color: #fff;
+				display: table-cell;
+				vertical-align: middle;
+				padding: 1.25rem 1rem;
+				color: #111;
 				text-decoration: none;
-				// border-bottom: 2px solid white;
 			}
 		}
 	}
@@ -85,7 +81,7 @@ nav {
 		li {
 			// margin: @1-rem/@second-modular 0;
 			&:hover a {
-				background-color: @hero-color;
+				// background-color: @hero-color;
 			}
 		}
 		li.dropdown-btn {
@@ -100,57 +96,22 @@ nav {
 
 }
 
-#landing-page-intro {
+#landing-page {
 	height: 100vh;
 	background-color: #eee;
-	background-image: url(../_images/backgrounds/majestic-peak.jpg);
+	background-image: url(../_images/business-on-top.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
 	padding-top: 100vh / @line-height;
+	#landing-page-intro {
+		width: 50% * @first-modular;
+		margin: 0 auto;
+		// .border;
+		color: white;
+		.font-size(4);
+	}
 }
-//
-// main {
-//
-// 	section#case-studies {
-// 		background-image: url(../_images/chatters.jpg);
-// 		background-size: cover;
-// 		background-position: center 75%;
-// 		background-repeat: no-repeat;
-// 		height: 600px;
-// 		padding-top: 1.5rem;
-// 		padding-left: 0.5rem;
-// 	}
-// 	.cta {
-// 		color: #fff;
-// 		width: 56%;
-// 		float: left;
-// 		.base(padding, 0.5);
-// 		padding-bottom: @1-rem;
-// 		background-color: rgba(0, 0, 0, 0.5);
-// 		margin-left: 1rem;
-// 		h2 {
-// 			.font-size(2.3);
-// 		}
-// 		p {
-// 			.font-size(.75);
-// 			margin-bottom: @1-rem * 2;
-// 		}
-// 		a {
-// 			display: inline;
-// 			padding: .75rem 1.5rem;
-// 			background-color: #d9d9d9;
-// 			color: #000;
-// 			font-size: 133%;
-// 		}
-// 	}
-//
-// }
-//
-// main > section {
-// 	.base(padding, 0.5);
-// }
-
 
 footer {
 	position: relative;
@@ -221,7 +182,6 @@ footer {
 		background-color: darken(#e9e9e9, 15%);
 	}
 }
-
 
 @import 'plugins/collapse';
 @import 'pages.less';

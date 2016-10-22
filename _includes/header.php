@@ -13,6 +13,7 @@
 		<meta name="description" content="">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet">
+		<link href="https://fonts.googleapis.com/css?family=Passion+One:400,900|Quicksand:400" rel="stylesheet">
 	</head>
 	<body>
 		<!--[if lt IE 8]>

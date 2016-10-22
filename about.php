@@ -11,12 +11,12 @@
 			<p>
 				Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online success and make handling the technical aspects of having an online business a breeze.
 			</p>
-			<p>
+			<a href="website-services/">
 				Read more about our Website Services
-			</p>
-			<p>
+			</a>
+			<a href="#">
 				View Pricing
-			</p>
+			</a>
 
 		</main>
 

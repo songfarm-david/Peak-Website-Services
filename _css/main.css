@@ -213,7 +213,7 @@ html {
   font-size: 18px;
 }
 body {
-  font: 400 1rem Verdana, serif;
+  font: 400 1rem 'Quicksand', Verdana, serif;
   font-size: 1.125em;
 }
 .container {
@@ -224,7 +224,7 @@ h1,
 h2,
 h3,
 h4 {
-  font: 700 1rem Georgia, sans-serif;
+  font: 700 1rem 'Passion One', cursive;
   margin: 1.618rem 0 0.809rem;
 }
 p {
@@ -404,6 +404,12 @@ li {
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
+nav {
+  font: 400 1rem 'Quicksand', Verdana, serif;
+}
+#landing-page {
+  font: 700 1rem 'Passion One', cursive;
+}
 @-webkit-keyframes slideIn {
   0% {
     opacity: 0;
@@ -543,7 +549,7 @@ header h1.h3 {
   line-height: 1.618;
 }
 nav {
-  color: #fff;
+  color: #111;
   position: absolute;
   top: 0;
   right: 0;
@@ -565,10 +571,7 @@ nav ul {
   height: 100%;
 }
 nav ul li {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: table;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -580,16 +583,15 @@ nav ul li {
           justify-content: center;
 }
 nav ul li a {
-  padding: .5rem 1rem;
-  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1.25rem 1rem;
+  color: #111;
   text-decoration: none;
 }
 @media (min-width: 58.0625rem) {
   nav .navbar-header {
     display: none;
-  }
-  nav li:hover a {
-    background-color: #730d09;
   }
   nav li.dropdown-btn {
     position: relative;
@@ -601,14 +603,20 @@ nav ul li a {
             transform: translateX(5000%);
   }
 }
-#landing-page-intro {
+#landing-page {
   height: 100vh;
   background-color: #eee;
-  background-image: url(../_images/backgrounds/majestic-peak.jpg);
+  background-image: url(../_images/business-on-top.jpg);
   background-size: cover;
   background-position: 50% center;
   position: relative;
   padding-top: 61.80469716vh;
+}
+#landing-page #landing-page-intro {
+  width: 80.9%;
+  margin: 0 auto;
+  color: white;
+  font-size: 6.9rem;
 }
 footer {
   position: relative;
@@ -798,7 +806,7 @@ button.navbar-toggle:focus {
 #about-1 .container strong,
 #expertise-1 .container strong,
 #faq-video .container strong {
-  font: 700 1rem Georgia, sans-serif;
+  font: 700 1rem 'Passion One', cursive;
   font-size: 2.6rem;
 }
 #about-1 + footer,
