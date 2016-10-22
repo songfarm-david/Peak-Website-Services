@@ -25,33 +25,30 @@
 	<!-- Website Services -->
 	<section id="website-services">
 		<h2>Website Services</h2>
-		<!-- website creation services -->
-		<div class="row">
+		<div class="row container">
+			<!-- website creation services -->
 			<div class="col col-4">
-				<h3>Website Creation Services</h3>
+				<h3>Website<br> <span class="emphasize">Creation</span><br> Services</h3>
 				<p>
-					Website creation services ...
+					Website creation services Cheesecake chupa chups chocolate cake tart. Apple pie soufflé gingerbread cake sugar plum. Gummies sweet roll marzipan cookie icing. Pudding gingerbread sugar plum cake. Powder dragée sugar plum biscuit pie brownie chocolate bar sweet roll lemon drops. Gummies sesame snaps sesame snaps cotton candy candy canes brownie sugar plum cheesecake danish. Sugar plum cupcake bear claw halvah.
 				</p>
 			</div>
+			<!-- website maintenance services -->
+				<div class="col col-4">
+					<h3>Website<br> <span class="emphasize">Maintenance</span><br> Services</h3>
+					<p>
+						Website maintenance services Apple pie lemon drops cake lollipop. Apple pie liquorice tootsie roll ice cream liquorice jujubes macaroon. Lemon drops tiramisu marshmallow fruitcake topping. Lemon drops chupa chups carrot cake macaroon dragée danish gingerbread macaroon. Croissant cookie chocolate cake jelly. Jujubes chocolate cake lemon drops oat cake.
+					</p>
+				</div>
+			<!-- website optimization services -->
+				<div class="col col-4">
+					<h3>Website<br> <span class="emphasize">Optimization</span><br> Services</h3>
+					<p>
+						Website optimization services Oat cake bonbon pie chupa chups icing gingerbread sweet cheesecake. Jujubes macaroon oat cake cotton candy. Tart cotton candy cake ice cream sweet roll sugar plum pastry fruitcake topping. Marzipan dragée candy canes topping apple pie carrot cake lollipop. Muffin gummies ice cream sugar plum marzipan brownie carrot cake toffee. Gummi bears pastry caramels jujubes. Cake wafer danish pie cookie cheesecake powder bonbon. Jelly-o cookie candy danish fruitcake pastry toffee gummi bears.
+					</p>
+				</div>
 		</div>
-		<!-- website maintenance services -->
-		<div class="row">
-			<div class="col col-4">
-				<h3>Website Maintenance Services</h3>
-				<p>
-					Website maintenance services ...
-				</p>
-			</div>
-		</div>
-		<!-- website optimization services -->
-		<div class="row">
-			<div class="col col-4">
-				<h3>Website Optimization Services</h3>
-				<p>
-					Website optimization services ...
-				</p>
-			</div>
-		</div>
+
 	</section>
 
 	<!-- Core Values -->
