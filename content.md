@@ -40,6 +40,7 @@ These are highlights of what's included in the web service development. It would
 * Unlimited Pages
 * Fully Managed Website
 * Free Domain ?
+* Talk about Blog functionality, E-commerce, CMS capabilities
 
 ### website design services
 * Wireframe Design mock-ups ??
