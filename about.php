@@ -9,7 +9,7 @@
 				Peak Website Services is a complete solution to business owners who are not tech-savvy and would rather run their business than worry about writing code.
 			</p>
 			<p>
-				Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online success and make handling the technical aspects of having an online business a breeze.
+				Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online success and make handling the technical aspects of having an online business simple.
 			</p>
 			<a href="website-services/">
 				Read more about our Website Services
