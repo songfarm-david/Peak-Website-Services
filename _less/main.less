@@ -63,7 +63,7 @@ nav {
 			a {
 				display: table-cell;
 				vertical-align: middle;
-				padding: 1rem 1rem;
+				padding: .7rem 1rem;
 				color: #111;
 				text-decoration: none;
 				.font-size(0.3);
@@ -116,33 +116,33 @@ nav {
 			background-color: transparent;
 		}
 		>div {
-			background-color: green;
+			background-color: fadeout(@deep-purple, 70%);
+			max-width: 50% / @first-modular;
+			.base(padding,0.3);
 			p {
 				font: @header-font-400;
 				font-family: 'Abel', sans-serif;
-
+				margin-top: 0;
 				color: @secondary-color;
 				text-shadow: 1px 1px 2px @deep-purple;
 				.font-size(1.25);
-				width: 50% / @first-modular;
 				line-height: @second-modular;
 				margin-bottom: 0;
 				>em {
 					color: #fff;
 					text-shadow: none;
 				}
+				a {
+					float: left;
+				}
 			}
 			a {
 				color: @secondary-color;
 				margin-top: @1-rem / @second-modular;
-				float: left;
 				font: @header-font-400;
-				.font-size(2);
+				.font-size(1.4);
 				padding: 0.25rem .5rem;
-				&:first-of-type {
-					margin-right: 0.5rem;
-					margin-left: -.25rem;
-				}
+				float: right;
 			}
 			&:after {
 				.clear-float;
