@@ -105,13 +105,34 @@ nav {
 	// padding-top: 100vh / @line-height;
 	#landing-page-intro {
 		font: @header-font-900;
-		.border;
 		position: relative;
 		top: 29.3%;
 		left: 29.3% / 2;
 		color: white;
-		.font-size(4);
 		line-height: 1.2;
+		span {
+			.font-size(4);
+			width: auto;
+		}
+		p {
+			font: @header-font-400;
+			.font-size(1);
+			width: 50% / @first-modular;
+			line-height: @second-modular;
+			margin-bottom: 0;
+		}
+		a {
+			color: @secondary-color;
+			margin-top: @1-rem / @second-modular;
+			float: left;
+			font: @header-font-400;
+			.font-size(2);
+			padding: 0.25rem .5rem;
+		}
+		a:first-of-type {
+			margin-right: 0.5rem;
+			margin-left: -.25rem;
+		}
 	}
 }
 

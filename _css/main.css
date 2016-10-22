@@ -69,6 +69,9 @@ b,
 strong {
   font-weight: inherit;
 }
+em {
+  font-style: italic;
+}
 b,
 strong {
   font-weight: bolder;
@@ -613,13 +616,34 @@ nav ul li a {
 }
 #landing-page #landing-page-intro {
   font: 900 100% 'Passion One', cursive;
-  border: 2px solid #ff0000;
   position: relative;
   top: 29.3%;
   left: 14.65%;
   color: white;
-  font-size: 6.9rem;
   line-height: 1.2;
+}
+#landing-page #landing-page-intro span {
+  font-size: 6.9rem;
+  width: auto;
+}
+#landing-page #landing-page-intro p {
+  font: 400 100% 'Passion One', cursive;
+  font-size: 1.6rem;
+  width: 30.90234858%;
+  line-height: 1.33;
+  margin-bottom: 0;
+}
+#landing-page #landing-page-intro a {
+  color: #fbfffe;
+  margin-top: 1.21654135rem;
+  float: left;
+  font: 400 100% 'Passion One', cursive;
+  font-size: 2.6rem;
+  padding: 0.25rem .5rem;
+}
+#landing-page #landing-page-intro a:first-of-type {
+  margin-right: 0.5rem;
+  margin-left: -0.25rem;
 }
 footer {
   position: relative;

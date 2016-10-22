@@ -13,11 +13,12 @@
 			<p>
 				You know how important having the <em>right</em> website is to success online.
 				Our professional website developers and designers make online success an affordable reality.
+				<br>
 				<a href="../about.php">Read more</a>
-			</p>
-			<a href="#">See website services</a>
-		</div>
+		</p>
+		<a href="#">See website services</a>
 
+		</div>
 	</section>
 
 	<!-- Website Services -->
