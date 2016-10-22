@@ -49,25 +49,24 @@ nav {
 	z-index: 1000;
 	height: 100%;
 	display: flex;
+	margin-right: @1-rem / @second-modular;
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
 		display: flex;
-		// justify-content: flex-end;
-		// flex-wrap: wrap;
 		text-align: center;
 		height: 100%;
 		li {
 			display: table;
-			// flex: 0 0 auto;
 			flex-direction: column;
 			justify-content: center;
 			a {
 				display: table-cell;
 				vertical-align: middle;
-				padding: 1.25rem 1rem;
+				padding: 1rem 1rem;
 				color: #111;
 				text-decoration: none;
+				.font-size(0.3);
 			}
 		}
 	}
