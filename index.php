@@ -9,15 +9,15 @@
 		<h2 class="hide">Peak Website Services</h2>
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
-			<span class="">Put Your Business On Top</span>
+			<span class="">Put Your Business On <span class="yellow">Top</span></span>
 			<div>
 				<p>
-					You know how important having the <em>right</em> website is to success online.
+					You know how important having the <em>right</em> website is to success online.<br>
 					Our professional website developers and designers make online success an affordable reality.
 					<br>
 					<a href="../about.php">Read more</a>
-			</p>
-			<a href="#">See website services</a>
+				</p>
+				<a href="#">See website services</a>
 			</div>
 		</div>
 	</section>
