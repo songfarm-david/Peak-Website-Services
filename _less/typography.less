@@ -1,7 +1,8 @@
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
-@header-font: 700 1rem 'Passion One', cursive;
+@header-font-900: 900 100% 'Passion One', cursive; // have a different fallback than just cursive
+@header-font-400: 400 100% 'Passion One', cursive; // have a different fallback than just cursive
 @body-font: 400 1rem 'Quicksand', Verdana, serif;
 
 nav {
@@ -9,5 +10,5 @@ nav {
 }
 
 #landing-page {
-	font: @header-font
+	font: @header-font-900
 }

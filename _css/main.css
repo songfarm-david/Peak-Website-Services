@@ -224,7 +224,7 @@ h1,
 h2,
 h3,
 h4 {
-  font: 700 1rem 'Passion One', cursive;
+  font: 900 100% 'Passion One', cursive;
   margin: 1.618rem 0 0.809rem;
 }
 p {
@@ -408,7 +408,7 @@ nav {
   font: 400 1rem 'Quicksand', Verdana, serif;
 }
 #landing-page {
-  font: 700 1rem 'Passion One', cursive;
+  font: 900 100% 'Passion One', cursive;
 }
 @-webkit-keyframes slideIn {
   0% {
@@ -541,11 +541,11 @@ header {
   top: 0;
   z-index: 999;
   width: 100%;
+  color: #111;
 }
 header h1.h3 {
   margin: 0;
   padding-left: 0.809rem;
-  color: #fff;
   line-height: 1.618;
 }
 nav {
@@ -613,6 +613,7 @@ nav ul li a {
   padding-top: 61.80469716vh;
 }
 #landing-page #landing-page-intro {
+  font: 900 100% 'Passion One', cursive;
   width: 80.9%;
   margin: 0 auto;
   color: white;
@@ -806,7 +807,6 @@ button.navbar-toggle:focus {
 #about-1 .container strong,
 #expertise-1 .container strong,
 #faq-video .container strong {
-  font: 700 1rem 'Passion One', cursive;
   font-size: 2.6rem;
 }
 #about-1 + footer,
