@@ -102,14 +102,16 @@ nav {
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
-	padding-top: 100vh / @line-height;
+	// padding-top: 100vh / @line-height;
 	#landing-page-intro {
 		font: @header-font-900;
-		width: 50% * @first-modular;
-		margin: 0 auto;
-		// .border;
+		.border;
+		position: relative;
+		top: 29.3%;
+		left: 29.3% / 2;
 		color: white;
 		.font-size(4);
+		line-height: 1.2;
 	}
 }
 

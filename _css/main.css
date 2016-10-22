@@ -610,14 +610,16 @@ nav ul li a {
   background-size: cover;
   background-position: 50% center;
   position: relative;
-  padding-top: 61.80469716vh;
 }
 #landing-page #landing-page-intro {
   font: 900 100% 'Passion One', cursive;
-  width: 80.9%;
-  margin: 0 auto;
+  border: 2px solid #ff0000;
+  position: relative;
+  top: 29.3%;
+  left: 14.65%;
   color: white;
   font-size: 6.9rem;
+  line-height: 1.2;
 }
 footer {
   position: relative;
