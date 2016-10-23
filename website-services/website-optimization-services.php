@@ -1,9 +1,13 @@
 <?php
 $title = "Peak | Website Optimization Services";
 $description = "";
-$activePage = $_SERVER['PHP_SELF'];
+$activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
+
+<header>
+	<?php include_once('../_includes/navigation.php') ?>
+</header>
 
 <h1>Website Optimization Service</h1>
 

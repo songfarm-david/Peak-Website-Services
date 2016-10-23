@@ -1,10 +1,13 @@
 <?php
 $title = "Peak | Website Creation Services";
 $description = "";
-$activePage = $_SERVER['PHP_SELF'];
+$activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
+<header>
+	<?php include_once('../_includes/navigation.php') ?>
+</header>
 
 <h1>Website Creation Service</h1>
 
