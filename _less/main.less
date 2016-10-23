@@ -108,7 +108,8 @@ nav {
 #landing-page {
 	height: 100vh;
 	background-color: @secondary-color;
-	background-image: url(../_images/man-on-top-light-leak-1.jpg);
+	// background-image: url(../_images/man-on-top-light-leak-1.jpg);
+	background-image: url(../_images/business-on-top.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
@@ -116,8 +117,8 @@ nav {
 	#landing-page-intro {
 		font: @header-font-900;
 		position: relative;
-		top: 29.3%;
-		left: 29.3% / 2;
+		top: 29.3% / 1.5;
+		left: 29.3% / 2.5;
 		color: white;
 		line-height: 1.2;
 		span {
@@ -125,12 +126,14 @@ nav {
 			width: auto;
 			display: block;
 			background-color: transparent;
+			line-height: 1;
 			.yellow {
 				display: inline;
-				color: @hero-color;
+				color: @yellow-a;
 			}
 		}
 		>div {
+			margin-top: 2rem;
 			background-color: fadeout(@deep-purple, 70%);
 			max-width: 50% / @first-modular;
 			.base(padding,0.3);
@@ -205,7 +208,7 @@ nav {
 			color: @shocking-pink;
 	}
 	div:nth-child(3) > h3 .emphasize {
-			color: @yellow;
+			color: @yellow-b;
 	}
 }
 

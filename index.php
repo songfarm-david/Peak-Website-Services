@@ -9,7 +9,7 @@
 		<h2 class="hide">Peak Website Services</h2>
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
-			<span class="">Put Your Business On <span class="yellow">Top</span></span>
+			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
 			<div>
 				<p>
 					You know how important having the <em>right</em> website is to success online.<br>
