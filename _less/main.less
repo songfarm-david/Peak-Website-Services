@@ -72,7 +72,7 @@ nav {
 				color: #111;
 				text-decoration: none;
 				.font-size(0.3);
-				opacity: .5;
+				opacity: .7;
 				transition: opacity .5s ease-in-out;
 				&:hover {
 					opacity: 1;
@@ -108,7 +108,7 @@ nav {
 #landing-page {
 	height: 100vh;
 	background-color: @secondary-color;
-	background-image: url(../_images/business-on-top.jpg);
+	background-image: url(../_images/man-on-top-light-leak-1.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
@@ -127,7 +127,7 @@ nav {
 			background-color: transparent;
 			.yellow {
 				display: inline;
-				color: @yellow;
+				color: @hero-color;
 			}
 		}
 		>div {
@@ -145,7 +145,9 @@ nav {
 				margin-bottom: 0;
 				>em {
 					color: #fff;
-					text-shadow: none;
+					font-style: normal;
+					// text-shadow: none;
+					font-size: 115%;
 				}
 				a {
 					float: left;
@@ -153,7 +155,6 @@ nav {
 			}
 			a {
 				color: @secondary-color;
-				margin-top: @1-rem / @second-modular;
 				font: @header-font-400;
 				.font-size(1.4);
 				padding: 0.25rem .5rem;
@@ -181,9 +182,10 @@ nav {
 	>h2 {
 		position: absolute;
 		color: fadeout(@deep-purple, 80%);
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 		.font-size(5);
 		left: -24.81%;
-		bottom: 38.1%;
+		bottom: 38.1% / 2;
 		width: 100%;
 	}
 	h3 {
@@ -279,23 +281,35 @@ footer {
 
 @import 'plugins/collapse';
 
-#about {
+#about-1 {
 	height: 100vh;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	padding-top: @1-rem * 5;
 	background-repeat: no-repeat;
-	color: @deep-purple;
+	color: @egg-shell;
 	span {
 		font: @header-font-900;
 		.font-size(3);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	}
 	p {
-		color: #fff;
-		max-width: 50% / @first-modular;
-		.base(padding,0.3);
+		color: @deep-purple;
+		max-width: 70% / @first-modular;
+		// .base(padding,0.3);
+		.font-size(1);
+		margin-bottom: @1-rem * @second-modular;
 	}
 	.spin {
 		color: @hero-color;
+	}
+	a {
+		margin-right: @1-rem / @second-modular;
+		transition: all .5s ease-in-out;
+		.font-size(.7);
+		&:hover,
+		&:focus {
+			color: @hero-color;
+		}
 	}
 }

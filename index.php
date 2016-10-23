@@ -1,7 +1,7 @@
 <?php require_once('_includes/header.php') ?>
 
 	<header>
-		<h1 class="h3">Peak Website Services</h1>
+		<h1 class="h3 hide">Peak Website Services</h1>
 		<?php include_once('_includes/navigation.php') ?>
 	</header>
 

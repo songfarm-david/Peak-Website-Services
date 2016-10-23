@@ -9,6 +9,7 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="mission-statement.php">Mission Statement</a></li>
 			<li class="dropdown-btn">
 				<a href="website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
