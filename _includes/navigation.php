@@ -22,7 +22,7 @@
 				</div>
 			</li>
 			<li><a href="what-we-do.php">Portfolio</a></li>
-			<li><a href="contact-us.php">Contact</a></li>
+			<li><a href="connect.php">Connect</a></li>
 			<!-- <li><a href="#">FREE<br> Website Assessment</a></li> -->
 		</ul>
 	</div>

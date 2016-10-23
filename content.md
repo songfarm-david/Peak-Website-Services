@@ -1,8 +1,19 @@
-# PEAK
+# Peak Website Services
 
-<p>
-	Creation. Maintenance. Optimization.
-</p>
+## Free Quote
+Form-driven, visitor-submitted. Free Quotes will be provided to visitors providing:
+- They have an email
+
+**for possible inclusion in reply:**
+* a SEO report
+* a Google Speed Insights report
+
+### Form Fields:
+- name (?)
+- email (required)
+- website (optional)
+
+
 
 ###General Notes:
 Stress the importance of having an effective online business in today's day and age.
@@ -11,7 +22,7 @@ Google Analytics
 ## Free Website Assessment/Free Quote
 An objective, third-party critique of the clients existing website, including notes on design, content, usability, website health/speed, SEO grades/rankings.
 
-## What is my tag-line? What is my exact service/services?
+## Possible Taglines:
 You run your business, we'll look after the rest.
 Get/Have your Website Working For You
 Your Online Business Should be Working for You.
@@ -20,7 +31,7 @@ Get Your Website Working For Your Business
 
 ### website development services (an h3)
 These are highlights of what's included in the web service development. It would be smart to include more information about each highlight, should the client be interested in that.
-* professionally coded, **custom** or template websites (keywords here)
+* expert coded, **custom** websites or template websites (keywords here)
 * SEO Enhanced (except better phrasing)
 * Fast & Secure Websites
 * Mobile Friendly [Peak Designs](http://www.peakdesign.net/cta/mobile-friendly)
