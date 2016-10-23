@@ -317,10 +317,52 @@ footer {
 	}
 }
 
-#contact-form {
-	.row {
-		.col:last-child {
-			margin-right: 0;
+#contact-main {
+	background: @secondary-color url(../_images/mosaic-squared.jpg) no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	// &::after {
+	// 	content: "";
+	// 	position: absolute;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	right: 0;
+	// 	background-color: #000;
+	// 	opacity: 0.5;
+	// }
+	#contact-form {
+		text-align: center;
+		.row {
+			.col:last-child {
+				margin-right: 0;
+			}
+		}
+		input,
+		textarea {
+			border-width: 0 0 2px;
+			border-style: solid;
+			border-color: @secondary-color;
+			background-color: transparent;
+			border-bottom-left-radius: 1px;
+			border-bottom-right-radius: 1px;
+			height: auto;
+			padding: @1-rem / @first-modular;
+			&:focus {
+				outline: 0;
+			}
+		}
+		textarea {
+			height: auto;
+			&:focus {
+				outline: 0;
+				height: 150px;
+			}
+		}
+		input[type="submit"] {
+			margin-top: @1-rem * @first-modular;
+			width: (100% / @first-modular) / @first-modular;
 		}
 	}
 }

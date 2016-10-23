@@ -13,8 +13,6 @@ Form-driven, visitor-submitted. Free Quotes will be provided to visitors providi
 - email (required)
 - website (optional)
 
-
-
 ###General Notes:
 Stress the importance of having an effective online business in today's day and age.
 Google Analytics

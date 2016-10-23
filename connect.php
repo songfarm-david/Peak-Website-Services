@@ -1,11 +1,11 @@
 <?php require_once('_includes/header.php') ?>
 
 	<header>
-		<h1 class="h3">Connect | Peak Website Services</h1>
+		<h1 class="h3 hide">Connect | Peak Website Services</h1>
 		<?php include_once('_includes/navigation.php') ?>
 	</header>
 
-	<main>
+	<main id="contact-main">
 
 		<div class="row">
 			<div class="col col-8">
@@ -43,11 +43,22 @@
 						<div class="row">
 							<div class="col col-12">
 								<label for="message">
-									<textarea name="message" rows="8" cols="40" placeholder="You're on the mic. What's your beef?"></textarea>
+									<textarea name="message" rows="1" placeholder="You're on the mic. What's your beef?"></textarea>
 								</label>
 							</div>
 						</div>
+
+						<label for="send"></label>
+						<input type="submit" name="send" value="Send">
+
 				</form>
+
+				<!-- NOTE: add a captcha -->
+
+
+				<!-- NOTE: stylized google map of bear mountain/langform -->
+
+
 			</div>
 		</div>
 
