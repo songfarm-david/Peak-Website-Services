@@ -34,7 +34,7 @@
 </footer>
 
 </body>
-<script async="true" src="https://use.fontawesome.com/85510088e9.js"></script>
+<script src="https://use.fontawesome.com/85510088e9.js"></script>
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 <!-- Fallback for jQuery CDN -->
