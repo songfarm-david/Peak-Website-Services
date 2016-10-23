@@ -1,4 +1,4 @@
-<?php require_once('_includes/header.php') ?>
+<?php require_once('../_includes/header.php') ?>
 
 <h1>Website Creation Service</h1>
 
@@ -44,4 +44,4 @@
 * Fully Managed Website
 * Free Domain ?
 
-<?php require_once('_includes/footer.php') ?>
+<?php require_once('../_includes/footer.php') ?>

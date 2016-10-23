@@ -1,4 +1,4 @@
-<?php require_once('_includes/header.php') ?>
+<?php require_once('../_includes/header.php') ?>
 
 <h1>Website Optimization Service</h1>
 
@@ -27,4 +27,4 @@
 * Unlimited Support
 * Unlimited Content Updates
 
-<?php require_once('_includes/footer.php') ?>
+<?php require_once('../_includes/footer.php') ?>
