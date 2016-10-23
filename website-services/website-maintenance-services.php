@@ -7,7 +7,7 @@ $activePage = $_SERVER['PHP_SELF'];
 
 <!-- (this page should have a survey: what is the number one thing you struggling with maintaining when it comes to your website) -->
 <!-- when it comes to your website, what's the hardest to maintain? (and then present a list) -->
-website maintenance services
+<h1>Website Maintenance Service</h1>
 
 
 <?php require_once('../_includes/footer.php') ?>
