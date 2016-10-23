@@ -1,6 +1,6 @@
 <?php
 $title = "Peak Website Services";
-
+$description = "";
 ?>
 <?php require_once('_includes/header.php') ?>
 
@@ -21,7 +21,7 @@ $title = "Peak Website Services";
 					<br>
 					<a href="about.php">Read more</a>
 				</p>
-				<a href="#">See website services</a>
+				<a href="/website-services/">See website services</a>
 			</div>
 		</div>
 	</section>
