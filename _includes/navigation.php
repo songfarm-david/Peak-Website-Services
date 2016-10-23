@@ -9,20 +9,20 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="about.php">About</a></li>
+			<li><a href="/peak/index.php">Home</a></li>
+			<li><a href="/peak/about.php">About</a></li>
 			<li class="dropdown-btn">
-				<a href="website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
+				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
-						<li><a href="website-services/website-creation-services.php">Website Creation Services</a></li>
-						<li><a href="website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
-						<li><a href="website-services/website-optimization-services.php">Website Optimization Services</a></li>
+						<li><a href="/peak/website-services/website-creation-services.php">Website Creation Services</a></li>
+						<li><a href="/peak/website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
+						<li><a href="/peak/website-services/website-optimization-services.php">Website Optimization Services</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a href="what-we-do.php">Portfolio</a></li>
-			<li><a href="contact-us.php">Contact</a></li>
+			<li><a href="/peak/what-we-do.php">Portfolio</a></li>
+			<li><a href="/peak/contact-us.php">Contact</a></li>
 			<!-- <li><a href="#">FREE<br> Website Assessment</a></li> -->
 		</ul>
 	</div>
