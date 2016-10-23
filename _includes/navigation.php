@@ -9,6 +9,7 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="mission-statement.php">Mission Statement</a></li>
 			<li class="dropdown-btn">
 				<a href="website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
@@ -21,7 +22,7 @@
 				</div>
 			</li>
 			<li><a href="what-we-do.php">Portfolio</a></li>
-			<li><a href="contact-us.php">Contact</a></li>
+			<li><a href="connect.php">Connect</a></li>
 			<!-- <li><a href="#">FREE<br> Website Assessment</a></li> -->
 		</ul>
 	</div>

@@ -72,7 +72,7 @@ nav {
 				color: #111;
 				text-decoration: none;
 				.font-size(0.3);
-				opacity: .5;
+				opacity: .7;
 				transition: opacity .5s ease-in-out;
 				&:hover {
 					opacity: 1;
@@ -108,6 +108,7 @@ nav {
 #landing-page {
 	height: 100vh;
 	background-color: @secondary-color;
+	// background-image: url(../_images/man-on-top-light-leak-1.jpg);
 	background-image: url(../_images/business-on-top.jpg);
 	background-size: cover;
 	background-position: 50% center;
@@ -116,8 +117,8 @@ nav {
 	#landing-page-intro {
 		font: @header-font-900;
 		position: relative;
-		top: 29.3%;
-		left: 29.3% / 2;
+		top: 29.3% / 1.5;
+		left: 29.3% / 2.5;
 		color: white;
 		line-height: 1.2;
 		span {
@@ -125,12 +126,14 @@ nav {
 			width: auto;
 			display: block;
 			background-color: transparent;
+			line-height: 1;
 			.yellow {
 				display: inline;
-				color: @yellow;
+				color: @yellow-a;
 			}
 		}
 		>div {
+			margin-top: 2rem;
 			background-color: fadeout(@deep-purple, 70%);
 			max-width: 50% / @first-modular;
 			.base(padding,0.3);
@@ -145,7 +148,9 @@ nav {
 				margin-bottom: 0;
 				>em {
 					color: #fff;
-					text-shadow: none;
+					font-style: normal;
+					// text-shadow: none;
+					font-size: 115%;
 				}
 				a {
 					float: left;
@@ -153,7 +158,6 @@ nav {
 			}
 			a {
 				color: @secondary-color;
-				margin-top: @1-rem / @second-modular;
 				font: @header-font-400;
 				.font-size(1.4);
 				padding: 0.25rem .5rem;
@@ -181,9 +185,10 @@ nav {
 	>h2 {
 		position: absolute;
 		color: fadeout(@deep-purple, 80%);
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 		.font-size(5);
 		left: -24.81%;
-		bottom: 38.1%;
+		bottom: 38.1% / 2;
 		width: 100%;
 	}
 	h3 {
@@ -203,7 +208,7 @@ nav {
 			color: @shocking-pink;
 	}
 	div:nth-child(3) > h3 .emphasize {
-			color: @yellow;
+			color: @yellow-b;
 	}
 }
 
@@ -279,23 +284,85 @@ footer {
 
 @import 'plugins/collapse';
 
-#about {
+#about-1 {
 	height: 100vh;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	padding-top: @1-rem * 5;
 	background-repeat: no-repeat;
-	color: @deep-purple;
+	color: @egg-shell;
 	span {
 		font: @header-font-900;
 		.font-size(3);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	}
 	p {
-		color: #fff;
-		max-width: 50% / @first-modular;
-		.base(padding,0.3);
+		color: @deep-purple;
+		max-width: 70% / @first-modular;
+		// .base(padding,0.3);
+		.font-size(1);
+		margin-bottom: @1-rem * @second-modular;
 	}
 	.spin {
 		color: @hero-color;
+	}
+	a {
+		margin-right: @1-rem / @second-modular;
+		transition: all .5s ease-in-out;
+		.font-size(.7);
+		&:hover,
+		&:focus {
+			color: @hero-color;
+		}
+	}
+}
+
+#contact-main {
+	background: @secondary-color url(../_images/mosaic-squared.jpg) no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+	// &::after {
+	// 	content: "";
+	// 	position: absolute;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	right: 0;
+	// 	background-color: #000;
+	// 	opacity: 0.5;
+	// }
+	#contact-form {
+		text-align: center;
+		.row {
+			.col:last-child {
+				margin-right: 0;
+			}
+		}
+		input,
+		textarea {
+			border-width: 0 0 2px;
+			border-style: solid;
+			border-color: @secondary-color;
+			background-color: transparent;
+			border-bottom-left-radius: 1px;
+			border-bottom-right-radius: 1px;
+			height: auto;
+			padding: @1-rem / @first-modular;
+			&:focus {
+				outline: 0;
+			}
+		}
+		textarea {
+			height: auto;
+			&:focus {
+				outline: 0;
+				height: 150px;
+			}
+		}
+		input[type="submit"] {
+			margin-top: @1-rem * @first-modular;
+			width: (100% / @first-modular) / @first-modular;
+		}
 	}
 }
