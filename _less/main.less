@@ -281,6 +281,21 @@ footer {
 
 #about {
 	height: 100vh;
-	background-image: url(../_images/doodle-street-mountain.jpg);
+	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
+	padding-top: @1-rem * 5;
+	background-repeat: no-repeat;
+	color: @deep-purple;
+	span {
+		font: @header-font-900;
+		.font-size(3);
+	}
+	p {
+		color: #fff;
+		max-width: 50% / @first-modular;
+		.base(padding,0.3);
+	}
+	.spin {
+		color: @hero-color;
+	}
 }
