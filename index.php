@@ -1,3 +1,7 @@
+<?php
+$title = "Peak Website Services";
+
+?>
 <?php require_once('_includes/header.php') ?>
 
 	<header>
