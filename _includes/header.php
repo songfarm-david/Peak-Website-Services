@@ -12,6 +12,7 @@
 		<title><?php echo $title; ?></title>
 		<meta name="description" content="<?php echo $description; ?>">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="canonical" href="http://www.peakwebsites.ca">
 		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:400,900|Abel" rel="stylesheet">
 	</head>
