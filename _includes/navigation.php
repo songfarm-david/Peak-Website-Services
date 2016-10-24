@@ -10,7 +10,6 @@
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
 			<li><a href="/peak/index.php">Home</a></li>
-			<li><a href="/peak/about.php">About</a></li>
 			<li class="dropdown-btn">
 				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
@@ -21,8 +20,9 @@
 					</ul>
 				</div>
 			</li>
-			<li><a href="/peak/what-we-do.php">Portfolio</a></li>
-			<li><a href="/peak/contact-us.php">Contact</a></li>
+			<li><a href="/peak/about-peak.php">About Peak</a></li>
+			<li><a href="/peak/portfolio/">Portfolio</a></li>
+			<li><a href="/peak/contact.php">Contact</a></li>
 			<!-- <li><a href="#">FREE<br> Website Assessment</a></li> -->
 		</ul>
 	</div>
