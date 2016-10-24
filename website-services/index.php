@@ -1,6 +1,17 @@
 <!-- this page is the staging page into our web services. It will link off to website-creation-services, website maintenance services, and website optimization -->
+<?php
+$title = "Peak | Website Services";
+$description = "Peak Website Services offers everything business owners need to take the guesswork out of managing their online presence.";
+$activePage = basename($_SERVER['PHP_SELF']);
+?>
+<?php require_once('../_includes/header.php') ?>
 
-<h1>Professional Website Services for Business Owners</h1>
+<header>
+	<h1 class="hide">Peak Website Services</h1>
+	<?php include_once('../_includes/navigation.php') ?>
+</header>
+
+<h2>Professional Website Services for Business Owners</h2>
 <p>
 	Peak Website Services offers everything business owners need to take the guesswork out of managing their online presence.
 </p>

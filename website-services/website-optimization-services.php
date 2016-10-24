@@ -1,4 +1,13 @@
-<?php require_once('_includes/header.php') ?>
+<?php
+$title = "Peak | Website Optimization Services";
+$description = "";
+$activePage = basename($_SERVER['PHP_SELF']);
+?>
+<?php require_once('../_includes/header.php') ?>
+
+<header>
+	<?php include_once('../_includes/navigation.php') ?>
+</header>
 
 <h1>Website Optimization Service</h1>
 
@@ -27,4 +36,4 @@
 * Unlimited Support
 * Unlimited Content Updates
 
-<?php require_once('_includes/footer.php') ?>
+<?php require_once('../_includes/footer.php') ?>

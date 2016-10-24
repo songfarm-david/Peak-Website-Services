@@ -1,4 +1,13 @@
-<?php require_once('_includes/header.php') ?>
+<?php
+$title = "Peak | Website Creation Services";
+$description = "";
+$activePage = basename($_SERVER['PHP_SELF']);
+?>
+<?php require_once('../_includes/header.php') ?>
+
+<header>
+	<?php include_once('../_includes/navigation.php') ?>
+</header>
 
 <h1>Website Creation Service</h1>
 
@@ -44,4 +53,4 @@
 * Fully Managed Website
 * Free Domain ?
 
-<?php require_once('_includes/footer.php') ?>
+<?php require_once('../_includes/footer.php') ?>

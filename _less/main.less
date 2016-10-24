@@ -110,6 +110,7 @@ nav {
 	background-color: @secondary-color;
 	// background-image: url(../_images/man-on-top-light-leak-1.jpg);
 	background-image: url(../_images/business-on-top.jpg);
+	// background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
@@ -152,22 +153,16 @@ nav {
 					// text-shadow: none;
 					font-size: 115%;
 				}
-				a {
-					float: left;
-				}
 			}
 			a {
 				color: @secondary-color;
 				font: @header-font-400;
 				.font-size(1.4);
 				padding: 0.25rem .5rem;
-				float: right;
+				float: left;
 				margin-top: @1-rem * @first-modular;
 			}
-			// p+a {
-			// 	color: @hero-color;
-			// 	text-shadow: 0px 0px 4px #fff;
-			// }
+			// clear anchor tag inside div
 			&:after {
 				.clear-float;
 			}
@@ -190,6 +185,7 @@ nav {
 		left: -24.81%;
 		bottom: 38.1% / 2;
 		width: 100%;
+		z-index: -1;
 	}
 	h3 {
 		.font-size(1.6);

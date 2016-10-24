@@ -1,3 +1,7 @@
+<?php
+$title = "Peak Website Services";
+$description = "";
+?>
 <?php require_once('_includes/header.php') ?>
 
 	<header>
@@ -12,12 +16,9 @@
 			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
 			<div>
 				<p>
-					You know how important having the <em>right</em> website is to success online.<br>
-					Our professional website developers and designers make online success an affordable reality.
-					<br>
-					<a href="about.php">Read more</a>
+					A simple, succint tag line. Except a little bit longer.
 				</p>
-				<a href="#">See website services</a>
+				<a href="/website-services/">See website services</a>
 			</div>
 		</div>
 	</section>
@@ -32,21 +33,24 @@
 				<p>
 					Website creation services Cheesecake chupa chups chocolate cake tart. Apple pie soufflé gingerbread cake sugar plum. Gummies sweet roll marzipan cookie icing. Pudding gingerbread sugar plum cake. Powder dragée sugar plum biscuit pie brownie chocolate bar sweet roll lemon drops. Gummies sesame snaps sesame snaps cotton candy candy canes brownie sugar plum cheesecake danish. Sugar plum cupcake bear claw halvah.
 				</p>
+				<a href="website-services/website-creation-services.php">Learn more about our Website Creation Services</a>
 			</div>
 			<!-- website maintenance services -->
-				<div class="col col-4">
-					<h3>Website<br> <span class="emphasize">Maintenance</span><br> Services</h3>
-					<p>
-						Website maintenance services Apple pie lemon drops cake lollipop. Apple pie liquorice tootsie roll ice cream liquorice jujubes macaroon. Lemon drops tiramisu marshmallow fruitcake topping. Lemon drops chupa chups carrot cake macaroon dragée danish gingerbread macaroon. Croissant cookie chocolate cake jelly. Jujubes chocolate cake lemon drops oat cake.
-					</p>
-				</div>
+			<div class="col col-4">
+				<h3>Website<br> <span class="emphasize">Maintenance</span><br> Services</h3>
+				<p>
+					Website maintenance services Apple pie lemon drops cake lollipop. Apple pie liquorice tootsie roll ice cream liquorice jujubes macaroon. Lemon drops tiramisu marshmallow fruitcake topping. Lemon drops chupa chups carrot cake macaroon dragée danish gingerbread macaroon. Croissant cookie chocolate cake jelly. Jujubes chocolate cake lemon drops oat cake.
+				</p>
+				<a href="website-services/website-maintenance-services.php">Learn more about our Website Maintenance Services</a>
+			</div>
 			<!-- website optimization services -->
-				<div class="col col-4">
-					<h3>Website<br> <span class="emphasize">Optimization</span><br> Services</h3>
-					<p>
-						Website optimization services Oat cake bonbon pie chupa chups icing gingerbread sweet cheesecake. Jujubes macaroon oat cake cotton candy. Tart cotton candy cake ice cream sweet roll sugar plum pastry fruitcake topping. Marzipan dragée candy canes topping apple pie carrot cake lollipop. Muffin gummies ice cream sugar plum marzipan brownie carrot cake toffee. Gummi bears pastry caramels jujubes. Cake wafer danish pie cookie cheesecake powder bonbon. Jelly-o cookie candy danish fruitcake pastry toffee gummi bears.
-					</p>
-				</div>
+			<div class="col col-4">
+				<h3>Website<br> <span class="emphasize">Optimization</span><br> Services</h3>
+				<p>
+					Website optimization services Oat cake bonbon pie chupa chups icing gingerbread sweet cheesecake. Jujubes macaroon oat cake cotton candy. Tart cotton candy cake ice cream sweet roll sugar plum pastry fruitcake topping. Marzipan dragée candy canes topping apple pie carrot cake lollipop. Muffin gummies ice cream sugar plum marzipan brownie carrot cake toffee. Gummi bears pastry caramels jujubes. Cake wafer danish pie cookie cheesecake powder bonbon. Jelly-o cookie candy danish fruitcake pastry toffee gummi bears.
+				</p>
+				<a href="website-services/website-optimization-services.php">Learn more about our Website Optimization Services</a>
+			</div>
 		</div>
 
 	</section>

@@ -9,10 +9,11 @@
 		<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Peak Website Services</title>
-		<meta name="description" content="">
+		<title><?php echo $title; ?></title>
+		<meta name="description" content="<?php echo $description; ?>">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
-		<link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet">
+		<link rel="canonical" href="http://www.peakwebsites.ca">
+		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:400,900|Abel" rel="stylesheet">
 	</head>
 	<body>
