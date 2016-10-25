@@ -4,6 +4,9 @@
 	Stress the importance of having an effective online business in today's day and age.
 	Google Analytics
 
+## Survey
+	It is important to factor in the aspect of collective customer satisfaction surveys and to best leverage
+	my customer in order to attract and retain future ones.
 ## Contact Form Fields:
 	- name (?)
 	- email (required)
@@ -62,6 +65,8 @@
 	* Daily Back-Up
 	* [Canadian Hosted Website](http://www.seriouslycreative.ca/local-web-hosting/)
 		> If you want to protect your data from the likes of the Patriot Act and The Donald then hosting your website and email on a Canadian Hosting Server is the way to go.
+
+	* [More Canadian hosting](http://www.cirrushosting.com/web-hosting-blog/the-benefits-of-choosing-a-canadian-web-host-over-a-us-hosting-company.html)
 
 ### website optimization
 	* security (SSL) certificate
