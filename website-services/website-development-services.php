@@ -2,15 +2,17 @@
 $title = "Peak | Website Development Services";
 $description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
 $h1 = "Website Development Services";
+$h2 = "Website Development Service";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
 	<main class="container service-container">
+
 		<!-- web development service -->
 		<section class="intro-service">
 			<div class="">
-				<h2 class="invisible"><?php echo $activePage; ?></h2>
+				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 				<p>
 					Whether you need a brand new website or just want to give your existing one a makeover, our professional web developers and designers can design and develop a modern, <a href="/peak/faq#mobile-first">mobile-first</a>, professional website that not only looks good but works for your business.

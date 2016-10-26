@@ -2,15 +2,17 @@
 $title = "Peak | Website Optimization Services";
 $description = "Affordable website optimization services, search engine optimization services for small businesses and online businesses. SEO service packages available, too.";
 $h1 = "Website Optimization Services";
+$h2 = "Website Optimization Service";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
 	<main class="container service-container">
+
 		<!-- Web Optimization Services -->
 		<section class="intro-service">
 			<div class="">
-				<h2 class="invisible">Website Optimization Services</h2>
+				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span></span>
 				<p>
 
