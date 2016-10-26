@@ -1,7 +1,7 @@
 #todo
 Complete info on Canadian Based Web Hosting (Website Maintenance Service)
 Complete info on Monthly Health Reports (Website Maintenance Service)
-Revisit copy on website-services/index.php
+Revisit copy on website-services/index.php, write service paragraphs
 Finish Contact Form/Questionnaire
 Review/Complete FAQ
 
