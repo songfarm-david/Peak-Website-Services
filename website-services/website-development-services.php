@@ -1,61 +1,74 @@
 <?php
-$title = "Peak | Website Creation Services";
+$title = "Peak | Website Development Services";
 $description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
 <header>
+	<h1 class="hide">Website Development Services</h1>
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<h1 class="hide">Website Development Services</h1>
+<section>
+	<h2>Website Development Service</h2>
+	<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 
-<!-- <section>
-	<h2>Do I need a website if I do business online?</h2>
 	<p>
-		If you do business online, or plan on having your own online business, having a website is essential to your online success. Besides representing your business online, a website is where site visitors have an opportunity to become paying customers.
+		Whether you need a brand new website or just want to give your existing one a makeover, our professional web developers and designers can design and develop a modern, <a href="faq#mobile-first">mobile-first</a>, professional website that not only looks good but works for your business.
 	</p>
-	<p>
-		The unfortunate fact, however, is that too many websites today make converting visitors harder than it needs to be and what might have started off as paying customer for your business is now one for your <u>competitors</u>.
-	</p>
-	<p>
-		Peak Creative is different. We think a website should serve a clear purpose, and that that purpose should guide and inform everything else. Every project begins by first understanding the goal of the project. That is step one of the <a href="">website creation process</a>.
-	</p>
-	<p>
-		From there...
-	</p>
-	<blockquote cite="http://">
-		"The purpose of having a website is to convert site visitors into paying customers" (can search 'what is the purpose of having a website or smthg')
-	</blockquote>
-	<p>
-		We know first hand what goes into creating a website and getting it off the ground. From content writing and brand creation to website hosting and maintenance services, Peak Creative gives you everything you need to create, establish, and maintain a purposeful and effective web presence online.
-	</p>
-	<p>
-		Find out how affordable it is to Create a Website for your business with Peak Website Services (to pricing)?
-	</p>
-	<h2>What else is included in the Website Development Service</h2>
-</section> -->
+
+	<a href="#">Give us a call</a> to get a quote or <a href="#">Submit a Questionnaire</a>
+
+	<section>
+		<h3>What's Included?</h3>
+		<p>
+			We include the following in every website we do:
+		</p>
+		<ul>
+			<li>
+				<span>No limit on number of pages</span>
+				<p>
+					We believe a website is done when it's done, that's why we don't go by the page.
+				</p>
+			</li>
+			<li>
+				<span>Mobile Friendly &amp; Responsive</span>
+				<p>
+					Every website we build behaves as expected from device to device and on mobile.
+				</p>
+			</li>
+			<li>
+				<span>Accessible</span>
+				<p>
+					Your online business should be accessible to everyone. We make sure that it is.
+				</p>
+			</li>
+		</ul>
+	</section>
+
+	<section>
+		<h3>Additional Services</h3>
+		<p>
+			Apart from our website design and development services, we also offer:
+		</p>
+		<ul>
+			<li><a href="content-creation-services.php">Content Creation Services</a></li>
+			<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding</a> Services and Packages</li>
+			<li>Logo &amp; Graphic Design</li>
+		</ul>
+	</section>
+</section>
 
 
-
-
-
-
-### website creation services
-- We offer content writing and creative services for creating new websites, or improving an existing website.
-- Maybe describe the creation services process in a little bit of detail so they know what's involved?
-* content creation (extra $$$)
-* branding services (logo)
-* unlimited content updates *this needs to be specified somewhere to define the term*
-* You Own Your Website. No contracts.
-* Unlimited Pages
-* Fully Managed Website
-* Free Domain ?
-
-- Content Writing
-	Present your product or service in it's best light based on your personality + lead your visitors to take action on your business goals
-- Graphic Design and Creation
-- Branding packages and Logo
+	<section>
+		<h4>Need Help Getting your Site Online?</h4>
+		<p>
+			You've "got" a website. Now what?
+		</p>
+		<p>
+			As part of our Website Services, we also offer <a href="#">Website Maintenance Services</a>. Included in this are top-quality <a href="faq#canadian-hosting">Canadian-Hosting</a> and ...
+		</p>
+	</section>
 
 <?php require_once('../_includes/footer.php') ?>
