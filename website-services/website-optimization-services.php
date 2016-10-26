@@ -38,6 +38,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 * Unlimited Content Updates
 
 Maybe include an SEO strategy development diagram or model of the process.
+1. Understand what the company offers, exactly what are their services? Be as specific as possible.
+2. Thorough Keyword Research + Distribution plan based on website goals and content strategy.
+3. Build Content around Keyword research.
 
 "Content created around thorough keyword research based on your target market. Why is this important?""
 
