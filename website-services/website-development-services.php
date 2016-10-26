@@ -1,6 +1,6 @@
 <?php
 $title = "Peak | Website Creation Services";
-$description = "";
+$description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
@@ -9,7 +9,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<h1>Website Creation Service</h1>
+<h1>Website Development Service</h1>
 
 <section>
 	<h2>Do I need a website if I do business online?</h2>
@@ -34,7 +34,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<p>
 		Find out how affordable it is to Create a Website for your business with Peak Website Services (to pricing)?
 	</p>
-	<h2>What else is included in the Website Creation Service</h2>
+	<h2>What else is included in the Website Development Service</h2>
 </section>
 
 

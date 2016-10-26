@@ -1,6 +1,6 @@
 <?php
 $title = "Peak | Website Optimization Services";
-$description = "";
+$description = "Affordable website optimization services, search engine optimization services for small businesses and online businesses. SEO service packages available, too.";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
@@ -10,6 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 </header>
 
 <h1>Website Optimization Service</h1>
+<h2>Affordable SEO Packages</h2>
 
 <p>
 	Anyone who's serious about the success of their online business understands the importance of optimizing their website for site visitors and the search engines. An optimized website not only improves your visibility on the search engine result pages but improves the user experience for your site visitors, which ultimately leads to higher levels of success.
