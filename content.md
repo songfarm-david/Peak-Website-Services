@@ -178,6 +178,7 @@
 
 ##Pricing
 	Look at [squarex](http://www.squarex.ca/web-maintenance/) for immediate inspiration for pricing tables
+	Also, [Dryfive](http://www.dryfive.com/website-packages)
 
 ### SEO E-Book
 	Keep in your back pocket the idea of creating and selling an SEO E-Book.
@@ -202,6 +203,7 @@
 	* Digital Marketing Services
 
 ### List of Immediate and Broad competitors
+	GeekOnTheBeach
 	SeriouslyCreative.ca
 	AtomicCrayon
 	DryFive
