@@ -1,14 +1,19 @@
 <footer>
 	<!-- <div> -->
 	<article id="contact-info">
-		<h3>Contact:</h3>
+		<h3>Contact</h3>
 		<ul>
-			<li><span><a href="tel:2503883993">Phone: 250-388-3993</a></span></li>
-			<li><span><a href="tel:2503883973">Fax: 250-388-3973</a></span></li>
-			<li><span><a href="tel:18773883993">Toll-free: 1-877-388-3993</a></span></li>
+			<li><a href="tel:2503883993">250-592-2141</a></li>
+			<li><a href="mailto:david@peakwebsites.ca">david@peakwebsites.ca</a></li>
 		</ul>
 	</article>
-		<article id="newsletter">
+	<section>
+		<h3>Get a FREE Website Assessment</h3>
+		<p>
+			Fill out a short questionnaire about your website and we'll tell you what we think about your website in terms of its ...
+		</p>
+	</section>
+		<!-- <article id="newsletter">
 			<h3>Sign Up for Our Newsletter</h3>
 			<form class="" action="index.html" method="post">
 				<fieldset>
@@ -19,9 +24,9 @@
 					</div>
 				</fieldset>
 			</form>
-		</article>
+		</article> -->
 		<article id="mission-statement">
-			<h3>Peak Website Services</h3>
+			<h3>About Peak Website Services</h3>
 			<p>
 				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
 			</p>
