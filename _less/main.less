@@ -197,15 +197,19 @@ nav {
 			font-weight: 900;
 		}
 	}
-	div:nth-child(1) > h3 .emphasize {
+	div.col>a:first-of-type {
+		text-decoration: none;
+	}
+	div:nth-child(1) > a>h3 .emphasize {
 			color: @tiffany-blue;
 	}
-	div:nth-child(2) > h3 .emphasize {
+	div:nth-child(2) > a>h3 .emphasize {
 			color: @shocking-pink;
 	}
-	div:nth-child(3) > h3 .emphasize {
+	div:nth-child(3) > a>h3 .emphasize {
 			color: @yellow-b;
 	}
+
 }
 
 footer {
@@ -378,6 +382,20 @@ footer {
 			border-width: 2px;
 			margin-top: @1-rem * @first-modular;
 			width: (100% / @first-modular) / @first-modular;
+		}
+	}
+}
+
+.container.service-container {
+	padding-top: @1-rem * 5;
+	.intro-service {
+		.border(green);
+		>h2 {
+			// styled smaller
+			.font-size(2.5);
+		}
+		span {
+			.font-size(1.5);
 		}
 	}
 }
