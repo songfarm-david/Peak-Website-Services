@@ -3,6 +3,7 @@
 ## Survey
 	It is important to factor in the aspect of collective customer satisfaction surveys and to best leverage
 	my customer in order to attract and retain future ones.
+	I saw a survey example somewhere that was quite effective but also provided the webmaster with important, smart data.
 
 ## Contact Form Fields:
 	- name (?)
@@ -23,7 +24,7 @@
 	Total Web Services so you focus on running your business
 	Get Your Website Working For Your Business
 
-### website creation services
+### website development services
 	* expert coded, **custom** websites or template websites (keywords here)
 	* SEO Enhanced (except better phrasing)
 	* Fast & Secure Websites
@@ -33,8 +34,6 @@
 	* Built strong under-the-hood
 	* User Experience/Accessibility in Mind
 	* Quick turn-around
-
-### website creation services
 	- We offer content writing and creative services for creating new websites, or improving an existing website.
 	- Maybe describe the creation services process in a little bit of detail so they know what's involved?
 	* content creation (extra $$$)
@@ -45,6 +44,11 @@
 	* Fully Managed Website
 	* Free Domain ?
 	* Talk about Blog functionality, E-commerce, CMS capabilities
+	When setting off for the online world, employing a professional to act as guide as you navigate your way up the rock face will ensure a higher level of success than going it alone. Whatever your website requirement, Peak Creative Website Services will lead you to the solution, and if we can't, you'll have already received a free consultation?
+	Talk about integrating online stores, email marketing functionality, e-commerce, content management systems for managing your client/product databases.
+	We can translate your vision into reality.
+	-Provide Analytic Reports on your biggest sellors/smallest sellors.
+	Good Services + Explanations here [Peak Designs](http://www.peakdesign.net/services), also [here](http://www.peakdesign.net/get-convert-nurture#GCN)
 
 ### website hosting services
 	- Explain, as if to a 5 year old, what website hosting is first.
@@ -52,6 +56,15 @@
 	- We offer website & database migration (website migration is typically free, custom code for migration will become billable).
 	- Ensure that we can make the whole process - hosting and migration - painless.
 	- We will also set up your Domain Name Registration, Website Emails.
+
+
+	Having a fast and reliable website is a necesary ingredient for online business success (today).  After all, your website if your online storefront and as such is open 365 days a year. As for site visitors, they expect to quickly and reliably find what they're looking for. If your website is too slow, or worse yet, is offline
+
+	Having a website that loads fast and is reliable is a necesary ingredient for online business success. For online businesses, your website is your store, and visitors people nowadays expect to be able to quickly and reliably get what they want when they , otherwise they won't likely visit again.
+
+	24 hours a day, 365 days a year, you can rest assured your website is operating the way it should.
+
+	There's a lot involved in running a website, least of all a website that is reliably online, fast for users, and performing as expected.
 
 	This will be based on the hosting provider that I choose to partner with.
 	* Server-Side Modifications/Updates/Requirements
@@ -65,7 +78,20 @@
 
 	* [More Canadian hosting](http://www.cirrushosting.com/web-hosting-blog/the-benefits-of-choosing-a-canadian-web-host-over-a-us-hosting-company.html)
 
-### website optimization
+## website optimization services
+	Anyone who's serious and committed about their online business strives to increase the impact their time and money has towards having their website working *for them*. Search Engine Optimization, or SEO, as it's referred to more commonly in industry, is the ongoing process of remaining relevant and consistently connecting in the search results to your online target audience. That's how you get your online business working FOR you.
+	However, SEO is not a set it and forget it affair. It requires careful course correction and somebody who knows how to steer the ship.
+	Peak's Website Optimization Web Service ideally begins at the very beginning of your online business life span; if you're not currently seeing the kind of results you were hoping for, don't worry, it's never too late to re-direct the ship.
+	We begin by getting a broad sense of your particular market climate, the competition, and any unique opportunities and potential that becomes apparent through our research efforts. We also get a clear feel of the current health of your web presence in light of your competitors and your desired goal.
+	Not only do we oversee the journey, we also provide our clients with valuable and clarifying reports and projections surrounding the health and visibility of your website.
+	When it comes to SEO, strong planning and patience is rewarded. Fortunately for us, those are two of our strong suits. Allow us to guide your online business to acheive for your website optimal visibility for your key audience and begin to fulfill your online business goals.
+	website opt. services include:
+	* Link-Building Activities
+	* Ensuring crawls and SEO health
+	* AdWords Campaigns
+	* Local SEO
+	* Citations
+	* Reviews
 	* security (SSL) certificate
 	* SEO Campaign Management
 	* Keyword Research & Analysis
@@ -132,7 +158,7 @@
 	* Unlimited Content Updates
 		I will update content for them no problem but I must describe what unlimited content updates is not.
 
-# Our Process - The Website Creation Model for Small Online Business
+### Our Process - The Website Creation Model for Small Online Business
 	Here we would discuss our approach to our work for our clients.
 	1. Determine the target: What is the ultimate goal/goals of our engagement? Are their any technical/browser requirements for this project?
 		This is defining a clear picture or idea of what the end result of the product/project will be.
@@ -145,33 +171,6 @@
 	5. Launch
 		The website is ready for launch. Up to now, we have registered your unique domain name and set up your online business with high-speed, secure web hosting. You're all ready to go. Now what? (This could link to a "maintenance" service page).
 	* This web service includes keeping your website online (so they pay me to pay the web host, to make sure their website stays online, that their domain name remains registered, etc...) What's that worth to me?
-
-#Website Creation Service
-	When setting off for the online world, employing a professional to act as guide as you navigate your way up the rock face will ensure a higher level of success than going it alone. Whatever your website requirement, Peak Creative Website Services will lead you to the solution, and if we can't, you'll have already received a free consultation?
-	Talk about integrating online stores, email marketing functionality, e-commerce, content management systems for managing your client/product databases.
-	We can translate your vision into reality.
-	-Provide Analytic Reports on your biggest sellors/smallest sellors.
-	Good Services + Explanations here [Peak Designs](http://www.peakdesign.net/services), also [here](http://www.peakdesign.net/get-convert-nurture#GCN)
-
-#Website Maintenance Service/The Website LifeCycle
-	Websites don't live in a vacuum. Like most things, they need to be *maintained*. As technology evolves, one must keep a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
-	Peak Maintenance Service includes:
-	* website analytics tracking
-
-#Website Optimization
-	Anyone who's serious and committed about their online business strives to increase the impact their time and money has towards having their website working *for them*. Search Engine Optimization, or SEO, as it's referred to more commonly in industry, is the ongoing process of remaining relevant and consistently connecting in the search results to your online target audience. That's how you get your online business working FOR you.
-	However, SEO is not a set it and forget it affair. It requires careful course correction and somebody who knows how to steer the ship.
-	Peak's Website Optimization Web Service ideally begins at the very beginning of your online business life span; if you're not currently seeing the kind of results you were hoping for, don't worry, it's never too late to re-direct the ship.
-	We begin by getting a broad sense of your particular market climate, the competition, and any unique opportunities and potential that becomes apparent through our research efforts. We also get a clear feel of the current health of your web presence in light of your competitors and your desired goal.
-	Not only do we oversee the journey, we also provide our clients with valuable and clarifying reports and projections surrounding the health and visibility of your website.
-	When it comes to SEO, strong planning and patience is rewarded. Fortunately for us, those are two of our strong suits. Allow us to guide your online business to acheive for your website optimal visibility for your key audience and begin to fulfill your online business goals.
-	website opt. services include:
-	* Link-Building Activities
-	* Ensuring crawls and SEO health
-	* AdWords Campaigns
-	* Local SEO
-	* Citations
-	* Reviews
 
 ##Portfolio
 	The portfolio section does not need to follow any particular format, although it does have to be pleasing and intuitive for visitors. One idea is to have added testimonials around the client/subject, as well as adding a preface about the project and 'prev/next' buttons for going on to the next portfolio item.
@@ -213,9 +212,6 @@
 	braizen
 
 ### CMS/ECommerce ??
-
-### Survey
-	I saw a survey example somewhere that was quite effective but also provided the webmaster with important, smart data.
 
 ### Newsletter
 	Is it worth my while getting visitors/clients to sign up for something?
