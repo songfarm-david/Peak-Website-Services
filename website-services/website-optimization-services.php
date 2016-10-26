@@ -9,7 +9,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<h1>Website Optimization Service</h1>
+<h1 class="hide">Website Optimization Services</h1>
+
 <h2>Affordable SEO Packages</h2>
 
 <p>

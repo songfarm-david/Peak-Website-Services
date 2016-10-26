@@ -9,9 +9,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<h1>Website Development Service</h1>
+<h1 class="hide">Website Development Services</h1>
 
-<section>
+<!-- <section>
 	<h2>Do I need a website if I do business online?</h2>
 	<p>
 		If you do business online, or plan on having your own online business, having a website is essential to your online success. Besides representing your business online, a website is where site visitors have an opportunity to become paying customers.
@@ -35,7 +35,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		Find out how affordable it is to Create a Website for your business with Peak Website Services (to pricing)?
 	</p>
 	<h2>What else is included in the Website Development Service</h2>
-</section>
+</section> -->
 
 
 
@@ -52,5 +52,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 * Unlimited Pages
 * Fully Managed Website
 * Free Domain ?
+
+- Content Writing
+	Present your product or service in it's best light based on your personality + lead your visitors to take action on your business goals
+- Graphic Design and Creation
+- Branding packages and Logo
 
 <?php require_once('../_includes/footer.php') ?>
