@@ -386,16 +386,28 @@ footer {
 	}
 }
 
+// website service pages
 .container.service-container {
-	padding-top: @1-rem * 5;
 	.intro-service {
-		.border(green);
-		>h2 {
-			// styled smaller
-			.font-size(2.5);
-		}
-		span {
-			.font-size(1.5);
+		padding-top: @1-rem * 4;
+		>div {
+			height: 100vh;
+			.base(padding, 1);
+			>h2 {
+				// styled smaller
+				font: @body-font;
+				.font-size(@second-modular/2);
+			}
+			>span {
+				display: block;
+				margin-top: @1-rem * @first-modular;
+				line-height: @line-height;
+				.font-size(2);
+			}
+			p {
+				margin-top: @1-rem * @first-modular;
+				.font-size(1);
+			}
 		}
 	}
 }

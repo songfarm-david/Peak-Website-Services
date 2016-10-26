@@ -7,8 +7,18 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 	<main class="container service-container">
-
+		<!-- Web Optimization Services -->
 		<section class="intro-service">
+			<div class="">
+				<h2 class="invisible">Website Optimization Services</h2>
+				<span></span>
+				<p>
+
+				</p>
+				<p><a href="#"></a></p>
+			</div>
+
+			<!-- Included Services -->
 
 		</section>
 
