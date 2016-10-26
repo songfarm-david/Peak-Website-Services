@@ -19,7 +19,22 @@
 
 	**and redesigns!!**
 
-## Website Maintenance
+## Website Maintenance (Hosting)
+	What is it:
+	We look after your website 365 days of year because you have more important things to do.
+
+	You have more important things to do than worry about maintaining your website. The good news is: you don't have to.
+
+	Website Maintenance Services
+
+	Our *professional development whatevers*  
+
+	- Fully Managed*
+		We look after everything and provide you with regular reports of the health and performance of your site.
+	- **You Own It.**
+	You own everything. We make sure everything is working as it should. Domain name and hosting is included in *monthly website maintenance plan*
+	You own the website and the domain name
+
 	360 degree control of your websites presence and management.
 	We host your site for you.
 	- Explain what is website hosting?
@@ -45,22 +60,21 @@
 	Website Quality Assurance
 	Speed Test
 
-### Secondary Services
-	- Content Writing
-		Present your product or service in it's best light based on your personality + lead your visitors to take action on your business goals
-	- Graphic Design and Creation
-	- Branding packages and Logo
-
 ## Secondary Features
 	- Accessible
+		All our website our developed, maintained, and optimized with accessibility in mind. That means that anyone can use your website. You can think of it like an accessibility ramp into your online store.
+		(link)read more about accesibility here
+			* could link to some accessibility resources
 	- Mobile Friendly
+		[Mobile usage is on the rise](link) compared to Desktops. Good thing we've got you covered. Every website we build is developed for (mobile-first). Not only will it look good on mobile. It'll work.
+		 so that it looks good - and more importantly - works on mobile.
 	- Search Engine Compliant
+		We are experts in the language of the web. We believe in writing code that works. Every piece of code is written to get the most effectiveness and efficiency out of the search engine. Best practices, SE optimized
 	- Responsive
+		Nowadays we expect our website to look good on everything, from an iPhone to a tablet. Responsive web design means that our websites transform and adapt to any device and are such responsive!
 	- Unlimited Content Updates
-	- Unlimited Pages
-	- Fully Managed*
-	- We take care of Domain Name and Hosting setup and maintenance.
+		At the end of the day, I want you, the customer, to be satisfied with the service you receive. That's why we go the extra mile to ensure you receive our fullest effort and that we maintain consistent to our high standard of quality. Remember, we are only a phone call away.
 
 ## Further
  - Better Business Accreditation
- - Get an SSL certificate for the site
+ - Get an SSL certificate for the site **research this**

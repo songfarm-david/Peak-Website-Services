@@ -36,8 +36,22 @@ There's a lot involved in running a website, least of all a website that is reli
 	Canadian Hosting & Domain Registration
 	Blog/E-Commerce Integration
 	Server
-	Databases
+	Database Setup
+	Website/Database Migrations
 	Emails
+	Google Analytics
+	Crawl Errors
+	Content Updates
+	You own it
+	Free Domain included in the price? * (really that important)?
+	Site Monitoring
+	Monthly Health Reports
+	Daily Back-Up
+	Security 	* security (SSL) certificate
+
+	[Canadian Hosted Website](http://www.seriouslycreative.ca/local-web-hosting/)
+		> If you want to protect your data from the likes of the Patriot Act and The Donald then hosting your website and email on a Canadian Hosting Server is the way to go.
+	[More Canadian hosting](http://www.cirrushosting.com/web-hosting-blog/the-benefits-of-choosing-a-canadian-web-host-over-a-us-hosting-company.html)
 </p>
 
 <h3>Website Maintenance Plan</h3>

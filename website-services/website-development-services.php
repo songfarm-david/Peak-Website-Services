@@ -27,6 +27,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</p>
 		<ul>
 			<li>
+				<!-- this point needs a caret or special clause because i can't do that for them ad infinit-->
 				<span>No limit on number of pages</span>
 				<p>
 					We believe a website is done when it's done, that's why we don't go by the page.
@@ -36,6 +37,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<span>Mobile Friendly &amp; Responsive</span>
 				<p>
 					Every website we build behaves as expected from device to device and on mobile.
+				</p>
+			</li>
+			<li>
+				<span>SEO Enhanced</span>
+				<p>
+					
 				</p>
 			</li>
 			<li>

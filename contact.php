@@ -2,6 +2,7 @@
 $title = "Contact Peak Website Services";
 $description = "";
 ?>
+<!-- NOTE: in this page I want to touch on that they will get back an assessment from me that will include some cool stuff. Or.. where can I do that?? See 'Free Assessment on content.md' -->
 <?php require_once('_includes/header.php') ?>
 	<header>
 		<h1 class="h3 hide">Contact Peak Website Services</h1>
