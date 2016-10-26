@@ -6,12 +6,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 <header>
+	<h1 class="hide">Website Optimization Services</h1>
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<h1 class="hide">Website Optimization Services</h1>
+	<main class="container service-container">
 
-<h2>Affordable SEO Packages</h2>
+		<section class="intro-service">
+
+		</section>
+
+	</main>
+
+
+<!-- <h2>Affordable SEO Packages</h2>
 
 <p>
 	Anyone who's serious about the success of their online business understands the importance of optimizing their website for site visitors and the search engines. An optimized website not only improves your visibility on the search engine result pages but improves the user experience for your site visitors, which ultimately leads to higher levels of success.
@@ -37,12 +45,14 @@ $activePage = basename($_SERVER['PHP_SELF']);
 * Keyword Research & Analysis
 * Unlimited Support
 * Unlimited Content Updates
+Google Analytics
+
 
 Maybe include an SEO strategy development diagram or model of the process.
 1. Understand what the company offers, exactly what are their services? Be as specific as possible.
 2. Thorough Keyword Research + Distribution plan based on website goals and content strategy.
 3. Build Content around Keyword research.
 
-"Content created around thorough keyword research based on your target market. Why is this important?""
+"Content created around thorough keyword research based on your target market. Why is this important?"" -->
 
 <?php require_once('../_includes/footer.php') ?>

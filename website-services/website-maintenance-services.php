@@ -5,14 +5,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-<header>
-	<h1 class="hide">Website Maintenance Services</h1>
-	<?php include_once('../_includes/navigation.php') ?>
-</header>
+	<header>
+		<h1 class="hide">Website Maintenance Services</h1>
+		<?php include_once('../_includes/navigation.php') ?>
+	</header>
 
-	<main class="container">
+	<main class="container service-container">
+
 		<!-- web maintenance service -->
-		<section>
+		<section class="intro-service">
 			<h2>Website Maintenance Service</h2>
 			<span>You have more important things to do than worry about maintaining a website. The good news is: you don't have to.</span>
 			<p>
@@ -77,6 +78,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				Let us take you there. Learn about our <a href="./website-services/website-optimization-services.php">Website Optimization Services</a>
 			</p>
 		</section>
+
 	</main>
 
 
