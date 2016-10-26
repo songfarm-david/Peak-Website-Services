@@ -1,14 +1,10 @@
 <?php
 $title = "Peak | Website Maintenance Services";
 $description = "Affordable website maintenance services, website hosting and management services and more for small business owners. Website maintenance plans available, too.";
+$h1 = "Website Maintenance Services";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
-
-	<header>
-		<h1 class="hide">Website Maintenance Services</h1>
-		<?php include_once('../_includes/navigation.php') ?>
-	</header>
 
 	<main class="container service-container">
 
@@ -80,8 +76,5 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</section>
 
 	</main>
-
-
-
 
 <?php require_once('../_includes/footer.php') ?>

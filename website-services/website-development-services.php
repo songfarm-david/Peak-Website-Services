@@ -1,14 +1,10 @@
 <?php
 $title = "Peak | Website Development Services";
 $description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
+$h1 = "Website Development Services";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
-
-	<header>
-		<h1 class="hide">Website Development Services</h1>
-		<?php include_once('../_includes/navigation.php') ?>
-	</header>
 
 	<main class="container service-container">
 		<!-- web development service -->
@@ -94,7 +90,5 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</p>
 		</section>
 	</main>
-
-
 
 <?php require_once('../_includes/footer.php') ?>

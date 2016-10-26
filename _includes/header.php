@@ -21,3 +21,8 @@
 				<script src="_js/vendor/html5shiv.js"></script>
 				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
+
+		<header>
+			<h1 class="hide"><?php echo $h1; ?></h1>
+			<?php include_once('navigation.php') ?>
+		</header>
