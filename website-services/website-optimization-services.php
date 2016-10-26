@@ -36,4 +36,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 * Unlimited Support
 * Unlimited Content Updates
 
+Maybe include an SEO strategy development diagram or model of the process.
+
+"Content created around thorough keyword research based on your target market. Why is this important?""
+
 <?php require_once('../_includes/footer.php') ?>
