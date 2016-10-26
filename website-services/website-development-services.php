@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<li>
 				<span>SEO Enhanced</span>
 				<p>
-					
+
 				</p>
 			</li>
 			<li>
@@ -69,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 
 	<section>
-		<h4>Need Help Getting your Site Online?</h4>
+		<h2>Need Help Getting your Site Online?</h2>
 		<p>
 			You've "got" a website. Now what?
 		</p>
