@@ -6,55 +6,80 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 <header>
+	<h1 class="hide">Website Maintenance Services</h1>
 	<?php include_once('../_includes/navigation.php') ?>
 </header>
 
-<!-- (this page should have a survey: what is the number one thing you struggling with maintaining when it comes to your website) -->
-<!-- when it comes to your website, what's the hardest to maintain? (and then present a list) -->
-<h1 class="hide">Website Maintenance Services</h1>
+	<main class="container">
+		<!-- web maintenance service -->
+		<section>
+			<h2>Website Maintenance Service</h2>
+			<span>You have more important things to do than worry about maintaining a website. The good news is: you don't have to.</span>
+			<p>
+				Websites don't live in a vacuum. Like most things, they need to be *maintained*. As technology and the demands of your audience changes and evolves, you will want someone keeping a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
+			</p>
+			<p>
+				Find out more about our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plan</a>
+			</p>
+			<section>
+				<h3>Included in a Website Maintenance Plan</h3>
+				<p>
+					Our Website Maintenance Service Plan includes everything you need to keep your website running as expected. Best of all, it's like having your own personal IT guy. Every Website Maintenance Plan comes standard with the following:
+				</p>
+				<ul>
+					<li>
+						<span>Fast &amp; Reliable Canadian-based Website Hosting</span>
+						<p>
+							We host all our websites on <a href="/peak/faq#canadian-hosting">Canadian soil</a> and run on one of the best... which means... They are backup daily and monitored around the clock. We gaurantee a 99.9% uptime on all our websites.
+						</p>
+						<small>
+							<a href="/peak/faq#existing-host">Already have a host?</a>
+						</small>
+					</li>
+					<li>
+						<span>Unlimited Content Updates</span>
+						<p>
+							Website don't exist in a vacuum. They need to grow and change, too, otherwise they risk getting stale. Included in our Website Maintenance Plan is actively maintaining and updating your content as the needs of your customers and business change.
+						</p>
+						<small>
+							Need a new logo for your business or want to integrate an e-commerce store? Please see our <a href="/peak/website-services/website-development-services.php#additional-services">Website Development Services</a>
+						</small>
+					</li>
+					<li>
+						<span>Unlimited Support</span>
+						<p>
+							When you work with us, we're always just a <a href="/peak/contact.php">phone call</a> away. You can think of us as your personal, professional IT guy.
+						</p>
+					</li>
+					<li>
+						<span>Google Analytics, Website Monitoring, &amp; Monthly Health Reports</span>
+						<p>
+							We keep on eye on your website for you so you can run your business. But we also believe it's important to keep you in the know, as well. That's why we provide <a href="/peak/faq#monthly-website-health-report">Monthly Website Health Reports</a> so you can keep your eye on the bigger picture.
+						</p>
+					</li>
+					<li>
+						<span>Retained Ownership</span>
+						<p>
+							We don't own anything. The Domain Name, the Custom Website. You are in control.
+						</p>
+					</li>
+				</ul>
+			</section>
+		</section>
 
-<p>You have more important things to do than worry about maintaining a website. The good news is: you don't have to.</p>
+		<!-- Website Optimization -->
+		<section>
+			<h2>Optimize your Website for Best Results</h2>
+			<p>
+				The best website in the world becomes worthless if noone knows about it. A big part of making it online is being sure your website is showing up on the search results page and being seen by the right people.
+			</p>
+			<p>
+				Let us take you there. Learn about our <a href="./website-services/website-optimization-services.php">Website Optimization Services</a>
+			</p>
+		</section>
+	</main>
 
-<h2>Website Maintenance Service</h2>
 
-Having a fast and reliable website is a necesary ingredient for online business success (today).  After all, your website if your online storefront and as such is open 365 days a year. As for site visitors, they expect to quickly and reliably find what they're looking for. If your website is too slow, or worse yet, is offline
-
-<h3>Domain Name Registration</h3>
-
-<h3>Hosting</h3>
-- We take care of Domain Name and Hosting setup and maintenance.
-
-
-Having a website that loads fast and is reliable is a necesary ingredient for online business success. For online businesses, your website is your store, and visitors people nowadays expect to be able to quickly and reliably get what they want when they , otherwise they won't likely visit again.
-
-24 hours a day, 365 days a year, you can rest assured your website is operating the way it should.
-
-There's a lot involved in running a website, least of all a website that is reliably online, fast for users, and performing as expected.
-
-<p>
-	Reliable & Fast
-	Canadian Hosting & Domain Registration
-	Blog/E-Commerce Integration
-	Server
-	Database Setup
-	Website/Database Migrations
-	Emails
-	Google Analytics
-	Crawl Errors
-	Content Updates
-	You own it
-	Free Domain included in the price? * (really that important)?
-	Site Monitoring
-	Monthly Health Reports
-	Daily Back-Up
-	Security 	* security (SSL) certificate
-
-	[Canadian Hosted Website](http://www.seriouslycreative.ca/local-web-hosting/)
-		> If you want to protect your data from the likes of the Patriot Act and The Donald then hosting your website and email on a Canadian Hosting Server is the way to go.
-	[More Canadian hosting](http://www.cirrushosting.com/web-hosting-blog/the-benefits-of-choosing-a-canadian-web-host-over-a-us-hosting-company.html)
-</p>
-
-<h3>Website Maintenance Plan</h3>
 
 
 <?php require_once('../_includes/footer.php') ?>
