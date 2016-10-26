@@ -1,12 +1,9 @@
 # Peak Website Services
 
-## General Notes:
-	Stress the importance of having an effective online business in today's day and age.
-	Google Analytics
-
 ## Survey
 	It is important to factor in the aspect of collective customer satisfaction surveys and to best leverage
 	my customer in order to attract and retain future ones.
+
 ## Contact Form Fields:
 	- name (?)
 	- email (required)
@@ -70,11 +67,8 @@
 
 ### website optimization
 	* security (SSL) certificate
-		* firewall, HTTPS
 	* SEO Campaign Management
 	* Keyword Research & Analysis
-	* Unlimited Support
-	* Unlimited Content Updates
 
 #Contact Form/Questionnaire
 	I invite you to contact me at your convenience about your business goals. (growth/challenge)
@@ -87,7 +81,7 @@
 #About
 	Peak Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-featured, unique and affordable solution to online business owners who would rather run their business than run a website.
 
-	We understand that a lot goes into running a business, least of all an online business. That's why Peak Creative Website Services offers a complete-suite of fully-managed website services that will take the pain out of having an online presence. We make it easy! From new websites to existing ones, whatever your online business goals, Peak Creative is behind you every step of the way to ensure that you reach the pinnacle of your online business goals.
+	We understand that a lot goes into running a business, least of all an online business. That's why Peak Creative Website Services offers a complete-suite of fully-managed website services that will take the pain out of having an online presence. We make it easy! From new websites to existing ones, whatever your online business goals, Peak Creative is behind you every step of the way to ensure that you reach the pinnacle of your online success.
 
 	Have a look at our Website Services or Submit a Project Inquiry Form
 
@@ -160,7 +154,7 @@
 	Good Services + Explanations here [Peak Designs](http://www.peakdesign.net/services), also [here](http://www.peakdesign.net/get-convert-nurture#GCN)
 
 #Website Maintenance Service/The Website LifeCycle
-	Websites don't live in a vacuum. Just like most things, they need to be *maintained*. As technology evolves, one must keep a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
+	Websites don't live in a vacuum. Like most things, they need to be *maintained*. As technology evolves, one must keep a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
 	Peak Maintenance Service includes:
 	* website analytics tracking
 
@@ -192,7 +186,7 @@
 ### SoundsBites
 	* Getting visitors to your site is half the battle. The next step is enticing them to click, call, book or buy (Geeks)
 
-### Future SEO Strategy Ideas
+### Future SEO Strategy Ideas for Peak
 	- Post Answers on Q & A sites that my customer base might use
 		* [AllExperts](http://www.allexperts.com/)
 	- Get/Achieve/Elicit Reviews on Google+, Yelp, any other industry or related review SoundsBites
