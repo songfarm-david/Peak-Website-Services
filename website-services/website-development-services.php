@@ -15,10 +15,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 				<p>
-					Whether you need a brand new website or just want to give your existing one a makeover, our professional web developers and designers can design and develop a modern, <a href="/peak/faq#mobile-first">mobile-first</a>, professional website that not only looks good but works for your business.
+					Whether you need a brand new website or just want to give your existing one a makeover, our professional web developers and designers can design and develop a modern, <a href="/peak/faq#mobile-first" class="inline-link">mobile-first</a>, professional website that not only looks good but works for your business.
 				</p>
 				<p>
-					<a href="tel:9055922141">Give us a call</a> to get a quote<br> or <a href="/peak/contact.php">Submit a Questionnaire</a>
+					<a href="tel:9055922141">Call us for a Quote</a><br> or <a href="/peak/contact.php">Submit a Questionnaire</a>
 				</p>
 			</div>
 
@@ -30,34 +30,48 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</p>
 				<ul>
 					<li>
-						<!-- this point needs a caret or special clause because i can't do that for them ad infinit-->
-						<span>No limit on number of pages</span>
+						<span>Expert Coded, Custom Websites</span>
 						<p>
-							We believe a website is done when it's done, that's why we don't go by the page.
+							Our websites are built strong. We use coding best-practices, are constantly sharpening our skills and learning new technologies, and creat a solid foundation for which to build your online presence.
 						</p>
+					</li>
+					<li>
+						<span>Unlimited Amount of Pages</span>
+						<p>
+							We believe a website is done when it's done and that there isn't a one-size-fits-all website for everyone. When you work with us, we don't hold you to a set number of pages.
+						</p>
+						<small>
+							Read more about <a href="/peak/faq.php#unlimited-pages">Unlimited Pages</a>.
+						</small>
 					</li>
 					<li>
 						<span>Mobile Friendly &amp; Responsive</span>
 						<p>
-							Every website we build behaves as expected from device to device and on mobile.
+							More than ever <a href="linkToCitation" class="inline-link">mobile search is on the rise</a>. This means that people expect your site to work &ndash; and look good &ndash; on everything. When you work with us, you can rest assured that your product will meet your audiences demands.
 						</p>
 					</li>
 					<li>
 						<span>SEO Enhanced</span>
 						<p>
-							There are real consequences to not complying with Industry Best Practices...
+							There's a lot that goes into our websites that enable it to be easily understood and <a href="/peak/faq.php#search-engine-index" class="inline-link">indexed</a> by search engines. Of course, getting to the top of the search results doesn't happen over night; with the right foundation, however, you can make getting started a lot easier.
 						</p>
+						<small>
+							If optimizing the <a href="/peak/faq.php#search-engine-visibility">Search Engine Visibility</a> of your website and maximizing your potential customers is something you're interested in, please see our <a href="/peak/website-services/website-optimiziation-services.php">Website Optimizition Services</a> page and take the first step to being found online.
+						</small>
 					</li>
 					<li>
 						<span>Accessible</span>
 						<p>
-							Your online business should be accessible to everyone. We make sure that it is.
+							When it comes to your online business, your website should be accessible to everyone. Unfortunately, this isn't always the case. In fact, you may be denying a portion of your customer base without even knowing it. You can think of accessible websites like accessibility ramps for a brick-and-mortar establishments. We do our best to ensure that your website is accessible to the widest range of potential customers.
 						</p>
+						<small>
+							If you'd like to learn more about Web Accessibility Standards, visit the <a href="https://www.w3.org/WAI/">Web Accessibility Initiative</a> website.
+						</small>
 					</li>
 					<li>
-						<span>Conversion Optimized</span>
+						<span>Optimized for Conversion</span>
 						<p>
-							We realize that the purpose of having a website or online business is to convert customers. We keep that top of mind when developing and designing a custom website for you.
+							In our thinking, the purpose of having a website or online business is to convert customers or to achieve a certain results. Fully understanding the problem is the first step in introducing a solution. When we build a website for your business, we always keep top of mind the goals of your website.
 						</p>
 					</li>
 				</ul>
@@ -68,8 +82,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</p>
 					<ul>
 						<li><a href="content-creation-services.php">Content Creation Services</a></li>
-						<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding</a> Services and Packages</li>
-						<li>Logo &amp; Graphic Design</li>
+						<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding Services</a></li>
+						<li><a href="#">Logo &amp; Graphic Design Services</a></li>
 					</ul>
 				</section>
 			</section>
@@ -92,10 +106,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div class="container">
 			<h2>Need Help Getting your Site Online?</h2>
 			<p>
-				You've "got" a website. Now what?
+				You've got a website. Now what?
 			</p>
 			<p>
-				As part of our Website Services, we also offer <a href="#">Website Maintenance Services</a>. Included in this are top-quality <a href="faq#canadian-hosting">Canadian-Hosting</a> and ...
+				Learn how we can help get your website online quickly and easily by visition our<br> <a href="/peak/website-services/website-maintenance-services.php">Website Maintenance Services</a> page.
 			</p>
 		</div>
 
