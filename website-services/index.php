@@ -1,7 +1,6 @@
-<!-- this page is the staging page into our web services. It will link off to website-creation-services, website maintenance services, and website optimization -->
 <?php
 $title = "Peak | Website Services";
-$description = "Peak Website Services offers everything business owners need to take the guesswork out of managing their online presence.";
+$description = "";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
@@ -17,7 +16,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 </p>
 <a href="">View our Website Services</a>
 
-<h2>Website Creation</h2>
+<h2>Website Development</h2>
 <p>
 	A blurb about the importance of having a good website
 </p>
