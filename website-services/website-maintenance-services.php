@@ -22,14 +22,14 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Learn how our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plan</a> can take the load off having a business presence on the web.
 				</p>
 			</div>
-			<section>
+			<section class="service">
 				<h3>Website Maintenance Plan</h3>
 				<p>
 					Our Website Maintenance Service Plan includes everything you need to keep your website running as expected. Best of all, it's like having your own personal IT guy. Every Website Maintenance Plan comes standard with the following:
 				</p>
 				<ul>
 					<li>
-						<span>Fast &amp; Reliable Canadian-based Website Hosting</span>
+						<span>Fast, Reliable Web Hosting</span>
 						<p>
 							We host all our websites on <a href="/peak/faq#canadian-hosting">Canadian soil</a> and run on one of the best... which means... They are backup daily and monitored around the clock. We gaurantee a 99.9% uptime on all our websites.
 						</p>
@@ -40,11 +40,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>Unlimited Content Updates</span>
 						<p>
-							Website don't exist in a vacuum. They need to grow and change, too, otherwise they risk getting stale. Included in our Website Maintenance Plan is actively maintaining and updating your content as the needs of your customers and business change.
+							We actively maintain and update your content as the needs of your customers and business change.
 						</p>
 						<small>
 							Need a new logo for your business or want to integrate an e-commerce store? Please see our <a href="/peak/website-services/website-development-services.php#additional-services">Website Development Services</a>
 						</small>
+					</li>
+					<li>
+						<span>You Maintain Ownership</span>
+						<p>
+							We don't own anything. The Domain Name, the Custom Website. You are in control.
+						</p>
 					</li>
 					<li>
 						<span>Unlimited Support</span>
@@ -53,32 +59,36 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<span>Google Analytics, Website Monitoring, &amp; Monthly Health Reports</span>
+						<span>Monthly Website Reports</span>
 						<p>
 							We keep on eye on your website for you so you can run your business. But we also believe it's important to keep you in the know, as well. That's why we provide <a href="/peak/faq#monthly-website-health-report">Monthly Website Health Reports</a> so you can keep your eye on the bigger picture.
 						</p>
 					</li>
 					<li>
-						<span>Retained Ownership</span>
+						<span>Domain Name</span>
 						<p>
-							We don't own anything. The Domain Name, the Custom Website. You are in control.
+							Something domain name ...
 						</p>
 					</li>
 				</ul>
 			</section>
 		</section>
 
-		<!-- Website Optimization -->
-		<section>
+
+
+	</main>
+
+	<!-- Website Optimization -->
+	<section class="aside">
+		<div class="container">
 			<h2>Optimize your Website for Best Results</h2>
 			<p>
 				The best website in the world becomes worthless if noone knows about it. A big part of making it online is being sure your website is showing up on the search results page and being seen by the right people.
 			</p>
 			<p>
-				Let us take you there. Learn about our <a href="./website-services/website-optimization-services.php">Website Optimization Services</a>
+				Let us help get you there.<br> Learn about our <a href="./website-services/website-optimization-services.php">Website Optimization Services</a>
 			</p>
-		</section>
-
-	</main>
+		</div>
+	</section>
 
 <?php require_once('../_includes/footer.php') ?>

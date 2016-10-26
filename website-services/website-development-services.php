@@ -23,7 +23,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 
 			<!-- what's included -->
-			<section>
+			<section class="service">
 				<h3>What's Included?</h3>
 				<p>
 					We include the following in every website we do:
@@ -61,31 +61,35 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 				</ul>
+				<section id="additional-services">
+					<h3>Additional Services</h3>
+					<p>
+						Apart from our website design and development services, we also offer:
+					</p>
+					<ul>
+						<li><a href="content-creation-services.php">Content Creation Services</a></li>
+						<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding</a> Services and Packages</li>
+						<li>Logo &amp; Graphic Design</li>
+					</ul>
+				</section>
 			</section>
 			<!-- additional services -->
-			<section id="additional-services">
-				<h3>Additional Services</h3>
-				<p>
-					Apart from our website design and development services, we also offer:
-				</p>
-				<ul>
-					<li><a href="content-creation-services.php">Content Creation Services</a></li>
-					<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding</a> Services and Packages</li>
-					<li>Logo &amp; Graphic Design</li>
-				</ul>
-			</section>
+
 			<!-- pricing -->
-			<section>
+			<!-- <section>
 				<h3>Pricing</h3>
 				<p>
 					here will we show a pricing table with a few examples. Each example will have a select button which will go to a contact form that will wrap the customer. Make sure to include which selection they chose in the form return.
 				</p>
-			</section>
+			</section> -->
 		</section>
 		<!--/ end of first section -->
 
-		<!-- Website Maintenance -->
-		<section>
+	</main>
+
+	<!-- Website Maintenance -->
+	<section class="aside">
+		<div class="container">
 			<h2>Need Help Getting your Site Online?</h2>
 			<p>
 				You've "got" a website. Now what?
@@ -93,7 +97,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<p>
 				As part of our Website Services, we also offer <a href="#">Website Maintenance Services</a>. Included in this are top-quality <a href="faq#canadian-hosting">Canadian-Hosting</a> and ...
 			</p>
-		</section>
-	</main>
+		</div>
+
+	</section>
 
 <?php require_once('../_includes/footer.php') ?>
