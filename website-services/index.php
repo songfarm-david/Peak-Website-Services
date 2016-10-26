@@ -16,11 +16,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<div class="row container">
 		<!-- website creation services -->
 		<div class="col col-4">
-			<a href="/peak/website-services/website-development-services.php"><h3>Website<br> <span class="emphasize">Creation</span><br> Services</h3></a>
+			<a href="/peak/website-services/website-development-services.php"><h3>Website<br> <span class="emphasize">Development</span><br> Services</h3></a>
 			<p>
 				Website creation services Cheesecake chupa chups chocolate cake tart. Apple pie soufflé gingerbread cake sugar plum. Gummies sweet roll marzipan cookie icing. Pudding gingerbread sugar plum cake. Powder dragée sugar plum biscuit pie brownie chocolate bar sweet roll lemon drops. Gummies sesame snaps sesame snaps cotton candy candy canes brownie sugar plum cheesecake danish. Sugar plum cupcake bear claw halvah.
 			</p>
-			<a href="/peak/website-services/website-development-services.php">Learn more about our Website Creation Services</a>
+			<a href="/peak/website-services/website-development-services.php">Learn more about our Website Development Services</a>
 		</div>
 		<!-- website maintenance services -->
 		<div class="col col-4">
