@@ -8,7 +8,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 	<main class="container service-container">
-
 		<!-- web maintenance service -->
 		<section class="intro-service">
 			<div class="">
@@ -23,9 +22,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</p>
 			</div>
 			<section class="service">
-				<h3>Website Maintenance Plan</h3>
+				<h3 id="website-maintenance-plan">Website Maintenance Plan</h3>
 				<p>
-					Our Website Maintenance Service Plan includes everything you need to keep your website running as expected. Best of all, it's like having your own personal IT guy. Every Website Maintenance Plan comes standard with the following:
+					Our Website Maintenance Service Plan includes everything you need to keep your website running as expected. Best of all, it's like having your own personal IT guy.
+				</p>
+				<p>
+					Every Website Maintenance Plan comes standard with the following:
 				</p>
 				<ul>
 					<li>
@@ -73,9 +75,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</ul>
 			</section>
 		</section>
-
-
-
 	</main>
 
 	<!-- Website Optimization -->
@@ -83,7 +82,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div class="container">
 			<h2>Optimize your Website for Best Results</h2>
 			<p>
-				The best website in the world becomes worthless if noone knows about it. A big part of making it online is being sure your website is showing up on the search results page and being seen by the right people.
+				The best website in the world is worthless if noone knows about it. A big part of success online is having your website show up on the search results page and being seen by the right people.
 			</p>
 			<p>
 				Let us help get you there.<br> Learn about our <a href="./website-services/website-optimization-services.php">Website Optimization Services</a>
