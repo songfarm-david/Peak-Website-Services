@@ -15,11 +15,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 				<p>
-					Whether you need a brand new website or want to give your existing website a makeover, our professional web developers and designers can design and develop a sleek, mobile-friendly, professional website that not only looks good but works for your business.
+					Whether you need a brand new website or want to give your existing one a facelift, our professional developers and designers will deliver to you a sleek, mobile-friendly, and professional website that not only looks good but works.
 				</p>
-				<p>
+				<!-- <p>
 					<a href="tel:9055922141">Call us for a Quote</a><br> or <a href="/peak/contact.php">Submit a Questionnaire</a>
-				</p>
+				</p> -->
 			</div>
 
 			<!-- what's included -->
@@ -78,12 +78,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<section id="additional-services">
 					<h3>Additional Services</h3>
 					<p>
-						Apart from our website design and development services, we also offer:
+						Need something a little more specialized? Have a look at our additional services.
 					</p>
 					<ul>
 						<li><a href="content-creation-services.php">Content Creation Services</a></li>
-						<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding Services</a></li>
 						<li><a href="#">Logo &amp; Graphic Design Services</a></li>
+						<li><a href="personal-and-corporate-branding.php">Personal Branding and Corporate Branding Services</a></li>
 					</ul>
 				</section>
 			</section>

@@ -13,6 +13,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <!-- Website Services -->
 <section id="website-services">
 	<h2>Website Services</h2>
+	<p>
+		Whether you are in the early days of establishing your online presence or are looking strengthen and spread your online reach, we have a service for you. 
+	</p>
 	<div class="row container">
 		<!-- website creation services -->
 		<div class="col col-4">
