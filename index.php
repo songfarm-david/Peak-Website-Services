@@ -13,7 +13,7 @@ $h2 = "";
 			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
 			<div class="">
 				<p>
-					Peak Website Services is a technical service company for business owners looking to make their mark on the internet.
+					Peak Website Services is a technical service company for business owners looking to elevate their online business.
 				</p>
 				<p>
 					See our <a href="/peak/website-services/">Website Services</a>

@@ -121,70 +121,71 @@ nav {
 
 }
 
-// #landing-page {
-// 	height: 100vh;
-// 	background-color: @secondary-color;
-// 	// background-image: url(../_images/man-on-top-light-leak-1.jpg);
-// 	// background-image: url(../_images/business-on-top.jpg);
-// 	background-image: url(../_images/air-triangulated.jpg);
-// 	background-size: cover;
-// 	background-position: 50% center;
-// 	position: relative;
-// 	z-index: 100;
-// 	#landing-page-intro {
-// 		font: @header-font-900;
-// 		position: relative;
-// 		top: 29.3% / 1.5;
-// 		left: 29.3% / 2.5;
-// 		color: white;
-// 		line-height: 1.2;
-// 		span {
-// 			.font-size(4);
-// 			width: auto;
-// 			display: block;
-// 			background-color: transparent;
-// 			line-height: 1;
-// 			.yellow {
-// 				display: inline;
-// 				color: @yellow-a;
-// 			}
-// 		}
-// 		>div {
-// 			margin-top: 2rem;
-// 			background-color: fadeout(@deep-purple, 70%);
-// 			max-width: 50% / @first-modular;
-// 			.base(padding,0.3);
-// 			p {
-// 				font: @header-font-400;
-// 				font-family: 'Abel', sans-serif;
-// 				margin-top: 0;
-// 				color: @secondary-color;
-// 				text-shadow: 1px 1px 2px @deep-purple;
-// 				.font-size(1);
-// 				line-height: @second-modular;
-// 				margin-bottom: 0;
-// 				>em {
-// 					color: #fff;
-// 					font-style: normal;
-// 					// text-shadow: none;
-// 					font-size: 115%;
-// 				}
-// 			}
-// 			a {
-// 				color: @secondary-color;
-// 				font: @header-font-400;
-// 				.font-size(1.4);
-// 				padding: 0.25rem .5rem;
-// 				float: left;
-// 				margin-top: @1-rem * @first-modular;
-// 			}
-// 			// clear anchor tag inside div
-// 			&:after {
-// 				.clear-float;
-// 			}
-// 		}
-// 	}
-// }
+#landing-page {
+	height: 100vh;
+	background-color: @secondary-color;
+	// background-image: url(../_images/man-on-top-light-leak-1.jpg);
+	// background-image: url(../_images/business-on-top.jpg);
+	background-image: url(../_images/air-triangulated.jpg);
+	background-size: cover;
+	background-position: 50% center;
+	position: relative;
+	z-index: 100;
+	#landing-page-intro {
+		font: @header-font-900;
+		position: relative;
+		top: 29.3% / 1.5;
+		left: 29.3% / 2.5;
+		color: white;
+		line-height: 1.2;
+		span {
+			.font-size(4);
+			width: auto;
+			// display: block;
+			background-color: transparent;
+			line-height: .9;
+			.yellow {
+				display: inline;
+				color: @yellow-a;
+			}
+		}
+		>div {
+			max-width: 50% / @first-modular;
+			// padding-top: @1-rem / @first-modular;
+			p {
+				font: @header-font-400;
+				font-family: 'Abel', sans-serif;
+				color: @secondary-color;
+				text-shadow: 1px 1px 2px @deep-purple;
+				.font-size(1);
+				line-height: @second-modular;
+				margin-bottom: 0;
+				>em {
+					color: #fff;
+					font-style: normal;
+					// text-shadow: none;
+					font-size: 115%;
+				}
+			}
+			p:last-of-type {
+				float: left;
+				// margin-top: @1-rem * @first-modular;
+			a {
+					color: @secondary-color;
+					font: @header-font-400;
+					.font-size(1.4);
+					padding: 0.25rem .5rem;
+					margin-top: @1-rem * @first-modular;
+				}
+			}
+
+			// clear anchor tag inside div
+			&:after {
+				.clear-float;
+			}
+		}
+	}
+}
 
 // #website-services {
 // 	position: relative;
