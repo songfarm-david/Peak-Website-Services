@@ -14,61 +14,36 @@ $description = "";
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
 			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
-			<div>
-				<p>
-					A simple, succint tag line. Except a little bit longer.
-				</p>
-				<a href="/website-services/">See website services</a>
-			</div>
 		</div>
 	</section>
 
 	<!-- Core Values -->
-	<section id="about">
-		<h2>Core Values</h2>
+	<section id="about" class="container">
+		<h2>Why work with us?</h2>
 		<p>
-			Sweet roll toffee candy tart topping gingerbread chocolate cake chocolate cake. Icing topping toffee tiramisu. Jelly jelly beans jelly beans sweet cookie marzipan. Macaroon donut carrot cake marzipan powder ice cream topping. Topping fruitcake cake croissant cotton candy candy canes oat cake chupa chups pie. Chocolate bar chocolate cheesecake topping cheesecake tiramisu sweet roll. Marshmallow chocolate cake dessert candy pudding. Jelly pie pie cookie soufflé. Biscuit toffee pastry fruitcake marshmallow. Fruitcake jelly-o jelly liquorice ice cream caramels croissant danish danish.
+			There are a lot of web developers and designers out there, so why work with us?</span>
 		</p>
+		<p>
+			Peak Website Services is a team of professional web developers and designers steeped in the language of the web. We  communicate your vision to the digital screen and never lose site of the big picture, which is to optimizing your online presence so that you reach your personal or business goals.
+		</p>
+		<p>
+			We don't quite until the job is done and you are satisfied.
+		</p>
+		<aside id="guarantee">
+			<h3>100% Satisfaction Guarantee</h3>
+			<p>
+				We offer a 100% Satisfaction Guarantee on our services or your money back.
+			</p>
+		</aside>
+		<a href="/peak/website-services/index.php" class="cta-link">See Website Services</a>
 	</section>
 
 	<!-- Design Process -->
-	<article id="website-creation-process">
+	<!-- <article id="website-creation-process">
 		<h2>The Website Creation Process</h2>
-		<!-- diagram here -->
+		// diagram here
 		<img src="" alt="" />
-	</article>
+	</article> -->
 
-	<aside class="">
-		<h3>100% Satisfaction Gaurenteen</h3>
-		<p>
-			We don't stop until we know you are satisfied with the service you receive from us. Donut cake pudding cake gummi bears sugar plum chocolate danish. Jujubes dessert ice cream lemon drops.
-		</p>
-	</aside>
-
-	<section id="secondary-features">
-		<h2 class="hide">Secondary Features</h2>
-		<span>Included in all our services..</span>
-
-		<h3>Feature 1</h3>
-		<p>
-			Soufflé sweet roll sesame snaps bear claw. Chocolate apple pie jelly-o tootsie roll muffin tootsie roll donut dragée. Cotton candy dessert lemon drops. Apple pie tootsie roll halvah croissant.
-		</p>
-
-		<h3>Feature 2</h3>
-		<p>
-			Sugar plum croissant marzipan marzipan. Liquorice tiramisu chocolate bar gummies. Gingerbread cookie sugar plum pudding.
-		</p>
-
-		<h3>feature 3</h3>
-		<p>
-			Bear claw lollipop sugar plum chocolate bar sweet roll candy tootsie roll wafer. Marshmallow sweet roll marshmallow topping icing tootsie roll dragée. Oat cake macaroon cupcake icing toffee chocolate cake caramels caramels.
-		</p>
-
-		<h3>feature 4</h3>
-		<p>
-			Cake tootsie roll fruitcake pudding cake topping pie apple pie apple pie. Sesame snaps macaroon tootsie roll croissant carrot cake topping candy canes muffin. Jelly-o candy canes lollipop.
-		</p>
-
-	</section>
 
 		<?php require_once('_includes/footer.php') ?>
