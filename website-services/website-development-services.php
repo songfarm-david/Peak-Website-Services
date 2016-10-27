@@ -15,7 +15,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 				<p>
-					Whether you need a brand new website or just want to give your existing one a makeover, our professional web developers and designers can design and develop a modern, <a href="/peak/faq#mobile-first" class="inline-link">mobile-first</a>, professional website that not only looks good but works for your business.
+					Whether you need a brand new website or want to give your existing website a makeover, our professional web developers and designers can design and develop a sleek, mobile-friendly, professional website that not only looks good but works for your business.
 				</p>
 				<p>
 					<a href="tel:9055922141">Call us for a Quote</a><br> or <a href="/peak/contact.php">Submit a Questionnaire</a>
