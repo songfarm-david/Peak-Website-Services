@@ -8,10 +8,14 @@
 		</ul>
 	</article>
 	<section>
-		<h3>Get a FREE Website Assessment</h3>
+		<h3>FREE Website Assessment</h3>
 		<p>
-			Fill out a short questionnaire about your website and we'll tell you what we think about your website in terms of its ...
+			Interested in sprucing up your website but not sure how or where to start?
 		</p>
+		<p>
+			<a href="/peak/contact.php">Fill out a simple questionnaire</a> and soon after receive a free, comprehensive website assessment that will touch on factors such as page design, code quality, user experience and flow, as well as how well your site stacks up to your competitors on the search pages. The questionnaire only takes minutes.<br>
+		</p>
+		<a href="/peak/contact.php" class="cta-link">Fill one out today</a>!
 	</section>
 		<!-- <article id="newsletter">
 			<h3>Sign Up for Our Newsletter</h3>
