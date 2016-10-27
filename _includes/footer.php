@@ -47,7 +47,7 @@
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 <!-- Fallback for jQuery CDN -->
-<script type="text/javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window); || document.write('<script src="_js/vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
+<script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window); || document.write('<script src="_js/vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <script type="text/javascript" src="_js/vendor/modernizr.js"></script>
 <!-- Bootstrap Collapse script -->
