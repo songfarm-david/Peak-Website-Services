@@ -14,6 +14,11 @@ $description = "";
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
 			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
+			<div class="">
+				<p>
+					<a href="#">free website assessment</a>
+				</p>
+			</div>
 		</div>
 	</section>
 
