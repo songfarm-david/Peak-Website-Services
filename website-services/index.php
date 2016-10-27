@@ -1,47 +1,90 @@
 <?php
 $title = "Peak | Website Services";
-$description = "";
+$description = "Peak Website Services include: website creation services, website maintenance services, website optimization services, etc..";
 $h1 = "Peak Website Services";
-$h2 = "";
+$h2 = "Peak Website Services";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-<header>
-	<h1 class="hide">Peak Website Services</h1>
-	<?php include_once('../_includes/navigation.php') ?>
-</header>
-
 <!-- Website Services -->
 <section id="website-services">
-	<h2>Website Services</h2>
-	<p>
-		Whether you are in the early days of establishing your online presence or are looking strengthen and spread your online reach, we have a service for you.
+	<h2><?php echo $h2; ?></h2>
+	<p class="message">
+		Wherever you are with your online presence, we've got a service for you.
 	</p>
-	<div class="row container">
+	<div id="website-services-container" class="">
 		<!-- website creation services -->
-		<div class="col col-4">
-			<a href="/peak/website-services/website-development-services.php"><h3>Website<br> <span class="emphasize">Development</span><br> Services</h3></a>
-			<p>
-				Website creation services Cheesecake chupa chups chocolate cake tart. Apple pie soufflé gingerbread cake sugar plum. Gummies sweet roll marzipan cookie icing. Pudding gingerbread sugar plum cake. Powder dragée sugar plum biscuit pie brownie chocolate bar sweet roll lemon drops. Gummies sesame snaps sesame snaps cotton candy candy canes brownie sugar plum cheesecake danish. Sugar plum cupcake bear claw halvah.
-			</p>
-			<a href="/peak/website-services/website-development-services.php">Learn more about our Website Development Services</a>
+		<div class="">
+			<a href="/peak/website-services/website-development-services.php"><h3>Website Development Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="/peak/website-services/website-development-services.php">Website Development Services</a>
 		</div>
 		<!-- website maintenance services -->
-		<div class="col col-4">
-			<a href="/peak/website-services/website-maintenance-services.php"><h3>Website<br> <span class="emphasize">Maintenance</span><br> Services</h3></a>
-			<p>
-				Website maintenance services Apple pie lemon drops cake lollipop. Apple pie liquorice tootsie roll ice cream liquorice jujubes macaroon. Lemon drops tiramisu marshmallow fruitcake topping. Lemon drops chupa chups carrot cake macaroon dragée danish gingerbread macaroon. Croissant cookie chocolate cake jelly. Jujubes chocolate cake lemon drops oat cake.
-			</p>
-			<a href="website-services/website-maintenance-services.php">Learn more about our Website Maintenance Services</a>
+		<div class="">
+			<a href="/peak/website-services/website-maintenance-services.php"><h3>Website Maintenance Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="website-services/website-maintenance-services.php">Website Maintenance Services</a>
 		</div>
 		<!-- website optimization services -->
-		<div class="col col-4">
-			<a href="/peak/website-services/website-optimization-services.php"><h3>Website<br> <span class="emphasize">Optimization</span><br> Services</h3></a>
-			<p>
-				Website optimization services Oat cake bonbon pie chupa chups icing gingerbread sweet cheesecake. Jujubes macaroon oat cake cotton candy. Tart cotton candy cake ice cream sweet roll sugar plum pastry fruitcake topping. Marzipan dragée candy canes topping apple pie carrot cake lollipop. Muffin gummies ice cream sugar plum marzipan brownie carrot cake toffee. Gummi bears pastry caramels jujubes. Cake wafer danish pie cookie cheesecake powder bonbon. Jelly-o cookie candy danish fruitcake pastry toffee gummi bears.
-			</p>
-			<a href="website-services/website-optimization-services.php">Learn more about our Website Optimization Services</a>
+		<div class="">
+			<a href="/peak/website-services/website-optimization-services.php"><h3>Website Optimization Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="website-services/website-optimization-services.php">Website Optimization Services</a>
+		</div>
+		<!-- Content Creation Services -->
+		<div class="">
+			<a href="/peak/website-services/website-development-services.php"><h3>Content Creation Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="/peak/website-services/website-development-services.php">Content Creation Services</a>
+		</div>
+		<!-- website maintenance services -->
+		<div class="">
+			<a href="/peak/website-services/website-maintenance-services.php"><h3>Graphic Design and Logo Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="website-services/website-maintenance-services.php">Graphic Design and Logo Services</a>
+		</div>
+		<!-- website optimization services -->
+		<div class="">
+			<a href="/peak/website-services/website-optimization-services.php"><h3>Personal &amp; Corporate Branding Services</h3></a>
+			<ul>
+				<li>New Site Creation</li>
+				<li>Site Remodels</li>
+				<li>E-Commerce, Blog</li>
+				<li>Content Management System</li>
+				<li>Online Store Creation</li>
+			</ul>
+			<a href="website-services/website-optimization-services.php">Personal &amp; Corporate Branding Services</a>
 		</div>
 	</div>
 
