@@ -27,12 +27,12 @@ $description = "";
 			Peak Website Services is a team of professional web developers and designers steeped in the language of the web. We  communicate your vision to the digital screen and never lose site of the big picture, which is to optimizing your online presence so that you reach your personal or business goals.
 		</p>
 		<p>
-			We don't quite until the job is done and you are satisfied.
+			We don't quit until the job is done and you are satisfied.
 		</p>
 		<aside id="guarantee">
 			<h3>100% Satisfaction Guarantee</h3>
 			<p>
-				We offer a 100% Satisfaction Guarantee on our services or your money back.
+				If, for any reason, you are not satisfied with our work, we will give you your money back.
 			</p>
 		</aside>
 		<a href="/peak/website-services/index.php" class="cta-link">See Website Services</a>
