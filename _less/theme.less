@@ -26,13 +26,11 @@ h4 {
 	font: @header-font-900;
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 }
-p {
+p,
+span {
 	margin: 1.2rem 0 0.5rem;
 	line-height: 1.5;
 	.font-size(1);
-}
-a {
-	text-transform: capitalize;
 }
 h4,
 .h4 {
@@ -71,6 +69,7 @@ a.inline-link {
 .cta-links {
 	display: block;
 	margin-top: @1-rem * @first-modular;
+	text-transform: capitalize;
 }
 a:active,
 a:hover {

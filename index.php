@@ -61,14 +61,6 @@ $h2 = "";
 				If, for any reason, you are not satisfied with our work, we will give you your money back.
 			</p>
 		</aside>
-		<!-- <a href="/peak/website-services/index.php" class="cta-link">See Website Services</a> -->
-
-		<!-- <p>
-			Peak Website Services is a one-stop solution for non-technical business owners looking to get a foothold onto the internet.
-		</p> -->
-		<!-- <p>
-			We make having an effective online presence easy and affordable. Best of all, we keep you in the loop so you can always stay focused on the bigger picture, which is running your business.
-		</p> -->
 		<blockquote cite="http://">
 			Think of us as your personal IT team.
 		</blockquote>

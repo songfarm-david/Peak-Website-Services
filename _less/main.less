@@ -22,108 +22,104 @@
 // 	}
 // }
 
-// header {
-// 	position: fixed;
-// 	top: 0;
-// 	z-index: 999;
-// 	width: 100%;
-// 	color: #111;
-// 	background: rgba(0, 0, 0, 0.25);
-// 	// padding: @1-rem/2.5;
-// 	h1.h3 {
-// 		margin: 0;
-// 		padding-left: @1-rem/2;
-// 		color: @hero-color;
-// 		line-height: @second-modular;
-// 		&:hover {
-// 			cursor: pointer;
-// 		}
-// 	}
-// }
+header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	color: #111;
+	h1.h3 {
+		margin: 0;
+		padding-left: @1-rem/2;
+		color: @hero-color;
+		line-height: @second-modular;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
 
-// nav {
-// 	color: @deep-purple;
-// 	position: absolute;
-// 	top: 0;
-// 	right: 0;
-// 	z-index: 1000;
-// 	height: 100%;
-// 	display: flex;
-// 	margin-right: @1-rem / @first-modular;
-// 	ul {
-// 		padding-left: 0; // undo resets
-// 		margin-bottom: 0; // undo resets
-// 		display: flex;
-// 		text-align: center;
-// 		height: 100%;
-// 		li {
-// 			display: table;
-// 			flex-direction: column;
-// 			justify-content: center;
-// 			a {
-// 				display: table-cell;
-// 				vertical-align: middle;
-// 				padding: .7rem 1rem;
-// 				color: @deep-purple;
-// 				text-decoration: none;
-// 				.font-size(.7);
-// 				opacity: .7;
-// 				transition: opacity .5s ease-in-out;
-// 				&:hover {
-// 					opacity: 1;
-// 				}
-// 			}
-// 		}
-// 	}
-// 	@media (@sm-query) {
-// 		.navbar-header {
-// 			display: none;
-// 		}
-// 		.collapse {
-// 			display: block;
-// 		}
-// 		li {
-// 			// margin: @1-rem/@second-modular 0;
-// 			&:hover a {
-// 				// background-color: @hero-color;
-// 			}
-// 		}
-// 		li.dropdown-btn {
-// 			position: relative;
-// 			ul.dropdown-content {
-// 				position: absolute;
-// 				left: 5000%;
-// 				opacity: .25;
-// 				height: auto;
-// 				display: block;
-// 				width: auto;
-// 				top: (@1-rem * 2);
-// 				border-left: 5px solid rgba(255, 255, 255, 0.7);
-// 				transition: opacity 100ms ease-in;
-// 				li {
-// 					display: block;
-// 					white-space: nowrap;
-// 					background-color: rgba(255, 255, 255, 0.1);
-// 					a {
-// 						.font-size(.9);
-// 						padding: 0.4rem 0.5rem;
-// 					}
-// 				}
-// 			}
-// 			&:hover,
-// 			&:focus {
-// 				ul.dropdown-content {
-// 					left: @1-rem / @first-modular;
-// 					left: 0;
-// 					opacity: 1;
-//
-// 				}
-// 			}
-// 		}
-//
-// 	}
-//
-// }
+nav {
+	color: @deep-purple;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	margin-right: @1-rem / @first-modular;
+	ul {
+		padding-left: 0; // undo resets
+		margin-bottom: 0; // undo resets
+		display: flex;
+		text-align: center;
+		height: 100%;
+		li {
+			display: table;
+			flex-direction: column;
+			justify-content: center;
+			a {
+				display: table-cell;
+				vertical-align: middle;
+				padding: .7rem 1rem;
+				color: @deep-purple;
+				text-decoration: none;
+				opacity: .7;
+				transition: opacity .25s ease-in-out;
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	@media (@sm-query) {
+		.navbar-header {
+			display: none;
+		}
+		.collapse {
+			display: block;
+		}
+		li {
+			// margin: @1-rem/@second-modular 0;
+			&:hover a {
+				// background-color: @hero-color;
+			}
+		}
+		li.dropdown-btn {
+			position: relative;
+			ul.dropdown-content {
+				position: absolute;
+				left: 5000%;
+				opacity: .25;
+				height: auto;
+				display: block;
+				width: auto;
+				top: (@1-rem * 2);
+				border-left: 5px solid rgba(255, 255, 255, 0.7);
+				transition: opacity 100ms ease-in;
+				li {
+					display: block;
+					white-space: nowrap;
+					background-color: rgba(255, 255, 255, 0.1);
+					a {
+						.font-size(.9);
+						padding: 0.4rem 0.5rem;
+					}
+				}
+			}
+			&:hover,
+			&:focus {
+				ul.dropdown-content {
+					left: @1-rem / @first-modular;
+					left: 0;
+					opacity: 1;
+
+				}
+			}
+		}
+
+	}
+
+}
 
 // #landing-page {
 // 	height: 100vh;
@@ -238,6 +234,9 @@ footer {
 	>article,
 	>section {
 		.base(padding, 0.5);
+	}
+	p {
+		.font-size(1/@first-modular);
 	}
 	#mission-statement {
 		width: 50%;
@@ -529,10 +528,7 @@ footer {
 }
 
 
-nav.navbar {
-	#primary-nav {
-	}
-}
+
 
 #about {
 	ul {
@@ -550,6 +546,9 @@ nav.navbar {
 				font-weight: normal;
 			}
 		}
+	}
+	blockquote {
+		clear: both;
 	}
 }
 
