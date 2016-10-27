@@ -10,13 +10,13 @@ $h2 = "";
 		<h2 class="hide">What We Do</h2>
 		<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 		<div id="landing-page-intro">
-			<span class="">Put Your Business<br> On <span class="yellow">Top</span></span>
-			<div class="">
+			<span>Put Your Business<br> On <span class="accent-color">Top</span></span>
+			<div>
 				<p>
-					Peak Website Services is a technical service company for business owners looking to elevate their online business.
+					Website Services for business owners looking to elevate their online potential.
 				</p>
 				<p>
-					See our <a href="/peak/website-services/">Website Services</a>
+					<a href="/peak/website-services/">Learn about our Website Services Plans</a>
 				</p>
 			</div>
 		</div>
