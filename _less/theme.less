@@ -1,7 +1,6 @@
 /*
 * THEME DEFAULTS
 */
-/* body-container (if applicable) */
 html,
 body {
 	height: 100%;
@@ -85,6 +84,11 @@ dl {
 	margin-bottom: unit(@line-height, rem);
 	padding-left: unit(@line-height, rem);
 	list-style: none;
+	ul,
+	ol,
+	dl {
+		margin-bottom: 0;
+	}
 }
 dt {
 	font-weight: bold;

@@ -1,6 +1,8 @@
 <?php
 $title = "Peak | Website Services";
 $description = "";
+$h1 = "Peak Website Services";
+$h2 = "";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
@@ -14,7 +16,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <section id="website-services">
 	<h2>Website Services</h2>
 	<p>
-		Whether you are in the early days of establishing your online presence or are looking strengthen and spread your online reach, we have a service for you. 
+		Whether you are in the early days of establishing your online presence or are looking strengthen and spread your online reach, we have a service for you.
 	</p>
 	<div class="row container">
 		<!-- website creation services -->
