@@ -15,8 +15,19 @@
 	</dd>
 	<dt id="domain-name">What is a Domain Name</dt>
 	<dd>
-		Quite simply, a domain name is ... . Domain names are registered and need to be re-registered ... 
+		Quite simply, a domain name is ... . Domain names are registered and need to be re-registered ...
 	</dd>
+	<dt id="search-engine-visibility">Search Engine Visibility</dt>
+	<dd>What is search engine visibility. Explain as if to a 5-year old</dd>
+	<dt id="search-engine-index">What does it mean for a Search Engine to index a page?</dt>
+	<dd></dd>
+	<dt id="unlimited-pages">What do you mean by unlimited pages?</dt>
+	<dd>Obviously, in a literal sense, nobody can realistically offer you unlimited pages. So, keeping it in the context of a particular business or website goal, we don't believe in restricting customers to a set number of pages. Business needs and website requirements come in all shapes and sizes. One size fits all just doesn't apply here.</dd>
+	<dt id=""></dt>
+	<dd></dd>
 </dl>
 <a href="https://en.wikipedia.org/wiki/Patriot_Act">Learn more about US Privacy Laws</a>
 <a href="https://en.wikipedia.org/wiki/Privacy_Act_(Canada)">Learn more about Canadian Privacy Laws</a>
+
+<!-- Did we miss anything? Still have a question? We should allow them to find more help if we didn't succeed in answering their question-->
+Feel free to call us or drop a questionnaire.
