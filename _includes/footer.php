@@ -1,44 +1,39 @@
 <footer>
-	<!-- <div> -->
-	<article id="contact-info">
+	<!-- <article id="contact-info">
 		<h3>Contact</h3>
 		<ul>
 			<li><a href="tel:2503883993">250-592-2141</a></li>
 			<li><a href="mailto:david@peakwebsites.ca">david@peakwebsites.ca</a></li>
 		</ul>
-	</article>
+	</article> -->
+	<nav id="site-map">
+		<h3>Site Map</h3>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Website Services</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Service Plans</a></li>
+		</ul>
+	</nav>
 	<section>
 		<h3>FREE Website Assessment</h3>
+		<h4>
+			Want to improve your online presence but not sure how or where to start?
+		</h4>
 		<p>
-			Interested in sprucing up your website but not sure how or where to start?
+			Get a <a href="/peak/contact.php">Complimentary Website Assessment</a> of the core aspects of having a successful online presence. You will learn how well your website compares to factors such as site performance and page-speed, usability and user design, as well as how well you stack up to your competitors in the major search engines.
 		</p>
-		<p>
-			<a href="/peak/contact.php">Fill out a simple questionnaire</a> and soon after receive a free, comprehensive website assessment that will touch on factors such as page design, code quality, user experience and flow, as well as how well your site stacks up to your competitors on the search pages. The questionnaire only takes minutes.<br>
-		</p>
-		<a href="/peak/contact.php" class="cta-link">Fill one out today</a>!
+		<p>Take advantage of this opportunity. Get your <a href="/peak/contact.php">Complimentary Website Assessment</a> today!</p>
 	</section>
-		<!-- <article id="newsletter">
-			<h3>Sign Up for Our Newsletter</h3>
-			<form class="" action="index.html" method="post">
-				<fieldset>
-					<label for="email"></label>
-					<div class="container-newsletter">
-						<input type="email" name="email" value="" placeholder="Enter Your Email">
-						<button type="button" name="button"><span class="fa fa-envelope"></span></button>
-					</div>
-				</fieldset>
-			</form>
-		</article> -->
-		<article id="mission-statement">
-			<h3>About Peak Website Services</h3>
-			<p>
-				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
-			</p>
-		</article>
+	<article id="mission-statement">
+		<h3>About Peak Website Services</h3>
+		<p>
+			Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
+		</p>
+	</article>
 
-	<!-- </div> -->
 	<div class="copyright">
-		<span>Copyright &copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
+		<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 	</div>
 </footer>
 
