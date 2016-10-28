@@ -129,13 +129,13 @@ nav {
 	#landing-page-intro {
 		font: @header-font-900;
 		position: relative;
-		top: @3-rem * @first-modular;
-		left: 29.3% / 2.5;
+		top: @4-rem * @first-modular;
+		// left: 29.3% / 2.5;
 		color: white;
 		line-height: 1.2;
 		span {
 			.font-size(4);
-			width: auto;
+			// width: auto;
 			background-color: transparent;
 			line-height: .9;
 			.accent-color {
@@ -143,7 +143,7 @@ nav {
 			}
 		}
 		>div {
-			max-width: 50% / @first-modular;
+			max-width: (100% / @first-modular) / @first-modular;
 			p,
 			a {
 				font: @header-font-400;
@@ -151,9 +151,6 @@ nav {
 				color: @hero-color-bold;
 				text-shadow: 1px 1px 2px @hero-color;
 				.font-size(1);
-			}
-			p:first-of-type {
-				.font-size(2);
 			}
 			a:hover {
 				color: @link-color-hover;
@@ -279,21 +276,41 @@ footer {
 
 @import 'plugins/collapse';
 
-// #about {
-// 	height: 100vh;
-// 	padding-top: @1-rem * @first-modular;
-// 	#guarantee {
-// 		float: right;
-// 		width: 39.8%;
-// 	}
-// }
+#about {
+	height: 100vh;
+	padding-top: @4-rem * @first-modular;
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 0;
+		.font-size(1/@second-modular);
+		li {
+			font-weight: bold;
+			margin-bottom: @1-rem / @first-modular;
+			line-height: @second-modular;
+			>p {
+				margin-top: .5rem;
+				font-weight: normal;
+				line-height: inherit;
+				font-size: inherit;
+			}
+		}
+	}
+	blockquote {
+		clear: both;
+	}
+	#guarantee {
+		float: right;
+		width: 39.8%;
+	}
+}
 // #about-1 {
 // 	height: 100vh;
 // 	background-image: url(../_images/air-triangulated.jpg);
 // 	background-size: cover;
 // 	padding-top: @1-rem * 5;
 // 	background-repeat: no-repeat;
-// 	color: @egg-shell;
+// 	color: @hero-color;
 // 	span {
 // 		font: @header-font-900;
 // 		.font-size(3);
@@ -506,27 +523,10 @@ footer {
 
 
 
-#about {
-	ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding-left: 0;
-		li {
-			font-weight: bold;
-			flex: 0 0 40%;
-			.border(#ddd);
-			margin-right: @1-rem / @first-modular;
-			margin-bottom: @1-rem / @first-modular;
-			line-height: @line-height;
-			>p {
-				font-weight: normal;
-			}
-		}
-	}
-	blockquote {
-		clear: both;
-	}
-}
+// #about {
+// 	height: 100vh;
+
+// }
 
 // /website-services/index.php
 #website-services {
