@@ -52,7 +52,7 @@
 	.create-grid(@i: 1) when (@i =< @grid-columns) {
 		@each: (@i / @grid-columns) * 100%;
 		.col-@{i} {
-			width: @each - (unit(@first-modular, %) + .8);
+			width: @each - (unit(@first-modular, %) + .9);
 		}
 		.create-grid(@i + 1);
 	}
