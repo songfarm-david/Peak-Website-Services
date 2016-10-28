@@ -12,14 +12,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- web maintenance service -->
 		<section class="intro-service">
 			<div class="">
-				<!-- want breadcrumbs here -->
 				<h2 class="invisible"><?php echo $h2; ?></h2>
 				<span>You have more important things to worry about than a website.<br> The good news is: <i>you don't have to.</i></span>
 				<p>
-					Websites don't live in a vacuum. Like most things, they need to be *maintained*. As technology and the demands of your audience changes and evolves, you will want someone keeping a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
+					As technology and the demands of your audience grows and evolves, you'll want someone keeping a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
 				</p>
 				<p>
-					Learn how our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plan</a> can take the load off having a business presence on the web.
+					Learn how our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plan</a> takes the load off having an online presence.
 				</p>
 			</div>
 			<section class="service">
@@ -27,7 +26,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Our <em>Website Maintenance Plan</em> includes everything you need to keep your website running smoothly. You can think of it like having your own personal IT guy.
 				</p>
-				<ul>
+				<ul class="feature-list">
 					<li>
 						<span>Fast, Reliable Web Hosting</span>
 						<p>
@@ -89,6 +88,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p> -->
 					</li>
 				</ul>
+				<a href="/peak/contact.php">Click here for a Personal Website Assessment</a>
 			</section>
 		</section>
 	</main>

@@ -18,10 +18,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Whether you need a brand new website or want to give your existing one a facelift, our professional team will deliver a sleek, mobile-friendly, and sophisticated website that not only looks good but works.
 				</p>
 				<p>
-					<a href="" class="cta-link">Learn more about our Website Development Services</a>
+					<a href="" class="cta-link">Learn about our Website Development Services</a>
 				</p>
 			</div>
-
 			<!-- what's included -->
 			<section class="service">
 				<h3>What's Included?</h3>
@@ -66,6 +65,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 				</ul>
+				<a href="/peak/contact.php">Get a Quote today</a>
 
 			</section>
 			<!-- additional services -->
