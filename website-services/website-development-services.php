@@ -38,7 +38,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>No Page Limits</span>
 						<p>
-							The ultimate purpose of your website should be to support your online business goals, regardless of the amount of pages required.*
+							The ultimate purpose of your website should be to support your online business goals, regardless of the amount of pages required.
 						</p>
 					</li>
 					<li>
@@ -74,18 +74,5 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!--/ end of first section -->
 
 	</main>
-
-	<!-- Website Maintenance -->
-	<!-- <section class="aside">
-		<div class="container">
-			<h2>Need Help Getting your Site Online?</h2>
-			<p>
-				You've got a website. Now what?
-			</p>
-			<p>
-				Learn how we can help get your website online quickly and easily by visition our<br> <a href="/peak/website-services/website-maintenance-services.php">Website Maintenance Services</a> page.
-			</p>
-		</div>
-	</section> -->
 
 <?php require_once('../_includes/footer.php') ?>
