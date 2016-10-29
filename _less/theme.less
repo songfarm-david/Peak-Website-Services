@@ -5,7 +5,7 @@
 .cta-link {
 	display: block;
 	border: 1px solid transparent;
-	margin-top: @2-rem;
+	.base(margin,top,@first-modular);
 	text-transform: capitalize;
 }
 html {
@@ -30,8 +30,11 @@ body {
 	font-size: @base-size-em;
 }
 .container {
-	width: unit(@page-width-alt, rem);
-	margin: 0 auto;
+	width: 100%;
+	@media (@sm-query) {
+		width: unit(@page-width-alt, rem);
+		margin: 0 auto;
+	}
 }
 /* type & text */
 h1,
@@ -43,8 +46,8 @@ h4 {
 }
 p,
 span {
-	margin: 1.2rem 0 0.5rem;
-	line-height: 1.5;
+	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
+	line-height: @line-height;
 	.font-size(1);
 }
 h4,
@@ -62,11 +65,16 @@ h2,
 h1,
 .h1 {
 	.font-size(4);
-	margin-top: 1.414rem;
+	margin-top: unit(@first-modular, rem);
 }
+label,	input,	button	{
+		display:	block;
+		width:	100%;
+}
+
 .lead {
 	text-transform: uppercase;
-	font-size: 1rem * @second-modular;
+	font-size: @1-rem * @second-modular;
 	line-height: @second-modular;
 	letter-spacing: 1px;
 }
@@ -102,7 +110,7 @@ dl {
 }
 dt {
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	margin-bottom: @1-rem/2;
 }
 dd {
 	padding-left: 1em;
@@ -117,36 +125,4 @@ blockquote {
 	border-left: 5px solid @hero-color-bold;
 	.base(padding,0.3);
 	padding-left: @1-rem;
-}
-
-/* forms */
-
-
-/* overlays & misc */
-.overlay(@background-color: '#333', @opacity: 0.9) {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: @opacity;
-	background-color: @background-color;
-}
-.header-focus {
-	background-color: @hero-color-bold;
-	color: @background-color;
-	padding: .25rem 1rem;
-	box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, .5);
-}
-.link-style {
-	padding: 1rem 0.25rem 1rem 0;;
-	.font-size(.68);
-	&:hover {
-		text-decoration: underline;
-		color: #000;
-	}
-}
-.box-shadow-img {
-	box-shadow: 0 0 3px 1px rgba(0, 0, 0, .9);
 }
