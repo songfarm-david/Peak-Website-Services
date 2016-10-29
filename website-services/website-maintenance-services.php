@@ -13,14 +13,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="service container">
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<div class="service-intro">
-				<!-- <span>You have more important things to worry about than a website.<br> The good news is: <i>you don't have to.</i></span> -->
 				<span>Take the load off having an online presence.</span>
 				<p>
 					As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
 				</p>
-				<!-- <p>
-					As the demands of your audience and technology grow and evolve, you need someone with a finger on the pulse of the internet, and more importantly, on the heartbeat of your online business.
-				</p> -->
 				<p>
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
@@ -86,7 +82,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
-				<a href="/peak/contact.php">CTA</a>
+				<p>
+					<a href="/peak/contact.php">Contact Us today</a>
+				</p>
 			</section>
 		</section><!--/ end of service -->
 

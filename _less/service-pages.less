@@ -1,0 +1,58 @@
+.service.container {
+	.service-intro {
+		height: 100vh;
+
+		.base(padding, top, 5);
+		span {
+			.font-size(2);
+			line-height: @second-modular;
+			+ p {
+				.base(margin, top, 1);
+				+ p > a {
+					.base(margin, top, 2);
+				}
+			}
+		}
+	}
+	.service-features {
+		height: 100vh;
+		ul.feature-list {
+			.base(margin,top,1);
+			padding-left: 0;
+			// .border(green);
+			display: flex;
+			flex-wrap: wrap;
+			>li {
+				margin-bottom: @1-rem/2;
+				flex-grow:	1;
+				flex-shrink:	1;
+				flex-basis:	29%;
+				// .border;
+				.base(margin,right,1);
+				.base(margin,bottom,1);
+				.base(padding,.25);
+				padding-left: 0;
+				>span {
+					.font-size(1);
+					font-weight: bold;
+					// .border;
+				}
+				>p {
+					.font-size(.5);
+					line-height: @second-modular;
+					margin-top: unit(@second-modular, rem);
+				}
+				>small {
+					font-style: italic;
+					.font-size(.4);
+					float: right;
+					display: block;
+					.base(margin,top,.5);
+				}
+			}
+		}
+	}
+	.service-cta {
+		height: 100vh;
+	}
+}

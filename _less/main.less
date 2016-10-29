@@ -13,15 +13,7 @@
 @import 'animations';
 @import 'helper';
 
-// html {
-// 	background-color: #fff;
-// 	body {
-// 		margin: 0 auto;
-// 		background: #eee;
-// 		height: 100%;
-// 	}
-// }
-
+// site-wide
 header {
 	position: fixed;
 	top: 0;
@@ -38,7 +30,6 @@ header {
 		}
 	}
 }
-
 nav {
 	position: absolute;
 	top: 0;
@@ -117,90 +108,6 @@ nav {
 	}
 
 }
-
-#landing-page {
-	height: 100vh;
-	background-color: @platinum;
-	background-image: url(../_images/air-triangulated.jpg);
-	background-size: cover;
-	background-position: 50% center;
-	position: relative;
-	z-index: 100;
-	#landing-page-intro {
-		font: @header-font-900;
-		position: relative;
-		top: @4-rem * @first-modular;
-		// left: 29.3% / 2.5;
-		color: white;
-		line-height: 1.2;
-		span {
-			.font-size(4);
-			// width: auto;
-			background-color: transparent;
-			line-height: .9;
-			.accent-color {
-				color: @accent-color;
-			}
-		}
-		>div {
-			max-width: (100% / @first-modular) / @first-modular;
-			p,
-			a {
-				font: @header-font-400;
-				font-family: 'Abel', sans-serif;
-				color: @hero-color-bold;
-				text-shadow: 1px 1px 2px @hero-color;
-				.font-size(1);
-			}
-			a:hover {
-				color: @link-color-hover;
-			}
-		}
-	}
-}
-
-// #website-services {
-// 	position: relative;
-// 	height: 100vh;
-// 	text-align: center;
-// 	.container {
-// 		margin: (@1-rem * 4) auto;
-// 	}
-// 	>h2 {
-// 		position: absolute;
-// 		color: fadeout(@hero-color, 80%);
-// 		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
-// 		.font-size(5);
-// 		left: -24.81%;
-// 		bottom: 38.1% / 2;
-// 		width: 100%;
-// 		z-index: -1;
-// 	}
-// 	h3 {
-// 		.font-size(1.6);
-// 		font-weight: 400;
-// 		line-height: .8;
-// 		color: @hero-color;
-// 		.emphasize {
-// 			.font-size(2.6);
-// 			font-weight: 900;
-// 		}
-// 	}
-// 	div.col>a:first-of-type {
-// 		text-decoration: none;
-// 	}
-// 	div:nth-child(1) > a>h3 .emphasize {
-// 			color: @tiffany-blue;
-// 	}
-// 	div:nth-child(2) > a>h3 .emphasize {
-// 			color: @shocking-pink;
-// 	}
-// 	div:nth-child(3) > a>h3 .emphasize {
-// 			color: @yellow-b;
-// 	}
-//
-// }
-
 footer {
 	position: relative;
 	background-color: @platinum;
@@ -274,270 +181,46 @@ footer {
 	}
 }
 
-@import 'plugins/collapse';
-
-#about {
+// peak/index.php
+#landing-page {
 	height: 100vh;
-	padding-top: @4-rem * @first-modular;
-	ul {
-		display: flex;
-		flex-wrap: wrap;
-		padding-left: 0;
-		.font-size(1/@second-modular);
-		li {
-			font-weight: bold;
-			margin-bottom: @1-rem / @first-modular;
+	background-color: @platinum;
+	background-image: url(../_images/air-triangulated.jpg);
+	background-size: cover;
+	background-position: 50% center;
+	position: relative;
+	z-index: 100;
+	#landing-page-intro {
+		position: relative;
+		top: @4-rem * @first-modular;
+		color: @platinum;
+		line-height: @second-modular;
+		#headline {
 			line-height: @second-modular;
-			>p {
-				margin-top: .5rem;
-				font-weight: normal;
-				line-height: inherit;
-				font-size: inherit;
+			line-height: @second-modular;
+			.accent-color {
+				.h1;
+				color: @accent-color;
+			}
+		}
+
+		>div {
+			// display: none;
+			max-width: (100% / @first-modular) / @first-modular;
+			p,
+			a {
+				// font: @header-font-400;
+				font-family: 'Abel', sans-serif;
+				color: @hero-color-bold;
+				text-shadow: 1px 1px 2px @hero-color;
+			}
+			a:hover {
+				color: @link-color-hover;
 			}
 		}
 	}
-	blockquote {
-		clear: both;
-	}
-	#guarantee {
-		float: right;
-		width: 39.8%;
-	}
-}
-// #about-1 {
-// 	height: 100vh;
-// 	background-image: url(../_images/air-triangulated.jpg);
-// 	background-size: cover;
-// 	padding-top: @1-rem * 5;
-// 	background-repeat: no-repeat;
-// 	color: @hero-color;
-// 	span {
-// 		font: @header-font-900;
-// 		.font-size(3);
-// 		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-// 	}
-// 	p {
-// 		color: @hero-color;
-// 		max-width: 70% / @first-modular;
-// 		// .base(padding,0.3);
-// 		.font-size(1);
-// 		margin-bottom: @1-rem * @second-modular;
-// 	}
-// 	.spin {
-// 		color: @hero-color;
-// 	}
-// 	a {
-// 		margin-right: @1-rem / @second-modular;
-// 		transition: all .5s ease-in-out;
-// 		.font-size(.7);
-// 		&:hover,
-// 		&:focus {
-// 			color: @hero-color;
-// 		}
-// 	}
-// }
-
-// #contact-main {
-// 	height: 100vh;
-// 	padding-top: (@1-rem * 2);
-// 	// background-image: url(../_images/doodle-street-mountain.jpg);
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	background-position: center 60%;
-// 	#contact-form {
-// 		width: 100% / @first-modular;
-// 		margin: 0 auto;
-// 		background-color: fadeout(#fff, 50%);
-// 		.base(padding, 0.25rem);
-// 		>fieldset {
-// 			.base(padding, 0.25rem);
-// 			legend {
-// 				margin: 0 0.5em 0 0;
-// 				padding: 0 0.5em;
-// 				font-weight: bold;
-// 			}
-// 			p {
-// 				.font-size(0.5);
-// 				&:first-of-type {
-// 					margin-top: 0;
-// 				}
-// 			}
-// 			label {
-// 				display: block;
-// 			}
-// 		}
-// 		span {
-// 			.border;
-// 			line-height: @line-height;
-// 		}
-// 		.row {
-// 			.col:last-child {
-// 				margin-right: 0;
-// 			}
-// 		}
-// 		input,
-// 		textarea {
-// 			border-width: 0 0 2px;
-// 			border-style: solid;
-// 			border-color: @secondary-color;
-// 			background-color: transparent;
-// 			border-bottom-left-radius: 1px;
-// 			border-bottom-right-radius: 1px;
-// 			height: auto;
-// 			padding: @1-rem / @first-modular;
-// 			&:focus {
-// 				outline: 0;
-// 			}
-// 		}
-// 		textarea {
-// 			height: auto;
-// 			&:focus {
-// 				outline: 0;
-// 				height: 150px;
-// 			}
-// 		}
-// 		input[type="submit"] {
-// 			display: block;
-// 			margin: 0 auto;
-// 			border-width: 2px;
-// 			margin-top: @1-rem * @first-modular;
-// 			width: (100% / @first-modular) / @first-modular;
-// 		}
-// 	}
-// }
-
-// website service pages
-// .container.service-container {
-//
-// 	.intro-service {
-// 		padding-top: @1-rem * 4;
-// 		>div {
-// 			height: 100vh;
-// 			.base(padding, 1);
-// 			>h2 {
-// 				// styled smaller
-// 				font: @body-font;
-// 				.font-size(@second-modular/2);
-// 			}
-// 			>span {
-// 				display: block;
-// 				margin-top: @1-rem * @first-modular;
-// 				line-height: @line-height;
-// 				.font-size(2);
-// 			}
-// 			p {
-// 				margin-top: @1-rem * @first-modular;
-// 				.font-size(1);
-// 			}
-// 		}
-// 		// >div+section.service {
-// 		// 	min-height: 100vh;
-// 		// 	>h3+p {
-// 		// 		.font-size(.5);
-// 		// 	margin-bottom: @1-rem * @first-modular;
-// 		// 	}
-// 		// 	// features
-// 		// 	>ul {
-// 		// 		display: flex;
-// 		// 		flex-wrap: wrap;
-// 		// 		justify-content: space-around;
-// 		// 		padding: 0;
-// 		// 		margin: 0;
-// 		// 		li {
-// 		// 			flex-basis: 30%;
-// 		// 			margin-bottom: @1-rem * @second-modular;
-// 		// 			background-color: #eee;
-// 		// 			span {
-// 		// 				display: block;
-// 		// 				background-color: @hero-color;
-// 		// 				text-align: center;
-// 		// 				color: @secondary-color;
-// 		// 				line-height: @second-modular;
-// 		// 				.font-size(1);
-// 		// 				.base(padding, .25);
-// 		// 			}
-// 		// 			p,
-// 		// 			small {
-// 		// 				.base(padding,0.25);
-// 		// 				padding-top: 0;
-// 		// 			}
-// 		// 			small {
-// 		// 				display: block;
-// 		// 				// margin-top: @1-rem * @second-modular;
-// 		// 			}
-// 		// 		}
-// 		// 	}
-// 		// 	section#additional-services {
-// 		// 		p {
-// 		// 			.font-size(.5);
-// 		// 		}
-// 		// 		ul {
-// 		// 			display: flex;
-// 		// 			li {
-// 		// 				margin-right: @1-rem * @first-modular;
-// 		// 			}
-// 		// 		}
-// 		// 	}
-// 		// }
-// 		.service {
-// 			h3 {
-// 				margin-top: 0;
-// 			}
-// 			p {
-// 				.font-size(0.5);
-// 			}
-// 			>ul {
-// 				padding-top: @1-rem;
-// 				li {
-// 					padding-bottom: @1-rem;
-// 					span {
-// 						.font-size(1);
-// 						font-weight: bold;
-// 						line-height: @line-height;
-// 					}
-// 				}
-// 			}
-// 			#additional-services {
-// 				padding-bottom: @1-rem * @first-modular;
-// 			}
-// 		}
-// 	}
-// }
-
-#guarantee {
-	margin: 0;
-	text-align: center;
-	padding-bottom: @1-rem * @second-modular;
-	background-color: #ddd;
-	padding-top: (@1-rem * @second-modular) / 2;
-	.border(#eee);
-	width: 50% / @second-modular;
-	float: right;
-	p {
-		margin-left: auto;
-		margin-right: auto;
-		.font-size(1);
-	}
 }
 
+@import 'service-pages';
 
-
-
-// #about {
-// 	height: 100vh;
-
-// }
-
-// /website-services/index.php
-#website-services {
-	height: 100vh;
-	#website-services-container {
-		display: flex;
-		flex-wrap: wrap;
-		>div {
-			flex-basis: 33.3%;
-			text-align: center;
-			.border(#ddd);
-		}
-	}
-}
+@import 'plugins/collapse';

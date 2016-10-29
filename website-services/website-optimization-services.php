@@ -7,22 +7,26 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-	<main class="container service-container">
-		<!-- Web Optimization Services -->
-		<section class="intro-service">
-			<div class="">
-				<h2 class="invisible"><?php echo $h2; ?></h2>
+	<main>
+
+		<!-- service -->
+		<section class="service container">
+			<h2 class="hide"><?php echo $h2; ?></h2>
+			<div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
 				<p>
 					Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
 				</p>
-				<p>Take your online business to the next level. Learn about our <a href="#">Website Optimization Plan</a>.</p>
-			</div>
-			<section class="section">
-				<h3>Website Optimization Plan</h3>
 				<p>
-
+					Optimizing your online presence for visitors and the search engines is
 				</p>
+				<p class="cta-link">
+					Take your online business to the next level. Learn about our <a href="#">Website Optimization Plan</a>.
+				</p>
+			</div>
+			<!-- service features -->
+			<section class="service-features">
+				<h3 id="website-optimization-plan">Website Optimization Plan</h3>
 				<ul class="feature-list">
 					<li>
 						<span>Personal Keyword Strategy</span>
@@ -37,24 +41,28 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<span>Optimal Search Engine Visibility</span>
+						<span>Search Engine Visibility</span>
 						<p>
 							Turn your website into a peak performer and capitilize on industry leading techniques to optimize your websites search visibility.
 						</p>
 					</li>
-					<!-- <li>Tracking Of Keywords</li> -->
-					<!-- <li>Adword Campaigns</li> -->
-					<!-- <li>Local SEO</li> -->
-					<li>Galvanize your Website Authority
+					<li>
+						<span>Galvanize your Website Authority</span>
 						<p>
 							Develop your domain authority and set the foundation for consistently strong page rank
 						</p>
 					</li>
 				</ul>
+			</section><!--/ end of service features -->
+			<!-- service cta -->
+			<section class="service-cta">
+				<p>
+					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
+				</p>
 				<a href="/peak/contact.php">Click here for a Personal Website Assessment</a>
-
 			</section>
 		</section>
+
 	</main>
 
 
