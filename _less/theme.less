@@ -1,12 +1,27 @@
 /*
 * THEME DEFAULTS
 */
-html,
-body {
-	height: 100%;
-	color: #000;
-	background-color: #fff;
+// special class
+.cta-link {
+	display: block;
+	border: 1px solid transparent;
+	margin-top: @2-rem;
+	text-transform: capitalize;
 }
+html {
+	background-color: #fff;
+	body {
+		margin: 0 auto;
+		background: @background-color;
+		height: 100%;
+	}
+}
+// html,
+// body {
+// 	height: 100%;
+// 	color: #000;
+// 	background-color: #fff;
+// }
 html {
 	font-size: @base-size-px;
 }
@@ -23,7 +38,7 @@ h1,
 h2,
 h3,
 h4 {
-	font: @header-font-900;
+	font: @header-font;
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 }
 p,
@@ -65,12 +80,7 @@ a {
 a.inline-link {
 	text-transform: lowercase;
 }
-/* make links display as block and have a top margin - for call-to-action type links */
-.cta-links {
-	display: block;
-	margin-top: @1-rem * @first-modular;
-	text-transform: capitalize;
-}
+
 a:active,
 a:hover {
 	outline-width: 0;
