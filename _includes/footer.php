@@ -1,42 +1,33 @@
-<footer>
-	<!-- <article id="contact-info">
-		<h3>Contact</h3>
-		<ul>
-			<li><a href="tel:2503883993">250-592-2141</a></li>
-			<li><a href="mailto:david@peakwebsites.ca">david@peakwebsites.ca</a></li>
-		</ul>
-	</article> -->
-	<nav id="site-map">
-		<h3>Site Map</h3>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Website Services</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Service Plans</a></li>
-		</ul>
-	</nav>
-	<section>
-		<h3>FREE Website Assessment</h3>
-		<h4>
-			Want to improve your online presence but not sure how or where to start?
-		</h4>
-		<p>
-			Get a <a href="/peak/contact.php">Complimentary Website Assessment</a> of the core aspects of having a successful online presence. You will learn how well your website compares to factors such as site performance and page-speed, usability and user design, as well as how well you stack up to your competitors in the major search engines.
-		</p>
-		<p>Take advantage of this opportunity. Get your <a href="/peak/contact.php">Complimentary Website Assessment</a> today!</p>
-	</section>
-	<article id="mission-statement">
-		<h3>About Peak Website Services</h3>
-		<p>
-			Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
-		</p>
-	</article>
-
-	<div class="copyright">
-		<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
-	</div>
-</footer>
-
+	<footer>
+		<nav id="site-map">
+			<h3>Site Map</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Website Services</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Service Plans</a></li>
+			</ul>
+		</nav>
+		<section>
+			<h3>FREE Website Assessment</h3>
+			<h4>
+				Want to improve your online presence but not sure how or where to start?
+			</h4>
+			<p>
+				Get a <a href="/peak/contact.php">Complimentary Website Assessment</a> of the core aspects of having a successful online presence. You will learn how well your website compares to factors such as site performance and page-speed, usability and user design, as well as how well you stack up to your competitors in the major search engines.
+			</p>
+			<p>Take advantage of this opportunity. Get your <a href="/peak/contact.php">Complimentary Website Assessment</a> today!</p>
+		</section>
+		<article id="mission-statement">
+			<h3>About Peak Website Services</h3>
+			<p>
+				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
+			</p>
+		</article>
+		<div class="copyright">
+			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
+		</div>
+	</footer>
 </body>
 <script src="https://use.fontawesome.com/85510088e9.js"></script>
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
