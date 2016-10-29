@@ -7,25 +7,35 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-	<main class="container service-container">
+<main>
 
-		<!-- web maintenance service -->
-		<section class="intro-service">
-			<div class="">
-				<h2 class="invisible"><?php echo $h2; ?></h2>
-				<span>You have more important things to worry about than a website.<br> The good news is: <i>you don't have to.</i></span>
+		<!-- service -->
+		<section class="service container">
+			<h2 class="hide"><?php echo $h2; ?></h2>
+			<div class="service-intro">
+				<!-- <span>You have more important things to worry about than a website.<br> The good news is: <i>you don't have to.</i></span> -->
+				<span>Take the load off having an online presence.</span>
 				<p>
-					As technology and the demands of your audience grows and evolves, you'll want someone keeping a finger on the pulse of the web, and more importantly, on the heartbeat of your website.
+					As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
 				</p>
+				<!-- <p>
+					As the demands of your audience and technology grow and evolve, you need someone with a finger on the pulse of the internet, and more importantly, on the heartbeat of your online business.
+				</p> -->
 				<p>
-					Learn how our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plan</a> takes the load off having an online presence.
+					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
+				</p>
+				<p class="cta-link">
+					Learn about our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plans</a>.
 				</p>
 			</div>
-			<section class="service">
+			<!-- service features -->
+			<section class="service-features">
 				<h3 id="website-maintenance-plan">Website Maintenance Plan</h3>
-				<p>
-					Our <em>Website Maintenance Plan</em> includes everything you need to keep your website running smoothly. You can think of it like having your own personal IT guy.
+				<p class="h4">
+					Everything you need to keep your business online and running smoothly.
 				</p>
+				<h4 class="hide">What's included:</h4>
+				<!-- features list -->
 				<ul class="feature-list">
 					<li>
 						<span>Fast, Reliable Web Hosting</span>
@@ -68,29 +78,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<p>
 							See how well your website is performing in our <a href="/peak/faq#monthly-performance-reports">Monthly Performance Reports</a> and learn from the data to make better online business decisions.
 						</p>
-						<!-- <p>
-							Better decisions for your business with a high-level, comprehensive monthly overview of the performance and health of your website.
-						</p> -->
-						<!-- <p>
-							Our <a href="/peak/faq#monthly-performance-reports">Monthly Performance Reports</a> provide a high-level, comprehensive overview of the health and performance of your website so you can make better business decisions.
-						</p> -->
-						<!-- <p>
-							Understanding what's happening with your website helps you make better decisions for your business. Our <a href="/peak/faq#monthly-performance-reports">Monthly Performance Reports</a> provide a high-level, comprehensive overview of the health and performance of your website so you can make better decisions for your business.
-						</p> -->
-						<!-- <p>
-							Improving your online business starts with understanding the data. Receive a full overview of the health and performance of your website in our <a href="/peak/faq#monthly-performance-report">Monthly Performance Report</a>
-						</p> -->
-						<!-- <p>
-							Stay in the know regarding your website. Our <a href="/peak/faq#monthly-performance-report">Monthly Performance Report</a> will keep you informed .
-						</p>
-						<p>
-							Our <a href="/peak/faq#monthly-performance-report">Monthly Performance Report</a> will tell you who's coming to your site and what they're doing once they get there.
-						</p> -->
 					</li>
 				</ul>
-				<a href="/peak/contact.php">Click here for a Personal Website Assessment</a>
+			</section><!--/ end of service features -->
+			<!-- service cta -->
+			<section class="service-cta">
+				<p>
+					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
+				</p>
+				<a href="/peak/contact.php">CTA</a>
 			</section>
-		</section>
-	</main>
+		</section><!--/ end of service -->
+
+
+</main>
 
 <?php require_once('../_includes/footer.php') ?>
