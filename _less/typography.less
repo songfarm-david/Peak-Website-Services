@@ -1,14 +1,13 @@
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
-@header-font-900: 900 1rem 'Passion One', cursive; // have a different fallback than just cursive
-@header-font-400: 400 1rem 'Passion One', cursive; // have a different fallback than just cursive
-@body-font: 1rem 'Abel', sans-serif;
+@header-font: 900 1rem 'Passion One', Arial, sans-serif; // big, bold, bubbly
+@body-font: normal 1rem 'Signika', sans-serif; // this is a great body font, approachable
 
 nav {
-	font-family: 'Abel', sans-serif;
+	font: @body-font;
 }
 
 #landing-page {
-	font: @header-font-900
+	font: @header-font;
 }
