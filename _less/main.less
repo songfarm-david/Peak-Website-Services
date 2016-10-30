@@ -193,6 +193,40 @@ footer {
 	}
 }
 
+#about {
+	height: 100vh;
+	padding-top: @4-rem * @first-modular;
+	#about-intro {
+		float: left;
+		width: 49%;
+		padding-top: @1-rem * @second-modular;
+		p > span.effect {
+			line-height: @second-modular;
+			.font-size(3);
+		}
+		p + p {
+			.base(margin,top,4);
+		}
+	}
+	ul#key-list {
+		padding-left: 0;
+		.font-size(1/@second-modular);
+		float: right;
+		width: 49%;
+		li {
+			font-weight: bold;
+			margin-bottom: @1-rem;
+			line-height: @second-modular;
+			.font-size(1);
+			>p {
+				margin-top: @1-rem / @first-modular;
+				font-weight: normal;
+				line-height: @second-modular;
+				.font-size(.9);
+			}
+		}
+	}
+}
 
 
 @import 'service-pages';
