@@ -17,7 +17,7 @@ $h2 = "";
 						Website Services for business owners looking to elevate their online potential.
 					</p>
 					<p>
-						<a href="/peak/website-services/">Learn about our Website Services Plans</a>
+						<a href="/peak/website-services/">Learn about our Website Services</a>
 					</p>
 				</div>
 			</div>
