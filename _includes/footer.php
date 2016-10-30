@@ -8,16 +8,6 @@
 				<li><a href="#">Service Plans</a></li>
 			</ul>
 		</nav>
-		<section>
-			<h3>FREE Website Assessment</h3>
-			<h4>
-				Want to improve your online presence but not sure how or where to start?
-			</h4>
-			<p>
-				Get a <a href="/peak/contact.php">Complimentary Website Assessment</a> of the core aspects of having a successful online presence. You will learn how well your website compares to factors such as site performance and page-speed, usability and user design, as well as how well you stack up to your competitors in the major search engines.
-			</p>
-			<p>Take advantage of this opportunity. Get your <a href="/peak/contact.php">Complimentary Website Assessment</a> today!</p>
-		</section>
 		<article id="mission-statement">
 			<h3>About Peak Website Services</h3>
 			<p>
