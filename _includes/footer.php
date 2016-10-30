@@ -9,12 +9,13 @@
 			<h3>Site Map</h3>
 			<ul>
 				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
 				<li><a href="#">Website Services</a></li>
 				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Service Plans</a></li>
+				<li><a href="#">Contact</a></li>
 			</ul>
 		</nav>
-		<div class="copyright">
+		<div id="copyright">
 			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 		</div>
 	</footer>
