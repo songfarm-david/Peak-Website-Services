@@ -61,7 +61,7 @@ nav {
 				.font-size(.8);
 				padding: @1-rem/@second-modular;
 				&:hover {
-					text-shadow: -1px -1px 5px @gray-blue;
+					text-shadow: 1px 1px 2px @gray-blue;
 				}
 			}
 		}
@@ -88,7 +88,7 @@ nav {
 				height: auto;
 				display: block;
 				width: auto;
-				top: (@1-rem * 2);
+				top: 76px;
 				border-left: 5px solid @hero-color-bold;
 				transition: opacity 100ms ease-in;
 				li {
@@ -97,7 +97,8 @@ nav {
 					background-color: rgba(255, 255, 255, 0.1);
 					a {
 						.font-size(.9);
-						padding: 0.4rem 0.5rem;
+						padding: @1-rem/@first-modular @1-rem/2;
+						line-height: 1;
 					}
 				}
 			}
@@ -201,15 +202,13 @@ footer {
 				width: (100% / @first-modular) / @second-modular;
 				color: @japanese-indigo;
 				font: @body-font;
-				.font-size(1 * @second-modular);
 				p {
-					line-height: @second-modular;
-					text-shadow: -1px -1px 2px @ash-white;
+					text-shadow: 1px 1px 2px @ash-white;
 				}
 				p:last-child {
 					margin-top: @1-rem * @first-modular;
-					.font-size(1 * @second-modular);
 					font-weight: bold;
+					.font-size(1 * @second-modular);
 					a {
 						color: inherit;
 						&:hover {

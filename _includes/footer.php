@@ -8,7 +8,7 @@
 		<article id="quick-quote">
 			<h3 class="h2">Tell Us About Your Project</h3>
 			<p>
-				Have a project in mind? Get a <a href="contact.php">hassle-free quote</a>.
+				Have a project in mind? Get a <a href="/peak/contact.php">hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">
