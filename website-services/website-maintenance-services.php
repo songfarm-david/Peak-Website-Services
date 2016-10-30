@@ -59,9 +59,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<p>
 							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq#search-engine-index">crawled and indexed</a> by the search engines means your customers always have a green light to become a customer.
 						</p>
-						<!-- <p>
-							We have the tools and know-how to keep your website happy and healthy.
-						</p> -->
 					</li>
 					<li>
 						<span>Website Analytics</span>
@@ -83,7 +80,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
 				<p>
-					<a href="/peak/contact.php">Contact Us today</a>
+					<a href="/peak/contact.php?type=maintenance">Start A Website Service Plan</a>
 				</p>
 			</section>
 		</section><!--/ end of service -->

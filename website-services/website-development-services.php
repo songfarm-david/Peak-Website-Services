@@ -14,9 +14,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<div class="service-intro">
 					<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
-					<!-- <p>
-						Whether you need a brand new website or want to give your existing one a facelift, let us deliver to you a custom designed, user-friendly, and professional website that not only looks good but <em>works</em>.
-					</p> -->
 					<p>
 						Whether you need a brand new website or want to give your existing one a facelift, let us deliver to you a custom designed, user-friendly, and professional website that not only looks great but works great, too.
 					</p>
@@ -30,9 +27,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- service features -->
 				<section class="service-features">
 					<h3>What's Included?</h3>
-					<!-- <p>
-						Included in every website we do is the following:
-					</p> -->
 					<!-- features list -->
 					<ul class="feature-list">
 						<li>
@@ -75,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</section><!--/ end of service features -->
 				<!-- service cta -->
 				<section class="service-cta">
-					<a href="">Get a quote today</a>
+					<a href="/peak/contact.php?type=maintenance">Request A Quote</a>
 				</section>
 			</section><!--/ end of service -->
 
