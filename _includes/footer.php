@@ -1,4 +1,10 @@
 	<footer>
+		<article id="mission-statement">
+			<h4 class="h3">About Peak Website Services</h4>
+			<p>
+				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
+			</p>
+		</article>
 		<nav id="site-map">
 			<h3>Site Map</h3>
 			<ul>
@@ -8,12 +14,6 @@
 				<li><a href="#">Service Plans</a></li>
 			</ul>
 		</nav>
-		<article id="mission-statement">
-			<h3>About Peak Website Services</h3>
-			<p>
-				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
-			</p>
-		</article>
 		<div class="copyright">
 			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 		</div>
