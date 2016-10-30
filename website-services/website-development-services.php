@@ -20,7 +20,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<p>
 						Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 					</p>
-					<p class="cta-link">
+					<p>
 						Learn about our <a href="/peak/website-services/website-development-services#">Website Development Services</a>
 					</p>
 				</div>

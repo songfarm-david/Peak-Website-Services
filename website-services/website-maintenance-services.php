@@ -20,7 +20,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
-				<p class="cta-link">
+				<p>
 					Learn about our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plans</a>.
 				</p>
 			</div>

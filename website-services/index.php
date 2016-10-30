@@ -12,7 +12,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div class="container">
 			<h2><?php echo $h2; ?></h2>
 			<p class="message">
-				Whatever stage of the life-cycle of your business, we've got a service for you.
+				Whatever stage of the life-cycle of your business, we've got you covered.
 			</p>
 		</div>
 		<!-- services -->
@@ -21,37 +21,37 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="col col-4">
 				<h3>Website<br> Development <span class="at-only">Services</span></h3>
 				<ul>
-					<li>New Site Creation</li>
-					<li>Site Remodels</li>
-					<li>E-Commerce, Blog</li>
-					<li>Content Management System</li>
-					<li>Online Store Creation</li>
+					<li>New Website Creation</li>
+					<li>Existing Website Redesign</li>
+					<li>Website Integrations (eCommerce, Blog)</li>
+					<li>Personal &amp; Corporate Branding</li>
+					<li>Logo &amp; Graphic Design</li>
 				</ul>
-				<a href="/peak/website-services/website-development-services.php">View Website Development Services</a>
+				<a href="/peak/website-services/website-development-services.php">View<br> Website Development Services</a>
 			</div>
 			<!-- website maintenance services -->
 			<div class="col col-4">
 				<h3>Website<br> Maintenance <span class="at-only">Services</span></h3>
 				<ul>
-					<li>New Site Creation</li>
-					<li>Site Remodels</li>
-					<li>E-Commerce, Blog</li>
-					<li>Content Management System</li>
-					<li>Online Store Creation</li>
-				</ul>
-				<a href="/peak/website-services/website-maintenance-services.php">View Website Maintenance Services</a>
+					<li>Website Hosting &amp; Domain Management</li>
+					<li>Performance Monitoring and Analytics</li>
+					<li>Monthly Performance Reports</li>
+					<li>Unrestricted Support</li>
+					<li>Easy Content Updates &amp; Management</li>
+			</ul>
+				<a href="/peak/website-services/website-maintenance-services.php">View<br> Website Maintenance Services</a>
 			</div>
 			<!-- website optimization services -->
 			<div class="col col-4">
 				<h3>Website<br> Optimization <span class="at-only">Services</span></h3>
 				<ul>
-					<li>New Site Creation</li>
-					<li>Site Remodels</li>
-					<li>E-Commerce, Blog</li>
-					<li>Content Management System</li>
-					<li>Online Store Creation</li>
+					<li>Enhanced Search Visibility</li>
+					<li>Comprehensive Keyword Strategy</li>
+					<li>Marketing Campaign Management</li>
+					<li>Pay-Per-Click Campaigns</li>
+					<li>Competitive Research &amp; Analysis</li>
 				</ul>
-				<a href="/peak/website-services/website-optimization-services.php">View Website Optimization Services</a>
+				<a href="/peak/website-services/website-optimization-services.php">View<br> Website Optimization Services</a>
 			</div>
 		</div><!--/ end services -->
 	</section>

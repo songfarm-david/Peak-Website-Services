@@ -18,10 +18,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
 				</p>
 				<p>
-					Optimizing your online presence for visitors and the search engines is ...
+					Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
 				</p>
-				<p class="cta-link">
-					Take your online business to the next level. Learn about our <a href="#">Website Optimization Plan</a>.
+				<p>
+					Learn about our <a href="#">Website Optimization Plan</a>.
 				</p>
 			</div>
 			<!-- service features -->
@@ -47,15 +47,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<span>Galvanize your Website Authority</span>
+						<span>Your Corner of the Web</span>
 						<p>
-							Develop your domain authority and set the foundation for consistently strong page rank
+							Develop your website's domain authority and set the foundation for consistently strong page ranks to galvanize your place on the web.
 						</p>
 					</li>
 					<li>
-						<span>Another Great Feature</span>
+						<span>Dynamic Marketing Campaigns</span>
 						<p>
-							Develop your domain authority and set the foundation for consistently strong page rank
+							Remain flexible to shifting market conditions and adjust keyword strategy to adapt to the needs and demands of your customers.
 						</p>
 					</li>
 					<li>
@@ -67,12 +67,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</ul>
 			</section><!--/ end of service features -->
 			<!-- service cta -->
-			<section class="service-cta">
+			<!-- <section class="service-cta">
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
 				<a href="/peak/contact.php?type=optimization">Start A Website Service Plan</a>
-			</section>
+			</section> -->
 		</section>
 
 	</main>
