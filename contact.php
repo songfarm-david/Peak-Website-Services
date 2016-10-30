@@ -19,28 +19,7 @@ $description = "";
 				<h2 class="hide">Contact Form</h2>
 				<form id="contact-form" action="index.html" method="post">
 					<fieldset>
-						<legend>Web Service Questionnaire</legend>
-						<div class="row">
-							<div class="col col-12">
-								<p>Which service(s) are you interested in?</p>
-								<label for="Website Creation">
-									<input type="checkbox" name="service" value="Website Creation" id="Website Creation">&nbsp;Website Creation
-								</label>
-								<label for="Website Maintenance">
-									<input type="checkbox" name="service" value="Website Maintenance" id="Website Maintenance">&nbsp;Website Maintenance
-								</label>
-								<label for="Website Optimization">
-									<input type="checkbox" name="service" value="Website Optimization" id="Website Optimization">&nbsp;Website Optimization
-								</label>
-								<p>What is your preferred method of contact?</p>
-								<label for="phone">
-									<input type="radio" name="contact-method" value="Phone" id="phone">&nbsp;Phone
-								</label>
-								<label for="Email">
-									<input type="radio" name="contact-method" value="Email">&nbsp;Email
-								</label>
-							</div>
-						</div>
+						<legend class="at-only">Web Service Questionnaire</legend>
 						<div class="row">
 							<div class="col col-6">
 								<label for="name">
