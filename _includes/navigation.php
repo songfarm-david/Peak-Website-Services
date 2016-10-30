@@ -20,8 +20,8 @@
 					</ul>
 				</div>
 			</li>
-			<!-- <li><a href="/peak/about-peak.php">About Peak</a></li> -->
-			<li><a href="/peak/portfolio/">Portfolio</a></li>
+			<li><a href="/peak/about-peak.php">About Peak</a></li>
+			<!-- <li><a href="/peak/portfolio/">Portfolio</a></li> -->
 			<li><a href="/peak/contact.php">Contact</a></li>
 		</ul>
 	</div>
