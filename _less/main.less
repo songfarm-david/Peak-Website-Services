@@ -112,6 +112,7 @@ nav {
 }
 footer {
 	position: fixed;
+	width: 100%;
 	bottom: 0;
 	z-index: -1;
 	background-color: #ACC0D0;
@@ -127,15 +128,33 @@ footer {
 	h4 {
 		text-shadow: -1px -1px 2px @gray-blue;
 	}
-	#mission-statement {
+	p,
+	ul li a {
+		font-size: inherit;
+	}
+	// #mission-statement {
+	// 	width: (100% / @first-modular);
+	// 	width: 61.8%;
+	// 	float: left;
+	// 	p {
+	// 		font-size: inherit;
+	// 	}
+	// }
+	#quick-quote {
 		text-align: center;
-		width: (100% / @first-modular);
 		p {
-			font-size: inherit;
+			margin-top: 0;
+		}
+		a {
+			color: inherit;
+			&:hover {
+				color: @link-color-hover;
+			}
 		}
 	}
 	#site-map {
 		display: block;
+		clear: both;
 		position: static;
 		text-align: center;
 		width: 100% / @first-modular;

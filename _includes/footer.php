@@ -1,12 +1,21 @@
 	<footer>
-		<article id="mission-statement">
+		<!-- <article id="mission-statement">
 			<h4 class="h3">About Peak Website Services</h4>
 			<p>
 				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
 			</p>
+		</article> -->
+		<article id="quick-quote">
+			<h3>Tell Us About Your Project</h3>
+			<p>
+				Have a project in mind? Tell us about it and we'll get back to you with a quote.
+			</p>
+			<p>
+				<a href="contact.php">Get A Quote</a>
+			</p>
 		</article>
 		<nav id="site-map">
-			<h3>Site Map</h3>
+			<h4 class="h3">Site Map</h4>
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
