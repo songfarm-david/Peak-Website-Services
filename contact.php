@@ -1,6 +1,8 @@
 <?php
 $title = "Contact Peak Website Services";
 $description = "";
+$redirect_target = "http://www.peakwebsites.ca";
+$service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 ?>
 <!-- NOTE: in this page I want to touch on that they will get back an assessment from me that will include some cool stuff. Or.. where can I do that?? See 'Free Assessment on content.md' -->
 <?php require_once('_includes/header.php') ?>
@@ -13,11 +15,10 @@ $description = "";
 			<p class="h3">
 				Got a question for us? Let's chat.
 			</p>
-
 			<!-- Web Service Questionnaire -->
 			<section>
 				<h2 class="hide">Contact Form</h2>
-				<form id="contact-form" action="index.html" method="post">
+				<form id="contact-form" action="process-form.php" method="post">
 					<fieldset>
 						<legend class="at-only">Web Service Questionnaire</legend>
 						<div class="row">
@@ -40,7 +41,7 @@ $description = "";
 							</div>
 							<div class="col col-6">
 								<label for="website">
-									<input type="text" name="website" placeholder="Website">
+									<input type="text" name="website" placeholder="Website (if applicable)">
 								</label>
 							</div>
 						</div>
@@ -52,7 +53,9 @@ $description = "";
 							</div>
 						</div>
 						<label for="send" class="at-only">Send</label>
-						<input type="submit" name="send" value="Send">
+						<input type="submit" name="" value="Send">
+						<input type="hidden" name="redirect_value" value="<?php echo $redirect_target; ?>">
+						<input type="hidden" name="service_reference" value="<?php echo $service_selection; ?>">
 					</fieldset>
 
 				</form>

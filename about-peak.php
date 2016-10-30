@@ -15,7 +15,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
 				</p>
 				<p>
-					Learn more about our <a href="/peak/website-services/">Website Services</a>.
+					Learn more about our <a href="/website-services/">Website Services</a>.
 				</p>
 				<!-- <p>
 					Peak Website Services is a <em>complete solution</em> to business owners who are not tech-savvy and would rather run their business than worry about code.

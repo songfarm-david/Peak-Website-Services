@@ -21,11 +21,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 					</p>
 					<p>
-						Learn about our <a href="/peak/website-services/website-development-services#">Website Development Services</a>
+						Learn about our <a href="/website-services/website-development-services.php#website-development">Website Development Services</a>
 					</p>
 				</div>
 				<!-- service features -->
-				<section class="service-features">
+				<section class="service-features" id="website-development">
 					<h3>What's Included?</h3>
 					<!-- features list -->
 					<ul class="feature-list">
@@ -44,7 +44,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<li>
 							<span>Mobile Friendly &amp; Responsive</span>
 							<p>
-								No question about it: <a href="#">Mobile Browsing is on the Rise</a>, which means your website has to look good and function everywhere &mdash; but don't sweat it, crafting mobile-friendly websites is just another day at the office for us.
+								No question about it: mobile browsing is on the rise, which means your website has to look good and function everywhere &mdash; but don't sweat it, crafting mobile-friendly websites is just another day at the office for us.
 							</p>
 						</li>
 						<li>
@@ -68,9 +68,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</ul><!--/ end of features list -->
 				</section><!--/ end of service features -->
 				<!-- service cta -->
-				<!-- <section class="service-cta">
-					<a href="/peak/contact.php?type=maintenance">Request A Quote</a>
-				</section> -->
+				<section class="service-cta">
+					<a href="/contact.php?service_type=development">Request A Quote</a>
+				</section>
 			</section><!--/ end of service -->
 
 	</main>

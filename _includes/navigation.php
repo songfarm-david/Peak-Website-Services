@@ -9,20 +9,20 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="/peak/index.php">Home</a></li>
+			<li><a href="/index.php">Home</a></li>
 			<li class="dropdown-btn">
-				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
+				<a href="/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
-						<li><a href="/peak/website-services/website-development-services.php">Website Creation Services</a></li>
-						<li><a href="/peak/website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
-						<li><a href="/peak/website-services/website-optimization-services.php">Website Optimization Services</a></li>
+						<li><a href="/website-services/website-development-services.php">Website Development Services</a></li>
+						<li><a href="/website-services/website-maintenance-services.php">Website Maintenance Services</a></li>
+						<li><a href="/website-services/website-optimization-services.php">Website Optimization Services</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a href="/peak/about-peak.php">About Peak</a></li>
-			<!-- <li><a href="/peak/portfolio/">Portfolio</a></li> -->
-			<li><a href="/peak/contact.php">Contact</a></li>
+			<li><a href="/about-peak.php">About Peak</a></li>
+			<!-- <li><a href="/portfolio/">Portfolio</a></li> -->
+			<li><a href="/contact.php">Contact</a></li>
 		</ul>
 	</div>
 </nav>

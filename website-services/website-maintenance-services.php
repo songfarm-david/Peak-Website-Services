@@ -21,12 +21,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
 				<p>
-					Learn about our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plans</a>.
+					Learn about our <a href="/website-services/website-maintenance-services.php#website-maintenance-plan">Website Maintenance Plans</a>.
 				</p>
 			</div>
 			<!-- service features -->
-			<section class="service-features">
-				<h3 id="website-maintenance-plan">Website Maintenance Plan</h3>
+			<section class="service-features" id="website-maintenance-plan">
+				<h3>Website Maintenance Plan</h3>
 				<p class="h4">
 					Everything you need to keep your business online and running smoothly.
 				</p>
@@ -36,11 +36,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>Fast, Reliable Web Hosting</span>
 						<p>
-							Let us host your website on our lightning fast and secure <a href="/peak/faq#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
+							Let us host your website on our lightning fast and secure Canadian Web Servers. You can relax knowing your website is securely online and your data protected.
 						</p>
-						<small>
-							<a href="/peak/faq#existing-host">Already have a host?</a>
-						</small>
 					</li>
 					<li>
 						<span>Support When You Need It</span>
@@ -51,13 +48,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>No Contracts. No Restrictions.</span>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and <a href="/peak/faq#domain-name">domain name</a>.
+							We think you should be in control of your online business. That means you own everything, including your website and domain name.
 						</p>
 					</li>
 					<li>
 						<span>Regular Website Check-Ups</span>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq#search-engine-index">crawled and indexed</a> by the search engines means your customers always have a green light to become a customer.
+							Monitoring the health and behavior of your site and making sure it's properly crawled and indexed by the search engines means your customers always have a green light to become a customer.
 						</p>
 					</li>
 					<li>
@@ -69,20 +66,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>Monthly Performance Reports</span>
 						<p>
-							See how well your website is performing in our <a href="/peak/faq#monthly-performance-reports">Monthly Performance Reports</a> and learn from the data to make better online business decisions.
+							See how well your website is performing in our <em>Monthly Performance Reports</em> and learn from the data to make better online business decisions.
 						</p>
 					</li>
 				</ul>
 			</section><!--/ end of service features -->
 			<!-- service cta -->
-			<!-- <section class="service-cta">
+			<section class="service-cta">
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
 				<p>
-					<a href="/peak/contact.php?type=maintenance">Start A Website Service Plan</a>
+					<a href="/contact.php?service_type=maintenance">Start A Website Service Plan</a>
 				</p>
-			</section> -->
+			</section>
 		</section><!--/ end of service -->
 
 
