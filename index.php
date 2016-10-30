@@ -31,7 +31,7 @@ $h2 = "";
 					There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 				</p>
 				<p>
-					<a href="/peak/about-peak.php">Read more about Peak</a>
+					<a href="/peak/website-services/">Learn about our Website Services Plans</a>
 				</p>
 			</div>
 			<ul id="key-list">
