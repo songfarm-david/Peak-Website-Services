@@ -80,8 +80,4 @@ $h2 = "";
 
 	</section>
 
-
-
-
-
-		<?php require_once('_includes/footer.php') ?>
+	<?php require_once('_includes/footer.php') ?>
