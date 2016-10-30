@@ -71,7 +71,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
-				<a href="/peak/contact.php?type=optimization">Start A Website Service Plan</a>
+				<a href="/contact.php?type=optimization">Start A Website Service Plan</a>
 			</section> -->
 		</section>
 

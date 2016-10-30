@@ -1,4 +1,5 @@
-<?
+<?php
+
     /* This script emails whatever is posted to it and
     * requires the form to have a hidden input named "redirect"
     *
@@ -7,13 +8,13 @@
     */
 
    // The redirect url is required and prevents non-form-posted processing.
-  //  if (isset($_POST['redirect']))
-  //  {
+   if (isset($_POST['redirect_value']))
+   {
       // Set up message
       $send_to = "david@peakwebsites.ca";
-      $send_from = $_POST['send_from'];
-      $subject  = $_POST['subject'];
-      $redirect  = $_POST['redirect'];
+      $send_from = $_POST['email'];
+      $subject  = $_POST['service_reference'];
+      $redirect  = $_POST['redirect_value'];
 
       // Set up the header
       $header  = "From: " . $send_from . "\r\n";
@@ -30,9 +31,7 @@
       @mail($send_to, $subject, $message, $header);
 
       header("Location: " . $redirect);
-  //  }
+   }
 
-	if (isset($_POST)) {
-		var_dump($_POST);
-	}
+
 ?>

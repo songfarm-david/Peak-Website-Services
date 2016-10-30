@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
 				<p>
-					Learn about our <a href="/peak/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plans</a>.
+					Learn about our <a href="/website-services/website-maintenance-services#website-maintenance-plan">Website Maintenance Plans</a>.
 				</p>
 			</div>
 			<!-- service features -->
@@ -36,10 +36,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>Fast, Reliable Web Hosting</span>
 						<p>
-							Let us host your website on our lightning fast and secure <a href="/peak/faq#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
+							Let us host your website on our lightning fast and secure <a href="/faq#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
 						</p>
 						<small>
-							<a href="/peak/faq#existing-host">Already have a host?</a>
+							<a href="/faq#existing-host">Already have a host?</a>
 						</small>
 					</li>
 					<li>
@@ -51,13 +51,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>No Contracts. No Restrictions.</span>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and <a href="/peak/faq#domain-name">domain name</a>.
+							We think you should be in control of your online business. That means you own everything, including your website and <a href="/faq#domain-name">domain name</a>.
 						</p>
 					</li>
 					<li>
 						<span>Regular Website Check-Ups</span>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq#search-engine-index">crawled and indexed</a> by the search engines means your customers always have a green light to become a customer.
+							Monitoring the health and behavior of your site and making sure it's properly <a href="/faq#search-engine-index">crawled and indexed</a> by the search engines means your customers always have a green light to become a customer.
 						</p>
 					</li>
 					<li>
@@ -69,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<span>Monthly Performance Reports</span>
 						<p>
-							See how well your website is performing in our <a href="/peak/faq#monthly-performance-reports">Monthly Performance Reports</a> and learn from the data to make better online business decisions.
+							See how well your website is performing in our <a href="/faq#monthly-performance-reports">Monthly Performance Reports</a> and learn from the data to make better online business decisions.
 						</p>
 					</li>
 				</ul>
@@ -80,7 +80,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
 				<p>
-					<a href="/peak/contact.php?type=maintenance">Start A Website Service Plan</a>
+					<a href="/contact.php?type=maintenance">Start A Website Service Plan</a>
 				</p>
 			</section> -->
 		</section><!--/ end of service -->

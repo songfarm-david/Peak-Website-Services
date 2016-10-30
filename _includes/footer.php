@@ -8,17 +8,17 @@
 		<article id="quick-quote">
 			<h3 class="h2">Tell Us About Your Project</h3>
 			<p>
-				Have a project in mind? Get a <a href="/peak/contact.php">hassle-free quote</a>.
+				Have a project in mind? Get a <a href="/contact.php">hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">
 			<h4 class="h3">Site Map</h4>
 			<ul>
-				<li><a href="/peak/">Home</a></li>
-				<li><a href="/peak/about-peak.php">About Peak</a></li>
-				<li><a href="/peak/website-services/">Website Services</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about-peak.php">About Peak</a></li>
+				<li><a href="/website-services/">Website Services</a></li>
 				<!-- <li><a href="#">FAQ</a></li> -->
-				<li><a href="/peak/contact.php">Contact</a></li>
+				<li><a href="/contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<div id="copyright">

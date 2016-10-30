@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 					</p>
 					<p>
-						Learn about our <a href="/peak/website-services/website-development-services#">Website Development Services</a>
+						Learn about our <a href="/website-services/website-development-services#">Website Development Services</a>
 					</p>
 				</div>
 				<!-- service features -->
@@ -68,9 +68,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</ul><!--/ end of features list -->
 				</section><!--/ end of service features -->
 				<!-- service cta -->
-				<!-- <section class="service-cta">
-					<a href="/peak/contact.php?type=maintenance">Request A Quote</a>
-				</section> -->
+				<section class="service-cta">
+					<a href="/contact.php?service_type=maintenance">Request A Quote</a>
+				</section>
 			</section><!--/ end of service -->
 
 	</main>

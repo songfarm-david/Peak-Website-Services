@@ -1,8 +1,8 @@
 <?php
 $title = "Contact Peak Website Services";
 $description = "";
-
 $redirect_target = "http://www.peakwebsites.ca";
+$service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 ?>
 <!-- NOTE: in this page I want to touch on that they will get back an assessment from me that will include some cool stuff. Or.. where can I do that?? See 'Free Assessment on content.md' -->
 <?php require_once('_includes/header.php') ?>
@@ -20,28 +20,7 @@ $redirect_target = "http://www.peakwebsites.ca";
 				<h2 class="hide">Contact Form</h2>
 				<form id="contact-form" action="process-form.php" method="post">
 					<fieldset>
-						<legend>Web Service Questionnaire</legend>
-						<div class="row">
-							<div class="col col-12">
-								<p>Which service(s) are you interested in?</p>
-								<label for="Website Creation">
-									<input type="checkbox" name="service" value="Website Creation" id="Website Creation">&nbsp;Website Creation
-								</label>
-								<label for="Website Maintenance">
-									<input type="checkbox" name="service" value="Website Maintenance" id="Website Maintenance">&nbsp;Website Maintenance
-								</label>
-								<label for="Website Optimization">
-									<input type="checkbox" name="service" value="Website Optimization" id="Website Optimization">&nbsp;Website Optimization
-								</label>
-								<p>What is your preferred method of contact?</p>
-								<label for="phone">
-									<input type="radio" name="contact-method" value="Phone" id="phone">&nbsp;Phone
-								</label>
-								<label for="Email">
-									<input type="radio" name="contact-method" value="Email">&nbsp;Email
-								</label>
-							</div>
-						</div>
+						<legend class="at-only">Web Service Questionnaire</legend>
 						<div class="row">
 							<div class="col col-6">
 								<label for="name">
@@ -62,7 +41,7 @@ $redirect_target = "http://www.peakwebsites.ca";
 							</div>
 							<div class="col col-6">
 								<label for="website">
-									<input type="text" name="website" placeholder="Website">
+									<input type="text" name="website" placeholder="Website (if applicable)">
 								</label>
 							</div>
 						</div>
@@ -74,8 +53,9 @@ $redirect_target = "http://www.peakwebsites.ca";
 							</div>
 						</div>
 						<label for="send" class="at-only">Send</label>
-						<input type="submit" name="send" value="Send">
-						<input type="hidden" name="redirect" value="<?php echo $redirect_target; ?>">
+						<input type="submit" name="" value="Send">
+						<input type="hidden" name="redirect_value" value="<?php echo $redirect_target; ?>">
+						<input type="hidden" name="service_reference" value="<?php echo $service_selection; ?>">
 					</fieldset>
 
 				</form>
