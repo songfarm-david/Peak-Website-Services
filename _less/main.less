@@ -55,9 +55,6 @@ nav {
 				text-decoration: none;
 				.font-size(.8);
 				padding: @1-rem/@second-modular;
-				.border;
-				border-width: 2px;
-				border-color: transparent !important;
 				&:hover {
 					font-weight: bold;
 				}
@@ -155,38 +152,21 @@ footer {
 // peak/index.php
 #landing-page {
 	height: 100vh;
-	background-color: @platinum;
+	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
 	z-index: 100;
 	#landing-page-intro {
-		position: relative;
-		top: @4-rem * @first-modular;
-		color: @platinum;
-		line-height: @second-modular;
-		#headline {
-			line-height: @second-modular;
-			line-height: @second-modular;
+		.base(padding,top,4);
+		color: @background-color;
+		span#headline {
+			.font-size(4);
+			line-height: 1;
 			.accent-color {
-				.h1;
-				color: @accent-color;
-			}
-		}
-
-		>div {
-			// display: none;
-			max-width: (100% / @first-modular) / @first-modular;
-			p,
-			a {
-				// font: @header-font-400;
-				font-family: 'Abel', sans-serif;
-				color: @hero-color-bold;
-				text-shadow: 1px 1px 2px @hero-color;
-			}
-			a:hover {
-				color: @link-color-hover;
+				font-size: inherit;
+				color: @hero-color;
 			}
 		}
 	}
