@@ -68,9 +68,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</ul><!--/ end of features list -->
 				</section><!--/ end of service features -->
 				<!-- service cta -->
-				<section class="service-cta">
+				<!-- <section class="service-cta">
 					<a href="/peak/contact.php?type=maintenance">Request A Quote</a>
-				</section>
+				</section> -->
 			</section><!--/ end of service -->
 
 	</main>
