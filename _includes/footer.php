@@ -14,11 +14,11 @@
 		<nav id="site-map">
 			<h4 class="h3">Site Map</h4>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Website Services</a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="/peak/">Home</a></li>
+				<li><a href="/peak/about-peak.php">About Peak</a></li>
+				<li><a href="/peak/website-services/">Website Services</a></li>
+				<!-- <li><a href="#">FAQ</a></li> -->
+				<li><a href="/peak/contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<div id="copyright">
