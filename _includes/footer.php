@@ -6,12 +6,9 @@
 			</p>
 		</article> -->
 		<article id="quick-quote">
-			<h3>Tell Us About Your Project</h3>
+			<h3 class="h2">Tell Us About Your Project</h3>
 			<p>
-				Have a project in mind? Tell us about it and we'll get back to you with a quote.
-			</p>
-			<p>
-				<a href="contact.php">Get A Quote</a>
+				Have a project in mind? Get a <a href="contact.php">hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">

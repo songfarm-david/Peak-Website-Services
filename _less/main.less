@@ -128,23 +128,18 @@ footer {
 	h4 {
 		text-shadow: -1px -1px 2px @gray-blue;
 	}
-	p,
 	ul li a {
 		font-size: inherit;
 	}
-	// #mission-statement {
-	// 	width: (100% / @first-modular);
-	// 	width: 61.8%;
-	// 	float: left;
-	// 	p {
-	// 		font-size: inherit;
-	// 	}
-	// }
 	#quick-quote {
 		text-align: center;
-		p {
-			margin-top: 0;
-		}
+		.base(margin,bottom,1);
+		// p {
+		// 	margin-top: 0;
+		// }
+		// p:last-child {
+		// 	.base(margin,top,1/@first-modular);
+		// }
 		a {
 			color: inherit;
 			&:hover {
