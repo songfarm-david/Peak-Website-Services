@@ -1,6 +1,6 @@
 <?php
 $title = "Peak | Website Services";
-$description = "Peak Website Services include: website creation services, website maintenance services, website optimization services, etc..";
+$description = "Peak Website Services include: website creation services, website maintenance services, website optimization services, and more";
 $h1 = "Peak Website Services";
 $h2 = "Peak Website Services";
 $activePage = basename($_SERVER['PHP_SELF']);
@@ -11,7 +11,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <section id="website-services">
 	<h2><?php echo $h2; ?></h2>
 	<p class="message">
-		Wherever you are with your online presence, we've got a service for you.
+		Whatever stage of the life-cycle of your business, we've got a service for you.
 	</p>
 	<div id="website-services-container" class="">
 		<!-- website creation services -->
@@ -51,7 +51,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<a href="website-services/website-optimization-services.php">Website Optimization Services</a>
 		</div>
 		<!-- Content Creation Services -->
-		<div class="">
+		<!-- <div class="">
 			<a href="/peak/website-services/website-development-services.php"><h3>Content Creation Services</h3></a>
 			<ul>
 				<li>New Site Creation</li>
@@ -61,9 +61,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Online Store Creation</li>
 			</ul>
 			<a href="/peak/website-services/website-development-services.php">Content Creation Services</a>
-		</div>
+		</div> -->
 		<!-- website maintenance services -->
-		<div class="">
+		<!-- <div class="">
 			<a href="/peak/website-services/website-maintenance-services.php"><h3>Graphic Design and Logo Services</h3></a>
 			<ul>
 				<li>New Site Creation</li>
@@ -73,9 +73,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Online Store Creation</li>
 			</ul>
 			<a href="website-services/website-maintenance-services.php">Graphic Design and Logo Services</a>
-		</div>
+		</div> -->
 		<!-- website optimization services -->
-		<div class="">
+		<!-- <div class="">
 			<a href="/peak/website-services/website-optimization-services.php"><h3>Personal &amp; Corporate Branding Services</h3></a>
 			<ul>
 				<li>New Site Creation</li>
@@ -85,7 +85,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Online Store Creation</li>
 			</ul>
 			<a href="website-services/website-optimization-services.php">Personal &amp; Corporate Branding Services</a>
-		</div>
+		</div> -->
 	</div>
 
 </section>
