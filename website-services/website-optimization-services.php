@@ -18,7 +18,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
 				</p>
 				<p>
-					Optimizing your online presence for visitors and the search engines is
+					Optimizing your online presence for visitors and the search engines is ...
 				</p>
 				<p class="cta-link">
 					Take your online business to the next level. Learn about our <a href="#">Website Optimization Plan</a>.
@@ -41,13 +41,25 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<span>Search Engine Visibility</span>
+						<span>Optimized Search Visibility</span>
 						<p>
 							Turn your website into a peak performer and capitilize on industry leading techniques to optimize your websites search visibility.
 						</p>
 					</li>
 					<li>
 						<span>Galvanize your Website Authority</span>
+						<p>
+							Develop your domain authority and set the foundation for consistently strong page rank
+						</p>
+					</li>
+					<li>
+						<span>Another Great Feature</span>
+						<p>
+							Develop your domain authority and set the foundation for consistently strong page rank
+						</p>
+					</li>
+					<li>
+						<span>Your Momma Says..</span>
 						<p>
 							Develop your domain authority and set the foundation for consistently strong page rank
 						</p>

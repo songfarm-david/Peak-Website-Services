@@ -9,8 +9,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 	<main>
 
-			<!-- service -->
-			<section class="service container">
+		<!-- service -->
+		<section class="service container">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<div class="service-intro">
 					<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
@@ -18,7 +18,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Whether you need a brand new website or want to give your existing one a facelift, let us deliver to you a custom designed, user-friendly, and professional website that not only looks great but works great, too.
 					</p>
 					<p>
-						Every website we develop is built on industry standard best-practices and designed to meet your business outcomes. We stand behind our websites 100% and you can count on that.
+						Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 					</p>
 					<p class="cta-link">
 						Learn about our <a href="/peak/website-services/website-development-services#">Website Development Services</a>
@@ -72,7 +72,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<a href="/peak/contact.php?type=maintenance">Request A Quote</a>
 				</section>
 			</section><!--/ end of service -->
-
 
 	</main>
 
