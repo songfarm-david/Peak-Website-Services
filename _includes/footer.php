@@ -6,9 +6,10 @@
 			</p>
 		</article> -->
 		<article id="quick-quote">
-			<h3 class="h2">Tell Us About Your Project</h3>
+			<h3 class="at-only">Receive Quote</h3>
+			<span class="h2">Have a project in mind?</span>
 			<p>
-				Have a project in mind? Get a <a href="/contact.php">hassle-free quote</a>.
+				Get a <a href="/contact.php">hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">
