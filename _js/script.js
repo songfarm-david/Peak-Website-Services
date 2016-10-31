@@ -1,17 +1,17 @@
-(function($){
-
-	/* NOTE: change this to whatever site root is */
-	var root = '/theme.professional/';
-	var liveRoot = "svs.songfarm.ca/" + root;
-	// bypass this script if outside of root folder
-	if (window.location.pathname.lastIndexOf('/') > root.length
-	|| window.location.pathname.lastIndexOf('/') > liveRoot.length) {
-		return;
-	}
+// (function($){
+//
+// 	/* NOTE: change this to whatever site root is */
+// 	var root = '/theme.professional/';
+// 	var liveRoot = "svs.songfarm.ca/" + root;
+// 	// bypass this script if outside of root folder
+// 	if (window.location.pathname.lastIndexOf('/') > root.length
+// 	|| window.location.pathname.lastIndexOf('/') > liveRoot.length) {
+// 		return;
+// 	}
 
 	// gather curPanel triggers
-	var panelTriggers = document.getElementById('areas-of-practice').getElementsByTagName('li');
-	var panelContent = document.getElementById('areas-of-practice-content').getElementsByTagName('div');
+	// var panelTriggers = document.getElementById('areas-of-practice').getElementsByTagName('li');
+	// var panelContent = document.getElementById('areas-of-practice-content').getElementsByTagName('div');
 
 	/**
 	* Function for toggling curPanel
@@ -19,7 +19,7 @@
 	* @param curPanel (object) the newly clicked item
 	* @param prevPanel (object) the previously clicked item
 	*/
-	function togglePanel(curPanel) {
+	// function togglePanel(curPanel) {
 		var prevPanel = {},
 				isSetPanel = false;
 
@@ -50,116 +50,113 @@
 	} // end of togglePanel
 
 	// attach event listener to triggers
-	for (var i = 0; i < panelTriggers.length; i++) {
+	// for (var i = 0; i < panelTriggers.length; i++) {
 		// if gt IE9
-		if (panelTriggers[i].addEventListener) {
-		  panelTriggers[i].addEventListener("click", function() { togglePanel(this); }, false);
-		}
+		// if (panelTriggers[i].addEventListener) {
+		//   panelTriggers[i].addEventListener("click", function() { togglePanel(this); }, false);
+		// }
 		// if < IE9
-		else if (panelTriggers[i].attachEvent)  {
-		  panelTriggers[i].attachEvent("onclick", function() {
-				togglePanel(event.srcElement || event.target);
-			});
-		}
-	} // end of: loop
+	// 	else if (panelTriggers[i].attachEvent)  {
+	// 	  panelTriggers[i].attachEvent("onclick", function() {
+	// 			togglePanel(event.srcElement || event.target);
+	// 		});
+	// 	}
+	// } // end of: loop
 
 	/*
 		prevent default link action on #expertise ul li > a when in tablet size or greater
 		*/
-	var throttle = function(type, name, obj) {
-		obj = obj || window;
-		var running = false;
-		var func = function() {
-			if (running) { return; }
-			running = true;
-			requestAnimationFrame(function() {
-				obj.dispatchEvent(new CustomEvent(name));
-				running = false;
-			});
-		};
-		obj.addEventListener(type, func);
-	};
-	throttle("resize","optimizedResize");
-	var offset = 18,
-			hrefs = [],
-			links = document.getElementById('areas-of-practice').getElementsByTagName('a'),
-			windowWidth = document.documentElement.clientWidth;
-
-	for (var i = 0; i < links.length; i++) {
-		if (links[i].href !== "") {
-			hrefs.push(links[i].href);
-		}
-	}
-
-	function disableLinks() {
-		for (var i = 0; i < links.length; i++) {
-			links[i].removeAttribute('href');
-		}
-	}
-
-	function enableLinks() {
-		for (var i = 0; i < links.length; i++) {
-			links[i].href = hrefs[i];
-		}
-	}
-
-	window.addEventListener("optimizedResize", function() {
-		windowWidth = document.documentElement.clientWidth;
-		if (windowWidth + offset > 929) {
-			disableLinks();
-		} else {
-			enableLinks();
-		}
-	});
+	// var throttle = function(type, name, obj) {
+	// 	obj = obj || window;
+	// 	var running = false;
+	// 	var func = function() {
+	// 		if (running) { return; }
+	// 		running = true;
+	// 		requestAnimationFrame(function() {
+	// 			obj.dispatchEvent(new CustomEvent(name));
+	// 			running = false;
+	// 		});
+	// 	};
+	// 	obj.addEventListener(type, func);
+	// };
+	// throttle("resize","optimizedResize");
+	// var offset = 18,
+	// 		hrefs = [],
+	// 		links = document.getElementById('areas-of-practice').getElementsByTagName('a'),
+	// 		windowWidth = document.documentElement.clientWidth;
+	//
+	// for (var i = 0; i < links.length; i++) {
+	// 	if (links[i].href !== "") {
+	// 		hrefs.push(links[i].href);
+	// 	}
+	// }
+	//
+	// function disableLinks() {
+	// 	for (var i = 0; i < links.length; i++) {
+	// 		links[i].removeAttribute('href');
+	// 	}
+	// }
+	//
+	// function enableLinks() {
+	// 	for (var i = 0; i < links.length; i++) {
+	// 		links[i].href = hrefs[i];
+	// 	}
+	// }
+	//
+	// window.addEventListener("optimizedResize", function() {
+	// 	windowWidth = document.documentElement.clientWidth;
+	// 	if (windowWidth + offset > 929) {
+	// 		disableLinks();
+	// 	} else {
+	// 		enableLinks();
+	// 	}
+	// });
 
 	// on load, disable links if viewport greater than 929
-	if (windowWidth + offset > 929) {
-		disableLinks();
-	}
+	// if (windowWidth + offset > 929) {
+	// 	disableLinks();
+	// }
 
 	/*
 	* Smooth Scrolling
 	*/
-  $("#nav-primary a").on('click', function(e) {
-  	if (this.hash !== "") {
-			e.preventDefault();
-			// var func = function(){
-      // 	window.location.hash = "";
-      // }
-			var hash = this.hash;
-			var offset = 0;
-			if (hash == '#about') {
-				offset = -85;
-			}
-			if (hash == '#expertise') {
-				offset = -85;
-			}
-			$('html, body').animate({
-				scrollTop: $(hash).offset().top + offset
-			}, 850);
-    } // end if
-  });
+  // $("#nav-primary a").on('click', function(e) {
+  // 	if (this.hash !== "") {
+	// 		e.preventDefault();
+	// 		// var func = function(){
+  //     // 	window.location.hash = "";
+  //     // }
+	// 		var hash = this.hash;
+	// 		var offset = 0;
+	// 		if (hash == '#about') {
+	// 			offset = -85;
+	// 		}
+	// 		if (hash == '#expertise') {
+	// 			offset = -85;
+	// 		}
+	// 		$('html, body').animate({
+	// 			scrollTop: $(hash).offset().top + offset
+	// 		}, 850);
+  //   } // end if
+  // });
 
-})(jQuery);
+// })(jQuery);
 
 /**
 * Scrollspy
 */
 (function ($) {
 
-	$("#about").addClass("invisible");
 
-	var anchors = [],
-			// need a way to find/detect nav + active links (links with hash/hrefs)
-			nav = $("#nav-primary > li > a"), // get just the a links
+	var nav = $("#primary-nav a"),
+			anchors = [], // array for cleared site anchors
 			windowScrollTop = 0,
 			ticking = false;
 
-	// loop through navigation get main navigation a tag href/hash values
+	// push active nav anchors to array
 	for (var i = 0; i < nav.length; i++) {
-		var href,
-				index;
-		// if hash value isn't nothing/empty
+		var href, index;
+		// if hash value isn't empty
 		if (nav[i].hash !== "") {
 			href = nav[i].href;
 			index = href.indexOf("#");
@@ -168,24 +165,26 @@
 	}
 
 	function scrollSpy(window_top_pos) {
-		var offset 		= 100; // in px
-		var clear_pos = 500; // in px
+		var offset 		= 73; // usually height of nav, in px
+		var threshold = 500; // in px
 		var elemOffset;
 		for (var i = 0; i < nav.length; i++) {
 			elemOffset = $(anchors[i]).offset().top;
-			if ( window_top_pos > (elemOffset - offset) ) {
-				console.log(anchors[i]);
-				if (nav[i].hash == anchors[i]) {
-					$('#nav-primary li.active').removeClass('active');
-					$(nav[i]).parent().addClass('active');
-				}
+			console.log("scrollSpy called");
+			console.log(anchors[i]);
+			// if ( window_top_pos > (elemOffset - offset) ) {
+			// 	if (nav[i].hash == anchors[i]) {
+			// 		$('#nav-primary li.active').removeClass('active');
+			// 		$(nav[i]).parent().addClass('active');
+			// 	}
+			// }
+			if (window_top_pos < threshold) {
+				// $('#nav-primary li.active').removeClass('active');
+				console.log("window top less than threshold");
 			}
-			if (window_top_pos < clear_pos) {
-				$('#nav-primary li.active').removeClass('active');
-			}
-			if (anchors[i] == "#about" && (elemOffset - clear_pos) < window_top_pos) {
-				$("#about").removeClass("invisible").addClass("slideInLeft");
-			}
+			// if (anchors[i] == "#about" && (elemOffset - threshold) < window_top_pos) {
+			// 	$("#about").removeClass("invisible").addClass("slideInLeft");
+			// }
 		}
 	}
 	window.addEventListener('scroll', function(e) {
@@ -199,5 +198,4 @@
 	  ticking = true;
 	});
 
-	// Reference: http://www.html5rocks.com/en/tutorials/speed/animations/
-})(jQuery);
+})(jQuery)
