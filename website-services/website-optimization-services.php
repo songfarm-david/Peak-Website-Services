@@ -10,7 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 
 		<!-- service -->
-		<section class="service container">
+		<section class="service container" id="optimization">
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>

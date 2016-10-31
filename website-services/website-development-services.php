@@ -10,7 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 
 		<!-- service -->
-		<section class="service container">
+		<section class="service container" id="development">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<div class="service-intro">
 					<span>Let us build you a beautiful, modern website that <em>works</em>.</span>

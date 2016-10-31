@@ -10,7 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <main>
 
 		<!-- service -->
-		<section class="service container">
+		<section class="service container" id="maintenance">
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<div class="service-intro">
 				<span>Take the load off having an online presence.</span>
