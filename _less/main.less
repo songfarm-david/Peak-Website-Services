@@ -58,11 +58,11 @@ nav {
 				padding: .7rem 1rem;
 				color: @nav-color;
 				text-decoration: none;
-				.font-size(.8);
+				.font-size(1/@first-modular);
 				padding: @1-rem/@second-modular;
-				&:hover {
-					text-shadow: 1px 1px 2px @gray-blue;
-				}
+				opacity: 1/@second-modular;
+				text-transform: uppercase;
+				text-shadow: -1px 0px 2px @davy-grey;
 			}
 		}
 	}
@@ -88,7 +88,7 @@ nav {
 				height: auto;
 				display: block;
 				width: auto;
-				top: 76px;
+				top: 73px;
 				border-left: 5px solid @hero-color-bold;
 				transition: opacity 100ms ease-in;
 				li {
@@ -96,7 +96,7 @@ nav {
 					white-space: nowrap;
 					background-color: rgba(255, 255, 255, 0.1);
 					a {
-						.font-size(.9);
+						// .font-size(.9);
 						padding: @1-rem/@first-modular @1-rem/2;
 						line-height: 1;
 					}
