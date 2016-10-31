@@ -14,7 +14,7 @@ html {
 		margin: 0 auto;
 		background: @background-color;
 		height: 100%;
-		margin-bottom: 677.094px; // height of footer for parallax footer
+		margin-bottom: 647.984px; // height of footer for parallax footer
 	}
 }
 html {
@@ -29,6 +29,14 @@ body {
 	@media (@sm-query) {
 		width: unit(@page-width-alt, rem);
 		margin: 0 auto;
+	}
+}
+.fixed-nav {
+	background-color: fadeout(@ash-white,10%);
+	height: 73px;
+	box-shadow: 0px 1px 2px 2px @gray-blue;
+	ul ul {
+		background-color: fadeout(@ash-white,10%);
 	}
 }
 /* type & text */
