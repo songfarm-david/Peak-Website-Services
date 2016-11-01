@@ -2,15 +2,19 @@
 #contact-main {
 	height: 100vh;
 	padding-top: (@1-rem * 2);
-	background-image: url(../_images/doodle-street-mountain.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center 60%;
+	// background-image: url(../_images/doodle-street-mountain.jpg);
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center 60%;
+	background: radial-gradient(ellipse at center, fadeout(#1A2C36, 90%) 50%, fadeout(#1A2C36, 30%) 100%), #86A5C4 url("data:image/svg+xml,%3Csvg width='136' height='78' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2327495D' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+	// background-color: #86A5C4;
+	// background-image: url("data:image/svg+xml,%3Csvg width='136' height='78' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2327495D' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
 	#contact-form {
-		width: 100% / @first-modular;
+		width: 100% / @second-modular;
 		margin: 0 auto;
 		background-color: fadeout(#fff, 50%);
-		.base(padding, 0.25rem);
+		.base(padding, 1);
 		>fieldset {
 			.base(padding, 0.25rem);
 			legend {
