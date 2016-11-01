@@ -1,20 +1,21 @@
 //contact form
 #contact-main {
 	height: 100vh;
-	padding-top: (@1-rem * 2);
-	// background-image: url(../_images/doodle-street-mountain.jpg);
-	// background-repeat: no-repeat;
-	// background-size: cover;
-	// background-position: center 60%;
 	background: radial-gradient(ellipse at center, fadeout(#1A2C36, 90%) 50%, fadeout(#1A2C36, 30%) 100%), #86A5C4 url("data:image/svg+xml,%3Csvg width='136' height='78' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2327495D' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
-
-	// background-color: #86A5C4;
-	// background-image: url("data:image/svg+xml,%3Csvg width='136' height='78' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%2327495D' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: @platinum;
+	p {
+		text-shadow: -1px -1px 1px @yankee-blue;
+	}
 	#contact-form {
 		width: 100% / @second-modular;
 		margin: 0 auto;
-		background-color: fadeout(#fff, 50%);
+		background-color: fadeout(@platinum, 50%);
 		.base(padding, 1);
+		box-shadow: -2px -2px 5px 0px @yankee-blue;
 		>fieldset {
 			.base(padding, 0.25rem);
 			legend {
@@ -22,35 +23,27 @@
 				padding: 0 0.5em;
 				font-weight: bold;
 			}
-			p {
-				.font-size(0.5);
-				&:first-of-type {
-					margin-top: 0;
-				}
-			}
-			label {
-				display: block;
-			}
-		}
-		span {
-			.border;
-			line-height: @line-height;
-		}
-		.row {
-			.col:last-child {
-				margin-right: 0;
-			}
 		}
 		input,
 		textarea {
 			border-width: 0 0 2px;
 			border-style: solid;
-			border-color: @secondary-color;
+			border-color: @yankee-blue;
 			background-color: transparent;
 			border-bottom-left-radius: 1px;
 			border-bottom-right-radius: 1px;
 			height: auto;
-			padding: @1-rem / @first-modular;
+			padding: @1-rem/@second-modular @1-rem/@first-modular;
+			margin-left: @1-rem*2;
+			margin-right: @1-rem*2;
+			.font-size(1/@first-modular);
+			color: @davy-grey;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
 			&:focus {
 				outline: 0;
 			}
@@ -65,9 +58,21 @@
 		input[type="submit"] {
 			display: block;
 			margin: 0 auto;
-			border-width: 2px;
+			border-width: 0px;
+			border-color: @yankee-blue;
 			margin-top: @1-rem * @first-modular;
 			width: (100% / @first-modular) / @first-modular;
+			background-color: @yankee-blue;
+			color: fadeout(@platinum,10%);
+			text-transform: uppercase;
+			border-radius: 2px;
+			background: linear-gradient(to top, #1A2C36 45%, #27495D 99%, #1A2C36);
+			box-shadow: 0px 2px 4px 1px fadeout(@japanese-indigo, 10%);
+			transition: color .5s ease-out;
+			&:hover {
+				cursor: pointer;
+				color: #fff;
+			}
 		}
 	}
 }

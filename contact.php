@@ -12,7 +12,7 @@ $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 	</header>
 	<main id="contact-main">
 		<div class="container">
-			<p class="h3">
+			<p class="h2">
 				Got a question for us? Let's chat.
 			</p>
 			<!-- Web Service Questionnaire -->
