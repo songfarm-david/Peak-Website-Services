@@ -7,9 +7,9 @@
 		</article> -->
 		<article id="quick-quote">
 			<h3 class="at-only">Receive Quote</h3>
-			<span class="h2">Have a project in mind?</span>
+			<span class="h2">Need some help?</span>
 			<p>
-				Get a <a href="/contact.php">hassle-free quote</a>.
+				<a href="/contact.php" style="text-transform:capitalize;">Get a hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">
