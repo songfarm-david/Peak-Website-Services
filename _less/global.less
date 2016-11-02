@@ -5,7 +5,6 @@ header {
 	top: 0;
 	z-index: 999;
 	width: 100%;
-	.border;
 	h1.h3 {
 		margin: 0;
 		padding-left: @1-rem/2;
@@ -28,8 +27,10 @@ nav {
 	z-index: 1000;
 	display: block;
 	width: 100%;
-	background: transparent;
-
+	height: 100%;
+	&::after {
+		.clear-float;
+	}
 	.navbar-header {
 		display: block;
 		height: auto;
@@ -55,12 +56,15 @@ nav {
 			}
 		}
 	}
+	.navbar-collapse {
+		clear: both;
+	}
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
 		display: block;
-		text-align: center;
 		height: 100%;
+		background-color: fadeout(@pewter-blue, 40%);
 		li {
 			display: block;
 			a {
@@ -189,4 +193,8 @@ footer {
 	@media (@sm-query) {
 		position: fixed;
 	}
+}
+
+.nav-bg-color-active {
+	background-color: fadeout(@pewter-blue, 30%);
 }

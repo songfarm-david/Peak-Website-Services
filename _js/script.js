@@ -1,4 +1,15 @@
+/**
+* Helper scripts
+*/
+(function ($) {
 
+	var navbar = $("nav.navbar");
+
+	$("nav button.navbar-toggle").on("click", function(){
+		$(navbar).toggleClass("nav-bg-color-active");
+	})
+
+})(jQuery);
 
 /**
 * Scrollspy
