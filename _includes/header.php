@@ -16,7 +16,7 @@
 		if ($_SERVER['PHP_SELF'] == "peakwebsites.ca" || $_SERVER['PHP_SELF'] == "http://www.peakwebsites.ca\\") {
 			echo "<link rel=\"canonical\" href=\"http://www.peakwebsites.ca\">";
 		}; ?>
-		<link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet">
+		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
 		<!-- <link href="https://fonts.googleapis.com/css?family=Passion+One:400,900|Abel" rel="stylesheet"> -->
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Signika" rel="stylesheet">
 	</head>
