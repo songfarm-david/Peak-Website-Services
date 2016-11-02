@@ -22,7 +22,32 @@ nav {
 	right: 0;
 	z-index: 1000;
 	display: flex;
-	margin-right: @1-rem / @first-modular;
+	width: 100%;
+	.navbar-header {
+		display: block;
+		height: auto;
+		width: 100%;
+		button {
+			display: block;
+			height: 100%;
+			width: auto;
+			float: right;
+			.base(padding,.5);
+			background: transparent;
+			span.icon-bar {
+				width: @1-rem * @second-modular;
+				height: .25rem / @first-modular;
+				background-color: @japanese-indigo; // same color as nav !!
+				display: block;
+				margin: 0;
+				margin: .5rem .5rem;
+
+			}
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
 	ul {
 		padding-left: 0; // undo resets
 		margin-bottom: 0; // undo resets
@@ -48,6 +73,8 @@ nav {
 		}
 	}
 	@media (@sm-query) {
+		width: auto;
+		margin-right: @1-rem / @first-modular;
 		.navbar-header {
 			display: none;
 		}
