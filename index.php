@@ -42,12 +42,12 @@ $h2 = "";
 					</li>
 					<li>Attention to Detail
 						<p>
-							Because it's the little things that make the biggest difference, quality always come before quantity.
+							Because it's the little things that make the biggest difference, quality always comes before quantity.
 						</p>
 					</li>
 					<li>Personal Service and Attention
 						<p>
-							Choosing a smaller client-base means we're always just a phone call away. You can think of us as your personal IT guy.
+							Choosing to work with a smaller client-base means we're always just a phone call away. <b>You can think of us/consider us as your personal IT guy.</b>
 						</p>
 					</li>
 					<li>Translate your Vision into Beautiful Reality
