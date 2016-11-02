@@ -14,22 +14,23 @@
 			text-shadow: -1px -1px 2px @arsenic;
 			.accent-color {
 				font-size: inherit;
-				color: #4FB286;
+				color: @hero-color;
 			}
 			+ div {
-				margin-top: @1-rem * @second-modular;
+				display: none;
+				.base(margin,top,1);
 				width: (100% / @first-modular) / @second-modular;
 				color: @arsenic;
 				font: @body-font;
 				p {
-					text-shadow: 1px 1px 2px @ash-white;
+					text-shadow: 1px 1px 2px @arsenic;
 				}
 				p:last-child {
 					margin-top: @1-rem * @first-modular;
 					font-weight: bold;
 					.font-size(1 * @second-modular);
 					a {
-						color: inherit;
+						color: @hero-color;
 						&:hover {
 							color: @hero-color;
 						}
