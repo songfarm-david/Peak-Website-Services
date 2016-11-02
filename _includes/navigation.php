@@ -1,7 +1,7 @@
 <nav class="navbar">
 	<h2 class="hide">Main Navigation</h2>
 	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="" data-target="#primary-nav">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
       <span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>

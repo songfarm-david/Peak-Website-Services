@@ -34,7 +34,7 @@
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <!-- <script type="text/javascript" src="_js/vendor/modernizr.js"></script> -->
 <!-- Bootstrap Collapse script -->
-<!-- <script type="text/javascript" src="_js/helper/bs-collapse.js"></script> -->
+<script type="text/javascript" src="/peak/_js/helper/bs-collapse.js"></script>
 <!-- JS Helper Functions -->
 <!-- <script src="_js/vendor/plugins.js"></script> -->
 <script type="text/javascript" src="_js/script.js"></script>
