@@ -9,3 +9,6 @@ Review/Complete FAQ
 * Add 404 page.
 * Have a copy of fonts in case the internet goes down!
 * make sure meta description on index.php is based on keywords
+
+#user experience testing
+* go through forms and such on ipad and iphones to see how the user experience is
