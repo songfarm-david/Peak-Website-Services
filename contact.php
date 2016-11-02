@@ -44,7 +44,7 @@ $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 						<div class="row">
 							<div class="col col-12">
 								<label for="message">
-									<textarea name="message" rows="1" placeholder="You're on the mic. What's your beef?"></textarea>
+									<textarea name="message" rows="1" placeholder="Tell us about your project"></textarea>
 								</label>
 							</div>
 						</div>
