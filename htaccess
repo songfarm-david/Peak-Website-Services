@@ -20,3 +20,7 @@ Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
 Header set Pragma "no-cache"
 Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </filesMatch>
+
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

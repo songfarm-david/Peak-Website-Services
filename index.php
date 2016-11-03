@@ -11,7 +11,7 @@ $h2 = "";
 			<h2 class="hide">What We Do</h2>
 			<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 			<div id="landing-page-intro" class="container">
-				<span id="headline">Put Your Business<br> On <span class="accent-color">Top</span></span>
+				<span id="headline" class="fadeInUp">Put Your Business<br> On <span class="accent-color">Top</span></span>
 				<div>
 					<p>
 						Website Services for business owners looking to elevate their online potential.
