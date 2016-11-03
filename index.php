@@ -30,9 +30,9 @@ $h2 = "";
 					<p>
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
-					<p>
+					<!-- <p>
 						<a href="/website-services/">Learn about our Website Services Plans</a>
-					</p>
+					</p> -->
 				</div>
 				<ul id="key-list">
 					<li>Eye on the Bigger Picture
