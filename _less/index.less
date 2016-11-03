@@ -8,12 +8,14 @@
 	#landing-page-intro {
 		.base(padding,top,4);
 		color: @ash-white;
-		span {
+		span#headline {
+			display: block; // by making it display block allows for transform translate effect
 			.font-size(4);
 			line-height: @line-height / @first-modular;
 			text-shadow: -1px -1px 2px @arsenic;
 			.accent-color {
 				font-size: inherit;
+				line-height: 1;
 				color: @hero-color;
 			}
 			+ div {
