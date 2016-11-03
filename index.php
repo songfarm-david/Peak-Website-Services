@@ -30,9 +30,6 @@ $h2 = "";
 					<p>
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
-					<p>
-						<a href="/website-services/">Learn about our Website Services Plans</a>
-					</p>
 				</div>
 				<ul id="key-list">
 					<li>Eye on the Bigger Picture
@@ -45,14 +42,14 @@ $h2 = "";
 							Because it's the little things that make the biggest difference, quality always comes before quantity.
 						</p>
 					</li>
-					<li>Personal Service and Attention
-						<p>
-							Choosing to work with a smaller client-base means we're always just a phone call away. <b>You can think of us/consider us as your personal IT guy.</b>
-						</p>
-					</li>
 					<li>Translate your Vision into Beautiful Reality
 						<p>
 							We balance creativity with industry best practices to deliver high-quality products that reflect the uniqueness of your business.
+						</p>
+					</li>
+					<li>Personal Service and Attention
+						<p>
+							Choosing to work with a smaller client-base means we're always just a phone call away.
 						</p>
 					</li>
 				</ul>

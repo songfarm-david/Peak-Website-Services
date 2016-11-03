@@ -1,12 +1,14 @@
 /* index.php (main) */
 #landing-page {
-	height: 100vh;
+	height: auto;
 	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% center;
 	#landing-page-intro {
+		.base(padding,.5/@first-modular);
 		.base(padding,top,4);
+		.base(padding,bottom,4);
 		color: @ash-white;
 		span#headline {
 			display: block; // by making it display block allows for transform translate effect
@@ -41,14 +43,21 @@
 			}
 		}
 	}
+	@media (@sm-query) {
+		height: 100vh;
+	}
 }
 #about {
-	height: 100vh;
-	padding-top: @4-rem * @first-modular;
+	height: auto;
+	.base(padding,.5/@first-modular);
+	.base(padding,bottom,2);
 	#about-intro {
-		float: left;
-		width: 49%;
+		float: none;
+		width: 100%;
 		padding-top: @1-rem * @second-modular;
+		>p {
+			margin-top: @1-rem*@first-modular;
+		}
 		p > span.effect {
 			line-height: @second-modular;
 			.font-size(3);
@@ -60,8 +69,8 @@
 	ul#key-list {
 		padding-left: 0;
 		.font-size(1/@second-modular);
-		float: right;
-		width: 49%;
+		float: none;
+		.base(margin,top,@1-rem);
 		li {
 			font-weight: bold;
 			margin-bottom: @1-rem * @second-modular;
@@ -73,6 +82,22 @@
 				line-height: @second-modular;
 				.font-size(.9);
 			}
+		}
+	}
+	@media (@sm-query) {
+		height: 100vh;
+		padding-top: @4-rem * @first-modular;
+		#about-intro {
+			float: left;
+			width: 49%;
+			>p {
+				margin-top: 0;
+			}
+		}
+		ul#key-list {
+			float: right;
+			width: 49%;
+			.base(margin,top,0);
 		}
 	}
 }
