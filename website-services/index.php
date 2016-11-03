@@ -11,8 +11,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<section id="website-services">
 		<div class="container">
 			<h2><?php echo $h2; ?></h2>
-			<p class="message">
+			<!-- <p class="message">
 				Whatever stage of the life-cycle of your business, we've got you covered.
+			</p> -->
+			<p class="message">
+				You can think of us/consider us as your personal IT guy.
 			</p>
 		</div>
 		<!-- services -->
