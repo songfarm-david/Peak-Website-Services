@@ -27,8 +27,11 @@
 	margin-bottom: unit(@first-modular, %);
 	height: 100%;
 }
+.col:first-child {
+	margin-left: 0;
+}
 .col:last-child {
-	margin-right: unit(@first-modular, %);
+	margin-right: 0;
 }
 .col-1,
 .col-2,
@@ -48,6 +51,9 @@
 
 // go full-width at specified breakpoint
 @media (@sm-query) {
+	.col:last-child {
+		margin-right: unit(@first-modular, %);
+	}
 	// generate grid with allowance given for
 	.create-grid(@i: 1) when (@i =< @grid-columns) {
 		@each: (@i / @grid-columns) * 100%;
