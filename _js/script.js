@@ -20,7 +20,7 @@
 			ticking = false;
 
 	function scrollSpy(window_top_pos) {
-		var threshold = 800;
+		var threshold = 500;
 		if (window_top_pos > threshold) {
 			$(header).addClass("fixed-nav");
 		} else {
