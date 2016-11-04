@@ -1,6 +1,6 @@
 <?php
 $title = "Peak | Website Services";
-$description = "Peak Website Services include: website creation services, website maintenance services, website optimization services, and more";
+$description = "Peak Website Services include: website development services, website maintenance services, website optimization services, and more";
 $h1 = "Peak Website Services";
 $h2 = "Peak Website Services";
 $activePage = basename($_SERVER['PHP_SELF']);
@@ -10,12 +10,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<!-- Website Services -->
 	<section id="website-services">
 		<div class="container">
-			<h2><?php echo $h2; ?></h2>
-			<!-- <p class="message">
-				Whatever stage of the life-cycle of your business, we've got you covered.
-			</p> -->
+			<h2 class="hide"><?php echo $h2; ?></h2>
 			<p class="message">
-				You can think of us/consider us as your personal IT guy.
+				You can think of us as your <span>personal&nbsp;IT&nbsp;guy</span>.
 			</p>
 		</div>
 		<!-- services -->
