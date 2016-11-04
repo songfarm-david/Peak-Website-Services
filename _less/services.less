@@ -30,9 +30,10 @@
 			flex: 1 1 100%;
 			.base(padding,top,1/@second-modular);
 			.base(padding,bottom,1*@second-modular);
-			color: @japanese-indigo;
+			color: fadeout(@arsenic,20%);
 			>h3 {
-				// color: @yankee-blue;
+				color: @arsenic;
+				text-shadow: 1px 1px 3px @ebony;
 				.font-size(2.5);
 			}
 			ul {
@@ -46,9 +47,21 @@
 			}
 			>a {
 				display: block;
-				.font-size(1/@second-modular);
+				.font-size(0.5);
 				width: 100% / @first-modular;
 				margin: 0 auto;
+				.base(margin,top,1*@first-modular);
+				text-decoration: none;
+				.border(@japanese-indigo);
+				// background-color: @japanese-indigo;
+				padding: 0.5rem/@second-modular .5rem;
+				border-radius: 4px;
+				color: @japanese-indigo;
+				transition: all .15s ease-in;
+				&:hover {
+					background-color: fadeout(@arsenic,10%);
+					color: @ash-white;
+				}
 			}
 			&:nth-child(1) {
 				background-color: fadeout(@sea-green, 85%);
