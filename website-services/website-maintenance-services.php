@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Maintenance Services";
+$title = "Website Maintenance Services | Peak Website Services";
 $description = "Affordable website maintenance services, website hosting and management services and more for small business owners. Website maintenance plans available, too.";
 $h1 = "Website Maintenance Services";
 $h2 = "Website Maintenance Service";

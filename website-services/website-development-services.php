@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Development Services";
+$title = "Website Development Services | Peak Website Services";
 $description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
 $h1 = "Website Development Services";
 $h2 = "Website Development Service";

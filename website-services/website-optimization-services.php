@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Optimization Services";
+$title = "Website Optimization Services | Peak Website Services";
 $description = "Affordable website optimization services, search engine optimization services for small businesses and online businesses. SEO service packages available, too.";
 $h1 = "Website Optimization Services";
 $h2 = "Website Optimization Service";
