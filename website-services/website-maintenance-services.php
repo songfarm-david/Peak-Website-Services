@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
 				<p>
-					<a href="/peak/contact.php?service_type=maintenance">Get a Quote</a>
+					<a href="/contact.php?service_type=maintenance">Get a Quote</a>
 				</p>
 			</div>
 			<!-- service features -->
@@ -77,7 +77,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
 				<p>
-					<a href="/peak/contact.php?service_type=maintenance">Start A Website Service Plan</a>
+					<a href="/contact.php?service_type=maintenance">Start A Website Service Plan</a>
 				</p>
 			</section>
 		</section><!--/ end of service -->
