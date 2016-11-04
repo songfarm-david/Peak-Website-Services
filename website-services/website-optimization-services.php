@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
 				</p>
 				<p>
-					Learn about our <a href="/website-services/website-optimization-services.php#website-optimization-plan">Website Optimization Plan</a>.
+					<a href="/peak/contact.php?service_type=optimization">Get A Quote Today</a>
 				</p>
 			</div>
 			<!-- service features -->
@@ -71,7 +71,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
-				<a href="/contact.php?service_type=optimization">Start A Website Service Plan</a>
+				<a href="/peak/contact.php?service_type=optimization">Start A Website Service Plan</a>
 			</section>
 		</section>
 
