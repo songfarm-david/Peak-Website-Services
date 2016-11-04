@@ -4,16 +4,24 @@
 	.base(padding,top,2);
 	p.message {
 		text-align: center;
+		width: 100%;
 		.font-size(2);
 		>span {
 			font-size: inherit;
 			text-transform: capitalize;
 		}
 	}
-	.row {
-		>div.col {
+	#service-container {
+		.base(margin,top,1);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		>div {
 			text-align: center;
-			.border;
+			flex: 1 1 100%;
+			.base(padding,top,1/@second-modular);
+			.base(padding,bottom,1*@second-modular);
+			background-color: fadeout(@ash-white, 25%);
 			ul {
 				.font-size(.5);
 				padding-left: 0;
@@ -34,6 +42,15 @@
 	@media (@sm-query) {
 		height: 100vh;
 		.base(padding);
+		p.message {
+			.base(padding,top,1*@first-modular);
+		}
+		#service-container {
+			flex-wrap: nowrap;
+			>div {
+				flex: 1 1 auto;
+			}
+		}
 	}
 }
 

@@ -16,9 +16,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</p>
 		</div>
 		<!-- services -->
-		<div class="row">
+		<div id="service-container">
 			<!-- website creation services -->
-			<div class="col col-4">
+			<div>
 				<h3>Website<br> Development <span class="at-only">Services</span></h3>
 				<ul>
 					<li>New Website Creation</li>
@@ -30,7 +30,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<a href="website-development-services.php">View<br> Website Development Services</a>
 			</div>
 			<!-- website maintenance services -->
-			<div class="col col-4">
+			<div>
 				<h3>Website<br> Maintenance <span class="at-only">Services</span></h3>
 				<ul>
 					<li>Website Hosting &amp; Domain Management</li>
@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<a href="website-maintenance-services.php">View<br> Website Maintenance Services</a>
 			</div>
 			<!-- website optimization services -->
-			<div class="col col-4">
+			<div>
 				<h3>Website<br> Optimization <span class="at-only">Services</span></h3>
 				<ul>
 					<li>Enhanced Search Visibility</li>
