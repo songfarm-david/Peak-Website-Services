@@ -1,7 +1,14 @@
 // website-services/index.php
 #website-services {
+	position: relative;
 	height: auto;
 	.base(padding,top,2);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../_images/polygon_bg.svg);
+	&::after {
+		.overlay(@duke,0.3);
+	}
 	p.message {
 		text-align: center;
 		width: 100%;
@@ -12,16 +19,17 @@
 		}
 	}
 	#service-container {
+		position: relative;
+		z-index: 100;
 		.base(margin,top,1);
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
 		>div {
 			text-align: center;
 			flex: 1 1 100%;
 			.base(padding,top,1/@second-modular);
 			.base(padding,bottom,1*@second-modular);
-			background-color: fadeout(@ash-white, 25%);
+			background-color: fadeout(@ash-white, 50%);
 			ul {
 				.font-size(.5);
 				padding-left: 0;
@@ -38,20 +46,34 @@
 				margin: 0 auto;
 			}
 		}
-	}
-	@media (@sm-query) {
-		height: 100vh;
-		.base(padding);
-		p.message {
-			.base(padding,top,1*@first-modular);
-		}
-		#service-container {
-			flex-wrap: nowrap;
+		@media (@sm-query) {
+			display: flex;
+			.base(padding);
+			padding-top: 0;
 			>div {
-				flex: 1 1 auto;
+				.base(margin,bottom,@1-rem*@second-modular);
+			}
+		}
+		@media (@md-query) {
+			justify-content: space-around;
+			flex-wrap: wrap;
+			>div {
+				flex: 0 0 440px;
 			}
 		}
 	}
+
+	// for testing
+	// @media (@sm-query) {
+	// 	background-color: fadeout(orange, 50%);
+	// }
+	// @media (@md-query) {
+	// 	background-color: fadeout(red, 50%);
+	// }
+	// @media (@lg-query) {
+	// 	background-color: fadeout(grey, 50%);
+	// }
+
 }
 
 .service.container {
