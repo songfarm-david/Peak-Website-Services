@@ -1,5 +1,5 @@
 <?php
-$title = "Contact Peak Website Services";
+$title = "Contact | Peak Website Services";
 $description = "";
 $redirect_target = "http://www.peakwebsites.ca";
 $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
