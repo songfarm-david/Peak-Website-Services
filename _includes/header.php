@@ -13,7 +13,7 @@
 		<meta name="description" content="<?php echo $description; ?>">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<?php echo $canon = ($_SERVER['PHP_SELF'] == "/index.php") ? "<link rel=\"canonical\" href=\"http://peakwebsites.ca\">\r" : ""; ?>
-		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
+		<link rel="stylesheet" href="/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Signika" rel="stylesheet">
 	</head>
 	<body>
