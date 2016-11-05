@@ -17,9 +17,10 @@
 (function ($) {
 
 	var header = $("body >header"),
+			threshold,
 			ticking = false;
 
-	function scrollSpy(window_top_pos) {
+	function scrollSpy(window_top_pos, threshold) {
 		var threshold = 500;
 		if (window_top_pos > threshold) {
 			$(header).addClass("fixed-nav");
@@ -36,6 +37,11 @@
 	    });
 	  }
 	  ticking = true;
+		var height = $("#landing-page").height();
+		if (windowScrollTop > (height / 2)) {
+			$("#about #about-intro").addClass('fadeInUp');
+			$("#key-list").addClass('fadeInRight');
+		}
 	});
 
 })(jQuery);
