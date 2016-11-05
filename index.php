@@ -21,6 +21,7 @@ $h2 = "";
 					</p>
 				</div>
 			</div>
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</section>
 		<!-- Core Values -->
 		<section id="about">

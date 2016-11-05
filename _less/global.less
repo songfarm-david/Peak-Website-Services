@@ -45,7 +45,7 @@ nav {
 			span.icon-bar {
 				width: @1-rem * @second-modular;
 				height: .25rem / @first-modular;
-				background-color: @japanese-indigo; // same color as nav !!
+				background-color: @nav-color; // same color as nav !!
 				display: block;
 				margin: 0;
 				margin: .5rem .5rem;
@@ -76,9 +76,9 @@ nav {
 				text-decoration: none;
 				.font-size(1/@first-modular);
 				padding: @1-rem/@second-modular;
-				opacity: 1/@second-modular;
+				// opacity: 1/@second-modular;
 				text-transform: uppercase;
-				text-shadow: -1px 0px 2px @davy-grey;
+				// text-shadow: -1px 0px 2px @davy-grey;
 			}
 		}
 	}
@@ -206,4 +206,14 @@ footer {
 
 .nav-bg-color-active {
 	background-color: fadeout(@pewter-blue, 30%);
+}
+
+.fa.fa-angle-down {
+	.font-size(3);
+	color: @nav-color;
+	position: absolute;
+	left: 50%;
+	bottom: 1%;
+	width: 100px;
+	text-align: center;
 }

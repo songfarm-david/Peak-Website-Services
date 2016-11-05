@@ -1,10 +1,4 @@
 	<footer>
-		<!-- <article id="mission-statement">
-			<h4 class="h3">About Peak Website Services</h4>
-			<p>
-				Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
-			</p>
-		</article> -->
 		<article id="quick-quote">
 			<h3 class="at-only">Receive Quote</h3>
 			<span class="h2">Need some help?</span>
@@ -30,12 +24,10 @@
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 <!-- Fallback for jQuery CDN -->
-<script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window); || document.write('<script src="_js/vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
+<script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window); || document.write('<script src="/_js/vendor/jquery-3.1.0.slim.min.js"><\/script>')</script>
 <!-- Bootstrap Collapse script -->
-<script type="text/javascript" src="/_js/helper/bs-collapse.js"></script>
-<!-- JS Helper Functions -->
-<!-- <script src="_js/vendor/plugins.js"></script> -->
-<script type="text/javascript" src="/_js/script.js"></script>
+<script type="text/javascript" src="/peak/_js/helper/bs-collapse.js"></script>
+<script type="text/javascript" src="/peak/_js/script.js"></script>
 <!-- supports media queries in IE6-8 -->
 <!--[if lte 8]>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
