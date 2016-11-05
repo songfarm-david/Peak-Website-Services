@@ -210,10 +210,14 @@ footer {
 
 .fa.fa-angle-down {
 	.font-size(3);
-	color: @nav-color;
+	color: #fff;
 	position: absolute;
 	left: 50%;
 	bottom: 1%;
 	width: 100px;
 	text-align: center;
+	animation: bounce 1.2s infinite alternate both;
+	&:hover {
+		cursor: pointer;
+	}
 }
