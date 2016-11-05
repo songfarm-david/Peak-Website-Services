@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Optimization Services";
+$title = "Website Optimization Services | Peak Website Services";
 $description = "Affordable website optimization services, search engine optimization services for small businesses and online businesses. SEO service packages available, too.";
 $h1 = "Website Optimization Services";
 $h2 = "Website Optimization Service";
@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
 				</p>
 				<p>
-					Learn about our <a href="/website-services/website-optimization-services.php#website-optimization-plan">Website Optimization Plan</a>.
+					<a href="/contact.php?service_type=optimization">Get A Quote Today</a>
 				</p>
 			</div>
 			<!-- service features -->

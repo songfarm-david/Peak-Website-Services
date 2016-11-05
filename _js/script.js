@@ -1,4 +1,15 @@
+/**
+* Helper scripts
+*/
+(function ($) {
 
+	var navbar = $("nav.navbar");
+
+	$("nav button.navbar-toggle").on("click", function(){
+		$(navbar).toggleClass("nav-bg-color-active");
+	})
+
+})(jQuery);
 
 /**
 * Scrollspy
@@ -9,7 +20,7 @@
 			ticking = false;
 
 	function scrollSpy(window_top_pos) {
-		var threshold = 800;
+		var threshold = 500;
 		if (window_top_pos > threshold) {
 			$(header).addClass("fixed-nav");
 		} else {

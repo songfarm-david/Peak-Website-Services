@@ -3,6 +3,7 @@
 * set up htaccess to cache select files/ on deploy, set htaccess to cache common files
 * use a css autoprefixer to auto-prefix fragile property declarations.
 * Minify CSS files
+* Make sure image 'alt' tags have meaningful values
 
 ## Client Checklist
 - make sure address is correct

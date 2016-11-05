@@ -1,6 +1,6 @@
 <?php
 $title = "Peak Website Services";
-$description = "Peak Website Services offering website development services, website maintenance services, website optimization services for small business owners and small businesses.";
+$description = "Peak Website Services offers website development services, website maintenance services, website optimization services for small business owners and small businesses";
 $h1 = $title;
 $h2 = "";
 ?>
@@ -11,7 +11,7 @@ $h2 = "";
 			<h2 class="hide">What We Do</h2>
 			<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 			<div id="landing-page-intro" class="container">
-				<span id="headline">Put Your Business<br> On <span class="accent-color">Top</span></span>
+				<span id="headline" class="fadeInUp">Put Your Business<br> On <span class="accent-color">Top</span></span>
 				<div>
 					<p>
 						Website Services for business owners looking to elevate their online potential.
@@ -21,6 +21,7 @@ $h2 = "";
 					</p>
 				</div>
 			</div>
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</section>
 		<!-- Core Values -->
 		<section id="about">
@@ -29,9 +30,6 @@ $h2 = "";
 				<div id="about-intro">
 					<p>
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
-					</p>
-					<p>
-						<a href="/website-services/">Learn about our Website Services Plans</a>
 					</p>
 				</div>
 				<ul id="key-list">
@@ -42,17 +40,17 @@ $h2 = "";
 					</li>
 					<li>Attention to Detail
 						<p>
-							Because it's the little things that make the biggest difference, quality always come before quantity.
-						</p>
-					</li>
-					<li>Personal Service and Attention
-						<p>
-							Choosing a smaller client-base means we're always just a phone call away. You can think of us as your personal IT guy.
+							Because it's the little things that make the biggest difference, quality always comes before quantity.
 						</p>
 					</li>
 					<li>Translate your Vision into Beautiful Reality
 						<p>
 							We balance creativity with industry best practices to deliver high-quality products that reflect the uniqueness of your business.
+						</p>
+					</li>
+					<li>Personal Service and Attention
+						<p>
+							Choosing to work with a smaller client-base means we're always just a phone call away.
 						</p>
 					</li>
 				</ul>

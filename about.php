@@ -1,12 +1,12 @@
 <?php
-$title = "Peak | About";
+$title = "About | Peak Website Services";
 $description = "Peak Website Services is an all-in-one, affordable solution for small online business owners who need help creating, maintaining, and optimizing their online presence.";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('_includes/header.php') ?>
 
 	<main>
-		<section id="about-peak">
+		<section id="about">
 			<div class="container">
 				<p class="headline">
 					<span class="hero">Leave the</span> technical <span class="hero">work</span> of building and maintaining a website <span class="hero">to us</span>.

@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Maintenance Services";
+$title = "Website Maintenance Services | Peak Website Services";
 $description = "Affordable website maintenance services, website hosting and management services and more for small business owners. Website maintenance plans available, too.";
 $h1 = "Website Maintenance Services";
 $h2 = "Website Maintenance Service";
@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 				</p>
 				<p>
-					Learn about our <a href="/website-services/website-maintenance-services.php#website-maintenance-plan">Website Maintenance Plans</a>.
+					<a href="/contact.php?service_type=maintenance">Get a Quote</a>
 				</p>
 			</div>
 			<!-- service features -->

@@ -1,18 +1,14 @@
 <?php
-$title = "Contact Peak Website Services";
+$title = "Contact | Peak Website Services";
 $description = "";
 $redirect_target = "http://www.peakwebsites.ca";
 $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 ?>
 <!-- NOTE: in this page I want to touch on that they will get back an assessment from me that will include some cool stuff. Or.. where can I do that?? See 'Free Assessment on content.md' -->
 <?php require_once('_includes/header.php') ?>
-	<header>
-		<h1 class="h3 hide">Contact Peak Website Services</h1>
-		<?php include_once('_includes/navigation.php') ?>
-	</header>
 	<main id="contact-main">
 		<div class="container">
-			<p class="h3">
+			<p class="h2">
 				Got a question for us? Let's chat.
 			</p>
 			<!-- Web Service Questionnaire -->
@@ -48,7 +44,7 @@ $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 						<div class="row">
 							<div class="col col-12">
 								<label for="message">
-									<textarea name="message" rows="1" placeholder="You're on the mic. What's your beef?"></textarea>
+									<textarea name="message" rows="1" placeholder="Tell us about your project"></textarea>
 								</label>
 							</div>
 						</div>

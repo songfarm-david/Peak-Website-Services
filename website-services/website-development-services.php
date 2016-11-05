@@ -1,5 +1,5 @@
 <?php
-$title = "Peak | Website Development Services";
+$title = "Website Development Services | Peak Website Services";
 $description = "Affordable website design and development services for small business owners and online businesses. Custom website development services for the non-technical.";
 $h1 = "Website Development Services";
 $h2 = "Website Development Service";
@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 					</p>
 					<p>
-						Learn about our <a href="/website-services/website-development-services.php#website-development">Website Development Services</a>
+						<a href="/contact.php?service_type=development">Contact Us Today</a>
 					</p>
 				</div>
 				<!-- service features -->

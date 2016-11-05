@@ -14,7 +14,10 @@ html {
 		margin: 0 auto;
 		background: @background-color;
 		height: 100%;
-		margin-bottom: 647.984px; // height of footer for parallax footer
+		color: darken(@nav-color,30%);
+		@media (@sm-query) {
+			margin-bottom: 575.219px; // height of footer for parallax footer
+		}
 	}
 }
 html {
@@ -26,7 +29,7 @@ body {
 }
 .container {
 	width: 100%;
-	@media (@sm-query) {
+	@media (@lg-query) {
 		width: unit(@page-width-alt, rem);
 		margin: 0 auto;
 	}
