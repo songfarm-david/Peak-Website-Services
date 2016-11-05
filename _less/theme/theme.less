@@ -14,10 +14,7 @@ html {
 		margin: 0 auto;
 		background: @background-color;
 		height: 100%;
-		color: darken(@nav-color,30%);
-		@media (@sm-query) {
-			margin-bottom: 575.219px; // height of footer for parallax footer
-		}
+		margin-bottom: 589.766px; // height of footer for parallax footer
 	}
 }
 html {
@@ -29,13 +26,13 @@ body {
 }
 .container {
 	width: 100%;
-	@media (@lg-query) {
+	@media (@sm-query) {
 		width: unit(@page-width-alt, rem);
 		margin: 0 auto;
 	}
 }
 .fixed-nav {
-	background-color: fadeout(@ash-white,10%);
+	background-color: #ACC0D0;
 	height: 73px;
 	box-shadow: 0px 1px 2px 2px @gray-blue;
 	animation: fadeIn .8s ease-in; // temporary animation
