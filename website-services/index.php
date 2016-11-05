@@ -12,14 +12,14 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div class="container">
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<p class="message">
-				You can think of us as your <span>personal&nbsp;IT&nbsp;guy</span>.
+				You can think of us as your <span>personal&nbsp;IT guy</span>.
 			</p>
 		</div>
 		<!-- services -->
 		<div id="service-container">
 			<!-- website creation services -->
 			<div>
-				<h3>Website<br> Development <span class="at-only">Services</span></h3>
+				<h3>Website<br> <span class="sea-green">Development</span> <span class="at-only">Services</span></h3>
 				<ul>
 					<li>New Website Creation</li>
 					<li>Existing Website Redesign</li>
@@ -31,7 +31,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 			<!-- website maintenance services -->
 			<div>
-				<h3>Website<br> Maintenance <span class="at-only">Services</span></h3>
+				<h3>Website<br> <span class="cedar-chest">Maintenance</span> <span class="at-only">Services</span></h3>
 				<ul>
 					<li>Website Hosting &amp; Domain Management</li>
 					<li>Performance Monitoring and Analytics</li>
@@ -43,7 +43,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 			<!-- website optimization services -->
 			<div>
-				<h3>Website<br> Optimization <span class="at-only">Services</span></h3>
+				<h3>Website<br> <span class="electric-blue">Optimization</span> <span class="at-only">Services</span></h3>
 				<ul>
 					<li>Enhanced Search Visibility</li>
 					<li>Comprehensive Keyword Strategy</li>
