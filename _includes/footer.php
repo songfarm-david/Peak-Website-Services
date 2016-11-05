@@ -3,16 +3,16 @@
 			<h3 class="at-only">Receive Quote</h3>
 			<span class="h2">Need some help?</span>
 			<p>
-				<a href="/contact.php" style="text-transform:capitalize;">Get a hassle-free quote</a>.
+				<a href="/peak/contact.php" style="text-transform:capitalize;">Get a hassle-free quote</a>.
 			</p>
 		</article>
 		<nav id="site-map">
 			<h4 class="h3">Site Map</h4>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About Peak</a></li>
-				<li><a href="/website-services/">Website Services</a></li>
-				<li><a href="/contact.php">Contact</a></li>
+				<li><a href="/peak/">Home</a></li>
+				<li><a href="/peak/about.php">About Peak</a></li>
+				<li><a href="/peak/website-services/">Website Services</a></li>
+				<li><a href="/peak/contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<div id="copyright">
