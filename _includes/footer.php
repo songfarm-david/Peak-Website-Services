@@ -16,7 +16,7 @@
 			<h4 class="h3">Site Map</h4>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/about-peak.php">About Peak</a></li>
+				<li><a href="/about.php">About Peak</a></li>
 				<li><a href="/website-services/">Website Services</a></li>
 				<li><a href="/contact.php">Contact</a></li>
 			</ul>
