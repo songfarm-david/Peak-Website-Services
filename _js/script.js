@@ -39,3 +39,21 @@
 	});
 
 })(jQuery);
+
+
+/**
+* Smooth Scrolling
+*/
+(function($) {
+
+	var trigger = $("#landing-page>i.fa.fa-angle-down").on("click", function() {
+		var height = $("#landing-page").height();
+		console.log(height);
+		$("html, body").animate({ scrollTop: height + "px" }, 750);
+		// $('body').scrollTop(height).offset().top;
+		// $('body').animate({
+    //       scrollTop: $(height).offset().top
+    //     }, 1000);
+	})
+
+})(jQuery);
