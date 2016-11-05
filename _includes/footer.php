@@ -35,7 +35,7 @@
 <script type="text/javascript" src="/_js/helper/bs-collapse.js"></script>
 <!-- JS Helper Functions -->
 <!-- <script src="_js/vendor/plugins.js"></script> -->
-<script type="text/javascript" src="/peak/_js/script.js"></script>
+<script type="text/javascript" src="/_js/script.js"></script>
 <!-- supports media queries in IE6-8 -->
 <!--[if lte 8]>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
