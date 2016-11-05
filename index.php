@@ -14,10 +14,10 @@ $h2 = "";
 				<span id="headline" class="fadeInUp">Put Your Business<br> On <span class="accent-color">Top</span></span>
 				<div>
 					<p>
-						Website Services for business owners looking to elevate their online potential.
+						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/website-services/">Learn about our Website Services</a>
+						<a href="/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
 					</p>
 				</div>
 			</div>
