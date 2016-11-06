@@ -33,6 +33,9 @@ $canonical = "http://peakwebsites.ca/";
 					<p>
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
+					<p>
+						<a href="/peak/about.php">About Peak</a>
+					</p>
 				</div>
 
 				<!-- benefits key list -->
