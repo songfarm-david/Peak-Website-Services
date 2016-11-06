@@ -1,7 +1,7 @@
 /* index.php (main) */
 #landing-page {
 	height: auto;
-	background-color: @background-color;
+	// background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% center;
@@ -10,24 +10,22 @@
 		.base(padding,.5/@first-modular);
 		.base(padding,top,4);
 		.base(padding,bottom,4);
-		color: @ash-white;
+		// color: @ash-white;
 		span#headline {
 			display: block; // by making it display block allows for transform translate effect
 			.font-size(4);
 			line-height: @line-height / @first-modular;
-			text-shadow: -1px -1px 2px @arsenic;
-			.accent-color {
-				font-size: inherit;
-				line-height: 1;
+			// text-shadow: -1px -1px 2px @arsenic;
+			>span {
 				color: @hero-color;
 			}
 			+ div {
 				.base(margin,top,1);
 				width: (100% / @first-modular) / @second-modular;
-				color: @arsenic;
+				// color: @arsenic;
 				font: @body-font;
 				p {
-					text-shadow: 1px 1px 2px @arsenic;
+					// text-shadow: 1px 1px 2px @arsenic;
 				}
 				p:last-child {
 					margin-top: @1-rem * @first-modular;
@@ -47,15 +45,25 @@
 		height: 100vh;
 	}
 }
+
+// about section
 #about {
 	height: auto;
 	.base(padding,.5/@first-modular);
 	.base(padding,bottom,2);
-	background-image: svg-gradient(to bottom, #fff 25%, @silver-lake-blue);
+	// background-color: #6A8EAE;
+	// background-color: @secondary-color; // jungle green
+	// background-image: url(../_images/backgrounds/spotlight-green.svg);
+
+	background-color: #fff;
+	background-repeat: repeat-x;
+	background-image: url(../_images/backgrounds/blue-fade.svg);
 	#about-intro {
 		float: none;
 		width: 100%;
 		padding-top: @1-rem * @second-modular;
+		color: @japanese-indigo;
+
 		>p {
 			margin-top: @1-rem*@first-modular;
 		}
@@ -72,6 +80,7 @@
 		.font-size(1/@second-modular);
 		float: none;
 		.base(margin,top,@1-rem);
+		color: @arsenic;
 		li {
 			font-weight: bold;
 			margin-bottom: @1-rem * @second-modular;
@@ -82,7 +91,23 @@
 				font-weight: normal;
 				line-height: @second-modular;
 				.font-size(.9);
+				color: @jungle-green;
+				color: inherit;
+				// color: @hero-color;
+				// color: #fff;
 			}
+			// &:nth-child(1) {
+			// 	color: @desire-red;
+			// }
+			// &:nth-child(2) {
+			// 	color: #ADD9F4;
+			// }
+			// &:nth-child(3) {
+			// 	color: #FF9F1C;
+			// }
+			// &:nth-child(4) {
+			// 	color: #14FFF7;
+			// }
 		}
 	}
 	@media (@sm-query) {
