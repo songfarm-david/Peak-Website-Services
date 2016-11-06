@@ -19,7 +19,7 @@ $canonical = "http://peakwebsites.ca/";
 						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
+						<a href="/peak/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
 					</p>
 				</div>
 			</div>
@@ -34,6 +34,8 @@ $canonical = "http://peakwebsites.ca/";
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
 				</div>
+
+				<!-- benefits key list -->
 				<ul id="key-list">
 					<li>Eye on the Bigger Picture
 						<p>
@@ -55,7 +57,8 @@ $canonical = "http://peakwebsites.ca/";
 							Choosing to work with a smaller client-base means we're always just a phone call away.
 						</p>
 					</li>
-				</ul>
+				</ul><!--/ benefits key list -->
+
 			</div>
 		</section>
 	</main>
