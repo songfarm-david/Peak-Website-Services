@@ -1,0 +1,10 @@
+
+  <svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'>
+  	<radialGradient id='glow' gradientUnits='userSpaceOnUse' cx='390' cy='300' r='500'>
+  		<stop offset='0%' stop-color='#D1FAFF' />
+  		<stop offset='60%' stop-color='#9BD1E5' />
+  		<stop offset='100%' stop-color='#6A8EAE' />
+  	</radialGradient>
+  	<rect fill='url(#glow)' x='-1%' y='-1%' width='102%' height='102%'/>
+  </svg>
+  
