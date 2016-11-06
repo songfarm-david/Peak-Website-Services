@@ -9,7 +9,7 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="/peak/index.php">Home</a></li>
+			<li><a href="/peak/index.php" class="active-link">Home</a></li>
 			<li class="dropdown-btn">
 				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
