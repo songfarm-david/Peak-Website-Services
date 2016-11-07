@@ -9,9 +9,9 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="/peak/index.php" class="active-link">Home</a></li>
+			<li><a href="/peak/index.php" class="<?php echo $class = ($_SERVER['PHP_SELF'] == "/peak/index.php") ? "active-link" : ""; ?>">Home</a></li>
 			<li class="dropdown-btn">
-				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="">Website Services</a>
+				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="" class="<?php echo $class = ($_SERVER['PHP_SELF'] == "/peak/website-services/index.php") ? "active-link" : ""; ?>">Website Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
 						<li><a href="/peak/website-services/website-development-services.php">Website Development Services</a></li>
@@ -20,9 +20,9 @@
 					</ul>
 				</div>
 			</li>
-			<li><a href="/peak/about.php">About</a></li>
+			<li><a href="/peak/about.php" class="<?php echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a></li>
 			<!-- <li><a href="/portfolio/">Portfolio</a></li> -->
-			<li><a href="/peak/contact.php">Contact</a></li>
+			<li><a href="/peak/contact.php" class="<?php echo $class = ($activePage == "contact.php") ? "active-link" : ""; ?>">Contact</a></li>
 		</ul>
 	</div>
 </nav>
