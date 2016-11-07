@@ -23,6 +23,26 @@
 		background-color: @link-hover;
 	}
 }
+.fixed-nav {
+	background-color: @pewter-blue;
+	nav #primary-nav .dropdown-content {
+		background-color: @jungle-green;
+		color: #fff;
+		opacity: .8;
+		li {
+			a {
+				color: #fff;
+			}
+			a::after {
+				width: 100%;
+				height: 0px;
+			}
+			&:hover {
+				background-color: @deep-purple;
+			}
+		}
+	}
+}
 html {
 	background-color: #fff;
 	body {
