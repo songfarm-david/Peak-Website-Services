@@ -19,7 +19,7 @@ $canonical = "http://peakwebsites.ca/";
 						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/peak/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
+						<a href="/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
 					</p>
 				</div>
 			</div>
@@ -59,13 +59,13 @@ $canonical = "http://peakwebsites.ca/";
 				</ul><!--/ benefits key list -->
 
 				<p id="about-cta">
-					<a href="/peak/about.php">About Peak</a>
+					<a href="/about.php">About Peak</a>
 				</p>
 
 			</div>
 		</section>
 
-		<a href="/peak/contact.php" style="text-decoration:none;">
+		<a href="/contact.php" style="text-decoration:none;">
 			<section id="final-cta">
 				<div class="">
 					<h2>Receive a FREE Estimate <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></h2>
