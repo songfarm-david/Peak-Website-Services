@@ -6,14 +6,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url(../_images/polygon_bg.svg);
-	&::after {
-		// .overlay(@duke,0.3);
-	}
 	p.message {
 		text-align: center;
 		width: 100%;
 		.font-size(2);
-		color: @arsenic;
+		// color: @arsenic;
 		>span {
 			font-size: inherit;
 			text-transform: capitalize;
@@ -30,10 +27,10 @@
 			flex: 1 1 100%;
 			.base(padding,top,1/@second-modular);
 			.base(padding,bottom,1*@second-modular);
-			color: fadeout(@arsenic,20%);
+			// color: fadeout(@arsenic,20%);
 			>h3 {
-				color: @platinum;
-				text-shadow: 1px 1px 3px @arsenic;
+				// color: @platinum;
+				// text-shadow: 1px 1px 3px @arsenic;
 				line-height: 1;
 				.font-size(2.5);
 				>span {
@@ -57,25 +54,25 @@
 				margin: 0 auto;
 				.base(margin,top,1*@first-modular);
 				text-decoration: none;
-				.border(@japanese-indigo);
+				// .border(@japanese-indigo);
 				// background-color: @japanese-indigo;
 				padding: 0.5rem/@second-modular .5rem;
 				border-radius: 4px;
-				color: @japanese-indigo;
+				// color: @japanese-indigo;
 				transition: all .15s ease-in;
 				&:hover {
-					background-color: fadeout(@arsenic,10%);
-					color: @ash-white;
+					// background-color: fadeout(@arsenic,10%);
+					// color: @ash-white;
 				}
 			}
 			&:nth-child(1) {
-				background-color: fadeout(@sea-green, 85%);
+				// background-color: fadeout(@sea-green, 85%);
 			}
 			&:nth-child(2) {
-				background-color: fadeout(@cotton-candy, 50%);
+				// background-color: fadeout(@cotton-candy, 50%);
 			}
 			&:nth-child(3) {
-				background-color: fadeout(@electric-blue, 70%);
+				// background-color: fadeout(@electric-blue, 70%);
 			}
 		}
 		@media (@sm-query) {

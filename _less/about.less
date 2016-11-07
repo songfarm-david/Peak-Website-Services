@@ -1,15 +1,38 @@
 // main styles for /about.php
-#about {
-	height: 100vh;
+/* this is a different about page */
+#about-page {
+	height: auto;
 	padding-top: @4-rem * @first-modular;
+	background-color: @background-color;
+	background-image: url(../_images/backgrounds/circle-mess-multi.svg);
+	.base(padding,.5/@first-modular);
+	.base(padding,top,4/@second-modular);
+	.base(padding,bottom,4);
 	.headline {
 		font: @header-font;
+		color: @deep-purple;
 		.font-size(3);
 		line-height: 1.1;
 		.hero {
 			font-size: inherit;
 			line-height: inherit;
-			color: @hero-color;
+			color: @jungle-green;
 		}
+		text-shadow: -1px 1px 2px @hero-color;
+	}
+	p {
+		color: @hero-color;
+	}
+	p:last-child {
+		color: @hero-color;
+		font-weight: bold;
+		.base(margin,top,1);
+		a:hover {
+			color: @deep-purple;
+		}
+	}
+	.box-shadow();
+	@media (@sm-query) {
+		height: 100vh;
 	}
 }

@@ -3,21 +3,23 @@ $title = "Peak Website Services";
 $description = "Peak Website Services offers website development services, website maintenance services, website optimization services for small business owners and small businesses";
 $h1 = $title;
 $h2 = "";
+$canonical = "http://peakwebsites.ca/";
 ?>
 <?php require_once('_includes/header.php') ?>
 
 	<main>
+
 		<section id="landing-page">
 			<h2 class="hide">What We Do</h2>
 			<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
-			<div id="landing-page-intro" class="container">
-				<span id="headline" class="fadeInUp">Put Your Business<br> On <span class="accent-color">Top</span></span>
+			<div id="landing-page-intro" class="container fadeInUp">
+				<span id="headline">Put Your Business<br> On <span>Top</span></span>
 				<div>
 					<p>
-						Website Services for business owners looking to elevate their online potential.
+						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/website-services/">Learn about our Website Services</a>
+						<a href="/peak/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
 					</p>
 				</div>
 			</div>
@@ -32,6 +34,7 @@ $h2 = "";
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
 				</div>
+				<!-- benefits key list -->
 				<ul id="key-list">
 					<li>Eye on the Bigger Picture
 						<p>
@@ -53,9 +56,24 @@ $h2 = "";
 							Choosing to work with a smaller client-base means we're always just a phone call away.
 						</p>
 					</li>
-				</ul>
+				</ul><!--/ benefits key list -->
+
+				<p id="about-cta">
+					<a href="/peak/about.php">About Peak</a>
+				</p>
+
 			</div>
 		</section>
+
+		<a href="/peak/contact.php" style="text-decoration:none;">
+			<section id="final-cta">
+				<div class="">
+					<h2>Receive a FREE Estimate <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></h2>
+				</div>
+			</section>
+		</a>
+
+
 	</main>
 
 	<?php require_once('_includes/footer.php') ?>

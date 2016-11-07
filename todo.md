@@ -5,6 +5,9 @@ Revisit copy on website-services/index.php, write service paragraphs
 Finish Contact Form/Questionnaire
 Review/Complete FAQ
 
+## footer
+Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
+
 * Add css styles that control main above the fold content to head of document
 * Add 404 page.
 * Have a copy of fonts in case the internet goes down!

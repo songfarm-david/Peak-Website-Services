@@ -8,11 +8,58 @@
 	.base(margin,top,@first-modular);
 	text-transform: capitalize;
 }
+.nav-active {
+	&::after {
+		content: "";
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		bottom: -1.618%;
+		height: 5px;
+		color: @link-hover;
+		background-color: @link-hover;
+	}
+	@media (@sm-query) {
+		&::after {
+			width: 97%;
+		}
+	}
+}
+
+.fixed-nav {
+	background-color: fadeout(#fff,20%);
+	nav #primary-nav .dropdown-content {
+		background-color: fadeout(#fff,20%);
+		color: @hero-color;
+		opacity: .8;
+		li {
+			a {
+				color: inherit;
+				&:hover {
+					opacity: 1;
+				}
+				&::after {
+					width: 100%;
+					height: 0px;
+				}
+			}
+			&:hover {
+				background-color: #fff;
+			}
+		}
+	}
+}
+.nav-visible {
+	&:extend(.fixed-nav all);
+}
 html {
 	background-color: #fff;
 	body {
 		margin: 0 auto;
-		background: @background-color;
+		// background: @background-color;
 		height: 100%;
 		margin-bottom: 589.766px; // height of footer for parallax footer
 	}
@@ -32,12 +79,12 @@ body {
 	}
 }
 .fixed-nav {
-	background-color: #ACC0D0;
+	// background-color: #ACC0D0;
 	height: 73px;
-	box-shadow: 0px 1px 2px 2px @gray-blue;
+	// box-shadow: 0px 1px 2px 2px @gray-blue;
 	animation: fadeIn .8s ease-in; // temporary animation
 	ul ul {
-		background-color: fadeout(@ash-white,10%);
+		// background-color: fadeout(@ash-white,10%);
 	}
 }
 /* type & text */
@@ -58,6 +105,11 @@ span {
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	line-height: @line-height;
 	.font-size(1);
+}
+span {
+	font-size: inherit;
+	line-height: inherit;
+	margin: inherit;
 }
 h4,
 .h4 {
@@ -91,16 +143,24 @@ small {
 }
 /* links */
 a {
-	color: #000;
+	color: @nav-color;
+	transition: all 100ms ease-in;
+	&:hover {
+		color: @link-hover;
+	}
+	&.active-link {
+		color: @link-hover;
+		.nav-active();
+	}
 }
-a.inline-link {
-	text-transform: lowercase;
-}
+// a.inline-link {
+// 	text-transform: lowercase;
+// }
 a:active,
 a:hover {
 	outline-width: 0;
-	color: @link-color-hover;
-	text-shadow: 0px 0px 1px @gray-blue;
+	// color: @link-color-hover;
+	// text-shadow: 0px 0px 1px @gray-blue;
 }
 /* lists */
 ul,
@@ -130,7 +190,7 @@ li {
 blockquote {
 	font-style: italic;
 	font-size: 100% * @first-modular;
-	border-left: 5px solid @hero-color-bold;
+	// border-left: 5px solid @hero-color-bold;
 	.base(padding,0.3);
 	padding-left: @1-rem;
 }

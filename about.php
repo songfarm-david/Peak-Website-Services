@@ -6,7 +6,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('_includes/header.php') ?>
 
 	<main>
-		<section id="about">
+		<section id="about-page">
 			<div class="container">
 				<p class="headline">
 					<span class="hero">Leave the</span> technical <span class="hero">work</span> of building and maintaining a website <span class="hero">to us</span>.
@@ -17,12 +17,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>
 					Learn more about our <a href="/website-services/">Website Services</a>.
 				</p>
-				<!-- <p>
-					Peak Website Services is a <em>complete solution</em> to business owners who are not tech-savvy and would rather run their business than worry about code.
-				</p> -->
-				<!-- <p>
-					Our professional developers and designers combine website and brand creation, website development and maintenance, and strategy-driven website optimization into affordable website services designed to maximize your online success and make handling the technical aspects of having an online business simple.
-				</p> -->
 			</div>
 		</section>
 	</main>

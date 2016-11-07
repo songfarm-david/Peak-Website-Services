@@ -1,3 +1,4 @@
+<?php $activePage = basename($_SERVER['PHP_SELF']); ?>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="ie8 no-js"><![endif]-->
 <!--[if gt IE 8]><!-->
@@ -12,7 +13,7 @@
 		<title><?php echo $title; ?></title>
 		<meta name="description" content="<?php echo $description; ?>">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
-		<?php echo $canon = ($_SERVER['PHP_SELF'] == "/index.php") ? "<link rel=\"canonical\" href=\"http://peakwebsites.ca\">\r" : ""; ?>
+		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<link rel="stylesheet" href="/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Signika" rel="stylesheet">
 	</head>
@@ -22,7 +23,7 @@
 				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
-		<header>
+		<header class="<?php echo $nav = (basename($_SERVER['PHP_SELF']) == "contact.php") ? "nav-visible" : ""; ?>">
 			<h1 class="hide"><?php echo $h1; ?></h1>
 			<?php include_once('navigation.php') ?>
 		</header>
