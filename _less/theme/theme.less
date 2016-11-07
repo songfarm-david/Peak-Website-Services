@@ -8,6 +8,21 @@
 	.base(margin,top,@first-modular);
 	text-transform: capitalize;
 }
+.nav-active {
+	&::after {
+		content: "";
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		bottom: -1.618%;
+		width: 97%;
+		height: 5px;
+		color: @link-hover;
+		background-color: @link-hover;
+	}
+}
 html {
 	background-color: #fff;
 	body {
