@@ -9,6 +9,7 @@ $canonical = "http://peakwebsites.ca/";
 <?php require_once('_includes/header.php') ?>
 
 	<main>
+
 		<section id="landing-page">
 			<h2 class="hide">What We Do</h2>
 			<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
@@ -66,6 +67,16 @@ $canonical = "http://peakwebsites.ca/";
 
 			</div>
 		</section>
+
+		<a href="/peak/contact.php" style="text-decoration:none;">
+			<section id="final-cta">
+				<div class="">
+					<h2>Receive a FREE Estimate <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></h2>
+				</div>
+			</section>
+		</a>
+
+
 	</main>
 
 	<?php require_once('_includes/footer.php') ?>
