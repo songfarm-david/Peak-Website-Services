@@ -1,7 +1,7 @@
 /* index.php (main) */
 #landing-page {
 	height: auto;
-	// background-color: @background-color;
+	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% center;
@@ -29,9 +29,10 @@
 				margin-top: @1-rem * @first-modular;
 				font-weight: bold;
 				.font-size(1 * @second-modular);
-				color: @secondary-color;
+				color: @link-hover;
 				&:hover {
-					color: @hero-color;
+
+					color: @link-color;
 				}
 			}
 		}
@@ -48,6 +49,7 @@
 		}
 		i {
 			display: block; // show bouncy arrow
+			color: @secondary-color;
 		}
 	}
 }
