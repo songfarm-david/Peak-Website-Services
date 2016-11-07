@@ -1,7 +1,8 @@
 
 /* site-wide */
 header {
-	position: absolute;
+	position: fixed;
+	z-index: 10000;
 	top: 0;
 	z-index: 999;
 	width: 100%;
@@ -41,10 +42,12 @@ nav {
 			width: auto;
 			float: right;
 			.base(padding,.5);
+			padding-top: .7rem;
+			padding-bottom: .7rem;
 			background: transparent;
 			span.icon-bar {
 				width: @1-rem * @second-modular;
-				height: .25rem / @first-modular;
+				height: 3px;
 				background-color: @nav-color; // same color as nav !!
 				display: block;
 				margin: 0;
@@ -58,7 +61,8 @@ nav {
 	.navbar-collapse {
 		clear: both;
 		ul {
-			// background-color: fadeout(@pewter-blue, 40%);
+			background-color: fadeout(#fff,20%);
+			.box-shadow();
 		}
 	}
 	ul {
@@ -190,6 +194,7 @@ footer {
 		.base(margin,top,1);
 		display: block;
 		clear: both;
+			z-index: 100;
 		ul {
 			display: flex;
 			flex-wrap: wrap;

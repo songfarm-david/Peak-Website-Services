@@ -16,11 +16,16 @@
 		margin-right: auto;
 		left: 0;
 		right: 0;
+		width: 100%;
 		bottom: -1.618%;
-		width: 97%;
 		height: 5px;
 		color: @link-hover;
 		background-color: @link-hover;
+	}
+	@media (@sm-query) {
+		&::after {
+			width: 97%;
+		}
 	}
 }
 
