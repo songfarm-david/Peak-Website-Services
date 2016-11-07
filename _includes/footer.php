@@ -1,9 +1,9 @@
 	<footer>
 		<article id="quick-quote">
-			<h3 class="at-only">Receive Quote</h3>
+			<h3 class="at-only">Contact Us</h3>
 			<span class="h2">Need some help?</span>
 			<p>
-				<a href="/peak/contact.php" style="text-transform:capitalize;">Get a hassle-free quote</a>.
+				<a href="/peak/contact.php" style="text-transform:capitalize;">Get in Touch</a>
 			</p>
 		</article>
 		<nav id="site-map">
