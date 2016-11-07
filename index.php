@@ -3,7 +3,6 @@ $title = "Peak Website Services";
 $description = "Peak Website Services offers website development services, website maintenance services, website optimization services for small business owners and small businesses";
 $h1 = $title;
 $h2 = "";
-// $activePage = basename($_SERVER['PHP_SELF']);
 $canonical = "http://peakwebsites.ca/";
 ?>
 <?php require_once('_includes/header.php') ?>
@@ -34,9 +33,7 @@ $canonical = "http://peakwebsites.ca/";
 					<p>
 						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
-
 				</div>
-
 				<!-- benefits key list -->
 				<ul id="key-list">
 					<li>Eye on the Bigger Picture
