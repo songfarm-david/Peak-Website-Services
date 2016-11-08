@@ -24,7 +24,7 @@
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script> -->
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
-<script type="text/javascript" src="/peak/_js/vendor/modernizr.js"></script>
+<script type="text/javascript" src="/peak/_js/vendor/modernizr-custom.js"></script>
 <script type="text/javascript" src="/peak/_js/vendor/jquery-3.1.1.min.js">
 
 </script>

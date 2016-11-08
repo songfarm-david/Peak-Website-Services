@@ -102,31 +102,21 @@
 			}
 			&:nth-child(1) {
 				color: #4F1271;
-
 			}
 			&:nth-child(2) {
-				// color: #D00000;
-				// color: #BA5624;
-				// color: #EAC435;
 				color: #1B998B;
-
 			}
 			&:nth-child(3) {
-				// color: #3F88C5;
-				// color: #FFBA08;
 				color: #345995;
 			}
 			&:nth-child(4) {
-				// color: #DB2955;
 				color: #5E0B15;
-
 			}
 		}
 	}
 	#about-cta > a {
 		float: none;
 		display: block;
-		// .font-size(1*@second-modular);
 		.base(margin,top,1*@first-modular);
 		color: @accent-color;
 		font-weight: bold;
@@ -135,9 +125,6 @@
 			color: @hero-color;
 		}
 	}
-	// div.container::after {
-	// 	.clear-float;
-	// }
 	@media (@sm-query) {
 		height: 100vh;
 		padding-top: @4-rem * @first-modular;
@@ -160,6 +147,14 @@
 		.container::after {
 			.clear-float;
 		}
+	}
+}
+
+.cssanimations {
+	#about #about-intro,
+	ul#key-list,
+	#about-cta {
+		opacity: 0;
 	}
 }
 
