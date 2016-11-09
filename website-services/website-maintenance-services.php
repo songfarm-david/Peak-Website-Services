@@ -22,7 +22,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
 					</p>
 					<p>
-						<a href="/peak/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get a Quote</a>
+						<a href="/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get a Quote</a>
 					</p>
 				</div>
 			</div>

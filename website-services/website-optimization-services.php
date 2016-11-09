@@ -22,7 +22,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
 					</p>
 					<p>
-						<a href="/peak/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
+						<a href="/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
 					</p>
 				</div>
 			</div>
