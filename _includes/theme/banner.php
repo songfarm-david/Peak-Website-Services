@@ -1,5 +1,7 @@
-<!-- A full width or customized promotional banner designed to rest at the top of the viewport and attract a degree of attention -->
-
-<article class="" id="banner">
-	<span><a href="contact.php">Contact Us Now</a></span>
-</article>
+<a href="/peak/contact.php" style="text-decoration:none;">
+	<section id="final-cta">
+		<div class="">
+			<h2>Receive a FREE Estimate <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></h2>
+		</div>
+	</section>
+</a>
