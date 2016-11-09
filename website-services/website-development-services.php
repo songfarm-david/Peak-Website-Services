@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
 						</p>
 						<p>
-							<a href="/contact.php?service_type=development"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Contact Us Today</a>
+							<a href="/peak/contact.php?service_type=development"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Contact Us Today</a>
 						</p>
 					</div>
 				</div>
