@@ -7,25 +7,28 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-<main>
+	<main>
 
 		<!-- service -->
-		<section class="service container" id="maintenance">
+		<section class="service" id="maintenance">
 			<h2 class="hide"><?php echo $h2; ?></h2>
-			<div class="service-intro">
-				<span>Take the load off having an online presence.</span>
-				<p>
-					As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
-				</p>
-				<p>
-					Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
-				</p>
-				<p>
-					<a href="/contact.php?service_type=maintenance">Get a Quote</a>
-				</p>
+			<div>
+				<div class="service-intro container">
+					<span>Take the load off having an online presence.</span>
+					<p>
+						As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
+					</p>
+					<p>
+						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
+					</p>
+					<p>
+						<a href="/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get a Quote</a>
+					</p>
+				</div>
 			</div>
+
 			<!-- service features -->
-			<section class="service-features" id="website-maintenance-plan">
+			<section class="service-features container" id="website-maintenance-plan">
 				<h3>Website Maintenance Plan</h3>
 				<p class="h4">
 					Everything you need to keep your business online and running smoothly.
@@ -72,7 +75,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</ul>
 			</section><!--/ end of service features -->
 			<!-- service cta -->
-			<section class="service-cta">
+			<section class="service-cta container">
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>

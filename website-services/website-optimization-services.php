@@ -10,22 +10,25 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 
 		<!-- service -->
-		<section class="service container" id="optimization">
+		<section class="service" id="optimization">
 			<h2 class="hide"><?php echo $h2; ?></h2>
-			<div class="service-intro">
-				<span>Your website should work <em>for</em> you.</span>
-				<p>
-					Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
-				</p>
-				<p>
-					Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
-				</p>
-				<p>
-					<a href="/contact.php?service_type=optimization">Get A Quote Today</a>
-				</p>
+			<div>
+				<div class="service-intro container">
+					<span>Your website should work <em>for</em> you.</span>
+					<p>
+						Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
+					</p>
+					<p>
+						Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
+					</p>
+					<p>
+						<a href="/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
+					</p>
+				</div>
 			</div>
+
 			<!-- service features -->
-			<section class="service-features" id="website-optimization-plan">
+			<section class="service-features container" id="website-optimization-plan">
 				<h3>Website Optimization Plan</h3>
 				<ul class="feature-list">
 					<li>
@@ -67,7 +70,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</ul>
 			</section><!--/ end of service features -->
 			<!-- service cta -->
-			<section class="service-cta">
+			<section class="service-cta container">
 				<p>
 					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
 				</p>
