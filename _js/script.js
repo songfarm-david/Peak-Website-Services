@@ -39,13 +39,17 @@
 	  ticking = true;
 		var height = $("#landing-page").height();
 		if (windowScrollTop > (height / 2)) {
-			$("#about #about-intro").addClass('fadeInUp');
-			$("#key-list").addClass('fadeInRight');
+			if (Modernizr.cssanimations) {
+				$("#about #about-intro").addClass('fadeInUp');
+				$("#key-list").addClass('fadeInRight');
+				var timer = setTimeout(function(){
+					$("#about-cta").addClass('fadeInUp');
+				}, 2000);
+			}
 		}
 	});
 
 })(jQuery);
-
 
 /**
 * Smooth Scrolling
@@ -56,10 +60,16 @@
 		var height = $("#landing-page").height();
 		console.log(height);
 		$("html, body").animate({ scrollTop: height + "px" }, 750);
-		// $('body').scrollTop(height).offset().top;
-		// $('body').animate({
-    //       scrollTop: $(height).offset().top
-    //     }, 1000);
 	})
 
 })(jQuery);
+
+// (function($) {
+	// modernizr checks:
+	// CSS3
+	if (Modernizr.cssanimations) {
+	  console.log("is supported");
+	} else {
+		console.log("not supported");
+	}
+// })(jQuery);

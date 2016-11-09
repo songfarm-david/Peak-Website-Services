@@ -24,13 +24,11 @@
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script> -->
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
-<script type="text/javascript" src="/_js/vendor/modernizr.js"></script>
+<script type="text/javascript" src="/_js/vendor/modernizr-custom.js"></script>
 <script type="text/javascript" src="/_js/vendor/jquery-3.1.1.min.js">
-
 </script>
 <!-- Fallback for jQuery CDN -->
 <script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
-
 <!-- Bootstrap Collapse script -->
 <script type="text/javascript" src="/_js/helper/bs-collapse.js"></script>
 <script type="text/javascript" src="/_js/script.js"></script>
