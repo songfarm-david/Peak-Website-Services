@@ -7,6 +7,8 @@
 	background-image: url('../_images/diamonds.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	.box-shadow();
+
 	p.message {
 		text-align: center;
 		width: 100%;
@@ -43,11 +45,16 @@
 				}
 			}
 			ul {
+				display: block;
 				.font-size(1/@second-modular);
 				padding-left: 0;
-				.base(margin,top,1/@first-modular);
-				.base(margin,bottom,1);
-				opacity: 0.65;
+				.base(margin,1/@first-modular);
+				.base(padding,top,0.5/@first-modular);
+				.base(padding,bottom,0.5/@first-modular);
+				color: fadeout(@japanese-indigo,35%);
+				background-color: fadeout(#fff,50%);
+				box-shadow: inset 0px 1px 3px 1px fadeout(#000,50%), inset 2px 1px 15px 2px fadeout(#000,75%)
+				;
 				li {
 					.base(padding,.05/@second-modular);
 					line-height: 1.2;
@@ -61,20 +68,17 @@
 			}
 			>a {
 				display: block;
-				.font-size(1);
+				.font-size(1/@second-modular);
 				width: 100%/@second-modular;
 				margin: 0 auto;
-				.base(margin,top,1/@first-modular);
+				.base(margin,top,1);
 				text-decoration: none;
-				padding: 1rem*@second-modular 1rem;
-				background-color: fadeout(#fff,80%);
-				background-color: fadeout(#fff,50%);
-
-				color: #3A596B;
+				padding: 0.5rem*@first-modular 1rem;
+				background-color: fadeout(#F46036,50%);
+				color: white;
 				transition: all .25s ease-in;
 				&:hover {
 					background-color: fadeout(@japanese-indigo,10%);
-					color: #fff;
 				}
 			}
 			&:nth-child(1) {
@@ -86,9 +90,7 @@
 			&:nth-child(2) {
 				background-color: rgba(255, 73, 134, 0.26);
 				>h3 {
-					color: #963484;
-					color: #982649;
-					color: #FF70A6;
+					color: @french-pink;
 				}
 			}
 			&:nth-child(3) {
@@ -115,7 +117,8 @@
 		}
 	}
 	@media (@sm-query) {
-		height: 100vh;
+		height: auto;
+		min-height: 100vh;
 	}
 }
 
@@ -136,6 +139,9 @@
 				line-height: @second-modular;
 				color: white;
 				text-shadow: 1px 1px 1px @hero-color;
+				>span.hero {
+					color: @pewter-blue;
+				}
 				+ p {
 					.base(margin, top, 1);
 					+ p > a {
