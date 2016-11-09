@@ -65,7 +65,7 @@ $canonical = "http://peakwebsites.ca/";
 			</div>
 		</section>
 
-		<?php include('../_includes/theme/banner.php'); ?>
+		<?php include('_includes/theme/banner.php'); ?>
 
 
 	</main>
