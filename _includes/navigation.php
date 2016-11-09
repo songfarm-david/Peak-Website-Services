@@ -21,7 +21,7 @@
 				</div>
 			</li>
 			<li>
-				<a href="/peak/about.php" class="<?php echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About Peak</a>
+				<a href="/peak/about.php" class="<?php echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a>
 			</li>
 			<li>
 				<a href="/peak/contact.php"  class="<?php echo $class = ($activePage == "contact.php") ? "active-link" : ""; ?>">Contact</a>
