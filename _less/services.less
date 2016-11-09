@@ -3,9 +3,11 @@
 	position: relative;
 	height: auto;
 	.base(padding,top,2);
+	// background-color: @pink-orange;
+
+	background-image: url('../_images/diamonds.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../_images/polygon_bg.svg);
 	p.message {
 		text-align: center;
 		width: 100%;
@@ -91,18 +93,9 @@
 			}
 		}
 	}
-
-	// for testing
-	// @media (@sm-query) {
-	// 	background-color: fadeout(orange, 50%);
-	// }
-	// @media (@md-query) {
-	// 	background-color: fadeout(red, 50%);
-	// }
-	// @media (@lg-query) {
-	// 	background-color: fadeout(grey, 50%);
-	// }
-
+	@media (@sm-query) {
+		height: 100vh;
+	}
 }
 
 .service.container {

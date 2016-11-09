@@ -2,15 +2,15 @@
   <defs>
     <style>
       .cls-1 {
-        fill: none;
+        fill: #000;
       }
 
       .cls-2 {
-        fill: #231f20;
+        fill: #000;
       }
 
       .cls-3 {
-        opacity: 0;
+        opacity: 1;
       }
 
       .cls-10, .cls-101, .cls-102, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-118, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-130, .cls-131, .cls-134, .cls-135, .cls-152, .cls-154, .cls-155, .cls-156, .cls-158, .cls-160, .cls-162, .cls-166, .cls-167, .cls-168, .cls-169, .cls-170, .cls-171, .cls-172, .cls-173, .cls-175, .cls-176, .cls-182, .cls-184, .cls-186, .cls-188, .cls-189, .cls-194, .cls-195, .cls-198, .cls-199, .cls-200, .cls-201, .cls-204, .cls-205, .cls-208, .cls-209, .cls-210, .cls-211, .cls-212, .cls-215, .cls-216, .cls-219, .cls-220, .cls-221, .cls-222, .cls-223, .cls-231, .cls-232, .cls-233, .cls-234, .cls-235, .cls-236, .cls-29, .cls-30, .cls-4, .cls-50, .cls-51, .cls-69, .cls-70, .cls-73, .cls-75, .cls-9, .cls-94, .cls-95, .cls-98 {
@@ -22,7 +22,7 @@
       }
 
       .cls-6 {
-        opacity: 0.9;
+        opacity: 0.8;
       }
 
       .cls-7 {
@@ -54,7 +54,7 @@
       }
 
       .cls-14 {
-        opacity: 0.8;
+        opacity: 1;
       }
 
       .cls-15 {
@@ -290,7 +290,7 @@
       }
 
       .cls-143, .cls-73 {
-        opacity: 0.4;
+        opacity: 1;
       }
 
       .cls-73 {
@@ -302,7 +302,7 @@
       }
 
       .cls-75, .cls-81 {
-        opacity: 0.7;
+        opacity: 1;
       }
 
       .cls-75 {
@@ -378,7 +378,7 @@
       }
 
       .cls-101, .cls-102, .cls-111, .cls-112, .cls-118, .cls-120, .cls-127, .cls-186, .cls-233, .cls-234, .cls-94, .cls-95, .cls-96, .cls-98 {
-        opacity: 0.6;
+        opacity: .5;
       }
 
       .cls-94 {
@@ -938,7 +938,7 @@
       }
 
       .cls-237 {
-        stroke: #000;
+        stroke: #fff;
         stroke-miterlimit: 10;
         opacity: 0.98;
         fill: url(#linear-gradient-402);

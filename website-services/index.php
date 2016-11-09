@@ -2,19 +2,14 @@
 $title = "Website Services | Peak Website Services";
 $description = "Peak Website Services include: website development services, website maintenance services, website optimization services, and more";
 $h1 = "Peak Website Services";
-$h2 = "Peak Website Services";
+$h2 = "Website Services";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
 	<!-- Website Services -->
 	<section id="website-services">
-		<div class="container">
-			<h2 class="hide"><?php echo $h2; ?></h2>
-			<p class="message">
-				You can think of us as your <span>personal&nbsp;IT guy</span>.
-			</p>
-		</div>
+		<h2 class="hide"><?php echo $h2; ?></h2>
 		<!-- services -->
 		<div id="service-container">
 			<!-- website creation services -->
