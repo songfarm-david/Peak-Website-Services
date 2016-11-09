@@ -47,28 +47,40 @@
 				.font-size(1/@second-modular);
 				padding-left: 0;
 				.base(margin,top,1/@first-modular);
-				.base(margin,bottom,1/@second-modular);
+				.base(margin,bottom,1*@first-modular);
 				opacity: 0.65;
 				li {
 					.base(padding,.05/@second-modular);
+					line-height: 1.2;
+					&::before {
+						content: "\f05d";
+						font-family: FontAwesome;
+						color: inherit;
+						line-height: inherit;
+						.font-size(1*@second-modular);
+						margin-right: 1rem/@first-modular;
+						position: relative;
+						margin-top: 5px;
+					}
 				}
 			}
 			>a {
-				display: block;
-				.font-size(1/@first-modular);
-				width: 100% / @first-modular;
+				display: inline;
+				.font-size(1/@second-modular);
+				width: 100%/@first-modular;
 				margin: 0 auto;
 				.base(margin,top,1);
 				text-decoration: none;
-				padding: 1rem/@second-modular .5rem;
+				padding: 1rem*@second-modular 1rem;
 				// .border(@japanese-indigo);
 				// border-radius: 4px;
-				background-color: fadeout(@japanese-indigo,50%);
-				color: #fff;
-				transition: all .15s ease-in;
+				background-color: fadeout(#fff,80%);
+				color: #3A596B;
+				transition: all .25s ease-in;
+				// box-shadow: 0px 0px 25px 0px #aaa;
 				&:hover {
-					// background-color: fadeout(@arsenic,10%);
-					// color: @ash-white;
+					background-color: fadeout(@japanese-indigo,10%);
+					color: #fff;
 				}
 			}
 			&:nth-child(1) {
