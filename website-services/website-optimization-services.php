@@ -63,9 +63,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<span>Your Momma Says..</span>
+						<span>Google AdWords &amp; Google Analytics</span>
 						<p>
-							Develop your domain authority and set the foundation for consistently strong page rank
+							Learn about your site visitors actions and develop targeted, efficient and fully managed Adword campaigns to boost your business's bottom line.
 						</p>
 					</li>
 				</ul>
