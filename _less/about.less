@@ -2,21 +2,19 @@
 /* this is a different about page */
 #about-page {
 	height: auto;
-	padding-top: @4-rem * @first-modular;
 	background-color: @background-color;
 	background-image: url(../_images/backgrounds/circle-mess-multi.svg);
 	.base(padding,.5/@first-modular);
-	.base(padding,top,4/@second-modular);
-	.base(padding,bottom,4);
+	.base(padding,top,1*@second-modular);
 	.headline {
 		font: @header-font;
-		color: @deep-purple;
+		color: @pewter-blue;
 		.font-size(3);
 		line-height: 1.1;
 		.hero {
 			font-size: inherit;
 			line-height: inherit;
-			color: @jungle-green;
+			color: #fff;
 		}
 		text-shadow: -1px 1px 2px @hero-color;
 	}
@@ -28,11 +26,12 @@
 		font-weight: bold;
 		.base(margin,top,1);
 		a:hover {
-			color: @deep-purple;
+			color: #fff;
 		}
 	}
 	.box-shadow();
 	@media (@sm-query) {
 		height: 100vh;
+		.base(padding,top,4);
 	}
 }
