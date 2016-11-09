@@ -3,16 +3,16 @@
 			<h3 class="at-only">Contact Us</h3>
 			<span class="h2">Need some help?</span>
 			<p>
-				<a href="/contact.php" style="text-transform:capitalize;">Get in Touch</a>.
+				<a href="/peak/contact.php" style="text-transform:capitalize;">Get in Touch</a>.
 			</p>
 		</article>
 		<nav id="site-map">
 			<h4 class="h3">Site Map</h4>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About Peak</a></li>
-				<li><a href="/website-services/">Website Services</a></li>
-				<li><a href="/contact.php">Contact</a></li>
+				<li><a href="/peak/">Home</a></li>
+				<li><a href="/peak/about.php">About Peak</a></li>
+				<li><a href="/peak/website-services/">Website Services</a></li>
+				<li><a href="/peak/contact.php">Contact</a></li>
 			</ul>
 		</nav>
 		<div id="copyright">
@@ -24,14 +24,14 @@
 <!--jQuery CDN: NOTE: continue to update 3rd party reliances -->
 <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script> -->
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
-<script type="text/javascript" src="/_js/vendor/modernizr-custom.js"></script>
-<script type="text/javascript" src="/_js/vendor/jquery-3.1.1.min.js">
+<script type="text/javascript" src="/peak/_js/vendor/modernizr-custom.js"></script>
+<script type="text/javascript" src="/peak/_js/vendor/jquery-3.1.1.min.js">
 </script>
 <!-- Fallback for jQuery CDN -->
-<script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+<script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/peak/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
 <!-- Bootstrap Collapse script -->
-<script type="text/javascript" src="/_js/helper/bs-collapse.js"></script>
-<script type="text/javascript" src="/_js/script.js"></script>
+<script type="text/javascript" src="/peak/_js/helper/bs-collapse.js"></script>
+<script type="text/javascript" src="/peak/_js/script.js"></script>
 <!-- supports media queries in IE6-8 -->
 <!--[if lte 8]>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
