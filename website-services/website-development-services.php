@@ -28,7 +28,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 					<!-- service features -->
 					<section class="service-features container" id="website-development">
-						<h3>What's Included?</h3>
+						<h3 class="at-only">What's Included?</h3>
 						<!-- features list -->
 						<ul class="feature-list">
 							<li>
@@ -69,11 +69,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 						</ul><!--/ end of features list -->
 					</section><!--/ end of service features -->
-					<!-- service cta -->
-					<section class="service-cta container">
-						<a href="/contact.php?service_type=development">Request A Quote</a>
-					</section>
 			</section><!--/ end of service -->
+
+			<!-- cta -->
+			<?php include('../_includes/theme/banner.php'); ?>
+			<!--/ end of cta -->
 
 	</main>
 

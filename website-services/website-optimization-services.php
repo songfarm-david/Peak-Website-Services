@@ -29,7 +29,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 			<!-- service features -->
 			<section class="service-features container" id="website-optimization-plan">
-				<h3>Website Optimization Plan</h3>
+				<h3 class="at-only">Website Optimization Plan</h3>
+				<h4 class="hide">What's included:</h4>
 				<ul class="feature-list">
 					<li>
 						<span>Personal Keyword Strategy</span>
@@ -69,14 +70,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 				</ul>
 			</section><!--/ end of service features -->
-			<!-- service cta -->
-			<section class="service-cta container">
-				<p>
-					Working with us is like having your own personal IT guy on staff. And although, we're fluent in geek, we can *usually* explain things so that even a 5 year old would understand.
-				</p>
-				<a href="/contact.php?service_type=optimization">Start A Website Service Plan</a>
-			</section>
+
 		</section>
+
+		<!-- cta -->
+		<?php include('../_includes/theme/banner.php'); ?>
+		<!--/ end of cta -->
 
 	</main>
 
