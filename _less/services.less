@@ -28,11 +28,12 @@
 			text-align: center;
 			flex: 1 1 100%;
 			.base(padding,top,1/@second-modular);
-			.base(padding,bottom,1*@second-modular);
+			.base(padding,bottom,1);
+			height: auto;
 			border-left: 2px solid rgba(190,190,190,0.5);
 			border-bottom: 1px solid rgba(90,90,90,0.5);
 			// color: fadeout(@arsenic,20%);
-			box-shadow: -1px 3px 5px 1px @japanese-indigo;
+			box-shadow: 0px 3px 10px 1px fadeout(@japanese-indigo,30%);
 			>h3 {
 				color: #fff;
 				text-shadow: 1px 1px 3px @japanese-indigo;
@@ -47,7 +48,7 @@
 				.font-size(1/@second-modular);
 				padding-left: 0;
 				.base(margin,top,1/@first-modular);
-				.base(margin,bottom,1*@first-modular);
+				.base(margin,bottom,1*@second-modular);
 				opacity: 0.65;
 				li {
 					.base(padding,.05/@second-modular);
@@ -61,23 +62,21 @@
 						margin-right: 1rem/@first-modular;
 						position: relative;
 						margin-top: 5px;
+						vertical-align: baseline;
 					}
 				}
 			}
 			>a {
 				display: inline;
-				.font-size(1/@second-modular);
+				.font-size(1);
 				width: 100%/@first-modular;
 				margin: 0 auto;
 				.base(margin,top,1);
 				text-decoration: none;
 				padding: 1rem*@second-modular 1rem;
-				// .border(@japanese-indigo);
-				// border-radius: 4px;
 				background-color: fadeout(#fff,80%);
 				color: #3A596B;
 				transition: all .25s ease-in;
-				// box-shadow: 0px 0px 25px 0px #aaa;
 				&:hover {
 					background-color: fadeout(@japanese-indigo,10%);
 					color: #fff;
