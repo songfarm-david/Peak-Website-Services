@@ -16,3 +16,4 @@ Revisit footer and test for footer vendor dependencies and fallbacks. Found issu
 #user experience testing
 * go through forms and such on ipad and iphones to see how the user experience is
 * browser test the website in IE7 and test for fallbacks.
+* minimize production svgs
