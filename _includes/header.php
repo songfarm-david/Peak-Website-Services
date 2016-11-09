@@ -24,8 +24,7 @@
 		<![endif]-->
 		<?php
 		$nav;
-		if (basename($_SERVER['PHP_SELF']) == "contact.php"
-		|| $_SERVER['PHP_SELF'] == "/website-services/index.php") {
+		if ($_SERVER['PHP_SELF'] != "index.php") { // || $_SERVER['PHP_SELF'] == "/website-services/index.php")
 			$nav = "nav-visible";
 		} else {
 			$nav = null;
