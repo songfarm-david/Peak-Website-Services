@@ -10,7 +10,7 @@
 			<h4 class="h3">Site Map</h4>
 			<ul>
 				<li><a href="/peak/">Home</a></li>
-				<li><a href="/peak/about.php">About Peak</a></li>
+				<li><a href="/peak/about.php">About</a></li>
 				<li><a href="/peak/website-services/">Website Services</a></li>
 				<li><a href="/peak/contact.php">Contact</a></li>
 			</ul>
