@@ -2,8 +2,7 @@
 #website-services {
 	position: relative;
 	height: auto;
-	.base(padding,top,2);
-	background-color: #fff;
+	.base(padding,top,1);
 	background-image: url('../_images/diamonds.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -27,11 +26,15 @@
 			text-align: center;
 			flex: 1 1 100%;
 			.base(padding,top,1/@second-modular);
-			.base(padding,bottom,1*@second-modular);
+			.base(padding,bottom,1);
+			height: auto;
+			border-left: 2px solid rgba(190,190,190,0.5);
+			border-bottom: 1px solid rgba(90,90,90,0.5);
 			// color: fadeout(@arsenic,20%);
+			box-shadow: 0px 3px 10px 1px fadeout(@japanese-indigo,30%);
 			>h3 {
-				// color: @platinum;
-				// text-shadow: 1px 1px 3px @arsenic;
+				color: #fff;
+				text-shadow: 1px 1px 3px @japanese-indigo;
 				line-height: 1;
 				.font-size(2.5);
 				>span {
@@ -40,46 +43,70 @@
 				}
 			}
 			ul {
-				.font-size(1/@first-modular);
+				.font-size(1/@second-modular);
 				padding-left: 0;
 				.base(margin,top,1/@first-modular);
-				.base(margin,bottom,1/@second-modular);
+				.base(margin,bottom,1);
+				opacity: 0.65;
 				li {
 					.base(padding,.05/@second-modular);
+					line-height: 1.2;
+					&::before {
+						content: "\f05d";
+						font-family: FontAwesome;
+						color: inherit;
+						line-height: inherit;
+						.font-size(1*@second-modular);
+						margin-right: 1rem/@first-modular;
+						position: relative;
+						margin-top: 5px;
+						vertical-align: baseline;
+					}
 				}
 			}
 			>a {
 				display: block;
-				.font-size(0.5);
-				width: 100% / @first-modular;
+				.font-size(1);
+				width: 100%/@second-modular;
 				margin: 0 auto;
-				.base(margin,top,1*@first-modular);
+				.base(margin,top,1/@first-modular);
 				text-decoration: none;
-				// .border(@japanese-indigo);
-				// background-color: @japanese-indigo;
-				padding: 0.5rem/@second-modular .5rem;
-				border-radius: 4px;
-				// color: @japanese-indigo;
-				transition: all .15s ease-in;
+				padding: 1rem*@second-modular 1rem;
+				background-color: fadeout(#fff,80%);
+				background-color: fadeout(#fff,50%);
+
+				color: #3A596B;
+				transition: all .25s ease-in;
 				&:hover {
-					// background-color: fadeout(@arsenic,10%);
-					// color: @ash-white;
+					background-color: fadeout(@japanese-indigo,10%);
+					color: #fff;
 				}
 			}
 			&:nth-child(1) {
-				// background-color: fadeout(@sea-green, 85%);
+				background-color: fadeout(@sea-green, 85%);
+				>h3 {
+					color: #22CC63;
+				}
 			}
 			&:nth-child(2) {
-				// background-color: fadeout(@cotton-candy, 50%);
+				background-color: rgba(255, 73, 134, 0.26);
+				>h3 {
+					color: #963484;
+					color: #982649;
+					color: #FF70A6;
+				}
 			}
 			&:nth-child(3) {
-				// background-color: fadeout(@electric-blue, 70%);
+				background-color: fadeout(@electric-blue, 70%);
+				>h3 {
+					color: @electric-blue;
+				}
 			}
 		}
 		@media (@sm-query) {
 			display: flex;
 			.base(padding);
-			padding-top: 0;
+			.base(padding,top,2/@second-modular);
 			>div {
 				.base(margin,bottom,@1-rem*@second-modular);
 			}

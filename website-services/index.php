@@ -16,11 +16,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div>
 				<h3>Website<br> <span class="sea-green">Development</span> <span class="at-only">Services</span></h3>
 				<ul>
-					<li>New Website Creation</li>
-					<li>Existing Website Redesign</li>
-					<li>Website Integrations (eCommerce, Blog)</li>
-					<li>Personal &amp; Corporate Branding</li>
-					<li>Logo &amp; Graphic Design</li>
+					<li>Website Creation</li>
+					<li>Website Redesign</li>
+					<li>eCommerce, Blog</li>
+					<li>Personal/Corporate Branding</li>
+					<li>Logo Creation &amp; Design</li>
+					<li>Graphic Design</li>
 				</ul>
 				<a href="website-development-services.php">Website Development Services</a>
 			</div>
@@ -28,11 +29,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div>
 				<h3>Website<br> <span class="cedar-chest">Maintenance</span> <span class="at-only">Services</span></h3>
 				<ul>
-					<li>Website Hosting &amp; Domain Management</li>
-					<li>Performance Monitoring and Analytics</li>
-					<li>Monthly Performance Reports</li>
-					<li>Unrestricted Support</li>
-					<li>Easy Content Updates &amp; Management</li>
+					<li>Website Hosting</li>
+					<li>Domain Management</li>
+					<li>Performance and Analytics</li>
+					<li>Performance Reports</li>
+					<li>Included Support</li>
+					<li>Unlimited Content Updates</li>
 			</ul>
 				<a href="website-maintenance-services.php">Website Maintenance Services</a>
 			</div>
@@ -40,11 +42,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div>
 				<h3>Website<br> <span class="electric-blue">Optimization</span> <span class="at-only">Services</span></h3>
 				<ul>
-					<li>Enhanced Search Visibility</li>
-					<li>Comprehensive Keyword Strategy</li>
-					<li>Marketing Campaign Management</li>
-					<li>Pay-Per-Click Campaigns</li>
-					<li>Competitive Research &amp; Analysis</li>
+					<li>Search Visibility</li>
+					<li>Keyword Strategy</li>
+					<li>Marketing Campaigns</li>
+					<li>Google Adwords</li>
+					<li>Competitive Research</li>
+					<li>Google Analytics</li>
 				</ul>
 				<a href="website-optimization-services.php">Website Optimization Services</a>
 			</div>
