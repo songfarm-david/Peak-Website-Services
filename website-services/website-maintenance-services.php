@@ -30,7 +30,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- service features -->
 			<section class="service-features container" id="website-maintenance-plan">
 				<h3 class="at-only">Website Maintenance Plan</h3>
-				<p class="h4">
+				<p class="h4 hide">
 					Everything you need to keep your business online and running smoothly.
 				</p>
 				<h4 class="hide">What's included:</h4>
