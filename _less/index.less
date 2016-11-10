@@ -7,13 +7,13 @@
 	background-position: 50% center;
 	position: relative;
 	#landing-page-intro {
-		.base(padding,.5/@first-modular);
+		.base(padding,.25/@first-modular);
 		.base(padding,top,4/@second-modular);
 		.base(padding,bottom,4);
 		color: @hero-color;
 		span#headline {
-			display: block; // by making it display block allows for transform translate effect
-			.font-size(4);
+			display: inline; // by making it display block allows for transform translate effect
+			.font-size(3);
 			line-height: 1;
 			// text-shadow: -1px -1px 2px @arsenic;
 			>span {
@@ -31,7 +31,6 @@
 				.font-size(1 * @second-modular);
 				color: @link-hover;
 				&:hover {
-
 					color: @secondary-color;
 				}
 			}
@@ -43,6 +42,10 @@
 	@media (@sm-query) {
 		height: 100vh;
 		#landing-page-intro {
+			span#headline {
+				.font-size(4);
+
+			}
 			div {
 				width: (100% / @first-modular) / @first-modular;
 			}
