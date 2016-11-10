@@ -13,7 +13,7 @@ $canonical = "http://peakwebsites.ca/";
 			<h2 class="hide">What We Do</h2>
 			<img class="hide" src="" alt="Focus shot of a large, snow-covered mountain peak" />
 			<div id="landing-page-intro" class="container fadeInUp">
-				<span id="headline">Put Your Business<br> On <span>Top</span></span>
+				<span id="headline">Put Your Business On&nbsp;<span>Top</span></span>
 				<div>
 					<p>
 						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
@@ -65,7 +65,7 @@ $canonical = "http://peakwebsites.ca/";
 			</div>
 		</section>
 
-		<?php include('../_includes/theme/banner.php'); ?>
+		<?php include('_includes/theme/banner.php'); ?>
 
 
 	</main>
