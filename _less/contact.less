@@ -13,13 +13,16 @@
 	}
 	#contact-form {
 		background-color: fadeout(#fff, 60%);
-		.base(margin,.5/@first-modular);
+		.base(margin,.25/@first-modular);
 		margin-top: 0;
-		.base(padding, 1/2);
+		.base(padding,.25);
 		.box-shadow;
+		.row {
+			overflow: hidden;
+		}
 		>fieldset {
 			border-width: 0px;
-			.base(padding, 0.25rem);
+			padding: 0;
 			legend {
 				margin: 0 0.5em 0 0;
 				padding: 0 0.5em;
@@ -39,7 +42,6 @@
 			margin-left: @1-rem*2;
 			margin-right: @1-rem*2;
 			.font-size(1/@first-modular);
-			// color: @davy-grey;
 			&:first-child {
 				margin-left: 0;
 			}
@@ -87,7 +89,11 @@
 		padding: 0;
 		#contact-form {
 			width: 100% / @second-modular;
-			margin: 0 auto;
+			margin: .5rem/@first-modular auto;
+			.base(padding, 1/2);
+			>fieldset {
+				.base(padding, 0.25rem);
+			}
 			input[type="submit"] {
 				width: (100% / @first-modular) / @first-modular;
 			}

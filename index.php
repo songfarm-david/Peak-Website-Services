@@ -59,7 +59,7 @@ $canonical = "http://peakwebsites.ca/";
 				</ul><!--/ benefits key list -->
 
 				<p id="about-cta">
-					<a href="/about.php">Read More About Us</a>
+					<a href="/peak/about.php">Read More About Us</a>
 				</p>
 
 			</div>
