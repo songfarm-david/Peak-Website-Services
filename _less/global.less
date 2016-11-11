@@ -41,7 +41,7 @@ nav {
 			height: 100%;
 			width: auto;
 			float: right;
-			.base(padding,.5);
+			.base(padding,.3);
 			padding-top: .7rem;
 			padding-bottom: .7rem;
 			background: transparent;
@@ -231,5 +231,45 @@ footer {
 	animation: bounce 1.2s infinite alternate both;
 	&:hover {
 		cursor: pointer;
+	}
+}
+
+.cssanimations {
+	#about #about-intro,
+	ul#key-list,
+	#about-cta {
+		opacity: 0;
+	}
+}
+
+#final-cta {
+	text-align: center;
+	background-color: @pewter-blue;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	transition: background-color .25s linear;
+	position: relative;
+	z-index: -1;
+	div {
+		position: relative;
+		padding: @1-rem*@first-modular 0;
+		i {
+			color: #fff;
+			.font-size(3);
+			position: relative;
+		}
+	}
+	.box-shadow;
+	&:hover {
+		background-color: @deep-purple;
+		cursor: pointer;
+	}
+	@media (@sm-query) {
+		div {
+			.base(padding,2);
+		}
 	}
 }

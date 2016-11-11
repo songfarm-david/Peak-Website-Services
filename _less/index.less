@@ -6,14 +6,15 @@
 	background-size: cover;
 	background-position: 50% center;
 	position: relative;
+	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
 	#landing-page-intro {
-		.base(padding,.5/@first-modular);
+		.base(padding,.25/@first-modular);
 		.base(padding,top,4/@second-modular);
 		.base(padding,bottom,4);
 		color: @hero-color;
 		span#headline {
-			display: block; // by making it display block allows for transform translate effect
-			.font-size(4);
+			display: inline; // by making it display block allows for transform translate effect
+			.font-size(3);
 			line-height: 1;
 			// text-shadow: -1px -1px 2px @arsenic;
 			>span {
@@ -26,12 +27,12 @@
 			// color: @arsenic;
 			font: @body-font;
 			p > a {
-				margin-top: @1-rem * @first-modular;
-				font-weight: bold;
 				.font-size(1 * @second-modular);
+				display: block;
+				.base(margin,top,1);
+				font-weight: bold;
 				color: @link-hover;
 				&:hover {
-
 					color: @secondary-color;
 				}
 			}
@@ -43,6 +44,9 @@
 	@media (@sm-query) {
 		height: 100vh;
 		#landing-page-intro {
+			span#headline {
+				.font-size(4);
+			}
 			div {
 				width: (100% / @first-modular) / @first-modular;
 			}
@@ -57,6 +61,7 @@
 // about section
 #about {
 	height: auto;
+	min-height: 100vh;
 	.base(padding,.5/@first-modular);
 	.base(padding,bottom,2);
 	background-color: #fff;
@@ -97,7 +102,7 @@
 				color: @jungle-green;
 				color: inherit;
 				color: @hero-color;
-				// color: #fff;
+				color: #011826;
 				opacity: .79;
 			}
 			&:nth-child(1) {
@@ -121,12 +126,15 @@
 		color: @hero-color;
 		font-weight: bold;
 		opacity: .95;
+		font-size: 100% / @second-modular;
+		// text-align: right;
 		&:hover {
 			color: @accent-color;
 		}
 	}
 	@media (@sm-query) {
-		height: 100vh;
+		height: auto;
+		min-height: 100vh;
 		padding-top: @4-rem * @first-modular;
 		#about-intro {
 			float: left;
@@ -142,44 +150,11 @@
 		}
 		#about-cta > a {
 			float: left;
-			.base(margin,top,3*@first-modular);
+			.base(margin,top,2);
+			font-size: inherit;
 		}
 		.container::after {
 			.clear-float;
 		}
-	}
-}
-
-.cssanimations {
-	#about #about-intro,
-	ul#key-list,
-	#about-cta {
-		opacity: 0;
-	}
-}
-
-#final-cta {
-	// height: 50vh;
-	text-align: center;
-	background-color: @pewter-blue;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	transition: background-color .25s linear;
-	div {
-		position: relative;
-		.base(padding,2);
-		i {
-			color: #fff;
-			.font-size(3);
-			position: relative;
-		}
-	}
-	.box-shadow;
-	&:hover {
-		background-color: @deep-purple;
-		cursor: pointer;
 	}
 }
