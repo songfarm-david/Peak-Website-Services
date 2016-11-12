@@ -2,6 +2,7 @@
 $title = "About | Peak Website Services";
 $description = "Peak Website Services is an all-in-one, affordable solution for small online business owners who need help creating, maintaining, and optimizing their online presence.";
 $activePage = basename($_SERVER['PHP_SELF']);
+$h1 = $title;
 ?>
 <?php require_once('_includes/header.php') ?>
 
