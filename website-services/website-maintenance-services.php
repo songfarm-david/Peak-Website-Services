@@ -37,36 +37,43 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- features list -->
 				<ul class="feature-list">
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 						<span>Fast, Reliable Web Hosting</span>
 						<p>
 							Let us host your website on our lightning fast and secure Canadian Web Servers. You can relax knowing your website is securely online and your data protected.
 						</p>
 					</li>
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/support.svg" alt="" />
 						<span>Support When You Need It</span>
 						<p>
 							The internet is dynamic and so should be your online business. We're just a phone call away whenever inspiration strikes or when you need to change something on your website.
 						</p>
 					</li>
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/contract.svg" alt="" />
 						<span>No Contracts. No Restrictions.</span>
 						<p>
 							We think you should be in control of your online business. That means you own everything, including your website and domain name.
 						</p>
 					</li>
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 						<span>Regular Website Check-Ups</span>
 						<p>
 							Monitoring the health and behavior of your site and making sure it's properly crawled and indexed by the search engines means your customers always have a green light to become a customer.
 						</p>
 					</li>
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
+
 						<span>Website Analytics</span>
 						<p>
 							Keeping track of your website's performance is critical for growth. We'll show you who's coming to your website and what they're doing once they get there.
 						</p>
 					</li>
 					<li>
+						<img src="/peak/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
 						<span>Monthly Performance Reports</span>
 						<p>
 							See how well your website is performing in our <em>Monthly Performance Reports</em> and learn from the data to make better online business decisions.

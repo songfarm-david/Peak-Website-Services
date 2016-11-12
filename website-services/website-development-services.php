@@ -32,36 +32,42 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<!-- features list -->
 						<ul class="feature-list">
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
 								<span>Built strong under-the-hood</span>
 								<p>
 									When it comes to designing and developing your website, we are sticklers for industry best-practices. That means your website behaves like it should. And if you do run into a bug, we'll make it right, no questions asked.
 								</p>
 							</li>
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
 								<span>No Page Limits</span>
 								<p>
 									The ultimate purpose of your website should be to support your online business goals, regardless of the amount of pages required.
 								</p>
 							</li>
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
 								<span>Mobile Friendly &amp; Responsive</span>
 								<p>
 									No question about it: mobile browsing is on the rise, which means your website has to look good and function everywhere &mdash; but don't sweat it, crafting mobile-friendly websites is just another day at the office for us.
 								</p>
 							</li>
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
 								<span>SEO Enhanced</span>
 								<p>
 									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and index by all the major search engines.
 								</p>
 							</li>
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
 								<span>Accessible</span>
 								<p>
 									Think of accessible websites like accessibility ramps for brick-and-mortar establishments. Although, often overlooked by other web companies, we believe that your website should be accessible to everyone.
 								</p>
 							</li>
 							<li>
+								<img src="/peak/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
 								<span>Optimized for Conversion</span>
 								<p>
 									Because at the end of the day your website is a tool for turning visitors into customers, conversion is at the core of every website we build.
