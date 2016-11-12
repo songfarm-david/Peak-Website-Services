@@ -19,27 +19,30 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div id="service-container">
 			<!-- website creation services -->
 			<div>
-				<h3>Website<br> <span class="sea-green">Development</span> <span class="at-only">Services</span></h3>
-				<p>
+				<h3>Website Development Services</h3>
+				<!-- <p class="service-byline">
 					Add on to your existing or create something that's all your own.
-				</p>
-				<a href="website-development-services.php">Website Development Services</a>
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-development-services.php">Select</a> -->
 			</div>
 			<!-- website maintenance services -->
 			<div>
-				<h3>Website<br> <span class="cedar-chest">Maintenance</span> <span class="at-only">Services</span></h3>
-				<p>
+				<h3>Website Maintenance Services</h3>
+				<!-- <p class="service-byline">
 					Let us handle the technical stuff while you handle your business.
-				</p>
-				<a href="website-maintenance-services.php">Website Maintenance Services</a>
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-maintenance-services.php">Select</a> -->
 			</div>
 			<!-- website optimization services -->
 			<div>
-				<h3>Website<br> <span class="electric-blue">Optimization</span> <span class="at-only">Services</span></h3>
-				<p>
+				<h3>Website Optimization Services</h3>
+				<!-- <p class="service-byline">
 					Optimize your online presence for optimal results.
-				</p>
-				<a href="website-optimization-services.php">Website Optimization Services</a>
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-optimization-services.php">Select</a> -->
 			</div>
 		</div><!--/ end services -->
 	</section>
