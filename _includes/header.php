@@ -2,17 +2,19 @@
 <!DOCTYPE html>
 <!--[if IE 8]><html class="ie8 no-js"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
+<html lang="en-us" class="no-js">
 <!--<![endif]-->
 	<head>
 		<!-- Detects and modifies html class 'no-js' if JavaScript is enabled -->
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
 		<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="en-us">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title; ?></title>
 		<meta name="description" content="<?php echo $description; ?>">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="alternate" href="peakwebsites.ca" hreflang="en-us">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Signika" rel="stylesheet">
