@@ -4,6 +4,7 @@ $description = "Contact Peak Website Services for a free estimate regarding Webs
 $redirect_target = "http://peakwebsites.ca";
 $service_selection = isset($_GET['service_type']) ? $_GET['service_type'] : "";
 $canonical = "http://peakwebsites.ca/contact.php";
+$h1 = $title;
 ?>
 <!-- NOTE: in this page I want to touch on that they will get back an assessment from me that will include some cool stuff. Or.. where can I do that?? See 'Free Assessment on content.md' -->
 <?php require_once('_includes/header.php') ?>
