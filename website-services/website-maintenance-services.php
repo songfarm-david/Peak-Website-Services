@@ -19,10 +19,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
 					</p>
 					<p>
-						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, only a phone call away.
+						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, and we're only a phone call away.
 					</p>
 					<p>
-						<a href="/peak/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get a Quote</a>
+						<a href="/peak/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Request A Quote</a>
 					</p>
 				</div>
 			</div>
