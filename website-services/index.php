@@ -21,18 +21,27 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div>
 				<h3>Website <span class="highlight">Development</span> Services</h3>
 				<hr>
+				<p class="service-byline">
+					Some text that says something about the product.
+				</p>
 				<a href="website-development-services.php">Choose</a>
 			</div>
 			<!-- website maintenance services -->
 			<div>
 				<h3>Website <span class="highlight">Maintenance</span> Services</h3>
 				<hr>
+				<p class="service-byline">
+					This one being a slight variation of the first.
+				</p>
 				<a href="website-maintenance-services.php">Choose</a>
 			</div>
 			<!-- website optimization services -->
 			<div>
 				<h3>Website <span class="highlight">Optimization</span> Services</h3>
 				<hr>
+				<p class="service-byline">
+					This one should <em>also</em> say something unique.
+				</p>
 				<a href="website-optimization-services.php">Choose</a>
 			</div>
 		</div><!--/ end services -->
