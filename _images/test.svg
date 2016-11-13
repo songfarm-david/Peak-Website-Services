@@ -1,12 +1,12 @@
-<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" preserveAspectRatio="none slice" width="100%">
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" preserveAspectRatio="none slice" width="100%" height="auto">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
+        fill: #666;
       }
 
       .cls-2 {
-        fill: #231f20;
+        fill: #333;
       }
 
       .cls-3 {
@@ -286,7 +286,7 @@
       }
 
       .cls-141, .cls-71 {
-        opacity: 0.4;
+        opacity: 0.8;
       }
 
       .cls-71 {
@@ -374,7 +374,7 @@
       }
 
       .cls-100, .cls-109, .cls-110, .cls-116, .cls-118, .cls-125, .cls-184, .cls-231, .cls-232, .cls-92, .cls-93, .cls-94, .cls-96, .cls-99 {
-        opacity: 0.6;
+        opacity: 0.9;
       }
 
       .cls-92 {
@@ -422,7 +422,7 @@
       }
 
       .cls-104, .cls-112, .cls-113, .cls-121, .cls-122, .cls-128, .cls-129, .cls-233, .cls-234 {
-        opacity: 0.2;
+        opacity: 0.5;
       }
 
       .cls-105 {
@@ -450,7 +450,7 @@
       }
 
       .cls-111, .cls-114, .cls-115, .cls-117, .cls-119, .cls-120, .cls-123, .cls-124, .cls-173, .cls-180, .cls-196, .cls-197, .cls-198, .cls-199, .cls-209, .cls-210, .cls-219, .cls-220, .cls-221, .cls-229, .cls-230 {
-        opacity: 0.3;
+        opacity: 0.5;
       }
 
       .cls-111 {
@@ -949,8 +949,8 @@
       <rect class="cls-1" width="1200" height="800"/>
     </clipPath>
     <linearGradient id="linear-gradient" x1="1131.2" y1="663.85" x2="1233.8" y2="663.85" gradientTransform="matrix(1, 0, 0, -1, 0, 800)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#fff" stop-opacity="0.15"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="1182.5" y1="663.85" x2="1285.1" y2="663.85" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="1182.5" y1="752.7" x2="1285.1" y2="752.7" xlink:href="#linear-gradient"/>
@@ -1176,12 +1176,11 @@
     <linearGradient id="linear-gradient-403" x1="977.3" y1="397.3" x2="1079.9" y2="397.3" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-404" x1="874.8" y1="219.65" x2="977.3" y2="219.65" xlink:href="#linear-gradient"/>
   </defs>
-  <title>Artboard 1</title>
   <g>
-    <g>
+    <!-- <g>
       <rect class="cls-2" width="1200" height="800"/>
-      <image width="5004" height="3338" transform="translate(-0.1 -0.17) scale(0.24)" xlink:href="../../../../../Desktop/Peak Web Solutions &amp; SEO/vector images/9BB08F34.png"/>
-    </g>
+      <image width="5004" height="3338" transform="translate(-0.1 -0.17) scale(0.24)" xlink:href="/peak/_images/test.png"/>
+    </g> -->
     <g class="cls-3">
       <g class="cls-4">
         <g>

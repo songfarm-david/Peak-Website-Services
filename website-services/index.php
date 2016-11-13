@@ -19,7 +19,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div id="service-container">
 			<!-- website creation services -->
 			<div>
-				<h3>Website Development Services</h3>
+				<h3>Website <span class="highlight">Development</span> Services</h3>
 				<!-- <p class="service-byline">
 					Add on to your existing or create something that's all your own.
 				</p> -->
@@ -28,7 +28,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 			<!-- website maintenance services -->
 			<div>
-				<h3>Website Maintenance Services</h3>
+				<h3>Website <span class="highlight">Maintenance</span> Services</h3>
 				<!-- <p class="service-byline">
 					Let us handle the technical stuff while you handle your business.
 				</p> -->
@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 			<!-- website optimization services -->
 			<div>
-				<h3>Website Optimization Services</h3>
+				<h3>Website <span class="highlight">Optimization</span> Services</h3>
 				<!-- <p class="service-byline">
 					Optimize your online presence for optimal results.
 				</p> -->
