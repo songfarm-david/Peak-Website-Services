@@ -46,9 +46,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 		</div><!--/ end services -->
 
-		<object id="polygon" type="image/svg+xml" data="/peak/_images/test.svg">
-			<img src="/peak/_images/air-triangulated.jpg" alt="…" />
-		</object>
+		<!-- <object id="polygon" type="image/svg+xml" data="/peak/_images/tri-virgin-opt.svg">
+			<div id="polygon-fallback"></div>
+		</object> -->
 
 	</section>
 
