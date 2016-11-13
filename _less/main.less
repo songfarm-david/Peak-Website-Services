@@ -16,15 +16,10 @@
 }
 
 @import 'reset';
-@import 'vars';
-@import 'calcs';
 @import 'theme';
 @import 'grid';
 @import 'queries';
-@import 'typography';
-@import 'colors';
 @import 'animations';
-@import 'helper';
 
 html,
 body {
@@ -44,6 +39,7 @@ body {
 	width: @page-width-rem;
 	margin: 0 auto;
 	background: #fff;
+	box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.35);
 }
 
 #ticket-newsletter {
@@ -281,14 +277,21 @@ header#site-header {
 }
 
 #about {
+	.base(margin,top,1);
+	.base(margin,bottom,2);
+	background-color: @hero-color;
+	color: #fff;
 	h2 {
-
+		margin-top: 0;
 	}
 	#about-video {
 		img {
 			height: auto;
 			margin-top: -2rem;
 		}
+	}
+	a {
+		color: #fff;
 	}
 }
 

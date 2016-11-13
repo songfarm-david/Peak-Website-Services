@@ -104,10 +104,13 @@
 				</div>
 				<!-- About Video -->
 				<div class="col col-6">
-					<div id="about-video">
-						<!-- demo video here -->
-						<img class="logo" src="_images/partners.jpg" alt="" height="250" />
-					</div>
+					<figure>
+						<div id="about-video">
+							<!-- demo video here -->
+							<img class="logo" src="_images/partners.jpg" alt="" height="250" />
+						</div>
+						<figcaption>Owners Dave Charlebois &amp; Stephen Gaskin</figcaption>
+					</figure>
 				</div>
 			</div>
 		</section>
