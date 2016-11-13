@@ -4,13 +4,10 @@
 	overflow: hidden;
 	height: 100%;
 	.base(padding,top,1);
-	background-color: #333;
-	background-repeat: no-repeat;
+	// .icon-replace-fill("../_images/website-services-bg.svg", "#2A91A8", "#00FFFF");
+	background-image: url('../_assets/triangle-pattern.svg'), svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
 	background-size: cover;
-	// background-image: svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
-	//
-	// background-image: ;
-	// background: #eee url("../_images/test.svg"), @pewter-blue svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
+	width: 100%;
 	.box-shadow();
 	p:not(.service-byline) {
 		text-align: center;
@@ -266,13 +263,12 @@
 	}
 }
 
-
-#polygon {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	background-color: fadeout(@hero-color, 10%);
-	// background-image: svg-gradient(to right, #4DC1B4, @sea-green 10%, fadeout(#7E52A0,30%) 50%, @electric-blue);
-	background-image: svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
-	background-size: cover;
+#development>div {
+	background-image: url('../_assets/triangle-pattern.svg'), svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
+}
+#maintenance>div {
+	background-image: url('../_assets/triangle-pattern.svg'), svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
+}
+#optimization>div {
+	background-image: url('../_assets/triangle-pattern.svg'), svg-gradient(to right, @hero-color, #134170 25%, #3C8EE0 40%, @pewter-blue 70%, #FFFDBA);
 }
