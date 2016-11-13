@@ -24,3 +24,10 @@ Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 RewriteEngine On
 RewriteCond %{HTTPS} on
 RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Add this to the list of Media files
+AddType image/svg+xml svg svgz
+
+<IfModule mod_mime.c>
+	AddEncoding gzip svgz
+</IfModule>

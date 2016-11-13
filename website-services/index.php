@@ -45,6 +45,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- <a href="website-optimization-services.php">Select</a> -->
 			</div>
 		</div><!--/ end services -->
+
+		<object id="polygon" type="image/svg+xml" data="/peak/_images/test.svg">
+			<img src="/peak/_images/air-triangulated.jpg" alt="…" />
+		</object>
+
 	</section>
 
 <?php require_once('../_includes/footer.php') ?>
