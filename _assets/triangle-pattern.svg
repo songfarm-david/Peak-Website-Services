@@ -1,0 +1,1674 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 100 800 800" preserveAspectRatio="xMidYMid slice">
+
+  <defs>
+    <path id="a" d="M0 0h800v800H0z"/>
+  </defs>
+  <clipPath id="b">
+    <use xlink:href="#a" overflow="visible"/>
+  </clipPath>
+  <g opacity=".9" clip-path="url(#b)">
+    <linearGradient id="c" x1="732.5" x2="835.1" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#c)" d="M783.8 91.7l51.3 89H733"/>
+    <linearGradient id="d" x1="783.8" x2="886.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#d)" d="M835 180.6l-51.2-89h102.6"/>
+    <linearGradient id="e" x1="783.8" x2="886.4" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#e)" d="M835 3l51.4 88.7H783.8" opacity=".5"/>
+    <linearGradient id="f" x1="732.5" x2="835.1" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#f)" d="M783.8 91.7L732.5 3H835" opacity=".5"/>
+    <g opacity=".5">
+      <linearGradient id="g" x1="732.5" x2="835.1" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#g)" d="M783.8-86L835 3H732.6"/>
+      <linearGradient id="h" x1="783.8" x2="886.4" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#h)" d="M835 3l-51-89h102.6"/>
+    </g>
+    <linearGradient id="i" x1="732.5" x2="835.1" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#i)" d="M783.8 447l51.3 89H733" opacity=".4"/>
+    <linearGradient id="j" x1="783.8" x2="886.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#j)" d="M835 536l-51-89h102.6"/>
+    <linearGradient id="k" x1="783.8" x2="886.4" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#k)" d="M835 358.3l51.4 88.8H783.8" opacity=".7"/>
+    <linearGradient id="l" x1="732.5" x2="835.1" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#l)" d="M783.8 447l-51.3-88.7H835"/>
+    <linearGradient id="m" x1="783.8" x2="886.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#m)" d="M835 358.3l-51.2-89h102.6"/>
+    <g opacity=".5">
+      <linearGradient id="n" x1="783.8" x2="886.4" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#n)" d="M835 713.6l51.4 89H783.8"/>
+      <linearGradient id="o" x1="732.5" x2="835.1" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#o)" d="M783.8 802.5l-51.3-89H835"/>
+      <linearGradient id="p" x1="732.5" x2="835.1" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#p)" d="M783.8 624.8l51.3 88.8H733"/>
+    </g>
+    <g opacity=".7">
+      <linearGradient id="q" x1="732.5" x2="835.1" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#q)" d="M783.8 624.8l51.3 88.8H733"/>
+      <linearGradient id="r" x1="629.9" x2="732.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#r)" d="M681.2 624.8l51.3 88.8H630"/>
+      <linearGradient id="s" x1="681.2" x2="783.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#s)" d="M732.5 713.6l-51.3-88.8h102.6"/>
+      <linearGradient id="t" x1="681.2" x2="783.8" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#t)" d="M732.5 536l51.3 88.8H681.2"/>
+      <linearGradient id="u" x1="732.5" x2="835.1" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#u)" d="M783.8 624.8l-51.3-89H835"/>
+      <linearGradient id="v" x1="629.9" x2="732.5" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#v)" d="M681.2 447l51.3 89H630"/>
+      <g opacity=".5">
+        <linearGradient id="w" x1="681.2" x2="783.8" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#w)" d="M732.5 713.6l51.3 89H681.2"/>
+        <linearGradient id="x" x1="732.5" x2="835.1" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#x)" d="M783.8 802.5l-51.3-89H835"/>
+        <linearGradient id="y" x1="629.9" x2="732.5" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#y)" d="M681.2 802.5l-51.3-89h102"/>
+        <linearGradient id="z" x1="732.5" x2="835.1" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#z)" d="M783.8 624.8l51.3 88.8H733"/>
+        <linearGradient id="A" x1="629.9" x2="732.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#A)" d="M681.2 624.8l51.3 88.8H630"/>
+        <linearGradient id="B" x1="681.2" x2="783.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#B)" d="M732.5 713.6l-51.3-88.8h102.6"/>
+      </g>
+      <linearGradient id="C" x1="629.9" x2="732.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#C)" d="M681.2 624.8l51.3 88.8H630"/>
+      <linearGradient id="D" x1="578.6" x2="681.2" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#D)" d="M630 713.6l-51.4-88.8h102.6"/>
+      <linearGradient id="E" x1="578.6" x2="681.2" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#E)" d="M630 536l51.2 88.8H578.6"/>
+      <linearGradient id="F" x1="629.9" x2="732.5" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#F)" d="M681.2 447l51.3 89H630"/>
+      <linearGradient id="G" x1="527.4" x2="629.9" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#G)" d="M578.6 447l51.3 89H527"/>
+      <linearGradient id="H" x1="578.6" x2="681.2" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#H)" d="M630 536l-51.4-89h102.6"/>
+      <linearGradient id="I" x1="578.6" x2="681.2" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#I)" d="M630 713.6l51.2 89H578.6"/>
+      <linearGradient id="J" x1="629.9" x2="732.5" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#J)" d="M681.2 802.5l-51.3-89h102"/>
+      <linearGradient id="K" x1="527.4" x2="629.9" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#K)" d="M578.6 802.5l-51.2-89H630" opacity=".6"/>
+      <linearGradient id="L" x1="629.9" x2="732.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#L)" d="M681.2 624.8l51.3 88.8H630"/>
+      <linearGradient id="M" x1="578.6" x2="681.2" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#M)" d="M630 713.6l-51.4-88.8h102.6"/>
+      <g opacity=".5">
+        <linearGradient id="N" x1="476.1" x2="578.6" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#N)" d="M527.4 713.6l51.2 89H476" opacity=".6"/>
+        <linearGradient id="O" x1="527.4" x2="629.9" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#O)" d="M578.6 802.5l-51.2-89H630" opacity=".6"/>
+        <g opacity=".6">
+          <linearGradient id="P" x1="424.8" x2="527.4" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#P)" d="M476 802.5l-51.2-89h102.6"/>
+        </g>
+        <linearGradient id="Q" x1="476.1" x2="578.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#Q)" d="M527.4 713.6L476 624.8h102.6" opacity=".6"/>
+      </g>
+      <g opacity=".5">
+        <g opacity=".6">
+          <linearGradient id="R" x1="322.2" x2="424.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#R)" d="M373.5 624.8l51.3 88.8H322.2"/>
+          <linearGradient id="S" x1="373.5" x2="476.1" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#S)" d="M424.8 713.6l-51.3-88.8H476"/>
+        </g>
+        <linearGradient id="T" x1="373.5" x2="476.1" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#T)" d="M424.8 536l51.3 88.8H374" opacity=".6"/>
+        <linearGradient id="U" x1="424.8" x2="527.4" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#U)" d="M476 624.8l-51.2-89h102.6" opacity=".6"/>
+        <linearGradient id="V" x1="424.8" x2="527.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#V)" d="M476 447l51.4 89H424.8"/>
+        <linearGradient id="W" x1="322.2" x2="424.8" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#W)" d="M373.5 447l51.3 89H322.2"/>
+        <linearGradient id="X" x1="373.5" x2="476.1" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#X)" d="M424.8 536l-51.3-89H476"/>
+      </g>
+      <g opacity=".2">
+        <linearGradient id="Y" x1="373.5" x2="476.1" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#Y)" d="M424.8 713.6l51.3 89H374"/>
+        <linearGradient id="Z" x1="424.8" x2="527.4" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#Z)" d="M476 802.5l-51.2-89h102.6"/>
+        <linearGradient id="aa" x1="322.2" x2="424.8" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aa)" d="M373.5 802.5l-51.3-89h102.6"/>
+        <linearGradient id="ab" x1="322.2" x2="424.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ab)" d="M373.5 624.8l51.3 88.8H322.2"/>
+        <linearGradient id="ac" x1="373.5" x2="476.1" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ac)" d="M424.8 713.6l-51.3-88.8H476"/>
+      </g>
+      <g opacity=".5">
+        <g opacity=".6">
+          <linearGradient id="ad" x1="322.2" x2="424.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ad)" d="M373.5 624.8l51.3 88.8H322.2"/>
+        </g>
+        <g opacity=".6">
+          <linearGradient id="ae" x1="219.6" x2="322.2" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ae)" d="M271 624.8l51.2 88.8H219.6"/>
+          <linearGradient id="af" x1="270.9" x2="373.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#af)" d="M322.2 713.6L271 624.8h102.5"/>
+        </g>
+        <linearGradient id="ag" x1="270.9" x2="373.5" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ag)" d="M322.2 536l51.3 88.8H271" opacity=".6"/>
+        <linearGradient id="ah" x1="219.6" x2="322.2" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ah)" d="M271 624.8l-51.4-89h102.6" opacity=".6"/>
+        <linearGradient id="ai" x1="322.2" x2="424.8" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ai)" d="M373.5 447l51.3 89H322.2"/>
+        <linearGradient id="aj" x1="219.6" x2="322.2" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aj)" d="M271 447l51.2 89H219.6" opacity=".3"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="ak" x1="270.9" x2="373.5" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ak)" d="M322.2 713.6l51.3 89H271" opacity=".2"/>
+        <linearGradient id="al" x1="322.2" x2="424.8" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#al)" d="M373.5 802.5l-51.3-89h102.6"/>
+        <linearGradient id="am" x1="219.6" x2="322.2" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#am)" d="M271 802.5l-51.4-89h102.6" opacity=".2"/>
+        <linearGradient id="an" x1="322.2" x2="424.8" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#an)" d="M373.5 624.8l51.3 88.8H322.2"/>
+        <linearGradient id="ao" x1="219.6" x2="322.2" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ao)" d="M271 624.8l51.2 88.8H219.6"/>
+        <linearGradient id="ap" x1="270.9" x2="373.5" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ap)" d="M322.2 713.6L271 624.8h102.5"/>
+      </g>
+      <g opacity=".5">
+        <g opacity=".6">
+          <linearGradient id="aq" x1="117" x2="219.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aq)" d="M168.3 624.8l51.3 88.8H117" opacity=".3"/>
+          <linearGradient id="ar" x1="168.3" x2="270.9" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ar)" d="M219.6 713.6l-51.3-88.8H271" opacity=".3"/>
+        </g>
+        <linearGradient id="as" x1="168.3" x2="270.9" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#as)" d="M219.6 536l51.3 88.8H168" opacity=".6"/>
+        <g opacity=".3">
+          <linearGradient id="at" x1="117" x2="219.6" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#at)" d="M168.3 624.8l-51.3-89h102.6" opacity=".6"/>
+        </g>
+        <linearGradient id="au" x1="219.6" x2="322.2" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#au)" d="M271 447l51.2 89H219.6" opacity=".3"/>
+        <linearGradient id="av" x1="117" x2="219.6" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#av)" d="M168.3 447l51.3 89H117" opacity=".3"/>
+        <linearGradient id="aw" x1="168.3" x2="270.9" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aw)" d="M219.6 536l-51.3-89H271" opacity=".3"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="ax" x1="168.3" x2="270.9" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ax)" d="M219.6 713.6l51.3 89H168" opacity=".2"/>
+        <linearGradient id="ay" x1="219.6" x2="322.2" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ay)" d="M271 802.5l-51.4-89h102.6" opacity=".2"/>
+        <linearGradient id="az" x1="117" x2="219.6" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#az)" d="M168.3 802.5l-51.3-89h102.6" opacity=".2"/>
+        <linearGradient id="aA" x1="117" x2="219.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aA)" d="M168.3 624.8l51.3 88.8H117" opacity=".3"/>
+        <linearGradient id="aB" x1="168.3" x2="270.9" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aB)" d="M219.6 713.6l-51.3-88.8H271" opacity=".3"/>
+      </g>
+      <g opacity=".5">
+        <g opacity=".6">
+          <linearGradient id="aC" x1="117" x2="219.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aC)" d="M168.3 624.8l51.3 88.8H117" opacity=".3"/>
+        </g>
+        <g opacity=".6">
+          <linearGradient id="aD" x1="14.4" x2="117" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aD)" d="M65.7 624.8l51.3 88.8H14.4" opacity=".3"/>
+          <linearGradient id="aE" x1="65.7" x2="168.3" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aE)" d="M117 713.6l-51.3-88.8h102.6" opacity=".3"/>
+        </g>
+        <g opacity=".3">
+          <linearGradient id="aF" x1="117" x2="219.6" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aF)" d="M168.3 624.8l-51.3-89h102.6" opacity=".6"/>
+        </g>
+        <g opacity=".3">
+          <linearGradient id="aG" x1="14.4" x2="117" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aG)" d="M65.7 624.8l-51.3-89H117" opacity=".6"/>
+        </g>
+        <g opacity=".3">
+          <linearGradient id="aH" x1="14.4" x2="117" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aH)" d="M65.7 447l51.3 89H14.4"/>
+          <linearGradient id="aI" x1="65.7" x2="168.3" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#aI)" d="M117 536l-51.3-89h102.6"/>
+        </g>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="aJ" x1="65.7" x2="168.3" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aJ)" d="M117 713.6l51.3 89H65.7" opacity=".2"/>
+        <linearGradient id="aK" x1="117" x2="219.6" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aK)" d="M168.3 802.5l-51.3-89h102.6" opacity=".2"/>
+        <linearGradient id="aL" x1="14.4" x2="117" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aL)" d="M65.7 802.5l-51.3-89H117" opacity=".2"/>
+        <linearGradient id="aM" x1="117" x2="219.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aM)" d="M168.3 624.8l51.3 88.8H117" opacity=".3"/>
+        <linearGradient id="aN" x1="14.4" x2="117" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aN)" d="M65.7 624.8l51.3 88.8H14.4" opacity=".3"/>
+        <linearGradient id="aO" x1="65.7" x2="168.3" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aO)" d="M117 713.6l-51.3-88.8h102.6" opacity=".3"/>
+      </g>
+      <linearGradient id="aP" x1="629.9" x2="732.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aP)" d="M681.2 91.7l51.3 89H630"/>
+      <linearGradient id="aQ" x1="681.2" x2="783.8" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aQ)" d="M732.5 180.6l-51.3-89h102.6"/>
+      <linearGradient id="aR" x1="681.2" x2="783.8" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aR)" d="M732.5 3l51.3 88.7H681.2" opacity=".5"/>
+      <linearGradient id="aS" x1="732.5" x2="835.1" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aS)" d="M783.8 91.7L732.5 3H835" opacity=".5"/>
+      <linearGradient id="aT" x1="629.9" x2="732.5" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aT)" d="M681.2 91.7L630 3h102.5" opacity=".5"/>
+      <g opacity=".5">
+        <linearGradient id="aU" x1="732.5" x2="835.1" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aU)" d="M783.8-86L835 3H732.6"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="aV" x1="629.9" x2="732.5" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aV)" d="M681.2-86l51.3 89H630"/>
+        <linearGradient id="aW" x1="681.2" x2="783.8" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#aW)" d="M732.5 3l-51.3-89h102.6"/>
+      </g>
+      <linearGradient id="aX" x1="629.9" x2="732.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aX)" d="M681.2 269.4l51.3 89H630"/>
+      <linearGradient id="aY" x1="681.2" x2="783.8" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aY)" d="M732.5 358.3l-51.3-89h102.6"/>
+      <linearGradient id="aZ" x1="681.2" x2="783.8" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#aZ)" d="M732.5 180.6l51.3 88.8H681.2"/>
+      <linearGradient id="ba" x1="732.5" x2="835.1" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#ba)" d="M783.8 269.4l-51.3-88.8H835"/>
+      <linearGradient id="bb" x1="629.9" x2="732.5" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bb)" d="M681.2 269.4L630 180.6h102.5"/>
+      <linearGradient id="bc" x1="629.9" x2="732.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bc)" d="M681.2 91.7l51.3 89H630"/>
+      <linearGradient id="bd" x1="681.2" x2="783.8" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bd)" d="M732.5 180.6l-51.3-89h102.6"/>
+      <g opacity=".4">
+        <linearGradient id="be" x1="629.9" x2="732.5" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#be)" d="M681.2 447l51.3 89H630"/>
+        <linearGradient id="bf" x1="732.5" x2="835.1" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bf)" d="M783.8 447l-51.3-88.7H835"/>
+        <linearGradient id="bg" x1="629.9" x2="732.5" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bg)" d="M681.2 447L630 358.4h102.5"/>
+        <linearGradient id="bh" x1="629.9" x2="732.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bh)" d="M681.2 269.4l51.3 89H630"/>
+      </g>
+      <g opacity=".8">
+        <linearGradient id="bi" x1="629.9" x2="732.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bi)" d="M681.2 269.4l51.3 89H630"/>
+        <linearGradient id="bj" x1="527.4" x2="629.9" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bj)" d="M578.6 269.4l51.3 89H527"/>
+        <linearGradient id="bk" x1="578.6" x2="681.2" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bk)" d="M630 180.6l51.2 88.8H578.6"/>
+        <linearGradient id="bl" x1="629.9" x2="732.5" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bl)" d="M681.2 269.4L630 180.6h102.5"/>
+        <linearGradient id="bm" x1="527.4" x2="629.9" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bm)" d="M578.6 269.4l-51.2-88.8H630"/>
+        <linearGradient id="bn" x1="629.9" x2="732.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bn)" d="M681.2 91.7l51.3 89H630"/>
+        <linearGradient id="bo" x1="527.4" x2="629.9" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bo)" d="M578.6 91.7l51.3 89H527"/>
+        <linearGradient id="bp" x1="578.6" x2="681.2" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bp)" d="M630 180.6l-51.4-89h102.6"/>
+      </g>
+      <g opacity=".2">
+        <linearGradient id="bq" x1="629.9" x2="732.5" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bq)" d="M681.2 447l51.3 89H630"/>
+        <linearGradient id="br" x1="578.6" x2="681.2" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#br)" d="M630 358.3l51 88.7H578.6"/>
+        <linearGradient id="bs" x1="629.9" x2="732.5" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bs)" d="M681.2 447L630 358.4h102.5"/>
+        <linearGradient id="bt" x1="527.4" x2="629.9" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bt)" d="M578.6 447l-51.2-88.7H630"/>
+        <linearGradient id="bu" x1="629.9" x2="732.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bu)" d="M681.2 269.4l51.3 89H630"/>
+      </g>
+      <linearGradient id="bv" x1="424.8" x2="527.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bv)" d="M476 91.7l51.4 89H424.8" opacity=".5"/>
+      <linearGradient id="bw" x1="476.1" x2="578.6" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bw)" d="M527.4 180.6l-51.3-89h103"/>
+      <linearGradient id="bx" x1="476.1" x2="578.6" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bx)" d="M527.4 3l51.2 88.7H476" opacity=".5"/>
+      <linearGradient id="by" x1="527.4" x2="629.9" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#by)" d="M578.6 91.7L527.4 3H630" opacity=".5"/>
+      <linearGradient id="bz" x1="424.8" x2="527.4" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bz)" d="M476 91.7L425 3h102.6" opacity=".5"/>
+      <g opacity=".5">
+        <linearGradient id="bA" x1="527.4" x2="629.9" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bA)" d="M578.6-86L630 3H527.3"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="bB" x1="424.8" x2="527.4" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bB)" d="M476-86l51.4 89H424.8" opacity=".5"/>
+        <linearGradient id="bC" x1="476.1" x2="578.6" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bC)" d="M527.4 3L476-86h102.6"/>
+      </g>
+      <linearGradient id="bD" x1="424.8" x2="527.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bD)" d="M476 269.4l51.4 89H424.8" opacity=".5"/>
+      <linearGradient id="bE" x1="476.1" x2="578.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bE)" d="M527.4 358.3l-51.3-89h103"/>
+      <linearGradient id="bF" x1="527.4" x2="629.9" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bF)" d="M578.6 269.4l-51.2-88.8H630"/>
+      <linearGradient id="bG" x1="424.8" x2="527.4" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bG)" d="M476 269.4l-51-88.8h102.6" opacity=".5"/>
+      <linearGradient id="bH" x1="424.8" x2="527.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bH)" d="M476 91.7l51.4 89H424.8" opacity=".5"/>
+      <linearGradient id="bI" x1="476.1" x2="578.6" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bI)" d="M527.4 180.6l-51.3-89h103"/>
+      <g opacity=".4">
+        <linearGradient id="bJ" x1="424.8" x2="527.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bJ)" d="M476 447l51.4 89H424.8"/>
+        <linearGradient id="bK" x1="476.1" x2="578.6" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bK)" d="M527.4 536L476 447h102.6"/>
+        <linearGradient id="bL" x1="476.1" x2="578.6" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bL)" d="M527.4 358.3l51.2 88.8H476"/>
+        <linearGradient id="bM" x1="527.4" x2="629.9" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bM)" d="M578.6 447l-51.2-88.7H630"/>
+        <linearGradient id="bN" x1="424.8" x2="527.4" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bN)" d="M476 447l-51-88.6h102.6"/>
+        <linearGradient id="bO" x1="424.8" x2="527.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bO)" d="M476 269.4l51.4 89H424.8" opacity=".5"/>
+        <linearGradient id="bP" x1="476.1" x2="578.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bP)" d="M527.4 358.3l-51.3-89h103"/>
+      </g>
+      <linearGradient id="bQ" x1="424.8" x2="527.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bQ)" d="M476 91.7l51.4 89H424.8" opacity=".5"/>
+      <linearGradient id="bR" x1="373.5" x2="476.1" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bR)" d="M424.8 180.6l-51.3-89H476" opacity=".5"/>
+      <linearGradient id="bS" x1="373.5" x2="476.1" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bS)" d="M424.8 3L476 91.6H373.6" opacity=".5"/>
+      <linearGradient id="bT" x1="424.8" x2="527.4" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#bT)" d="M476 91.7L425 3h102.6" opacity=".5"/>
+      <g opacity=".5">
+        <linearGradient id="bU" x1="322.2" x2="424.8" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bU)" d="M373.5 91.7L322.2 3h102.6" opacity=".5"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="bV" x1="424.8" x2="527.4" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bV)" d="M476-86l51.4 89H424.8" opacity=".5"/>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="bW" x1="322.2" x2="424.8" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bW)" d="M373.5-86l51.3 89H322.2" opacity=".5"/>
+        <linearGradient id="bX" x1="373.5" x2="476.1" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bX)" d="M424.8 3l-51.3-89H476" opacity=".5"/>
+      </g>
+      <g opacity=".2">
+        <linearGradient id="bY" x1="424.8" x2="527.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bY)" d="M476 269.4l51.4 89H424.8" opacity=".5"/>
+        <linearGradient id="bZ" x1="322.2" x2="424.8" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#bZ)" d="M373.5 269.4l51.3 89H322.2" opacity=".5"/>
+        <linearGradient id="ca" x1="373.5" x2="476.1" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ca)" d="M424.8 358.3l-51.3-89H476" opacity=".5"/>
+        <linearGradient id="cb" x1="373.5" x2="476.1" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cb)" d="M424.8 180.6l51.3 88.8H374" opacity=".5"/>
+        <linearGradient id="cc" x1="424.8" x2="527.4" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cc)" d="M476 269.4l-51-88.8h102.6" opacity=".5"/>
+        <g opacity=".5">
+          <linearGradient id="cd" x1="322.2" x2="424.8" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cd)" d="M373.5 269.4l-51.3-88.8h102.6"/>
+        </g>
+        <linearGradient id="ce" x1="424.8" x2="527.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ce)" d="M476 91.7l51.4 89H424.8" opacity=".5"/>
+        <linearGradient id="cf" x1="373.5" x2="476.1" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cf)" d="M424.8 180.6l-51.3-89H476" opacity=".5"/>
+      </g>
+      <g opacity=".8">
+        <linearGradient id="cg" x1="322.2" x2="424.8" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cg)" d="M373.5 269.4l51.3 89H322.2" opacity=".5"/>
+        <linearGradient id="ch" x1="219.6" x2="322.2" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ch)" d="M271 269.4l51.2 89H219.6" opacity=".3"/>
+        <linearGradient id="ci" x1="270.9" x2="373.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ci)" d="M322.2 358.3l-51.3-89h102" opacity=".5"/>
+        <g opacity=".5">
+          <linearGradient id="cj" x1="322.2" x2="424.8" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cj)" d="M373.5 269.4l-51.3-88.8h102.6"/>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="ck" x1="219.6" x2="322.2" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ck)" d="M271 269.4l-51.4-88.8h102.6"/>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="cl" x1="219.6" x2="322.2" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cl)" d="M271 91.7l51.2 89H219.6"/>
+          <linearGradient id="cm" x1="270.9" x2="373.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cm)" d="M322.2 180.6l-51.3-89h102"/>
+        </g>
+      </g>
+      <g opacity=".5">
+        <linearGradient id="cn" x1="322.2" x2="424.8" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cn)" d="M373.5 447l51.3 89H322.2"/>
+        <linearGradient id="co" x1="219.6" x2="322.2" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#co)" d="M271 447l51.2 89H219.6" opacity=".3"/>
+        <linearGradient id="cp" x1="270.9" x2="373.5" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cp)" d="M322.2 358.3l51.3 88.8H271"/>
+        <linearGradient id="cq" x1="322.2" x2="424.8" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cq)" d="M373.5 447l-51.3-88.7h102.6"/>
+        <linearGradient id="cr" x1="219.6" x2="322.2" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cr)" d="M271 447l-51.4-88.7h102.6" opacity=".3"/>
+        <linearGradient id="cs" x1="322.2" x2="424.8" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cs)" d="M373.5 269.4l51.3 89H322.2" opacity=".5"/>
+        <linearGradient id="ct" x1="219.6" x2="322.2" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ct)" d="M271 269.4l51.2 89H219.6" opacity=".3"/>
+        <linearGradient id="cu" x1="270.9" x2="373.5" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#cu)" d="M322.2 358.3l-51.3-89h102" opacity=".5"/>
+      </g>
+      <g opacity=".4">
+        <g opacity=".7">
+          <linearGradient id="cv" x1="783.8" x2="886.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cv)" d="M835 358.3l-51.2-89h102.6"/>
+          <linearGradient id="cw" x1="732.5" x2="835.1" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cw)" d="M783.8 269.4l-51.3-88.8H835"/>
+          <linearGradient id="cx" x1="783.8" x2="886.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cx)" d="M835 180.6l-51.2-89h102.6"/>
+        </g>
+        <g opacity=".7">
+          <linearGradient id="cy" x1="732.5" x2="835.1" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cy)" d="M783.8 624.8l-51.3-89H835"/>
+        </g>
+        <g opacity=".2">
+          <linearGradient id="cz" x1="629.9" x2="732.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cz)" d="M681.2 91.7l51.3 89H630"/>
+          <linearGradient id="cA" x1="578.6" x2="681.2" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cA)" d="M630 180.6l-51.4-89h102.6"/>
+          <linearGradient id="cB" x1="578.6" x2="681.2" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cB)" d="M630 3l51 88.6H578.6" opacity=".5"/>
+          <g opacity=".5">
+            <linearGradient id="cC" x1="629.9" x2="732.5" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cC)" d="M681.2-86l51.3 89H630"/>
+          </g>
+          <g opacity=".5">
+            <linearGradient id="cD" x1="527.4" x2="629.9" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cD)" d="M578.6-86L630 3H527.3"/>
+            <linearGradient id="cE" x1="578.6" x2="681.2" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cE)" d="M630 3l-51.4-89h102.6"/>
+          </g>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="cF" x1="476.1" x2="578.6" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cF)" d="M527.4 713.6L476 624.8h102.6" opacity=".6"/>
+          <linearGradient id="cG" x1="476.1" x2="578.6" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cG)" d="M527.4 536l51.2 88.8H476" opacity=".6"/>
+          <linearGradient id="cH" x1="424.8" x2="527.4" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cH)" d="M476 624.8l-51.2-89h102.6" opacity=".6"/>
+          <linearGradient id="cI" x1="424.8" x2="527.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cI)" d="M476 447l51.4 89H424.8"/>
+          <linearGradient id="cJ" x1="476.1" x2="578.6" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cJ)" d="M527.4 536L476 447h102.6"/>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="cK" x1="424.8" x2="527.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cK)" d="M476 447l51.4 89H424.8"/>
+          <linearGradient id="cL" x1="322.2" x2="424.8" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cL)" d="M373.5 447l51.3 89H322.2"/>
+          <linearGradient id="cM" x1="373.5" x2="476.1" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cM)" d="M424.8 536l-51.3-89H476"/>
+          <linearGradient id="cN" x1="373.5" x2="476.1" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cN)" d="M424.8 358.3L476 447H373.6"/>
+          <linearGradient id="cO" x1="424.8" x2="527.4" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cO)" d="M476 447l-51-88.6h102.6"/>
+          <linearGradient id="cP" x1="322.2" x2="424.8" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cP)" d="M373.5 447l-51.3-88.7h102.6"/>
+          <linearGradient id="cQ" x1="424.8" x2="527.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cQ)" d="M476 269.4l51.4 89H424.8" opacity=".5"/>
+          <linearGradient id="cR" x1="322.2" x2="424.8" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cR)" d="M373.5 269.4l51.3 89H322.2" opacity=".5"/>
+          <linearGradient id="cS" x1="373.5" x2="476.1" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#cS)" d="M424.8 358.3l-51.3-89H476" opacity=".5"/>
+        </g>
+        <g opacity=".5">
+          <g opacity=".3">
+            <linearGradient id="cT" x1="270.9" x2="373.5" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cT)" d="M322.2 180.6l-51.3-89h102"/>
+            <linearGradient id="cU" x1="270.9" x2="373.5" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cU)" d="M322.2 3l51.3 88.7H271" opacity=".5"/>
+            <linearGradient id="cV" x1="322.2" x2="424.8" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cV)" d="M373.5 91.7L322.2 3h102.6" opacity=".5"/>
+            <linearGradient id="cW" x1="219.6" x2="322.2" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#cW)" d="M271 91.7L219.5 3H322" opacity=".5"/>
+            <g opacity=".5">
+              <linearGradient id="cX" x1="322.2" x2="424.8" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#cX)" d="M373.5-86l51.3 89H322.2"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="cY" x1="219.6" x2="322.2" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#cY)" d="M271-86l51 89H219.6"/>
+              <linearGradient id="cZ" x1="270.9" x2="373.5" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#cZ)" d="M322.2 3L271-86h102.5"/>
+            </g>
+          </g>
+          <g opacity=".5">
+            <linearGradient id="da" x1="168.3" x2="270.9" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#da)" d="M219.6 180.6l-51.3-89H271"/>
+            <linearGradient id="db" x1="168.3" x2="270.9" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#db)" d="M219.6 3L271 91.6H168.2" opacity=".5"/>
+            <linearGradient id="dc" x1="219.6" x2="322.2" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dc)" d="M271 91.7L219.5 3H322" opacity=".5"/>
+            <linearGradient id="dd" x1="117" x2="219.6" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dd)" d="M168.3 91.7L117 3h102.6" opacity=".5"/>
+            <g opacity=".5">
+              <linearGradient id="de" x1="219.6" x2="322.2" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#de)" d="M271-86l51 89H219.6"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="df" x1="117" x2="219.6" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#df)" d="M168.3-86l51.3 89H117"/>
+              <linearGradient id="dg" x1="168.3" x2="270.9" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dg)" d="M219.6 3l-51.3-89H271"/>
+            </g>
+          </g>
+          <g opacity=".8">
+            <linearGradient id="dh" x1="219.6" x2="322.2" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dh)" d="M271 269.4l51.2 89H219.6" opacity=".3"/>
+            <linearGradient id="di" x1="117" x2="219.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#di)" d="M168.3 269.4l51.3 89H117" opacity=".3"/>
+            <linearGradient id="dj" x1="168.3" x2="270.9" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dj)" d="M219.6 358.3l-51.3-89H271" opacity=".3"/>
+            <g opacity=".5">
+              <linearGradient id="dk" x1="168.3" x2="270.9" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dk)" d="M219.6 180.6l51.3 88.8H168" opacity=".3"/>
+              <linearGradient id="dl" x1="219.6" x2="322.2" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dl)" d="M271 269.4l-51.4-88.8h102.6"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dm" x1="117" x2="219.6" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dm)" d="M168.3 269.4L117 180.6h102.6" opacity=".3"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dn" x1="168.3" x2="270.9" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dn)" d="M219.6 180.6l-51.3-89H271"/>
+            </g>
+          </g>
+          <g opacity=".3">
+            <linearGradient id="do" x1="14.4" x2="117" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#do)" d="M65.7 91.7l51.3 89H14.4"/>
+            <linearGradient id="dp" x1="65.7" x2="168.3" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dp)" d="M117 180.6l-51.3-89h102.6"/>
+            <linearGradient id="dq" x1="65.7" x2="168.3" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dq)" d="M117 3l51.3 88.7H65.7" opacity=".5"/>
+            <linearGradient id="dr" x1="117" x2="219.6" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dr)" d="M168.3 91.7L117 3h102.6" opacity=".5"/>
+            <linearGradient id="ds" x1="14.4" x2="117" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#ds)" d="M65.7 91.7L14.4 3H117" opacity=".5"/>
+            <g opacity=".5">
+              <linearGradient id="dt" x1="117" x2="219.6" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dt)" d="M168.3-86l51.3 89H117"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="du" x1="14.4" x2="117" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#du)" d="M65.7-86L117 3H14.4"/>
+              <linearGradient id="dv" x1="65.7" x2="168.3" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dv)" d="M117 3L65.7-86h102.6"/>
+            </g>
+          </g>
+          <g opacity=".8">
+            <g opacity=".3">
+              <linearGradient id="dw" x1="117" x2="219.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dw)" d="M168.3 269.4l51.3 89H117" opacity=".5"/>
+            </g>
+            <g opacity=".3">
+              <linearGradient id="dx" x1="14.4" x2="117" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dx)" d="M65.7 269.4l51.3 89H14.4" opacity=".5"/>
+              <linearGradient id="dy" x1="65.7" x2="168.3" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dy)" d="M117 358.3l-51.3-89h102.6" opacity=".5"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dz" x1="65.7" x2="168.3" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dz)" d="M117 180.6l51.3 88.8H65.7" opacity=".3"/>
+              <linearGradient id="dA" x1="117" x2="219.6" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dA)" d="M168.3 269.4L117 180.6h102.6" opacity=".3"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dB" x1="14.4" x2="117" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dB)" d="M65.7 269.4l-51.3-88.8H117" opacity=".3"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dC" x1="14.4" x2="117" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dC)" d="M65.7 91.7l51.3 89H14.4"/>
+              <linearGradient id="dD" x1="65.7" x2="168.3" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dD)" d="M117 180.6l-51.3-89h102.6"/>
+            </g>
+          </g>
+          <g opacity=".3">
+            <linearGradient id="dE" x1="14.4" x2="117" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dE)" d="M65.7 91.7l51.3 89H14.4"/>
+            <linearGradient id="dF" x1="-88.2" x2="14.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dF)" d="M-37 91.7l51.4 89H-88.2"/>
+            <linearGradient id="dG" x1="-36.9" x2="65.7" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dG)" d="M14.4 180.6l-51.3-89H66"/>
+            <linearGradient id="dH" x1="-36.9" x2="65.7" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dH)" d="M14.4 3l51.3 88.7H-37" opacity=".5"/>
+            <linearGradient id="dI" x1="14.4" x2="117" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dI)" d="M65.7 91.7L14.4 3H117" opacity=".5"/>
+            <linearGradient id="dJ" x1="-88.2" x2="14.4" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dJ)" d="M-37 91.7L-88 3H14.4" opacity=".5"/>
+            <g opacity=".5">
+              <linearGradient id="dK" x1="14.4" x2="117" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dK)" d="M65.7-86L117 3H14.4"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dL" x1="-88.2" x2="14.4" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dL)" d="M-37-86L14.5 3H-88.2"/>
+              <linearGradient id="dM" x1="-36.9" x2="65.7" y1="-41.5" y2="-41.5" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dM)" d="M14.4 3L-37-86H65.8"/>
+            </g>
+          </g>
+          <g opacity=".2">
+            <g opacity=".3">
+              <linearGradient id="dN" x1="14.4" x2="117" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dN)" d="M65.7 269.4l51.3 89H14.4" opacity=".5"/>
+            </g>
+            <g opacity=".3">
+              <linearGradient id="dO" x1="-88.2" x2="14.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dO)" d="M-37 269.4l51.4 89H-88.2" opacity=".5"/>
+              <linearGradient id="dP" x1="-36.9" x2="65.7" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dP)" d="M14.4 358.3l-51.3-89H66" opacity=".5"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dQ" x1="-36.9" x2="65.7" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dQ)" d="M14.4 180.6l51.3 88.8H-37" opacity=".3"/>
+              <linearGradient id="dR" x1="14.4" x2="117" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dR)" d="M65.7 269.4l-51.3-88.8H117" opacity=".3"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dS" x1="-88.2" x2="14.4" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dS)" d="M-37 269.4l-51-88.8H14.4" opacity=".3"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dT" x1="14.4" x2="117" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dT)" d="M65.7 91.7l51.3 89H14.4"/>
+            </g>
+            <g opacity=".5">
+              <linearGradient id="dU" x1="-88.2" x2="14.4" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dU)" d="M-37 91.7l51.4 89H-88.2"/>
+              <linearGradient id="dV" x1="-36.9" x2="65.7" y1="136.2" y2="136.2" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF"/>
+                <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+              </linearGradient>
+              <path fill="url(#dV)" d="M14.4 180.6l-51.3-89H66"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g opacity=".5">
+        <g opacity=".5">
+          <linearGradient id="dW" x1="168.3" x2="270.9" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#dW)" d="M219.6 536l-51.3-89H271" opacity=".3"/>
+          <linearGradient id="dX" x1="168.3" x2="270.9" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#dX)" d="M219.6 358.3L271 447H168.2" opacity=".3"/>
+          <linearGradient id="dY" x1="219.6" x2="322.2" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#dY)" d="M271 447l-51.4-88.7h102.6" opacity=".3"/>
+          <g opacity=".3">
+            <linearGradient id="dZ" x1="117" x2="219.6" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF"/>
+              <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+            </linearGradient>
+            <path fill="url(#dZ)" d="M168.3 447L117 358.4h102.6"/>
+          </g>
+          <linearGradient id="ea" x1="117" x2="219.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ea)" d="M168.3 269.4l51.3 89H117" opacity=".3"/>
+          <linearGradient id="eb" x1="168.3" x2="270.9" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#eb)" d="M219.6 358.3l-51.3-89H271" opacity=".3"/>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="ec" x1="14.4" x2="117" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ec)" d="M65.7 447l51.3 89H14.4"/>
+          <linearGradient id="ed" x1="65.7" x2="168.3" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ed)" d="M117 536l-51.3-89h102.6"/>
+          <linearGradient id="ee" x1="65.7" x2="168.3" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ee)" d="M117 358.3l51.3 88.8H65.7"/>
+          <linearGradient id="ef" x1="117" x2="219.6" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ef)" d="M168.3 447L117 358.4h102.6"/>
+          <linearGradient id="eg" x1="14.4" x2="117" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#eg)" d="M65.7 447l-51.3-88.7H117"/>
+          <linearGradient id="eh" x1="117" x2="219.6" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#eh)" d="M168.3 269.4l51.3 89H117" opacity=".5"/>
+          <linearGradient id="ei" x1="14.4" x2="117" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ei)" d="M65.7 269.4l51.3 89H14.4" opacity=".5"/>
+          <linearGradient id="ej" x1="65.7" x2="168.3" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ej)" d="M117 358.3l-51.3-89h102.6" opacity=".5"/>
+        </g>
+        <g opacity=".5">
+          <linearGradient id="ek" x1="14.4" x2="117" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ek)" d="M65.7 447l51.3 89H14.4"/>
+          <linearGradient id="el" x1="-88.2" x2="14.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#el)" d="M-37 447l51.4 89H-88.2"/>
+          <linearGradient id="em" x1="-36.9" x2="65.7" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#em)" d="M14.4 536L-37 447H65.8"/>
+          <linearGradient id="en" x1="-36.9" x2="65.7" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#en)" d="M14.4 358.3L65.7 447H-37"/>
+          <linearGradient id="eo" x1="14.4" x2="117" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#eo)" d="M65.7 447l-51.3-88.7H117"/>
+          <linearGradient id="ep" x1="-88.2" x2="14.4" y1="402.7" y2="402.7" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#ep)" d="M-37 447l-51-88.6H14.4"/>
+          <linearGradient id="eq" x1="-88.2" x2="14.4" y1="313.8" y2="313.8" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#FFF"/>
+            <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+          </linearGradient>
+          <path fill="url(#eq)" d="M-37 269.4l51.4 89H-88.2" opacity=".5"/>
+        </g>
+      </g>
+    </g>
+    <g opacity=".5">
+      <g opacity=".6">
+        <linearGradient id="er" x1="14.4" x2="117" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#er)" d="M65.7 624.8l51.3 88.8H14.4" opacity=".3"/>
+      </g>
+      <g opacity=".6">
+        <linearGradient id="es" x1="-88.2" x2="14.4" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#es)" d="M-37 624.8l51.4 88.8H-88.2" opacity=".3"/>
+        <linearGradient id="et" x1="-36.9" x2="65.7" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#et)" d="M14.4 713.6L-37 624.8H65.8" opacity=".3"/>
+      </g>
+      <g opacity=".3">
+        <linearGradient id="eu" x1="-36.9" x2="65.7" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#eu)" d="M14.4 536l51.3 88.8H-37" opacity=".6"/>
+        <linearGradient id="ev" x1="14.4" x2="117" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ev)" d="M65.7 624.8l-51.3-89H117" opacity=".6"/>
+      </g>
+      <g opacity=".3">
+        <linearGradient id="ew" x1="-88.2" x2="14.4" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ew)" d="M-37 624.8l-51.2-89H14.4" opacity=".6"/>
+      </g>
+      <g opacity=".3">
+        <linearGradient id="ex" x1="-36.9" x2="65.7" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#FFF"/>
+          <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <path fill="url(#ex)" d="M14.4 536L-37 447H65.8"/>
+      </g>
+    </g>
+    <g opacity=".5">
+      <linearGradient id="ey" x1="-36.9" x2="65.7" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#ey)" d="M14.4 713.6l51.3 89H-37" opacity=".2"/>
+      <linearGradient id="ez" x1="14.4" x2="117" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#ez)" d="M65.7 802.5l-51.3-89H117" opacity=".2"/>
+      <linearGradient id="eA" x1="-88.2" x2="14.4" y1="758.1" y2="758.1" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#eA)" d="M-37 802.5l-51.2-89H14.4" opacity=".2"/>
+      <linearGradient id="eB" x1="14.4" x2="117" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#eB)" d="M65.7 624.8l51.3 88.8H14.4" opacity=".3"/>
+      <linearGradient id="eC" x1="-88.2" x2="14.4" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#eC)" d="M-37 624.8l51.4 88.8H-88.2" opacity=".3"/>
+      <linearGradient id="eD" x1="-36.9" x2="65.7" y1="669.2" y2="669.2" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFF"/>
+        <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+      </linearGradient>
+      <path fill="url(#eD)" d="M14.4 713.6L-37 624.8H65.8" opacity=".3"/>
+    </g>
+  </g>
+  <linearGradient id="eE" x1="743.8" x2="846.4" y1="225" y2="225" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+  </linearGradient>
+  <path fill="url(#eE)" d="M795 180.6l51.4 88.8H743.8" opacity=".7" clip-path="url(#b)"/>
+  <linearGradient id="eF" x1="743.8" x2="846.4" y1="580.4" y2="580.4" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+  </linearGradient>
+  <path fill="url(#eF)" d="M795 536l51.4 88.8H743.8" opacity=".7" clip-path="url(#b)"/>
+  <linearGradient id="eG" x1="-88.2" x2="14.4" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+  </linearGradient>
+  <path fill="url(#eG)" d="M-37 447l51.4 89H-88.2" opacity=".1" clip-path="url(#b)"/>
+  <g clip-path="url(#b)">
+    <linearGradient id="eH" x1="219.6" x2="322.2" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#eH)" d="M271 447l51.2 89H219.6" opacity=".3"/>
+  </g>
+  <linearGradient id="eI" x1="270.9" x2="373.5" y1="491.5" y2="491.5" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+  </linearGradient>
+  <path fill="url(#eI)" d="M322.2 536L271 447h102.5" opacity=".1" clip-path="url(#b)"/>
+  <linearGradient id="eJ" x1="589.9" x2="692.5" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFF"/>
+    <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+  </linearGradient>
+  <path fill="url(#eJ)" d="M641.2 91.7L590 3h102.5" opacity=".5" clip-path="url(#b)"/>
+  <g opacity=".5" clip-path="url(#b)">
+    <linearGradient id="eK" x1="487.3" x2="589.9" y1="47.3" y2="47.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".5"/>
+    </linearGradient>
+    <path fill="url(#eK)" d="M538.6 91.7L487.3 3H590" opacity=".5"/>
+  </g>
+</svg>
