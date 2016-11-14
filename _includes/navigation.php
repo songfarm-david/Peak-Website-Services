@@ -22,7 +22,7 @@
 				</div>
 			</li>
 			<li><a href="what-we-do.php">Insights</a></li>
-			<li><a href="contact-us.php">Contact</a></li>
+			<li><a href="contact.php">Contact</a></li>
 		</ul>
 	</div>
 </nav>
