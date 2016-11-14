@@ -106,14 +106,6 @@ section {
 	background-color: @hero-color-alt;
 	// color: @hero-color;
 }
-.mini-hero {
-	.base(padding,top,2);
-	h2 {
-		padding-bottom: 0;
-		padding-top: 0;
-	}
-}
-
 
 /* links */
 a {
@@ -177,4 +169,38 @@ li {
 }
 .box-shadow-img {
 	box-shadow: 0 0 3px 1px rgba(0, 0, 0, .9);
+}
+
+.header-hero {
+	position: relative;
+	.base(padding,1);
+	.base(padding,bottom,2*@second-modular);
+	z-index: 1;
+	>.hero-image {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	>h2 {
+		color: #fff;
+	}
+}
+#about-header-hero {
+	>.hero-image {
+		background-image: url(../_images/header-hero/victoria-island-trail.jpg);
+		background-position: center 65%;
+		background-size: cover;
+		filter: brightness(70%);
+	}
+}
+#contact-header-hero {
+	>.hero-image {
+		background-image: url(../_images/header-hero/victoria-island-rapids.jpg);
+		background-position: center 70%;
+		background-size: cover;
+		filter: brightness(70%);
+	}
+
 }
