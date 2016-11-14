@@ -69,3 +69,8 @@
 .fadeInRight {
 	animation: fadeInRight 1.8s 1.2s ease-out both;
 }
+.container {
+	&:extend(#main-container);
+	.base(padding,1);
+	.base(padding,top,2);
+}
