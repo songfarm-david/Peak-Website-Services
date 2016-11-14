@@ -48,8 +48,8 @@
 .box-shadow {
 	box-shadow: 3px 3px 5px 2px @hero-color;
 }
-.box-shadow-img {
-	box-shadow: 0 0 3px 1px rgba(0, 0, 0, .9);
+.box-shadow-img(@color: @hero-color) {
+	box-shadow: 0 0 5px 0px fadeout(@color,50%);
 }
 .hide { display: none; }
 .invisible { visibility: hidden; }
