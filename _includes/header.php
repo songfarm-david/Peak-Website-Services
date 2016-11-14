@@ -29,7 +29,7 @@
 				<div class="col col-7">
 					<!-- Logo Here -->
 					<div id="logo">
-						<img class="logo" src="_assets/temp-logo.png" alt="" height="90" />
+						<a href="/hollis/index.php"><img class="logo" src="_assets/temp-logo.png" alt="" height="90" /></a>
 					</div>
 				</div>
 				<div class="col col-5">
