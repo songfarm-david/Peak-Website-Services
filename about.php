@@ -1,9 +1,11 @@
 <?php require_once('_includes/header.php') ?>
 
-	<main class="container">
-		<h3>About West Coast Wealth Management</h3>
+	<main id="about-page" class="container">
+		<div class="mini-hero">
+			<h2>About West Coast Wealth Management</h2>
+		</div>
 		<article id="dave-bio" class="bio">
-			<h3>Dave Charlebios</h3>
+			<h3>Dave Charlebois</h3>
 			<figure>
 				<img src="_images/bio/tom.jpg" alt="Headshot of Dave Charlebois" />
 				<figcaption>
@@ -20,7 +22,7 @@
 				<a href="contact.php?contact=dave">Contact Dave</a>
 			</p>
 		</article>
-		<hr>
+		<!-- NOTE: add attractive hr here -->
 		<article id="steve-bio" class="bio">
 			<h3>Stephen Gaskin</h3>
 			<figure>
@@ -39,7 +41,15 @@
 				<a href="contact.php?contact=dave">Contact Dave</a>
 			</p>
 		</article>
+
+		<?php require_once('_includes/footer.php') ?>
+
 	</main>
 
+	<?php require_once('_includes/foot.php') ?>
 
-<?php require_once('_includes/footer.php') ?>
+
+
+
+
+<!-- <?php //require_once('_includes/footer.php') ?> -->
