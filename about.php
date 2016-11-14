@@ -7,7 +7,7 @@
 			<figure>
 				<img src="_images/bio/tom.jpg" alt="Headshot of Dave Charlebois" />
 				<figcaption>
-					<small>A special note about you.</small>
+					<small><span>&mdash;&nbsp;</span>A special note about you.</small>
 				</figcaption>
 			</figure>
 			<p>
@@ -16,6 +16,9 @@
 			<p>
 				Nostrud sed beef est. T-bone ad turkey shank. Porchetta leberkas kevin turducken ut aute, capicola officia nostrud short ribs venison. Quis aliquip id swine, shoulder porchetta pork do tri-tip. Bacon duis proident, hamburger ut eiusmod brisket voluptate tongue capicola t-bone shank commodo.
 			</p>
+			<p>
+				<a href="contact.php?contact=dave">Contact Dave</a>
+			</p>
 		</article>
 		<hr>
 		<article id="steve-bio" class="bio">
@@ -23,7 +26,7 @@
 			<figure>
 				<img src="_images/bio/dick.jpg" alt="Headshot of Stephen Gaskin" />
 				<figcaption>
-					<small>A special note about you.</small>
+					<small><span>&mdash;</span>A special note about you.</small>
 				</figcaption>
 			</figure>
 			<p>
@@ -31,6 +34,9 @@
 			</p>
 			<p>
 				Tail t-bone laboris pork shankle bacon. Dolor capicola pork chop salami biltong commodo. Laborum tri-tip minim fugiat. Swine pancetta chicken pork aute veniam quis sunt ut sed short loin andouille pork belly sint burgdoggen.
+			</p>
+			<p>
+				<a href="contact.php?contact=dave">Contact Dave</a>
 			</p>
 		</article>
 	</main>

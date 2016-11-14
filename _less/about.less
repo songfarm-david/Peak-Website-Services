@@ -4,7 +4,22 @@ main {
 
 article.bio {
 	figure {
-			width: 100%;
+		width: 100%;
+		>img {
+			box-shadow: none;
+		}
+		>figcaption {
+			padding: 6px;
+			small>span {
+				color: @hero-color;
+				font-weight: bold;
+				font-style: italic;
+			}
+		}
+
+		// border: 1px solid @hero-color;
+		background-color: @background-color;
+		.box-shadow-img;
 		@media (@sm-query) {
 			float: right;
 			width: 30%;
