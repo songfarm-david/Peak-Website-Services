@@ -1,0 +1,28 @@
+main#contact-form {
+	>div.mini-hero,
+	>section {
+		.base(padding,1/2);
+		.clear-float(); // clear form float
+		@media (@sm-query) {
+			.base(padding,1);
+		}
+	}
+	form {
+		.base(margin,top,1/@first-modular);
+		padding: @1-rem @1-rem/2;
+		border: 1px solid @hero-color;
+		border-radius: 1px;
+		float: left;
+		width: 100%;
+		@media (@sm-query) {
+			width: 50%;
+			.base(padding,1/@first-modular);
+		}
+		input,
+		textarea {
+			border: 1px solid @hero-color;
+			padding: 6px;
+			margin-bottom: @1-rem/2;
+		}
+	}
+}
