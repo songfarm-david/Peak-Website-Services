@@ -46,10 +46,4 @@
 
 	</main>
 
-	<?php require_once('_includes/foot.php') ?>
-
-
-
-
-
-<!-- <?php //require_once('_includes/footer.php') ?> -->
+<?php require_once('_includes/foot.php') ?>
