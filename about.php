@@ -40,7 +40,7 @@ $pageId = "about-header-hero";
 				Tail t-bone laboris pork shankle bacon. Dolor capicola pork chop salami biltong commodo. Laborum tri-tip minim fugiat. Swine pancetta chicken pork aute veniam quis sunt ut sed short loin andouille pork belly sint burgdoggen.
 			</p>
 			<p>
-				<a href="contact.php?contact=dave">Contact Dave</a>
+				<a href="contact.php?contact=dave">Contact Stephen</a>
 			</p>
 		</article>
 

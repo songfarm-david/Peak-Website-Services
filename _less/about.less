@@ -1,7 +1,7 @@
 main#about-page {
 	// .base(padding,1);
 	article.bio {
-		// .base(padding,1);
+		.base(padding,1*@first-modular);
 		figure {
 			width: 100%;
 			>img {
@@ -29,6 +29,9 @@ main#about-page {
 			@media (@sm-query) {
 				width: 69%;
 			}
+		}
+		>p:last-child { // p with anchor tag
+			.base(margin,top,1);
 		}
 		.clear-float();
 	}
