@@ -1,10 +1,12 @@
 <?php require_once('_includes/header.php') ?>
+<?php
+$h2 = "Contact West Coast Wealth Management";
+$pageId = "contact-header-hero";
+?>
 
 	<main id="contact-form" class="container">
-		<div class="mini-hero">
-			<h2>Contact West Coast Wealth Management</h2>
-		</div>
-		<section>
+		<?php include('_includes/theme/header-hero.php'); ?>
+		<section id="contact-methods">
 			<h3 class="">Contact Us</h3>
 			<form class="" action="" method="post">
 				<label for="name">Name <span>(required)</span>

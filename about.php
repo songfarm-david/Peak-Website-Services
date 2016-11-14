@@ -1,9 +1,11 @@
 <?php require_once('_includes/header.php') ?>
+<?php
+$h2 = "About West Coast Wealth Management";
+$pageId = "about-header-hero";
+?>
 
 	<main id="about-page" class="container">
-		<div class="mini-hero">
-			<h2>About West Coast Wealth Management</h2>
-		</div>
+		<?php include('_includes/theme/header-hero.php'); ?>
 		<article id="dave-bio" class="bio">
 			<h3>Dave Charlebois</h3>
 			<figure>
