@@ -10,7 +10,7 @@
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
+			<li><a href="about.php">About</a></li>
 			<li class="dropdown-btn">
 				<a href="#" data-target="#sub-menu-1" data-toggle="">Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
