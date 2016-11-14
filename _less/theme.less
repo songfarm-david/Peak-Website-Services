@@ -182,9 +182,14 @@ li {
 		bottom: 0;
 		left: 0;
 		right: 0;
+		filter: brightness(60%);
 	}
 	>h2 {
 		color: #fff;
+		&:after {
+			content: '';
+			display: none;
+		}
 	}
 }
 #about-header-hero {
@@ -192,7 +197,6 @@ li {
 		background-image: url(../_images/header-hero/victoria-island-trail.jpg);
 		background-position: center 65%;
 		background-size: cover;
-		filter: brightness(70%);
 	}
 }
 #contact-header-hero {
@@ -200,7 +204,6 @@ li {
 		background-image: url(../_images/header-hero/victoria-island-rapids.jpg);
 		background-position: center 70%;
 		background-size: cover;
-		filter: brightness(70%);
 	}
 
 }
