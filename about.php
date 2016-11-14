@@ -5,7 +5,7 @@
 		<article id="dave-bio" class="bio">
 			<h3>Dave Charlebios</h3>
 			<figure>
-				<img src="" alt="Headshot of " />
+				<img src="_images/bio/tom.jpg" alt="Headshot of Dave Charlebois" />
 				<figcaption>
 					<small>A special note about you.</small>
 				</figcaption>
@@ -21,7 +21,7 @@
 		<article id="steve-bio" class="bio">
 			<h3>Stephen Gaskin</h3>
 			<figure>
-				<img src="" alt="Headshot of " />
+				<img src="_images/bio/dick.jpg" alt="Headshot of Stephen Gaskin" />
 				<figcaption>
 					<small>A special note about you.</small>
 				</figcaption>
