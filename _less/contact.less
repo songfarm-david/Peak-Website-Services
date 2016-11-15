@@ -1,28 +1,105 @@
-main#contact-form {
+main#contact-page {
 	>div.mini-hero,
 	>#contact-methods {
 		.base(padding,1/2);
 		.clear-float(); // clear form float
+		.base(margin,bottom,2);
+		>section,
+		>article {
+			.base(padding,top,1);
+			padding-left: 0;
+			padding-right: 0;
+			>h3 {
+				position: relative;
+				.base(margin,bottom,1/@first-modular);
+				&:after {
+					&:extend(.header-blip);
+				}
+			}
+			@media (@md-query) {
+				.base(padding,1/@first-modular);
+			}
+		}
+		>#contact-form {
+			.clear-float();
+			float: left;
+			form {
+				.base(padding,top,1/@first-modular);
+				.base(padding,bottom,1);
+				margin-left: 0;
+				padding-left: 0;
+				border-radius: 1px;
+				input,
+				textarea {
+					border: 1px solid @hero-color;
+					padding: 6px;
+					margin-bottom: @1-rem/2;
+				}
+			}
+			@media (@md-query) {
+				width: 50%;
+			}
+		}
+		>#call-us {
+			p {
+				.font-size(1);
+			}
+		}
+		>#location-map {
+			>#map {
+				position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+				.base(margin,bottom,1);
+				>iframe {
+					position: absolute;
+					 top: 0;
+					 left: 0;
+					 width: 100% !important;
+					 height: 100% !important;
+				}
+			}
+			@media (@sm-query) {
+				>#map {
+					width: 49%;
+					.base(margin,right,1);
+					float: left;
+				}
+				>#address {
+					&:extend(#map);
+				}
+			}
+			@media (@md-query) {
+				width: 45%;
+				float: right;
+				>#map,
+				>#address {
+					// float: none;
+				}
+				>#map {
+					width: 100%;
+				}
+			}
+		}
 		@media (@sm-query) {
 			.base(padding,1);
 		}
-	}
-	form {
-		.base(margin,top,1/@first-modular);
-		padding: @1-rem @1-rem/2;
-		border: 1px solid @hero-color;
-		border-radius: 1px;
-		float: left;
-		width: 100%;
-		@media (@sm-query) {
-			width: 50%;
-			.base(padding,1/@first-modular);
-		}
-		input,
-		textarea {
-			border: 1px solid @hero-color;
-			padding: 6px;
-			margin-bottom: @1-rem/2;
+		@media (@md-query) {
+			margin-bottom: 0;
+			>#contact-form {
+				form {
+					padding-top: 0;
+				}
+			}
+			>#call-us,
+			>#location-map {
+				float: right;
+				width: 50%;
+				>h3 {
+					margin-top: 0;
+				}
+			}
 		}
 	}
 }
