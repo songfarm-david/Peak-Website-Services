@@ -1,7 +1,6 @@
 main#about-page {
-	// .base(padding,1);
 	article.bio {
-		.base(padding,1*@first-modular);
+		.base(padding,1/2);
 		figure {
 			width: 100%;
 			>img {
@@ -15,7 +14,6 @@ main#about-page {
 					font-style: italic;
 				}
 			}
-
 			// border: 1px solid @hero-color;
 			background-color: @background-color;
 			.box-shadow-img;
@@ -34,5 +32,8 @@ main#about-page {
 			.base(margin,top,1);
 		}
 		.clear-float();
+		@media (@md-query) {
+			.base(padding,1*@second-modular);
+		}
 	}
 }
