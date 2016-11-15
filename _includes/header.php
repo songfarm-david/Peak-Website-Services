@@ -29,7 +29,7 @@
 				<div class="col col-7">
 					<!-- Logo Here -->
 					<div id="logo">
-						<a href="/hollis/index.php"><img class="logo" src="_assets/temp-logo.png" alt="" height="90" /></a>
+						<a href="index.php"><img class="logo" src="_assets/temp-logo.png" alt="" height="90" /></a>
 					</div>
 				</div>
 				<div class="col col-5">
@@ -43,7 +43,7 @@
 		</header>
 
 		<!-- preloader gif -->
-		<!-- <div id="preloader"></div> -->
+		<div id="preloader"></div>
 
 		<!-- help ticket -->
 		<article id="ticket-newsletter">
