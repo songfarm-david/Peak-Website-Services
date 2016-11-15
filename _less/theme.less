@@ -173,7 +173,7 @@ li {
 
 .header-hero {
 	position: relative;
-	.base(padding,1);
+	.base(padding,1/2);
 	.base(padding,bottom,2*@second-modular);
 	z-index: 1;
 	>.hero-image {
@@ -190,6 +190,9 @@ li {
 			content: '';
 			display: none;
 		}
+	}
+	@media (@sm-query) {
+		.base(padding,1);
 	}
 }
 #about-header-hero {
