@@ -45,6 +45,7 @@ nav {
 			padding-top: .7rem;
 			padding-bottom: .7rem;
 			background: transparent;
+			.base(margin,right,.15rem);
 			span.icon-bar {
 				width: @1-rem * @second-modular;
 				height: 3px;
@@ -72,6 +73,7 @@ nav {
 		height: 100%;
 		li {
 			display: block;
+			text-align: center;
 			a {
 				display: block;
 				vertical-align: middle;
@@ -79,6 +81,8 @@ nav {
 				text-decoration: none;
 				.font-size(1/@first-modular);
 				text-transform: uppercase;
+				padding-top: @1-rem / @first-modular;
+				padding-bottom: @1-rem / @first-modular;
 			}
 		}
 	}
