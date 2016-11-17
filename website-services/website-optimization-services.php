@@ -34,7 +34,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
 							<span>Personal Keyword Strategy</span>
 						</div>
 						<p>
@@ -43,7 +43,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
 							<span>Powerful Competitor Insights</span>
 						</div>
 						<p>
@@ -52,7 +52,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
 							<span>Optimized Search Visibility</span>
 						</div>
 						<p>
@@ -61,7 +61,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
 							<span>Your Corner of the Web</span>
 						</div>
 						<p>
@@ -70,7 +70,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/market.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/market.svg" alt="" />
 							<span>Dynamic Marketing Campaigns</span>
 						</div>
 						<p>
@@ -79,7 +79,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/optimize-icons/google-analytics.svg" alt="" />
+							<img src="/_assets/svg-icons/optimize-icons/google-analytics.svg" alt="" />
 							<span>Google AdWords &amp; Google Analytics</span>
 						</div>
 						<p>
