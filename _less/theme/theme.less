@@ -31,6 +31,8 @@
 
 .fixed-nav {
 	background-color: fadeout(#fff,20%);
+	height: 73px;
+	animation: fadeIn .5s .23s ease-in both; // temporary animation
 	nav #primary-nav .dropdown-content {
 		background-color: fadeout(#fff,20%);
 		color: @hero-color;
@@ -55,6 +57,16 @@
 .nav-visible {
 	&:extend(.fixed-nav all);
 }
+
+.container {
+	width: 100%;
+	@media (@sm-query) {
+		width: 100%;
+		max-width: unit(@page-width-alt, rem);
+		margin: 0 auto;
+	}
+}
+
 html {
 	background-color: #fff;
 	body {
@@ -73,23 +85,7 @@ body {
 	font: @body-font;
 	font-size: @base-size-em;
 }
-.container {
-	width: 100%;
-	@media (@sm-query) {
-		width: 100%;
-		max-width: unit(@page-width-alt, rem);
-		margin: 0 auto;
-	}
-}
-.fixed-nav {
-	// background-color: #ACC0D0;
-	height: 73px;
-	// box-shadow: 0px 1px 2px 2px @gray-blue;
-	animation: fadeIn .5s .23s ease-in both; // temporary animation
-	ul ul {
-		// background-color: fadeout(@ash-white,10%);
-	}
-}
+
 /* type & text */
 h1,
 .h1,
@@ -131,6 +127,11 @@ h1,
 	.font-size(4);
 	margin-top: unit(@first-modular, rem);
 }
+/* images */
+img {
+	width: inherit;
+}
+
 label,	input,	button	{
 		display:	block;
 		width:	100%;

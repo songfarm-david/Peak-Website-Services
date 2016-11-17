@@ -194,7 +194,7 @@
 					justify-content: center;
 					flex-wrap: nowrap;
 					>img {
-						flex: 0 1 50px;
+						flex: 0 1 @1-rem*6;
 					}
 					>span {
 						flex: 1 1 auto;
@@ -237,6 +237,9 @@
 				li {
 					flex-basis: 400px;
 					margin-right: unit(@first-modular,%);
+					>div.header-container>img {
+						flex: 0 0 @1-rem*6;
+					}
 				}
 			}
 		}

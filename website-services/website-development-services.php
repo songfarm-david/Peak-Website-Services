@@ -61,10 +61,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<li>
 								<div class="header-container">
 									<img src="/peak/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
-									<span>SEO Enhanced</span>
+									<span>Search Engine Enhanced</span>
 								</div>
 								<p>
-									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and index by all the major search engines.
+									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and indexed by all the major search engines.
 								</p>
 							</li>
 							<li>
