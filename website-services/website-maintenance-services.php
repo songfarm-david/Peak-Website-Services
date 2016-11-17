@@ -57,7 +57,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
-							<span>No Contracts. No Restrictions.</span>
+							<span>No Contracts. No&nbsp;Restrictions.</span>
 						</div>
 						<p>
 							We think you should be in control of your online business. That means you own everything, including your website and domain name.
@@ -92,8 +92,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 				</ul>
 			</section><!--/ end of service features -->
-			<!-- service cta -->
-
 		</section><!--/ end of service -->
 
 		<!-- cta -->

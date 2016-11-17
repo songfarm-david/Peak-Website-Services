@@ -81,7 +81,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									<img src="/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
 									<span>Optimized for Conversion</span>
 								</div>
-
 								<p>
 									Because at the end of the day your website is a tool for turning visitors into customers, conversion is at the core of every website we build.
 								</p>
