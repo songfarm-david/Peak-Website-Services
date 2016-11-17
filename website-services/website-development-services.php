@@ -32,7 +32,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<!-- features list -->
 						<ul class="feature-list">
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
 									<span>Built strong under-the-hood</span>
 								</div>
@@ -41,7 +41,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</p>
 							</li>
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
 									<span>No Page Limits</span>
 								</div>
@@ -50,7 +50,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</p>
 							</li>
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
 									<span>Mobile Friendly &amp; Responsive</span>
 								</div>
@@ -59,7 +59,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</p>
 							</li>
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
 									<span>Search Engine Enhanced</span>
 								</div>
@@ -68,7 +68,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</p>
 							</li>
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
 									<span>Accessible</span>
 								</div>
@@ -77,7 +77,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</p>
 							</li>
 							<li>
-								<div class="header-container">
+								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
 									<span>Optimized for Conversion</span>
 								</div>

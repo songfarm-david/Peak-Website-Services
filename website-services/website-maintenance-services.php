@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- features list -->
 				<ul class="feature-list">
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 							<span>Fast, Reliable Web Hosting</span>
 						</div>
@@ -46,7 +46,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/support.svg" alt="" />
 							<span>Support When You Need It</span>
 						</div>
@@ -55,7 +55,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
 							<span>No Contracts. No Restrictions.</span>
 						</div>
@@ -64,7 +64,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 							<span>Regular Website Check-Ups</span>
 						</div>
@@ -73,7 +73,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
 							<span>Website Analytics</span>
 						</div>
@@ -82,7 +82,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
 							<span>Monthly Performance Reports</span>
 						</div>
