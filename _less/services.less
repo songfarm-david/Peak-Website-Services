@@ -177,27 +177,30 @@
 			.base(margin,top,1/@first-modular);
 			padding-left: 0;
 			display: flex;
-			justify-content: center;
+			justify-content: flex-start;
 			flex-wrap: wrap;
 			margin-bottom: 0;
+			padding-left: 18px;
+			padding-right: 18px;
 			>li {
 				flex-grow: 2;
 				flex-shrink: 0;
 				flex-basis:	100%;
 				.base(margin,bottom,1/@first-modular);
-				.base(padding,.25);
+				// .base(padding,.25);
 				>div.feature-container {
 					display: flex;
 					flex-direction: row-reverse;
 					align-items: center;
-					justify-content: center;
+					justify-content: space-between;
 					flex-wrap: nowrap;
 					>img {
-						flex: 0 0 @1-rem*5;
-						margin-right: @1-rem/@first-modular;
+						flex: 0 0 90px;
+						margin-right: 9px;
+						margin-left: 9px;
 					}
 					>span {
-						flex: 1 1 auto;
+						flex: 1 1 0px;
 					}
 				}
 				>span {
