@@ -8,10 +8,15 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	.box-shadow();
-	p.message {
+	p:not(.service-byline) {
 		text-align: center;
+		.base(margin,top,2*@first-modular);
+		margin-bottom: 0;
 		width: 100%;
-		.font-size(2);
+		font: @body-font;
+		.font-size(3);
+		color: #8e8682;
+		display: none;
 		>span {
 			font-size: inherit;
 			text-transform: capitalize;
@@ -20,7 +25,7 @@
 	#service-container {
 		position: relative;
 		z-index: 100;
-		.base(margin,top,1);
+		.base(margin,top,2);
 		display: flex;
 		flex-wrap: wrap;
 		>div {
@@ -33,37 +38,49 @@
 			border-bottom: 1px solid rgba(90,90,90,0.5);
 			// color: fadeout(@arsenic,20%);
 			box-shadow: 0px 3px 10px 1px fadeout(@japanese-indigo,30%);
+			&:nth-child(1) {
+				background-color: fadeout(@sea-green, 85%);
+				>h3 {
+					color: #22CC63;
+				}
+			}
+			&:nth-child(2) {
+				background-color: fadeout(#FC5130, 70%);
+				background-color: fadeout(@desire-red, 70%);
+				background-color: fadeout(#7E52A0, 70%);
+				>h3 {
+					color: @french-pink;
+					color: #FC5130;
+					color: @desire-red;
+					color: #a563d9;
+					text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+				}
+			}
+			&:nth-child(3) {
+				background-color: fadeout(@electric-blue, 70%);
+				>h3 {
+					color: @electric-blue;
+				}
+			}
 			>h3 {
 				color: #fff;
 				text-shadow: 1px 1px 3px @japanese-indigo;
-				line-height: 1;
+				line-height: 1.1;
 				.font-size(2);
 				>span {
 					font-size: inherit;
 					line-height: inherit;
 				}
 			}
-			ul {
-				display: block;
-				margin: @1-rem / @first-modular .5rem;
-				.font-size(1/@second-modular);
-				padding-left: 0;
-				.base(padding,top,0.5/@first-modular);
-				.base(padding,bottom,0.5/@first-modular);
-				color: fadeout(@japanese-indigo,35%);
-				background-color: fadeout(#fff,50%);
-				box-shadow: inset 0px 1px 3px 1px fadeout(#000,50%), inset 2px 1px 15px 2px fadeout(#000,75%)
-				;
-				li {
-					.base(padding,.05/@second-modular);
-					line-height: 1.2;
-					&::before {
-						.inline-icon-font;
-						content: "\f05d";
-						margin-right: 1rem/@first-modular;
-						margin-top: 5px;
-					}
-				}
+			p.service-byline {
+				font-size: 125%;
+				.base(padding,1/@first-modular);
+				padding-top: 0;
+				color: @hero-color;
+				font-style: italic;
+				.base(margin,bottom,1);
+				line-height: @second-modular;
+				height: 100%/4;
 			}
 			>a {
 				display: block;
@@ -73,30 +90,12 @@
 				.base(margin,top,1);
 				text-decoration: none;
 				padding: 0.5rem 0.25rem;
-				background-color: rgba(255,255,255,.5);
+				background-color: rgba(255,255,255,.25);
 				color: @japanese-indigo;
 				transition: all .25s ease-in;
 				&:hover {
 					color: #fff;
 					background-color: fadeout(@japanese-indigo,10%);
-				}
-			}
-			&:nth-child(1) {
-				background-color: fadeout(@sea-green, 85%);
-				>h3 {
-					color: #22CC63;
-				}
-			}
-			&:nth-child(2) {
-				background-color: rgba(255, 73, 134, 0.26);
-				>h3 {
-					color: @french-pink;
-				}
-			}
-			&:nth-child(3) {
-				background-color: fadeout(@electric-blue, 70%);
-				>h3 {
-					color: @electric-blue;
 				}
 			}
 		}
@@ -179,16 +178,29 @@
 			.base(margin,top,1/@first-modular);
 			padding-left: 0;
 			display: flex;
+			justify-content: center;
 			flex-wrap: wrap;
 			margin-bottom: 0;
 			>li {
-				flex-grow:	1;
-				flex-shrink:	1;
+				flex-grow: 2;
+				flex-shrink: 0;
 				flex-basis:	100%;
-				// .base(margin,right,1);
 				.base(margin,bottom,1/@first-modular);
 				.base(padding,.25);
-				// padding-left: 0;
+				>div.header-container {
+					display: flex;
+					flex-direction: row-reverse;
+					align-items: center;
+					justify-content: center;
+					flex-wrap: nowrap;
+					>img {
+						flex: 0 1 @1-rem*6;
+					}
+					>span {
+						flex: 1 1 auto;
+						padding-right: @1-rem/2;
+					}
+				}
 				>span {
 					.font-size(1);
 					font-weight: bold;
@@ -223,8 +235,20 @@
 			.base(padding,top,2*@first-modular);
 			ul.feature-list {
 				li {
-					flex-basis: 29%;
+					flex-basis: 400px;
 					margin-right: unit(@first-modular,%);
+					>div.header-container>img {
+						flex: 0 0 @1-rem*6;
+					}
+				}
+			}
+		}
+	}
+	@media (@md-query) {
+		.service-features {
+			ul.feature-list {
+				li>div.header-container {
+					justify-content: flex-start;
 				}
 			}
 		}

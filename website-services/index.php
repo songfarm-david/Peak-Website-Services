@@ -10,46 +10,39 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<!-- Website Services -->
 	<section id="website-services">
 		<h2 class="hide"><?php echo $h2; ?></h2>
+		<div class="container">
+			<p class="h2">
+				Choose from our Website Services:
+			</p>
+		</div>
 		<!-- services -->
 		<div id="service-container">
 			<!-- website creation services -->
 			<div>
-				<h3>Website<br> <span class="sea-green">Development</span> <span class="at-only">Services</span></h3>
-				<ul>
-					<li>Website Creation</li>
-					<li>Website Redesign</li>
-					<li>eCommerce, Blog</li>
-					<li>Personal/Corporate Branding</li>
-					<li>Logo Creation &amp; Design</li>
-					<li>Graphic Design</li>
-				</ul>
-				<a href="website-development-services.php">Website Development Services</a>
+				<h3>Website Development Services</h3>
+				<!-- <p class="service-byline">
+					Add on to your existing or create something that's all your own.
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-development-services.php">Select</a> -->
 			</div>
 			<!-- website maintenance services -->
 			<div>
-				<h3>Website<br> <span class="cedar-chest">Maintenance</span> <span class="at-only">Services</span></h3>
-				<ul>
-					<li>Website Hosting</li>
-					<li>Domain Management</li>
-					<li>Performance and Analytics</li>
-					<li>Performance Reports</li>
-					<li>Included Support</li>
-					<li>Unlimited Content Updates</li>
-			</ul>
-				<a href="website-maintenance-services.php">Website Maintenance Services</a>
+				<h3>Website Maintenance Services</h3>
+				<!-- <p class="service-byline">
+					Let us handle the technical stuff while you handle your business.
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-maintenance-services.php">Select</a> -->
 			</div>
 			<!-- website optimization services -->
 			<div>
-				<h3>Website<br> <span class="electric-blue">Optimization</span> <span class="at-only">Services</span></h3>
-				<ul>
-					<li>Search Visibility</li>
-					<li>Keyword Strategy</li>
-					<li>Marketing Campaigns</li>
-					<li>Google Adwords</li>
-					<li>Competitive Research</li>
-					<li>Google Analytics</li>
-				</ul>
-				<a href="website-optimization-services.php">Website Optimization Services</a>
+				<h3>Website Optimization Services</h3>
+				<!-- <p class="service-byline">
+					Optimize your online presence for optimal results.
+				</p> -->
+				<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+				<!-- <a href="website-optimization-services.php">Select</a> -->
 			</div>
 		</div><!--/ end services -->
 	</section>

@@ -33,37 +33,55 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h4 class="hide">What's included:</h4>
 				<ul class="feature-list">
 					<li>
-						<span>Personal Keyword Strategy</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
+							<span>Personal Keyword Strategy</span>
+						</div>
 						<p>
 							Build your content around search terms that drive your core audience and optimize traffic to your site to boost conversion.
 						</p>
 					</li>
 					<li>
-						<span>Powerful Competitor Insights</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
+							<span>Powerful Competitor Insights</span>
+						</div>
 						<p>
 							Gain an in-depth view into the marketing strategies of your competitors and realize what unique opportunities exist to catalize the growth of your business.
 						</p>
 					</li>
 					<li>
-						<span>Optimized Search Visibility</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
+							<span>Optimized Search Visibility</span>
+						</div>
 						<p>
 							Turn your website into a peak performer and capitilize on industry leading techniques to optimize your websites search visibility.
 						</p>
 					</li>
 					<li>
-						<span>Your Corner of the Web</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
+							<span>Your Corner of the Web</span>
+						</div>
 						<p>
 							Develop your website's domain authority and set the foundation for consistently strong page ranks to galvanize your place on the web.
 						</p>
 					</li>
 					<li>
-						<span>Dynamic Marketing Campaigns</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/market.svg" alt="" />
+							<span>Dynamic Marketing Campaigns</span>
+						</div>
 						<p>
 							Remain flexible to shifting market conditions and adjust keyword strategy to adapt to the needs and demands of your customers.
 						</p>
 					</li>
 					<li>
-						<span>Google AdWords &amp; Google Analytics</span>
+						<div class="header-container">
+							<img src="/peak/_assets/svg-icons/optimize-icons/google-analytics.svg" alt="" />
+							<span>Google AdWords &amp; Google Analytics</span>
+						</div>
 						<p>
 							Learn about your site visitors actions and develop targeted, efficient and fully managed Adword campaigns to boost your business's bottom line.
 						</p>
