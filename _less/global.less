@@ -41,7 +41,7 @@ nav {
 			height: 100%;
 			width: auto;
 			float: right;
-			.base(padding,.3);
+			// .base(padding,.3); /* css error */
 			padding-top: .7rem;
 			padding-bottom: .7rem;
 			background: transparent;
@@ -73,16 +73,12 @@ nav {
 		li {
 			display: block;
 			a {
-				display: table-cell;
+				display: block;
 				vertical-align: middle;
-				padding: .7rem 1rem;
 				color: @nav-color;
 				text-decoration: none;
 				.font-size(1/@first-modular);
-				padding: @1-rem/@second-modular;
-				// opacity: 1/@second-modular;
 				text-transform: uppercase;
-				// text-shadow: -1px 0px 2px @davy-grey;
 			}
 		}
 	}
@@ -92,7 +88,7 @@ nav {
 		right: 0;
 		display: flex;
 		width: auto;
-		margin-right: @1-rem / @first-modular;
+		// margin-right: @1-rem / @first-modular;
 		.navbar-header {
 			display: none;
 		}
@@ -108,15 +104,18 @@ nav {
 		ul {
 			display: flex;
 			background-color: transparent;
+			margin-right: 0;
 			li {
-				display: table;
-				flex-direction: column;
-				justify-content: center;
-				position: relative;
+				// flex-direction: column;
+				// justify-content: center;
+				position: relative; // necessary for 'active-link'
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
 				a {
-					box-sizing: content-box;
-					position: relative;
-					width: 100%;
+					padding: @1-rem/@second-modular;
+
+					height: auto;
 					&:hover {
 						.nav-active();
 					}
