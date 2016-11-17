@@ -4,11 +4,6 @@ setup/
 ## .htaccess rules
 *htaccess
 todo.md
-<<<<<<< HEAD
 *.md
 _css/
 Thumbs.db
-=======
-content.md
-_css/
->>>>>>> e80a2a4c65477e533cf296ba36d77ed31c4b06d6

@@ -14,7 +14,6 @@
 /**
 * Scrollspy
 */
-<<<<<<< HEAD
 (function ($) {
 
 	var header = $("body >header"),
