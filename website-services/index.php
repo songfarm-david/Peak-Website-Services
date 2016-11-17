@@ -25,7 +25,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<!-- <p class="service-byline">
 						Add on to your existing or create something that's all your own.
 					</p> -->
-					<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+					<!-- <span class="divider"><img src="/_images/ornate-separator.svg" alt="" /></span> -->
 					<!-- <a href="website-development-services.php">Select</a> -->
 				</div>
 			</a>
@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<!-- <p class="service-byline">
 						Let us handle the technical stuff while you handle your business.
 					</p> -->
-					<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+					<!-- <span class="divider"><img src="/_images/ornate-separator.svg" alt="" /></span> -->
 					<!-- <a href="website-maintenance-services.php">Select</a> -->
 				</div>
 			</a>
@@ -49,7 +49,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<!-- <p class="service-byline">
 						Optimize your online presence for optimal results.
 					</p> -->
-					<!-- <span class="divider"><img src="/peak/_images/ornate-separator.svg" alt="" /></span> -->
+					<!-- <span class="divider"><img src="/_images/ornate-separator.svg" alt="" /></span> -->
 					<!-- <a href="website-optimization-services.php">Select</a> -->
 				</div>
 			</a>
