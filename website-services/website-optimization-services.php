@@ -22,7 +22,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
 					</p>
 					<p>
-						<a href="/peak/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
+						<a href="/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
 					</p>
 				</div>
 			</div>
@@ -33,7 +33,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h4 class="hide">What's included:</h4>
 				<ul class="feature-list">
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
 							<span>Personal Keyword Strategy</span>
 						</div>
@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
 							<span>Powerful Competitor Insights</span>
 						</div>
@@ -51,7 +51,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
 							<span>Optimized Search Visibility</span>
 						</div>
@@ -60,7 +60,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
 							<span>Your Corner of the Web</span>
 						</div>
@@ -69,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/market.svg" alt="" />
 							<span>Dynamic Marketing Campaigns</span>
 						</div>
@@ -78,7 +78,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/optimize-icons/google-analytics.svg" alt="" />
 							<span>Google AdWords &amp; Google Analytics</span>
 						</div>

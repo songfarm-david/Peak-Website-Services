@@ -22,7 +22,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, and we're only a phone call away.
 					</p>
 					<p>
-						<a href="/peak/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Request A Quote</a>
+						<a href="/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Request A Quote</a>
 					</p>
 				</div>
 			</div>
@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- features list -->
 				<ul class="feature-list">
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 							<span>Fast, Reliable Web Hosting</span>
 						</div>
@@ -46,7 +46,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/support.svg" alt="" />
 							<span>Support When You Need It</span>
 						</div>
@@ -55,16 +55,16 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/contract.svg" alt="" />
-							<span>No Contracts. No Restrictions.</span>
+							<span>No Contracts. No&nbsp;Restrictions.</span>
 						</div>
 						<p>
 							We think you should be in control of your online business. That means you own everything, including your website and domain name.
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 							<span>Regular Website Check-Ups</span>
 						</div>
@@ -73,7 +73,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
 							<span>Website Analytics</span>
 						</div>
@@ -82,7 +82,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</p>
 					</li>
 					<li>
-						<div class="header-container">
+						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
 							<span>Monthly Performance Reports</span>
 						</div>
