@@ -198,12 +198,19 @@ footer {
 		.base(margin,top,1);
 		display: block;
 		clear: both;
-			z-index: 100;
+		z-index: 100;
 		ul {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
 			.font-size(.5);
+			li {
+				flex: 0 1 auto;
+				>a {
+					padding-left: @1-rem/@first-modular;
+					padding-right: @1-rem/@first-modular;
+				}
+			}
 		}
 	}
 	#copyright {
@@ -216,6 +223,12 @@ footer {
 	}
 	@media (@sm-query) {
 		position: fixed;
+		// #site-map ul {
+		// 	justify-content: center;
+		// 	li {
+		// 		flex: 0 1 auto;
+		// 	}
+		// }
 	}
 }
 
