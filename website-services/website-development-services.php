@@ -33,7 +33,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<ul class="feature-list">
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
 									<span>Built strong under-the-hood</span>
 								</div>
 								<p>
@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
 									<span>No Page Limits</span>
 								</div>
 								<p>
@@ -51,7 +51,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
 									<span>Mobile Friendly &amp; Responsive</span>
 								</div>
 								<p>
@@ -60,7 +60,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
 									<span>Search Engine Enhanced</span>
 								</div>
 								<p>
@@ -69,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
 									<span>Accessible</span>
 								</div>
 								<p>
@@ -78,7 +78,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="header-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
 									<span>Optimized for Conversion</span>
 								</div>
 

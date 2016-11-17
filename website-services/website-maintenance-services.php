@@ -38,7 +38,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<ul class="feature-list">
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 							<span>Fast, Reliable Web Hosting</span>
 						</div>
 						<p>
@@ -47,7 +47,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/support.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/support.svg" alt="" />
 							<span>Support When You Need It</span>
 						</div>
 						<p>
@@ -56,7 +56,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/contract.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
 							<span>No Contracts. No Restrictions.</span>
 						</div>
 						<p>
@@ -65,7 +65,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 							<span>Regular Website Check-Ups</span>
 						</div>
 						<p>
@@ -74,7 +74,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
 							<span>Website Analytics</span>
 						</div>
 						<p>
@@ -83,7 +83,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="header-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
 							<span>Monthly Performance Reports</span>
 						</div>
 						<p>
