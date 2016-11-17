@@ -1,3 +1,16 @@
+@keyframes slideIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	80% {
+		transform: translateX(.5%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
@@ -6,31 +19,17 @@
 		opacity: 1;
 	}
 }
-@keyframes fadeInUp {
-	0% {
-		transform: translateY(@1-rem);
-		opacity: 0;
+@keyframes slideInLeft {
+	from {
+		transform: translateX(100%);
+		opacity: 0.35;
 	}
-	100% {
-		transform: translateY(0);
+	to {
+		transform: translateX(0%);
 		opacity: 1;
 	}
 }
-@keyframes fadeInRight {
-	0% {
-		transform: translateX(@1-rem * 3);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0);
-		opacity: 1;
-	}
-}
-@keyframes bounce {
-	0% {
-		transform: translateY(15%);
-	}
-	100% {
-		transform: translateY(-15%);
-	}
+
+.slideInLeft {
+	animation: slideInLeft 1.1s cubic-bezier(.01,.01,0,1) both;
 }

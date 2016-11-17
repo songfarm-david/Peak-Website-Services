@@ -2,6 +2,10 @@
 * GRID STYLES
 */
 .row {
+<<<<<<< HEAD:_less/theme/grid.less
+=======
+	// padding: @grid-padding; // @grid-padding;
+>>>>>>> e80a2a4c65477e533cf296ba36d77ed31c4b06d6:_less/theme/grid.less
 	clear: both;
 	height: auto;
 	margin: 0;
@@ -48,11 +52,21 @@
 
 // go full-width at specified breakpoint
 @media (@sm-query) {
+<<<<<<< HEAD:_less/theme/grid.less
+=======
+	// .col {
+	// 	margin-bottom: 0;
+	// }
+>>>>>>> e80a2a4c65477e533cf296ba36d77ed31c4b06d6:_less/theme/grid.less
 	// generate grid with allowance given for
 	.create-grid(@i: 1) when (@i =< @grid-columns) {
 		@each: (@i / @grid-columns) * 100%;
 		.col-@{i} {
+<<<<<<< HEAD:_less/theme/grid.less
 			width: @each - (unit(@first-modular, %) + .9);
+=======
+			width: @each - (unit(@first-modular, %) + .8);
+>>>>>>> e80a2a4c65477e533cf296ba36d77ed31c4b06d6:_less/theme/grid.less
 		}
 		.create-grid(@i + 1);
 	}

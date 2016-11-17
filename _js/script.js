@@ -14,6 +14,7 @@
 /**
 * Scrollspy
 */
+<<<<<<< HEAD
 (function ($) {
 
 	var header = $("body >header"),
@@ -64,7 +65,7 @@
 
 })(jQuery);
 
-// (function($) {
+(function($) {
 	// modernizr checks:
 	// CSS3
 	if (Modernizr.cssanimations) {
@@ -72,4 +73,5 @@
 	} else {
 		console.log("not supported");
 	}
-// })(jQuery);
+
+})(jQuery);
