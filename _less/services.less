@@ -198,6 +198,8 @@
 						flex: 0 0 90px; // if you aren't sure of the value, you can use auto
 						margin-right: 9px;
 						margin-left: 9px;
+						width: 90px;
+						height: 90px;
 					}
 					>span {
 						flex: 1 1 0px;
@@ -240,7 +242,9 @@
 					flex-basis: 400px;
 					margin-right: unit(@first-modular,%);
 					>div.feature-container>img {
-						flex: 1 0 0px;
+						flex: 0 0 @1-rem*6;
+						width: auto;
+						height: auto;
 					}
 				}
 			}
