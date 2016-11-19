@@ -9,6 +9,11 @@
 	<dd>
 		The same way birds will migrate from one hemisphere to the other, sometimes a website must be migrated from one datacenter (host) to another. This is usually a simple process, however sometimes it requires a little more finesse. At Peak Website Services we will do the migration for you (usually free of charge barring any unforeseen complications). <a href="contact.php">Contact Us</a> if you require your website be migrated.
 	</dd>
+	<dt>Do you do Website Migration?</dt>
+	<dd>Typically, migrating a website is a labor-intensive undertaking and often will require a dedicated effort to successfully perform.
+		Under other circumstances, website migration might be a relatively simple and expediate process and should not require any significant allocation of time or resources.
+		If you have an existing website, we can address your particular migration needs as we formulate our service requirements.
+	</dd>
 	<dt id="monthly-performance-reports">What can I expect to see in a Monthly Website Health Report</dt>
 	<dd>
 		As a customer of our Website Maintenance Service Plan, you will receive monthly website health reports that will brief you on ...
