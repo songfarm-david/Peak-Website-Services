@@ -55,6 +55,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</a>
 
 		</div><!--/ end services -->
+
+		<section>
+			<h3>See our Frequently Asked Questions</h3>
+		</section>
 	</section>
 
 <?php require_once('../_includes/footer.php') ?>

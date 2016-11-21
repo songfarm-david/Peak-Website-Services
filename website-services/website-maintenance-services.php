@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span>Fast, Reliable Web Hosting</span>
 						</div>
 						<p>
-							Let us host your website on our lightning fast and secure Canadian Web Servers. You can relax knowing your website is securely online and your data protected.
+							Let us host your website on our lightning fast and secure <a href="/peak/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
 						</p>
 					</li>
 					<li>
@@ -60,7 +60,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span>No Contracts. No&nbsp;Restrictions.</span>
 						</div>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and domain name.
+							We think you should be in control of your online business. That means you own everything, including your website and <a href="/peak/faq.php#domain-name">domain name</a>.
 						</p>
 					</li>
 					<li>
@@ -69,7 +69,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span>Regular Website Check-Ups</span>
 						</div>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly crawled and indexed by the search engines means your customers always have a green light to become a customer.
+							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq.php#index">crawled and indexed</a> by search engines means your site visitors always have a green light to become a customer.
 						</p>
 					</li>
 					<li>
@@ -78,7 +78,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span>Website Analytics</span>
 						</div>
 						<p>
-							Keeping track of your website's performance is critical for growth. We'll show you who's coming to your website and what they're doing once they get there.
+							Keeping track of your website's performance is critical for growth. We'll show you who's coming to your site and what they're doing once they get there.
 						</p>
 					</li>
 					<li>
