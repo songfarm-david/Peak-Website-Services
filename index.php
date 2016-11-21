@@ -19,7 +19,7 @@ $canonical = "http://peakwebsites.ca/";
 						Elevate your online business potential with affordable, personalized Website&nbsp;Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
+						See our <a href="/website-services/">Website&nbsp;Services</a>
 					</p>
 				</div>
 			</div>
