@@ -12,6 +12,7 @@
 				<li><a href="/peak/">Home</a></li>
 				<li><a href="/peak/about.php">About</a></li>
 				<li><a href="/peak/website-services/">Website Services</a></li>
+				<li><a href="/peak/faq.php"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
 				<li><a href="/peak/contact.php">Contact</a></li>
 			</ul>
 		</nav>
