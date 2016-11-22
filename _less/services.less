@@ -31,34 +31,25 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		>a {
+		>div {
 			text-align: center;
 			flex: 1 1 300px;
-			.base(padding,top,1/@second-modular);
-			.base(padding,bottom,1);
-			height: auto;
-			color: inherit;
-			border-left: 2px solid rgba(190,190,190,0.5);
+			padding: @1-rem/2;
 			border-bottom: 1px solid rgba(90,90,90,0.5);
-			text-shadow: 1px 1px 3px @japanese-indigo;
-			text-decoration: none;
 			box-shadow: 0px 3px 10px 1px fadeout(@japanese-indigo,30%);
 			margin-left: 9px;
 			margin-right: 9px;
 			.base(margin,bottom,1);
+			position: relative;
+			transform-origin: center;
+			transition: all .5s;
 			&:nth-child(1) {
 				background-color: fadeout(@sea-green, 85%);
-				color: #22CC63;
+				color: @ufo-green;
 			}
 			&:nth-child(2) {
-				background-color: fadeout(#FC5130, 70%);
-				background-color: fadeout(@desire-red, 70%);
-				background-color: fadeout(#7E52A0, 70%);
-				color: @french-pink;
-				color: #FC5130;
-				color: @desire-red;
-				color: #a563d9;
-				text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+				background-color: fadeout(@royal-purple, 70%);
+				color: @rich-lavender;
 			}
 			&:nth-child(3) {
 				background-color: fadeout(@electric-blue, 70%);
@@ -68,11 +59,19 @@
 				color: #fff;
 				text-shadow: 1px 1px 3px @japanese-indigo;
 				line-height: 1;
-				white-space: pre;
 				.font-size(2);
-				>span {
-					font-size: inherit;
-					line-height: inherit;
+				&+a {
+					position: absolute;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					display: block;
+					height: 100%;
+					width: 100%;
+					background: transparent;
+					opacity: 1;
+
 				}
 			}
 		}
@@ -104,8 +103,32 @@
 		min-height: 100vh;
 		#service-container {
 			.base(padding,top,2);
-			>a {
+			>div {
 				.base(margin,1);
+				&:nth-child(1) {
+					transform-origin: right;
+					&:hover {
+						background-color: fadeout(@sea-green, 70%);
+					}
+				}
+				&:nth-child(2) {
+					transform-origin: center;
+					&:hover {
+						background-color: fadeout(@royal-purple, 55%);
+					}
+				}
+				&:nth-child(3) {
+					transform-origin: left;
+					&:hover {
+						background-color: fadeout(@electric-blue, 55%);
+					}
+				}
+				>h3 {
+					.font-size(2*@second-modular); // increase font size on large screens
+				}
+				&:hover {
+					transform: scale(1.1);
+				}
 			}
 		}
 	}

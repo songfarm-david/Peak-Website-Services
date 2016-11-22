@@ -1,4 +1,3 @@
-
 .inline-icon-font {
 	font-family: FontAwesome; // change this accordingly
 	color: inherit;
@@ -7,7 +6,6 @@
 	position: relative;
 	vertical-align: baseline;
 }
-
 // overlays & misc
 .overlay(@bg-color: '#333', @opacity: 0.9) {
 	content: "";
@@ -19,7 +17,6 @@
 	opacity: @opacity;
 	background-color: @bg-color;
 }
-
 // animation classes
 .fadeInUp {
 	animation: fadeInUp 1.8s .23s ease-out forwards;
@@ -27,6 +24,18 @@
 }
 .fadeInRight {
 	animation: fadeInRight 1.8s 1.2s ease-out both;
+}
+.grow-left {
+	animation: grow 0.5s ease-in-out backwards;
+	transform-origin: right;
+}
+.grow-center {
+	animation: grow 0.5s .3s ease-in-out backwards;
+	transform-origin: center;
+}
+.grow-right {
+	animation: grow 0.5s .6s ease-in-out backwards;
+	transform-origin: left;
 }
 
 // for testing
