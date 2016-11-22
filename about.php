@@ -8,6 +8,7 @@ $h1 = $title;
 
 	<main>
 		<section id="about-page">
+			<h2 class="hide">About Us</h2>
 			<div class="container">
 				<p class="headline">
 					<span class="hero">Leave the</span> technical <span class="hero">work</span> of building and maintaining a website <span class="hero">to us</span>.
