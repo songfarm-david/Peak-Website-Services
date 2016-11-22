@@ -126,6 +126,10 @@
 			margin-right: auto;
 			margin-bottom: 0;
 		}
+		.fa.fa-angle-down {
+			display: block;
+			bottom: 1.5%;
+		}
 		#service-container {
 			padding-top: 0;
 			>div {
@@ -292,6 +296,39 @@
 				li>div.feature-container {
 					justify-content: flex-start;
 				}
+			}
+		}
+	}
+}
+
+#service-cta {
+	&:extend(#final-cta all);
+	>div {
+		h2 {
+			margin-bottom: 0;
+		}
+		p {
+			line-height: 1.618;
+			>a {
+				color: #fff;
+			}
+		}
+	}
+	@media (@sm-query) {
+		>div {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.base(padding,top,1*@first-modular);
+			.base(padding,bottom,1*@first-modular);
+			padding-left: 0;
+			padding-right: 0;
+			>h2 {
+			}
+			p {
+				.base(margin,left,4);
+				.font-size(2/@first-modular);
+				text-align: left;
 			}
 		}
 	}
