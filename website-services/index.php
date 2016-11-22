@@ -12,7 +12,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<h2 class="hide"><?php echo $h2; ?></h2>
 		<div class="container">
 			<p class="h2">
-				Choose from our Website Services:
+				Select a service
 			</p>
 		</div>
 		<!-- services -->
