@@ -20,19 +20,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 			<!-- website creation services -->
 			<div class="grow-left">
-				<h3>Website Development Services</h3>
+				<h3>Website <span>Development</span> Services</h3>
 				<a href="website-development-services.php"><span class="at-only">Select</span></a>
 			</div>
 
 			<!-- website maintenance services -->
 			<div class="grow-center">
-				<h3>Website Maintenance Services</h3>
+				<h3>Website <span>Maintenance</span> Services</h3>
 				<a href="website-maintenance-services.php"><span class="at-only">Select</span></a>
 			</div>
 
 			<!-- website optimization services -->
 			<div class="grow-right">
-				<h3>Website Optimization Services</h3>
+				<h3>Website <span>Optimization</span> Services</h3>
 				<a href="website-optimization-services.php"><span class="at-only">Select</span></a>
 			</div>
 
