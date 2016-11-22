@@ -55,10 +55,9 @@
 * Smooth Scrolling
 */
 (function($) {
-
-	var trigger = $("#landing-page>i.fa.fa-angle-down").on("click", function() {
-		var height = $("#landing-page").height();
-		console.log(height);
+	var trigger, height;
+	$(".fa.fa-angle-down").on("click", function() {
+		height = $(window).height();
 		$("html, body").animate({ scrollTop: height + "px" }, 750);
 	})
 
