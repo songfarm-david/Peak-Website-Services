@@ -26,8 +26,8 @@
 <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script> -->
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <script type="text/javascript" src="/peak/_js/vendor/modernizr-custom.js"></script>
-<script type="text/javascript" src="/peak/_js/vendor/jquery-3.1.1.min.js">
-</script>
+<script type="text/javascript" src="/peak/_js/vendor/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/peak/_js/vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 <!-- Fallback for jQuery CDN -->
 <script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/peak/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
 <!-- Bootstrap Collapse script -->
