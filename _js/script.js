@@ -63,12 +63,17 @@
 
 })(jQuery);
 
-// (function($) {
+(function($) {
 	// modernizr checks:
 	// CSS3
-	if (Modernizr.cssanimations) {
-	  console.log("is supported");
-	} else {
-		console.log("not supported");
-	}
-// })(jQuery);
+	// if (Modernizr.cssanimations) {
+	//   console.log("is supported");
+	// } else {
+	// 	console.log("not supported");
+	// }
+	var acc = $("#faq>#accordion-container").accordion({
+		header: "dt",
+		heightStyle: "content"
+	});
+	$(acc).accordion( "option", "header", "dt" );
+})(jQuery);
