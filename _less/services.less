@@ -12,23 +12,23 @@
 	>div>p {
 		font: @body-font;
 		.font-size(1);
-		color: #fff;
+		color: @hero-color;
 		text-align: center;
 		.base(margin,top,2);
 		.base(margin,bottom,2);
 		text-transform: capitalize;
 		position: relative; // allows for border-bottom effect
-		text-shadow: 1px 1px 1px #333;
+		// text-shadow: 1px 1px 1px #333;
 		&::after {
 			content: "";
 			height: 5px;
 			width: 20%;
 			position: absolute;
-			background-color: #fff;
+			background-color: @hero-color;
 			bottom: -@1-rem;
 			left: 50%;
 			transform: translateX(-50%);
-			box-shadow: 1px 1px 0px 0px #333;
+			// box-shadow: 1px 1px 0px 0px #333;
 		}
 	}
 	#service-container {

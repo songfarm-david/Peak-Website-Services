@@ -44,6 +44,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 			</p>
 		</section> -->
+		<i class="fa fa-angle-down" aria-hidden="true"></i>
+
 	</section>
 
 <?php require_once('../_includes/footer.php') ?>
