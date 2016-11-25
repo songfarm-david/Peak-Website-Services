@@ -55,10 +55,9 @@
 * Smooth Scrolling
 */
 (function($) {
-
-	var trigger = $("#landing-page>i.fa.fa-angle-down").on("click", function() {
-		var height = $("#landing-page").height();
-		console.log(height);
+	var trigger, height;
+	$(".fa.fa-angle-down").on("click", function() {
+		height = $(window).height();
 		$("html, body").animate({ scrollTop: height + "px" }, 750);
 	})
 
@@ -67,10 +66,16 @@
 (function($) {
 	// modernizr checks:
 	// CSS3
-	if (Modernizr.cssanimations) {
-	  console.log("is supported");
-	} else {
-		console.log("not supported");
-	}
+
+	// if (Modernizr.cssanimations) {
+	//   console.log("is supported");
+	// } else {
+	// 	console.log("not supported");
+	// }
+	var acc = $("#faq>#accordion-container").accordion({
+		header: "dt",
+		heightStyle: "content"
+	});
+	$(acc).accordion( "option", "header", "dt" );
 
 })(jQuery);

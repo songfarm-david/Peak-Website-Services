@@ -12,6 +12,7 @@
 				<li><a href="/">Home</a></li>
 				<li><a href="/about.php">About</a></li>
 				<li><a href="/website-services/">Website Services</a></li>
+				<li><a href="/faq.php"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
 				<li><a href="/contact.php">Contact</a></li>
 			</ul>
 		</nav>
@@ -25,8 +26,8 @@
 <!-- <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script> -->
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <script type="text/javascript" src="/_js/vendor/modernizr-custom.js"></script>
-<script type="text/javascript" src="/_js/vendor/jquery-3.1.1.min.js">
-</script>
+<script type="text/javascript" src="/_js/vendor/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/_js/vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 <!-- Fallback for jQuery CDN -->
 <script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
 <!-- Bootstrap Collapse script -->

@@ -4,6 +4,10 @@
 * use a css autoprefixer to auto-prefix fragile property declarations.
 * Minify CSS files
 * Make sure image 'alt' tags have meaningful values
+* add social share links in footer
+* Add 404 page
+
+* competitor backlink analysis (SEO)
 
 ## Client Checklist
 - make sure address is correct

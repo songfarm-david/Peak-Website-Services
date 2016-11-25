@@ -6,7 +6,6 @@
 	position: relative;
 	vertical-align: baseline;
 }
-
 // overlays & misc
 .overlay(@bg-color: '#333', @opacity: 0.9) {
 	content: "";
@@ -25,6 +24,18 @@
 }
 .fadeInRight {
 	animation: fadeInRight 1.8s 1.2s ease-out both;
+}
+.grow {
+	animation: grow .75s backwards;
+}
+.grow-left {
+	animation-delay: 0s;
+}
+.grow-center {
+	animation-delay: .1s;
+}
+.grow-right {
+	animation-delay: .2s;
 }
 
 // for testing

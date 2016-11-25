@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									<span>Built strong under-the-hood</span>
 								</div>
 								<p>
-									When it comes to designing and developing your website, we are sticklers for industry best-practices. That means your website behaves like it should. And if you do run into a bug, we'll make it right, no questions asked.
+									When it comes to designing and developing your website, we are sticklers for <a href="https://www.w3.org/Consortium/">industry best-practices</a>. That means your website behaves as expected. And if we do run into a bug, we'll make it right, free of charge.
 								</p>
 							</li>
 							<li>
@@ -64,7 +64,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									<span>Search Engine Enhanced</span>
 								</div>
 								<p>
-									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and indexed by all the major search engines.
+									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and <a href="/peak/faq.php#index">indexed</a> by all the major search engines.
 								</p>
 							</li>
 							<li>
@@ -73,7 +73,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									<span>Accessible</span>
 								</div>
 								<p>
-									Think of accessible websites like accessibility ramps for brick-and-mortar establishments. Although, often overlooked by other web companies, we believe that your website should be accessible to everyone.
+									Think of accessible websites like accessibility ramps for brick-and-mortar establishments. Though, often overlooked by other web companies, we believe that your website should be <a href="https://www.w3.org/WAI/">accessible to everyone</a>.
 								</p>
 							</li>
 							<li>

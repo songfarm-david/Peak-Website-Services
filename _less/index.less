@@ -9,7 +9,7 @@
 	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
 	#landing-page-intro {
 		.base(padding,.25/@first-modular);
-		.base(padding,top,4/@second-modular);
+		.base(padding,top,3.5);
 		.base(padding,bottom,4);
 		color: @hero-color;
 		span#headline {
@@ -26,9 +26,13 @@
 			.base(margin,top,1/@second-modular);
 			// color: @arsenic;
 			font: @body-font;
+			p + p {
+				.base(margin,top,1);
+				.font-size(1*@second-modular);
+			}
 			p > a {
-				.font-size(1 * @second-modular);
-				display: block;
+				// .font-size(1 * @second-modular);
+				// display: block;
 				.base(margin,top,1);
 				font-weight: bold;
 				color: @link-hover;

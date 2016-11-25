@@ -16,10 +16,10 @@ $canonical = "http://peakwebsites.ca/";
 				<span id="headline">Put Your Business On&nbsp;<span>Top</span></span>
 				<div>
 					<p>
-						Elevate your online business potential with affordable, personalized Website Services and take the headache out of having a website.
+						Elevate your online business potential with affordable, personalized Website&nbsp;Services and take the headache out of having a website.
 					</p>
 					<p>
-						<a href="/website-services/">Learn More <span class="at-only">about our Website Services</span></a>
+						See our <a href="/peak/website-services/">Website&nbsp;Services</a>
 					</p>
 				</div>
 			</div>
