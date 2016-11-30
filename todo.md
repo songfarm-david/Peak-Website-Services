@@ -1,12 +1,15 @@
 #todo
-Complete info on Canadian Based Web Hosting (Website Maintenance Service)
-Complete info on Monthly Health Reports (Website Maintenance Service)
-Revisit copy on website-services/index.php, write service paragraphs
-Finish Contact Form/Questionnaire
-Review/Complete FAQ
+look into robot.txt file: add hollis wealth sub-domain
+password direct hollis wealth (only steve)
+create an html template for site testing
+domain purchase affiliate program
+retrieve testimonials - build testimonial slider
+research SSL, then purchase it
+acquire simple terms of service to protect against security breach
 
-## footer
-Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
+## Ludmila - Design
+add cool svg image to cta-banner
+header font - change
 
 * Add css styles that control main above the fold content to head of document
 * Add 404 page.
