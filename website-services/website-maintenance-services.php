@@ -39,56 +39,50 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
-							<span>Fast, Reliable Web Hosting</span>
+							<span>Website Hosting</span>
 						</div>
 						<p>
-							Let us host your website on our lightning fast and secure <a href="/peak/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
+							Let us host your website on our state-of-the-art, secure <a href="/peak/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/support.svg" alt="" />
-							<span>Support When You Need It</span>
+							<span>Regular Site Maintenance</span>
 						</div>
 						<p>
-							The internet is dynamic and so should be your online business. We're just a phone call away whenever inspiration strikes or when you need to change something on your website.
+							For us, keeping your website online, running smoothly, and functioning as expected is simply par for the course and included in our Maintenance Package.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/contract.svg" alt="" />
-							<span>No Contracts. No&nbsp;Restrictions.</span>
+							<span>Online Security</span>
 						</div>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and <a href="/peak/faq.php#domain-name">domain name</a>.
+							Consistent and mindful about security, you can take heart that your website is safe and your online presence is protected
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
-							<span>Regular Website Check-Ups</span>
+							<span>Insight Reports</span>
 						</div>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq.php#index">crawled and indexed</a> by search engines means your site visitors always have a green light to become a customer.
+							Because information about your site visitors can be invaluable to your bottom line, we include regular analytics report in our Website Maintenance Package.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/peak/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
-							<span>Website Analytics</span>
+							<span>You're In Control</span>
 						</div>
 						<p>
-							Keeping track of your website's performance is critical for growth. We'll show you who's coming to your site and what they're doing once they get there.
+							We think you should be in control of your online business. For that reason we make sure you maintain ownership of your website, your domain, and everything involved with your online presence.
 						</p>
 					</li>
 					<li>
-						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
-							<span>Monthly Performance Reports</span>
-						</div>
-						<p>
-							See how well your website is performing in our <em>Monthly Performance Reports</em> and learn from the data to make better online business decisions.
-						</p>
+						<!-- LARGE CALL TO ACTION HERE -->
 					</li>
 				</ul>
 			</section><!--/ end of service features -->
