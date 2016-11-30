@@ -19,3 +19,9 @@ Revisit footer and test for footer vendor dependencies and fallbacks. Found issu
 * minimize production svgs
 * clean up style sheets
 * refactor colors
+
+##link building
+1. Complete passable website version
+2. Create Facebook/LinkedIn page
+3. Submit to website directories
+4. Get others to share.
