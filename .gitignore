@@ -2,7 +2,7 @@
 setup/
 
 ## .htaccess rules
-*htaccess
+htaccess
 todo.md
 *.md
 _css/
