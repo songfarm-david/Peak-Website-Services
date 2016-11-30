@@ -4,6 +4,7 @@ $description = "Peak Website Services include: website development services, web
 $h1 = "Peak Website Services";
 $h2 = "Website Services";
 $activePage = basename($_SERVER['PHP_SELF']);
+$canonical = "http://peakwebsites.ca/website-services/";
 ?>
 <?php require_once('../_includes/header.php') ?>
 
