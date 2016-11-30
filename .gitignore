@@ -1,9 +1,5 @@
 ## Testers
-setup/
 
-## .htaccess rules
-htaccess
-todo.md
-*.md
-_css/
 Thumbs.db
+
+copy_scripts
