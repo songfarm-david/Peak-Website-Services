@@ -27,7 +27,7 @@ $canonical = "http://peakwebsites.ca/";
 
 
 		<!-- What We Do -->
-		<section id="elevate-business" style="background-color:white;">
+		<section id="elevate-business">
 
 			<div class="container">
 				<h2>Elevate Your Business Potential</h2>
@@ -40,17 +40,25 @@ $canonical = "http://peakwebsites.ca/";
 
 
 		<!-- Why A Website -->
-		<section id="website-important" style="background-color:white;">
+		<section id="website-important">
 
 			<div class="container">
 				<h3>Why Is A Website So Important for Small-to-Medium Sized Businesses?</h3>
-				<dl class="">
-					<dt>More Credibility</dt>
-					<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
-					<dt>More Exposure</dt>
-					<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
-					<dt>More Money</dt>
-					<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
+				<dl>
+					<div class="row">
+						<div class="col col-4">
+							<dt>More Credibility</dt>
+							<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
+						</div>
+						<div class="col col-4">
+							<dt>More Exposure</dt>
+							<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
+						</div>
+						<div class="col col-4">
+							<dt>More Money</dt>
+							<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
+						</div>
+					</div>
 				</dl>
 			</div>
 

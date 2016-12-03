@@ -4,8 +4,6 @@
 #elevate-business h2,
 #website-important h3 {
 	font-family: @second-font;
-	// &:extend(.h2);
-	// &:extend(.h3);
 }
 #website-important dt {
 	font-weight: bold;
@@ -25,7 +23,7 @@
 		height: 100vh;
 		.base(padding,top,2*@first-modular);
 	}
-	div {
+	>div {
 		text-align: center;
 		h1 {
 			.font-size(2);
@@ -77,82 +75,54 @@
 	}
 }
 
-
-
-
-// #landing-page {
-// 	height: auto;
-// 	background-color: @background-color;
-// 	background-image: url(../_images/air-triangulated.jpg);
-// 	background-size: cover;
-// 	background-position: 50% center;
-// 	position: relative;
-// 	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
-// 	#landing-page-intro {
-// 		.base(padding,.25/@first-modular);
-// 		.base(padding,top,3.5);
-// 		.base(padding,bottom,4);
-// 		color: @hero-color;
-// 		span#headline {
-// 			display: inline; // by making it display block allows for transform translate effect
-// 			.font-size(3);
-// 			line-height: 1;
-// 			// text-shadow: -1px -1px 2px @arsenic;
-// 			>span {
-// 				color: @secondary-color;
-// 			}
-// 		}
-// 		div {
-// 			width: 100%;
-// 			.base(margin,top,1/@second-modular);
-// 			// color: @arsenic;
-// 			font: @body-font;
-// 			p + p {
-// 				.base(margin,top,1);
-// 				.font-size(1*@second-modular);
-// 			}
-// 			p > a {
-// 				// .font-size(1 * @second-modular);
-// 				// display: block;
-// 				.base(margin,top,1);
-// 				font-weight: bold;
-// 				color: @link-hover;
-// 				&:hover {
-// 					color: @secondary-color;
-// 				}
-// 			}
-// 		}
-// 	}
-// 	i {
-// 		display: none; // hide bouncy arrow
-// 	}
-// 	@media (@sm-query) {
-// 		height: 100vh;
-// 		#landing-page-intro {
-// 			span#headline {
-// 				.font-size(4);
-// 			}
-// 			div {
-// 				width: (100% / @first-modular) / @first-modular;
-// 			}
-// 		}
-// 		i {
-// 			display: block; // show bouncy arrow
-// 			color: @secondary-color;
-// 		}
-// 	}
-// }
-
-#what-we-do {
+#elevate-business {
+	height: auto;
 	background-color: #fff;
+	background-image: url(../_images/backgrounds/circle-mess-multi.svg);
+	.base(padding,top,1);
+	.base(padding,bottom,2);
+	>div {
+		text-align: center;
+		padding-left: @1-rem/@second-modular;
+		padding-right: @1-rem/@second-modular;
+		h2 {
+			color: #e7deee;
+			.font-size(2);
+			@media (@sm-query) {
+				.font-size(3/@second-modular);
+			}
+			@media (@md-query) {
+				.font-size(3);
+				.base(margin,bottom,1);
+			}
+		}
+		p {
+			color: @hero-color;
+			.font-size(1/@second-modular);
+			@media (@md-query) {
+				.font-size(1);
+				width: 70%;
+				margin-left: auto;
+				margin-right: auto; 
+			}
+		}
+		@media (@md-query) {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			.base(margin,top,3);
+		}
+		@media
+	}
+	@media (@md-query) {
+		height: 100vh;
+	}
 }
 
-#why {
-	background: #eee;
+#website-important {
+	.base(padding,top,2);
+	.base(padding,bottom,2);
 }
-
-
-
 
 
 // about section
