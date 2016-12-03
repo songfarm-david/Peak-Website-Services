@@ -27,27 +27,33 @@ $canonical = "http://peakwebsites.ca/";
 
 
 		<!-- What We Do -->
-		<section id="elevate-business">
+		<section id="elevate-business" style="background-color:white;">
 
-			<h2>Elevate Your Business Potential</h2>
-			<p>
-				Get a state-of-the-art website suited to your unique needs and vision. We'll set it up, host it for you, and keep you in the loop with monthly Website Visibility Reports. More than that, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.
-			</p>
+			<div class="container">
+				<h2>Elevate Your Business Potential</h2>
+				<p>
+					Get a state-of-the-art website suited to your unique needs and vision. We'll set it up, host it for you, and keep you in the loop with monthly Website Visibility Reports. More than that, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.
+				</p>
+			</div>
 
 		</section><!--/ what we do -->
 
 
 		<!-- Why A Website -->
-		<section id="website-important">
-			<h2>Why Is A Website So Important for Small-to-Medium Sized Businesses?</h2>
-			<dl class="">
-				<dt>More Credibility</dt>
-				<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
-				<dt>More Exposure</dt>
-				<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
-				<dt>More Money</dt>
-				<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
-			</dl>
+		<section id="website-important" style="background-color:white;">
+
+			<div class="container">
+				<h3>Why Is A Website So Important for Small-to-Medium Sized Businesses?</h3>
+				<dl class="">
+					<dt>More Credibility</dt>
+					<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
+					<dt>More Exposure</dt>
+					<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
+					<dt>More Money</dt>
+					<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
+				</dl>
+			</div>
+
 		</section>
 
 		<!-- <section>
