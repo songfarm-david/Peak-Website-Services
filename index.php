@@ -27,33 +27,34 @@ $canonical = "http://peakwebsites.ca/";
 		</section>
 		<!-- Core Values -->
 		<section id="about">
-			<h2 class="hide">Why Choose Us</h2>
+			<h2 class="hide">What We Do</h2>
 			<div class="container">
 				<div id="about-intro">
 					<p>
-						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
+						A website is your business card online, so...
+						<span class="effect">why do you need a website?</span>
 					</p>
 				</div>
 				<!-- benefits key list -->
 				<ul id="key-list">
-					<li>Eye on the Bigger Picture
+					<li>More Credibility
 						<p>
-							While there are many steps along the way, we always keep top of mind your business goals.
+							A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.
 						</p>
 					</li>
-					<li>Attention to Detail
+					<li>More Exposure
 						<p>
-							Because it's the little things that make the biggest difference, quality always comes before quantity.
+							A well positioned website equates means it's seen by your core audience. When your online presence
 						</p>
 					</li>
-					<li>Translate your Vision into Beautiful Reality
+					<li>More Freedom
 						<p>
-							We balance creativity with industry best practices to deliver high-quality products that reflect the uniqueness of your business.
+
 						</p>
 					</li>
-					<li>Personal Service and Attention
+					<li>More Money
 						<p>
-							Choosing to work with a smaller client-base means we're always just a phone call away.
+							Online Business Success isn&apos;t for the faint of heart. With strong guidance, the right plan, and a little bit of determination, you will attract the right kind of customers and increase your revenue.
 						</p>
 					</li>
 				</ul><!--/ benefits key list -->
