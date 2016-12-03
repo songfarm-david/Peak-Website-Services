@@ -281,7 +281,7 @@ html {
   font-size: 18px;
 }
 body {
-  font: normal 1rem 'Signika', sans-serif;
+  font: normal 1rem 'PT+Sans', sans-serif;
   font-size: 1.125em;
 }
 /* type & text */
@@ -292,7 +292,11 @@ h2,
 h3,
 .h3,
 h4,
-.h4 {
+.h4,
+#elevate-business h2,
+#elevate-business h2,
+#website-important h3,
+#website-important h3 {
   font: 900 1rem 'Passion One', Arial, sans-serif;
   margin: 1.618rem 0 0.809rem;
   text-transform: capitalize;
@@ -313,11 +317,15 @@ h4,
   font-size: 1.6rem;
 }
 h3,
-.h3 {
+.h3,
+#elevate-business h2,
+#website-important h3 {
   font-size: 2.6rem;
 }
 h2,
-.h2 {
+.h2,
+#elevate-business h2,
+#website-important h3 {
   font-size: 4.2rem;
 }
 h1,
@@ -505,12 +513,6 @@ blockquote {
 /*
 * TYPOGRAPHY AND TYPESETTING
 */
-nav {
-  font: normal 1rem 'Signika', sans-serif;
-}
-#landing-page {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
-}
 /* colors used on website services page*/
 @-webkit-keyframes fadeIn {
   0% {
@@ -1032,64 +1034,9 @@ footer #copyright span {
   }
 }
 /* index.php (main) */
-#landing-page {
-  height: auto;
-  background-color: #86a5c4;
-  background-image: url(../_images/air-triangulated.jpg);
-  background-size: cover;
-  background-position: 50% center;
-  position: relative;
-  box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
-}
-#landing-page #landing-page-intro {
-  padding: 0.45rem;
-  padding-0.1545117428924598: 2.9124rem;
-  padding-top: 10.1934rem;
-  padding-bottom: 11.6496rem;
-  color: #27495d;
-}
-#landing-page #landing-page-intro span#headline {
-  display: inline;
-  font-size: 4.2rem;
-  line-height: 1;
-}
-#landing-page #landing-page-intro span#headline > span {
-  color: #e84855;
-}
-#landing-page #landing-page-intro div {
-  width: 100%;
-  margin-top: 2.18977444rem;
-  font: normal 1rem 'Signika', sans-serif;
-}
-#landing-page #landing-page-intro div p + p {
-  margin-top: 2.9124rem;
-  font-size: 1.9rem;
-}
-#landing-page #landing-page-intro div p > a {
-  margin-top: 2.9124rem;
-  font-weight: bold;
-  color: #27495d;
-}
-#landing-page #landing-page-intro div p > a:hover {
-  color: #e84855;
-}
-#landing-page i {
-  display: none;
-}
-@media (min-width: 48rem) {
-  #landing-page {
-    height: 100vh;
-  }
-  #landing-page #landing-page-intro span#headline {
-    font-size: 6.9rem;
-  }
-  #landing-page #landing-page-intro div {
-    width: 38.19820591%;
-  }
-  #landing-page i {
-    display: block;
-    color: #e84855;
-  }
+#elevate-business h2,
+#website-important h3 {
+  font-family: 'Muli', Arial, sans-serif;
 }
 #what-we-do {
   background-color: #fff;
@@ -1109,7 +1056,7 @@ footer #copyright span {
   box-shadow: 0px 3px 5px 2px #27495d;
 }
 #website-services > div > p {
-  font: normal 1rem 'Signika', sans-serif;
+  font: normal 1rem 'PT+Sans', sans-serif;
   font-size: 1.6rem;
   color: #27495d;
   text-align: center;
