@@ -302,6 +302,7 @@ span {
   margin: 1.618rem 0 0.809rem;
   line-height: 1.618;
   font-size: 1.6rem;
+  color: #333;
 }
 span {
   font-size: inherit;
@@ -440,13 +441,9 @@ blockquote {
   box-sizing: border-box;
   display: block;
   float: left;
-  margin-left: 1.618%;
   margin-top: 1.618%;
   margin-bottom: 1.618%;
   height: 100%;
-}
-.col:last-child {
-  margin-right: 1.618%;
 }
 .col-1,
 .col-2,
@@ -499,6 +496,12 @@ blockquote {
   }
   .col-12 {
     width: 97.482%;
+  }
+  .col {
+    margin-left: 1.618%;
+  }
+  .col:last-child {
+    margin-right: 1.618%;
   }
 }
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
@@ -1050,19 +1053,19 @@ footer #copyright span {
     padding-top: 9.4245264rem;
   }
 }
-#landing-page div {
+#landing-page > div {
   text-align: center;
 }
-#landing-page div h1 {
+#landing-page > div h1 {
   font-size: 2.6rem;
   color: #27495d;
   margin-bottom: 2.9124rem;
 }
-#landing-page div h1 > span {
+#landing-page > div h1 > span {
   color: #e84855;
 }
 @media (min-width: 48rem) {
-  #landing-page div h1 {
+  #landing-page > div h1 {
     font-size: 4.2rem;
     margin-bottom: 9.4245264rem;
     padding-left: 1.618rem;
@@ -1070,12 +1073,12 @@ footer #copyright span {
   }
 }
 @media (min-width: 64rem) {
-  #landing-page div h1 {
+  #landing-page > div h1 {
     font-size: 6.9rem;
     margin-bottom: 2.617924rem;
   }
 }
-#landing-page div p {
+#landing-page > div p {
   font-size: 1.4rem;
   line-height: 1.33;
   background-color: rgba(255, 255, 255, 0.45);
@@ -1087,7 +1090,7 @@ footer #copyright span {
   box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.45);
 }
 @media (min-width: 48rem) {
-  #landing-page div p {
+  #landing-page > div p {
     font-size: 1.6rem;
     width: 60%;
     margin-left: auto;
@@ -1095,11 +1098,11 @@ footer #copyright span {
   }
 }
 @media (min-width: 64rem) {
-  #landing-page div p {
+  #landing-page > div p {
     width: 40%;
   }
 }
-#landing-page div p > em {
+#landing-page > div p > em {
   color: #e84855;
 }
 #landing-page i {
@@ -1111,11 +1114,106 @@ footer #copyright span {
     color: #e84855;
   }
 }
-#what-we-do {
+#elevate-business {
+  height: auto;
   background-color: #fff;
+  background-image: url(../_images/backgrounds/circle-mess-multi.svg);
+  padding-top: 2.9124rem;
+  padding-bottom: 5.8248rem;
 }
-#why {
-  background: #eee;
+#elevate-business > div {
+  text-align: center;
+  padding-left: 1.21654135rem;
+  padding-right: 1.21654135rem;
+}
+#elevate-business > div h2 {
+  color: #e7deee;
+  font-size: 2.6rem;
+}
+@media (min-width: 48rem) {
+  #elevate-business > div h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 64rem) {
+  #elevate-business > div h2 {
+    font-size: 4.2rem;
+    margin-bottom: 2.9124rem;
+  }
+}
+#elevate-business > div p {
+  color: #27495d;
+  font-size: 1.4rem;
+}
+@media (min-width: 64rem) {
+  #elevate-business > div p {
+    font-size: 1.6rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 64rem) {
+  #elevate-business > div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.7372rem;
+  }
+}
+@media (min-width: 64rem) {
+  #elevate-business {
+    min-height: 100vh;
+  }
+}
+#website-important {
+  padding-top: 5.8248rem;
+  padding-bottom: 5.8248rem;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
+}
+#website-important > div {
+  text-align: center;
+}
+#website-important > div h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2.9124rem;
+  padding-left: 1.21654135rem;
+  padding-right: 1.21654135rem;
+}
+@media (min-width: 48rem) {
+  #website-important > div h3 {
+    font-size: 2.6rem;
+  }
+}
+#website-important > div dl,
+#website-important > div dd {
+  padding-left: 0;
+}
+#website-important > div dl {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-left: 0.53933333rem;
+  margin-right: 0.53933333rem;
+}
+#website-important > div dt {
+  font-size: 115%;
+}
+#website-important > div dt:first-child {
+  color: #7e52a0;
+}
+#website-important > div dd {
+  margin-bottom: 2.9124rem;
+}
+@media (min-width: 64rem) {
+  #website-important > div {
+    margin-top: 5.8248rem;
+  }
+}
+@media (min-width: 64rem) {
+  #website-important {
+    min-height: 100vh;
+  }
 }
 #website-services {
   position: relative;
