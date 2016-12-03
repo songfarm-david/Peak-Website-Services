@@ -47,15 +47,15 @@ $canonical = "http://peakwebsites.ca/";
 				<dl>
 					<div class="row">
 						<div class="col col-4">
-							<dt>More Credibility</dt>
+							<dt style="color:#4F1271">More Credibility</dt>
 							<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
 						</div>
 						<div class="col col-4">
-							<dt>More Exposure</dt>
+							<dt style="color:#1B998B">More Exposure</dt>
 							<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
 						</div>
 						<div class="col col-4">
-							<dt>More Money</dt>
+							<dt style="color:#345995;">More Money</dt>
 							<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
 						</div>
 					</div>
