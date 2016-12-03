@@ -12,12 +12,12 @@ $canonical = "http://peakwebsites.ca/";
 		<!-- Landing Page -->
 		<section id="landing-page"><!-- id="business-top" -->
 
-			<img class="hide" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain peak" />
+			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain peak" />
 
-			<div class="container fadeInUp" id="landing-page-intro">
-				<h1 id="headline">Put Your Business On&nbsp;<span>Top</span></h1>
+			<div class="container fadeInUp">
+				<h1>Put Your Business On&nbsp;<span>Top</span></h1>
 				<p>
-					Take your online business to the next level with our suite of <em>Website Services</em>.
+					Take your online business to the next level with our suite of <em>Website&nbsp;Services</em>.
 				</p>
 			</div>
 

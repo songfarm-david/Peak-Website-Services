@@ -4,13 +4,78 @@
 #elevate-business h2,
 #website-important h3 {
 	font-family: @second-font;
-
-	&:extend(.h2);
-	&:extend(.h3);
+	// &:extend(.h2);
+	// &:extend(.h3);
+}
+#website-important dt {
+	font-weight: bold;
 }
 
-
-
+#landing-page {
+	position: relative;
+	background-color: @background-color;
+	background-image: url(../_images/air-triangulated.jpg);
+	background-size: cover;
+	background-position: 50% 75%;
+	height: auto;
+	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
+	.base(padding,top,2);
+	.base(padding,bottom,2);
+	@media (@sm-query) {
+		height: 100vh;
+		.base(padding,top,2*@first-modular);
+	}
+	div {
+		text-align: center;
+		h1 {
+			.font-size(2);
+			color: @hero-color;
+			.base(margin,bottom,1);
+			>span {
+				color: @secondary-color;
+			}
+			@media (@sm-query) {
+				.font-size(3);
+				.base(margin,bottom,2*@first-modular);
+				padding-left: @1-rem;
+				padding-right: @1-rem;
+			}
+			@media (@md-query) {
+				.font-size(4);
+				margin-bottom: @1-rem*@first-modular;
+			}
+		}
+		p {
+			.font-size(1/@second-modular);
+			line-height: @second-modular;
+			background-color: rgba(255, 255, 255, .45);
+			.base(padding,1/2);
+			margin-left: @1-rem/3;
+			margin-right: @1-rem/3;
+			color: #333;
+			@media (@sm-query) {
+				.font-size(1);
+				width: 60%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@media (@md-query) {
+				width: 40%;
+			}
+			>em {
+				color: @secondary-color;
+			}
+			box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, .45);
+		}
+	}
+	i {
+		display: none;
+		@media (@sm-query) {
+			display: block; // show bouncy arrow
+			color: @secondary-color;
+		}
+	}
+}
 
 
 
