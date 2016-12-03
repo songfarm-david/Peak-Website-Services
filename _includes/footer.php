@@ -1,11 +1,11 @@
 	<footer>
-		<article id="quick-quote">
+		<!-- <article id="quick-quote">
 			<h3 class="at-only">Contact Us</h3>
 			<span class="h2">Need some help?</span>
 			<p>
 				<a href="/peak/contact.php" style="text-transform:capitalize;">Get in Touch</a>.
 			</p>
-		</article>
+		</article> -->
 		<nav id="site-map">
 			<h4 class="h3">Site Map</h4>
 			<ul>

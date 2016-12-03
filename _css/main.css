@@ -1091,108 +1091,11 @@ footer #copyright span {
     color: #e84855;
   }
 }
-#about {
-  height: auto;
-  min-height: 100vh;
-  padding: 0.9rem;
-  padding-0.3090234857849196: 2.9124rem;
-  padding-bottom: 5.8248rem;
+#what-we-do {
   background-color: #fff;
-  background-image: url(../_images/backgrounds/circle-mess-multi.svg);
 }
-#about #about-intro {
-  float: none;
-  width: 100%;
-  padding-top: 2.9124rem;
-  color: #27495d;
-  line-height: 1;
-}
-#about #about-intro > p {
-  margin-top: 2.617924rem;
-  font-size: 1.9rem;
-}
-#about #about-intro > p > span {
-  font-size: 4.2rem;
-  opacity: 1;
-  color: #fff;
-  line-height: 1;
-}
-#about ul#key-list {
-  padding-left: 0;
-  font-size: 1.4rem;
-  float: none;
-  margin-top: 4.7122632rem;
-  color: #fff;
-}
-#about ul#key-list li {
-  font-weight: bold;
-  margin-bottom: 2.15194rem;
-  line-height: 1.33;
-  font-size: 1.6rem;
-}
-#about ul#key-list li > p {
-  margin-top: 1rem;
-  font-weight: normal;
-  line-height: 1.33;
-  font-size: 1.5rem;
-  color: #1b998b;
-  color: inherit;
-  color: #27495d;
-  color: #011826;
-  opacity: .79;
-}
-#about ul#key-list li:nth-child(1) {
-  color: #4F1271;
-}
-#about ul#key-list li:nth-child(2) {
-  color: #1B998B;
-}
-#about ul#key-list li:nth-child(3) {
-  color: #345995;
-}
-#about ul#key-list li:nth-child(4) {
-  color: #5E0B15;
-}
-#about #about-cta > a {
-  float: none;
-  display: block;
-  margin-top: 4.7122632rem;
-  color: #27495d;
-  font-weight: bold;
-  opacity: .95;
-  font-size: 75.18796992%;
-}
-#about #about-cta > a:hover {
-  color: #ffffff;
-}
-@media (min-width: 48rem) {
-  #about {
-    height: auto;
-    min-height: 100vh;
-    padding-top: 10.471696rem;
-  }
-  #about #about-intro {
-    float: left;
-    width: 49%;
-  }
-  #about #about-intro > p {
-    margin-top: 0;
-  }
-  #about ul#key-list {
-    float: right;
-    width: 49%;
-    margin-top: 0rem;
-  }
-  #about #about-cta > a {
-    float: left;
-    margin-top: 5.8248rem;
-    font-size: inherit;
-  }
-  #about .container::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+#why {
+  background: #eee;
 }
 #website-services {
   position: relative;
