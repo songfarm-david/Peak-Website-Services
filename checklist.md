@@ -12,3 +12,5 @@
 ## Client Checklist
 - make sure address is correct
 - verify copyright information at bottom of page is correct
+
+#every site gets run through the XYZ screen reader application. Refer to CIRS.ca website for strong AT standards application.
