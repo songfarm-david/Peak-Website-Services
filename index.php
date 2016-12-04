@@ -10,7 +10,7 @@ $canonical = "http://peakwebsites.ca/";
 	<main>
 
 		<!-- Landing Page -->
-		<section id="landing-page"><!-- id="business-top" -->
+		<section id="business-top">
 
 			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain peak" />
 
