@@ -62,6 +62,14 @@
 	width: 100%;
 	@media (@sm-query) {
 		width: 100%;
+		max-width: unit(@page-width, rem);
+		margin: 0 auto;
+	}
+}
+.container-alt {
+	width: 100%;
+	@media (@sm-query) {
+		width: 100%;
 		max-width: unit(@page-width-alt, rem);
 		margin: 0 auto;
 	}
@@ -95,7 +103,7 @@ h3,
 .h3,
 h4,
 .h4 {
-	font: @header-font;
+	font: @second-font;
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	text-transform: capitalize;
 }

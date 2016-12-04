@@ -34,45 +34,54 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td id="body-dev-1">The <a href="/peak/website-services/website-development-services.php">website development service</a> is the perfect opportunity to start off on the right foot. </td>
-						<td id="body-maint-1">The <a href="/peak/website-services/website-maintenance-services.php">website maintenance service</a> allows you, the small-to-medium size business owner, the freedom to focus on what you do best. Not the code behind your website.</td>
-						<td id="body-optim-1">The <a href="/peak/website-services/website-optimization-services.php">website optimization service</a> is perfect for business owners who want to take their business to the top.</td>
+					<tr id="intro">
+						<td id="body-dev-1"><a href="/peak/website-services/website-development-services.php">Website development service</a><br> is great for starting your online business off on the right foot.</td>
+						<td id="body-maint-1"><a href="/peak/website-services/website-maintenance-services.php">Website maintenance service</a><br> lets you focus on your business. <br>Not your website.</td>
+						<td id="body-optim-1"><a href="/peak/website-services/website-optimization-services.php">Website&nbsp;optimization&nbsp;service</a><br> is perfect for business owners that want to put their website on top.</td>
 					</tr>
-					<tr>
-						<td>We strive, first, to understand your particular needs, then deliver to you an industry up-to-date, mobile-responsive, accessible, and beautifully designed website that is unique to your brand and vision.</td>
-						<td>Your website is hosted on a quick and secure Canadian webserver and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays healthy and protected.</td>
+					<tr id="byline">
+						<td class="td-no-bg">We strive, first, to understand your particular needs, then deliver to you an industry up-to-date, mobile-responsive, accessible, and beautifully designed website that is unique to your brand and vision.</td>
+						<td>Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.</td>
 						<td>We dedicate a portion of hours each month to your business, analyzing keywords and optimizing your online presence.</td>
 					</tr>
 					<tr>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Some of what's included:</td>
-						<td>Some of what's included:</td>
+						<td id="cost-examples">
+							<i>Cost Examples:</i><br>
+							<b>Ex. 1</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
+							<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
+							<span class="cost"><i>$1,000&mdash;$1,500</i></span>
+							<br>
+							<b>Ex. 2</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
+							<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
+							<span class="cost"><i>$1,000&mdash;$1,500</i></span>
+						</td>
+						<td class="tr-header">Some of what's included:</td>
+						<td class="tr-header">Some of what's included:</td>
 					</tr>
 					<tr>
+						<td class="stop-row td-no-bg"></td>
+						<td>Maybe there needs to be some text inside of here</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg">&nbsp;</td>
+						<td>Maybe there needs to be some text inside of here</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg"></td>
+						<td>Maybe there needs to be some text inside of here</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg"></td>
+						<td>Maybe there needs to be some text inside of here</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg"></td>
 						<td class="stop-row"></td>
 						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td class="stop-row"></td>
-						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
 						<td></td>
@@ -80,7 +89,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
-						<td></td>
+						<td class="td-no-bg"></td>
 						<td></td>
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
