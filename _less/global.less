@@ -175,7 +175,6 @@ footer {
 		font-size: inherit;
 		text-shadow: none;
 	}
-	
 	#site-map {
 		position: relative;
 		margin: 0 auto;
@@ -183,6 +182,10 @@ footer {
 		display: block;
 		clear: both;
 		z-index: 100;
+		>h4 {
+			font: @header-font;
+			.font-size(2);
+		}
 		ul {
 			display: flex;
 			flex-wrap: wrap;
