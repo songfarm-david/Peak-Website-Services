@@ -12,7 +12,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<div class="container">
 			<h2>With You Every Step of the Way</h2>
-			<p>We have a Website Service for every stage of your online journey &mdash; <br>Plus, the expertise to make sure you reach the summit.</p>
+			<p>We have a website service for every step of your online business journey <br>&mdash; plus, the know-how to help you to reach your summit.</p>
 		</div>
 
 		<!-- services table -->
@@ -55,47 +55,47 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
 							<span class="cost"><i>$1,000&mdash;$1,500</i></span>
 						</td>
-						<td class="tr-header">Some of what's included:</td>
-						<td class="tr-header">Some of what's included:</td>
+						<td class="tr-header">Includes a minimum of:</td>
+						<td class="tr-header">Includes a minimum of:</td>
 					</tr>
 					<tr>
 						<td class="stop-row td-no-bg"></td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Reliable Hosting (99.99% uptime)</td>
+						<td></td>
 					</tr>
 					<tr>
 						<td class="td-no-bg">&nbsp;</td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td class="td-no-bg"></td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Weekly remote server backups</td>
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
 						<td class="td-no-bg"></td>
-						<td>Maybe there needs to be some text inside of here</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td class="td-no-bg"></td>
-						<td class="stop-row"></td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
+						<td>Technical Support When You Need It</td>
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
 						<td class="td-no-bg"></td>
-						<td></td>
+						<td>Monthly Website Visibility Report*</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg"></td>
+						<td>Content Updates*</td>
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
 						<td></td>
+						<td>Unlimited Domain Email</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
+						<td class="td-no-bg"></td>
+						<td>Mailing Lists</td>
+						<td>Maybe there needs to be some text inside of here</td>
+					</tr>
+					<tr>
 						<td></td>
+						<td>Unlimited Databases</td>
 						<td>Maybe there needs to be some text inside of here</td>
 					</tr>
 					<tr>
