@@ -1,7 +1,9 @@
-## Testers
-
-Thumbs.db
-
-_css/
-copy_scripts
+## files & folders
+###
 *.md
+copy_scripts/
+development/sitemap.xml
+
+## Garbage clean up
+###
+Thumbs.db
