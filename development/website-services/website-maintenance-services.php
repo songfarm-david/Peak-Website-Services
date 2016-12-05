@@ -16,10 +16,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<div class="service-intro container">
 					<span>Take the load off having an online presence.</span>
 					<p>
-						As the demands of your audience and technology grow and evolve, having someone with a finger on the pulse of your online business allows you the ability to remain fluid to changing market conditions as well as swells in technology.
-					</p>
-					<p>
-						Our Website Maintenance Plans take to worry out of having an online presence so you can focus on running your business. We're your connection to the digital world, and we're only a phone call away.
+						Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
 					</p>
 					<p>
 						<a href="/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Request A Quote</a>
@@ -38,16 +35,16 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 							<span>Fast, Reliable Web Hosting</span>
 						</div>
 						<p>
-							Let us host your website on our lightning fast and secure <a href="/peak/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
+							Let us host your website on our lightning fast and secure <a href="/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/support.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/support.svg" alt="" />
 							<span>Support When You Need It</span>
 						</div>
 						<p>
@@ -56,25 +53,25 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/contract.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
 							<span>No Contracts. No&nbsp;Restrictions.</span>
 						</div>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and <a href="/peak/faq.php#domain-name">domain name</a>.
+							We think you should be in control of your online business. That means you own everything, including your website and <a href="/faq.php#domain-name">domain name</a>.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 							<span>Regular Website Check-Ups</span>
 						</div>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly <a href="/peak/faq.php#index">crawled and indexed</a> by search engines means your site visitors always have a green light to become a customer.
+							Monitoring the health and behavior of your site and making sure it's properly <a href="/faq.php#index">crawled and indexed</a> by search engines means your site visitors always have a green light to become a customer.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
 							<span>Website Analytics</span>
 						</div>
 						<p>
@@ -83,7 +80,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/peak/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
+							<img src="/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
 							<span>Monthly Performance Reports</span>
 						</div>
 						<p>

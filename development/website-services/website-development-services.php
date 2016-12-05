@@ -8,20 +8,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 	<main>
+
 		<!-- service -->
 		<section class="service" id="development">
+
 				<h2 class="hide"><?php echo $h2; ?></h2>
+
 				<div>
 					<div class="service-intro container">
 						<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
 						<p>
-							Whether you need a brand new website or want to give your existing one a facelift, let us deliver to you a custom designed, user-friendly, and professional website that not only looks great but works great, too.
-						</p>
-						<p>
-							Every website we develop is built on industry standard best-practices and designed to meet your business needs. We stand behind our websites 100% and you can count on that.
-						</p>
-						<p>
-							<a href="/contact.php?service_type=development"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Contact Us Today</a>
+							We strive, first, to understand your particular needs, then deliver to you an industry up-to-date, mobile-responsive, accessible, and beautifully designed website that is unique to your brand and vision.
 						</p>
 					</div>
 				</div>
@@ -33,25 +30,25 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<ul class="feature-list">
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
 									<span>Built strong under-the-hood</span>
 								</div>
 								<p>
-									When it comes to designing and developing your website, we are sticklers for <a href="https://www.w3.org/Consortium/">industry best-practices</a>. That means your website behaves as expected. And if we do run into a bug, we'll make it right, free of charge.
+									We take pride in developing and designing a beautiful, functional website that works overtime for your business.
 								</p>
 							</li>
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
-									<span>No Page Limits</span>
+									<img src="/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
+									<span>Updates for Everyone</span>
 								</div>
 								<p>
-									The ultimate purpose of your website should be to support your online business goals, regardless of the amount of pages required.
+									Your website is an extension of your business; we understand that maintaining an online presence means change and being dynamic as to your audience. For that reason, general updates and content changes are on the house.
 								</p>
 							</li>
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
 									<span>Mobile Friendly &amp; Responsive</span>
 								</div>
 								<p>
@@ -60,16 +57,16 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/seo-enhanced.svg" alt="" />
 									<span>Search Engine Enhanced</span>
 								</div>
 								<p>
-									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and <a href="/peak/faq.php#index">indexed</a> by all the major search engines.
+									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and <a href="/faq.php#index">indexed</a> by all the major search engines.
 								</p>
 							</li>
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
 									<span>Accessible</span>
 								</div>
 								<p>
@@ -78,7 +75,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</li>
 							<li>
 								<div class="feature-container">
-									<img src="/peak/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
+									<img src="/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
 									<span>Optimized for Conversion</span>
 								</div>
 
