@@ -12,17 +12,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="service" id="optimization">
 			<h2 class="hide"><?php echo $h2; ?></h2>
+
 			<div>
 				<div class="service-intro container">
 					<span>Your website should work <em>for</em> you.</span>
 					<p>
-						Anyone who's serious about the success of their online business knows the importance of optimizing their web presence for site visitors and search engine visibility.
-					</p>
-					<p>
-						Investing in the health and visibility of your online business better ensures that your website is meeting the demands of your business.
-					</p>
-					<p>
-						<a href="/contact.php?service_type=optimization"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Get A Quote Today</a>
+						We are a strong proponent of the <em>'work smarter not harder'</em> philosophy and make it easy for you to make smarter decisions by knowing what's important to your customers and what's going on with your website.
 					</p>
 				</div>
 			</div>
@@ -30,24 +25,24 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- service features -->
 			<section class="service-features container" id="website-optimization-plan">
 				<h3 class="at-only">Website Optimization Plan</h3>
-				<h4 class="hide">What's included:</h4>
+				<h4 class="hide">Included as a minimum in every plan:</h4>
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
-							<span>Personal Keyword Strategy</span>
+							<span>Keyword Strategy Personalized to Your Business</span>
 						</div>
 						<p>
-							Build your content around search terms that drive your core audience and optimize traffic to your site to boost conversion.
+							The only way to succeed on the search pages is to leverage your unique angle and learn how that is relevant to the people you want to target.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
-							<span>Powerful Competitor Insights</span>
+							<span>Learn About your Competitors</span>
 						</div>
 						<p>
-							Gain an in-depth view into the marketing strategies of your competitors and realize what unique opportunities exist to catalize the growth of your business.
+							Knowing where your competitor is weak and where they are strong helps you capitilize on your own strengths and minimize areas of lesser need.
 						</p>
 					</li>
 					<li>
@@ -56,35 +51,29 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<span>Optimized Search Visibility</span>
 						</div>
 						<p>
-							Turn your website into a peak performer and capitilize on industry leading techniques to optimize your websites search visibility.
+							Let us turn your website into a peak performer so that you are always where you need to be online.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
-							<span>Your Corner of the Web</span>
+							<span>Learn From the Data</span>
 						</div>
 						<p>
-							Develop your website's domain authority and set the foundation for consistently strong page ranks to galvanize your place on the web.
+							We provide you with invaluable web analytics about your market, your competitors, and your key opportunities for growth in the technology world.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/optimize-icons/market.svg" alt="" />
-							<span>Dynamic Marketing Campaigns</span>
+							<span>Flexible to Change</span>
 						</div>
 						<p>
-							Remain flexible to shifting market conditions and adjust keyword strategy to adapt to the needs and demands of your customers.
+							We are with you for the long haul, hands on the wheel, and voice in your ear, guiding your decisions to elevate your business online.
 						</p>
 					</li>
 					<li>
-						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/google-analytics.svg" alt="" />
-							<span>Google AdWords &amp; Google Analytics</span>
-						</div>
-						<p>
-							Learn about your site visitors actions and develop targeted, efficient and fully managed Adword campaigns to boost your business's bottom line.
-						</p>
+						&nbsp;
 					</li>
 				</ul>
 			</section><!--/ end of service features -->

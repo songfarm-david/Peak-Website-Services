@@ -14,10 +14,10 @@ $h1 = $title;
 					<span class="hero">Leave the</span> technical <span class="hero">work</span> of building and maintaining a website <span class="hero">to us</span>.
 				</p>
 				<p>
-					Peak Creative Website Services is a professional website services company that combines website and brand creation, website development, and strategy-driven website optimization to provide a full-service, affordable solution to online business owners who would rather run a business than run a website.
+					Peak Website Services is a professional website services company catering to small-to-medium size businesses. We offer website design and <a href="/website-services/website-development-services.php">development</a> services, including logo creation and branding; we also offer dedicated services for <a href="/website-services/website-maintenance-services.php">maintaining</a> and <a href="/website-services/website-optimization-services.php">optimizing</a> one's online presence.
 				</p>
 				<p>
-					Learn more about our <a href="/peak/website-services/">Website Services</a>.
+					Learn more about our <a href="/website-services/">Website Services</a>.
 				</p>
 			</div>
 		</section>
@@ -27,7 +27,7 @@ $h1 = $title;
 			<div class="container">
 				<div id="about-intro">
 					<p>
-						There are a lot of web companies out there, so..<br> <span class="effect">why work with us?</span>
+						There are a few web companies out there, so..<br> <span class="effect">why work with us?</span>
 					</p>
 				</div>
 				<!-- benefits key list -->

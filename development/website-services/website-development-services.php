@@ -40,19 +40,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<li>
 								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/no-page-limit.svg" alt="" />
-									<span>Updates for Everyone</span>
+									<span>Built to Convert</span>
 								</div>
 								<p>
-									Your website is an extension of your business; we understand that maintaining an online presence means change and being dynamic as to your audience. For that reason, general updates and content changes are on the house.
+									We never lose sight that your website is designed to create a connection with your audience and to help them to become customers.
 								</p>
 							</li>
 							<li>
 								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/mobile-friendly-responsive.svg" alt="" />
-									<span>Mobile Friendly &amp; Responsive</span>
+									<span>Mobile Responsive</span>
 								</div>
 								<p>
-									No question about it: mobile browsing is on the rise, which means your website has to look good and function everywhere &mdash; but don't sweat it, crafting mobile-friendly websites is just another day at the office for us.
+									There's no need to wonder if your website will work and look good on a phone or tablet &mdash; we do that for all our websites.
 								</p>
 							</li>
 							<li>
@@ -61,27 +61,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									<span>Search Engine Enhanced</span>
 								</div>
 								<p>
-									Websites need traffic in order to thrive. We build our sites on top of industry leading best-practices to ensure your website can be understood and <a href="/faq.php#index">indexed</a> by all the major search engines.
+									We follow best practices in the web and SEO world to make sure your website is ready to be fired on all cylinders.
 								</p>
 							</li>
 							<li>
 								<div class="feature-container">
 									<img src="/_assets/svg-icons/dev-icons/accessible.svg" alt="" />
-									<span>Accessible</span>
+									<span>Web Accessible</span>
 								</div>
 								<p>
-									Think of accessible websites like accessibility ramps for brick-and-mortar establishments. Though, often overlooked by other web companies, we believe that your website should be <a href="https://www.w3.org/WAI/">accessible to everyone</a>.
+									We believe that the web should be available to everyone. We take steps to ensure the website we build are accessible to <a href="https://www.w3.org/WAI/intro/aria" target="_blank">Assistive Technologies</a>.
 								</p>
 							</li>
 							<li>
-								<div class="feature-container">
-									<img src="/_assets/svg-icons/dev-icons/optimized-conversion.svg" alt="" />
-									<span>Optimized for Conversion</span>
-								</div>
 
-								<p>
-									Because at the end of the day your website is a tool for turning visitors into customers, conversion is at the core of every website we build.
-								</p>
 							</li>
 						</ul><!--/ end of features list -->
 					</section><!--/ end of service features -->

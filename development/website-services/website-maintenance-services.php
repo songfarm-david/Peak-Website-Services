@@ -12,14 +12,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="service" id="maintenance">
 			<h2 class="hide"><?php echo $h2; ?></h2>
+
 			<div>
 				<div class="service-intro container">
 					<span>Take the load off having an online presence.</span>
 					<p>
 						Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
-					</p>
-					<p>
-						<a href="/contact.php?service_type=maintenance"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>&nbsp;Request A Quote</a>
 					</p>
 				</div>
 			</div>
@@ -36,56 +34,50 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
-							<span>Fast, Reliable Web Hosting</span>
+							<span>A Safe Place for Your Website</span>
 						</div>
 						<p>
-							Let us host your website on our lightning fast and secure <a href="/faq.php#canadian-hosting">Canadian Web Servers</a>. You can relax knowing your website is securely online and your data protected.
+							You can rest assured that your website is in good hands, hosted on industry-best servers and situated on Canadian Soil.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/support.svg" alt="" />
-							<span>Support When You Need It</span>
+							<span>Updates for Everyone</span>
 						</div>
 						<p>
-							The internet is dynamic and so should be your online business. We're just a phone call away whenever inspiration strikes or when you need to change something on your website.
+							Your business can be dynamic and so can your website. We understand that. All general updates and content changes are built in to the service.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
-							<span>No Contracts. No&nbsp;Restrictions.</span>
+							<span>Keeping the Train On The Rails</span>
 						</div>
 						<p>
-							We think you should be in control of your online business. That means you own everything, including your website and <a href="/faq.php#domain-name">domain name</a>.
+							You never know what might happen on the internet, but it's always good to know that you've got someone who will look out for your best interests.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
-							<span>Regular Website Check-Ups</span>
+							<span>Technical Assistance A Phone Call Away</span>
 						</div>
 						<p>
-							Monitoring the health and behavior of your site and making sure it's properly <a href="/faq.php#index">crawled and indexed</a> by search engines means your site visitors always have a green light to become a customer.
+							As one of our clients, you will have access to your very own IT guy, and that means we are at your disposal should you want to expand your online presence, or simply have a question about it.
 						</p>
 					</li>
 					<li>
 						<div class="feature-container">
 							<img src="/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
-							<span>Website Analytics</span>
+							<span>Regular Website Reports</span>
 						</div>
 						<p>
-							Keeping track of your website's performance is critical for growth. We'll show you who's coming to your site and what they're doing once they get there.
+							Sometimes it's important to stay abreast of what your website data is telling you so you can capitilize on opportunities.
 						</p>
 					</li>
 					<li>
-						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/up-arrow.svg" alt="" />
-							<span>Monthly Performance Reports</span>
-						</div>
-						<p>
-							See how well your website is performing in our <em>Monthly Performance Reports</em> and learn from the data to make better online business decisions.
-						</p>
+						&nbsp;
 					</li>
 				</ul>
 			</section><!--/ end of service features -->
