@@ -3,6 +3,10 @@ RewriteEngine on
 
 ## the following is a simple 301 redirect to another page
 #Redirect 301 /index.php http://peakwebsites.ca/website-services/
+Redirect 301 /website-services/website-creation-services.php http://peakwebsites.ca/website-services/
+Redirect 301 /about-peak.php http://peakwebsites.ca/about.php
+Redirect 301 /peak/faq.php http://peakwebsites.ca/faq.php
+Redirect 301 /peak/contact.php http://peakwebsites.ca/contact.php
 
 ## 301 redirect www to non-www
 RewriteCond %{HTTP_HOST} !^peakwebsites\.ca [NC]
