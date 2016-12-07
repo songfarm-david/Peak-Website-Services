@@ -1,9 +1,8 @@
 ## files & folders
-###
 *.md
+node_modules
 copy_scripts/
 development/sitemap.xml
 
 ## Garbage clean up
-###
 Thumbs.db

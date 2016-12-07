@@ -11,7 +11,7 @@
 #business-top {
 	position: relative;
 	background-color: @background-color;
-	background-image: url(../development/_images/air-triangulated.jpg);
+	background-image: url(../_images/air-triangulated.jpg);
 	background-size: cover;
 	background-position: 50% 75%;
 	height: auto;
@@ -44,7 +44,6 @@
 			}
 		}
 		p {
-			.border;
 			.font-size(1/@second-modular);
 			line-height: @second-modular;
 			background-color: rgba(255, 255, 255, .45);
@@ -61,6 +60,7 @@
 			@media (@md-query) {
 				width: 40%;
 				margin-top: @3-rem;
+				.border;
 			}
 			box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, .45);
 		}

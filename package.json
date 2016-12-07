@@ -1,5 +1,5 @@
 {
-  "name": "peak",
+  "name": "Peak",
   "version": "1.0.0",
   "description": "The body of code is designed as somewhat of a jumping-off point into building a fully fluid, grid-based and LESS enhanced development environment.",
   "main": "index.js",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/songfarm-david/Peak-Website-Services/issues"
   },
-  "homepage": "https://github.com/songfarm-david/Peak-Website-Services#readme"
+  "homepage": "https://github.com/songfarm-david/Peak-Website-Services#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
 }

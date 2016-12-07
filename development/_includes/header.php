@@ -16,7 +16,7 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="alternate" href="peakwebsites.ca" hreflang="en-us">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
-		<link rel="stylesheet" href="/peak/_css/main.css" media="screen" title="Main Style Sheet">
+		<link rel="stylesheet" href="/peak/development/_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Muli|PT+Sans:400,700" rel="stylesheet">
 	</head>
 	<body>
