@@ -21,8 +21,6 @@ $canonical = "http://peakwebsites.ca/";
 				</p>
 			</div>
 
-			<i class="fa fa-angle-down" aria-hidden="true"></i>
-
 		</section><!--/ end of Landing Page -->
 
 

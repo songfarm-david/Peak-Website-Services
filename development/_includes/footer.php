@@ -1,14 +1,11 @@
 	<footer>
-		<nav id="site-map">
-			<h4 class="h3">Site Map</h4>
+		<section id="social-links">
+			<h4 class="at-only">Social Links</h4>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about.php">About</a></li>
-				<li><a href="/website-services/">Website Services</a></li>
-				<li><a href="/faq.php"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
-				<li><a href="/contact.php">Contact</a></li>
+				<li><a href="https://twitter.com/peak_websites"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://github.com/songfarm-david/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 			</ul>
-		</nav>
+		</section>
 		<div id="copyright">
 			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 		</div>
