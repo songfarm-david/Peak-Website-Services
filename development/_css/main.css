@@ -207,6 +207,9 @@ textarea {
   margin-top: 4.7122632rem;
   text-transform: capitalize;
 }
+.nav-active {
+  background-color: rgba(255, 250, 242, 0.3);
+}
 .nav-active::after {
   content: "";
   position: absolute;
@@ -366,6 +369,7 @@ a:hover {
 }
 a.active-link {
   color: #27495D;
+  background-color: rgba(255, 250, 242, 0.3);
 }
 a.active-link::after {
   content: "";
@@ -671,7 +675,7 @@ nav {
   z-index: 1000;
   display: block;
   width: 100%;
-  height: 100%;
+  height: 73px;
 }
 nav::after {
   content: '';
@@ -688,6 +692,9 @@ nav .navbar-header button {
   height: 100%;
   width: auto;
   float: right;
+  padding: 0.87372rem;
+  padding-0.3: 2.9124rem;
+  /* css error */
   padding-top: .7rem;
   padding-bottom: .7rem;
   background: transparent;
@@ -731,6 +738,9 @@ nav ul li a {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+nav ul li a:hover {
+  background-color: rgba(153, 153, 153, 0.9);
+}
 @media (min-width: 48rem) {
   nav {
     position: absolute;
@@ -763,6 +773,9 @@ nav ul li a {
   nav ul li a {
     padding: 1.21654135rem;
     height: auto;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 250, 242, 0.3);
   }
   nav ul li a:hover::after {
     content: "";
@@ -1137,7 +1150,7 @@ footer #copyright span {
 */
 #website-services {
   position: relative;
-  background: #fff url('../_images/backgrounds/diamonds.svg') no-repeat;
+  background: #fff url('../_images/backgrounds/polygon-bg-green.svg') no-repeat;
   padding-top: 5.8248rem;
   padding-bottom: 5.8248rem;
   box-shadow: 0px 3px 5px 2px #27495D;
