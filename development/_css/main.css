@@ -306,7 +306,7 @@ h3,
 h4,
 .h4,
 #website-services article#service-table table thead {
-  font: 'Muli', Arial, sans-serif;
+  font: normal 1rem 'Muli', Arial, sans-serif;
   margin: 1.618rem 0 0.809rem;
   text-transform: capitalize;
 }
@@ -898,8 +898,9 @@ footer #copyright span {
 }
 #final-cta,
 #service-cta {
+  font: normal 1rem 'Muli', Arial, sans-serif;
   text-align: center;
-  background-color: #86A5C4;
+  background-color: #27495D;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -913,7 +914,6 @@ footer #copyright span {
 #final-cta div,
 #service-cta div {
   position: relative;
-  padding: 2.617924rem 0;
 }
 #final-cta div i,
 #service-cta div i {
@@ -923,7 +923,7 @@ footer #copyright span {
 }
 #final-cta:hover,
 #service-cta:hover {
-  background-color: #4F1271;
+  background-color: #366581;
   cursor: pointer;
 }
 @media (min-width: 48rem) {
@@ -936,7 +936,7 @@ footer #copyright span {
 /* index.php (main) */
 #elevate-business h2,
 #website-important h3 {
-  font-family: 'Muli', Arial, sans-serif;
+  font: normal 1rem 'Muli', Arial, sans-serif;
 }
 #website-important dt {
   font-weight: bold;
@@ -980,6 +980,7 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #business-top > div h1 {
+    padding-top: 2.9124rem;
     font-size: 6.9rem;
     margin-bottom: 2.617924rem;
   }
@@ -1005,9 +1006,9 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #business-top > div p {
-    width: 40%;
-    margin-top: 4.854rem;
-    border: 2px solid red;
+    font-size: 1.9rem;
+    width: 70%;
+    margin-top: 7.853772rem;
   }
 }
 #business-top i {
@@ -1019,10 +1020,19 @@ footer #copyright span {
     color: #E84855;
   }
 }
+#business-top em {
+  font-size: 115%;
+}
+#business-top em > a {
+  text-decoration: none;
+  color: #ca1928;
+}
+#business-top em > a:hover {
+  color: #E84855;
+}
 #elevate-business {
   height: auto;
-  background-color: #fff;
-  background-image: url(../_images/backgrounds/circle-mess-multi.svg);
+  background: #fff url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2225%25%22%20stop-color%3D%22%2386a5c4%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23ffffeb%22%20stop-opacity%3D%220.5%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
   padding-top: 2.9124rem;
   padding-bottom: 5.8248rem;
 }
@@ -1031,9 +1041,16 @@ footer #copyright span {
   padding-left: 1.21654135rem;
   padding-right: 1.21654135rem;
 }
+@media (min-width: 64rem) {
+  #elevate-business > div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8.7372rem;
+  }
+}
 #elevate-business > div h2 {
-  color: #e2e3ec;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.65);
+  color: #1b3240;
   font-size: 2.6rem;
 }
 @media (min-width: 48rem) {
@@ -1048,24 +1065,24 @@ footer #copyright span {
     margin-bottom: 4.7122632rem;
   }
 }
+#elevate-business > div #mountain-layout > div.col {
+  position: relative;
+  margin-top: 2.9124rem;
+  padding-left: 1.21654135rem;
+  padding-right: 1.21654135rem;
+  padding-bottom: 1.21654135rem;
+}
+@media (min-width: 64rem) {
+}
 #elevate-business > div p {
   color: #1a4b67;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 @media (min-width: 64rem) {
   #elevate-business > div p {
-    font-size: 1.6rem;
-    width: 70%;
+    font-size: 1.4rem;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media (min-width: 64rem) {
-  #elevate-business > div {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8.7372rem;
   }
 }
 @media (min-width: 64rem) {
@@ -1077,6 +1094,7 @@ footer #copyright span {
   padding-top: 5.8248rem;
   padding-bottom: 5.8248rem;
   background-color: #fff;
+  background-image: url(../_images/backgrounds/circle-mess-multi.svg);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
 }
 #website-important > div {
@@ -1087,19 +1105,21 @@ footer #copyright span {
   margin-bottom: 2.9124rem;
   padding-left: 1.21654135rem;
   padding-right: 1.21654135rem;
+  color: #182d39;
 }
 @media (min-width: 48rem) {
   #website-important > div h3 {
     font-size: 2.6rem;
     position: relative;
     margin-bottom: 4.7122632rem;
+    font-weight: bold;
   }
   #website-important > div h3::after {
     content: "";
     height: 5px;
     width: 12.5%;
     position: absolute;
-    background-color: #27495D;
+    background-color: #1b3240;
     bottom: -2.15194rem;
     left: 50%;
     transform: translateX(-50%);
@@ -1115,17 +1135,20 @@ footer #copyright span {
   margin-left: 0.53933333rem;
   margin-right: 0.53933333rem;
 }
-#website-important > div dl dt {
-  font-size: 130%;
-}
-#website-important > div dl dt:nth-child(1) {
+#website-important > div dl > .row div:nth-child(1) dt {
   color: #4F1271;
 }
-#website-important > div dl dt:nth-child(2) {
-  color: #1B998B;
+#website-important > div dl > .row div:nth-child(2) dt {
+  color: #056a5f;
 }
-#website-important > div dl dt:nth-child(3) {
+#website-important > div dl > .row div:nth-child(3) dt {
   color: #345995;
+}
+#website-important > div dl > .row dt {
+  font-size: 130%;
+}
+#website-important > div dl > .row dd {
+  color: #182d39;
 }
 #website-important > div dd {
   margin-bottom: 2.9124rem;
@@ -1229,7 +1252,7 @@ footer #copyright span {
   background-color: #eed;
 }
 #website-services article#service-table table thead {
-  font: 'Muli', Arial, sans-serif;
+  font: normal 1rem 'Muli', Arial, sans-serif;
   font-weight: bold;
 }
 #website-services article#service-table table thead tr th {

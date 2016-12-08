@@ -254,8 +254,9 @@ footer {
 }
 
 #final-cta {
+	font: @second-font;
 	text-align: center;
-	background-color: @pewter-blue;
+	background-color: @hero-color;
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -266,7 +267,6 @@ footer {
 	z-index: 100;
 	div {
 		position: relative;
-		padding: @1-rem*@first-modular 0;
 		i {
 			color: #fff;
 			.font-size(3);
@@ -275,7 +275,7 @@ footer {
 	}
 	.box-shadow;
 	&:hover {
-		background-color: @deep-purple;
+		background-color: lighten(@hero-color,10%);
 		cursor: pointer;
 	}
 	@media (@sm-query) {

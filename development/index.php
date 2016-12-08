@@ -17,7 +17,7 @@ $canonical = "http://peakwebsites.ca/";
 			<div class="container fadeInUp">
 				<h1>Put Your Business On&nbsp;<span>Top</span></h1>
 				<p>
-					Take your online business to the next level with our suite of <em>Website&nbsp;Services</em>.
+					Take your online business to the next level with our suite of <br><em><a href="/development/website-services/">Website&nbsp;Services</a></em>.
 				</p>
 			</div>
 
@@ -29,11 +29,19 @@ $canonical = "http://peakwebsites.ca/";
 		<!-- What We Do -->
 		<section id="elevate-business">
 
-			<div class="container">
-				<h2>Elevate Your Business Potential</h2>
-				<p>
-					Get a state-of-the-art website suited to your unique needs and vision. We'll set it up, host it for you, and keep you in the loop with monthly Website Visibility Reports. More than that, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.
-				</p>
+			<div class="container-alt">
+				<h2>Elevate Your Business Presence</h2>
+				<div class="row" id="mountain-layout">
+					<div class="col col-4">
+						<p>Get a state-of-the-art website suited to your unique needs and vision.</p>
+					</div>
+					<div class="col col-4">
+						<p>We'll host it for you <em>securely</em>, maintain it <em>regularly</em>, and keep you in the loop about your site's performance.</p>
+					</div>
+					<div class="col col-4">
+						<p>Best of all, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.</p>
+					</div>
+				</div>
 			</div>
 
 		</section><!--/ what we do -->
@@ -47,15 +55,15 @@ $canonical = "http://peakwebsites.ca/";
 				<dl>
 					<div class="row">
 						<div class="col col-4">
-							<dt style="color:#4F1271">More Credibility</dt>
+							<dt>More Credibility</dt>
 							<dd>A strong website communicates to everyone that you mean business. It immediately establishes credibility in the eyes of your customers and makes them much more likely to engage with your business.</dd>
 						</div>
 						<div class="col col-4">
-							<dt style="color:#1B998B">More Exposure</dt>
+							<dt>More Exposure</dt>
 							<dd>A well positioned website attracts the right kind of customer to your business. It puts you in front of your core audience and acts as a continuous stream of highly targeted, relevant traffic to your website.</dd>
 						</div>
 						<div class="col col-4">
-							<dt style="color:#345995;">More Money</dt>
+							<dt>More Money</dt>
 							<dd>9 out of 10 consumers today rely on the internet to locate and evaluate goods and services. The right website expands market reach, builds consumer relationships, and grows revenue.</dd>
 						</div>
 					</div>
