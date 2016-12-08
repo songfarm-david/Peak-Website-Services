@@ -30,7 +30,7 @@ $canonical = "http://peakwebsites.ca/";
 		<section id="elevate-business">
 
 			<div class="container-alt">
-				<h2>Elevate Your Business Presence</h2>
+				<h2>Elevate Your Online Presence</h2>
 				<div class="row" id="mountain-layout">
 					<div class="col col-4">
 						<p>Get a state-of-the-art website suited to your unique needs and vision.</p>

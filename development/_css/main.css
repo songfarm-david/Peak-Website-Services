@@ -841,12 +841,14 @@ footer #site-map {
   position: relative;
   margin: 0 auto;
   margin-top: 2.9124rem;
+  margin-bottom: 2.9124rem;
   display: block;
   clear: both;
   z-index: 100;
+  border: 2px solid red;
 }
 footer #site-map > h4 {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
+  font: normal 1rem 'Muli', Arial, sans-serif;
   font-size: 2.6rem;
 }
 footer #site-map ul {
@@ -902,35 +904,48 @@ footer #copyright span {
   text-align: center;
   background-color: #27495D;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   transition: background-color 0.25s linear;
   position: relative;
   z-index: 100;
+  padding: 2.9124rem;
+  padding-1: 2.9124rem;
+  padding-top: 2.617924rem;
+  padding-bottom: 2.617924rem;
   box-shadow: 0px 3px 5px 2px #27495D;
 }
-#final-cta div,
-#service-cta div {
-  position: relative;
+@media (min-width: 48rem) {
+  #final-cta,
+  #service-cta {
+    padding-bottom: 3.236rem;
+  }
 }
-#final-cta div i,
-#service-cta div i {
-  color: #fff;
-  font-size: 4.2rem;
-  position: relative;
+@media (min-width: 48rem) {
+  #final-cta,
+  #service-cta {
+    padding: 5.8248rem;
+    padding-2: 2.9124rem;
+  }
 }
 #final-cta:hover,
 #service-cta:hover {
   background-color: #366581;
   cursor: pointer;
 }
+#final-cta h2,
+#service-cta h2 {
+  font-size: 2.6rem;
+}
+#final-cta h2 > i,
+#service-cta h2 > i {
+  color: inherit;
+  font-size: inherit;
+  position: relative;
+}
 @media (min-width: 48rem) {
-  #final-cta div,
-  #service-cta div {
-    padding: 5.8248rem;
-    padding-2: 2.9124rem;
+  #final-cta h2,
+  #service-cta h2 {
+    font-size: 3.6rem;
   }
 }
 /* index.php (main) */
