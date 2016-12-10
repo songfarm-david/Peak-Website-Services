@@ -45,63 +45,44 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<td>We dedicate a portion of hours each month to your business, analyzing keywords and optimizing your online presence.</td>
 					</tr>
 					<tr>
-						<td id="cost-examples">
-							<i>Cost Examples:</i><br>
-							<b>Ex. 1</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
-							<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
-							<span class="cost"><i>$1,000&mdash;$1,500</i></span>
-							<br>
-							<b>Ex. 2</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
-							<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
-							<span class="cost"><i>$1,000&mdash;$1,500</i></span>
-						</td>
+						<td class="tr-header">Comes with:</td>
 						<td class="tr-header">Includes a minimum of:</td>
 						<td class="tr-header">Includes a minimum of:</td>
 					</tr>
 					<tr>
-						<td class="stop-row td-no-bg"></td>
-						<td>Reliable Hosting (99.99% uptime)</td>
-						<td></td>
+						<td>Professional Grade</td>
+						<td>Domain Name</td>
+						<td>Keyword Optimization</td>
 					</tr>
 					<tr>
-						<td class="td-no-bg">&nbsp;</td>
-						<td>Weekly remote server backups</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Mobile-Ready &amp; Optimized</td>
+						<td>Website Hosting</td>
+						<td>Personalize Keyword Strategy</td>
 					</tr>
 					<tr>
-						<td class="td-no-bg"></td>
-						<td>Technical Support When You Need It</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Blog, eCommerce integrations</td>
+						<td>Secured Connection</td>
+						<td>Invaluable Competitor Insights</td>
 					</tr>
 					<tr>
-						<td class="td-no-bg"></td>
-						<td>Monthly Website Visibility Report*</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>No Page Limits</td>
+						<td>Free Content Updates</td>
+						<td>Optimized Website</td>
 					</tr>
 					<tr>
-						<td class="td-no-bg"></td>
-						<td>Content Updates*</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Tailored To Your Business</td>
+						<td>Regular Website Check-Ups</td>
+						<td>Local SEO</td>
 					</tr>
 					<tr>
-						<td></td>
-						<td>Unlimited Domain Email</td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>Search Engine Ready</td>
+						<td>Regular Website Analytics Reports</td>
+						<td>Regular Search Engine Visibility Reports</td>
 					</tr>
 					<tr>
-						<td class="td-no-bg"></td>
-						<td>Mailing Lists</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td>Unlimited Databases</td>
-						<td>Maybe there needs to be some text inside of here</td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td>Maybe there needs to be some text inside of here</td>
+						<td>No Restrictive Contracts</td>
+						<td>Your Own IT Guy On Speed-Dial</td>
+						<td>Dedicated SEO Specialist</td>
 					</tr>
 				</tbody>
 				<tfoot>
@@ -112,32 +93,5 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</article>
 
 	</section>
-
-
-	<!-- services -->
-	<!-- <div id="service-container"> -->
-
-		<!-- website creation services -->
-		<!-- <div class="grow grow-left">
-			<h3>Website <span>Development</span> Services</h3>
-			<a href="website-development-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-		<!-- website maintenance services -->
-		<!-- <div class="grow grow-center">
-			<h3>Website <span>Maintenance</span> Services</h3>
-			<a href="website-maintenance-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-		<!-- website optimization services -->
-		<!-- <div class="grow grow-right">
-			<h3>Website <span>Optimization</span> Services</h3>
-			<a href="website-optimization-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-	<!-- </div> -->
-	<!--/ end services -->
-
-	<!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
 
 <?php require_once('../_includes/footer.php') ?>

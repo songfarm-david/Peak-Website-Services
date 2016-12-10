@@ -226,3 +226,15 @@
 ### Checkout
 	Have a good check-out process should someone perform a transaction on my site.
 	[BrandId](https://thebrandidthemes.com/) sells website templates from their website!
+
+### Cost Examples
+<td id="cost-examples">
+	<i>Cost Examples:</i><br>
+	<b>Ex. 1</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
+	<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
+	<span class="cost"><i>$1,000&mdash;$1,500</i></span>
+	<br>
+	<b>Ex. 2</b>:	<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span><br>
+	<span class="br-space">They are active in the fishing community so would like to maintain a blog and be able to update it themselves.</span> They would also like the ability to be notified when a new visitor comes to their site and be able to start typing to them while they shop.<br>
+	<span class="cost"><i>$1,000&mdash;$1,500</i></span>
+</td>
