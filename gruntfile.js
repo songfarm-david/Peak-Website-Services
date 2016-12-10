@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+
 	grunt.initConfig({
 		concat : {
 			options : {
@@ -15,6 +16,9 @@ module.exports = function(grunt) {
 					'development/_css/main.css' : 'development/_less/theme/compile.less'
 				}
 			}
+		},
+		jshint : {
+			dev : ['gruntfile.js','development/_js/script.js']
 		},
 		watch : {
 			options : {
@@ -34,10 +38,13 @@ module.exports = function(grunt) {
 			}
 		}
 	}); // initConfig
+
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
+
 	// register tasks
 	grunt.registerTask('default',['concat','less','watch']);
+
 }; // wrapper function

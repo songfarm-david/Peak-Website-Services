@@ -2,17 +2,10 @@
   "name": "Peak",
   "version": "1.0.0",
   "description": "The body of code is designed as somewhat of a jumping-off point into building a fully fluid, grid-based and LESS enhanced development environment.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songfarm-david/Peak-Website-Services.git"
   },
-  "keywords": [
-    "awesomeness"
-  ],
   "author": "David Gaskin",
   "license": "ISC",
   "bugs": {
@@ -23,6 +16,7 @@
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-watch": "^1.0.0"
   }
