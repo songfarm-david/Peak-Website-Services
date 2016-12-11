@@ -11,21 +11,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<!-- service -->
 		<section class="service" id="optimization">
-			<h2 class="hide"><?php echo $h2; ?></h2>
+			<h2 class="at-only"><?php echo $h2; ?></h2>
 
-			<div>
-				<div class="service-intro container">
-					<span>Your website should work <em>for</em> you.</span>
-					<p>
-						We are a strong proponent of the <em>'work smarter not harder'</em> philosophy and make it easy for you to make smarter decisions by knowing what's important to your customers and what's going on with your website.
-					</p>
-				</div>
+			<div class="service-intro container">
+				<span>Your website should work <em>for</em> you.</span>
+				<p>
+					We are a strong proponent of the <em>'work smarter not harder'</em> philosophy and make it easy for you to make smarter decisions by knowing what's important to your customers and what's going on with your website.
+				</p>
 			</div>
 
 			<!-- service features -->
 			<section class="service-features container" id="website-optimization-plan">
 				<h3 class="at-only">Website Optimization Plan</h3>
-				<h4 class="hide">Included as a minimum in every plan:</h4>
+				<!-- features list -->
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
@@ -81,8 +79,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</section>
 
 		<!-- cta -->
-		<?php include('../_includes/theme/banner.php'); ?>
-		<!--/ end of cta -->
+		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
 	</main>
 

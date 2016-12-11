@@ -11,24 +11,18 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<!-- service -->
 		<section class="service" id="maintenance">
-			<h2 class="hide"><?php echo $h2; ?></h2>
+			<h2 class="at-only"><?php echo $h2; ?></h2>
 
-			<div>
-				<div class="service-intro container">
+			<div class="service-intro container">
 					<span>Take the load off having an online presence.</span>
 					<p>
 						Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
 					</p>
 				</div>
-			</div>
 
 			<!-- service features -->
-			<section class="service-features container" id="website-maintenance-plan">
+			<section class="service-features container-alt" id="website-maintenance-plan">
 				<h3 class="at-only">Website Maintenance Plan</h3>
-				<p class="h4 hide">
-					Everything you need to keep your business online and running smoothly.
-				</p>
-				<h4 class="hide">What's included:</h4>
 				<!-- features list -->
 				<ul class="feature-list">
 					<li>
@@ -86,9 +80,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</section><!--/ end of service -->
 
 		<!-- cta -->
-		<?php include('../_includes/theme/banner.php'); ?>
-		<!--/ end of cta -->
+		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
-</main>
+	</main>
 
 <?php require_once('../_includes/footer.php') ?>

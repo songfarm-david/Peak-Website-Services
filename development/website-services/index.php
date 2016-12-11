@@ -7,6 +7,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
+<main>
+
 	<!-- Website Services -->
 	<section id="website-services">
 
@@ -17,9 +19,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<!-- services table -->
 		<article id="service-table">
-
 			<h3 class="at-only">Website Services Table</h3>
-
 			<!-- NOTE: table will exist as back-up. A flexbox version will be implemented afterwards. -->
 			<table role="table" cellspacing="0">
 				<caption class="at-only">Website Services Table</caption>
@@ -108,36 +108,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<!-- if applicable -->
 				</tfoot>
 			</table>
-
 		</article>
 
 	</section>
 
-
-	<!-- services -->
-	<!-- <div id="service-container"> -->
-
-		<!-- website creation services -->
-		<!-- <div class="grow grow-left">
-			<h3>Website <span>Development</span> Services</h3>
-			<a href="website-development-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-		<!-- website maintenance services -->
-		<!-- <div class="grow grow-center">
-			<h3>Website <span>Maintenance</span> Services</h3>
-			<a href="website-maintenance-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-		<!-- website optimization services -->
-		<!-- <div class="grow grow-right">
-			<h3>Website <span>Optimization</span> Services</h3>
-			<a href="website-optimization-services.php"><span class="at-only">Select</span></a>
-		</div> -->
-
-	<!-- </div> -->
-	<!--/ end services -->
-
-	<!-- <i class="fa fa-angle-down" aria-hidden="true"></i> -->
+</main>
 
 <?php require_once('../_includes/footer.php') ?>
