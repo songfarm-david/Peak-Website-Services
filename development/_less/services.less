@@ -1,10 +1,27 @@
 /*
 * peakwebsites.ca/website-services/
 */
+.service {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	.box-shadow();
+}
+#website-services {
+	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
+}
+#development {
+	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-green.png')
+}
+#maintenance {
+	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-pink.png')
+}
+#optimization {
+	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-purple.png')
+}
+
 
 #website-services {
 	position: relative;
-	background: #fff url('../_images/backgrounds/polygon-bg-green.svg') no-repeat;
 	.base(padding,top,2);
 	.base(padding,bottom,2);
 	.box-shadow();
@@ -166,8 +183,6 @@
 
 // individual service pages
 .service {
-	.box-shadow();
-	background-color: ;
 	>.service-intro {
 		.base(padding,.5);
 		height: auto;

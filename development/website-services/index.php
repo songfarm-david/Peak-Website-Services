@@ -10,7 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <main>
 
 	<!-- Website Services -->
-	<section id="website-services">
+	<section id="website-services" class="service">
 
 		<div class="container">
 			<h2>With You Every Step of the Way</h2>
