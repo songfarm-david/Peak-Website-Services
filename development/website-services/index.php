@@ -28,17 +28,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<col>
 				<thead>
 					<tr>
-						<th role="columnheader" scope="col" aria-owns="body-dev-1"><a href="">Website Development Services</a></th>
-						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="">Website Maintenance Services</a></th>
-						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="">Website Optimization Services</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-dev-1"><a href="peak/development/website-services/website-development-services.php">Development</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="peak/development/website-services/website-maintenance-services.php">Maintenance</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="peak/development/website-services/website-optimization-services.php">Optimization</a></th>
+					</tr>
+					<tr id="intro">
+						<th>Great for starting your online business off on the right foot.</th>
+						<th>Lets you focus on your business. <br>Not your website.</th>
+						<th>Perfect for business owners that want to put their website on top.</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr id="intro">
-						<td id="body-dev-1">Great for starting your online business off on the right foot.</td>
-						<td id="body-maint-1">Lets you focus on your business. <br>Not your website.</td>
-						<td id="body-optim-1">Perfect for business owners that want to put their website on top.</td>
-					</tr>
 					<tr>
 						<td class="tr-header">Comes with:</td>
 						<td class="tr-header">Includes a minimum of:</td>
@@ -81,7 +81,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</tr>
 				</tbody>
 				<tfoot>
-					<!-- if applicable -->
+					<tr>
+						<td id="foot-dev-1" class="no-bg-tr">
+							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
+							<a href="/peak/development/website-services/website-development-services.php">Learn More</a>
+						</td>
+						<td id="foot-maint-1" class="no-bg-tr">
+							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
+							<a href="/peak/development/website-services/website-maintenance-services.php">Learn More</a>
+						</td>
+						<td id="foot-optim-1" class="no-bg-tr">
+							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
+							<a href="/peak/development/website-services/website-optimization-services.php">Learn More</a>
+						</td>
+					</tr>
 				</tfoot>
 			</table>
 		</article>

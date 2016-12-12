@@ -24,6 +24,7 @@
 	.base(padding,top,2);
 	.base(padding,bottom,2);
 	.box-shadow();
+	background-color: white;
 	@media (@sm-query) {
 		height: auto;
 		min-height: 100vh;
@@ -37,7 +38,7 @@
 		}
 		h2 {
 			font: @header-font;
-			font-weight: bold;
+			// font-weight: bold;
 			.font-size(2);
 			color: darken(@hero-color,5%);
 			@media (@sm-query) {
@@ -50,6 +51,7 @@
 		p {
 			@media (@sm-query) {
 				.font-size(1);
+				line-height: @line-height;
 			}
 			margin-bottom: @2-rem*@first-modular;
 		}
@@ -67,26 +69,50 @@
 			margin-left: auto;
 			position: relative;
 			min-width: 900px;
+			tr:nth-child(odd) {
+				td {
+					background-color: #eed;
+				}
+			}
+			tr>td.no-bg-tr {
+				background-color: transparent !important;
+			}
 			th,
 			td {
 				border-right: 1px solid #edd;
 				background-color: #fefefe;
 			}
-			tr:nth-child(even) {
-				td {
-					background-color: #eed;
-				}
-			}
 			thead {
-				font: @second-font;
-				&:extend(.h4);
-				font-weight: bold;
-				>tr th {
-					.font-size(1);
-					.base(padding,@1-rem/4);
+				>tr {
+					th {
+						&:extend(.h3);
+						a {
+							text-decoration: none;
+							// .font-size(2/@first-modular);
+						}
+					}
+				}
+				tr+tr#intro {
+					th {
+						&:extend(p);
+						font-size: 115%;
+						padding-left: @1-rem*@second-modular;
+						padding-right: @1-rem*@second-modular;
+						padding-top: @1-rem/@second-modular;
+						padding-bottom: @2-rem;
+						a {
+							text-transform: capitalize;
+						}
+					}
 				}
 			}
 			tbody {
+				tr .tr-header {
+					padding-top: 18px;
+					padding-bottom: 9px;
+					line-height: @line-height;
+					background-color: #eed;
+				}
 				tr {
 					td {
 						text-align: center;
@@ -152,22 +178,45 @@
 						margin-bottom: @1-rem/@first-modular;
 					}
 				}
-				>tr#intro {
-					td {
-						.font-size(1/@first-modular);
-						padding-bottom: @1-rem*@first-modular;
-
-						a {
-							text-transform: capitalize;
-						}
-					}
-				}
 				#byline {
 					padding-top: 18px;
 					td {
 						vertical-align: top;
 						padding-top: 18px;
 						// .td-no-bg;
+					}
+				}
+			}
+			tfoot {
+				tr>td {
+					position: relative;
+					top: @1-rem*@first-modular;
+					padding-left: @1-rem*@first-modular;
+					padding-right: @1-rem*@first-modular;
+					a {
+						display: block;
+						text-align: center;
+						padding-top: 18px;
+						padding-bottom: 18px;
+						.font-size(1);
+						text-decoration: none;
+					}
+					a.get-started {
+						background-color: @hero-color;
+						color: white;
+						border: 1px solid white;
+						&:hover {
+							background-color: white;
+							color: @hero-color;
+							border-color: @hero-color;
+						}
+					}
+					a.get-started+a {
+						padding-top: 9px;
+						font-size: 100%;
+						&:hover {
+							text-decoration: underline;
+						}
 					}
 				}
 			}
