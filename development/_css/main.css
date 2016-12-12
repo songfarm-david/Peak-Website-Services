@@ -305,7 +305,7 @@ h3,
 .h3,
 h4,
 .h4,
-#website-services article#service-table table thead {
+#website-services #service-table table thead {
   font: normal 1rem 'Muli', Arial, sans-serif;
   margin: 1.618rem 0 0.809rem;
   text-transform: capitalize;
@@ -324,7 +324,7 @@ span {
 }
 h4,
 .h4,
-#website-services article#service-table table thead {
+#website-services #service-table table thead {
   font-size: 1.6rem;
 }
 h3,
@@ -1230,7 +1230,7 @@ footer #copyright span {
     font-size: 1.6rem;
   }
 }
-#website-services article#service-table {
+#website-services #service-table {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.45);
@@ -1238,13 +1238,13 @@ footer #copyright span {
   padding-bottom: 4.7122632rem;
 }
 @media (min-width: 48rem) {
-  #website-services article#service-table {
+  #website-services #service-table {
     width: 100%;
     max-width: 86.46616541rem;
     margin: 0 auto;
   }
 }
-#website-services article#service-table table {
+#website-services #service-table table {
   width: 85%;
   border-left: 1px solid #eed;
   margin-right: auto;
@@ -1252,26 +1252,27 @@ footer #copyright span {
   position: relative;
   min-width: 900px;
 }
-#website-services article#service-table table .td-no-bg {
+#website-services #service-table table .td-no-bg {
   background-color: #fefefe !important;
 }
-#website-services article#service-table table th,
-#website-services article#service-table table td {
+#website-services #service-table table th,
+#website-services #service-table table td {
   border-right: 1px solid #edd;
   background-color: #fefefe;
 }
-#website-services article#service-table table tr:nth-child(even) td {
+#website-services #service-table table tr:nth-child(even) td {
   background-color: #eed;
 }
-#website-services article#service-table table thead {
+#website-services #service-table table thead {
   font: normal 1rem 'Muli', Arial, sans-serif;
   font-weight: bold;
 }
-#website-services article#service-table table thead tr th {
+#website-services #service-table table thead > tr th {
   line-height: 2.15194;
   padding-bottom: 1.618rem;
+  border: 2px solid red;
 }
-#website-services article#service-table table tbody tr td {
+#website-services #service-table table tbody tr td {
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -1279,36 +1280,36 @@ footer #copyright span {
   padding-right: 1.618rem;
   width: 33.33333333%;
 }
-#website-services article#service-table table tbody tr td.tr-header {
+#website-services #service-table table tbody tr td.tr-header {
   text-align: left;
   vertical-align: bottom;
   font-weight: bold;
 }
-#website-services article#service-table table tbody tr > td#cost-examples {
+#website-services #service-table table tbody tr > td#cost-examples {
   position: absolute;
   text-align: left;
 }
-#website-services article#service-table table tbody tr > td#cost-examples > i {
+#website-services #service-table table tbody tr > td#cost-examples > i {
   font-size: 1.6rem;
   display: block;
   margin-top: 1.618rem;
   margin-bottom: 1.21654135rem;
 }
-#website-services article#service-table table tbody tr > td#cost-examples ul {
+#website-services #service-table table tbody tr > td#cost-examples ul {
   list-style-type: circle;
   padding-top: 18px;
   margin-bottom: 9px;
   font-family: Arial, sans-serif;
   font-size: 1rem;
 }
-#website-services article#service-table table tbody tr > td#cost-examples ul + span {
+#website-services #service-table table tbody tr > td#cost-examples ul + span {
   width: 100%;
   display: block;
   text-align: right;
   font-size: 1.3rem;
   font-style: italic;
 }
-#website-services article#service-table table tbody tr > td#cost-examples span.cost {
+#website-services #service-table table tbody tr > td#cost-examples span.cost {
   display: block;
   text-align: right;
   padding-top: 9px;
@@ -1318,24 +1319,24 @@ footer #copyright span {
   margin-bottom: 0;
   border-bottom: 1px solid #ccc;
 }
-#website-services article#service-table table tbody tr > td#cost-examples span.br-space {
+#website-services #service-table table tbody tr > td#cost-examples span.br-space {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-#website-services article#service-table table tbody #intro td {
+#website-services #service-table table tbody #intro td {
   vertical-align: top;
   padding-bottom: 0;
   background-color: #fefefe !important;
   font-size: 1.3rem;
 }
-#website-services article#service-table table tbody #intro td a {
+#website-services #service-table table tbody #intro td a {
   text-transform: capitalize;
 }
-#website-services article#service-table table tbody #byline {
+#website-services #service-table table tbody #byline {
   padding-top: 18px;
 }
-#website-services article#service-table table tbody #byline td {
+#website-services #service-table table tbody #byline td {
   vertical-align: top;
   padding-top: 18px;
   background-color: #fefefe !important;
