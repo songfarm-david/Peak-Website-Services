@@ -28,9 +28,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<col>
 				<thead>
 					<tr>
-						<th role="columnheader" scope="col" aria-owns="body-dev-1">Website Development Services</th>
-						<th role="columnheader" scope="col" aria-owns="body-maint-1">Website Maintenance Services</th>
-						<th role="columnheader" scope="col" aria-owns="body-optim-1">Website Optimization Services</th>
+						<th role="columnheader" scope="col" aria-owns="body-dev-1"><a href="">Website Development Services</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="">Website Maintenance Services</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="">Website Optimization Services</a></th>
 					</tr>
 				</thead>
 				<tbody>
