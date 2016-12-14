@@ -27,7 +27,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
+							<img src="../../_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
 							<span>A Safe Place for Your Website</span>
 						</div>
 						<p>
@@ -36,7 +36,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/support.svg" alt="" />
+							<img src="../../_assets/svg-icons/maint-icons/support.svg" alt="" />
 							<span>Updates for Everyone</span>
 						</div>
 						<p>
@@ -45,7 +45,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/contract.svg" alt="" />
+							<img src="../../_assets/svg-icons/maint-icons/contract.svg" alt="" />
 							<span>Keeping the Train On The Rails</span>
 						</div>
 						<p>
@@ -54,7 +54,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
+							<img src="../../_assets/svg-icons/maint-icons/website-checkup.svg" alt="" />
 							<span>Technical Assistance A Phone Call Away</span>
 						</div>
 						<p>
@@ -63,7 +63,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/maint-icons/analytics.svg" alt="" />
+							<img src="../../_assets/svg-icons/maint-icons/analytics.svg" alt="" />
 							<span>Regular Website Reports</span>
 						</div>
 						<p>

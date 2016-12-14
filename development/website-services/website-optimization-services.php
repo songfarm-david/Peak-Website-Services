@@ -21,13 +21,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 
 			<!-- service features -->
-			<section class="service-features container" id="website-optimization-plan">
+			<section class="service-features container-alt" id="website-optimization-plan">
 				<h3 class="at-only">Website Optimization Plan</h3>
 				<!-- features list -->
 				<ul class="feature-list">
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
+							<img src="../../_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
 							<span>Keyword Strategy Personalized to Your Business</span>
 						</div>
 						<p>
@@ -36,7 +36,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
+							<img src="../../_assets/svg-icons/optimize-icons/competitor-insights.svg" alt="" />
 							<span>Learn About your Competitors</span>
 						</div>
 						<p>
@@ -45,7 +45,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
+							<img src="../../_assets/svg-icons/optimize-icons/search-visibility.svg" alt="" />
 							<span>Optimized Search Visibility</span>
 						</div>
 						<p>
@@ -54,7 +54,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
+							<img src="../../_assets/svg-icons/optimize-icons/megaphone.svg" alt="" />
 							<span>Learn From the Data</span>
 						</div>
 						<p>
@@ -63,7 +63,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</li>
 					<li>
 						<div class="feature-container">
-							<img src="/_assets/svg-icons/optimize-icons/market.svg" alt="" />
+							<img src="../../_assets/svg-icons/optimize-icons/market.svg" alt="" />
 							<span>Flexible to Change</span>
 						</div>
 						<p>

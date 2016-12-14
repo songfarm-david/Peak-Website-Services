@@ -28,9 +28,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<col>
 				<thead>
 					<tr>
-						<th role="columnheader" scope="col" aria-owns="body-dev-1"><a href="peak/development/website-services/website-development-services.php">Development</a></th>
-						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="peak/development/website-services/website-maintenance-services.php">Maintenance</a></th>
-						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="peak/development/website-services/website-optimization-services.php">Optimization</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-dev-1"><a href="/website-services/website-development-services.php">Development</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="/website-services/website-maintenance-services.php">Maintenance</a></th>
+						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="/website-services/website-optimization-services.php">Optimization</a></th>
 					</tr>
 					<tr id="intro">
 						<th>Great for starting your online business off on the right foot.</th>
@@ -83,22 +83,29 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<tfoot>
 					<tr>
 						<td id="foot-dev-1" class="no-bg-tr">
-							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
-							<a href="/peak/development/website-services/website-development-services.php">Learn More</a>
+							<a href="/contact.php" class="get-started">Get Started</a>
+							<a href="/website-services/website-development-services.php">Learn More</a>
 						</td>
 						<td id="foot-maint-1" class="no-bg-tr">
-							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
-							<a href="/peak/development/website-services/website-maintenance-services.php">Learn More</a>
+							<a href="/contact.php" class="get-started">Get Started</a>
+							<a href="/website-services/website-maintenance-services.php">Learn More</a>
 						</td>
 						<td id="foot-optim-1" class="no-bg-tr">
-							<a href="/peak/development/contact.php" class="get-started">Get Started</a>
-							<a href="/peak/development/website-services/website-optimization-services.php">Learn More</a>
+							<a href="/contact.php" class="get-started">Get Started</a>
+							<a href="/website-services/website-optimization-services.php">Learn More</a>
 						</td>
 					</tr>
 				</tfoot>
 			</table>
 		</article>
 
+	</section>
+
+	<section>
+		<h3 class="at-only">Contact Us</h3>
+		<div class="container-alt">
+			<p class="h3">Not sure what you need?	<br><span><a href="/contact.php">Contact Us</a> for a free assessment.</span></p>
+		</div>
 	</section>
 
 </main>
