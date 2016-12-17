@@ -12,8 +12,7 @@
 	position: relative;
 	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
-	background-size: cover;
-	background-position: 50% 75%;
+	background-size: 100%; // cover? compare difference
 	height: auto;
 	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
 	.base(padding,top,2);
@@ -23,7 +22,7 @@
 		.base(padding,top,2*@first-modular);
 	}
 	>div {
-		text-align: center;
+		text-align: left;
 		h1 {
 			font: @header-font;
 			.font-size(2);
@@ -45,6 +44,7 @@
 			}
 		}
 		p {
+			display: none;
 			.font-size(1/@second-modular);
 			line-height: @second-modular;
 			background-color: rgba(255, 255, 255, .45);
