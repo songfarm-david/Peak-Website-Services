@@ -1,8 +1,10 @@
 // MEDIA QUERY SIZES
 // Declare Media sizes:
+@xs-screen: 320 // 640 x2
 @sm-screen: 768; // iPad portrait
 @md-screen: 1024; // iPad landscape
-@lg-screen: 1900;
+@lg-screen: 1680;
+@xl-screen: 1920;
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
 @sm-screen-rem: unit((@sm-screen / @browser-size-default), rem);
 @md-screen-rem: unit((@md-screen / @browser-size-default), rem);
