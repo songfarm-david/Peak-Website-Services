@@ -791,6 +791,9 @@ nav.navbar ul li a:hover {
     width: 97%;
   }
 }
+#primary-nav {
+  display: none;
+}
 footer {
   position: static;
   width: 100%;
