@@ -17,8 +17,9 @@
 		<link rel="alternate" href="peakwebsites.ca" hreflang="en-us">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<link rel="stylesheet" href="/peak/development/_css/main.css" media="screen" title="Main Style Sheet">
-		<link href="https://fonts.googleapis.com/css?family=Passion+One:900|Muli|PT+Sans:400,700" rel="stylesheet">
-	</head>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway:400,700" rel="stylesheet">	
+
+</head>
 	<body>
 		<!--[if lt IE 8]>
 				<script src="_js/vendor/html5shiv.js"></script>

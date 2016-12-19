@@ -2,7 +2,7 @@
 
 #elevate-business h2,
 #website-important h3 {
-	font: @second-font;
+	font-family: @header-font;
 }
 #website-important dt {
 	font-weight: bold;
@@ -12,38 +12,46 @@
 	position: relative;
 	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
-	background-size: 100%; // cover? compare difference
+	background-size: cover; // cover? compare difference
+	background-position: 75% center;
 	height: auto;
-	box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
-	.base(padding,top,2);
-	.base(padding,bottom,2);
+	// box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
 	@media (@sm-query) {
 		height: 100vh;
-		.base(padding,top,2*@first-modular);
 	}
 	h1 {
-		font: @header-font;
-		.font-size(2);
 		color: @hero-color;
-		.base(margin,bottom,1);
+		font-family: @header-font;
+		font-weight: 700;
+		line-height: @line-height;
+		text-shadow: 2px 2px 2px lighten(@hero-color, 10%);
+		.font-size(2.5);
+		margin-top: 0;
+		// .base(margin,bottom,1);
 		>span {
 			font-size: inherit;
-			color: @secondary-color;
+			color: #1B998B;
 		}
 		@media (@sm-query) {
 			.font-size(3);
-			.base(margin,bottom,2*@first-modular);
+			// .base(margin,bottom,2*@first-modular);
 		}
 		@media (@md-query) {
-			.base(padding,top,1);
+			.base(padding,top,4);
 			.font-size(6);
 		}
 	}
 	div.callout-container {
-		background-color: rgba(255, 255, 255, .45);
+		// background-color: rgba(255, 255, 255, .45);
+		.base(margin,top,1/@second-modular);
+		width: @page-width/(@first-modular*1.5);
 		p {
 			// display: none;
-			.font-size(1/@second-modular);
+			font-family: @body-font;
+			.font-size(2);
+			color: #1B998B;
+			font-weight: 700;
+
 			// line-height: @second-modular;
 
 			// color: #333;
@@ -52,29 +60,51 @@
 				// width: 60%;
 			}
 			@media (@md-query) {
-				.font-size(1*@second-modular);
-				// width: 70%;
+				.font-size(2);
 				// margin-top: @3-rem*@first-modular;
 			}
 		}
+		p+p {
+			// display: none;
+			color: @hero-color;
+			.font-size(1.5);
+			font-weight: normal;
+			.base(margin,bottom,1);
+			width: 85%;
+
+		}
+		a {
+			font-family: @body-font;
+			box-shadow: 2px 2px 2px lighten(@hero-color, 10%);
+
+			color: white;
+			font-weight: 400;
+			letter-spacing: 1px;
+			.border(#1B998B);
+			padding: @1-rem/2 @1-rem*2;
+			.font-size(1);
+			background-color: #1B998B;
+			text-decoration: none;
+			border-radius: 2px;
+		}
 	}
 
-	i {
-		display: none;
-		@media (@sm-query) {
-			display: block; // show bouncy arrow
-			color: @secondary-color;
-		}
-	}
-	em {
-		font-size: 115%;
-		>a {
-			text-decoration: none;
-			&:hover {
-				color: darken(@secondary-color,15%);
-			}
-		}
-	}
+	// i {
+	// 	display: none;
+	// 	@media (@sm-query) {
+	// 		display: block; // show bouncy arrow
+	// 		color: @secondary-color;
+	// 	}
+	// }
+	// em {
+	// 	font-size: 115%;
+	// 	>a {
+	// 		text-decoration: none;
+	// 		&:hover {
+	// 			color: darken(@secondary-color,15%);
+	// 		}
+	// 	}
+	// }
 }
 
 #elevate-business {

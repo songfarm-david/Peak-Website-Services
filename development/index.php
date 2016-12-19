@@ -20,8 +20,8 @@ $canonical = "http://peakwebsites.ca/";
 					<p>
 						Peak Technical Services for Exceptional Business Owners.
 					</p>
-					<p>Let us be your guide on the rocky path to online success. We're with you every step of the way, with everything you need to make having an online presence easy and affordable.</p>
-					<a href="#">Learn More</a>
+					<p>Let us be your guide on the path to online success. We'll be with you every step of the way, with everything you need to make having an online presence affordable and easy.</p>
+					<a href="/website-services/">Learn How</a>
 				</div>
 
 			</div>

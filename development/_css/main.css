@@ -271,7 +271,7 @@ html {
   font-size: 18px;
 }
 html body {
-  font: normal 1rem 'PT Sans', sans-serif;
+  font: 'Raleway', sans-serif;
   font-size: 1em;
   margin: 0 auto;
   height: 100%;
@@ -501,7 +501,7 @@ li {
 }
 @keyframes fadeInUp {
   0% {
-    transform: translateY(1.333rem);
+    transform: translateY(2.666rem);
     opacity: 0;
   }
   100% {
@@ -853,7 +853,7 @@ footer #copyright span {
 }
 #final-cta,
 #service-cta {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
+  font: 'Playfair Display', serif;
   text-align: center;
   background-color: #86A5C4;
   color: #fff;
@@ -887,7 +887,7 @@ footer #copyright span {
 }
 #final-cta h2,
 #service-cta h2 {
-  font: normal 1rem 'PT Sans', sans-serif;
+  font: 'Raleway', sans-serif;
   font-size: 1.8rem;
 }
 #final-cta h2 > i,
@@ -905,7 +905,7 @@ footer #copyright span {
 /* index.php (main) */
 #elevate-business h2,
 #website-important h3 {
-  font: normal 1rem 'Muli', Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 #website-important dt {
   font-weight: bold;
@@ -914,45 +914,48 @@ footer #copyright span {
   position: relative;
   background-color: #86A5C4;
   background-image: url(../_images/air-triangulated.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-position: 75% center;
   height: auto;
-  box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
-  padding-top: 4.7988rem;
-  padding-bottom: 4.7988rem;
 }
 @media (min-width: 48rem) {
   #business-top {
     height: 100vh;
-    padding-top: 6.3968004rem;
   }
 }
 #business-top h1 {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
-  font-size: 1.8rem;
   color: #27495D;
-  margin-bottom: 2.3994rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.333;
+  text-shadow: 2px 2px 2px #366581;
+  font-size: 2.1rem;
+  margin-top: 0;
 }
 #business-top h1 > span {
   font-size: inherit;
-  color: #E84855;
+  color: #1B998B;
 }
 @media (min-width: 48rem) {
   #business-top h1 {
     font-size: 2.4rem;
-    margin-bottom: 6.3968004rem;
   }
 }
 @media (min-width: 64rem) {
   #business-top h1 {
-    padding-top: 2.3994rem;
+    padding-top: 9.5976rem;
     font-size: 5.6rem;
   }
 }
 #business-top div.callout-container {
-  background-color: rgba(255, 255, 255, 0.45);
+  margin-top: 1.4829419rem;
+  width: 37.51875703%;
 }
 #business-top div.callout-container p {
-  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  color: #1B998B;
+  font-weight: 700;
 }
 @media (min-width: 48rem) {
   #business-top div.callout-container p {
@@ -961,26 +964,28 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #business-top div.callout-container p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }
-#business-top i {
-  display: none;
+#business-top div.callout-container p + p {
+  color: #27495D;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2.3994rem;
+  width: 85%;
 }
-@media (min-width: 48rem) {
-  #business-top i {
-    display: block;
-    color: #E84855;
-  }
-}
-#business-top em {
-  font-size: 115%;
-}
-#business-top em > a {
+#business-top div.callout-container a {
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 2px 2px 2px #366581;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: 2px solid #1B998B;
+  padding: 0.6665rem 2.666rem;
+  font-size: 1.3rem;
+  background-color: #1B998B;
   text-decoration: none;
-}
-#business-top em > a:hover {
-  color: #ca1928;
+  border-radius: 2px;
 }
 #elevate-business {
   display: none;
@@ -1277,7 +1282,7 @@ footer #copyright span {
   }
 }
 #website-services > div.container h2 {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
+  font: 'Playfair Display', serif;
   font-size: 1.8rem;
   color: #1f3b4b;
 }
@@ -1442,7 +1447,7 @@ footer #copyright span {
 }
 #website-services + section p,
 #website-services + section a {
-  font: normal 1rem 'PT Sans', sans-serif;
+  font: 'Raleway', sans-serif;
   font-size: 2.4rem;
   font-weight: bold;
   color: white;
@@ -1489,7 +1494,7 @@ footer #copyright span {
   box-shadow: 0px 3px 5px 2px #27495D;
 }
 #about-page .headline {
-  font: 900 1rem 'Passion One', Arial, sans-serif;
+  font: 'Playfair Display', serif;
   color: #86A5C4;
   font-size: 2.4rem;
   line-height: 1.1;
