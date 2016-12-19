@@ -21,51 +21,44 @@
 		height: 100vh;
 		.base(padding,top,2*@first-modular);
 	}
-	>div {
-		text-align: left;
-		h1 {
-			font: @header-font;
-			.font-size(2);
-			color: @hero-color;
-			.base(margin,bottom,1);
-			>span {
-				color: @secondary-color;
-			}
-			@media (@sm-query) {
-				.font-size(3);
-				.base(margin,bottom,2*@first-modular);
-				padding-left: @1-rem;
-				padding-right: @1-rem;
-			}
-			@media (@md-query) {
-				.base(padding,top,1);
-				.font-size(4);
-				margin-bottom: @1-rem*@first-modular;
-			}
+	h1 {
+		font: @header-font;
+		.font-size(2);
+		color: @hero-color;
+		.base(margin,bottom,1);
+		>span {
+			font-size: inherit;
+			color: @secondary-color;
 		}
+		@media (@sm-query) {
+			.font-size(3);
+			.base(margin,bottom,2*@first-modular);
+		}
+		@media (@md-query) {
+			.base(padding,top,1);
+			.font-size(6);
+		}
+	}
+	div.callout-container {
+		background-color: rgba(255, 255, 255, .45);
 		p {
-			display: none;
+			// display: none;
 			.font-size(1/@second-modular);
-			line-height: @second-modular;
-			background-color: rgba(255, 255, 255, .45);
-			.base(padding,1/2);
-			margin-left: @1-rem/3;
-			margin-right: @1-rem/3;
-			color: #333;
+			// line-height: @second-modular;
+
+			// color: #333;
 			@media (@sm-query) {
 				.font-size(1);
-				width: 60%;
-				margin-left: auto;
-				margin-right: auto;
+				// width: 60%;
 			}
 			@media (@md-query) {
 				.font-size(1*@second-modular);
-				width: 70%;
-				margin-top: @3-rem*@first-modular;
+				// width: 70%;
+				// margin-top: @3-rem*@first-modular;
 			}
-			box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, .45);
 		}
 	}
+
 	i {
 		display: none;
 		@media (@sm-query) {
@@ -85,6 +78,7 @@
 }
 
 #elevate-business {
+	display: none;
 	height: auto;
 	background: #fff svg-gradient(to bottom, @pewter-blue 25%, rgba(255, 255, 235, 50%));
 	.base(padding,top,1);
@@ -153,6 +147,7 @@
 }
 
 #website-important {
+	display: none;
 	.base(padding,top,2);
 	.base(padding,bottom,2);
 	background-color: #fff;
@@ -227,7 +222,6 @@
 		min-height: 100vh;
 	}
 }
-
 
 // about section
 // #about {

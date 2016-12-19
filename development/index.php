@@ -12,13 +12,18 @@ $canonical = "http://peakwebsites.ca/";
 		<!-- Landing Page -->
 		<section id="business-top">
 
-			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain peak" />
+			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain" />
 
-			<div class="container fadeInUp">
+			<div class="container fadeInUp callout">
 				<h1>Put Your Business On&nbsp;<span>Top</span></h1>
-				<p>
-					Take your online business to the next level with our suite of <br><em><a href="/development/website-services/">Website&nbsp;Services</a></em>.
-				</p>
+				<div class="callout-container">
+					<p>
+						Peak Technical Services for Exceptional Business Owners.
+					</p>
+					<p>Let us be your guide on the rocky path to online success. We're with you every step of the way, with everything you need to make having an online presence easy and affordable.</p>
+					<a href="#">Learn More</a>
+				</div>
+
 			</div>
 
 		</section><!--/ end of Landing Page -->
@@ -29,6 +34,7 @@ $canonical = "http://peakwebsites.ca/";
 
 			<div class="container-alt">
 				<h2>Elevate Your Online Presence</h2>
+				<p></p>
 				<div class="row" id="mountain-layout">
 					<div class="col col-4">
 						<p>Get a state-of-the-art website suited to your unique needs and vision.</p>
@@ -37,7 +43,7 @@ $canonical = "http://peakwebsites.ca/";
 						<p>We'll host it for you <em>securely</em>, maintain it <em>regularly</em>, and keep you in the loop about your site's performance.</p>
 					</div>
 					<div class="col col-4">
-						<p>Best of all, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.</p>
+						<p>More than that, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.</p>
 					</div>
 				</div>
 			</div>
@@ -75,7 +81,7 @@ $canonical = "http://peakwebsites.ca/";
 			<p>Learn how we can help</p>
 		</section> -->
 
-		<?php include('_includes/theme/banner.php'); ?>
+		<?php //include('_includes/theme/banner.php'); ?>
 
 	</main>
 

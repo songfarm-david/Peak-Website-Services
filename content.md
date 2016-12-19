@@ -23,6 +23,7 @@
 	Your Online Business Should be Working for You.
 	Total Web Services so you focus on running your business
 	Get Your Website Working For Your Business
+	<p>Website Development, Maintenance, and Optimization designed to put your business on top.</p>
 
 ### website development services
 	* expert coded, **custom** websites or template websites (keywords here)

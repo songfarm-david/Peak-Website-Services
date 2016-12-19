@@ -13,8 +13,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<section id="website-services" class="service">
 
 		<div class="container">
-			<h2>With You Every Step of the Way</h2>
-			<p>We have a website service for every step of your online business journey <br>&mdash; plus, the know-how to help you to reach your summit.</p>
+			<!-- <h2>With You Every Step of the Way</h2>
+			<p>We have a website service for every step of your online business journey <br>&mdash; plus, the know-how to help you to reach your summit.</p> -->
+			<p>Wherever you are on the journey, we have the knowledge and skill to ensure you reach the destination.</p>
 		</div>
 
 		<!-- services table -->
