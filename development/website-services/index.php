@@ -15,7 +15,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<div class="container">
 			<!-- <h2>With You Every Step of the Way</h2>
 			<p>We have a website service for every step of your online business journey <br>&mdash; plus, the know-how to help you to reach your summit.</p> -->
-			<p>Wherever you are on the journey, we have the knowledge and skill to ensure you reach the destination.</p>
+			<p>Wherever you are on the path, we have the knowledge and skills to ensure you get where you're going.</p>
 		</div>
 
 		<!-- services table -->
@@ -33,17 +33,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<th role="columnheader" scope="col" aria-owns="body-maint-1"><a href="/website-services/website-maintenance-services.php">Maintenance</a></th>
 						<th role="columnheader" scope="col" aria-owns="body-optim-1"><a href="/website-services/website-optimization-services.php">Optimization</a></th>
 					</tr>
-					<tr id="intro">
+					<tr>
 						<th>Great for starting your online business off on the right foot.</th>
 						<th>Lets you focus on your business. <br>Not your website.</th>
 						<th>Perfect for business owners that want to put their website on top.</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td class="tr-header">Comes with:</td>
-						<td class="tr-header">Includes a minimum of:</td>
-						<td class="tr-header">Includes a minimum of:</td>
+					<tr class="include">
+						<td>Comes with:</td>
+						<td>Includes a minimum of:</td>
+						<td>Includes a minimum of:</td>
 					</tr>
 					<tr>
 						<td>Professional Grade</td>

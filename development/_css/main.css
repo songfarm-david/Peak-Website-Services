@@ -293,15 +293,13 @@ h4,
 h5,
 .h5,
 h6,
-.h6,
-#website-services #service-table > table thead > tr th {
+.h6 {
   font: normal 1rem 'Muli', Arial, sans-serif;
   margin: 1.333rem 0 0.6665rem;
   text-transform: capitalize;
 }
 p,
-span,
-#website-services #service-table > table thead tr + tr#intro th {
+span {
   margin: 1.333rem 0 0.6665rem;
   line-height: 1.333;
   font-size: 1.3rem;
@@ -319,8 +317,7 @@ h4,
   font-size: 1.8rem;
 }
 h3,
-.h3,
-#website-services #service-table > table thead > tr th {
+.h3 {
   font-size: 2.4rem;
 }
 h2,
@@ -964,12 +961,12 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #business-top div.callout-container p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 #business-top div.callout-container p + p {
   color: #27495D;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: normal;
   margin-bottom: 2.3994rem;
   width: 85%;
@@ -1278,38 +1275,14 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #website-services > div.container {
-    margin-top: 2.96588381rem;
-  }
-}
-#website-services > div.container h2 {
-  font: 'Playfair Display', serif;
-  font-size: 1.8rem;
-  color: #1f3b4b;
-}
-@media (min-width: 48rem) {
-  #website-services > div.container h2 {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 64rem) {
-  #website-services > div.container h2 {
-    font-size: 2.4rem;
+    margin-top: 7.1982rem;
+    margin-bottom: 7.1982rem;
   }
 }
 #website-services > div.container p {
-  margin-bottom: 3.553778rem;
-}
-@media (min-width: 48rem) {
-  #website-services > div.container p {
-    font-size: 1.3rem;
-    line-height: 1.333;
-  }
-}
-#website-services #service-table {
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.45);
-  padding-top: 3.1984002rem;
-  padding-bottom: 3.1984002rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.7rem;
+  color: #27495D;
 }
 #website-services #service-table > table {
   width: 85%;
@@ -1318,103 +1291,64 @@ footer #copyright span {
   margin-left: auto;
   position: relative;
   min-width: 900px;
-}
-#website-services #service-table > table tr:nth-child(odd) td {
-  background-color: #eed;
-}
-#website-services #service-table > table tr > td.no-bg-tr {
-  background-color: transparent !important;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fefefe;
 }
 #website-services #service-table > table th,
 #website-services #service-table > table td {
   border-right: 1px solid #edd;
-  background-color: #fefefe;
 }
-#website-services #service-table > table thead > tr th a {
+#website-services #service-table > table thead a {
   text-decoration: none;
 }
-#website-services #service-table > table thead tr + tr#intro th {
-  font-size: 115%;
-  padding-left: 2.156794rem;
-  padding-right: 2.156794rem;
-  padding-top: 0.82385661rem;
+#website-services #service-table > table thead > tr > th {
+  padding-top: 1.333rem;
+  padding-bottom: 1.333rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+#website-services #service-table > table thead > tr + tr > th {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 1.333rem;
   padding-bottom: 2.666rem;
-}
-#website-services #service-table > table thead tr + tr#intro th a {
-  text-transform: capitalize;
-}
-#website-services #service-table > table tbody tr .tr-header {
-  padding-top: 18px;
-  padding-bottom: 9px;
+  padding-left: 3.553778rem;
+  padding-right: 3.553778rem;
   line-height: 1.333;
-  background-color: #eed;
 }
-#website-services #service-table > table tbody tr td {
+#website-services #service-table > table tbody > tr td {
   text-align: center;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 1.333rem;
+  padding-bottom: 1.333rem;
   padding-left: 1.333rem;
   padding-right: 1.333rem;
   width: 33.33333333%;
 }
-#website-services #service-table > table tbody tr td.tr-header {
-  text-align: left;
-  vertical-align: bottom;
-  font-weight: bold;
-}
-#website-services #service-table > table tbody tr > td#cost-examples {
-  position: absolute;
-  text-align: left;
-}
-#website-services #service-table > table tbody tr > td#cost-examples > i {
-  font-size: 1.3rem;
-  display: block;
-  margin-top: 1.333rem;
-  margin-bottom: 0.82385661rem;
-}
-#website-services #service-table > table tbody tr > td#cost-examples ul {
-  list-style-type: circle;
-  padding-top: 18px;
-  margin-bottom: 9px;
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
-}
-#website-services #service-table > table tbody tr > td#cost-examples ul + span {
-  width: 100%;
-  display: block;
-  text-align: right;
-  font-size: 1.2rem;
+#website-services #service-table > table tbody > tr:first-child > td {
+  background-color: white;
   font-style: italic;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-indent: 1.333rem;
+  text-align: left;
+  color: #1B998B;
+  font-weight: 700;
 }
-#website-services #service-table > table tbody tr > td#cost-examples span.cost {
-  display: block;
-  text-align: right;
-  padding-top: 9px;
-  padding-right: 18px;
-  padding-bottom: 9px;
-  font-size: 1.2rem;
-  margin-bottom: 0;
-  border-bottom: 1px solid #ccc;
+#website-services #service-table > table tbody > tr:not(.include) > td {
+  font-size: 1.4rem;
+  font-weight: 300;
 }
-#website-services #service-table > table tbody tr > td#cost-examples span.br-space {
-  display: inline-block;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+#website-services #service-table > table tbody > tr:nth-child(even) td {
+  background-color: #ebfbfa;
 }
-#website-services #service-table > table tbody #byline {
-  padding-top: 18px;
-}
-#website-services #service-table > table tbody #byline td {
-  vertical-align: top;
-  padding-top: 18px;
-}
-#website-services #service-table > table tfoot tr > td {
+#website-services #service-table > table tfoot > tr > td {
   position: relative;
   top: 1.776889rem;
   padding-left: 1.776889rem;
   padding-right: 1.776889rem;
+  background-color: inherit;
 }
-#website-services #service-table > table tfoot tr > td a {
+#website-services #service-table > table tfoot > tr > td a {
   display: block;
   text-align: center;
   padding-top: 18px;
@@ -1422,21 +1356,21 @@ footer #copyright span {
   font-size: 1.3rem;
   text-decoration: none;
 }
-#website-services #service-table > table tfoot tr > td a.get-started {
+#website-services #service-table > table tfoot > tr > td a.get-started {
   background-color: #27495D;
   color: white;
   border: 1px solid white;
 }
-#website-services #service-table > table tfoot tr > td a.get-started:hover {
+#website-services #service-table > table tfoot > tr > td a.get-started:hover {
   background-color: white;
   color: #27495D;
   border-color: #27495D;
 }
-#website-services #service-table > table tfoot tr > td a.get-started + a {
+#website-services #service-table > table tfoot > tr > td a.get-started + a {
   padding-top: 9px;
   font-size: 100%;
 }
-#website-services #service-table > table tfoot tr > td a.get-started + a:hover {
+#website-services #service-table > table tfoot > tr > td a.get-started + a:hover {
   text-decoration: underline;
 }
 #website-services + section {
