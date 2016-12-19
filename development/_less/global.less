@@ -173,7 +173,7 @@ footer {
 	width: 100%;
 	bottom: 0;
 	z-index: -1;
-	.font-size(.5);
+	font-family: @body-font;
 	text-align: center;
 	clear: both;
 	padding-top: @1-rem;
@@ -181,10 +181,13 @@ footer {
 		ul {
 			margin-bottom: 0;
 			padding-left: 0;
+			text-align: center;
 			li {
 				display: inline-block;
-				.font-size(2*@second-modular);
-				padding: 12px 9px;
+				.font-size(2);
+				padding: 12px 6px;
+				padding-bottom: 0;
+				margin-bottom: 0;
 				>a {
 					color: lighten(@hero-color,10%);
 				}
@@ -208,18 +211,18 @@ footer {
 	}
 }
 
-.fa.fa-angle-down {
-	.font-size(3);
-	color: @hero-color;
-	position: absolute;
-	left: 49%;
-	transform: translateX(-50%);
-	bottom: 1%;
-	animation: bounce 1.2s infinite alternate both;
-	&:hover {
-		cursor: pointer;
-	}
-}
+// .fa.fa-angle-down {
+// 	.font-size(3);
+// 	color: @hero-color;
+// 	position: absolute;
+// 	left: 49%;
+// 	transform: translateX(-50%);
+// 	bottom: 1%;
+// 	animation: bounce 1.2s infinite alternate both;
+// 	&:hover {
+// 		cursor: pointer;
+// 	}
+// }
 
 .cssanimations {
 	#about #about-intro,

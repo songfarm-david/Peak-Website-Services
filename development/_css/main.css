@@ -796,7 +796,7 @@ footer {
   width: 100%;
   bottom: 0;
   z-index: -1;
-  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   clear: both;
   padding-top: 1.333rem;
@@ -804,11 +804,14 @@ footer {
 footer #social-links ul {
   margin-bottom: 0;
   padding-left: 0;
+  text-align: center;
 }
 footer #social-links ul li {
   display: inline-block;
-  font-size: 2.5rem;
-  padding: 12px 9px;
+  font-size: 1.8rem;
+  padding: 12px 6px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 footer #social-links ul li > a {
   color: #366581;
@@ -830,18 +833,6 @@ footer #copyright span {
     position: relative;
     top: 15px;
   }
-}
-.fa.fa-angle-down {
-  font-size: 2.4rem;
-  color: #27495D;
-  position: absolute;
-  left: 49%;
-  transform: translateX(-50%);
-  bottom: 1%;
-  animation: bounce 1.2s infinite alternate both;
-}
-.fa.fa-angle-down:hover {
-  cursor: pointer;
 }
 .cssanimations #about #about-intro,
 .cssanimations ul#key-list,
