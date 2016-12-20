@@ -257,11 +257,13 @@ textarea {
 .nav-visible nav #primary-nav .dropdown-content li:hover {
   background-color: #fff;
 }
-.container {
+.container,
+#website-services #service-table > table {
   width: 100%;
 }
 @media (min-width: 48rem) {
-  .container {
+  .container,
+  #website-services #service-table > table {
     width: 100%;
     max-width: 75.01875469rem;
     margin: 0 auto;
@@ -948,11 +950,13 @@ footer #copyright span {
 @media (min-width: 48rem) {
   #business-top div.callout-container p {
     font-size: 1.3rem;
+    width: 60%;
   }
 }
 @media (min-width: 64rem) {
   #business-top div.callout-container p {
     font-size: 1.7rem;
+    width: 100%;
   }
 }
 #business-top div.callout-container p + p {
@@ -974,6 +978,10 @@ footer #copyright span {
   background-color: #1B998B;
   text-decoration: none;
   border-radius: 2px;
+}
+#business-top div.callout-container a:hover {
+  border-color: #FF9F1C;
+  background-color: #FF9F1C;
 }
 #elevate-business {
   display: none;
@@ -1249,7 +1257,7 @@ footer #copyright span {
 #website-services {
   position: relative;
   padding-top: 4.7988rem;
-  padding-bottom: 4.7988rem;
+  padding-bottom: 9.5976rem;
   box-shadow: 0px 3px 5px 2px #27495D;
   background-color: white;
 }
@@ -1276,7 +1284,6 @@ footer #copyright span {
   color: #27495D;
 }
 #website-services #service-table > table {
-  width: 85%;
   border-left: 1px solid #eed;
   margin-right: auto;
   margin-left: auto;
@@ -1284,6 +1291,7 @@ footer #copyright span {
   min-width: 900px;
   font-family: 'Raleway', sans-serif;
   background-color: #fefefe;
+  border-bottom: 1px solid #eed;
 }
 #website-services #service-table > table th,
 #website-services #service-table > table td {
@@ -1298,14 +1306,27 @@ footer #copyright span {
   font-size: 2.4rem;
   font-weight: 700;
 }
+#website-services #service-table > table thead > tr:first-child > th > a {
+  color: white;
+}
 #website-services #service-table > table thead > tr + tr > th {
   font-size: 1.4rem;
   font-weight: 400;
-  padding-top: 1.333rem;
-  padding-bottom: 2.666rem;
+  padding-top: 1.776889rem;
+  padding-bottom: 1.333rem;
   padding-left: 3.553778rem;
   padding-right: 3.553778rem;
   line-height: 1.333;
+  border-bottom: 1px solid #edd;
+}
+#website-services #service-table > table .green {
+  background: #52c38c url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%2352c38c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23239d62%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
+}
+#website-services #service-table > table .blue {
+  background: #48c6df url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%2348c6df%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%231c9eb8%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
+}
+#website-services #service-table > table .purple {
+  background: #895cbd url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23895cbd%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23552987%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
 }
 #website-services #service-table > table tbody > tr td {
   text-align: center;
@@ -1324,17 +1345,16 @@ footer #copyright span {
   text-align: left;
   color: #1B998B;
   font-weight: 700;
+  display: none;
 }
 #website-services #service-table > table tbody > tr:not(.include) > td {
   font-size: 1.4rem;
   font-weight: 300;
 }
 #website-services #service-table > table tbody > tr:nth-child(even) td {
-  background-color: #ebfbfa;
+  background-color: #fcfaf7;
 }
 #website-services #service-table > table tfoot > tr > td {
-  position: relative;
-  top: 1.776889rem;
   padding-left: 1.776889rem;
   padding-right: 1.776889rem;
   background-color: inherit;
@@ -1346,22 +1366,20 @@ footer #copyright span {
   padding-bottom: 18px;
   font-size: 1.3rem;
   text-decoration: none;
+  width: 50%;
+  margin: 0 auto;
 }
-#website-services #service-table > table tfoot > tr > td a.get-started {
-  background-color: #27495D;
+#website-services #service-table > table tfoot > tr > td a:first-child {
+  margin-top: 2.666rem;
+  box-shadow: -1px 1px 4px 1px #ccc;
   color: white;
-  border: 1px solid white;
 }
-#website-services #service-table > table tfoot > tr > td a.get-started:hover {
-  background-color: white;
-  color: #27495D;
-  border-color: #27495D;
-}
-#website-services #service-table > table tfoot > tr > td a.get-started + a {
-  padding-top: 9px;
+#website-services #service-table > table tfoot > tr > td a:last-child {
+  padding-top: 0.6665rem;
+  padding-bottom: 1.333rem;
   font-size: 100%;
 }
-#website-services #service-table > table tfoot > tr > td a.get-started + a:hover {
+#website-services #service-table > table tfoot > tr > td a:last-child:hover {
   text-decoration: underline;
 }
 #website-services + section {
