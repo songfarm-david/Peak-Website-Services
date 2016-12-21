@@ -13,9 +13,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<section id="website-services" class="service">
 
 		<div class="container">
-			<!-- <h2>With You Every Step of the Way</h2>
-			<p>We have a website service for every step of your online business journey <br>&mdash; plus, the know-how to help you to reach your summit.</p> -->
-			<p>Wherever you are on the path, we have the knowledge and skill to ensure you get where you're going.</p>
+			<p>Whatever step you're on, we have a <em>Website Service</em> designed to get you where you're going.</p>
 		</div>
 
 		<!-- services table -->
@@ -34,66 +32,88 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<th role="columnheader" scope="col" aria-owns="body-optim-1" class="purple"><a href="/website-services/website-optimization-services.php">Optimization</a></th>
 					</tr>
 					<tr>
-						<th>Let us a tailor for you a website built for today's world.</th>
-						<th>Let us worry about the technical stuff. You have a business to run.</th>
-						<th>Perfect for business owners that want to put their website on top.</th>
+						<th>Do you need a website? Does your existing website need a facelift? Let us tailor-make for you a website built for today's world.</th>
+						<th>You have more important things to do then worry about a website. From hosting to domain names to security &mdash; we've got you covered.</th>
+						<th>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr class="include">
-						<td>Comes with:</td>
+						<td>All of our website are:</td>
 						<td>Includes a minimum of:</td>
 						<td>Includes a minimum of:</td>
 					</tr>
 					<tr>
-						<td>Professional Grade</td>
-						<td>Domain Name</td>
+						<td id="dev-examples">
+							<span class="cost">Cost Examples:</span>
+							<span class="example">Ex. 1:</span>
+							<span>A Fish-and-Tackle shop would like to update their website with something modern, mobile-friendly and approachable.</span>
+							<span>They want a blog they can update themselves. They also want to begin gaining subscribers for a mailing list about store specials and fishing events.</span>
+							<span class="price">$1,000&mdash;$1,500</span>
+						</td>
+						<td>Website Management</td>
 						<td>Keyword Optimization</td>
 					</tr>
 					<tr>
-						<td>Mobile-Ready &amp; Optimized</td>
-						<td>Website Hosting</td>
+						<td>&nbsp;</td>
+						<td>Domain Management</td>
 						<td>Personalize Keyword Strategy</td>
 					</tr>
 					<tr>
-						<td>Blog, eCommerce integrations</td>
-						<td>Secured Connection</td>
+						<td>&nbsp;</td>
+						<td>Secure Hosting</td>
 						<td>Invaluable Competitor Insights</td>
 					</tr>
 					<tr>
-						<td>No Page Limits</td>
-						<td>Free Content Updates</td>
+						<td>&nbsp;</td>
+						<td>Dedicated Maintenance<br> &amp; Security Checks</td>
 						<td>Optimized Website</td>
 					</tr>
 					<tr>
-						<td>Tailored To Your Business</td>
-						<td>Regular Website Check-Ups</td>
+						<td>&nbsp;</td>
+						<td>Monthly Website Reports</td>
 						<td>Local SEO</td>
 					</tr>
 					<tr>
-						<td>Search Engine Ready</td>
-						<td>Regular Website Analytics Reports</td>
+						<td>&nbsp;</td>
+						<td>Your Own IT Guy</td>
 						<td>Regular Search Engine Visibility Reports</td>
 					</tr>
 					<tr>
-						<td>No Restrictive Contracts</td>
-						<td>Your Own IT Guy On Speed-Dial</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
 						<td>Dedicated SEO Specialist</td>
 					</tr>
 				</tbody>
 				<tfoot>
 					<tr>
 						<td id="foot-dev-1">
-							<a href="/contact.php" class="green">Get Started</a>
-							<a href="/website-services/website-development-services.php">Learn More</a>
+							<span class="table-price">Websites Starting from:</span>
 						</td>
 						<td id="foot-maint-1">
-							<a href="/contact.php" class="blue">Get Started</a>
-							<a href="/website-services/website-maintenance-services.php">Learn More</a>
+							<span class="table-price">Plans Starting from:</span>
 						</td>
 						<td id="foot-optim-1">
+							<span class="table-price">Plans Starting from:</span>
+						</td>
+					</tr>
+					<tr>
+						<td>$999</td>
+						<td>$168/mo.</td>
+						<td>$289/mo.</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="/contact.php" class="green">Get Started</a>
+							<a href="/website-services/website-development-services.php" title="Website Development Service">Learn More</a>
+						</td>
+						<td>
+							<a href="/contact.php" class="blue">Get Started</a>
+							<a href="/website-services/website-maintenance-services.php" title="Website Maintenance Service">Learn More</a>
+						</td>
+						<td>
 							<a href="/contact.php" class="purple">Get Started</a>
-							<a href="/website-services/website-optimization-services.php">Learn More</a>
+							<a href="/website-services/website-optimization-services.php" title="Website Optimization Service">Learn More</a>
 						</td>
 					</tr>
 				</tfoot>

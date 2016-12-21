@@ -17,11 +17,9 @@ $canonical = "http://peakwebsites.ca/";
 			<div class="container fadeInUp callout">
 				<h1>Put Your Business On&nbsp;<span>Top</span></h1>
 				<div class="callout-container">
-					<p>
-						Peak Technical Services for Exceptional Business Owners.
-					</p>
-					<p>Let us be your guide on the path to online success. We'll be with you every step of the way, with everything you need to make having an online presence affordable and easy.</p>
-					<a href="/website-services/">Learn How</a>
+					<p>Peak Technical Services for Exceptional Business Owners.</p>
+					<p>Everything you need to make having an online presence simple and affordable.</p>
+					<a href="/website-services/" title="Learn How">Learn How</a>
 				</div>
 
 			</div>

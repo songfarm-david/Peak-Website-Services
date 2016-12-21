@@ -13,11 +13,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title; ?></title>
 		<meta name="description" content="<?php echo $description; ?>">
-		<link rel="apple-touch-icon" href="apple-touch-icon.png">
-		<link rel="alternate" href="peakwebsites.ca" hreflang="en-us">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<link rel="stylesheet" href="/peak/development/_css/main.css" media="screen" title="Main Style Sheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway:300,400,700" rel="stylesheet">	
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway:300,400,700" rel="stylesheet">
 
 </head>
 	<body>

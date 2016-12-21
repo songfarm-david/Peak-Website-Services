@@ -35,13 +35,13 @@
 			.font-size(3);
 		}
 		@media (@md-query) {
-			.base(padding,top,4);
-			.font-size(6);
+			.base(padding,top,5);
+			.font-size(6.5);
 		}
 	}
 	div.callout-container {
 		.base(margin,top,1/@second-modular);
-		width: @page-width/(@first-modular*1.5);
+		width: @page-width/@first-modular;
 		p {
 			// display: none;
 			font-family: @body-font;
@@ -54,15 +54,15 @@
 			}
 			@media (@md-query) {
 				.font-size(1.75);
-				width: 100%;
+				width: 70%;
 			}
 		}
 		p+p {
 			color: @hero-color;
 			.font-size(1.25);
 			font-weight: normal;
-			.base(margin,bottom,1);
-			width: 85%;
+			.base(margin,bottom,1.5);
+			width: 50%;
 		}
 		a {
 			font-family: @body-font;
