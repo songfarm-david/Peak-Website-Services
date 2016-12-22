@@ -18,16 +18,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<h3 class="hide">Website Development Services</h3>
 				<p class="h3">Development</p>
 				<p>Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
+				<a href="#">Learn More</a>
 			</section>
 			<section>
 				<h3 class="hide">Website Maintenance Services</h3>
 				<p class="h3">Maintenance</p>
 				<p>You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
+				<a href="#">Learn More</a>
 			</section>
 			<section>
 				<h3 class="hide">Website Optimization Services</h3>
 				<p class="h3">Optimization</p>
 				<p>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
+				<a href="#">Learn More</a>
 			</section>
 		</div>
 
