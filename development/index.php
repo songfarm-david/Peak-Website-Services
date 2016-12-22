@@ -14,11 +14,11 @@ $canonical = "http://peakwebsites.ca/";
 
 			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain" />
 
-			<div class="container fadeInUp callout">
-				<h1>Put Your Business On&nbsp;<span>Top</span></h1>
+			<div class="container callout">
+				<h1 class="fadeInUp">Put Your Business On&nbsp;<span>Top</span></h1>
 				<div class="callout-container">
-					<p>Peak Technical Services for Exceptional Business Owners.</p>
 					<p>Everything you need to make having an online presence simple and affordable.</p>
+					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
 					<a href="/website-services/" title="Learn How">Learn How</a>
 				</div>
 

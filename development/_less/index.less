@@ -12,93 +12,130 @@
 	position: relative;
 	background-color: @background-color;
 	background-image: url(../_images/air-triangulated.jpg);
-	background-size: cover; // cover? compare difference
-	background-position: 75% center;
+	background-position: center 0%;
+	background-repeat: no-repeat;
 	height: auto;
-	// box-shadow: inset 0px -3px 12px rgba(0, 0, 0, 0.5);
+	min-height: 480px;
+	.base(padding,top,2);
+	@media (max-height: 460px) {
+		height: 480px;
+	}
 	@media (@sm-query) {
+		background-size: 100%;
 		height: 100vh;
 	}
-	h1 {
-		color: @hero-color;
-		font-family: @header-font;
-		font-weight: 700;
-		line-height: @line-height;
-		text-shadow: 2px 2px 2px lighten(@hero-color, 10%);
-		.font-size(2.5);
-		margin-top: 0;
-		>span {
-			font-size: inherit;
-			color: @jungle-green;
-		}
+	@media (@md-query) {
+		background-size: cover;
+		overflow: hidden;
+	}
+	.callout {
+		.base(padding,left,.25);
+		.base(padding,right,.25);
 		@media (@sm-query) {
-			.font-size(3);
+			.base(padding,left,.5);
+			.base(padding,right,.5);
 		}
 		@media (@md-query) {
-			.base(padding,top,5);
-			.font-size(6.5);
+			.base(padding,top,3);
 		}
-	}
-	div.callout-container {
-		.base(margin,top,1/@second-modular);
-		width: @page-width/@first-modular;
-		p {
-			// display: none;
-			font-family: @body-font;
-			.font-size(2);
-			color: @jungle-green;
-			font-weight: 700;
+		h1 {
+			color: #467F96;
+			font: @header-font;
+			text-shadow: 1px 1px 1px darken(@hero-color, 10%);
+			.font-size(4);
+			margin: 0 auto;
+			text-align: center;
+			>span {
+				font-size: inherit;
+				color: #35885f;
+			}
 			@media (@sm-query) {
-				.font-size(1);
-				width: 60%;
+				.font-size(5);
 			}
 			@media (@md-query) {
-				.font-size(1.75);
-				width: 70%;
+				// .base(padding,top,5);
+				.font-size(5.5);
+				text-align: left;
 			}
 		}
-		p+p {
-			color: @hero-color;
-			.font-size(1.25);
-			font-weight: normal;
-			.base(margin,bottom,1.5);
-			width: 50%;
-		}
-		a {
-			font-family: @body-font;
-			box-shadow: 2px 2px 2px lighten(@hero-color, 10%);
-			color: white;
-			font-weight: 400;
-			letter-spacing: 1px;
-			.border(#1B998B);
-			padding: @1-rem/2 @1-rem*2;
-			.font-size(1);
-			background-color: #1B998B;
-			text-decoration: none;
-			border-radius: 2px;
-			&:hover {
-				border-color: @crayola;
-				background-color: @crayola;
+		div.callout-container {
+			width: 100%;
+			position: absolute;
+			top: 480px;
+			left: 0;
+			right: 0;
+			text-align: center;
+			background-color: #fff;
+			.base(padding,top,0.5);
+			.base(padding,bottom,3);
+			box-shadow: inset 0px 2px 10px 0px #467F96;
+			@media (@sm-query) {
+				.base(padding,top,1);
+				.base(padding,bottom,4);
+				top: 28rem;
+			}
+			@media (@md-query) {
+				position: static;
+				background-color: transparent;
+				box-shadow: none;
+				text-align: left;
+				padding-top: 0;
+			}
+			p {
+				font-family: @body-font;
+				.font-size(1);
+				color: #314873;
+				font-weight: 400;
+				margin-left: auto;
+				margin-right: auto;
+				.base(margin,bottom,1.5);
+				padding-left: 0.5rem;
+				padding-right: 0.5rem;
+				@media (@sm-query) {
+					.font-size(1.5);
+				}
+				@media (@md-query) {
+					.font-size(2);
+					width: 70%;
+					margin-left: 0;
+				}
+				@media (@lg-query) {
+					width: 60%;
+					.font-size(2);
+					// .base(margin,bottom,2);
+				}
+			}
+			// p+p {
+			// 	color: #333;
+			// 	.font-size(1.5);
+			// 	font-weight: normal;
+			// 	.base(margin,bottom,1.5);
+			// 	width: 50%;
+			// }
+			a {
+				font-family: @body-font;
+				color: white;
+				// font-weight: 700;
+				letter-spacing: 1px;
+				padding: @1-rem/@first-modular @2-rem;
+				.font-size(1);
+				background-color: #35885f;
+				text-decoration: none;
+				border-radius: 2px;
+				box-shadow: 0 2px 3px 0px #555;
+				@media (@sm-query) {
+					.font-size(1.5);
+				}
+				&:hover,
+				&:active {
+					background-color: #467F96;
+				}
 			}
 		}
 	}
 
-	// i {
-	// 	display: none;
-	// 	@media (@sm-query) {
-	// 		display: block; // show bouncy arrow
-	// 		color: @secondary-color;
-	// 	}
-	// }
-	// em {
-	// 	font-size: 115%;
-	// 	>a {
-	// 		text-decoration: none;
-	// 		&:hover {
-	// 			color: darken(@secondary-color,15%);
-	// 		}
-	// 	}
-	// }
+
+
 }
 
 #elevate-business {
@@ -269,3 +306,14 @@
 // 			}
 // 		}
 // 	}
+
+footer {
+	display: none;
+}
+
+@media (@md-query) {
+	html,
+	body {
+		overflow: hidden;
+	}
+}

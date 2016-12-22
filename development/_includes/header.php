@@ -15,8 +15,7 @@
 		<meta name="description" content="<?php echo $description; ?>">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<link rel="stylesheet" href="/peak/development/_css/main.css" media="screen" title="Main Style Sheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Raleway:300,400,700" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 </head>
 	<body>
 		<!--[if lt IE 8]>
