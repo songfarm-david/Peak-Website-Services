@@ -1352,6 +1352,9 @@ footer {
   width: 80%;
   margin: 0 auto;
 }
+#website-services #service-table {
+  display: none;
+}
 #website-services #service-table > table {
   width: 75rem;
   border-left: 1px solid #eed;

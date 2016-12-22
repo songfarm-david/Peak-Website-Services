@@ -1,12 +1,12 @@
 	<footer>
-		<section id="social-links">
+		<!-- <section id="social-links">
 			<h4 class="at-only">Social Links</h4>
 			<ul>
 				<li><a href="https://twitter.com/peak_websites"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 				<li><a href="https://github.com/songfarm-david/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 				<li><a href="http://stackexchange.com/users/3476745/peak"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
 			</ul>
-		</section>
+		</section> -->
 		<div id="copyright">
 			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
 		</div>
