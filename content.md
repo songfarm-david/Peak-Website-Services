@@ -1,5 +1,14 @@
 # Peak Website Services
 
+## Future Pages for Keywords
+- "search engine optimization services" (188)
+- "seo services" (941)
+- "seo optimization services" (50)
+- "website seo" (133)
+- "professional seo services" (103)
+- "seo service" (384)
+- "seo services company"
+
 ## Survey
 	It is important to factor in the aspect of collective customer satisfaction surveys and to best leverage
 	my customer in order to attract and retain future ones.
