@@ -14,24 +14,33 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<p>Whatever step you're on, we have a <em>Website Service</em> designed to get you where you're going.</p>
 
 		<div id="service-display">
-			<section>
-				<h3 class="hide">Website Development Services</h3>
-				<p class="h3">Development</p>
-				<p>Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
-				<a href="#">Learn More</a>
-			</section>
-			<section>
-				<h3 class="hide">Website Maintenance Services</h3>
-				<p class="h3">Maintenance</p>
-				<p>You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
-				<a href="#">Learn More</a>
-			</section>
-			<section>
-				<h3 class="hide">Website Optimization Services</h3>
-				<p class="h3">Optimization</p>
-				<p>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
-				<a href="#">Learn More</a>
-			</section>
+
+			<div class="row">
+				<div class="col col-4">
+					<section>
+						<h3 class="hide">Website Development Services</h3>
+						<p class="green">Development</p>
+						<p>Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
+						<a href="#" class="green">Learn More</a>
+					</section>
+				</div>
+				<div class="col col-4">
+					<section>
+						<h3 class="hide">Website Maintenance Services</h3>
+						<p class="blue">Maintenance</p>
+						<p>You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
+						<a href="#" class="blue">Learn More</a>
+					</section>
+				</div>
+				<div class="col col-4">
+					<section>
+						<h3 class="hide">Website Optimization Services</h3>
+						<p class="purple">Optimization</p>
+						<p>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
+						<a href="#" class="purple">Learn More</a>
+					</section>
+				</div>
+			</div>
 		</div>
 
 	</div>
