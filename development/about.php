@@ -1,6 +1,6 @@
 <?php
 $title = "About | Peak Website Services";
-$description = "Peak Website Services is an all-in-one, affordable solution for small online business owners who need help creating, maintaining, and optimizing their online presence.";
+$description = "Peak Website Services is an affordable solution for an exceptional online presence. Website development, website maintenance, website optimization and more.";
 $activePage = basename($_SERVER['PHP_SELF']);
 $h1 = $title;
 ?>
@@ -22,7 +22,7 @@ $h1 = $title;
 			</div>
 		</section>
 		<!-- Core Values -->
-		<section id="about">
+		<section id="about" class="hide">
 			<h2 class="hide">Why Choose Us</h2>
 			<div class="container">
 				<div id="about-intro">
