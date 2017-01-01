@@ -19,7 +19,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<section data-id="service-development">
 						<h3 class="hide">Website Development Services</h3>
 						<p class="green" data-name="service-title">Development</p>
-						<p>Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
+						<p data-name="service-info">Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
 						<a href="#" class="green">Learn More</a>
 					</section>
 				</div>
@@ -28,7 +28,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<section data-id="service-maintenance">
 						<h3 class="hide">Website Maintenance Services</h3>
 						<p class="blue" data-name="service-title">Maintenance</p>
-						<p>You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
+						<p data-name="service-info">You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
 						<a href="#" class="blue">Learn More</a>
 					</section>
 				</div>
@@ -37,7 +37,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<section data-id="service-optimization">
 						<h3 class="hide">Website Optimization Services</h3>
 						<p class="purple" data-name="service-title">Optimization</p>
-						<p>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
+						<p data-name="service-info">Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
 						<a href="#" class="purple">Learn More</a>
 					</section>
 				</div>
