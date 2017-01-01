@@ -1,4 +1,5 @@
 ## files & folders
+dev/
 *.md
 node_modules
 copy_scripts/
