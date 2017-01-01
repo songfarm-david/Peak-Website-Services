@@ -263,8 +263,9 @@ textarea {
 @media (min-width: 48rem) {
   .container {
     width: 100%;
-    max-width: 75.01875469rem;
+    max-width: 85rem;
     margin: 0 auto;
+    padding: 0;
   }
 }
 html {
@@ -273,14 +274,12 @@ html {
 html body {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
-  margin: 0 auto;
+  margin: 0;
   height: 100%;
   background-color: #5b8290;
+  min-width: 320px !important;
 }
 @media (min-width: 48rem) {
-  html body {
-    margin-bottom: 205px;
-  }
 }
 /* type & text */
 h1,
@@ -399,6 +398,27 @@ li {
 /*
 * GRID STYLES
 */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 100%;
+  box-sizing: border-box;
+}
+.col {
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  float: left;
+}
 .row {
   clear: both;
   height: auto;
@@ -416,29 +436,6 @@ li {
 .row {
   zoom: 1;
   /* For IE 6/7 */
-}
-.col {
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  margin-top: 1.333%;
-  margin-bottom: 1.333%;
-  height: 100%;
-}
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-  width: 100%;
-  box-sizing: border-box;
 }
 @media (min-width: 64rem) {
   .col-1 {
@@ -478,10 +475,10 @@ li {
     width: 97.767%;
   }
   .col {
-    margin-left: 1.333%;
+    margin-left: 1.618%;
   }
   .col:last-child {
-    margin-right: 1.333%;
+    margin-right: 0;
   }
 }
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
@@ -840,8 +837,7 @@ footer #copyright span {
 .cssanimations #about-cta {
   opacity: 0;
 }
-#final-cta,
-#service-cta {
+#final-cta {
   font: normal 900 1rem/1 'Raleway', Arial, sans-serif;
   text-align: center;
   background-color: #86A5C4;
@@ -857,37 +853,31 @@ footer #copyright span {
   box-shadow: 0px 3px 5px 2px #487F98;
 }
 @media (min-width: 48rem) {
-  #final-cta,
-  #service-cta {
+  #final-cta {
     padding-bottom: 2.666rem;
   }
 }
 @media (min-width: 48rem) {
-  #final-cta,
-  #service-cta {
+  #final-cta {
     padding: 2.96588381rem;
     padding-1.2360939431396785: 2.3994rem;
   }
 }
-#final-cta:hover,
-#service-cta:hover {
+#final-cta:hover {
   background-color: #6099b3;
   cursor: pointer;
 }
-#final-cta h2,
-#service-cta h2 {
+#final-cta h2 {
   font: 'Raleway', sans-serif;
   font-size: 1.8rem;
 }
-#final-cta h2 > i,
-#service-cta h2 > i {
+#final-cta h2 > i {
   color: inherit;
   font-size: inherit;
   position: relative;
 }
 @media (min-width: 48rem) {
-  #final-cta h2,
-  #service-cta h2 {
+  #final-cta h2 {
     font-size: 2.5rem;
   }
 }
@@ -1200,185 +1190,157 @@ footer {
 }
 #website-services {
   background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
-}
-.service > .service-intro {
-  padding: 1.1997rem;
-  padding-0.5: 2.3994rem;
-  height: auto;
-  color: #487F98;
-  padding-top: 4.7988rem;
-  padding-bottom: 2.96588381rem;
-}
-@media (min-width: 48rem) {
-  .service > .service-intro {
-    height: auto;
-    min-height: 100vh;
-    padding-top: 15.5289168rem;
-  }
-}
-.service > .service-intro > span {
-  font-size: 1.8rem;
-  line-height: 1.618;
-  color: #487F98;
-  text-shadow: 1px 1px 1px #487F98;
-}
-.service > .service-intro > p {
-  margin-top: 2.3994rem;
-  color: #386275;
-}
-.service > .service-features {
-  height: auto;
-  background-color: #fff;
-  padding-top: 3.1984002rem;
-  padding-bottom: 2.3994rem;
-  padding: 1.4829419rem;
-  padding-0.6180469715698392: 2.3994rem;
-}
-@media (min-width: 48rem) {
-  .service > .service-features {
-    height: auto;
-    min-height: 100vh;
-    padding-top: 4.7988rem;
-  }
-}
-.service > .service-features > ul.feature-list {
-  margin-top: 1.8rem;
-  padding-left: 0;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 0;
-  padding-left: 18px;
-  padding-right: 18px;
-}
-.service > .service-features > ul.feature-list > li {
-  flex-grow: 2;
-  flex-shrink: 0;
-  flex-basis: 100%;
-  margin-bottom: 1.8rem;
-}
-@media (min-width: 48rem) {
-  .service > .service-features > ul.feature-list > li {
-    flex-basis: 400px;
-    margin-right: 1.333%;
-  }
-}
-.service > .service-features > ul.feature-list > li > span {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.service > .service-features > ul.feature-list > li > p {
-  font-size: 1.2rem;
-  line-height: 1.618;
-  margin-top: 1.618rem;
-}
-.service > .service-features > ul.feature-list > li > small {
-  font-style: italic;
-  font-size: 1.1rem;
-  float: right;
-  display: block;
-  margin-top: 1.1997rem;
-}
-.service .feature-container {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-@media (min-width: 48rem) {
-  .service .feature-container {
-    flex: 0 0 7.998rem;
-    width: auto;
-    height: auto;
-  }
-  .service .feature-container > img {
-    height: auto;
-    width: auto;
-  }
-}
-@media (min-width: 64rem) {
-  .service .feature-container {
-    justify-content: flex-start;
-  }
-}
-.service .feature-container > img {
-  flex: 0 0 90px;
-  margin-right: 9px;
-  margin-left: 9px;
-  width: 90px;
-  height: 90px;
-}
-.service .feature-container > span {
-  flex: 1 1 0px;
-}
-#website-services {
   position: relative;
-  padding-top: 4.7988rem;
-  padding-bottom: 9.5976rem;
+  padding-top: 6.472em;
   background-color: white;
   background-size: cover;
+  text-align: center;
 }
 @media (min-width: 48rem) {
   #website-services {
     height: auto;
     min-height: 100vh;
+    padding-top: 10em;
+    padding-top: 10rem;
   }
 }
-#website-services > div.container {
-  text-align: center;
-  padding-left: 0.82385661rem;
-  padding-right: 0.82385661rem;
-}
-@media (min-width: 64rem) {
-  #website-services > div.container {
-    margin-top: 5.9985rem;
-    margin-bottom: 5.9985rem;
-  }
-}
-#website-services > div.container p {
+#website-services p {
   font-family: 'Raleway', sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   color: #487F98;
   width: 80%;
   margin: 0 auto;
+  padding-top: 1.333em;
+  padding-top: 1.333rem;
+  padding-bottom: 1.333em;
+  padding-bottom: 1.333rem;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
-#website-services #service-display section {
-  width: 100%;
-  min-height: 500px;
-  background-color: #fff;
+@media (min-width: 48rem) {
+  #website-services p {
+    font-size: 2.4rem;
+  }
 }
-#website-services #service-display section > p {
-  width: 100%;
+#website-services p[data-name="main-callout"] {
   margin: 0 auto;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+#website-services p[data-name="main-callout"] > span {
+  font-size: inherit;
+  font-weight: bold;
+}
+@media (min-width: 33em) {
+  #website-services p[data-name="main-callout"] {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 50em) {
+  #website-services p[data-name="main-callout"] {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 50em) {
+  #website-services p[data-name="main-callout"] {
+    font-size: 2.7rem;
+    width: 68%;
+  }
+}
+#service-display {
+  margin-top: 3.999em;
+  padding-left: 0.61804697rem;
+  padding-right: 0.61804697rem;
+}
+@media (min-width: 46em) {
+  #service-display {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+#service-display section {
+  height: auto;
+  min-height: 300px;
+  max-width: 26.66666667em;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 1.618rem;
+  margin: 0 auto;
+  margin-bottom: 2.666rem;
+}
+@media (min-width: 64rem) {
+  #service-display section {
+    margin-right: 1.333em;
+    margin-right: 1.333rem;
+    margin-left: 0.6665em;
+    margin-left: 0.6665rem;
+  }
+}
+#service-display section p {
+  width: 100%;
   text-align: center;
 }
-#website-services #service-display section > p:first-of-type {
+#service-display section p[data-name="service-title"] {
   padding-top: 1.333rem;
   padding-bottom: 1.333rem;
-  font-size: 2.4rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: white;
 }
-#website-services #service-display section > p:last-of-type {
+@media (min-width: 33em) {
+  #service-display section p[data-name="service-title"] {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 110em) {
+  #service-display section p[data-name="service-title"] {
+    font-size: 2.4rem;
+  }
+}
+#service-display section > p:last-of-type {
   font-size: 1.3rem;
-  background-color: #fff;
   font-size: 1.4rem;
   font-weight: 400;
-  padding: 1.776889rem 1.776889rem 1.333rem;
-  line-height: 1.333;
-  min-height: 260px;
+  padding: 1.333rem;
 }
-#website-services #service-display section > a {
+@media (min-width: 64em) {
+  #service-display section > p:last-of-type {
+    min-height: 8.88888889em;
+  }
+}
+#service-display section > a {
+  display: block;
+  width: 50%;
+  min-width: 11.11111111em;
+  min-width: 12.22222222rem;
+  font-weight: bold;
   text-decoration: none;
   color: white;
-  display: block;
-  text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
   font-size: 1.3rem;
-  width: 50%;
-  margin: 0 auto;
+  margin: 1.618rem auto;
+  margin-bottom: 0;
+}
+@media (min-width: 40em) {
+  #service-display section > a {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 110em) {
+  #service-display section > a {
+    font-size: 1.5rem;
+  }
+}
+#service-display section[data-id="service-development"] {
+  background-color: #fbfffb;
+}
+#service-display section[data-id="service-maintenance"] {
+  background-color: #f2fdff;
+}
+#service-display section[data-id="service-optimization"] {
+  background-color: #fbf8ff;
 }
 .green {
   background: #52c38c url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%2352c38c%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23239d62%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
@@ -1388,28 +1350,6 @@ footer {
 }
 .purple {
   background: #895cbd url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23895cbd%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23552987%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
-}
-#service-cta > div p {
-  line-height: 1.618;
-}
-#service-cta > div p > a {
-  color: #fff;
-}
-@media (min-width: 48rem) {
-  #service-cta > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 3.1984002rem;
-    padding-bottom: 3.1984002rem;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #service-cta > div p {
-    margin-left: 9.5976rem;
-    font-size: 1.5rem;
-    text-align: left;
-  }
 }
 /* this is a different about page */
 #about-page {

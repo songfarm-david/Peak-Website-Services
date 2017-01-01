@@ -11,31 +11,32 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 	<!-- Website Services Display -->
 	<div class="container">
-		<p>Whatever step you're on, we have a <em>Website Service</em> designed to get you where you're going.</p>
+		<p data-name="main-callout">Whatever step you're on, we have a <span>Website&nbsp;Service</span> designed to get you where you're going.</p>
 
 		<div id="service-display">
-
 			<div class="row">
 				<div class="col col-4">
-					<section>
+					<section data-id="service-development">
 						<h3 class="hide">Website Development Services</h3>
-						<p class="green">Development</p>
+						<p class="green" data-name="service-title">Development</p>
 						<p>Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
 						<a href="#" class="green">Learn More</a>
 					</section>
 				</div>
+
 				<div class="col col-4">
-					<section>
+					<section data-id="service-maintenance">
 						<h3 class="hide">Website Maintenance Services</h3>
-						<p class="blue">Maintenance</p>
+						<p class="blue" data-name="service-title">Maintenance</p>
 						<p>You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
 						<a href="#" class="blue">Learn More</a>
 					</section>
 				</div>
+
 				<div class="col col-4">
-					<section>
+					<section data-id="service-optimization">
 						<h3 class="hide">Website Optimization Services</h3>
-						<p class="purple">Optimization</p>
+						<p class="purple" data-name="service-title">Optimization</p>
 						<p>Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
 						<a href="#" class="purple">Learn More</a>
 					</section>
