@@ -9,9 +9,9 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="/peak/index.php" class="<?php echo $class = ($_SERVER['PHP_SELF'] == "/peak/index.php") ? "active-link" : ""; ?>">Home</a></li>
+			<li><a href="/peak/index.php" class="<?php //echo $class = ($_SERVER['PHP_SELF'] == "/peak/index.php") ? "active-link" : ""; ?>">Home</a></li>
 			<li>
-				<a href="/peak/about.php" class="<?php echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a>
+				<a href="/peak/about.php" class="<?php //echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a>
 			</li>
 			<li class="dropdown-btn">
 				<a href="/peak/website-services/" data-target="#sub-menu-1" data-toggle="" class="<?php echo $class = ($_SERVER['PHP_SELF'] == "/website-services/index.php") ? "active-link" : ""; ?>">Website Services</a>
@@ -24,7 +24,7 @@
 				</div>
 			</li>
 			<li>
-				<a href="/peak/contact.php"  class="<?php echo $class = ($activePage == "contact.php") ? "active-link" : ""; ?>">Contact</a>
+				<a href="/peak/contact.php"  class="<?php //echo $class = ($activePage == "contact.php") ? "active-link" : ""; ?>">Contact</a>
 			</li>
 		</ul>
 	</div>
