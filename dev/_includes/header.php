@@ -24,8 +24,3 @@
 			<h1 class="hide"><?php echo $h1; ?></h1>
 			<?php include_once('navigation.php') ?>
 		</header>
-
-		<script type="text/javascript">
-		console.log("butters");
-
-		</script>

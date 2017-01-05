@@ -15,7 +15,7 @@
 	<!-- address font awesome performance -->
 	<!-- <script src="https://use.fontawesome.com/40bf27faba.js"></script> -->
 
-	<!-- jQuery CDN with fallback -->
+	<!-- jQuery CDN with Local Fallback -->
 	<script
   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
@@ -40,13 +40,6 @@
 
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
 <!-- <script type="text/javascript" src="/peak/development/_js/vendor/modernizr-custom.js"></script> -->
-<!-- <script type="text/javascript" src="/peak/development/_js/vendor/jquery-3.1.1.min.js"></script> -->
-<!-- <script type="text/javascript" src="/peak/development/_js/vendor/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script> -->
-<!-- Fallback for jQuery CDN -->
-<!-- <script type="javascript">window.jQuery || Modernizr.addTest('hasJquery', 'jQuery' in window) || document.write('<script src="/peak/development/_js/vendor/jquery-3.1.1.min.js"><\/script>')</script> -->
-<!-- Bootstrap Collapse script -->
-
-
 
 <!-- http://www.paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 </html>
