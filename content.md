@@ -1,5 +1,25 @@
 # Peak Website Services
 
+## future script (january 4, 2017)
+
+I conduct my business with the best interests for/of my customers in mind. And I am always getting better at what I do - believing that excellence is something that must be practiced daily.
+
+This is a select service for small business owners who want reliable and dependable technical solutions - in other words, someone they have in their corner to assist you with the cornerstone of your online presence: your website.
+
+Specifically, we offer three distinct but combinable/complimentive services:
+
+(services here)
+
+###Important Objections to Cover
+Mobile-Responsiveness
+Analytics
+Security
+Problem Solving
+Personal Attention
+Peace of Mind
+
+
+
 ## Future Pages for Keywords
 - "search engine optimization services" (188)
 - "seo services" (941)
