@@ -17,43 +17,30 @@ $canonical = "http://peakwebsites.ca/";
 			<div class="container callout">
 				<h1 class="fadeInUp">Put Your Business On&nbsp;<span>Top</span></h1>
 				<div class="callout-container">
-					<p>Everything you need to make having an online presence simple and affordable.</p>
+					<p>Everything you need for having a strong online presence - without the worry or work of having to do it yourself.</p>
 					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
-					<a href="/website-services/" title="Learn How">Learn How</a>
+					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
+					<a href="#" title="Learn How">How We Can Help</a>
+					<!-- NOTE: or just a down-pointing arrow -->
+					<!-- scroll down the page -->
 				</div>
 
 			</div>
 
 		</section><!--/ end of Landing Page -->
 
-
-		<!-- What We Do -->
-		<section id="elevate-business">
-
-			<div class="container-alt">
-				<h2>Elevate Your Online Presence</h2>
-				<p></p>
-				<div class="row" id="mountain-layout">
-					<div class="col col-4">
-						<p>Get a state-of-the-art website suited to your unique needs and vision.</p>
-					</div>
-					<div class="col col-4">
-						<p>We'll host it for you <em>securely</em>, maintain it <em>regularly</em>, and keep you in the loop about your site's performance.</p>
-					</div>
-					<div class="col col-4">
-						<p>More than that, we'll guide you along the complicated world of Search Engine Optimization and help your business reach the top of the search results.</p>
-					</div>
-				</div>
-			</div>
-
-		</section><!--/ what we do -->
-
+		<section>
+			<h2>The Web Is Complicated</h2>
+			<p>Running a website - let alone building it, designing it and getting it online - can be a full time job. Even when you get to that point you still have to contend with actually getting people to visit your website - all while running your business and everything that goes along with doing it.</p>
+			<p>Wouldn't it be nice if you had just one point of contact, one dependable and trusted source that could provide you with all the pieces you need to put your business on top, to have a website that works <em>for you</em> all year long.</p>
+			<a href="contact.php">Get a Peak-Performance website.</a>
+			<!-- link to the contact form -->
+		</section>
 
 		<!-- Why A Website -->
 		<section id="website-important">
-
 			<div class="container">
-				<h3>Why Is A Website So Important for Small-to-Medium Sized Businesses?</h3>
+				<h3>Why Is A Strong Website Important for Small Business</h3>
 				<dl>
 					<div class="row">
 						<div class="col col-4">
@@ -71,15 +58,10 @@ $canonical = "http://peakwebsites.ca/";
 					</div>
 				</dl>
 			</div>
-
+			<p>Contact us today to learn how we can make your life easier</p>
+			<a href="#">check out our services</a>
+			<!-- NOTE: display satisfaction gaurenteed logo -->
 		</section>
-
-		<!-- <section>
-			<p>Everything you need, all in one place</p>
-			<p>Learn how we can help</p>
-		</section> -->
-
-		<?php //include('_includes/theme/banner.php'); ?>
 
 	</main>
 
