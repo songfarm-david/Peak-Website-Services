@@ -17,10 +17,10 @@ $canonical = "http://peakwebsites.ca/";
 			<div class="container callout">
 				<h1 class="fadeInUp">Put Your Business On&nbsp;<span>Top</span></h1>
 				<div class="callout-container">
-					<p>Everything you need for having a strong online presence - without the worry or work of having to do it yourself.</p>
+					<p>Everything you need for a strong online presence.</p>
 					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
 					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
-					<a href="#" title="Learn How">How We Can Help</a>
+					<a href="#" title="Learn How">Learn How We Can Help</a>
 					<!-- NOTE: or just a down-pointing arrow -->
 					<!-- scroll down the page -->
 				</div>
@@ -29,11 +29,13 @@ $canonical = "http://peakwebsites.ca/";
 
 		</section><!--/ end of Landing Page -->
 
-		<section>
+		<section id="complicated-web">
 			<h2>The Web Is Complicated</h2>
-			<p>Running a website - let alone building it, designing it and getting it online - can be a full time job. Even when you get to that point you still have to contend with actually getting people to visit your website - all while running your business and everything that goes along with doing it.</p>
-			<p>Wouldn't it be nice if you had just one point of contact, one dependable and trusted source that could provide you with all the pieces you need to put your business on top, to have a website that works <em>for you</em> all year long.</p>
-			<a href="contact.php">Get a Peak-Performance website.</a>
+			<p>Having a decent website is <em>hard</em> &mdash; designing it, making sure it works right across devices, managing it, optimizing it, getting good content &mdash; all of that is a lot of work! <br>Even when you <em>get</em> to that point, you still have to contend with actually <em>getting</em> people to visit your website &mdash; all while running your business and everything that goes along with doing it.</p>
+
+			<p>Wouldn't it be nice if you had just <em>one point of contact</em>, one <em>dependable</em> and <em>trusted source</em> to<em> depend on</em> to provide you with <em>all the pieces you need</em> for a <em>strong online presence</em>, a website that works <em>for you</em> all year round?</p>
+			<a href="contact.php">Elevate Your Online Business</a>
+
 			<!-- link to the contact form -->
 		</section>
 
@@ -58,8 +60,8 @@ $canonical = "http://peakwebsites.ca/";
 					</div>
 				</dl>
 			</div>
-			<p>Contact us today to learn how we can make your life easier</p>
-			<a href="#">check out our services</a>
+			<p><a href="contact.php">Contact us</a> to have a strong online presence</p>
+			<a href="#">Check Out Our Services</a>
 			<!-- NOTE: display satisfaction gaurenteed logo -->
 		</section>
 
