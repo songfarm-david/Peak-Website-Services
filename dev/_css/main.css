@@ -259,13 +259,22 @@ textarea {
 }
 .container {
   width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
-@media (min-width: 48rem) {
+@media (min-width: 40em) {
   .container {
-    width: 100%;
-    max-width: 85rem;
-    margin: 0 auto;
-    padding: 0;
+    width: 34em;
+  }
+}
+@media (min-width: 48em) {
+  .container {
+    width: 42em;
+  }
+}
+@media (min-width: 80em) {
+  .container {
+    width: 72em;
   }
 }
 html {
@@ -908,15 +917,7 @@ footer #copyright span {
     overflow: hidden;
   }
 }
-#business-top .callout {
-  padding-left: 0.59985rem;
-  padding-right: 0.59985rem;
-}
 @media (min-width: 48rem) {
-  #business-top .callout {
-    padding-left: 1.1997rem;
-    padding-right: 1.1997rem;
-  }
 }
 @media (min-width: 64rem) {
   #business-top .callout {
@@ -980,13 +981,11 @@ footer #copyright span {
 #business-top .callout div.callout-container p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3rem;
-  color: #314873;
+  color: #2f5464;
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3.5991rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 @media (min-width: 48rem) {
   #business-top .callout div.callout-container p {
@@ -1039,28 +1038,28 @@ footer #copyright span {
   text-align: center;
   padding-top: 4.7988rem;
   padding-bottom: 3.1984002rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
 }
-#complicated-web > h2 {
+#complicated-web h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 2.1rem;
   margin-top: 0;
   color: #487F98;
 }
-#complicated-web > p {
+#complicated-web p {
   padding: 0.59985rem;
   padding-0.25: 2.3994rem;
   font-size: 1.3rem;
   color: #487F98;
   font-weight: 400;
+  padding-left: .25rem;
+  padding-right: .25rem;
 }
-#complicated-web > p + p {
+#complicated-web p + p {
   padding-top: 1.333rem;
   padding-bottom: 1.333rem;
 }
-#complicated-web > p + p em {
+#complicated-web p + p em {
   font-style: normal;
 }
 #complicated-web a {
@@ -1073,27 +1072,21 @@ footer #copyright span {
 #complicated-web a:hover {
   background-color: #487F98;
 }
-#complicated-web > p:last-of-type {
+#complicated-web p:last-of-type {
   font-weight: bold;
   margin-top: 0;
   padding-top: 0;
 }
 @media (min-width: 36em) {
   #complicated-web p {
-    padding-left: 1.5%;
-    padding-right: 1.5%;
+    padding: 0;
   }
   #complicated-web a {
     max-width: 20em;
   }
 }
 @media (min-width: 48em) {
-  #complicated-web h2 {
-    font-size: 2.7rem;
-  }
   #complicated-web p {
-    padding-left: 3%;
-    padding-right: 3%;
     font-size: 1.5rem;
   }
   #complicated-web a {
@@ -1109,7 +1102,6 @@ footer #copyright span {
     font-size: 3.2rem;
   }
   #complicated-web p {
-    width: 60rem;
     margin-left: auto;
     margin-right: auto;
     font-size: 1.8rem;
