@@ -6,19 +6,19 @@ module.exports = function(grunt) {
 				separator : '\n\n//==================================================\n\n'
 			},
 			dist : {
-				src	: '/development/_js/**/*.js',
-				dest: '/development/_js/script.js'
+				src	: '/dev/_js/**/*.js',
+				dest: '/dev/_js/script.js'
 			}
 		},
 		less : {
 			development : {
 				files : {
-					'development/_css/main.css' : 'development/_less/theme/compile.less'
+					'dev/_css/main.css' : 'dev/_less/theme/compile.less'
 				}
 			}
 		},
 		jshint : {
-			dev : ['gruntfile.js','development/_js/script.js']
+			dev : ['gruntfile.js','dev/_js/script.js']
 		},
 		watch : {
 			options : {
@@ -26,15 +26,15 @@ module.exports = function(grunt) {
 				livereload : true
 			},
 			scripts : {
-				files : ['development/_js/**/*.js'],
+				files : ['dev/_js/**/*.js'],
 				tasks : ['concat']
 			},
 			less : {
-				files : ['development/_less/**/*.less'],
+				files : ['dev/_less/**/*.less'],
 				tasks : ['less']
 			},
 			markUp : {
-				files : ['development/**/*.html','development/**/*.php']
+				files : ['dev/**/*.html','dev/**/*.php']
 			}
 		}
 	}); // initConfig
