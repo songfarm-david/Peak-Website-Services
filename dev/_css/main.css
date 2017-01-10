@@ -294,14 +294,13 @@ h5,
 .h5,
 h6,
 .h6 {
-  font: normal 1rem 'Muli', Arial, sans-serif;
   margin: 1.333rem 0 0.6665rem;
   text-transform: capitalize;
 }
 p,
 span {
   margin: 1.333rem 0 0.6665rem;
-  line-height: 1.333;
+  line-height: 1.4;
   font-size: 1.3rem;
 }
 h6,
@@ -368,8 +367,8 @@ ul,
 ol,
 dl {
   margin-top: 0.6665rem;
-  margin-bottom: 1.333rem;
-  padding-left: 1.333rem;
+  margin-bottom: 1.4rem;
+  padding-left: 1.4rem;
   list-style: none;
   font-size: 1.3rem;
 }
@@ -882,13 +881,6 @@ footer #copyright span {
   }
 }
 /* index.php (main) */
-#elevate-business h2,
-#website-important h3 {
-  font-family: normal 900 1rem 'Raleway', Arial, sans-serif;
-}
-#website-important dt {
-  font-weight: bold;
-}
 #business-top {
   position: relative;
   background-color: #86A5C4;
@@ -942,6 +934,7 @@ footer #copyright span {
 #business-top .callout h1 > span {
   font-size: inherit;
   color: #35885f;
+  line-height: 0;
 }
 @media (min-width: 48rem) {
   #business-top .callout h1 {
@@ -965,12 +958,14 @@ footer #copyright span {
   padding-top: 1.1997rem;
   padding-bottom: 7.1982rem;
   box-shadow: inset 0px 2px 10px 0px #467F96;
+  display: none;
 }
 @media (min-width: 48rem) {
   #business-top .callout div.callout-container {
     padding-top: 2.3994rem;
     padding-bottom: 9.5976rem;
     top: 28rem;
+    display: inline;
   }
 }
 @media (min-width: 64rem) {
@@ -1011,7 +1006,9 @@ footer #copyright span {
     font-size: 1.8rem;
   }
 }
-#business-top .callout div.callout-container a {
+#business-top .callout div.callout-container a,
+#complicated-web a {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: white;
   letter-spacing: 1px;
@@ -1023,7 +1020,8 @@ footer #copyright span {
   box-shadow: 0 2px 3px 0px #555;
 }
 @media (min-width: 48rem) {
-  #business-top .callout div.callout-container a {
+  #business-top .callout div.callout-container a,
+  #complicated-web a {
     font-size: 1.5rem;
   }
 }
@@ -1031,162 +1029,102 @@ footer #copyright span {
 #business-top .callout div.callout-container a:active {
   background-color: #467F96;
 }
-#elevate-business {
-  display: none;
-  height: auto;
-  background: #fff url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%220%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%2225%25%22%20stop-color%3D%22%2386a5c4%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23ffffeb%22%20stop-opacity%3D%220.5%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
-  padding-top: 2.3994rem;
-  padding-bottom: 4.7988rem;
-}
-#elevate-business > div {
+#complicated-web {
+  color: #487F98;
+  background-color: white;
+  background-color: #e6f4fb;
+  background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%201%201%22%20preserveAspectRatio%3D%22none%22%3E%3ClinearGradient%20id%3D%22gradient%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%25%22%20y1%3D%22100%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%3Cstop%20offset%3D%2210%25%22%20stop-color%3D%22%23d0eaf7%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23e6f4fb%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23d0eaf7%22%2F%3E%3C%2FlinearGradient%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%221%22%20height%3D%221%22%20fill%3D%22url(%23gradient)%22%20%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-  padding-left: 0.82385661rem;
-  padding-right: 0.82385661rem;
-}
-@media (min-width: 64rem) {
-  #elevate-business > div {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7.1982rem;
-  }
-}
-#elevate-business > div h2 {
-  color: #3b687c;
-  font-size: 1.8rem;
-}
-@media (min-width: 48rem) {
-  #elevate-business > div h2 {
-    font-size: 1.7rem;
-    font-weight: bold;
-  }
-}
-@media (min-width: 64rem) {
-  #elevate-business > div h2 {
-    font-size: 2.4rem;
-    margin-bottom: 3.1984002rem;
-  }
-}
-#elevate-business > div #mountain-layout > div.col {
-  position: relative;
-  margin-top: 2.3994rem;
-  padding-left: 0.82385661rem;
-  padding-right: 0.82385661rem;
-  padding-bottom: 0.82385661rem;
-}
-@media (min-width: 64rem) {
-}
-#elevate-business > div p {
-  color: #1a4b67;
-  font-size: 1.3rem;
-}
-@media (min-width: 64rem) {
-  #elevate-business > div p {
-    font-size: 1.2rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (min-width: 64rem) {
-  #elevate-business {
-    min-height: 100vh;
-  }
-}
-#website-important {
-  display: none;
   padding-top: 4.7988rem;
-  padding-bottom: 4.7988rem;
-  background-color: #fff;
-  background-image: url(../_images/backgrounds/circle-mess-multi.svg);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
+  padding-bottom: 3.1984002rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  box-shadow: inset 3px -3px 8px 1px #27495D;
 }
-#website-important > div {
-  text-align: center;
+#complicated-web > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.1rem;
+  margin-top: 0;
+  color: #487F98;
 }
-#website-important > div h3 {
-  font-size: 1.5rem;
-  margin-bottom: 2.3994rem;
-  padding-left: 0.82385661rem;
-  padding-right: 0.82385661rem;
-  color: #386275;
+#complicated-web > p {
+  padding: 0.59985rem;
+  padding-0.25: 2.3994rem;
+  font-size: 1.3rem;
+  color: #487F98;
+  font-weight: 400;
 }
-@media (min-width: 48rem) {
-  #website-important > div h3 {
+#complicated-web > p + p {
+  padding-top: 1.333rem;
+  padding-bottom: 1.333rem;
+}
+#complicated-web > p + p em {
+  font-style: normal;
+}
+#complicated-web a {
+  width: 90%;
+  margin: 1rem auto;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transition: all 1s;
+}
+#complicated-web a:hover {
+  background-color: #487F98;
+}
+#complicated-web > p:last-of-type {
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+}
+@media (min-width: 36em) {
+  #complicated-web p {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+  #complicated-web a {
+    max-width: 20em;
+  }
+}
+@media (min-width: 48em) {
+  #complicated-web h2 {
+    font-size: 2.7rem;
+  }
+  #complicated-web p {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.5rem;
+  }
+  #complicated-web a {
+    max-width: 60%;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 80em) {
+  #complicated-web {
+    padding-bottom: 5.332rem;
+  }
+  #complicated-web h2 {
+    font-size: 3.2rem;
+  }
+  #complicated-web p {
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.8rem;
-    position: relative;
-    margin-bottom: 3.1984002rem;
-    font-weight: bold;
   }
-  #website-important > div h3::after {
-    content: "";
-    height: 5px;
-    width: 12.5%;
-    position: absolute;
-    background-color: #3b687c;
-    bottom: -2.156794rem;
-    left: 50%;
-    transform: translateX(-50%);
+  #complicated-web p:last-of-type {
+    font-size: 1.8rem;
   }
-}
-#website-important > div dl,
-#website-important > div dd {
-  padding-left: 0;
-}
-#website-important > div dl {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-left: 0.44433333rem;
-  margin-right: 0.44433333rem;
-}
-#website-important > div dl > .row div:nth-child(1) dt {
-  color: #4F1271;
-}
-#website-important > div dl > .row div:nth-child(2) dt {
-  color: #056a5f;
-}
-#website-important > div dl > .row div:nth-child(3) dt {
-  color: #345995;
-}
-#website-important > div dl > .row dt {
-  font-size: 130%;
-}
-#website-important > div dl > .row dd {
-  color: #386275;
-}
-#website-important > div dd {
-  margin-bottom: 2.3994rem;
-}
-#website-important > div dt,
-#website-important > div dd {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-@media (min-width: 64rem) {
-  #website-important > div {
-    margin-top: 4.7988rem;
-  }
-}
-@media (min-width: 64rem) {
-  #website-important {
-    min-height: 100vh;
+  #complicated-web a {
+    max-width: 30rem;
+    font-size: 1.8rem;
   }
 }
 footer {
   display: none;
-}
-@media (min-width: 64rem) {
-  html,
-  body {
-    overflow: hidden;
-  }
-}
-/*
-* peakwebsites.ca/website-services/
-*/
-.service {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  box-shadow: 0px 3px 5px 2px #487F98;
 }
 #website-services {
   background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
@@ -1196,7 +1134,7 @@ footer {
   background-size: cover;
   text-align: center;
 }
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   #website-services {
     height: auto;
     min-height: 100vh;
@@ -1206,25 +1144,14 @@ footer {
 }
 #website-services p {
   font-family: 'Raleway', sans-serif;
-  font-size: 2.1rem;
   color: #487F98;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 1.333em;
-  padding-top: 1.333rem;
-  padding-bottom: 1.333em;
-  padding-bottom: 1.333rem;
-  margin-bottom: 1em;
-  margin-bottom: 1rem;
-}
-@media (min-width: 48rem) {
-  #website-services p {
-    font-size: 2.4rem;
-  }
 }
 #website-services p[data-name="main-callout"] {
   margin: 0 auto;
   padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.8em;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -1234,18 +1161,27 @@ footer {
 }
 @media (min-width: 33em) {
   #website-services p[data-name="main-callout"] {
+    font-size: 2.1em;
     font-size: 2.1rem;
   }
 }
 @media (min-width: 50em) {
   #website-services p[data-name="main-callout"] {
+    font-size: 2.4em;
     font-size: 2.4rem;
   }
 }
-@media (min-width: 50em) {
+@media (min-width: 75em) {
   #website-services p[data-name="main-callout"] {
+    font-size: 2.7em;
     font-size: 2.7rem;
-    width: 68%;
+  }
+}
+@media (min-width: 90em) {
+  #website-services p[data-name="main-callout"] {
+    font-size: 2.7em;
+    font-size: 2.7rem;
+    width: 72%;
   }
 }
 #service-display {
@@ -1269,7 +1205,7 @@ footer {
   margin: 0 auto;
   margin-bottom: 2.666rem;
 }
-@media (min-width: 64rem) {
+@media (min-width: 64em) {
   #service-display section {
     margin-right: 1.333em;
     margin-right: 1.333rem;
@@ -1282,31 +1218,38 @@ footer {
   text-align: center;
 }
 #service-display section p[data-name="service-title"] {
-  padding-top: 1.333rem;
-  padding-bottom: 1.333rem;
-  font-size: 1.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.9em;
   font-weight: 700;
   color: white;
 }
 @media (min-width: 33em) {
   #service-display section p[data-name="service-title"] {
-    font-size: 2.1rem;
-  }
-}
-@media (min-width: 110em) {
-  #service-display section p[data-name="service-title"] {
-    font-size: 2.4rem;
+    font-size: 2.4em;
   }
 }
 #service-display section > p:last-of-type {
-  font-size: 1.3rem;
-  font-size: 1.4rem;
   font-weight: 400;
-  padding: 1.333rem;
+  padding: 1rem;
 }
 @media (min-width: 64em) {
   #service-display section > p:last-of-type {
     min-height: 8.88888889em;
+  }
+}
+#service-display section p[data-name="service-info"] {
+  padding-top: 1.333em;
+  padding-top: 1.333rem;
+  padding-bottom: 1.333em;
+  padding-bottom: 1.333rem;
+  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+@media (min-width: 48em) {
+  #service-display section p[data-name="service-info"] {
+    font-size: 1.5rem;
   }
 }
 #service-display section > a {
@@ -1319,18 +1262,15 @@ footer {
   color: white;
   padding-top: 18px;
   padding-bottom: 18px;
+  font-size: 1.3em;
   font-size: 1.3rem;
   margin: 1.618rem auto;
   margin-bottom: 0;
 }
 @media (min-width: 40em) {
   #service-display section > a {
+    font-size: 1.4em;
     font-size: 1.4rem;
-  }
-}
-@media (min-width: 110em) {
-  #service-display section > a {
-    font-size: 1.5rem;
   }
 }
 #service-display section[data-id="service-development"] {
@@ -1429,7 +1369,7 @@ footer {
 #contact-main #contact-form textarea {
   border-width: 0 0 2px;
   border-style: solid;
-  border-color: #329F5B;
+  border-color: #35885F;
   background-color: transparent;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
@@ -1467,7 +1407,7 @@ footer {
   margin-top: 1.776889rem;
   text-transform: uppercase;
   border-radius: 2px;
-  background: linear-gradient(to bottom, #329F5B 25%, #267845);
+  background: linear-gradient(to bottom, #35885F 25%, #276345);
   box-shadow: 0px 2px 4px 1px #27495D;
   transition: color 0.5s ease-out;
 }

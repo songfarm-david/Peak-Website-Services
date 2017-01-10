@@ -31,9 +31,11 @@ $canonical = "http://peakwebsites.ca/";
 
 		<section id="complicated-web">
 			<h2>The Web Is Complicated</h2>
-			<p>Having a decent website is <em>hard</em> &mdash; designing it, making sure it works right across devices, managing it, optimizing it, getting good content &mdash; all of that is a lot of work! <br>Even when you <em>get</em> to that point, you still have to contend with actually <em>getting</em> people to visit your website &mdash; all while running your business and everything that goes along with doing it.</p>
+			<p>Having a decent website is <em>hard</em> &mdash; designing it, making sure it works right across devices, managing it, optimizing it, getting good content &mdash; all of that is a lot of work! Even when you <em>get</em> to that point, you still have to contend with actually <em>getting</em> people to visit your website &mdash; all while running your business and everything that goes along with doing it.</p>
+			<!-- <p>Having a website is a lot of work and even after you put one together you <em>still</em> have to contend with getting people to visit it.</p> -->
 
 			<p>Wouldn't it be nice if you had just <em>one point of contact</em>, one <em>dependable</em> and <em>trusted source</em> to<em> depend on</em> to provide you with <em>all the pieces you need</em> for a <em>strong online presence</em>, a website that works <em>for you</em> all year round?</p>
+			<p>Now you do.</p>
 			<a href="contact.php">Elevate Your Online Business</a>
 
 			<!-- link to the contact form -->

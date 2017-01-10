@@ -48,6 +48,7 @@
 			>span {
 				font-size: inherit;
 				color: #35885f;
+				line-height: 0;
 			}
 			@media (@sm-query) {
 				.font-size(5);
@@ -136,6 +137,8 @@
 	background-color: white;
 	background-color: #e6f4fb;
 	background-image: svg-gradient(to top right, darken(#e6f4fb,5%) 10%, #e6f4fb 50%, darken(#e6f4fb,5%));
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
 	.base(padding,top,2);
 	.base(padding,bottom,1*@first-modular);
@@ -145,34 +148,84 @@
 	>h2 {
 		font-family: @body-font;
 		font-weight: 700;
-		.font-size(3.75);
+		.font-size(2.5);
 		margin-top: 0;
 		color: @hero-color;
 	}
 	>p {
 		.base(padding,.25);
-		.font-size(1.5);
+		.font-size(1);
 		color: @hero-color;
 		font-weight: 400;
 	}
 	>p + p {
 		padding-top: @1-rem;
-		color: @sea-green;
+		padding-bottom: @1-rem;
+		// color: @sea-green;
 		em {
-			font-weight: bold;
+			// font-weight: bold;
 			font-style: normal;
 		}
 	}
-	>p + p + a {
+	a {
 		width: 90%;
 		&:extend(#business-top .callout div.callout-container a);
 		// background-color: @moonstone-blue;
 		margin: 1rem auto;
 		font-weight: bold;
-		.font-size(1.5);
+		.font-size(1.15);
 		transition: all 1s;
 		&:hover {
 			background-color: @hero-color;
+		}
+	}
+	>p:last-of-type {
+		font-weight: bold;
+		margin-top: 0;
+		padding-top: 0;
+	}
+	@media (min-width: 36em) {
+		p {
+			padding-left: 1.5%;
+			padding-right: 1.5%;
+		}
+		a {
+			max-width: 20em;
+		}
+	}
+	@media (min-width: 48em) {
+		h2 {
+			.font-size(3.5);
+		}
+		p {
+			padding-left: 3%;
+			padding-right: 3%;
+			.font-size(1.5);
+		}
+		a {
+			max-width: 60%;
+			.font-size(1.6);
+		}
+	}
+	// desktops
+	@media (min-width: 80em) {
+		padding-bottom: 4rem*@first-modular;
+		h2 {
+			.font-size(4);
+		}
+		p {
+			width: 60rem;
+			margin-left: auto;
+			margin-right: auto;
+			.font-size(2);
+		}
+		p:last-of-type {
+			.font-size(2.1);
+			// .border;
+		}
+		a {
+			max-width: 30rem;
+			.font-size(2.1);
 		}
 	}
 }
