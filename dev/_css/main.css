@@ -274,7 +274,7 @@ textarea {
 }
 @media (min-width: 80em) {
   .container {
-    width: 72em;
+    width: 65em;
   }
 }
 html {
@@ -944,7 +944,7 @@ footer #copyright span {
 }
 @media (min-width: 64rem) {
   #business-top .callout h1 {
-    font-size: 4.9rem;
+    font-size: 5.6rem;
     text-align: left;
   }
 }
@@ -1002,7 +1002,7 @@ footer #copyright span {
 @media (min-width: 105rem) {
   #business-top .callout div.callout-container p {
     width: 60%;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 }
 #business-top .callout div.callout-container a,
@@ -1097,6 +1097,7 @@ footer #copyright span {
 @media (min-width: 80em) {
   #complicated-web {
     padding-bottom: 5.332rem;
+    height: 100vh;
   }
   #complicated-web h2 {
     font-size: 3.2rem;
