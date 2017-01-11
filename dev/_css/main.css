@@ -1146,7 +1146,7 @@ footer #copyright span {
   font-weight: bold;
   padding-left: 0.82385661rem;
   padding-right: 0.82385661rem;
-  color: #386275;
+  color: #27495D;
 }
 #website-important dl,
 #website-important dd {
@@ -1232,9 +1232,6 @@ footer #copyright span {
   #website-important dd {
     font-size: 1.6rem;
   }
-}
-footer {
-  display: none;
 }
 #website-services {
   background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
