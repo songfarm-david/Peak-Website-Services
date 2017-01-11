@@ -445,7 +445,7 @@ li {
   zoom: 1;
   /* For IE 6/7 */
 }
-@media (min-width: 64rem) {
+@media (min-width: 80em) {
   .col-1 {
     width: 6.10033333%;
   }
@@ -1002,14 +1002,16 @@ footer #copyright span {
 @media (min-width: 105rem) {
   #business-top .callout div.callout-container p {
     width: 60%;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 #business-top .callout div.callout-container a,
-#complicated-web a {
+#complicated-web a,
+#website-important a {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   color: white;
+  font-weight: bold;
   letter-spacing: 1px;
   padding: 1rem 2.666rem;
   font-size: 1.3rem;
@@ -1020,13 +1022,14 @@ footer #copyright span {
 }
 @media (min-width: 48rem) {
   #business-top .callout div.callout-container a,
-  #complicated-web a {
+  #complicated-web a,
+  #website-important a {
     font-size: 1.5rem;
   }
 }
 #business-top .callout div.callout-container a:hover,
 #business-top .callout div.callout-container a:active {
-  background-color: #467F96;
+  background-color: #27495D;
 }
 #complicated-web {
   color: #487F98;
@@ -1038,6 +1041,7 @@ footer #copyright span {
   text-align: center;
   padding-top: 4.7988rem;
   padding-bottom: 3.1984002rem;
+  border-bottom: 1px solid #ddf0fa;
 }
 #complicated-web h2 {
   font-family: 'Raleway', sans-serif;
@@ -1062,34 +1066,45 @@ footer #copyright span {
 #complicated-web p + p em {
   font-style: normal;
 }
-#complicated-web a {
+#complicated-web a,
+#website-important a {
   width: 90%;
   margin: 1rem auto;
   font-weight: bold;
   font-size: 1.4rem;
   transition: all 1s;
 }
-#complicated-web a:hover {
-  background-color: #487F98;
+#complicated-web a:hover,
+#website-important a:hover {
+  background-color: #27495D;
 }
 #complicated-web p:last-of-type {
   font-weight: bold;
   margin-top: 0;
   padding-top: 0;
+  font-size: 1.4rem;
 }
 @media (min-width: 36em) {
+  #complicated-web h2 {
+    font-size: 2.4rem;
+  }
   #complicated-web p {
     padding: 0;
   }
-  #complicated-web a {
+  #complicated-web a,
+  #website-important a {
     max-width: 20em;
   }
 }
 @media (min-width: 48em) {
+  #complicated-web h2 {
+    font-size: 2.7rem;
+  }
   #complicated-web p {
     font-size: 1.5rem;
   }
-  #complicated-web a {
+  #complicated-web a,
+  #website-important a {
     max-width: 60%;
     font-size: 1.6rem;
   }
@@ -1110,7 +1125,8 @@ footer #copyright span {
   #complicated-web p:last-of-type {
     font-size: 1.8rem;
   }
-  #complicated-web a {
+  #complicated-web a,
+  #website-important a {
     max-width: 30rem;
     font-size: 1.8rem;
   }
@@ -1121,24 +1137,55 @@ footer #copyright span {
   background-color: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
 }
-#website-important > div {
+#website-important div {
   text-align: center;
 }
-#website-important > div h3 {
-  font-size: 1.5rem;
+#website-important h3 {
+  font-size: 1.8rem;
   margin-bottom: 2.3994rem;
+  font-weight: bold;
   padding-left: 0.82385661rem;
   padding-right: 0.82385661rem;
   color: #386275;
 }
-@media (min-width: 48rem) {
-  #website-important > div h3 {
-    font-size: 1.8rem;
+#website-important dl,
+#website-important dd {
+  padding-left: 0;
+}
+#website-important dl {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-left: 0.44433333rem;
+  margin-right: 0.44433333rem;
+}
+#website-important dt {
+  font-size: 1.5rem;
+}
+#website-important dd {
+  margin-bottom: 2.3994rem;
+  line-height: 1.4;
+  color: #386275;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 1.3rem;
+}
+#website-important dl > div.row div:nth-child(1) dt {
+  color: #4F1271;
+}
+#website-important dl > div.row div:nth-child(2) dt {
+  color: #056a5f;
+}
+#website-important dl > div.row div:nth-child(3) dt {
+  color: #345995;
+}
+@media (min-width: 36em) {
+  #website-important h3 {
+    font-size: 2.1rem;
     position: relative;
     margin-bottom: 3.1984002rem;
     font-weight: bold;
   }
-  #website-important > div h3::after {
+  #website-important h3::after {
     content: "";
     height: 5px;
     width: 12.5%;
@@ -1148,48 +1195,42 @@ footer #copyright span {
     left: 50%;
     transform: translateX(-50%);
   }
-}
-#website-important > div dl,
-#website-important > div dd {
-  padding-left: 0;
-}
-#website-important > div dl {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-left: 0.44433333rem;
-  margin-right: 0.44433333rem;
-}
-#website-important > div dl > .row div:nth-child(1) dt {
-  color: #4F1271;
-}
-#website-important > div dl > .row div:nth-child(2) dt {
-  color: #056a5f;
-}
-#website-important > div dl > .row div:nth-child(3) dt {
-  color: #345995;
-}
-#website-important > div dl > .row dt {
-  font-size: 130%;
-}
-#website-important > div dl > .row dd {
-  color: #386275;
-}
-#website-important > div dd {
-  margin-bottom: 2.3994rem;
-}
-#website-important > div dt,
-#website-important > div dd {
-  padding-left: 12px;
-  padding-right: 12px;
-}
-@media (min-width: 64rem) {
-  #website-important > div {
-    margin-top: 4.7988rem;
+  #website-important dl {
+    padding-top: 1.333rem;
+  }
+  #website-important dt {
+    font-size: 1.5rem;
+  }
+  #website-important dd {
+    font-size: 1.3rem;
   }
 }
-@media (min-width: 64rem) {
-  #website-important {
-    min-height: 100vh;
+@media (min-width: 48em) {
+  #website-important .container {
+    width: 40em;
+  }
+  #website-important h3 {
+    font-size: 2.4rem;
+  }
+  #website-important dt {
+    font-size: 1.8rem;
+  }
+  #website-important dd {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 80em) {
+  #website-important .container {
+    width: 76em;
+  }
+  #website-important h3 {
+    font-size: 2.7rem;
+  }
+  #website-important dt {
+    font-size: 2.1rem;
+  }
+  #website-important dd {
+    font-size: 1.6rem;
   }
 }
 footer {

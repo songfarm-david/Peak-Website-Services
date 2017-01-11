@@ -17,7 +17,7 @@ $canonical = "http://peakwebsites.ca/";
 			<div class="container callout">
 				<h1 class="fadeInUp">Put Your Business On&nbsp;<span>Top</span></h1>
 				<div class="callout-container">
-					<p>Everything you need for a strong online presence.</p>
+					<p>Everything you need for a Peak-Performance website.</p>
 					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
 					<!-- <p>Everything you need to make having an online presence simple and affordable.</p> -->
 					<a href="#" title="Learn How">Learn How We Can Help</a>
@@ -47,7 +47,7 @@ $canonical = "http://peakwebsites.ca/";
 		<!-- Why A Website -->
 		<section id="website-important">
 			<div class="container">
-				<h3>Why Is A Strong Website Important for Small Business</h3>
+				<h3>Why Is A Strong Website Important for Small Business?</h3>
 				<dl>
 					<div class="row">
 						<div class="col col-4">
@@ -64,9 +64,9 @@ $canonical = "http://peakwebsites.ca/";
 						</div>
 					</div>
 				</dl>
+				<a href="/website-services/">Learn About Our Services</a>
 			</div>
-			<p><a href="contact.php">Contact us</a> to have a strong online presence</p>
-			<a href="#">Check Out Our Services</a>
+
 			<!-- NOTE: display satisfaction gaurenteed logo -->
 		</section>
 

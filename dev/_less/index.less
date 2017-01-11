@@ -104,14 +104,14 @@
 				}
 				@media (@lg-query) {
 					width: 60%;
-					.font-size(2.25);
+					.font-size(2.5);
 				}
 			}
 			a {
 				display: inline-block;
 				font-family: @body-font;
 				color: white;
-				// font-weight: 700;
+				font-weight: bold;
 				letter-spacing: 1px;
 				padding: @1-rem/@first-modular @2-rem;
 				.font-size(1);
@@ -124,7 +124,7 @@
 				}
 				&:hover,
 				&:active {
-					background-color: #467F96;
+					background-color: @japanese-indigo;
 				}
 			}
 		}
@@ -144,6 +144,7 @@
 	// padding-left: .5rem;
 	// padding-right: .5rem;
 	// box-shadow: inset 3px -3px 8px 1px @japanese-indigo;
+	border-bottom: 1px solid darken(#e6f4fb, 2%);
 	h2 {
 		font-family: @body-font;
 		font-weight: 700;
@@ -174,21 +175,23 @@
 		// background-color: @moonstone-blue;
 		margin: 1rem auto;
 		font-weight: bold;
-		.font-size(1.15);
+		.font-size(1.25);
 		transition: all 1s;
 		&:hover {
-			background-color: @hero-color;
+			background-color: @japanese-indigo;
 		}
 	}
 	p:last-of-type {
 		font-weight: bold;
 		margin-top: 0;
 		padding-top: 0;
+		.font-size(1.25);
 	}
 	@media (min-width: 36em) {
+		h2 {
+			.font-size(3);
+		}
 		p {
-			// padding-left: 1.5%;
-			// padding-right: 1.5%;
 			padding: 0;
 		}
 		a {
@@ -197,7 +200,7 @@
 	}
 	@media (min-width: 48em) {
 		h2 {
-			// .font-size(3.5);
+			.font-size(3.5);
 		}
 		p {
 			// padding-left: 3%;
@@ -238,74 +241,113 @@
 	.base(padding,top,2);
 	.base(padding,bottom,2);
 	background-color: #fff;
-	>div {
+	div {
 		text-align: center;
-		h3 {
-			.font-size(2/@first-modular);
-			.base(margin,bottom,1);
-			padding-left: @1-rem/@second-modular;
-			padding-right: @1-rem/@second-modular;
-			color: darken(@hero-color,10%);
-			@media (@sm-query) {
-				.font-size(2);
-				position: relative;
-				.base(margin,bottom,1*@first-modular);
-				font-weight: bold;
-				&::after {
-					content: "";
-					height: 5px;
-					width: 12.5%;
-					position: absolute;
-					background-color: darken(@hero-color, 8%);
-					bottom: -@1-rem*@second-modular;
-					left: 50%;
-					transform: translateX(-50%);
-				}
-			}
+	}
+	h3 {
+		.font-size(2);
+		.base(margin,bottom,1);
+		font-weight: bold;
+		padding-left: @1-rem/@second-modular;
+		padding-right: @1-rem/@second-modular;
+		color: darken(@hero-color,10%);
+	}
+	dl,
+	dd {
+		padding-left: 0;
+	}
+	dl {
+		text-align: center;
+		.font-size(1/@second-modular);
+		margin-left: @1-rem/3;
+		margin-right: @1-rem/3;
+	}
+	dt {
+		.font-size(1.5);
+	}
+	dd {
+		.base(margin,bottom,1);
+		line-height: 1.4;
+		color: darken(@hero-color,10%);
+		padding-left: 12px;
+		padding-right: 12px;
+		.font-size(1);
+	}
+	// dt,
+	// dd {
+	// 	padding-left: 12px;
+	// 	padding-right: 12px;
+	// }
+	// individual header (dt) colors
+	dl>div.row {
+		div:nth-child(1) dt {
+			color: #4F1271;
 		}
-		dl,
-		dd {
-			padding-left: 0;
+		div:nth-child(2) dt {
+			color: #056a5f;
 		}
-		dl {
-			text-align: center;
-			.font-size(1/@second-modular);
-			margin-left: @1-rem/3;
-			margin-right: @1-rem/3;
-		}
-		dl>.row {
-
-			div:nth-child(1) dt {
-				color: #4F1271;
-			}
-			div:nth-child(2) dt {
-				color: #056a5f;
-			}
-			div:nth-child(3) dt {
-				color: #345995;
-			}
-			dt {
-				font-size: 130%;
-			}
-			dd {
-				color: darken(@hero-color,10%);
-			}
-		}
-		dd {
-			.base(margin,bottom,1);
-		}
-		dt,
-		dd {
-			padding-left: 12px;
-			padding-right: 12px;
-		}
-		@media (@md-query) {
-			.base(margin,top,2);
+		div:nth-child(3) dt {
+			color: #345995;
 		}
 	}
+	a {
+		&:extend(#complicated-web a all);
+	}
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
-	@media (@md-query) {
-		min-height: 100vh;
+	@media (min-width: 36em) {
+		h3 {
+			.font-size(2.5);
+			position: relative;
+			.base(margin,bottom,1*@first-modular);
+			font-weight: bold;
+			&::after {
+				content: "";
+				height: 5px;
+				width: 12.5%;
+				position: absolute;
+				background-color: darken(@hero-color, 8%);
+				bottom: -@1-rem*@second-modular;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+		dl {
+			padding-top: @1-rem;
+		}
+		dt {
+			.font-size(1.5);
+		}
+		dd {
+			.font-size(1);
+		}
+	}
+	@media (min-width: 48em) {
+		.container {
+			width: 40em;
+		}
+		h3 {
+			.font-size(3);
+		}
+		dt {
+			.font-size(2);
+		}
+		dd {
+			.font-size(1.5);
+		}
+	}
+	@media (min-width: 80em) {
+		.container {
+			width: 76em;
+		}
+		h3 {
+			.font-size(3.5);
+		}
+		dt {
+			.font-size(2.5);
+		}
+		dd {
+			.font-size(1.65);
+		}
 	}
 }
 
