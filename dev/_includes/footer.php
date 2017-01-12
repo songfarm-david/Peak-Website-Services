@@ -35,6 +35,12 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-86141289-1','auto');ga('send','pageview');
 	</script>
+
+	<script type="text/javascript" src="/peak/build/modernizr-custom.js" async="true"></script>
+	<!-- <script type="text/javascript">
+		console.log(Modernizr);
+	</script> -->
+
 	<!-- temporary script -->
 	<script src="//localhost:35729/livereload.js"></script>
 </body>
