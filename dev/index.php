@@ -33,46 +33,44 @@ $canonical = "http://peakwebsites.ca/";
 		</section><!--/ end of Landing Page -->
 
 		<section id="complicated-web">
-			<div class="container">
-				<!-- <h2>The Web Is Complicated</h2> -->
-				<!-- <h2>today's web is tough</h2> -->
+			<!-- <div class="container"> -->
 				<h2>Today's Web Is <em>Hard</em></h2>
-				<!-- <p>Having a decent website is <em>hard</em> &mdash; designing it, making sure it works right across devices, managing it, optimizing it, getting good content &mdash; all of that is a lot of work! Even when you <em>get</em> to that point, you still have to contend with actually <em>getting</em> people to visit your website &mdash; all while running your business and everything that goes along with doing it.</p> -->
 
-				<!-- <p>People are using the internet more than ever before, and unfortunately, having a website is . Having a website today is hard! Making sure it looks good across all devices, is quick and painless to view, and more importantly, makes a great first impression with your customer is a lot of work.</p>
-				<p>Even if you get to that point, then there's actually getting visitors to your site.</p>
-
-				<p>Getting answers to all these questions is no small order, especially if you have your own business.</p>
-
-				<p>Wouldn't it be nice if you had just <em>one point of contact</em>, one <em>dependable</em> and <em>trusted source</em> to<em> depend on</em> to provide you with <em>all the pieces you need</em> for a <em>strong online presence</em>, a website that works <em>for you</em> all year round?</p>
-				<p>Now you do.</p> -->
-				<!-- <p>It's important to be accessible in today's world, that's why having a great website is important </p> -->
-				 <!-- is quick and easy for the user -->
 				 <p>In today's online world, it's important that you make a strong first impression, but having a website today isn't what it used to be &mdash; making sure it looks good across devices, is quick and easy to use, and makes a great first impression on potential customers &mdash; can be a full-time job!</p>
-				 <p><b>That's where we come in.</b> We specialize in providing <a href="#">peak website services</a> to busy business owners who don't want to worry about the code.</p>
-				 <p>So, why work with us?</p>
+				 <p id="special"><b>That's where we come in.</b></p>
+				 <p>We specialize in providing <a href="#">peak&nbsp;website&nbsp;services</a> to busy business owners who don't want to worry about the code.</p>
+				 <p class="highlight">So, why work with us?</p>
 
-				 <!-- new page here -->
 
-				 <h3>Commitment to Quality</h3>
-				 <p>We never settle for "just okay". We always go above and beyond to provide your customers with the peak experience. We call ourselves Peak Websites for a reason!</p>
-				 <h3>Industry Expertise</h3>
-				 <p>Websites are what we do and part of that is keeping up with the ever-changing world of the web. You can sleep comfortably knowing, that with us, you're in good hands.</p>
-				 <h3>Accessible Web</h3>
-				 <!-- <p>We  we're a limited-size company to the amount of clients we can take on, those we do work with will have a partner in business.</p> -->
-				 <p>We believe in trust and transparency in business and all that we do. Built  and we want to work with like-minded people. We're helping to make the web a better place.</p>
-				 <!-- <a href="#">learn about our services</a> -->
-				 <!-- <p>The fact is, more people are online today than ever before; an equally true but lesser known fact, is that having a website today can be a full time job.</p> -->
-				 <!-- <p>Making sure it looks good across all devices, is quick and easy to use, and more importantly, makes a great first impression with your customer is a lot of work.</p> -->
-				 <!-- <p>That's why we exist. We have put together everything you need for a peak-performing website all in one place.</p> -->
-				 <!-- //three headers -->
-				 <!-- <p>We will create and build you an exceptional website</p> -->
-				<a href="contact.php" class="action">Elevate Your Online Business</a>
-			</div>
+			<!-- </div> -->
+
 
 
 			<!-- link to the contact form -->
+
 		</section>
+
+		<section id="work-with-us">
+
+			<div id="columns" class="">
+				<div>
+					<h3>Commitment to Quality</h3><p>We don't settle for "just okay". We go above and beyond the call to provide you with service you can rely on. We call ourselves Peak Websites for a reason!</p>
+				</div>
+				<div>
+					<h3>Industry Expertise</h3><p>Websites are what we do and part of that is keeping up with the ever-changing world of the web. You can sleep comfortably knowing, that with us, you're in good hands.</p>
+				</div>
+				<div>
+					<h3>Accessible Web</h3><p>We believe in trust and transparency in business and all that we do. Built  and we want to work with like-minded people. We're helping to make the web a better place.</p>
+
+				<!-- <p>We  we're a limited-size company to the amount of clients we can take on, those we do work with will have a partner in business.</p> -->
+				</div>
+			</div>
+			
+			<a href="contact.php" class="callout-link" title="Contact Us">Elevate Your Online Business</a>
+
+
+		</section>
+
 
 		<!-- Why A Website -->
 		<section id="website-important">

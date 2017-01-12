@@ -36,16 +36,36 @@ module.exports = function(grunt) {
 			markUp : {
 				files : ['dev/**/*.html','dev/**/*.php']
 			}
-		}
+		},
+		postcss: {
+	    options: {
+	      map: true, // inline sourcemaps
+
+	      // or
+	      map: {
+	          inline: true, // save all sourcemaps as separate files...
+	          annotation: 'dev/_css/maps/' // ...to the specified directory
+	      },
+
+	      processors: [
+	        //require('pixrem')(), // add fallbacks for rem units
+	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+	        //require('cssnano')() // minify the result
+	      ]
+	    },
+	    dist: {
+	      src: 'dev/_css/main.css'
+	    }
+	  }
 	}); // initConfig
 
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
-
+	grunt.loadNpmTasks('grunt-postcss');
 	// register tasks
-	grunt.registerTask('default',['less','watch']);
+	grunt.registerTask('default',['less','postcss','watch']);
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
