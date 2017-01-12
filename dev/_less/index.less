@@ -396,6 +396,7 @@ main {
 	-webkit-perspective:1;
 }
 #work-with-us {
+	-webkit-perspective:1;
 	color: @hero-color;
 	background-color: white;
 	text-align: center;
@@ -403,6 +404,7 @@ main {
 	margin: 0 auto;
 	h3 {
 		.font-size(2);
+		font-weight: bold;
 	}
 	p {
 		font-weight: normal;
@@ -416,13 +418,30 @@ main {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	@media (min-width: 56.25em) {
-		box-shadow: 0px -3px 12px 1px fadeout(@japanese-indigo,25%);
-		#columns {
-			column-count:3;
-			column-width: 30%;
+	@media (min-width: 30em) {
+		p {
+			.font-size(1.25);
 		}
-		width: 98%;
+	}
+	@media (min-width: 44.75em) {
+		h3 {
+			.font-size(2.25);
+		}
+		p {
+			.font-size(1.5);
+		}
+	}
+	@media (min-width: 80.25em) {
+		box-shadow: 0px -3px 12px 1px fadeout(@japanese-indigo,25%);
+		padding-top: 3em*@first-modular;
+		#columns {
+			display: flex;
+			justify-content: center;
+			flex-wrap: nowrap;
+			>div {
+				flex-basis: 33%;
+			}
+		}
 		height: 100%;
 		position: relative;
 		top: -4em;
@@ -431,12 +450,25 @@ main {
 		}
 	}
 	@media (min-width: 77em) {
+		h3 {
+			.font-size(2.75);
+		}
 		p {
 			.font-size(1.5);
 		}
+		#columns > div p {
+				padding-left: 2.5%;
+				padding-right: 2.5%;
+		}
 	}
-	@media (min-width: 84.5em) {
-		width: 80.25em;
+	@media (min-width: 85em) {
+		width: 98%;
+		p {
+			.font-size(1.75);
+		}
+	}
+	@media (min-width: 94.5em) {
+		max-width: calc(70.375em + 14);
 		top: -8em;
 		bottom: 0;
 		padding-left: 3em;
@@ -448,15 +480,38 @@ main {
 			column-gap: 1.5em;
 		}
 		h3 {
-			.font-size(2.25);
-			font-weight: 400;
+			.font-size(2.75);
+			// font-weight: 400;
 		}
-		// p {
-		// 	.font-size(1.25);
-		// }
 		a.callout-link {
 			max-width: none;
 			width: 35%;
+		}
+	}
+}
+
+.no-flexbox #work-with-us {
+	#columns>div {
+		margin-bottom: 2.25em;
+	}
+	@media (min-width: 69.25em) {
+		#columns {
+			width: 100%;
+			display: block;
+			>div {
+				width: 33.33%;
+				float: left;
+			}
+		}
+		a {
+			clear: both;
+			margin-top: 5em;
+		}
+	}
+	@media (min-width: 94.5em) {
+		#columns>div p {
+			padding-left: 2%;
+			padding-right: 2%;
 		}
 	}
 }

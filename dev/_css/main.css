@@ -1199,6 +1199,7 @@ main {
   -webkit-perspective: 1;
 }
 #work-with-us {
+  -webkit-perspective: 1;
   color: #487F98;
   background-color: white;
   text-align: center;
@@ -1207,6 +1208,7 @@ main {
 }
 #work-with-us h3 {
   font-size: 1.8rem;
+  font-weight: bold;
 }
 #work-with-us p {
   font-weight: normal;
@@ -1219,30 +1221,62 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 56.25em) {
+@media (min-width: 30em) {
+  #work-with-us p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 44.75em) {
+  #work-with-us h3 {
+    font-size: 1.9rem;
+  }
+  #work-with-us p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 80.25em) {
   #work-with-us {
     box-shadow: 0px -3px 12px 1px rgba(39, 73, 93, 0.75);
-    width: 98%;
+    padding-top: 3.999em;
     height: 100%;
     position: relative;
     top: -4em;
   }
   #work-with-us #columns {
-    column-count: 3;
-    column-width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  #work-with-us #columns > div {
+    flex-basis: 33%;
   }
   #work-with-us h3 {
     margin-top: 0;
   }
 }
 @media (min-width: 77em) {
+  #work-with-us h3 {
+    font-size: 2.2rem;
+  }
   #work-with-us p {
     font-size: 1.5rem;
   }
+  #work-with-us #columns > div p {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
 }
-@media (min-width: 84.5em) {
+@media (min-width: 85em) {
   #work-with-us {
-    width: 80.25em;
+    width: 98%;
+  }
+  #work-with-us p {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 94.5em) {
+  #work-with-us {
+    max-width: calc(84.375em);
     top: -8em;
     bottom: 0;
     padding-left: 3em;
@@ -1255,12 +1289,34 @@ main {
     column-gap: 1.5em;
   }
   #work-with-us h3 {
-    font-size: 1.9rem;
-    font-weight: 400;
+    font-size: 2.2rem;
   }
   #work-with-us a.callout-link {
     max-width: none;
     width: 35%;
+  }
+}
+.no-flexbox #work-with-us #columns > div {
+  margin-bottom: 2.25em;
+}
+@media (min-width: 69.25em) {
+  .no-flexbox #work-with-us #columns {
+    width: 100%;
+    display: block;
+  }
+  .no-flexbox #work-with-us #columns > div {
+    width: 33.33%;
+    float: left;
+  }
+  .no-flexbox #work-with-us a {
+    clear: both;
+    margin-top: 5em;
+  }
+}
+@media (min-width: 94.5em) {
+  .no-flexbox #work-with-us #columns > div p {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media (min-width: 56.25em) {
