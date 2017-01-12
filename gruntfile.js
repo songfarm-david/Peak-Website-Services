@@ -42,10 +42,10 @@ module.exports = function(grunt) {
 	      map: true, // inline sourcemaps
 
 	      // or
-	      map: {
-	          inline: true, // save all sourcemaps as separate files...
-	          annotation: 'dev/_css/maps/' // ...to the specified directory
-	      },
+	      // map: {
+	      //     inline: true, // save all sourcemaps as separate files...
+	      //     annotation: 'dev/_css/maps/' // ...to the specified directory
+	      // },
 
 	      processors: [
 	        //require('pixrem')(), // add fallbacks for rem units
@@ -56,7 +56,19 @@ module.exports = function(grunt) {
 	    dist: {
 	      src: 'dev/_css/main.css'
 	    }
-	  }
+	  },
+		modernizr: {
+		  dist: {
+		    "dest" : "build/modernizr-custom.js",
+		    "tests": [
+		      'flexbox'
+		    ],
+		    "options": [
+		      "setClasses"
+		    ],
+		    "uglify": true
+		  }
+		}
 	}); // initConfig
 
 	grunt.loadNpmTasks('grunt-contrib-concat');
@@ -64,6 +76,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-postcss');
+	grunt.loadNpmTasks("grunt-modernizr");
 	// register tasks
 	grunt.registerTask('default',['less','postcss','watch']);
 	// grunt.registerTask('reload',['reload','watch']);
