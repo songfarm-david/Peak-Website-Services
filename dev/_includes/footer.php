@@ -35,7 +35,8 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-86141289-1','auto');ga('send','pageview');
 	</script>
-
+	<!-- temporary script -->
+	<script src="//localhost:35729/livereload.js"></script>
 </body>
 
 <!-- Minified custom Modernizr v.3.3.1 - detects browser features -->
