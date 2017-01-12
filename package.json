@@ -13,10 +13,8 @@
   },
   "homepage": "https://github.com/songfarm-david/Peak-Website-Services#readme",
   "devDependencies": {
-    "connect-livereload": "^0.6.0",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-watch": "^1.0.0"
