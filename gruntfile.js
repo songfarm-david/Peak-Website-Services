@@ -96,9 +96,13 @@ module.exports = function(grunt) {
 			}
 		},
 		uglify: {
+			options: {
+	      mangle: true,
+				beautify: false
+	    },
 	    prod: {
 	      files: {
-	        'prod/_js/main.min.js': 'dev/_js/**/*.js'
+	        'prod/_js/script.js': ['dev/_js/*.js','dev/_js/helper/*.js']
 	      }
 	    }
 	  },
