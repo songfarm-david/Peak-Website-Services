@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-
+	require('load-grunt-tasks')(grunt);
 	grunt.initConfig({
 		concat : {
 			options : {
@@ -14,6 +14,17 @@ module.exports = function(grunt) {
 			development : {
 				files : {
 					'dev/_css/main.css' : 'dev/_less/theme/compile.less'
+				}
+			},
+			prod : {
+				files : {
+					'prod/_css/main.css' : 'dev/_less/theme/compile.less'
+				},
+				options : {
+					compress : true,
+					sourceMap : true,
+					sourceMapFilename : 'prod/_css/main.map.css',
+					banner : "/*******************/"
 				}
 			}
 		},
@@ -39,18 +50,9 @@ module.exports = function(grunt) {
 		},
 		postcss: {
 	    options: {
-	      map: true, // inline sourcemaps
-
-	      // or
-	      // map: {
-	      //     inline: true, // save all sourcemaps as separate files...
-	      //     annotation: 'dev/_css/maps/' // ...to the specified directory
-	      // },
-
+	      map: true,
 	      processors: [
-	        //require('pixrem')(), // add fallbacks for rem units
 	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-	        //require('cssnano')() // minify the result
 	      ]
 	    },
 	    dist: {
@@ -68,17 +70,57 @@ module.exports = function(grunt) {
 		    ],
 		    "uglify": true
 		  }
-		}
+		},
+		htmlmin : {
+			prod : {
+				options : {
+					collapseInlineTagWhitespace: true,
+					collapseWhitespace: true,
+					removeComments: true,
+					minifyCSS: true,
+					minifyJS: true,
+					removeRedundantAttributes: true,
+					removeStyleLinkTypeAttributes: true,
+				},
+				files : [{
+            expand: true,
+            cwd: 'dev/',
+            src: '**/*.php',
+            dest: 'prod/'
+        }],
+			}
+		},
+		uglify: {
+	    prod: {
+	      files: {
+	        'prod/_js/main.min.js': 'dev/_js/**/*.js'
+	      }
+	    }
+	  },
+		image: {
+      static: {
+        options: {
+          jpegRecompress: false,
+          jpegoptim: true,
+          mozjpeg: true
+        },
+        files: {
+          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg'
+        },
+      },
+		},
 	}); // initConfig
 
-	grunt.loadNpmTasks('grunt-contrib-concat');
-	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-postcss');
-	grunt.loadNpmTasks("grunt-modernizr");
+	// grunt.loadNpmTasks('grunt-contrib-concat');
+	// grunt.loadNpmTasks('grunt-contrib-less');
+	// grunt.loadNpmTasks('grunt-contrib-watch');
+	// grunt.loadNpmTasks('grunt-contrib-jshint');
+	// grunt.loadNpmTasks('grunt-postcss');
+	// grunt.loadNpmTasks("grunt-modernizr");
+	// grunt.loadNpmTasks('grunt-contrib-htmlmin');
+
 	// register tasks
-	grunt.registerTask('default',['less','postcss','watch']);
+	grunt.registerTask('default',['less:development','postcss','watch']);
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
