@@ -1,6 +1,7 @@
 # .gitignore
 
 .gitignore
+dev/_css/
 *.md
 #!CHANGELOG.md
 node_modules
