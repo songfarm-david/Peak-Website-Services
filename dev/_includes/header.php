@@ -10,7 +10,7 @@
 
 		<!-- conditional & critical CSS here -->
 
-		<link rel="stylesheet" href="/peak/dev/_css/main.css" media="screen" title="Main Style Sheet">
+		<link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 	</head>
 	<body>
