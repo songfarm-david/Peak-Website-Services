@@ -13,10 +13,12 @@ $h1 = $title;
 			<p class="h2">
 				Got a question for us? Let's chat.
 			</p>
+			<p>Website Management</p>
 			<!-- Web Service Questionnaire -->
 			<section>
 				<h2 class="hide">Contact Form</h2>
-				<form id="contact-form" action="process-form.php" method="post">
+				<!-- NOTE: this path will need to be changed before deployment -->
+				<form id="contact-form" action="../process-form.php" method="post">
 					<fieldset>
 						<legend class="at-only">Web Service Questionnaire</legend>
 						<div class="row">
@@ -51,7 +53,12 @@ $h1 = $title;
 							</div>
 						</div>
 						<label for="send" class="at-only">Send</label>
-						<input type="submit" name="" value="Send">
+						<button	class="g-recaptcha" data-sitekey="6LcoshEUAAAAAFpTCW8ehR9mWxYBI-c-cu1tVWUx" data-callback="onSubmit">
+							Send
+						</button>
+						<!-- NOTE: the input type="submit" has been disabled to allow for Google ReCAPTCHA.
+									The above button relies on a custom callback function to process the form -->
+						<!-- <input type="submit" name="" value="Send"> -->
 						<input type="hidden" name="redirect_value" value="<?php echo $redirect_target; ?>">
 						<input type="hidden" name="service_reference" value="<?php echo $service_selection; ?>">
 					</fieldset>
