@@ -13,12 +13,12 @@ $h1 = $title;
 			<p class="h2">
 				Got a question for us? Let's chat.
 			</p>
-			<p>Website Management</p>
+			<!-- <p>Website Management</p> -->
 			<!-- Web Service Questionnaire -->
 			<section>
 				<h2 class="hide">Contact Form</h2>
 				<!-- NOTE: this path will need to be changed before deployment -->
-				<form id="contact-form" action="../process-form.php" method="post">
+				<form id="contact-form" action="./process-form.php" method="post">
 					<fieldset>
 						<legend class="at-only">Web Service Questionnaire</legend>
 						<div class="row">

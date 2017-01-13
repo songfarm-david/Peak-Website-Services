@@ -15,7 +15,7 @@
 		background-color: fadeout(#fff, 60%);
 		.base(margin,.25/@first-modular);
 		margin-top: 0;
-		.base(padding,.25);
+		.base(padding,1);
 		.box-shadow;
 		.row {
 			overflow: hidden;
@@ -63,10 +63,12 @@
 		input[name="website"] { // ensure that websites appear all lowercase in forms
 			// text-transform: lowercase;
 		}
-		input[type="submit"] {
+		button.g-recaptcha {
 			display: block;
 			margin: 0 auto;
 			border-width: 0px;
+			padding-top: .75em;
+			padding-bottom: 0.75em;
 			color: #fff;
 			margin-top: @1-rem * @first-modular;
 			text-transform: uppercase;
@@ -95,7 +97,7 @@
 			>fieldset {
 				.base(padding, 0.25rem);
 			}
-			input[type="submit"] {
+			button.g-recaptcha {
 				width: (100% / @first-modular) / @first-modular;
 			}
 			input,
