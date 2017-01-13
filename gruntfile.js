@@ -72,22 +72,27 @@ module.exports = function(grunt) {
 		  }
 		},
 		htmlmin : {
+			options : {
+				collapseInlineTagWhitespace: true,
+				collapseWhitespace: true,
+				removeComments: true,
+				minifyCSS: true,
+				minifyJS: true,
+				removeRedundantAttributes: true,
+				removeStyleLinkTypeAttributes: true,
+			},
 			prod : {
-				options : {
-					collapseInlineTagWhitespace: true,
-					collapseWhitespace: true,
-					removeComments: true,
-					minifyCSS: true,
-					minifyJS: true,
-					removeRedundantAttributes: true,
-					removeStyleLinkTypeAttributes: true,
-				},
 				files : [{
             expand: true,
             cwd: 'dev/',
             src: '**/*.php',
             dest: 'prod/'
         }],
+			},
+			dev : {
+				files : {
+					'prod/contact.php' : 'dev/contact.php'
+				}
 			}
 		},
 		uglify: {
