@@ -282,7 +282,10 @@ html body {
   font-size: 1em;
   margin: 0;
   height: 100%;
-  background-color: #27495D;
+  background-color: #244356;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+CjxyZWN0IHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgZmlsbD0iIzI0NDM1NiI+PC9yZWN0Pgo8cGF0aCBkPSJNMCAxNUw3LjUgMEwxNSAxNVoiIGZpbGw9IiMyNzQ5NUQiPjwvcGF0aD4KPC9zdmc+");
+  background-color: #26475c;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232e5c78' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   min-width: 320px !important;
 }
 @media (min-width: 48rem) {
@@ -638,6 +641,7 @@ header::after {
   }
 }
 nav.navbar {
+  display: none;
   position: static;
   clear: right;
   z-index: 1000;
@@ -651,7 +655,7 @@ nav.navbar::after {
   clear: both;
 }
 nav.navbar .navbar-header {
-  display: block;
+  display: none;
   height: auto;
   width: 100%;
 }
@@ -828,15 +832,6 @@ footer #copyright {
 footer #copyright span {
   font-size: 1rem;
 }
-@media (min-width: 48rem) {
-  footer {
-    position: fixed;
-  }
-  footer ul {
-    position: relative;
-    top: 15px;
-  }
-}
 .cssanimations #about #about-intro,
 .cssanimations ul#key-list,
 .cssanimations #about-cta {
@@ -886,7 +881,12 @@ footer #copyright span {
     font-size: 2.5rem;
   }
 }
-/* index.php (main) */
+/*
+ 	Main Landing Page styles
+	January 2017
+	==
+	David Gaskin
+	*/
 #business-top {
   position: static;
   background-color: #86A5C4;
@@ -947,8 +947,7 @@ footer #copyright span {
 }
 #business-top a,
 #complicated-web a.callout-link,
-#work-with-us a.callout-link,
-#website-important a.callout-link {
+#work-with-us a.callout-link {
   display: block;
   width: 88%;
   max-width: 13.75em;
@@ -968,8 +967,7 @@ footer #copyright span {
 @media (min-width: 31.875em) {
   #business-top a,
   #complicated-web a.callout-link,
-  #work-with-us a.callout-link,
-  #website-important a.callout-link {
+  #work-with-us a.callout-link {
     width: 15em;
   }
 }
@@ -994,8 +992,7 @@ footer #copyright span {
   }
   #business-top a,
   #complicated-web a.callout-link,
-  #work-with-us a.callout-link,
-  #website-important a.callout-link {
+  #work-with-us a.callout-link {
     position: static;
     margin-top: 5.332em;
     margin-left: 0;
@@ -1018,8 +1015,7 @@ footer #copyright span {
   }
   #business-top a,
   #complicated-web a.callout-link,
-  #work-with-us a.callout-link,
-  #website-important a.callout-link {
+  #work-with-us a.callout-link {
     font-size: 1.7rem;
     margin-top: 3em;
     width: 40%;
@@ -1050,8 +1046,7 @@ footer #copyright span {
   }
   #business-top a,
   #complicated-web a.callout-link,
-  #work-with-us a.callout-link,
-  #website-important a.callout-link {
+  #work-with-us a.callout-link {
     width: 25%;
   }
 }
@@ -1123,16 +1118,13 @@ footer #copyright span {
   left: 50%;
   transform: translateX(-50%);
 }
-#complicated-web a,
-#website-important a {
+#complicated-web a {
   text-transform: capitalize;
 }
-#complicated-web a:hover,
-#website-important a:hover {
+#complicated-web a:hover {
   color: #35885F;
 }
-#complicated-web a.callout-link,
-#website-important a.callout-link {
+#complicated-web a.callout-link {
   margin-top: 1.333em;
 }
 @media (min-width: 30em) {
@@ -1174,6 +1166,9 @@ footer #copyright span {
     padding-right: 8em;
     min-height: 100vh;
   }
+  #complicated-web h2 {
+    font-size: 2.9rem;
+  }
   #complicated-web p {
     margin: 0 auto;
     width: 75%;
@@ -1184,8 +1179,12 @@ footer #copyright span {
   #complicated-web {
     padding-bottom: 20em;
   }
+  #complicated-web h2 {
+    font-size: 3.6rem;
+  }
   #complicated-web p {
-    width: 60%;
+    width: 63%;
+    font-size: 1.9rem;
   }
   #complicated-web p#special {
     margin-bottom: 1em;
@@ -1194,9 +1193,6 @@ footer #copyright span {
     font-size: 1.8rem;
     margin-bottom: -2.5rem;
   }
-}
-main {
-  -webkit-perspective: 1;
 }
 #work-with-us {
   -webkit-perspective: 1;
@@ -1236,7 +1232,8 @@ main {
 }
 @media (min-width: 80.25em) {
   #work-with-us {
-    box-shadow: 0px -3px 12px 1px rgba(39, 73, 93, 0.75);
+    box-shadow: -2px -3px 12px 1px rgba(39, 73, 93, 0.75);
+    box-shadow: 2px 24px 26px 6px #0d1920;
     padding-top: 3.999em;
     height: 100%;
     position: relative;
@@ -1319,113 +1316,12 @@ main {
     padding-right: 2%;
   }
 }
+footer {
+  color: #cccccc;
+}
 @media (min-width: 56.25em) {
   footer {
     position: static;
-    color: #cccccc;
-  }
-}
-#website-important {
-  display: none;
-  padding-top: 4.7988rem;
-  padding-bottom: 4.7988rem;
-  background-color: #fff;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
-}
-#website-important div {
-  text-align: center;
-}
-#website-important h3 {
-  font-size: 1.8rem;
-  margin-bottom: 2.3994rem;
-  font-weight: bold;
-  padding-left: 0.82385661rem;
-  padding-right: 0.82385661rem;
-  color: #27495D;
-}
-#website-important dl,
-#website-important dd {
-  padding-left: 0;
-}
-#website-important dl {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-left: 0.44433333rem;
-  margin-right: 0.44433333rem;
-}
-#website-important dt {
-  font-size: 1.5rem;
-}
-#website-important dd {
-  margin-bottom: 2.3994rem;
-  line-height: 1.4;
-  color: #386275;
-  padding-left: 12px;
-  padding-right: 12px;
-  font-size: 1.3rem;
-}
-#website-important dl > div.row div:nth-child(1) dt {
-  color: #4F1271;
-}
-#website-important dl > div.row div:nth-child(2) dt {
-  color: #056a5f;
-}
-#website-important dl > div.row div:nth-child(3) dt {
-  color: #345995;
-}
-@media (min-width: 36em) {
-  #website-important h3 {
-    font-size: 2.1rem;
-    position: relative;
-    margin-bottom: 3.1984002rem;
-    font-weight: bold;
-  }
-  #website-important h3::after {
-    content: "";
-    height: 5px;
-    width: 12.5%;
-    position: absolute;
-    background-color: #3b687c;
-    bottom: -2.156794rem;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #website-important dl {
-    padding-top: 1.333rem;
-  }
-  #website-important dt {
-    font-size: 1.5rem;
-  }
-  #website-important dd {
-    font-size: 1.3rem;
-  }
-}
-@media (min-width: 48em) {
-  #website-important .container {
-    width: 40em;
-  }
-  #website-important h3 {
-    font-size: 2.4rem;
-  }
-  #website-important dt {
-    font-size: 1.8rem;
-  }
-  #website-important dd {
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 80em) {
-  #website-important .container {
-    width: 76em;
-  }
-  #website-important h3 {
-    font-size: 2.7rem;
-  }
-  #website-important dt {
-    font-size: 2.1rem;
-  }
-  #website-important dd {
-    font-size: 1.6rem;
   }
 }
 #website-services {

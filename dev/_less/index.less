@@ -1,4 +1,10 @@
-/* index.php (main) */
+/*
+ 	Main Landing Page styles
+	January 2017
+	==
+	David Gaskin
+	*/
+
 
 #business-top {
 	position: static;
@@ -362,7 +368,6 @@
 		h2 {
 			.font-size(3.25);
 		}
-
 		p.highlight {
 			margin-top: 2em;
 		}
@@ -371,6 +376,9 @@
 		padding-left: 8em;
 		padding-right: 8em;
 		min-height: 100vh;
+		h2 {
+			.font-size(3.75);
+		}
 		p {
 			margin: 0 auto;
 			width: 75%;
@@ -379,8 +387,12 @@
 	}
 	@media (min-width: 98.4375em) {
 		padding-bottom: 20em;
+		h2 {
+			.font-size(4.5);
+		}
 		p {
-			width: 60%;
+			width: 63%;
+			.font-size(2.25);
 		}
 		p#special {
 			margin-bottom: 1em;
@@ -392,9 +404,6 @@
 	}
 }
 
-main {
-	-webkit-perspective:1;
-}
 #work-with-us {
 	-webkit-perspective:1;
 	color: @hero-color;
@@ -432,7 +441,8 @@ main {
 		}
 	}
 	@media (min-width: 80.25em) {
-		box-shadow: 0px -3px 12px 1px fadeout(@japanese-indigo,25%);
+		box-shadow: -2px -3px 12px 1px fadeout(@japanese-indigo,25%);
+		box-shadow: 2px 24px 26px 6px darken(@japanese-indigo, 17%);
 		padding-top: 3em*@first-modular;
 		#columns {
 			display: flex;
@@ -517,127 +527,127 @@ main {
 }
 
 footer {
+	color: darken(white, 20%);
 	@media (min-width: 56.25em) {
 		position: static;
-		color: darken(white, 20%);
 	}
 }
 
-#website-important {
-	display: none;
-	.base(padding,top,2);
-	.base(padding,bottom,2);
-	background-color: #fff;
-	div {
-		text-align: center;
-	}
-	h3 {
-		.font-size(2);
-		.base(margin,bottom,1);
-		font-weight: bold;
-		padding-left: @1-rem/@second-modular;
-		padding-right: @1-rem/@second-modular;
-		color: @japanese-indigo;
-	}
-	dl,
-	dd {
-		padding-left: 0;
-	}
-	dl {
-		text-align: center;
-		.font-size(1/@second-modular);
-		margin-left: @1-rem/3;
-		margin-right: @1-rem/3;
-	}
-	dt {
-		.font-size(1.5);
-	}
-	dd {
-		.base(margin,bottom,1);
-		line-height: 1.4;
-		color: darken(@hero-color,10%);
-		padding-left: 12px;
-		padding-right: 12px;
-		.font-size(1);
-	}
-	// dt,
-	// dd {
-	// 	padding-left: 12px;
-	// 	padding-right: 12px;
-	// }
-	// individual header (dt) colors
-	dl>div.row {
-		div:nth-child(1) dt {
-			color: #4F1271;
-		}
-		div:nth-child(2) dt {
-			color: #056a5f;
-		}
-		div:nth-child(3) dt {
-			color: #345995;
-		}
-	}
-	a {
-		&:extend(#complicated-web a all);
-	}
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
-	@media (min-width: 36em) {
-		h3 {
-			.font-size(2.5);
-			position: relative;
-			.base(margin,bottom,1*@first-modular);
-			font-weight: bold;
-			&::after {
-				content: "";
-				height: 5px;
-				width: 12.5%;
-				position: absolute;
-				background-color: darken(@hero-color, 8%);
-				bottom: -@1-rem*@second-modular;
-				left: 50%;
-				transform: translateX(-50%);
-			}
-		}
-		dl {
-			padding-top: @1-rem;
-		}
-		dt {
-			.font-size(1.5);
-		}
-		dd {
-			.font-size(1);
-		}
-	}
-	@media (min-width: 48em) {
-		.container {
-			width: 40em;
-		}
-		h3 {
-			.font-size(3);
-		}
-		dt {
-			.font-size(2);
-		}
-		dd {
-			.font-size(1.5);
-		}
-	}
-	@media (min-width: 80em) {
-		// min-height: 100vh;
-		.container {
-			width: 76em;
-		}
-		h3 {
-			.font-size(3.5);
-		}
-		dt {
-			.font-size(2.5);
-		}
-		dd {
-			.font-size(1.65);
-		}
-	}
-}
+// #website-important {
+// 	display: none;
+// 	.base(padding,top,2);
+// 	.base(padding,bottom,2);
+// 	background-color: #fff;
+// 	div {
+// 		text-align: center;
+// 	}
+// 	h3 {
+// 		.font-size(2);
+// 		.base(margin,bottom,1);
+// 		font-weight: bold;
+// 		padding-left: @1-rem/@second-modular;
+// 		padding-right: @1-rem/@second-modular;
+// 		color: @japanese-indigo;
+// 	}
+// 	dl,
+// 	dd {
+// 		padding-left: 0;
+// 	}
+// 	dl {
+// 		text-align: center;
+// 		.font-size(1/@second-modular);
+// 		margin-left: @1-rem/3;
+// 		margin-right: @1-rem/3;
+// 	}
+// 	dt {
+// 		.font-size(1.5);
+// 	}
+// 	dd {
+// 		.base(margin,bottom,1);
+// 		line-height: 1.4;
+// 		color: darken(@hero-color,10%);
+// 		padding-left: 12px;
+// 		padding-right: 12px;
+// 		.font-size(1);
+// 	}
+// 	// dt,
+// 	// dd {
+// 	// 	padding-left: 12px;
+// 	// 	padding-right: 12px;
+// 	// }
+// 	// individual header (dt) colors
+// 	dl>div.row {
+// 		div:nth-child(1) dt {
+// 			color: #4F1271;
+// 		}
+// 		div:nth-child(2) dt {
+// 			color: #056a5f;
+// 		}
+// 		div:nth-child(3) dt {
+// 			color: #345995;
+// 		}
+// 	}
+// 	a {
+// 		&:extend(#complicated-web a all);
+// 	}
+// 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.45);
+// 	@media (min-width: 36em) {
+// 		h3 {
+// 			.font-size(2.5);
+// 			position: relative;
+// 			.base(margin,bottom,1*@first-modular);
+// 			font-weight: bold;
+// 			&::after {
+// 				content: "";
+// 				height: 5px;
+// 				width: 12.5%;
+// 				position: absolute;
+// 				background-color: darken(@hero-color, 8%);
+// 				bottom: -@1-rem*@second-modular;
+// 				left: 50%;
+// 				transform: translateX(-50%);
+// 			}
+// 		}
+// 		dl {
+// 			padding-top: @1-rem;
+// 		}
+// 		dt {
+// 			.font-size(1.5);
+// 		}
+// 		dd {
+// 			.font-size(1);
+// 		}
+// 	}
+// 	@media (min-width: 48em) {
+// 		.container {
+// 			width: 40em;
+// 		}
+// 		h3 {
+// 			.font-size(3);
+// 		}
+// 		dt {
+// 			.font-size(2);
+// 		}
+// 		dd {
+// 			.font-size(1.5);
+// 		}
+// 	}
+// 	@media (min-width: 80em) {
+// 		// min-height: 100vh;
+// 		.container {
+// 			width: 76em;
+// 		}
+// 		h3 {
+// 			.font-size(3.5);
+// 		}
+// 		dt {
+// 			.font-size(2.5);
+// 		}
+// 		dd {
+// 			.font-size(1.65);
+// 		}
+// 	}
+// }
 
 // footer {
 // 	display: none;
