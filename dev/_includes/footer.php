@@ -8,7 +8,7 @@
 			</ul>
 		</section> -->
 		<div id="copyright">
-			<span>&copy; <?php echo date("Y"); ?> Peak Website Services LLC.</span>
+			<span>&copy; <?php //echo date("Y"); ?> Peak Website Services LLC.</span>
 		</div>
 	</footer>
 

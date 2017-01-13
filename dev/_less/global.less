@@ -23,6 +23,7 @@ header {
 	}
 }
 nav.navbar {
+	display: none;
 	position: static;
 	clear: right;
 	z-index: 1000;
@@ -33,7 +34,10 @@ nav.navbar {
 		.clear-float;
 	}
 	.navbar-header {
-		display: block;
+		// display: block;
+
+		display: none;
+		
 		height: auto;
 		width: 100%;
 		button {
@@ -202,13 +206,13 @@ footer {
 			.font-size(0);
 		}
 	}
-	@media (@sm-query) {
-		position: fixed;
-		ul {
-			position: relative;
-			top: 15px;
-		}
-	}
+	// @media (@sm-query) {
+	// 	position: fixed;
+	// 	ul {
+	// 		position: relative;
+	// 		top: 15px;
+	// 	}
+	// }
 }
 
 // .fa.fa-angle-down {
