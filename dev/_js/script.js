@@ -72,14 +72,14 @@ function onSubmit(token) {
 /**
 * Smooth Scrolling
 */
-(function($) {
-	var trigger, height;
-	$(".fa.fa-angle-down").on("click", function() {
-		height = $(window).height();
-		$("html, body").animate({ scrollTop: height + "px" }, 750);
-	})
-
-})(jQuery);
+// (function($) {
+// 	var trigger, height;
+// 	$(".fa.fa-angle-down").on("click", function() {
+// 		height = $(window).height();
+// 		$("html, body").animate({ scrollTop: height + "px" }, 750);
+// 	})
+//
+// })(jQuery);
 
 // (function($) {
 // 	//modernizr checks:
