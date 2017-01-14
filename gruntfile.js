@@ -60,7 +60,7 @@ module.exports = function(grunt) {
 	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
 	      ]
 	    },
-	    dist: {
+	    dev: {
 	      src: 'dev/_css/main.css'
 	    },
 			prod: {
@@ -81,8 +81,8 @@ module.exports = function(grunt) {
 		},
 		htmlmin : {
 			options : {
-				collapseInlineTagWhitespace: true,
-				collapseWhitespace: true,
+				// collapseInlineTagWhitespace: true,
+				// collapseWhitespace: true,
 				removeComments: true,
 				minifyCSS: true,
 				minifyJS: true,
@@ -130,10 +130,10 @@ module.exports = function(grunt) {
 
 	// register tasks
 	// Default
-	grunt.registerTask('default',['less:development','postcss','watch']);
+	grunt.registerTask('default',['less:development','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['concat:prod','uglify','modernizr','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['concat:prod','uglify','modernizr','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
