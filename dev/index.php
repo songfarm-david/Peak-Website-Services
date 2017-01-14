@@ -43,7 +43,7 @@ $canonical = "http://peakwebsites.ca/";
 					<p>We want to make the web a better place, and that starts with being the kind of business you feel good working with. We stand behind everything we do. Guaranteed.</p>
 				</div>
 			</div>
-			<a href="contact.php" class="callout-link" title="contact form">Elevate Your Online Business Today</a>
+			<a href="contact.php" title="contact form">Elevate Your Online Business Today</a>
 		</section><!--/ end Floating Section -->
 
 	</main>

@@ -421,8 +421,8 @@
 		margin-right: auto;
 		max-width: calc(42.1875em-16);
 	}
-	a.callout-link {
-		&:extend(#business-top a);
+	a {
+		&:extend(#business-top a all);
 		margin-top: 2em*@first-modular;
 		margin-left: auto;
 		margin-right: auto;
@@ -491,9 +491,8 @@
 		}
 		h3 {
 			.font-size(2.75);
-			// font-weight: 400;
 		}
-		a.callout-link {
+		a {
 			max-width: none;
 			width: 35%;
 		}
