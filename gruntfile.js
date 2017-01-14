@@ -8,7 +8,12 @@ module.exports = function(grunt) {
 			dist : {
 				src	: '/dev/_js/**/*.js',
 				dest: '/dev/_js/script.js'
-			}
+			},
+			prod : {
+				files: {
+					'prod/_js/script.js': ['dev/_js/*.js','dev/_js/helper/*.js']
+				}
+			},
 		},
 		less : {
 			development : {
@@ -57,7 +62,10 @@ module.exports = function(grunt) {
 	    },
 	    dist: {
 	      src: 'dev/_css/main.css'
-	    }
+	    },
+			prod: {
+				src: 'prod/_css/main.css'
+			}
 	  },
 		modernizr: {
 		  dist: {
@@ -120,16 +128,12 @@ module.exports = function(grunt) {
 		},
 	}); // initConfig
 
-	// grunt.loadNpmTasks('grunt-contrib-concat');
-	// grunt.loadNpmTasks('grunt-contrib-less');
-	// grunt.loadNpmTasks('grunt-contrib-watch');
-	// grunt.loadNpmTasks('grunt-contrib-jshint');
-	// grunt.loadNpmTasks('grunt-postcss');
-	// grunt.loadNpmTasks("grunt-modernizr");
-	// grunt.loadNpmTasks('grunt-contrib-htmlmin');
-
 	// register tasks
+	// Default
 	grunt.registerTask('default',['less:development','postcss','watch']);
+
+	// Prod
+	grunt.registerTask('prod',['concat:prod','uglify','modernizr','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
