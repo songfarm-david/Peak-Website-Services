@@ -17,10 +17,10 @@
 
 	<!-- jQuery CDN with Local Fallback -->
 	<script
-  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.slim.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
 
 	<!-- custom scripts -->
 	<!-- <script type="text/javascript" src="/peak/development/_js/helper/bs-collapse.js"></script> -->
