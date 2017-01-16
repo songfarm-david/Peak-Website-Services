@@ -9,7 +9,17 @@ function onSubmit(token) {
 	document.getElementById("contact-form").submit();
 };
 
+/**
+* Smooth Scrolling
+*/
+(function($) {
+	var trigger, height;
+	$("a#page-1-cta").on("click", function() {
+		height = $(window).height();
+		$("html, body").animate({ scrollTop: height + "px" }, 1100);
+	})
 
+})(jQuery);
 
 
 
@@ -69,17 +79,7 @@ function onSubmit(token) {
 //
 // })(jQuery);
 
-/**
-* Smooth Scrolling
-*/
-// (function($) {
-// 	var trigger, height;
-// 	$(".fa.fa-angle-down").on("click", function() {
-// 		height = $(window).height();
-// 		$("html, body").animate({ scrollTop: height + "px" }, 750);
-// 	})
-//
-// })(jQuery);
+
 
 // (function($) {
 // 	//modernizr checks:
