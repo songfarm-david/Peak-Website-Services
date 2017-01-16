@@ -99,18 +99,18 @@ module.exports = function(grunt) {
 			},
 			dev : {
 				files : {
-					'prod/contact.php' : 'dev/contact.php'
+					'prod/_includes/navigation.php' : 'dev/_includes/navigation.php'
 				}
 			}
 		},
 		uglify: {
 			options: {
-	      mangle: true,
-				beautify: false
+	      mangle: false,
+				beautify: true
 	    },
 	    prod: {
 	      files: {
-	        'prod/_js/script.js': ['dev/_js/*.js','dev/_js/helper/*.js']
+	        'prod/_js/script.js': 'dev/_js/*.js'
 	      }
 	    }
 	  },
