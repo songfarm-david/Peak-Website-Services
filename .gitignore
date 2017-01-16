@@ -7,3 +7,4 @@ dev/_css/
 node_modules
 copy_scripts/
 Thumbs.db
+^google
