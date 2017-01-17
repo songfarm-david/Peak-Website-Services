@@ -18,7 +18,7 @@ header {
 	&::after {
 		.clear-float;
 	}
-	@media (@sm-query) {
+	@media (min-width: 48em) {
 		position: fixed;
 	}
 }
@@ -93,7 +93,7 @@ nav.navbar {
 			}
 		}
 	}
-	@media (@sm-query) {
+	@media (min-width: 48em) {
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -128,7 +128,7 @@ nav.navbar {
 
 					height: auto;
 					&:hover {
-						.nav-active();
+						// .nav-active();
 					}
 				}
 			}
@@ -207,7 +207,7 @@ footer {
 			.font-size(0);
 		}
 	}
-	// @media (@sm-query) {
+	// @media (min-width: 48em) {
 	// 	position: fixed;
 	// 	ul {
 	// 		position: relative;
@@ -250,10 +250,10 @@ footer {
 	padding-top: @1-rem*@first-modular;
 	padding-bottom: @1-rem*@first-modular;
 	.box-shadow();
-	@media (@sm-query) {
+	@media (min-width: 48em) {
 		padding-bottom: @2-rem;
 	}
-	@media (@sm-query) {
+	@media (min-width: 48em) {
 		.base(padding,2/@second-modular);
 	}
 	&:hover {
@@ -268,7 +268,7 @@ footer {
 			font-size: inherit;
 			position: relative;
 		}
-		@media (@sm-query) {
+		@media (min-width: 48em) {
 			.font-size(2*@second-modular);
 		}
 	}

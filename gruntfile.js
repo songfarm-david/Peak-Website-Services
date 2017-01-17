@@ -16,20 +16,22 @@ module.exports = function(grunt) {
 			},
 		},
 		less : {
-			development : {
+			dev : {
 				files : {
-					'dev/_css/main.css' : 'dev/_less/theme/compile.less'
+					'dev/_css/main.css' : 'dev/_less/theme/compile.less',
+					'dev/_css/index_critical.css' : 'dev/_less/index_critical.less'
 				}
 			},
 			prod : {
-				files : {
-					'prod/_css/main.css' : 'dev/_less/theme/compile.less'
-				},
 				options : {
 					compress : true,
 					sourceMap : true,
 					sourceMapFilename : 'prod/_css/main.map.css',
 					banner : "/*******************/"
+				},
+				files : {
+					'prod/_css/main.css' : 'dev/_less/theme/compile.less',
+					'prod/_css/index_critical.css' : 'dev/_less/index_critical.less'
 				}
 			}
 		},
@@ -130,7 +132,7 @@ module.exports = function(grunt) {
 
 	// register tasks
 	// Default
-	grunt.registerTask('default',['less:development','postcss:dev','watch']);
+	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
 	grunt.registerTask('prod',['concat:prod','uglify','modernizr','htmlmin:prod','image','less:prod','postcss:prod'])
