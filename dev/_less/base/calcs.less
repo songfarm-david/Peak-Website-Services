@@ -1,0 +1,27 @@
+/*
+* LESS Calculations
+* - specific helper functions for quick modularity
+*/
+
+/* Scale Font */
+// when a number is declared, the line-height is multiplied to the power of the supplied variable producing a modular scale
+.font-size() {
+	font-size: @theme-default-rem;
+}
+.font-size(@x) when (isnumber(@x)){
+	@font-size-rem: unit( round( (@theme-default-rem * pow(@first-modular, @x) ), 1 ), rem);
+	font-size: @font-size-rem;
+}
+
+/* NOTE: deprecated */
+// used to exponentially expand or decrease margins based on a chosen ratio
+.base(@prop; @base: 1) {
+	@{prop}: unit((@theme-default * (@first-modular * @base) / 10), rem);
+}
+.base(@prop; @x; @base: 1) {
+	@{prop}-@{x}: unit((@theme-default * (@first-modular * @base) / 10), rem);
+}
+
+// .base(margin; @base: 1) when not (@base = 0){
+// 	margin: unit((@theme-default * (@first-modular * @base) / 10), rem);
+// }

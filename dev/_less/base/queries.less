@@ -1,14 +1,20 @@
-// MEDIA QUERY SIZES
+/*
+* MEDIA QUERIES
+* - NOTE: this page should move to become deprecated
+* - as the way in which media queries are applied no longer uses these styles
+*/
+
 // Declare Media sizes:
 @xs-screen: 320; // 640 x2
 @sm-screen: 768; // iPad portrait
 @md-screen: 1024; // iPad landscape
 @lg-screen: 1680;
 @xl-screen: 1920;
+
 /* NOTE: could write a function that does the conversions internally and outputs each size as separate variable */
-@sm-screen-rem: unit((@sm-screen / @browser-size-default), rem);
-@md-screen-rem: unit((@md-screen / @browser-size-default), rem);
-@lg-screen-rem: unit((@lg-screen / @browser-size-default), rem);
+@sm-screen-rem: unit((@sm-screen / @browser-default), rem);
+@md-screen-rem: unit((@md-screen / @browser-default), rem);
+@lg-screen-rem: unit((@lg-screen / @browser-default), rem);
 @sm-query: ~"min-width: @{sm-screen-rem}";
 @md-query: ~"min-width: @{md-screen-rem}";
 @lg-query: ~"min-width: @{lg-screen-rem}";

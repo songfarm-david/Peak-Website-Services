@@ -1,0 +1,40 @@
+/*
+* THEME VARIABLES
+**/
+
+/* minimum viewport width */
+@min-width-px: unit(320, px);
+
+/* line-height */
+@line-height: 1.4;
+
+/* Modular Scales */
+@first-modular: 1.333;
+@second-modular: 1.618;
+
+/* Global font sizing */
+@browser-default: 16; // px as reference
+@theme-default: 18;
+	// base size conversion to alternate formats (px, ems)
+	@theme-default-px: unit(@theme-default, px);
+	@theme-default-em: unit(@theme-default / @theme-default-px, em);
+	@theme-default-rem: unit(@theme-default / @theme-default, rem);
+
+
+// @page-width: 85em;
+// @page-width-alt: 	100%/@second-modular;
+// @page-width-rem: 	unit(round(100/@first-modular), rem);
+// @page-width-em:		unit(100/@first-modular, em);
+
+
+
+// Transitions
+@transition: all 100ms ease-in;
+
+// NOTE: write a base rem sizing function
+@1-rem: unit(@first-modular, rem);
+@2-rem: @1-rem * 2;
+@3-rem: @1-rem * 3;
+@4-rem: @1-rem * 4;
+
+@1-rem-s: unit(@second-modular, rem);
