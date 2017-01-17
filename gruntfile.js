@@ -25,9 +25,9 @@ module.exports = function(grunt) {
 			},
 			prod : {
 				options : {
-					// compress : true,
-					// sourceMap : true,
-					// sourceMapFilename : 'prod/_css/main.map.css',
+					compress : true,
+					sourceMap : true,
+					sourceMapFilename : 'prod/_css/main.map.css',
 					banner : "/*******************/"
 				},
 				files : {
@@ -114,7 +114,7 @@ module.exports = function(grunt) {
 	    },
 	    prod: {
 	      files: {
-	        'prod/_js/script.js': 'dev/_js/*.js'
+	        'prod/_js/script.js': 'dev/_js/*.js',
 	      }
 	    }
 	  },
