@@ -19,7 +19,8 @@ module.exports = function(grunt) {
 			dev : {
 				files : {
 					// 'dev/_css/main.css' : 'dev/_less/theme/compile.less',
-					'dev/_css/index.css' : 'dev/_less/index_critical.less'
+					'dev/_css/index.css' : 'dev/_less/index_critical.less',
+					'dev/_css/contact.css' : 'dev/_less/contact.less'
 				}
 			},
 			prod : {
@@ -31,7 +32,8 @@ module.exports = function(grunt) {
 				},
 				files : {
 					// 'prod/_css/main.css' : 'dev/_less/theme/compile.less',
-					'prod/_css/index.css' : 'dev/_less/index_critical.less'
+					'prod/_css/index.css' : 'dev/_less/index_critical.less',
+					'prod/_css/contact.css' : 'dev/_less/contact.less'
 				}
 			}
 		},

@@ -25,6 +25,16 @@
 			fclose($css);
 		}
 
+		// IF IS CONTACT PAGE
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
+			// load critical css.
+			$css = fopen("_css/contact.css",'r');
+			echo '<style>';
+			echo fread($css,filesize("_css/contact.css"));
+			echo '</style>';
+			fclose($css);
+		}
+
 		?>
 
 		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
