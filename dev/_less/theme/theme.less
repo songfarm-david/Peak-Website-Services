@@ -1,30 +1,24 @@
 /*
 * THEME DEFAULTS
 */
-// special class
-.container {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	@media (min-width: 40em) {
-		width: 34em;
-	}
-	@media (min-width: 48em) {
-		width: 42em;
-	}
-}
+
+
+/* import theme specific styles */
+@import 'animations';
+@import 'helper';
+@import 'colors';
+@import 'typography';
 
 html {
-	font-size: @base-size-px;
+	font-size: @theme-default-rem;
 	body {
-		font-family: @body-font;
-		font-size: @base-size-em;
+		font: @body-font;
+		font-size: @theme-default-em;
+		min-width: @min-width-px;
 		margin: 0;
 		height: 100%;
 		background-color: #26475c;
 		background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232e5c78' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-		min-width: 320px !important;
-
 	}
 }
 /* type & text */
@@ -92,20 +86,20 @@ a {
 		// .nav-active();
 	}
 }
-// span {
-// 	font-size: inherit;
-// 	line-height: inherit;
-// 	margin: inherit;
-// }
-// /* images */
-// img {
-// 	width: inherit;
-// }
-//
-// label,	input,	button	{
-// 		display:	block;
-// 		width:	100%;
-// }
+span {
+	font-size: inherit;
+	line-height: inherit;
+	margin: inherit;
+}
+/* images */
+img {
+	width: inherit;
+}
+
+label,	input,	button	{
+		display:	block;
+		width:	100%;
+}
 // .lead {
 // 	text-transform: uppercase;
 // 	font-size: @1-rem * @second-modular;
