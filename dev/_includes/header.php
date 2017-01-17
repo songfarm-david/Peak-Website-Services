@@ -18,17 +18,14 @@
 		// IF IS INDEX PAGE
 		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
 			// load critical css.
-			$css = fopen("_css/index_critical.css",'r');
+			$css = fopen("_css/index.css",'r');
 			echo '<style>';
-			echo fread($css,filesize("_css/index_critical.css"));
+			echo fread($css,filesize("_css/index.css"));
 			echo '</style>';
 			fclose($css);
 		}
 
 		?>
-
-		<!-- // if page == index ? landing_page
-		// if page == contact ? contact.css -->
 
 		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
 

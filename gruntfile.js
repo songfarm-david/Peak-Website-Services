@@ -18,20 +18,20 @@ module.exports = function(grunt) {
 		less : {
 			dev : {
 				files : {
-					'dev/_css/main.css' : 'dev/_less/theme/compile.less',
-					'dev/_css/index_critical.css' : 'dev/_less/index_critical.less'
+					// 'dev/_css/main.css' : 'dev/_less/theme/compile.less',
+					'dev/_css/index.css' : 'dev/_less/index_critical.less'
 				}
 			},
 			prod : {
 				options : {
-					compress : true,
-					sourceMap : true,
-					sourceMapFilename : 'prod/_css/main.map.css',
+					// compress : true,
+					// sourceMap : true,
+					// sourceMapFilename : 'prod/_css/main.map.css',
 					banner : "/*******************/"
 				},
 				files : {
-					'prod/_css/main.css' : 'dev/_less/theme/compile.less',
-					'prod/_css/index_critical.css' : 'dev/_less/index_critical.less'
+					// 'prod/_css/main.css' : 'dev/_less/theme/compile.less',
+					'prod/_css/index.css' : 'dev/_less/index_critical.less'
 				}
 			}
 		},
