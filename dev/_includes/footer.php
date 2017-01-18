@@ -13,22 +13,22 @@
 	</footer>
 
 	<!-- address font awesome performance -->
-	<!-- <script src="https://use.fontawesome.com/40bf27faba.js"></script> -->
+	<script src="https://use.fontawesome.com/40bf27faba.js" async defer></script>
 
 	<!-- jQuery CDN with Local Fallback -->
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
-
+  crossorigin="anonymous" async defer></script>
+  <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.min.js" async defer><\/script>')</script>
+	<!-- modernizr-custom -->
+	<script type="text/javascript" src="../build/modernizr-custom.js" async defer></script>
 	<!-- custom scripts -->
 	<!-- <script type="text/javascript" src="/peak/development/_js/helper/bs-collapse.js"></script> -->
-	<script type="text/javascript" src="_js/script.js"></script>
+	<script type="text/javascript" src="_js/script.js" async defer></script>
 
 	<!-- NOTE: Google reCAPTCHA for Contact Form -->
 	<!-- TODO: write php conditional for contact.php -->
-
 
 	<!-- Google Analytics ID tracking since 10/23/2016. -->
 	<script>
@@ -40,10 +40,8 @@
 			ga('create','UA-86141289-1','auto');ga('send','pageview');
 	</script>
 
-	<script type="text/javascript" src="../build/modernizr-custom.js" async defer></script>
-
 	<!-- NOTE: for Grunt Live Reload Server -->
-	<script src="//localhost:35729/livereload.js" async defer></script>
+	<script src="//localhost:35729/livereload.js"></script>
 
 </body>
 
