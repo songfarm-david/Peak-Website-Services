@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 				},
 				files : {
 					// 'prod/_css/main.css' : 'dev/_less/theme/compile.less',
-					'prod/_css/index.css' : 'dev/_less/index_critical.less',
+					'prod/_css/index.css' : 'dev/_less/index.less',
 					'prod/_css/contact.css' : 'dev/_less/contact.less'
 				}
 			}

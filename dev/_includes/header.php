@@ -7,8 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-		<!-- Google ReCAPTCHA  -->
-		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 
 		<!-- conditional & critical CSS here -->
@@ -38,7 +37,8 @@
 		?>
 
 		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
-
+		<!-- Google ReCAPTCHA  -->
+		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>
 	<body>
 		<!--[if lte IE 9]>

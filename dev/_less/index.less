@@ -1,9 +1,166 @@
 /*
- 	Main Landing Page styles
+ 	Main Landing Page Critical CSS styles
 	January 2017
 	==
 	David Gaskin
 	*/
+
+/* import base styles */
+@import 'base/base.less';
+@import 'theme/theme.less';
+
+#business-top {
+	position: static;
+	background-color: @background-color;
+	background-image: url(_images/air-triangulated.jpg);
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	height: auto;
+	min-height: 26.666em;
+	.base(padding,top,2);
+
+	padding-bottom: 2em*@first-modular;
+	@media (max-height: 36.88em) {
+		height: 480px;
+		height: 100vh;
+		position: relative;
+		a.callout-link {
+			position: absolute;
+			bottom: @1-rem;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+	div.callout {
+		padding-left: .75em;
+		padding-right: .75em;
+		height: 100%;
+	}
+	h1 {
+		color: #467F96;
+		font: @header-font;
+		text-shadow: 1px 1px 1px darken(@hero-color, 10%);
+		.font-size(4);
+		margin: 0 auto;
+		text-align: center;
+		>span {
+			font-size: inherit;
+			color: @sea-green;
+			line-height: 0;
+		}
+		@media (min-width: 24.375em) {
+			.font-size(4.25);
+		}
+		@media (min-width: 64em) {
+			// .base(padding,top,5);
+			.font-size(6);
+			text-align: left;
+		}
+	}
+	p {
+		display: none;
+		color: darken(@hero-color,10%);
+	}
+	a {
+		display: block;
+		width: 88%;
+		max-width: 13.75em;
+		margin: 9em auto 0;
+		text-align: center;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		.font-size(1);
+		font-weight: bold;
+		color: white;
+		background-color: #35885f;
+		padding: @1-rem/@first-modular @2-rem;
+		text-decoration: none;
+		border-radius: 2px;
+		box-shadow: 0 2px 3px 0px #555;
+		@media (min-width: 31.875em) {
+			width: 15em;
+		}
+		&:hover,
+		&:active {
+			background-color: @japanese-indigo;
+		}
+	}
+
+	// first major layout difference
+	@media (min-width: 44.75em) {
+		background-size: cover;
+		padding-top: 5em;
+		padding-bottom: 10em;
+		min-height: 40em;
+		h1 {
+			.font-size(4.75);
+			text-align: left;
+		}
+		p {
+			display: block;
+			.font-size(1.75);
+		}
+		a {
+			position: static;
+			margin-top: 4em*@first-modular;
+			margin-left: 0;
+			width: 75%;
+		}
+	}
+	@media (min-width: 56.555em) {
+		padding-top: 6.5em;
+		div.callout {
+			width: 48.3125em;
+		}
+		h1 {
+			.font-size(5.5);
+		}
+		p {
+			.font-size(2.25);
+			width: 56%;
+		}
+		a {
+			.font-size(1.75);
+			margin-top: 3em;
+			width: 40%;
+		}
+	}
+	@media (min-width: 84.444em) and (min-height: 57.125em) {
+		background-size: cover;
+		background-position: 90%;
+		height: 100vh;
+		div.callout {
+			width: 56em;
+		}
+		h1 {
+			.font-size(6);
+		}
+	}
+	@media (min-height: 57.125em) {
+		height: 100vh;
+	}
+	@media (min-width: 98.4375em) {
+		padding-top: 10em;
+		div.callout {
+			width: 70em;
+		}
+		p {
+			width: 35%;
+		}
+		a {
+			width: 25%;
+		}
+	}
+
+}
+
+footer {
+	color: darken(white, 20%);
+	@media (min-width: 56.25em) {
+		position: static;
+	}
+}
 
 #complicated-web {
 	color: @hero-color;
@@ -17,7 +174,6 @@
 	.base(padding,bottom,1*@first-modular);
 	padding-left: .5rem;
 	padding-right: .5rem;
-	// box-shadow: inset 3px -3px 8px 1px @japanese-indigo;
 	border-bottom: 1px solid darken(#e6f4fb, 2%);
 	h2 {
 		font-family: @body-font;

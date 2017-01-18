@@ -10,7 +10,8 @@ $canonical = "https://peakwebsites.ca/";
 	<main>
 		<!-- Landing Page -->
 		<section id="business-top">
-			<img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain on a crisp and cloudy day" />
+			<!-- TEST: img commented out to reduce requests -->
+			<!-- <img class="at-only" src="_images/air-triangulated.jpg" alt="The peak of a large, snow-covered mountain on a crisp and cloudy day" /> -->
 			<div class="container callout fadeInUp">
 				<h1 class="">Put Your Business On&nbsp;<span>Top</span></h1>
 				<p>Get everything you need to compete in today's online world.</p>
