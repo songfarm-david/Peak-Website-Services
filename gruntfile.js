@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 			dev : {
 				files : {
 					// 'dev/_css/main.css' : 'dev/_less/theme/compile.less',
-					'dev/_css/index.css' : 'dev/_less/index_critical.less',
+					'dev/_css/index.css' : 'dev/_less/index.less',
 					'dev/_css/contact.css' : 'dev/_less/contact.less'
 				}
 			},
@@ -88,8 +88,8 @@ module.exports = function(grunt) {
 				// collapseInlineTagWhitespace: true,
 				// collapseWhitespace: true,
 				removeComments: true,
-				minifyCSS: true,
-				minifyJS: true,
+				// minifyCSS: true,
+				// minifyJS: true,
 				removeRedundantAttributes: true,
 				removeStyleLinkTypeAttributes: true,
 			},
@@ -130,6 +130,22 @@ module.exports = function(grunt) {
         },
       },
 		},
+		replace : {
+			build : {
+				src: ['dev/_includes/header.php','dev/_includes/footer.php'],
+				dest: 'prod/_includes/',
+				replacements: [{
+					from: '/peak/dev',
+					to: ''
+				}, {
+					from: '../node_modules',
+					to: '/node_modules'
+				}, {
+					from: '../build',
+					to: '/build'
+				}]
+			}
+		}
 	}); // initConfig
 
 	// register tasks
@@ -137,7 +153,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['concat:prod','uglify','modernizr','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function

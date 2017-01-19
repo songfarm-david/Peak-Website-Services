@@ -7,12 +7,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-
-		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-
+		<!-- WebFontLoader -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet"> -->
+		<script type="text/javascript">
+		var WebFontConfig = {
+			google: {
+				families: [ 'Raleway:300,400,700,900' ]
+			},
+			timeout: 2000
+		};
+		(function(){
+			var wf = document.createElement("script");
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.async = 'true';
+			document.head.appendChild(wf);
+		})();
+		</script>
 		<!-- conditional & critical CSS here -->
 		<?php
-		$css = '';
+		$css;
 
 		// IF IS INDEX PAGE
 		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
@@ -35,7 +49,6 @@
 		}
 
 		?>
-
 		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>

@@ -2,7 +2,43 @@
 * Typography
 */
 
-@header-font: normal 900 1rem/@line-height 'Raleway', Arial, sans-serif;
-@body-font: normal 400 1rem/@line-height 'Raleway', sans-serif;
-// this format will be deprecated
-// @body-font: 'Raleway', sans-serif;
+/* Common font fallback*/
+@header-font: normal bold 1rem/1.4 Tahoma, sans-serif;
+@body-font: normal normal 1rem/1.4 Tahoma, sans-serif;
+
+/* fallbacks, see http://ffffallback.com/ */
+html {
+	font-family: Tahoma;
+	body {
+		font-family: @body-font;
+	}
+	#business-top {
+		h1 {
+			letter-spacing: -0.03em;
+			font-weight: bold;
+		}
+		p {
+			letter-spacing: 0.02em;
+			font-weight: normal;
+		}
+	}
+}
+/* WebFontLoader plugin, see: https://www.sitepoint.com/improve-page-performance-font-loader/ */
+html.wf-active {
+	@header-font: normal 900 1rem/@line-height 'Raleway', Tahoma, sans-serif;
+	@body-font: normal 400 1rem/@line-height 'Raleway', Tahoma, sans-serif;
+	body {
+		font: @body-font;
+	}
+	#business-top {
+		h1 {
+			letter-spacing: 0;
+			font-family: 'Raleway';
+			font-weight: 900;
+		}
+		p {
+			letter-spacing: 0;
+			font-family: 'Raleway';
+		}
+	}
+}

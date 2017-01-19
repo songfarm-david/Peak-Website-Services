@@ -13,7 +13,7 @@
 	</footer>
 
 	<!-- address font awesome performance -->
-	<script src="https://use.fontawesome.com/40bf27faba.js" async defer></script>
+	<script src="https://use.fontawesome.com/40bf27faba.js"></script>
 
 	<!-- jQuery CDN with Local Fallback -->
 	<script
