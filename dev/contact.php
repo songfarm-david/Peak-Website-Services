@@ -12,10 +12,10 @@ $h1 = $title;
 
 	<main id="contact-main">
 
-		<h1>Got a question for me? Let's chat.</h1>
+		<h1 class="fadeIn">Got a question for me? Let's chat.</h1>
 		<!-- <p>Website Management</p> -->
 		<!-- Web Service Questionnaire -->
-		<section>
+		<section class="fadeIn">
 			<h2 class="hide">Contact Form</h2>
 			<!-- NOTE: this path will need to be changed before deployment -->
 			<form id="contact-form" name="contact-form" action="../process-form.php" method="post">
@@ -48,7 +48,7 @@ $h1 = $title;
 					<div class="row">
 						<div class="col col-12">
 							<label for="message">
-								<textarea name="message" rows="1" placeholder="Tell us about your project"></textarea>
+								<textarea name="message" rows="1" placeholder="What can I help you with?"></textarea>
 							</label>
 						</div>
 					</div>
