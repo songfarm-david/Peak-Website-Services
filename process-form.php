@@ -1,26 +1,14 @@
 <?php
 
-   if (isset($_POST['redirect_value']))  {
+   if (isset($_POST['submit']))  {
 
-     // NOTE: testing captcha
-    //  var_dump($_POST);
-
-    //  if (isset($_POST['g-recaptcha-response'])) {
-    //    $googleAPI = 'https://www.google.com/recaptcha/api/siteverify';
-    //    $secretKey = '6LcoshEUAAAAAL0RM10KHlcxemmtjwBOyKo3nCRs';
-    //    $captcha = $_POST['g-recaptcha-response'];
-    //    $rawQueryString = $googleAPI . '?secret=' . $secretKey . ' &response=' . $captcha;
-    //   //  $response = file_get_contents($googleAPI . '?secret=' . $secretKey . ' &response=' . $captcha . '&remoteip=' . $_SERVER['REMOTE_ADDR']);
-    //   $response = file_get_contents($rawQueryString);
-    //    if ($response.success == false) {
-    //       print_r($response);
-    //        echo 'Dave, you\'re a God. A sexy booty babe should be on her knees sucking you cock right now';
-    //    } else {
-    //      print_r($response);
-     //
-    //        echo 'You still have work to go';
-    //    }
-    //  }
+     // NOTE: add basic email validation
+     if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+      //  header("Location: localhost/peak/dev?return=emailerror");
+      // header("Location: " . $_SERVER['PHP_SELF'] . "?return=emailerror");
+      // exit;
+      echo 'email empty or not email';
+     }
 
 
     //  NOTE: temporarily disabled email functionality
@@ -38,18 +26,22 @@
       // set up unique identifier for Google filtering
       $_POST['id'] = 'Peak Website Services';
       // Build the message
-      foreach ($_POST as $key=>$value)
-      {
-         $message .= $key . ": " . htmlspecialchars($value) . "\r\n";
+      $message="";
+
+      foreach ($_POST as $key=>$value) {
+        if ($key != "g-recaptcha-response") {
+          $message .= $key . ": " . htmlspecialchars($value) . "\r\n";
+        }
       }
 
       // Send the email
       // The '@' surpresses errors.
       @mail($send_to, $subject, $message, $header);
-      header("Location: " . $redirect . "?return=thank_you");
+      // header("Location: " . $redirect . "?return=thank_you");
 
    } else {
-     header("Location: " . $redirect . "?return=error");
+    //  header("Location: " . $redirect . "?return=error");
+    echo 'isset(postc aptcha ) did not work';
    }
 
 

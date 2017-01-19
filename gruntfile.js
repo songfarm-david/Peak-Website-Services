@@ -134,6 +134,7 @@ module.exports = function(grunt) {
 			build : {
 				src: ['dev/_includes/header.php','dev/_includes/footer.php'],
 				dest: 'prod/_includes/',
+				// '../process-form.php' => '/process-form.php'
 				replacements: [{
 					from: '/peak/dev',
 					to: ''

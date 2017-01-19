@@ -5,8 +5,30 @@
 /**
 * Function for Google ReCAPTCHA - (called from contact.php)
 */
+var contactForm = document.getElementById("contact-form");
+
+/***
+* acts as callback function after ReCAPTCHA success
+* - submits data via Ajax to process-form.php
+*/
+var submitFormPHP = function(form, email) {
+	var url = form.action;
+	var formData = $(form).serializeArray();
+    $.post(url, formData).done(function (data) {
+        alert(data);
+    });
+}
+
+$( contactForm ).submit(function( event ) {
+	console.log("form submitted. default prevented");
+	event.preventDefault();
+	grecaptcha.reset();
+	grecaptcha.execute();
+});
+
 function onSubmit(token) {
-	document.getElementById("contact-form").submit();
+	// $( contactForm ).trigger('submit');
+	submitFormPHP(contactForm);
 };
 
 /**
