@@ -86,10 +86,10 @@ module.exports = function(grunt) {
 		htmlmin : {
 			options : {
 				// collapseInlineTagWhitespace: true,
-				// collapseWhitespace: true,
+				collapseWhitespace: true,
 				removeComments: true,
-				// minifyCSS: true,
-				// minifyJS: true,
+				minifyCSS: true,
+				minifyJS: true,
 				removeRedundantAttributes: true,
 				removeStyleLinkTypeAttributes: true,
 			},
@@ -145,6 +145,25 @@ module.exports = function(grunt) {
 					from: '../build',
 					to: '/build'
 				}]
+			},
+			contactform: {
+				src: 'dev/contact.php',
+				dest: 'prod/contact.php',
+				replacements: [{
+					from: '../process-form.php',
+					to: '/process-form.php'
+				}]
+			},
+			header: {
+				src: 'dev/_includes/header.php',
+				dest: 'prod/_includes/header.php',
+				replacements: [{
+					from: '/peak/dev/index.php',
+					to: '/index.php'
+				}, {
+					from: '/peak/dev/contact.php',
+					to: '/contact.php'
+				}]
 			}
 		}
 	}); // initConfig
@@ -154,7 +173,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
