@@ -13,19 +13,20 @@
 	</footer>
 
 	<!-- address font awesome performance -->
-	<script src="https://use.fontawesome.com/40bf27faba.js"></script>
+	<!-- <script src="https://use.fontawesome.com/40bf27faba.js"></script> -->
 
 	<!-- jQuery CDN with Local Fallback -->
 	<script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous" async defer></script>
+  crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.min.js" async defer><\/script>')</script>
 	<!-- modernizr-custom -->
 	<script type="text/javascript" src="../build/modernizr-custom.js" async defer></script>
 	<!-- custom scripts -->
 	<!-- <script type="text/javascript" src="/peak/development/_js/helper/bs-collapse.js"></script> -->
 	<script type="text/javascript" src="_js/script.js" async defer></script>
+
 
 	<!-- NOTE: Google reCAPTCHA for Contact Form -->
 	<!-- TODO: write php conditional for contact.php -->
