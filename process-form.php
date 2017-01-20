@@ -5,10 +5,10 @@
      // basic email validation
      if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
         echo 'Please supply a valid email that you own';
-        return false;
+        exit;
      }
-    //  NOTE: temporarily disabled email functionality
-      // Set up message
+
+     // Set up message
       $send_to = "david@peakwebsites.ca";
       $send_from = htmlspecialchars($_POST['email']);
       // this will describe more of what the visitor is looking for
@@ -28,22 +28,21 @@
         }
       }
 
-      // Send the email
-      // The '@' surpresses errors.
-      if (!@mail($send_to, $subject, $message, $header)) {
-        echo 'Thank you for getting in touch. We will respond shortly.';
-        return true;
-      } else {
-        echo 'An unknown error occured and the system was unable to complete your request. Please try again in a while.';
-        return false;
-      }
+     // Send the email
+     // The '@' surpresses errors.
+     if (!@mail($send_to, $subject, $message, $header)) {
+       echo 'Thank you for getting in touch. We will respond shortly.';
+       // header("Location: " . $redirect . "?return=thank_you");
+     } else {
+       echo 'An unknown error occured and the system was unable to complete your request. Please try again in a while.';
+       // return false;
+     }
 
-      // header("Location: " . $redirect . "?return=thank_you");
 
-   } else {
-      //  header("Location: " . $redirect . "?return=error");
-      echo 'Error';
-   }
+    } else {
+       //  header("Location: " . $redirect . "?return=error");
+       echo 'No form data submitted.';
+    }
 
 
 ?>

@@ -29,7 +29,7 @@ $h1 = $title;
 						</div>
 						<div class="col col-6">
 							<label for="email">
-								<input type="email" name="email" value="" placeholder="Email*" required>
+								<input type="email" name="email" value="emile@emish.com" placeholder="Email*" required>
 							</label>
 						</div>
 					</div>

@@ -7,29 +7,37 @@
 */
 var contactForm = document.getElementById("contact-form");
 
-/***
-* acts as callback function after ReCAPTCHA success
-* - submits data via Ajax to process-form.php
-*/
-var submitFormPHP = function(form, email) {
-	var url = form.action;
-	var formData = $(form).serializeArray();
-    $.post(url, formData).done(function (data) {
-        alert(data);
-    });
+function submitForm() {
+	var xhttp = new XMLHttpRequest();
+	url = contactForm.action;
+	data = $(contactForm).serialize();
+	// prepare open method
+	xhttp.open("post", url, true);
+	//Send the proper header information along with the request
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	// xhttp.setRequestHeader("Content-length", params.length);
+	// xhttp.setRequestHeader("Connection", "close");
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     console.log(this.responseText);
+		 // handle response here
+    }
+  };
+  xhttp.send(data);
 }
 
 $( contactForm ).submit(function( event ) {
-	console.log("form submitted. default prevented");
 	event.preventDefault();
-	grecaptcha.reset();
-	grecaptcha.execute();
+	submitForm(contactForm);
+	// NOTE: comment out captcha functionality
+	// grecaptcha.reset();
+	// grecaptcha.execute();
 });
 
-function onSubmit(token) {
-	// $( contactForm ).trigger('submit');
-	submitFormPHP(contactForm);
-};
+// function onSubmit(token) {
+// 	// $( contactForm ).trigger('submit');
+// 	submitFormPHP(contactForm);
+// };
 
 /**
 * Smooth Scrolling
