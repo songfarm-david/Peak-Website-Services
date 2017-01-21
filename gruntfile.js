@@ -172,7 +172,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:header','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
