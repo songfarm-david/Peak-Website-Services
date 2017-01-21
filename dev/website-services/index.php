@@ -10,41 +10,39 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <main id="website-services">
 
 	<!-- Website Services Display -->
-	<div class="container">
-		<p data-name="main-callout">Whatever step you're on, we have a <span>Website&nbsp;Service</span> designed to get you where you're going.</p>
+		<h1>Whatever step you're on, we have a Website&nbsp;Service designed to get you where you're going.</h1>
 
 		<div id="service-display">
 			<div class="row">
 				<div class="col col-4">
-					<section data-id="service-development">
+					<section data-id="service-development" class="service-section">
 						<h3 class="hide">Website Development Services</h3>
 						<p class="green" data-name="service-title">Development</p>
-						<p data-name="service-info">Do you need a website? Does your existing website need a facelift? Let us tailor a website for you that's built for today.</p>
-						<a href="#" class="green">Learn More</a>
+						<p data-name="service-info">Do you need a website? Does your existing website need a facelift? Let me tailor make a state-of-the-art website for you.</p>
+						<a href="/website-services/website-development-services.php" class="green">Learn More</a>
 					</section>
 				</div>
 
 				<div class="col col-4">
-					<section data-id="service-maintenance">
+					<section data-id="service-maintenance" class="service-section">
 						<h3 class="hide">Website Maintenance Services</h3>
 						<p class="blue" data-name="service-title">Maintenance</p>
-						<p data-name="service-info">You have more important things to do then worry about your website. Hosting to domain names to security, we've got you covered.</p>
-						<a href="#" class="blue">Learn More</a>
+						<p data-name="service-info">You have more important things to do then worry about your website. Secure hosting to domain names to security, we've got you covered.</p>
+						<a href="/website-services/website-maintenance-services.php" class="blue">Learn More</a>
 					</section>
 				</div>
 
 				<div class="col col-4">
-					<section data-id="service-optimization">
+					<section data-id="service-optimization" class="service-section">
 						<h3 class="hide">Website Optimization Services</h3>
 						<p class="purple" data-name="service-title">Optimization</p>
-						<p data-name="service-info">Rise above the competition and get found in the crowded internet marketplace. We'll help to put you in front of your core audience.</p>
-						<a href="#" class="purple">Learn More</a>
+						<p data-name="service-info">Rise above the crowd and get noticed. We've got the tools and knowledge to help you stand out in the noisy internet marketplace.</p>
+						<a href="/website-services/website-optimization-services.php" class="purple">Learn More</a>
 					</section>
 				</div>
 			</div>
 		</div>
 
-	</div>
 
 
 	<!-- <section>
