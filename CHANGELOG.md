@@ -11,3 +11,9 @@
 - Remove 'Date' from Footer copyright
 - Move Critical CSS generator script to assets folder
 - Add SVG background to footer/body element
+
+###3.1
+- Integrate contact form with two levels of security
+- Optimize page speed with inlining CSS and streamlining resources
+- Create a modal dropdown on form submission
+**Cache fonts**

@@ -6,6 +6,7 @@
 * Function for Google ReCAPTCHA - (called from contact.php)
 */
 var contactForm = document.getElementById("contact-form");
+var redirectUrl = "https://peakwebsites.ca/index.php";
 
 function submitForm() {
 	var xhttp = new XMLHttpRequest();
@@ -19,8 +20,36 @@ function submitForm() {
 	// xhttp.setRequestHeader("Connection", "close");
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-     console.log(this.responseText);
-		 // handle response here
+			var successMsg;
+			var response = JSON.parse(this.responseText);
+
+			// get target element
+			var target = document.getElementById("confirmation-msg").querySelector("p");
+			var targetParent = document.getElementById("confirmation-msg");
+
+			var outputResponse = function() {
+				targetParent.className = "";
+				target.innerHTML = response[1];
+			}
+
+			// expecting positive integer (1)
+			if (response[0] > 0) {
+				// success
+				outputResponse();
+				setTimeout(function() {
+					targetParent.className = "hide";
+					// redirect to hompage
+					window.location = redirectUrl;
+				}, 3000);
+			} else {
+				// failure
+				outputResponse();
+				setTimeout(function() {
+					targetParent.className = "hide";
+					// redirect to hompage
+					location.reload();
+				}, 4000);
+			}
     }
   };
   xhttp.send(data);
@@ -28,16 +57,14 @@ function submitForm() {
 
 $( contactForm ).submit(function( event ) {
 	event.preventDefault();
-	submitForm(contactForm);
 	// NOTE: comment out captcha functionality
-	// grecaptcha.reset();
-	// grecaptcha.execute();
+	grecaptcha.reset();
+	grecaptcha.execute();
 });
 
-// function onSubmit(token) {
-// 	// $( contactForm ).trigger('submit');
-// 	submitFormPHP(contactForm);
-// };
+function onSubmit(token) {
+	submitForm(contactForm);
+};
 
 /**
 * Smooth Scrolling

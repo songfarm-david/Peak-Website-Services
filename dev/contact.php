@@ -29,7 +29,7 @@ $h1 = $title;
 						</div>
 						<div class="col col-6">
 							<label for="email">
-								<input type="email" name="email" value="emile@emish.com" placeholder="Email*" required>
+								<input type="email" name="email" value="" placeholder="Email*" required>
 							</label>
 						</div>
 					</div>
@@ -69,7 +69,17 @@ $h1 = $title;
 			<!-- NOTE: add a captcha -->
 		</section>
 
-			<!-- NOTE: stylized google map of bear mountain/langform -->
+		<!-- NOTE: stylized google map of bear mountain/langform -->
+		<!-- Confirmation Message Modal -->
+		<article class="hide" id="confirmation-msg">
+			<h3 class="at-only">Confirmation Message</h3>
+			<div class="modal-content">
+				<p>Thank you for signing up, we'll be in touch with you soon.</p>
+			</div>
+		</article>
 
 	</main>
+
+
+
 <?php require_once('_includes/footer.php') ?>

@@ -18,9 +18,8 @@ module.exports = function(grunt) {
 		less : {
 			dev : {
 				files : {
-					// 'dev/_css/main.css' : 'dev/_less/theme/compile.less',
 					'dev/_css/index.css' : 'dev/_less/index.less',
-					'dev/_css/contact.css' : 'dev/_less/contact.less'
+					'dev/_css/contact.css' : 'dev/_less/contact.less',
 				}
 			},
 			prod : {
