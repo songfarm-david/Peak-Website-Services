@@ -20,6 +20,7 @@ module.exports = function(grunt) {
 				files : {
 					'dev/_css/index.css' : 'dev/_less/index.less',
 					'dev/_css/contact.css' : 'dev/_less/contact.less',
+					'dev/_css/services.css' : 'dev/_less/services.less'
 				}
 			},
 			prod : {

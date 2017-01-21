@@ -48,6 +48,16 @@
 			fclose($css);
 		}
 
+		// IF Service PAGE
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
+			// load critical css.
+			$css = fopen("../_css/services.css",'r');
+			echo '<style>';
+			echo fread($css,filesize("../_css/services.css"));
+			echo '</style>';
+			fclose($css);
+		}
+
 		?>
 		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
 		<!-- Google ReCAPTCHA  -->

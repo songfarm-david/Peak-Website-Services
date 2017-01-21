@@ -1,3 +1,7 @@
+/* import base styles */
+@import 'base/base.less';
+@import 'theme/theme.less';
+
 #website-services {
 	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
 	position: relative;
@@ -5,134 +9,138 @@
 	background-color: white;
 	background-size: cover;
 	text-align: center;
-	@media (min-width: 48em) {
-		height: auto;
-		min-height: 100vh;
-		padding-top: 10em;
-		padding-top: 10rem;
-	}
-	p {
-		font-family: 'Raleway', sans-serif;
-		color: #487F98;
-	}
-	p[data-name="main-callout"] {
+	color: #487F98;
+	padding-bottom: 4rem;
+	>h1 {
 		margin: 0 auto;
 		padding: 0;
 		padding-left: 1em;
 		padding-right: 1em;
-		font-size: 1.8em;
-		font-size: 1.8rem;
-		font-weight: 300;
+		.font-size(1.5);
+		font-weight: 400;
 		>span {
 			font-size: inherit;
 			font-weight: bold;
 		}
-		@media (min-width: 33em) {
+	}
+	#service-display {
+		margin-top: 3em*1.333;
+		padding-left: 1rem/1.618;
+		padding-right: 1rem/1.618;
+		@media (min-width: 46em ) {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+		section.service-section {
+			height: auto;
+			min-height: 300px;
+			max-width: unit(480/18, em);
+			text-align: center;
+			background-color: #fff;
+			padding-bottom: 1rem;
+			margin: 0 auto;
+			margin-bottom: 2rem;
+			box-shadow: 1px 1px 4px 1px #337592;
+			p {
+				width: 100%;
+				text-align: center;
+			}
+			p[data-name="service-title"] {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				font-size: 1.9em;
+				font-weight: 700;
+				color: white;
+				@media (min-width: 40em) {
+					.font-size(2);
+				}
+			}
+			p[data-name="service-title"],
+			>a {
+				text-shadow: 0px 1px 2px #666;
+			}
+			>p:last-of-type {
+				padding: 1rem;
+				@media (min-width: 41.44em) {
+					.font-size(1.75);
+				}
+			}
+			p[data-name="service-info"] {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				margin-bottom: 1rem;
+				// width: 80%;
+				margin: 0 auto;
+				.font-size(1);
+				@media (min-width: 48em) {
+					font-size: 1.5rem;
+				}
+			}
+			>a {
+				display: block;
+				box-shadow: 0px 1px 3px 1px #357;
+
+				max-width: 80%;
+				font-weight: bold;
+				text-decoration: none;
+				color: white;
+				padding-top: 18px;
+				padding-bottom: 18px;
+				font-size: 1.3em;
+				font-size: 1.3rem;
+				margin: 1rem*1.618 auto;
+				margin-bottom: 0;
+				@media (min-width: 40em) {
+					font-size: 1.4em;
+					font-size: 1.4rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 33em) {
+		>h1 {
 			font-size: 2.1em;
 			font-size: 2.1rem;
 		}
-		@media (min-width: 50em) {
+
+	}
+	@media (min-width: 50em) {
+		>h1 {
 			font-size: 2.4em;
 			font-size: 2.4rem;
 		}
-		@media (min-width: 75em) {
+	}
+	@media (min-width: 75em) {
+		>h1 {
 			font-size: 2.7em;
 			font-size: 2.7rem;
 		}
-		@media (min-width: 90em) {
-			font-size: 2.7em;
-			font-size: 2.7rem;
-			width: 72%;
+	}
+	@media (min-width: 90em) {
+		padding-bottom: 10em;
+		>h1 {
+			.font-size(3.25);
+			max-width: 90%;
 		}
+		#service-display {
+			section.service-section {
+				p[data-name="service-title"] {
+					.font-size(2.5);
+				}
+				p[data-name="service-info"] {
+		 			.font-size(1.25);
+		 		}
+			}
+		}
+	}
+	@media (min-height: 50em) {
+		height: 100vh;
 	}
 }
 
-#service-display {
-	margin-top: 3em*1.333;
-	padding-left: 1rem/1.618;
-	padding-right: 1rem/1.618;
-	@media (min-width: 46em ) {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-	section {
-		height: auto;
-		min-height: 300px;
-		max-width: unit(480/18, em);
-		text-align: center;
-		background-color: #fff;
-		padding-bottom: 1rem*1.618;
-		margin: 0 auto;
-		margin-bottom: 2rem*1.333;
-		@media (min-width: 64em) {
-			margin-right: 1em*1.333;
-			margin-right: 1rem*1.333;
-			margin-left: 1em*1.333/2;
-			margin-left: 1rem*1.333/2;
-		}
-		p {
-			width: 100%;
-			text-align: center;
-		}
-		p[data-name="service-title"] {
-			padding-top: 1rem;
-			padding-bottom: 1rem;
-			font-size: 1.9em;
-			font-weight: 700;
-			color: white;
-			// .border;
 
-			@media (min-width: 33em) {
-				font-size: 2.4em;
-			}
-			// @media (min-width: 110em) {
-			// 	.font-size(3);
-			// }
-		}
-		>p:last-of-type {
 
-			font-weight: 400;
-			padding: 1rem;
-			@media (min-width: 64em) {
-				min-height: unit(160/18, em);
-			}
-		}
-		p[data-name="service-info"] {
-			// .border;
-			padding-top: 1em*1.333;
-			padding-top: 1rem*1.333;
-			padding-bottom: 1em*1.333;
-			padding-bottom: 1rem*1.333;
-			margin-bottom: 1em;
-			margin-bottom: 1rem;
-			// width: 80%;
-			margin: 0 auto;
 
-			@media (min-width: 48em) {
-				font-size: 1.5rem;
-			}
-		}
-		>a {
-			display: block;
-			width: 50%;
-			min-width: unit(200/18, em);
-			min-width: unit(220/18, rem);
-			font-weight: bold;
-			text-decoration: none;
-			color: white;
-			padding-top: 18px;
-			padding-bottom: 18px;
-			font-size: 1.3em;
-			font-size: 1.3rem;
-			margin: 1rem*1.618 auto;
-			margin-bottom: 0;
-			@media (min-width: 40em) {
-				font-size: 1.4em;
-				font-size: 1.4rem;
-			}
-		}
-	}
-}
 
 #service-display section[data-id="service-development"] {
 	background-color: #fbfffb;
