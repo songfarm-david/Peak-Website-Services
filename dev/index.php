@@ -32,16 +32,16 @@ $canonical = "https://peakwebsites.ca/";
 		<section id="work-with-us">
 			<div id="columns" class="">
 				<div>
-					<h3>Commitment to Quality</h3>
-					<p>I don't settle for <em>"just okay"</em>. I go above and beyond the call to provide you with the kind of service you can feel good about. <em>I chose the name Peak Websites for a reason!</em></p>
-				</div>
-				<div>
 					<h3>Industry Expertise</h3>
 					<p>Websites are what I do and part of that is keeping up with the ever-changing world of the web. When you work with me, you can relax and focus on the more important things.</p>
 				</div>
 				<div>
+					<h3>Commitment to Quality</h3>
+					<p>I don't settle for <em>"just okay"</em>. I go above and beyond the call to provide you with the kind of service you can feel good about. <em>I chose the name Peak Websites for a reason!</em></p>
+				</div>
+				<div>
 					<h3>Satisfaction Guaranteed</h3>
-					<p>I want to make the web a better place, and that starts with being the kind of business you feel good working with. I stand behind everything I do. Guaranteed.</p>
+					<p>I want to make the web a better place, and that starts with being the kind of business you feel good working with. I stand behind everything I do and will go the extra mile to make sure you're satisfied. Guaranteed.</p>
 				</div>
 			</div>
 			<a href="contact.php" title="contact form">Elevate Your Online Business Today</a>
