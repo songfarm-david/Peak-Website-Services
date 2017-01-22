@@ -5,6 +5,7 @@
 /* Grid Variables */
 @grid-columns: 12;
 @grid-padding: unit(@first-modular, %);
+@grid-breakpoint: 66em;
 
 .col-1,
 .col-2,
@@ -51,7 +52,7 @@
 
 
 // go full-width at specified breakpoint
-@media (min-width: 66em) {
+@media (min-width: @grid-breakpoint) {
 	// generate grid with allowance given for
 	.create-grid(@i: 1) when (@i =< @grid-columns) {
 		@each: (@i / @grid-columns) * 100%;

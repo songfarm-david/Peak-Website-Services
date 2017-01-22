@@ -2,146 +2,192 @@
 @import 'base/base.less';
 @import 'theme/theme.less';
 
-#website-services {
+/* to apply background colors to certain sections */
+.green-bg {
+	background: #52c38c svg-gradient(to bottom, #52c38c 50%, #239d62);
+}
+.blue-bg {
+	background: #48c6df svg-gradient(to bottom, #48c6df 50%, #1c9eb8);
+}
+.purple-bg {
+	background: #895cbd svg-gradient(to bottom, #895cbd 50%, #552987);
+}
+
+main#website-services {
 	background-image: url('../../_assets/fallbacks/backgrounds/polygon-bg-main.png');
 	position: relative;
-	padding-top: 6.472em; // adjust top of paragraph from top-viewport
+	padding-top: 3.5rem*@first-modular; // adjust top of paragraph from top-viewport
 	background-color: white;
 	background-size: cover;
 	text-align: center;
 	color: #487F98;
-	padding-bottom: 4rem;
-	>h1 {
-		margin: 0 auto;
-		padding: 0;
-		padding-left: 1em;
-		padding-right: 1em;
-		.font-size(1.5);
-		font-weight: 400;
-		>span {
-			font-size: inherit;
-			font-weight: bold;
-		}
-	}
-	#service-display {
-		margin-top: 3em*1.333;
-		padding-left: 1rem/1.618;
-		padding-right: 1rem/1.618;
-		@media (min-width: 46em ) {
-			padding-left: 1rem;
-			padding-right: 1rem;
-		}
-		section.service-section {
-			height: auto;
-			min-height: 300px;
-			max-width: unit(480/18, em);
-			text-align: center;
-			background-color: #fff;
-			padding-bottom: 1rem;
-			margin: 0 auto;
-			margin-bottom: 2rem;
-			box-shadow: 1px 1px 4px 1px #337592;
-			p {
-				width: 100%;
-				text-align: center;
-			}
-			p[data-name="service-title"] {
-				padding-top: 1rem;
-				padding-bottom: 1rem;
-				font-size: 1.9em;
-				font-weight: 700;
-				color: white;
-				@media (min-width: 40em) {
-					.font-size(2);
-				}
-			}
-			p[data-name="service-title"],
-			>a {
-				text-shadow: 0px 1px 2px #666;
-			}
-			>p:last-of-type {
-				padding: 1rem;
-				@media (min-width: 41.44em) {
-					.font-size(1.75);
-				}
-			}
-			p[data-name="service-info"] {
-				padding-top: 1rem;
-				padding-bottom: 1rem;
-				margin-bottom: 1rem;
-				// width: 80%;
-				margin: 0 auto;
-				.font-size(1);
-				@media (min-width: 48em) {
-					font-size: 1.5rem;
-				}
-			}
-			>a {
-				display: block;
-				box-shadow: 0px 1px 3px 1px #357;
-
-				max-width: 80%;
-				font-weight: bold;
-				text-decoration: none;
-				color: white;
-				padding-top: 18px;
-				padding-bottom: 18px;
-				font-size: 1.3em;
-				font-size: 1.3rem;
-				margin: 1rem*1.618 auto;
-				margin-bottom: 0;
-				@media (min-width: 40em) {
-					font-size: 1.4em;
-					font-size: 1.4rem;
-				}
-			}
-		}
-	}
-	@media (min-width: 33em) {
+	padding-bottom: 2rem;
+	section {
 		>h1 {
-			font-size: 2.1em;
-			font-size: 2.1rem;
-		}
-
-	}
-	@media (min-width: 50em) {
-		>h1 {
-			font-size: 2.4em;
-			font-size: 2.4rem;
-		}
-	}
-	@media (min-width: 75em) {
-		>h1 {
-			font-size: 2.7em;
-			font-size: 2.7rem;
-		}
-	}
-	@media (min-width: 90em) {
-		padding-bottom: 10em;
-		>h1 {
-			.font-size(3.25);
-			max-width: 90%;
+			margin: 0 auto 1em;
+			padding: 0;
+			padding-left: 1em;
+			padding-right: 1em;
+			.font-size(2.25);
+			font-weight: 400;
 		}
 		#service-display {
+			padding-left: 1rem/1.618;
+			padding-right: 1rem/1.618;
+			@media (min-width: 46em ) {
+				padding-left: 1rem;
+				padding-right: 1rem;
+			}
 			section.service-section {
-				p[data-name="service-title"] {
-					.font-size(2.5);
+				height: auto;
+				min-height: 300px;
+				max-width: unit(480/18, em);
+				text-align: center;
+				background-color: #fff;
+				padding-bottom: 1rem;
+				margin: 0 auto;
+				margin-bottom: 2rem;
+				box-shadow: 1px 1px 4px 1px #337592;
+				h3 {
+					padding-top: 1rem;
+					padding-bottom: 1rem;
+					font-weight: 700;
+					.font-size(1.9);
+					color: white;
 				}
-				p[data-name="service-info"] {
-		 			.font-size(1.25);
-		 		}
+				h3,
+				>a {
+					text-shadow: 0px 1px 2px #666;
+				}
+				p {
+					.font-size(1);
+					padding: 1rem;
+					margin: 0 auto 1rem;
+				}
+				>a {
+					.font-size(1.25);
+					display: block;
+					box-shadow: 0px 1px 3px 1px #357;
+					max-width: 80%;
+					font-weight: bold;
+					text-decoration: none;
+					color: white;
+					margin: calc(1rem*1.618) auto 0;
+					padding: 1em;
+				}
 			}
 		}
 	}
+	@media (min-width: 28.7em) {
+		section {
+			>h1 {
+				.font-size(2.5);
+			}
+			#service-display {
+				section.service-section {
+					h3 {
+						.font-size(2.25);
+					}
+					p {
+						.font-size(1.25);
+					}
+					a {
+						.font-size(1.5);
+						margin-bottom: 1rem;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 37.5em) {
+		section {
+			>h1 {
+			.font-size(3);
+			}
+			#service-display {
+				section.service-section {
+					h3 {
+						.font-size(2.5);
+					}
+					p {
+						.font-size(1.5);
+					}
+					a {
+						.font-size(1.75);
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 47.45em) {
+		section {
+			>h1 {
+				.font-size(3.5);
+			}
+			#service-display {
+				section.service-section {
+					h3 {
+						.font-size(2.75);
+					}
+					p {
+						.font-size(1.75);
+					}
+					a {
+						.font-size(2);
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: @grid-breakpoint) {
+		section {
+			>h1 {
+				.font-size(3.75);
+				max-width: 24em;
+			}
+			#service-display {
+				max-width: 106rem;
+				margin: 0 auto;
+				section.service-section {
+					h3 {
+						.font-size(3);
+					}
+					p {
+						.font-size(2);
+					}
+					a {
+						.font-size(2.25);
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 97em) {
+		section {
+			>h1 {
+				.font-size(4);
+				max-width: 26em;
+			}
+			#service-display
+				section.service-section {
+					h3 {
+						.font-size(3.25);
+					}
+					p {
+						.font-size(1.85);
+					}
+					a {
+						.font-size(2.25);
+					}
+				}
+			}
+		}
 	@media (min-height: 50em) {
 		height: 100vh;
 	}
 }
 
-
-
-
-
+/* particular background colors for each service section */
 #service-display section[data-id="service-development"] {
 	background-color: #fbfffb;
 }
@@ -150,13 +196,4 @@
 }
 #service-display section[data-id="service-optimization"] {
 	background-color: #fbf8ff;
-}
-.green {
-	background: #52c38c svg-gradient(to bottom, #52c38c 50%, #239d62);
-}
-.blue {
-	background: #48c6df svg-gradient(to bottom, #48c6df 50%, #1c9eb8);
-}
-.purple {
-	background: #895cbd svg-gradient(to bottom, #895cbd 50%, #552987);
 }
