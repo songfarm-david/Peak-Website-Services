@@ -69,14 +69,34 @@ function onSubmit(token) {
 /**
 * Smooth Scrolling
 */
-(function($) {
-	var trigger, height;
-	$("a#page-1-cta").on("click", function() {
-		height = $(window).height();
-		$("html, body").animate({ scrollTop: height + "px" }, 1100);
-	})
+// (function($) {
+// 	var height;
+// 	$("a.scroll-link").on("click", function() {
+// 		height = $(window).height();
+// 		$("html, body").animate({ scrollTop: height + "px" }, 1100);
+// 		return;
+// 	})
+//
+// })(jQuery);
 
-})(jQuery);
+var hashTagActive = "";
+$(".scroll-link").on("click touchstart" , function (event) {
+		if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
+				event.preventDefault();
+				//calculate destination place
+				var dest = 0;
+				if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+						dest = $(document).height() - $(window).height();
+				} else {
+						dest = $(this.hash).offset().top;
+				}
+				//go to destination
+				$('html,body').animate({
+						scrollTop: dest
+				}, 1100, 'swing');
+				hashTagActive = this.hash;
+		}
+});
 
 
 

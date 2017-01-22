@@ -15,17 +15,17 @@ $canonical = "https://peakwebsites.ca/";
 			<div class="container callout fadeInUp">
 				<h1 class="">Put Your Business On&nbsp;<span>Top</span></h1>
 				<p>Get everything you need to compete in today's online world.</p>
-				<a href="#complicated-web" id="page-1-cta" class="callout-link" title="Learn How">Learn How</a>
+				<a href="#complicated-web" class="scroll-link" title="Learn How">Learn How</a>
 			</div>
 		</section><!--/ end of Landing Page -->
 
 		<!-- Page two -->
 		<section id="complicated-web">
 			<h2>Today's Web Is <em>Hard</em></h2>
-			 <p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it works across devices, is quick and easy to use, and makes a great first impression on potential customers can be a full time job!</p>
-			 <p id="special"><b>That's where <em>I</em> come in.</b></p>
-			 <p>I specialize in providing <a href="/website-services/">peak&nbsp;website&nbsp;services</a> to busy business owners who don't want to worry about the code.</p>
-			 <p class="highlight">So, why work with me?</p>
+		 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it works across devices, is quick and easy to use, and makes a great first impression on potential customers can be a full time job!</p>
+		 	<p id="special"><b>That's where <em>I</em> come in.</b></p>
+		 	<p>I specialize in providing <a href="/website-services/">peak&nbsp;website&nbsp;services</a> to busy business owners who don't want to worry about the code.</p>
+		 	<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with me?</a>
 		</section><!--/ end Page two -->
 
 		<!-- Floating Section -->
