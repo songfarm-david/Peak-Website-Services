@@ -54,9 +54,9 @@
 		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php' ||
 				$_SERVER['PHP_SELF'] == '/peak/prod/website-services/index.php') {
 			// load critical css.
-			$css = fopen("../_css/services.css",'r'); // path is relative to /website-services/index.php
+			$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
 			echo '<style>';
-			echo fread($css,filesize("../_css/services.css")); // path is relative to /website-services/index.php
+			echo fread($css,filesize("../_css/service-index.css")); // path is relative to /website-services/index.php
 			echo '</style>';
 			fclose($css);
 		}

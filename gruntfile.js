@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 				files : {
 					'dev/_css/index.css' : 'dev/_less/index.less',
 					'dev/_css/contact.css' : 'dev/_less/contact.less',
-					'dev/_css/services.css' : 'dev/_less/services.less'
+					'dev/_css/service-index.css' : 'dev/_less/service-index.less'
 				}
 			},
 			prod : {
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 					// 'prod/_css/main.css' : 'dev/_less/theme/compile.less',
 					'prod/_css/index.css' : 'dev/_less/index.less',
 					'prod/_css/contact.css' : 'dev/_less/contact.less',
-					'prod/_css/services.css' : 'dev/_less/services.less',
+					'prod/_css/service-index.css' : 'dev/_less/service-index.less',
 				}
 			}
 		},
