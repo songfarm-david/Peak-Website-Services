@@ -29,7 +29,8 @@
 		$css;
 
 		// IF IS INDEX PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/prod/index.php') {
 			// load critical css.
 			$css = fopen("_css/index.css",'r');
 			echo '<style>';
@@ -39,7 +40,8 @@
 		}
 
 		// IF IS CONTACT PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/prod/contact.php') {
 			// load critical css.
 			$css = fopen("_css/contact.css",'r');
 			echo '<style>';
@@ -49,11 +51,12 @@
 		}
 
 		// IF Service PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/prod/website-services/index.php') {
 			// load critical css.
-			$css = fopen("../_css/services.css",'r');
+			$css = fopen("../_css/services.css",'r'); // path is relative to /website-services/index.php
 			echo '<style>';
-			echo fread($css,filesize("../_css/services.css"));
+			echo fread($css,filesize("../_css/services.css")); // path is relative to /website-services/index.php
 			echo '</style>';
 			fclose($css);
 		}
