@@ -23,7 +23,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Monthly SEO Report</li>
 				<li>and much more..</li>
 			</ul>
-			<p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p>
+			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 
 			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>

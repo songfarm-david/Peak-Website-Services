@@ -34,20 +34,51 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="features">
 			<h3>All our websites are:</h3>
 			<ul>
-				<li>Designed to Convert</li>
-				<li>Mobile Friendly</li>
-				<li>Responsive Design</li>
-				<li>Securely Encrypted</li>
-				<li>Search Engine Optimized</li>
-				<li>Accessible to Everyone</li>
+				<li>
+					<div class="feature-container">
+						<span>Designed to Convert</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="feature-container">
+						<span>Mobile Friendly</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="feature-container">
+						<span>Responsive Design</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="feature-container">
+						<span>Securely Encrypted</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="feature-container">
+						<span>Search Engine Optimized</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
+				<li>
+					<div class="feature-container">
+						<span>Accessible to Everyone</span>
+						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+					</div>
+				</li>
 			</ul>
 		</section>
 
-		<div>
-			<p>I stand behind all the work that I do. If something is not to your satisfaction, I will continue to work with you until it's right.</p>
-			<!-- perhaps show satisfaction guaranteed stamp -->
-			<p>Please <a href="">Contact Me</a> for free assessment and see how I can help you get where you are going.</p>
-		</div>
+		<blockquote cite="">
+			I stand behind all the work that I do. If something is not to your satisfaction, I will continue to work with you until it's right.
+		</blockquote>
+
+		<!-- perhaps show satisfaction guaranteed stamp -->
+		<p>Please <a href="/contact.php">Contact Me</a> for free assessment and see how I can help you get where you are going.</p>
 
 		<!-- service features -->
 			<!-- <div class="service-features" id="website-development"> -->
