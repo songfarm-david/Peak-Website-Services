@@ -11,20 +11,32 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<!-- service -->
 		<section class="service" id="maintenance">
-			<h2 class="at-only"><?php echo $h2; ?></h2>
+			<h2><?php echo $h2; ?></h2>
+			<p class="service-title">Take the load off having an online presence</p>
+			<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected, I'm available to help you with any technical questions you have, and I provide you with a report each month on the health and activity of your website. You can think of it like having your own IT guy.</p>
+			<p>All Maintenance Plans Include:</p>
+			<ul>
+				<li>Safe, Secure Hosting</li>
+				<li>A Personal Webmaster</li>
+				<li>Content Updates Included</li>
+				<li>Unlimited Tech Support</li>
+				<li>Monthly Website Reports</li>
+				<li>No Contracts</li>
+			</ul>
+			<p><a href="#">Register today</a> for this limited service.</p>
 
-			<div class="service-intro container">
-					<span>Take the load off having an online presence.</span>
-					<p>
-						Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
-					</p>
-				</div>
+			<!-- <div class="service-intro container">
+				<span>Take the load off having an online presence.</span>
+				<p>
+					Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
+				</p>
+			</div> -->
 
 			<!-- service features -->
 			<section class="service-features container-alt" id="website-maintenance-plan">
 				<h3 class="at-only">Website Maintenance Plan</h3>
 				<!-- features list -->
-				<ul class="feature-list">
+				<!-- <ul class="feature-list">
 					<li>
 						<div class="feature-container">
 							<img src="../../_assets/svg-icons/maint-icons/web-hosting.svg" alt="" />
@@ -73,7 +85,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						&nbsp;
 					</li>
-				</ul>
+				</ul> -->
 			</section><!--/ end of service features -->
 			<!-- service cta -->
 

@@ -11,20 +11,31 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<!-- service -->
 		<section class="service" id="optimization">
-			<h2 class="at-only"><?php echo $h2; ?></h2>
+			<h2><?php echo $h2; ?></h2>
+			<p class="service-title">Your website should work <em>for</em> you</p>
+			<p>Having a website is one thing but attracting the right audience is another. I have the tools and knowledge to give you the edge.</p>
+			<p>Website Optimization Includes:</p>
+			<ul>
+				<li>Personal Keyword Strategy</li>
+				<li>Competitive Research</li>
+				<li>Local SEO</li>
+				<li>Google Analytics</li>
+				<li>Monthly Visibility Report</li>
+			</ul>
+			<p><a href="#">Register today</a> for this limited service.</p>
 
-			<div class="service-intro container">
+			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
 				<p>
 					We are a strong proponent of the <em>'work smarter not harder'</em> philosophy and make it easy for you to make smarter decisions by knowing what's important to your customers and what's going on with your website.
 				</p>
-			</div>
+			</div> -->
 
 			<!-- service features -->
-			<section class="service-features container-alt" id="website-optimization-plan">
+			<section class="service-features" id="website-optimization-plan">
 				<h3 class="at-only">Website Optimization Plan</h3>
 				<!-- features list -->
-				<ul class="feature-list">
+				<!-- <ul class="feature-list">
 					<li>
 						<div class="feature-container">
 							<img src="../../_assets/svg-icons/optimize-icons/keyword-strategy.svg" alt="" />
@@ -73,7 +84,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<li>
 						&nbsp;
 					</li>
-				</ul>
+				</ul> -->
 			</section><!--/ end of service features -->
 
 		</section>

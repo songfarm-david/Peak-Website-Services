@@ -62,7 +62,8 @@
 		}
 
 		?>
-		<!-- <link rel="stylesheet" href="_css/main.css" media="screen" title="Main Style Sheet"> -->
+		<!-- NOTE: temp style declaration -->
+		<link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet">
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>

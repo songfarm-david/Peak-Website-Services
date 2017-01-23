@@ -8,22 +8,28 @@ $activePage = basename($_SERVER['PHP_SELF']);
 <?php require_once('../_includes/header.php') ?>
 
 	<main>
-
+		<?php //echo $activePage; ?>
 		<!-- service -->
 		<section class="service" id="development">
-			<h2 class="at-only"><?php echo $h2; ?></h2>
+			<h2><?php echo $h2; ?></h2>
+			<p class="service-title">I make it easy to have a great website</p>
+			<p>Whether you want to build on to your existing site or want something altogether new, I make it easy to have what you want.</p>
+			<p>All our websites are:</p>
+			<ul>
+				<li>Designed to Convert</li>
+				<li>Responsive Design</li>
+				<li>Mobile Friendly</li>
+				<li>Securely Encryption</li>
+				<li>Search Engine Optimized</li>
+				<li>Accessible Website</li>
+			</ul>
 
-			<div class="service-intro container">
-				<span>Let us build you a beautiful, modern website that <em>works</em>.</span>
-				<p>
-					We strive, first, to understand your particular needs, then deliver to you an industry up-to-date, mobile-responsive, accessible, and beautifully designed website that is unique to your brand and vision.
-				</p>
-			</div>
+			<p><a href="">Contact Me</a> to learn more and get a free website assessment.</p>
 
 			<!-- service features -->
-			<div class="service-features container-alt" id="website-development">
+			<!-- <div class="service-features" id="website-development"> -->
 				<!-- features list -->
-				<ul class="feature-list">
+				<!-- <ul class="feature-list">
 					<li>
 						<div class="feature-container">
 							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
@@ -69,16 +75,16 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							We believe that the web should be available to everyone. We take steps to ensure the website we build are accessible to <a href="https://www.w3.org/WAI/intro/aria" target="_blank">Assistive Technologies</a>.
 						</p>
 					</li>
-					<li>
-
-					</li>
-				</ul><!--/ end of features list -->
-			</div><!--/ end of service features -->
+					<li></li>
+				</ul> -->
+				<!--/ end of features list -->
+			<!-- </div> -->
+			<!--/ end of service features -->
 
 		</section><!--/ end of service -->
 
-			<!-- cta -->
-			<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
+		<!-- cta -->
+		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
 	</main>
 
