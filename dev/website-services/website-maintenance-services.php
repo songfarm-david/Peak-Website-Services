@@ -13,17 +13,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="service" id="maintenance">
 			<h2><?php echo $h2; ?></h2>
 			<p class="service-title">Take the load off having an online presence</p>
-			<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected, I'm available to help you with any technical questions you have, and I provide you with a report each month on the health and activity of your website. You can think of it like having your own IT guy.</p>
-			<p>All Maintenance Plans Include:</p>
+			<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected.</p>
+			<p>I'm available to help you with any technical questions you have, and I provide you with a report each month on the health and activity of your website. You can think of it like having your own IT guy.</p>
+			<p class="lead">Website Maintenance Services Include:</p>
 			<ul>
-				<li>Safe, Secure Hosting</li>
-				<li>A Personal Webmaster</li>
-				<li>Content Updates Included</li>
+				<li>Content Updates</li>
 				<li>Unlimited Tech Support</li>
 				<li>Monthly Website Reports</li>
-				<li>No Contracts</li>
+				<li>Safe, Secure Hosting</li>
+				<li>Webmaster Administration</li>
+				<li>Domain Name Registration</li>
+				<li>Domain Migration</li>
+				<li>WordPress Plugins and Updates</li>
 			</ul>
-			<p><a href="#">Register today</a> for this limited service.</p>
+			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
 
 			<!-- <div class="service-intro container">
 				<span>Take the load off having an online presence.</span>
@@ -33,8 +36,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div> -->
 
 			<!-- service features -->
-			<section class="service-features container-alt" id="website-maintenance-plan">
-				<h3 class="at-only">Website Maintenance Plan</h3>
+			<!-- <section class="service-features container-alt" id="website-maintenance-plan"> -->
+				<!-- <h3 class="at-only">Website Maintenance Plan</h3> -->
 				<!-- features list -->
 				<!-- <ul class="feature-list">
 					<li>
@@ -86,13 +89,14 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						&nbsp;
 					</li>
 				</ul> -->
-			</section><!--/ end of service features -->
+			<!-- </section> -->
+			<!--/ end of service features -->
 			<!-- service cta -->
 
-		</section><!--/ end of service -->
+		</section><!--/ end of section.service -->
 
 		<!-- cta -->
-		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
+		<?php //include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
 	</main>
 

@@ -13,16 +13,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="service" id="optimization">
 			<h2><?php echo $h2; ?></h2>
 			<p class="service-title">Your website should work <em>for</em> you</p>
-			<p>Having a website is one thing but attracting the right audience is another. I have the tools and knowledge to give you the edge.</p>
-			<p>Website Optimization Includes:</p>
+			<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website.</p>
+			<p class="lead">Website Optimization Services Include:</p>
 			<ul>
-				<li>Personal Keyword Strategy</li>
-				<li>Competitive Research</li>
+				<li>Dynamic Keyword Strategy</li>
+				<li>Competitive Insights</li>
 				<li>Local SEO</li>
-				<li>Google Analytics</li>
-				<li>Monthly Visibility Report</li>
+				<li>Website Analytics</li>
+				<li>Monthly SEO Report</li>
+				<li>and much more..</li>
 			</ul>
-			<p><a href="#">Register today</a> for this limited service.</p>
+			<p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p>
 
 			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
@@ -32,8 +33,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div> -->
 
 			<!-- service features -->
-			<section class="service-features" id="website-optimization-plan">
-				<h3 class="at-only">Website Optimization Plan</h3>
+			<!-- <section class="service-features" id="website-optimization-plan"> -->
+				<!-- <h3 class="at-only">Website Optimization Plan</h3> -->
 				<!-- features list -->
 				<!-- <ul class="feature-list">
 					<li>
@@ -85,12 +86,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						&nbsp;
 					</li>
 				</ul> -->
-			</section><!--/ end of service features -->
+			<!-- </section> -->
+			<!--/ end of service features -->
 
 		</section>
 
 		<!-- cta -->
-		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
+		<?php //include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
 	</main>
 

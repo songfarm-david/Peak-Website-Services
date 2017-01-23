@@ -12,21 +12,44 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="service" id="development">
 			<h2><?php echo $h2; ?></h2>
-			<p class="service-title">I make it easy to have a great website</p>
-			<p>Whether you want to build on to your existing site or want something altogether new, I make it easy to have what you want.</p>
-			<p>All our websites are:</p>
+			<p class="service-title">I make it easy to have what you want</p>
+			<p>Whether you would like to add something onto your existing website or would like something new altogether, let me help you to get the right result.</p>
+			<p class="lead">Here are some of the things I can help you with:</p>
+			<ul>
+				<li>HTML5 Websites</li>
+				<li>WordPress Setup and Management</li>
+				<li>Content Management Systems</li>
+				<li>Social Media Integration</li>
+				<li>Blogs</li>
+				<li>eCommerce</li>
+				<li>Mailing Lists</li>
+				<li>Registration Forms</li>
+			</ul>
+		</section><!--/ end of service -->
+
+			<!-- design services -->
+			<!-- <h3>Design Services</h3>
+			<p>I can help you with a logo or corporate branding as well.</p> -->
+
+		<section class="features">
+			<h3>All our websites are:</h3>
 			<ul>
 				<li>Designed to Convert</li>
-				<li>Responsive Design</li>
 				<li>Mobile Friendly</li>
-				<li>Securely Encryption</li>
+				<li>Responsive Design</li>
+				<li>Securely Encrypted</li>
 				<li>Search Engine Optimized</li>
-				<li>Accessible Website</li>
+				<li>Accessible to Everyone</li>
 			</ul>
+		</section>
 
-			<p><a href="">Contact Me</a> to learn more and get a free website assessment.</p>
+		<div>
+			<p>I stand behind all the work that I do. If something is not to your satisfaction, I will continue to work with you until it's right.</p>
+			<!-- perhaps show satisfaction guaranteed stamp -->
+			<p>Please <a href="">Contact Me</a> for free assessment and see how I can help you get where you are going.</p>
+		</div>
 
-			<!-- service features -->
+		<!-- service features -->
 			<!-- <div class="service-features" id="website-development"> -->
 				<!-- features list -->
 				<!-- <ul class="feature-list">
@@ -80,11 +103,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!--/ end of features list -->
 			<!-- </div> -->
 			<!--/ end of service features -->
-
-		</section><!--/ end of service -->
-
 		<!-- cta -->
-		<?php include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
+		<?php //include('../_includes/theme/banner.php'); ?><!--/ end of cta -->
 
 	</main>
 
