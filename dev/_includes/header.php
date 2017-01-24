@@ -8,7 +8,6 @@
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
 		<!-- WebFontLoader -->
-		<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet"> -->
 		<script type="text/javascript">
 		var WebFontConfig = {
 			google: {
@@ -29,8 +28,7 @@
 		$css;
 
 		// IF IS INDEX PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
 			// load critical css.
 			$css = fopen("_css/index.css",'r');
 			echo '<style>';
@@ -40,8 +38,7 @@
 		}
 
 		// IF IS CONTACT PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/contact.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
 			// load critical css.
 			$css = fopen("_css/contact.css",'r');
 			echo '<style>';
@@ -51,8 +48,7 @@
 		}
 
 		// IF Service PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/website-services/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
 			// load critical css.
 			$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
 			echo '<style>';
@@ -61,9 +57,21 @@
 			fclose($css);
 		}
 
+		// IF Service PAGE
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
+			// load critical css.
+			$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
+			echo '<style>';
+			echo fread($css,filesize("../_css/service-pages.css")); // path is relative to /website-services/index.php
+			echo '</style>';
+			fclose($css);
+		}
+
 		?>
 		<!-- NOTE: temp style declaration -->
-		<link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet">
+		<!-- <link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet"> -->
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>
