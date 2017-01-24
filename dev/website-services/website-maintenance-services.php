@@ -10,12 +10,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 
 		<!-- service -->
-		<section class="service" id="maintenance">
-			<h2><?php echo $h2; ?></h2>
-			<p class="service-title">Take the load off having an online presence</p>
-			<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected.</p>
-			<p>I'm available to help you with any technical questions you have, and I provide you with a report each month on the health and activity of your website. You can think of it like having your own IT guy.</p>
-			<p class="lead">Website Maintenance Services Include:</p>
+		<section class="bg-image" id="maintenance">
+			<div class="service">
+				<h2 class="hide"><?php echo $h2; ?></h2>
+				<p class="service-title">Take the load off having an online presence</p>
+				<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected. If you need something changed, I'm there.</p>
+				<p>I'm available to help you with any technical questions you may have, and I provide you with a report each month on the health and activity of your website. <em>You can think of it like having your own IT guy.</em></p>
+			</div>
+		</section><!--/ end of section -->
+
+		<section class="service-types">
+			<h3>Website Maintenance Services Include:</h3>
 			<ul>
 				<li>Content Updates</li>
 				<li>Unlimited Tech Support</li>
@@ -27,7 +32,9 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>WordPress Plugins and Updates</li>
 			</ul>
 			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
+		</section>
 
+		<p>If you want someone to handle the technical administration of your website than <a href="/contact.php">Contact Me Today</a> to learn how I can give you one less thing to worry about.</p>
 			<!-- <div class="service-intro container">
 				<span>Take the load off having an online presence.</span>
 				<p>
@@ -93,7 +100,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!--/ end of service features -->
 			<!-- service cta -->
 
-		</section><!--/ end of section.service -->
 
 		<!-- cta -->
 		<?php //include('../_includes/theme/banner.php'); ?><!--/ end of cta -->

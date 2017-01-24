@@ -10,20 +10,28 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 
 		<!-- service -->
-		<section class="service" id="optimization">
-			<h2><?php echo $h2; ?></h2>
-			<p class="service-title">Your website should work <em>for</em> you</p>
-			<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website.</p>
-			<p class="lead">Website Optimization Services Include:</p>
+		<section class="bg-image" id="optimization">
+			<div class="service">
+				<h2 class="hide"><?php echo $h2; ?></h2>
+				<p class="service-title">Your website should work <em>for</em> you</p>
+				<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website.</p>
+			</div>
+		</section>
+
+		<section class="service-types">
+			<h3>Website Optimization Services Include:</h3>
 			<ul>
-				<li>Dynamic Keyword Strategy</li>
+				<li>Technical SEO</li>
+				<li>Personal Keyword Strategy</li>
 				<li>Competitive Insights</li>
 				<li>Local SEO</li>
 				<li>Website Analytics</li>
 				<li>Monthly SEO Report</li>
-				<li>and much more..</li>
 			</ul>
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
+		</section>
+
+		<p><a href="/contact.php">Contact Me Today</a> and let's chat about your Search Engine Optimization goals.</p>
 
 			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
@@ -89,7 +97,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- </section> -->
 			<!--/ end of service features -->
 
-		</section>
 
 		<!-- cta -->
 		<?php //include('../_includes/theme/banner.php'); ?><!--/ end of cta -->

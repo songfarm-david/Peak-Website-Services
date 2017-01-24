@@ -10,11 +10,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main>
 		<?php //echo $activePage; ?>
 		<!-- service -->
-		<section class="service" id="development">
-			<h2><?php echo $h2; ?></h2>
-			<p class="service-title">I make it easy to have what you want</p>
-			<p>Whether you would like to add something onto your existing website or would like something new altogether, let me help you to get the right result.</p>
-			<p class="lead">Here are some of the things I can help you with:</p>
+		<section class="bg-image" id="development">
+			<div class="service">
+				<h2 class="hide"><?php echo $h2; ?></h2>
+				<p class="service-title">I make it easy to have what you want</p>
+				<p>Whether you want to give your existing website a face-lift or want a brand new website, I will guide you in making the right decisions for your online business.</p>
+				<!-- <p>I work with a variety of different customers and will guide you, in terms you can understand, towards getting what you need online.</p> -->
+			</div>
+		</section><!--/ end of service -->
+
+		<section class="service-types">
+			<h3>Here are some of the things I can help you with:</h3>
 			<ul>
 				<li>HTML5 Websites</li>
 				<li>WordPress Setup and Management</li>
@@ -25,60 +31,68 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Mailing Lists</li>
 				<li>Registration Forms</li>
 			</ul>
-		</section><!--/ end of service -->
+		</section>
 
 			<!-- design services -->
 			<!-- <h3>Design Services</h3>
 			<p>I can help you with a logo or corporate branding as well.</p> -->
 
-		<section class="features">
-			<h3>All our websites are:</h3>
-			<ul>
-				<li>
-					<div class="feature-container">
-						<span>Designed to Convert</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-				<li>
-					<div class="feature-container">
-						<span>Mobile Friendly</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-				<li>
-					<div class="feature-container">
-						<span>Responsive Design</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-				<li>
-					<div class="feature-container">
-						<span>Securely Encrypted</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-				<li>
-					<div class="feature-container">
-						<span>Search Engine Optimized</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-				<li>
-					<div class="feature-container">
-						<span>Accessible to Everyone</span>
-						<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
-					</div>
-				</li>
-			</ul>
-		</section>
+		<!-- <section class="features">
+			<div class="">
+				<h3>All my websites are:</h3>
+				<ul>
+					<li>
+						<div class="feature-container">
+							<span>Mobile Friendly</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Designed to Convert</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Look Good on All Devices</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Responsive Design</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Securely Encrypted</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Search Engine Optimized</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="feature-container">
+							<span>Accessible to Everyone</span>
+							<img src="../../_assets/svg-icons/dev-icons/built-strong.svg" alt="" />
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section> -->
 
-		<blockquote cite="">
+		<!-- <blockquote cite="">
 			I stand behind all the work that I do. If something is not to your satisfaction, I will continue to work with you until it's right.
-		</blockquote>
+		</blockquote> -->
 
 		<!-- perhaps show satisfaction guaranteed stamp -->
-		<p>Please <a href="/contact.php">Contact Me</a> for free assessment and see how I can help you get where you are going.</p>
+		<p><a href="/contact.php">Contact Me Today</a> to talk about your website development goals and a free quote.</p>
 
 		<!-- service features -->
 			<!-- <div class="service-features" id="website-development"> -->
