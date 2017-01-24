@@ -36,6 +36,7 @@ module.exports = function(grunt) {
 					'prod/_css/index.css' : 'dev/_less/index.less',
 					'prod/_css/contact.css' : 'dev/_less/contact.less',
 					'prod/_css/service-index.css' : 'dev/_less/service-index.less',
+					'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
 				}
 			}
 		},
@@ -128,7 +129,8 @@ module.exports = function(grunt) {
           mozjpeg: true
         },
         files: {
-          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg'
+          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
+					// '_assets/fallbacks/backgrounds/' : '_assets/fallbacks/backgrounds/*.png'
         },
       },
 		},
@@ -156,17 +158,7 @@ module.exports = function(grunt) {
 					to: '/process-form.php'
 				}]
 			},
-			header: {
-				src: 'dev/_includes/header.php',
-				dest: 'prod/_includes/header.php',
-				replacements: [{
-					from: '/peak/dev/index.php',
-					to: '/index.php'
-				}, {
-					from: '/peak/dev/contact.php',
-					to: '/contact.php'
-				}]
-			}
+
 		}
 	}); // initConfig
 
@@ -175,7 +167,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:header','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
