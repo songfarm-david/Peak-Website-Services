@@ -1,9 +1,8 @@
-<!doctype html><html lang="en-us" class="no-js"><head><meta charset="utf-8"><title><?php echo $title; ?></title><meta name="description" content="<?php echo $description; ?>"><meta name="viewport" content="width=device-width,initial-scale=1"> <?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?> <script>!function(e){e.className=e.className.replace(/\bno-js\b/,"js")}(document.documentElement)</script><script type="text/javascript">var WebFontConfig={google:{families:["Raleway:300,400,700,900"]},timeout:2e3};!function(){var t=document.createElement("script");t.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",t.async="true",document.head.appendChild(t)}()</script> <?php
+<!doctype html><html lang="en" class="no-js"><head><meta charset="utf-8"><title><?php echo $title; ?></title><meta name="description" content="<?php echo $description; ?>"><meta name="viewport" content="width=device-width,initial-scale=1"> <?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?> <script>!function(e){e.className=e.className.replace(/\bno-js\b/,"js")}(document.documentElement)</script><script type="text/javascript">var WebFontConfig={google:{families:["Raleway:300,400,700,900"]},timeout:2e3};!function(){var t=document.createElement("script");t.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",t.async="true",document.head.appendChild(t)}()</script> <?php
 		$css;
 
 		// IF IS INDEX PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
 			// load critical css.
 			$css = fopen("_css/index.css",'r');
 			echo '<style>';
@@ -13,8 +12,7 @@
 		}
 
 		// IF IS CONTACT PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/contact.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
 			// load critical css.
 			$css = fopen("_css/contact.css",'r');
 			echo '<style>';
@@ -24,12 +22,23 @@
 		}
 
 		// IF Service PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/prod/website-services/index.php') {
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
 			// load critical css.
-			$css = fopen("../_css/services.css",'r'); //
+			$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
 			echo '<style>';
-			echo fread($css,filesize("../_css/services.css"));
+			echo fread($css,filesize("../_css/service-index.css")); // path is relative to /website-services/index.php
+			echo '</style>';
+			fclose($css);
+		}
+
+		// IF Service PAGE
+		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
+				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
+			// load critical css.
+			$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
+			echo '<style>';
+			echo fread($css,filesize("../_css/service-pages.css")); // path is relative to /website-services/index.php
 			echo '</style>';
 			fclose($css);
 		}

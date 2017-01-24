@@ -23,11 +23,17 @@ var contactForm = document.getElementById("contact-form"), redirectUrl = "https:
 
 $(contactForm).submit(function(event) {
     event.preventDefault(), grecaptcha.reset(), grecaptcha.execute();
-}), function($) {
-    var height;
-    $("a#page-1-cta").on("click", function() {
-        height = $(window).height(), $("html, body").animate({
-            scrollTop: height + "px"
-        }, 1100);
-    });
-}(jQuery);
+});
+
+var hashTagActive = "";
+
+$(".scroll-link").on("click touchstart", function(event) {
+    if (hashTagActive != this.hash) {
+        event.preventDefault();
+        var dest = 0;
+        dest = $(this.hash).offset().top > $(document).height() - $(window).height() ? $(document).height() - $(window).height() : $(this.hash).offset().top, 
+        $("html,body").animate({
+            scrollTop: dest
+        }, 1100, "swing"), hashTagActive = this.hash;
+    }
+});
