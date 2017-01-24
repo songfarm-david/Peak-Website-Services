@@ -23,10 +23,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<ul>
 				<li>Technical SEO</li>
 				<li>Personal Keyword Strategy</li>
-				<li>Competitive Insights</li>
+				<li>Competitive Research</li>
 				<li>Local SEO</li>
 				<li>Website Analytics</li>
 				<li>Monthly SEO Report</li>
+				<li>Optimized Content Building</li>
 			</ul>
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 		</section>

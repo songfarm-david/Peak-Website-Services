@@ -92,7 +92,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</blockquote> -->
 
 		<!-- perhaps show satisfaction guaranteed stamp -->
-		<p><a href="/contact.php">Contact Me Today</a> to talk about your website development goals and a free quote.</p>
+		<p><a href="/contact.php">Contact Me Today</a> to talk about your website development goals and get a free quote.</p>
 
 		<!-- service features -->
 			<!-- <div class="service-features" id="website-development"> -->

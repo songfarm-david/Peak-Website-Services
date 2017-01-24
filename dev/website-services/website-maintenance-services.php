@@ -34,7 +34,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
 		</section>
 
-		<p>If you want someone to handle the technical administration of your website than <a href="/contact.php">Contact Me Today</a> to learn how I can give you one less thing to worry about.</p>
+		<p>Let me help you take hold of your website. <a href="/contact.php">Contact Me Today</a> to learn more.</p>
 			<!-- <div class="service-intro container">
 				<span>Take the load off having an online presence.</span>
 				<p>
