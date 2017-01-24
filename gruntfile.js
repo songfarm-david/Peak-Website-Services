@@ -121,24 +121,17 @@ module.exports = function(grunt) {
 	      }
 	    }
 	  },
-		image: {
+		imagemin: {
       static: {
-        options: {
-          jpegRecompress: false,
-          jpegoptim: true,
-          mozjpeg: true
-        },
         files: {
-          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
-					// '_assets/fallbacks/backgrounds/' : '_assets/fallbacks/backgrounds/*.png'
-        },
-      },
+          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg'
+        }
+      }
 		},
 		replace : {
 			build : {
 				src: ['dev/_includes/header.php','dev/_includes/footer.php'],
 				dest: 'prod/_includes/',
-				// '../process-form.php' => '/process-form.php'
 				replacements: [{
 					from: '/peak/dev',
 					to: ''
@@ -167,7 +160,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:contactform','uglify','htmlmin:prod','imagemin','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
