@@ -24,7 +24,7 @@
 	<!-- modernizr-custom -->
 	<script type="text/javascript" src="../build/modernizr-custom.js" async defer></script>
 	<!-- custom scripts -->
-	<!-- <script type="text/javascript" src="/peak/development/_js/helper/bs-collapse.js"></script> -->
+	<script type="text/javascript" src="/peak/dev/_js/helper/bs-collapse.js"></script>
 	<script type="text/javascript" src="/peak/dev/_js/script.js" async defer></script>
 
 

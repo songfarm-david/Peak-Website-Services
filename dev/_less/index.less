@@ -15,6 +15,7 @@
 	background-image: url(_images/air-triangulated.jpg);
 	background-position: center 0%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: auto;
 	min-height: 26.666em;
 	.base(padding,top,2);
@@ -66,7 +67,7 @@
 		display: block;
 		width: 88%;
 		max-width: 13.75em;
-		margin: 9em auto 0;
+		margin: 4em auto 0;
 		text-align: center;
 		text-transform: capitalize;
 		letter-spacing: 1px;
@@ -137,9 +138,7 @@
 			.font-size(6);
 		}
 	}
-	@media (min-height: 57.125em) {
-		height: 100vh;
-	}
+
 	@media (min-width: 98.4375em) {
 		padding-top: 10em;
 		div.callout {
@@ -151,6 +150,10 @@
 		a {
 			width: 30%;
 		}
+	}
+	@media (min-height: 57.125em) {
+		height: 100vh;
+
 	}
 }
 

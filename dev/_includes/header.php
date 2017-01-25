@@ -27,53 +27,53 @@
 		<?php
 		$css;
 
-		// IF IS INDEX PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
-			// load critical css.
-			$css = fopen("_css/index.css",'r');
-			echo '<style>';
-			echo fread($css,filesize("_css/index.css"));
-			echo '</style>';
-			fclose($css);
-		}
+			// IF IS INDEX PAGE
+			if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
+				// load critical css.
+				$css = fopen("_css/index.css",'r');
+				echo '<style>';
+				echo fread($css,filesize("_css/index.css"));
+				echo '</style>';
+				fclose($css);
+			}
 
-		// IF IS CONTACT PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
-			// load critical css.
-			$css = fopen("_css/contact.css",'r');
-			echo '<style>';
-			echo fread($css,filesize("_css/contact.css"));
-			echo '</style>';
-			fclose($css);
-		}
+			// IF IS CONTACT PAGE
+			if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
+				// load critical css.
+				$css = fopen("_css/contact.css",'r');
+				echo '<style>';
+				echo fread($css,filesize("_css/contact.css"));
+				echo '</style>';
+				fclose($css);
+			}
 
-		// IF Service PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
-			// load critical css.
-			$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
-			echo '<style>';
-			echo fread($css,filesize("../_css/service-index.css")); // path is relative to /website-services/index.php
-			echo '</style>';
-			fclose($css);
-		}
+			// IF Service PAGE
+			if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
+				// load critical css.
+				$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
+				echo '<style>';
+				echo fread($css,filesize("../_css/service-index.css")); // path is relative to /website-services/index.php
+				echo '</style>';
+				fclose($css);
+			}
 
-		// IF Service PAGE
-		if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
-				$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
-			// load critical css.
-			$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
-			echo '<style>';
-			echo fread($css,filesize("../_css/service-pages.css")); // path is relative to /website-services/index.php
-			echo '</style>';
-			fclose($css);
-		}
-
+			// IF Service PAGE
+			if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
+					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
+					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
+				// load critical css.
+				$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
+				echo '<style>';
+				echo fread($css,filesize("../_css/service-pages.css")); // path is relative to /website-services/index.php
+				echo '</style>';
+				fclose($css);
+			}
 		?>
 		<!-- NOTE: temp style declaration -->
 		<!-- <link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet"> -->
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+		<!-- <link rel="stylesheet" href="_/css/master.css"> -->
 	</head>
 	<body>
 		<!--[if lte IE 9]>

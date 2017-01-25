@@ -2,17 +2,13 @@
 * THEME DEFAULTS
 */
 
-
 /* import theme specific styles */
+@import 'nav';
 @import 'typography';
 @import 'animations';
 @import 'helper';
 @import 'colors';
 
-/* Test styles */
-#primary-nav {
-	display: none;
-}
 footer #copyright {
 	text-align: center;
 	width: 100%;
@@ -47,7 +43,6 @@ h5,
 .h5,
 h6,
 .h6 {
-	// font: @second-font;
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	text-transform: capitalize;
 }
@@ -96,7 +91,7 @@ a {
 	}
 	&.active-link {
 		color: @link-hover;
-		// .nav-active();
+		.nav-active();
 	}
 }
 span {
@@ -113,14 +108,12 @@ label,	input,	button	{
 		display:	block;
 		width:	100%;
 }
+
 // .lead {
 // 	text-transform: uppercase;
 // 	font-size: @1-rem * @second-modular;
 // 	line-height: @second-modular;
 // 	letter-spacing: 1px;
-// }
-// small {
-// 	font-size: 80%;
 // }
 
 /* lists */
@@ -149,7 +142,6 @@ li {
 	line-height: @line-height;
 	margin-bottom: @1-rem/@second-modular;
 }
-
 blockquote {
 	font-style: italic;
 	font-size: 100% * @first-modular;
@@ -166,27 +158,7 @@ blockquote {
 // 	.base(margin,top,@first-modular);
 // 	text-transform: capitalize;
 // }
-// .nav-active {
-// 	background-color: rgba(255, 250, 242, 0.3);
-// 	&::after {
-// 		content: "";
-// 		position: absolute;
-// 		margin-left: auto;
-// 		margin-right: auto;
-// 		left: 0;
-// 		right: 0;
-// 		width: 100%;
-// 		bottom: -1.618%;
-// 		height: 5px;
-// 		color: @link-hover;
-// 		background-color: @link-hover;
-// 	}
-// 	@media (@sm-query) {
-// 		&::after {
-// 			width: 97%;
-// 		}
-// 	}
-// }
+
 // .fixed-nav {
 // 	background-color: fadeout(#fff,20%);
 // 	height: 73px;
@@ -215,3 +187,17 @@ blockquote {
 // .nav-visible {
 // 	&:extend(.fixed-nav all);
 // }
+
+header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	// .border(blue);
+	// &::after {
+	// 	.clear-float;
+	// }
+	// @media (min-width: 48em) {
+	// 	position: fixed;
+	// }
+}
