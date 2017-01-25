@@ -1,0 +1,38 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 568 170">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_177);
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_240);
+      }
+
+      .cls-4 {
+        fill: url(#Gradiente_sem_nome_240-2);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_177" data-name="Gradiente sem nome 177" x1="548.45" y1="34.09" x2="435.95" y2="100.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#501a66"/>
+      <stop offset="0.41" stop-color="#3e174c"/>
+      <stop offset="0.94" stop-color="#200127"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_240" data-name="Gradiente sem nome 240" x1="531.16" y1="5.77" x2="397.67" y2="163.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#ad4493"/>
+      <stop offset="1" stop-color="#5a147a"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_240-2" x1="28.43" y1="23.17" x2="74.5" y2="23.17" xlink:href="#Gradiente_sem_nome_240"/>
+  </defs>
+  <title>Prancheta 1</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <polygon id="_Path_" data-name="&lt;Path&gt;" class="cls-1" points="530.4 0 356.5 22.7 74.5 2.3 28.4 27.6 28.4 27.6 0 83.5 57.2 156.6 392.3 140 568 114 530.4 0"/>
+    <polygon id="_Path_2" data-name="&lt;Path&gt;" class="cls-2" points="530.4 0 428.1 13.3 479.2 140 568 114 530.4 0"/>
+    <polygon id="_Path_3" data-name="&lt;Path&gt;" class="cls-3" points="428.1 13.3 488.7 170 518.7 54 428.1 13.3"/>
+    <polygon id="_Path_4" data-name="&lt;Path&gt;" class="cls-4" points="28.4 27.6 68.2 44 74.5 2.3 28.4 27.6"/>
+  </g>
+</svg>
