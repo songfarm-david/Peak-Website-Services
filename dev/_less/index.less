@@ -161,7 +161,10 @@
 	color: @hero-color;
 	background-color: white;
 	background-color: #e6f4fb;
-	background-image: svg-gradient(to bottom, lighten(#e6f4fb,5%) 10%, #e6f4fb);
+	background-image: svg-gradient(ellipse at center, #e6f4fb 70%, darken(#e6f4fb,30%));
+	// background-image: url(../dev/_images/WebMix.svg);
+	background-image: url(../dev/_images/low-polys.svg);
+	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -202,6 +205,12 @@
 		margin-bottom: 0;
 		margin-top: 1.5em;
 		padding-bottom: 0;
+		background-image: url(../dev/_images/blue-ball.svg);
+		background-repeat: no-repeat;
+		display: block;
+		overflow: visible;
+		height: 10em;
+		width: 10em;
 	}
 	p>a {
 		text-transform: capitalize;
@@ -233,7 +242,6 @@
 			transform: translateX(-50%);
 		}
 	}
-
 	// desktops
 	@media (min-width: 30em) {
 		padding-left: 1em;
