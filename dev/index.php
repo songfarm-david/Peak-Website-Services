@@ -21,13 +21,18 @@ $canonical = "https://peakwebsites.ca/";
 
 		<!-- Page two -->
 		<section id="complicated-web">
-			<h2>Today's Web Is <em>Hard</em></h2>
+			<h2>Today's Web Is <em>Complicated</em></h2>
 		 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it works across devices, is quick and easy to use, and makes a great first impression on potential customers can be a full time job!</p>
-		 	<p id="special">
-				<!-- <b>That's where <em>I</em> come in.</b> -->
-			</p>
-		 	<p>I specialize in providing <a href="/website-services/">peak&nbsp;website&nbsp;services</a> to busy business owners who don't want to worry about the code.</p>
-		 	<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with me?</a>
+			<div>
+				<p id="special">
+					<!-- <b>That's where <em>I</em> come in.</b> -->
+					<!-- NOTE: encode words into svg image -->
+				</p>
+			 	<p>I provide everything you need for your online business: development, management, optimization. All in one place and with personal access to me.</p>
+				<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with me?</a>
+
+			</div>
+
 		</section><!--/ end Page two -->
 
 		<!-- Floating Section -->
