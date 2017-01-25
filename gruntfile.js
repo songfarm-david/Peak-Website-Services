@@ -137,7 +137,7 @@ module.exports = function(grunt) {
 		},
 		replace : {
 			build : {
-				src: ['dev/_includes/header.php','dev/_includes/footer.php'],
+				src: ['dev/_includes/header.php','dev/_includes/footer.php', 'dev/_includes/navigation.php'],
 				dest: 'prod/_includes/',
 				// '../process-form.php' => '/process-form.php'
 				replacements: [{
@@ -159,17 +159,17 @@ module.exports = function(grunt) {
 					to: '/process-form.php'
 				}]
 			},
-			header: {
-				src: 'dev/_includes/header.php',
-				dest: 'prod/_includes/header.php',
-				replacements: [{
-					from: '/peak/dev/index.php',
-					to: '/index.php'
-				}, {
-					from: '/peak/dev/contact.php',
-					to: '/contact.php'
-				}]
-			}
+			// header: {
+			// 	src: 'dev/_includes/header.php',
+			// 	dest: 'prod/_includes/header.php',
+			// 	replacements: [{
+			// 		from: '/peak/dev/index.php',
+			// 		to: '/index.php'
+			// 	}, {
+			// 		from: '/peak/dev/contact.php',
+			// 		to: '/contact.php'
+			// 	}]
+			// }
 		}
 	}); // initConfig
 
@@ -178,7 +178,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
 
 	// Prod
-	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:header','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
+	grunt.registerTask('prod',['modernizr','concat:prod','replace:build','replace:contactform','replace:contactform','uglify','htmlmin:prod','image','less:prod','postcss:prod'])
 	// grunt.registerTask('reload',['reload','watch']);
 
 }; // wrapper function
