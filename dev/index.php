@@ -16,7 +16,7 @@ $canonical = "https://peakwebsites.ca/";
 				<h1 class="">Put Your Business On&nbsp;<span>Top</span></h1>
 				<p>Everything you need to compete in today's online world.</p>
 			</div>
-			<a href="#complicated-web" class="scroll-link"></a>
+			<a href="#complicated-web" id="down-arrow" class="scroll-link"></a>
 		</section><!--/ end of Landing Page -->
 
 		<!-- Page two -->

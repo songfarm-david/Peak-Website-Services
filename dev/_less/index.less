@@ -10,7 +10,7 @@
 @import 'theme/theme.less';
 
 #business-top {
-	position: static;
+	position: relative;
 	background-color: @background-color;
 	background-image: url(_images/air-triangulated.jpg);
 	background-position: center 0%;
@@ -21,18 +21,6 @@
 	text-align: center;
 	.base(padding,top,2);
 	padding-bottom: 2em*@first-modular;
-	@media (max-height: 36.88em) {
-		height: 480px;
-		height: 100vh;
-		position: relative;
-		a.callout-link {
-			position: absolute;
-			bottom: @1-rem;
-			left: 0;
-			right: 0;
-			margin: auto;
-		}
-	}
 	div.callout {
 		padding-left: .75em;
 		padding-right: .75em;
@@ -64,43 +52,62 @@
 		display: none;
 		color: darken(@hero-color,10%);
 	}
-	// a {
-	// 	display: inline-block;
-	// 	// width: 88%;
-	// 	max-width: 13.75em;
-	// 	width: auto !important;
-	// 	margin: 1.5em auto 0;
-	// 	// text-align: center;
-	// 	text-transform: capitalize;
-	// 	letter-spacing: 1px;
-	// 	.font-size(1);
-	// 	font-weight: bold;
-	// 	color: darken(@sea-green,15%);
-	// 	background-color: fadeout(#fff,50%);
-	// 	text-transform: uppercase;
-	// 	padding: @1-rem/@first-modular @1-rem;
-	// 	text-decoration: none;
-	// 	border-radius: 2px;
-	// 	box-shadow: 0px 1px 5px 0px darken(@sea-green,20%);
-	// 	@media (min-width: 31.875em) {
-	// 		width: 15em;
-	// 	}
-	// 	&:hover,
-	// 	&:active {
-	// 		background-color: fadeout(@sea-green,5%);
-	// 		box-shadow: none;
-	// 		color: white;
-	// 	}
-	// }
 	a {
+		display: inline-block;
+		// width: 88%;
+		max-width: 13.75em;
+		width: auto;
+		margin: 1.5em auto 0;
+		// text-align: center;
+		text-transform: capitalize;
+		letter-spacing: 1px;
+		.font-size(1);
+		font-weight: bold;
+		color: darken(@sea-green,15%);
+		background-color: fadeout(#fff,50%);
+		text-transform: uppercase;
+		padding: @1-rem/@first-modular @1-rem;
+		text-decoration: none;
+		border-radius: 2px;
+		box-shadow: 0px 1px 5px 0px darken(@sea-green,20%);
+		@media (min-width: 31.875em) {
+			width: 15em;
+		}
+		&:hover,
+		&:active {
+			background-color: fadeout(@sea-green,5%);
+			box-shadow: none;
+			color: white;
+		}
+	}
+	a#down-arrow {
+		position: absolute;
+		bottom: 2rem;
+		left: 0;
+		right: 0;
+		margin: auto;
 		background-image: url(../dev/_images/icons/down-arrow.svg);
 		background-repeat: no-repeat;
-		height: 5rem;
-		width: 5rem;
-		display: inline-block;
-
+		background-color: transparent;
+		box-shadow: none;
+		height: 4rem;
+		width: 4rem;
+		display: none;
+		animation: bounce 1.2s infinite alternate both;
+		&:hover {
+			cursor: pointer;
+		}
 	}
-
+	@media (max-height: 40.88em) {
+		height: 480px;
+		height: 100vh;
+		position: relative;
+		a#down-arrow {
+			display: inline-block;
+			height: 3rem;
+			width: 3rem;
+		}
+	}
 	// first major layout difference
 	@media (min-width: 44.75em) {
 		background-size: cover;
@@ -119,10 +126,13 @@
 			.font-size(1.75);
 		}
 		a {
-			position: static;
-			margin-top: 1rem*@first-modular;
-			margin-left: 0;
+			// position: static;
+			// margin-top: 1rem*@first-modular;
+			// margin-left: 0;
 			// width: 75%;
+		}
+		a#down-arrow {
+			display: inline-block;
 		}
 	}
 	@media (min-width: 56.555em) {
@@ -138,12 +148,13 @@
 			width: 56%;
 		}
 		a {
-			.font-size(1.75);
-			margin-top: 1rem;
-			// width: 40%;
-			color: darken(@sea-green,10%);
-			background-color: fadeout(#fff,90%);
+			// .font-size(1.75);
+			// margin-top: 1rem;
+			// // width: 40%;
+			// color: darken(@sea-green,10%);
+			// background-color: fadeout(#fff,90%);
 		}
+
 	}
 	@media (min-width: 84.444em) and (min-height: 57.125em) {
 		background-size: cover;
@@ -159,7 +170,6 @@
 
 		}
 	}
-
 	@media (min-width: 98.4375em) {
 		padding-top: 10em;
 		div.callout {
@@ -171,8 +181,12 @@
 		a {
 			// width: 30%;
 		}
+		a#down-arrow {
+			height: 4.5rem;
+			width: 4.5rem;
+		}
 	}
-	@media (min-height: 57.125em) {
+	@media (min-height: 48em) {
 		height: 100vh;
 
 	}
@@ -384,7 +398,7 @@
 	color: @hero-color;
 	background-color: white;
 	text-align: center;
-	padding: 8rem 1em 10rem;
+	padding: 1rem*@first-modular 1em 10rem;
 	margin: 0 auto;
 	.icon-badges {
 		// .border;
@@ -422,24 +436,40 @@
 	}
 	a {
 		&:extend(#business-top a all);
-		margin-top: 2em*@first-modular;
+		display: block;
+		margin-top: 4rem*@first-modular;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: darken(@hero-color,10%);
+		background-color: @sea-green;
 		color: white;
 		box-shadow: none;
+		width: 90%;
+		max-width: 30rem;
+		&:hover {
+			background-color: lighten(@sea-green,10%);
+		}
 	}
 	@media (min-width: 30em) {
+		// max-width: 40rem;
+		padding-left: 1.5rem*@first-modular;
+		padding-right: 1.5rem*@first-modular;
 		p {
 			.font-size(1.25);
 		}
 	}
 	@media (min-width: 44.75em) {
+		padding-top: 3.5rem;
 		h3 {
 			.font-size(2.25);
 		}
 		p {
 			.font-size(1.5);
+			width: 50%;
+			// max-width: 40rem;
+		}
+		a {
+			.font-size(1.25);
+			margin-top: 6rem*@first-modular;
 		}
 	}
 	@media (min-width: 80.25em) {
@@ -461,8 +491,13 @@
 			margin-top: 0;
 			min-height: 8rem;
 		}
+		p {
+			width: 100%;
+		}
 		a {
-			max-width: 10rem;
+			max-width: 36rem;
+			margin-top: 2rem;
+			.font-size(1.75);
 		}
 	}
 	@media (min-width: 77em) {
@@ -484,13 +519,16 @@
 		}
 	}
 	@media (min-width: 94.5em) {
-		max-width: calc(70.375em + 14);
-		top: -8em;
+		// width: 90%;
+		max-width: calc(78.375em + 14);
+		position: static;
+		margin-top: 8em;
+		margin-bottom: 8em;
 		bottom: 0;
 		padding-left: 3em;
 		padding-right: 3em;
 		padding-bottom: 4em;
-		padding-top: 4em;
+		padding-top: 4.5rem;
 		min-height: 34em;
 		#columns {
 			column-gap: 1.5em;
@@ -500,7 +538,8 @@
 		}
 		a {
 			max-width: none;
-			width: 25%;
+			.font-size(1.5);
+			width: 35%;
 		}
 	}
 }
