@@ -14,9 +14,9 @@ $canonical = "https://peakwebsites.ca/";
 			<img class="at-only" src="/" alt="The peak of a large, snow-covered mountain on a crisp and cloudy day" />
 			<div class="container callout fadeInUp">
 				<h1 class="">Put Your Business On&nbsp;<span>Top</span></h1>
-				<p>Get everything you need to compete in today's online world.</p>
-				<a href="#complicated-web" class="scroll-link" title="Learn How">Learn How</a>
+				<p>Everything you need to compete in today's online world.</p>
 			</div>
+			<a href="#complicated-web" class="scroll-link"></a>
 		</section><!--/ end of Landing Page -->
 
 		<!-- Page two -->
@@ -39,16 +39,20 @@ $canonical = "https://peakwebsites.ca/";
 		<section id="work-with-us">
 			<div id="columns" class="">
 				<div>
-					<h3>Industry Expertise</h3>
-					<p>Websites are what I do and part of that is keeping up with the ever-changing world of the web. When you work with me, you can relax and focus on the more important things.</p>
-				</div>
-				<div>
 					<h3>Commitment to Quality</h3>
+					<div id="quality" class="icon-badges"></div>
 					<p>I don't settle for <em>"just okay"</em>. I go above and beyond the call to provide you with the kind of service you can feel good about. <em>I chose the name Peak Websites for a reason!</em></p>
 				</div>
 				<div>
+					<h3>Industry Expertise</h3>
+					<div id="expertise" class="icon-badges"></div>
+					<p>Websites are what I do and part of that is keeping up with the ever-changing world of the web. When you work with me, you can relax and focus on the more important things.</p>
+				</div>
+
+				<div>
 					<h3>Satisfaction Guaranteed</h3>
-					<p>I want to make the web a better place, and that starts with being the kind of business you feel good working with. I stand behind everything I do and will go the extra mile to make sure you're satisfied. Guaranteed.</p>
+					<div id="satisfaction" class="icon-badges"></div>
+					<p>I want to make the web a better place, and that starts with being a better business. I stand behind everything I do and will go the extra mile to make sure you're satisfied. Guaranteed.</p>
 				</div>
 			</div>
 			<a href="contact.php" title="contact form">Elevate Your Online Business Today</a>
