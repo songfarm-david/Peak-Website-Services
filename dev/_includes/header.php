@@ -68,6 +68,16 @@
 				echo '</style>';
 				fclose($css);
 			}
+
+			// IF Service PAGE
+			if ($_SERVER['PHP_SELF'] == '/peak/dev/portfolio/index.php') {
+				// load critical css.
+				$css = fopen("../_css/portfolio.css",'r'); // path is relative to /website-services/index.php
+				echo '<style>';
+				echo fread($css,filesize("../_css/portfolio.css")); // path is relative to /website-services/index.php
+				echo '</style>';
+				fclose($css);
+			}
 		?>
 		<!-- NOTE: temp style declaration -->
 		<!-- <link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet"> -->
