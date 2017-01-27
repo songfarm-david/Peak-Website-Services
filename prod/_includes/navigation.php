@@ -15,7 +15,7 @@
 				<a href="/about.php" class="<?php //echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a>
 			</li> -->
 			<li class="dropdown-btn">
-				<a href="/website-services/" data-target="#sub-menu-1" data-toggle="collapse">Website Services</a>
+				<a href="/website-services/" data-target="#sub-menu-1" data-toggle="collapse">Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
 						<li><a href="/website-services/website-development-services.php">Development</a></li>
@@ -23,6 +23,9 @@
 						<li><a href="/website-services/website-optimization-services.php">Optimization</a></li>
 					</ul>
 				</div>
+			</li>
+			<li>
+				<a href="/portfolio/index.php" class="<?php //echo $class = ($activePage == "/portfolio/index.php") ? "active-link" : ""; ?>">Portfolio</a>
 			</li>
 			<li>
 				<a href="/contact.php" class="<?php echo $class = ($activePage == "/contact.php") ? "active-link" : ""; ?>">Contact</a>
