@@ -31,7 +31,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<div id="luna" class="image-port"></div>
 					</div>
 					<div class="col col-6">
-						<div id="" class="image-port"></div>
+						<div id="hollis" class="image-port"></div>
 					</div>
 				</div>
 
