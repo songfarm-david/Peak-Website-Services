@@ -14,24 +14,33 @@ main {
 	background-size: cover;
 	#portfolio {
 		padding: 2.5rem*@first-modular 0.5rem;
-		// .border(5px, red);
-		max-width: 130rem;
+		max-width: 100rem;
 		margin-left: auto;
 		margin-right: auto;
-		h2 {
+		h1 {
+			color: darken(@hero-color, 15%);
+			font-weight: 700;
+			.font-size(3);
+		}
+		p {
+			margin-bottom: 2rem;
+		}
+		iframe {
+			display: none;
+		}
+		h1, p {
 			margin-left: 1.618%;
 		}
 		.image-port {
-			height: 25em;
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: top left;
 			box-shadow: 1px 1px 3px 0px #333;
+			height: 100%;
 		}
 		.col {
-			// .border(3px ,green);
 			margin-bottom: 2rem;
-
+			height: 15em;
 		}
 		#cirs {
 			background-image: url(../_images/portfolio/cirs-mid.png);
@@ -44,28 +53,36 @@ main {
 		}
 		#hollis {
 			background-image: url(../_images/portfolio/hollis.png);
-
 		}
 		@media (min-width: 26.25em) {
 			margin-bottom: 2.5rem;
-			.image-port {
-				min-height: 35rem;
+			.col {
+				height: 35rem;
 			}
 		}
 		@media (min-width: 42.5em) {
 			margin-bottom: 3.5rem;
 			.image-port {
-				min-height: 42rem;
-				height: auto;
-					// background-position: top center;
+				height: 100%;
+			}
+			.col {
+				height: 42.5rem;
+			}
+			h1 {
+				.font-size(3.5);
+			}
+			p {
+				.font-size(1.25);
 			}
 		}
-		@media (min-width: 100em) {
+		@media (min-width: @grid-breakpoint) {
 			margin-bottom: 3.5rem;
-			.image-port {
-				min-height: 42rem;
-				height: auto;
-					background-position: top center;
+			h1 {
+				.font-size(4);
+			}
+			#luna {
+				background-image: url(../_images/portfolio/luna-mid.png);
+				background-position: top center;
 			}
 		}
 	}
