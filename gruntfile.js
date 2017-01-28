@@ -108,7 +108,7 @@ module.exports = function(grunt) {
 			},
 			dev : {
 				files : {
-					'prod/_includes/navigation.php' : 'dev/_includes/navigation.php'
+					'prod/_includes/header.php' : 'dev/_includes/header.php'
 				}
 			}
 		},
@@ -123,23 +123,33 @@ module.exports = function(grunt) {
 	      }
 	    }
 	  },
-		image: {
-      static: {
-				options: {
-          pngquant: true,
-          optipng: false,
-          zopflipng: true,
-          jpegRecompress: true,
-          jpegoptim: true,
-          mozjpeg: true,
-          gifsicle: true,
-          svgo: true
-        },
-        files: {
-          'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
-					'prod/_images/blue-ball.svg' : 'dev/_images/blue-ball.svg',
-        },
-      },
+		// image: {
+    //   static: {
+		// 		options: {
+    //       pngquant: true,
+    //       optipng: false,
+    //       zopflipng: true,
+    //       jpegRecompress: true,
+    //       jpegoptim: true,
+    //       mozjpeg: true,
+    //       gifsicle: true,
+    //       svgo: true
+    //     },
+    //     files: {
+    //       'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
+		// 			'prod/_images/blue-ball.svg' : 'dev/_images/blue-ball.svg',
+		// 			'prod/_images/' : 'dev/_images/branding/peak-website-cover.jpg'
+    //     },
+    //   },
+		// },
+		imagemin: {
+			static: {
+				files: {
+					// 'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
+					// 'prod/_images/blue-ball.svg' : 'dev/_images/blue-ball.svg',
+					// 'prod/_images/peak-website-cover.jpg' : 'dev/_images/peak-website-cover.jpg'
+				}
+			},
 		},
 		// pngmin is not a default task
 		pngmin: {
@@ -204,7 +214,7 @@ module.exports = function(grunt) {
 		'concat:prod',
 		'less:prod',
 		'postcss:prod',
-		'image',
+		// 'image',
 		'uglify',
 		'htmlmin:prod',
 		'replace',
