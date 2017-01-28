@@ -1,1 +1,3 @@
-User-agent: * Allow: /
+User-agent: *
+Disallow: /cirs/
+Disallow: /hollis-wealth/
