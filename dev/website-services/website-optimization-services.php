@@ -14,7 +14,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">Your website should work <em>for</em> you</p>
-				<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website.</p>
+				<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website so you can improve the impact of your online success.</p>
+				<p>Depending on what's important to you and your business, I will create a strategy that will increase your visibility in Search Engines.</p>
 			</div>
 		</section>
 
