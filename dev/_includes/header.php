@@ -79,8 +79,9 @@
 				fclose($css);
 			}
 		?>
-		<!-- NOTE: temp style declaration -->
-		<!-- <link rel="stylesheet" href="../_css/service-pages.css" media="screen" title="Main Style Sheet"> -->
+
+		<link rel="image_src" href="_images/branding/peak-website-cover.jpg">
+
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 		<!-- <link rel="stylesheet" href="_/css/master.css"> -->
