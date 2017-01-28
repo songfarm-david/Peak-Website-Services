@@ -36,4 +36,16 @@ $(".scroll-link").on("click touchstart", function(event) {
             scrollTop: dest
         }, 1100, "swing"), hashTagActive = this.hash;
     }
-});
+}), function($) {
+    function scrollSpy(window_top_pos, threshold) {
+        var threshold = 800;
+        window_top_pos > threshold ? $(header).addClass("fixed-nav") : $(header).removeClass("fixed-nav");
+    }
+    var header = $("body >header"), ticking = !1;
+    window.addEventListener("scroll", function(e) {
+        var windowScrollTop = $(window).scrollTop();
+        ticking || window.requestAnimationFrame(function() {
+            scrollSpy(windowScrollTop), ticking = !1;
+        }), ticking = !0;
+    });
+}(jQuery);
