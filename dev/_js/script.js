@@ -119,42 +119,42 @@ $(".scroll-link").on("click touchstart" , function (event) {
 /**
 * Scrollspy
 */
-// (function ($) {
-//
-// 	var header = $("body >header"),
-// 			threshold,
-// 			ticking = false;
-//
-// 	function scrollSpy(window_top_pos, threshold) {
-// 		var threshold = 800;
-// 		if (window_top_pos > threshold) {
-// 			$(header).addClass("fixed-nav");
-// 		} else {
-// 			$(header).removeClass("fixed-nav");
-// 		}
-// 	}
-// 	window.addEventListener('scroll', function(e) {
-// 		var windowScrollTop = $(window).scrollTop();
-// 	  if (!ticking) {
-// 	    window.requestAnimationFrame(function() {
-// 	      scrollSpy(windowScrollTop);
-// 	      ticking = false;
-// 	    });
-// 	  }
-// 	  ticking = true;
-// 		var height = $("#landing-page").height();
-// 		if (windowScrollTop > (height / 2)) {
-// 			if (Modernizr.cssanimations) {
-// 				$("#about #about-intro").addClass('fadeInUp');
-// 				$("#key-list").addClass('fadeInRight');
-// 				var timer = setTimeout(function(){
-// 					$("#about-cta").addClass('fadeInUp');
-// 				}, 2000);
-// 			}
-// 		}
-// 	});
-//
-// })(jQuery);
+(function ($) {
+
+	var header = $("body >header"),
+			threshold,
+			ticking = false;
+
+	function scrollSpy(window_top_pos, threshold) {
+		var threshold = 800;
+		if (window_top_pos > threshold) {
+			$(header).addClass("fixed-nav");
+		} else {
+			$(header).removeClass("fixed-nav");
+		}
+	}
+	window.addEventListener('scroll', function(e) {
+		var windowScrollTop = $(window).scrollTop();
+	  if (!ticking) {
+	    window.requestAnimationFrame(function() {
+	      scrollSpy(windowScrollTop);
+	      ticking = false;
+	    });
+	  }
+	  ticking = true;
+		// var height = $("#landing-page").height();
+		// if (windowScrollTop > (height / 2)) {
+		// 	if (Modernizr.cssanimations) {
+		// 		$("#about #about-intro").addClass('fadeInUp');
+		// 		$("#key-list").addClass('fadeInRight');
+		// 		var timer = setTimeout(function(){
+		// 			$("#about-cta").addClass('fadeInUp');
+		// 		}, 2000);
+		// 	}
+		// }
+	});
+
+})(jQuery);
 
 
 
