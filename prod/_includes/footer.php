@@ -42,7 +42,7 @@
 	</script>
 
 	<!-- NOTE: for Grunt Live Reload Server -->
-	<script src="//localhost:35729/livereload.js"></script>
+	
 
 </body>
 

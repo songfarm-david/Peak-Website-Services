@@ -37,8 +37,8 @@ module.exports = function(grunt) {
 					'prod/_css/index.css' : 'dev/_less/index.less',
 					'prod/_css/contact.css' : 'dev/_less/contact.less',
 					'prod/_css/service-index.css' : 'dev/_less/service-index.less',
-					'prod/_css/service-pages.css' : 'dev/_less/service-pages.less'
-
+					'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
+					'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
 				}
 			}
 		},
@@ -141,11 +141,25 @@ module.exports = function(grunt) {
         },
       },
 		},
+		// pngmin is not a default task
+		pngmin: {
+			compile: {
+				options: {
+					ext: '.png',
+					force: 'true'
+				},
+				files: [
+					{
+						src: 'dev/_images/portfolio/*.png',
+						dest: 'prod/_images/portfolio'
+					}
+				]
+			}
+		},
 		replace : {
 			build : {
 				src: ['dev/_includes/header.php','dev/_includes/footer.php', 'dev/_includes/navigation.php'],
 				dest: 'prod/_includes/',
-				// '../process-form.php' => '/process-form.php'
 				replacements: [{
 					from: '/peak/dev',
 					to: ''
@@ -155,6 +169,10 @@ module.exports = function(grunt) {
 				}, {
 					from: '../build',
 					to: '/build'
+				}, {
+					// remove live reload text
+					from: '<script src="//localhost:35729/livereload.js"></script>',
+					to: ''
 				}]
 			},
 			contactform: {
