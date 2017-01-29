@@ -48,4 +48,10 @@ $(".scroll-link").on("click touchstart", function(event) {
             scrollSpy(windowScrollTop), ticking = !1;
         }), ticking = !0;
     });
-}(jQuery);
+}(jQuery), $(window).scroll(function() {
+    var winTop = $(window).scrollTop(), el = $("#special"), pos = $(el).offset().top;
+    console.log(el, winTop), pos < winTop + 600 && $(el).addClass("rotate"), $(".service-quality").each(function() {
+        var pos = $(this).offset().top, winTop = $(window).scrollTop();
+        pos < winTop + 800 && $(this).addClass("fadeInUp");
+    });
+});

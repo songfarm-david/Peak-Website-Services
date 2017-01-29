@@ -81,16 +81,13 @@
 		?>
 
 		<link rel="image_src" href="_images/branding/peak-website-cover.jpg">
-
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
-		<!-- <link rel="stylesheet" href="_/css/master.css"> -->
 	</head>
 	<body>
 		<!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-<?php //echo $_SERVER['PHP_SELF'] ?>
 		<header>
 			<h1 class="hide"><?php echo $h1; ?></h1>
 			<?php include_once('navigation.php') ?>
