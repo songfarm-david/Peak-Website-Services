@@ -195,7 +195,7 @@ module.exports = function(grunt) {
 			},
 			images: {
 				src: 'dev/_less/index.less',
-				dest: 'dev/_less/index.less',
+				dest: 'prod/_less/index.less',
 				replacements: [{
 					from: '../dev',
 					to: ''
