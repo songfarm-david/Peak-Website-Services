@@ -23,6 +23,18 @@ footer {
 	}
 }
 
+/* transform effect: grow on hover */
+
+.growOnHover {
+	transition: all .25s ease-in-out;
+	&:hover {
+		cursor: pointer;
+		transform: scale(1.05);
+		transform-origin: center;
+		box-shadow: 1px 1px 15px 3px #555;
+	}
+}
+
 // .inline-icon-font {
 // 	font-family: FontAwesome; // change this accordingly
 // 	color: inherit;
@@ -42,9 +54,6 @@ footer {
 // 	opacity: @opacity;
 // 	background-color: @bg-color;
 // }
-// animation classes
-
-
 
 /* Debugging Tool */
 .border (@color: red, @width: 2px) {
@@ -75,32 +84,6 @@ footer {
   overflow: visible;
   clip: auto;
 }
-
-/* animation classes */
-.fadeInUp {
-	animation: fadeInUp 1.8s .23s ease-out forwards;
-	animation-fill-mode: both;
-}
-.fadeIn {
-	animation: fadeIn 1s .1s ease-out;
-	animation-fill-mode: both;
-
-}
-// .fadeInRight {
-// 	animation: fadeInRight 1.8s 1.2s ease-out both;
-// }
-// .grow {
-// 	animation: grow .75s backwards;
-// }
-// .grow-left {
-// 	animation-delay: 0s;
-// }
-// .grow-center {
-// 	animation-delay: .1s;
-// }
-// .grow-right {
-// 	animation-delay: .2s;
-// }
 
 .clear-float {
   content: '';

@@ -32,7 +32,6 @@ main#website-services {
 	color: #487F98;
 	padding-bottom: 2rem;
 	height: auto;
-	// overflow: visible;
 	section {
 		>h1 {
 			margin: 0 auto 1em;
@@ -63,7 +62,8 @@ main#website-services {
 				margin: 0 auto;
 				margin-bottom: 2rem;
 				box-shadow: 1px 1px 4px 1px #337592;
-				transition: all .25s ease-in-out;
+				// see helper.less for growOnHover
+				.growOnHover();
 				h3 {
 					padding-top: 1rem;
 					padding-bottom: 1rem;
@@ -91,13 +91,6 @@ main#website-services {
 					margin: calc(1rem*1.618) auto 0;
 					padding: 1em;
 				}
-				// on hover, grow boxes
-				&:hover {
-					cursor: pointer;
-					transform: scale(1.05);
-					transform-origin: center;
-					box-shadow: 1px 1px 15px 3px #555;
-				}
 			}
 		}
 	}
@@ -114,7 +107,7 @@ main#website-services {
 					p {
 						.font-size(1.25);
 					}
-					a {
+					button {
 						.font-size(1.5);
 						margin-bottom: 1rem;
 					}
@@ -135,7 +128,7 @@ main#website-services {
 					p {
 						.font-size(1.5);
 					}
-					a {
+					button {
 						.font-size(1.75);
 					}
 				}
@@ -155,7 +148,7 @@ main#website-services {
 					p {
 						.font-size(1.75);
 					}
-					a {
+					button {
 						.font-size(2);
 					}
 				}
@@ -178,7 +171,7 @@ main#website-services {
 					p {
 						.font-size(2);
 					}
-					a {
+					button {
 						.font-size(2.25);
 					}
 				}
@@ -199,7 +192,7 @@ main#website-services {
 					p {
 						.font-size(1.85);
 					}
-					a {
+					button {
 						.font-size(2.25);
 					}
 				}
@@ -213,10 +206,13 @@ main#website-services {
 /* particular background colors for each service section */
 #service-display section[data-id="service-development"] {
 	background-color: #fbfffb;
+	.grow-1();
 }
 #service-display section[data-id="service-maintenance"] {
 	background-color: #f2fdff;
+	.grow-2();
 }
 #service-display section[data-id="service-optimization"] {
 	background-color: #fbf8ff;
+	.grow-3();
 }
