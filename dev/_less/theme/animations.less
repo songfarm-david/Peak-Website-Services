@@ -2,6 +2,19 @@
 * Animation Styles
 *	- generally a list of CSS animations that can be applied
 */
+@keyframes rollIn {
+	0% {
+		transform: translateX(-100%) rotateZ(180deg) ;
+		opacity: .25;
+	}
+	100% {
+		transform: translateX(0) rotateZ(0deg) ;
+		opacity: 1;
+	}
+}
+.rollIn {
+	animation: rollIn 1.25s;
+}
 
 @keyframes fadeIn {
 	0% {
@@ -21,6 +34,14 @@
 		opacity: 1;
 	}
 }
+.fadeInUp {
+	animation: fadeInUp 1.8s .23s ease-out forwards;
+	animation-fill-mode: both;
+}
+.fadeIn {
+	animation: fadeIn 1s .1s ease-out;
+	animation-fill-mode: both;
+}
 // @keyframes fadeInRight {
 // 	0% {
 // 		transform: translateX(@1-rem * 3);
@@ -39,6 +60,7 @@
 		transform: translateY(-15%);
 	}
 }
+
 /* grows/bounces in */
 @keyframes grow {
 	0% {
@@ -53,6 +75,7 @@
 		opacity: 1;
 	}
 }
+
 /* attach classes to elements */
 .grow-1 {
 	animation: grow .75s backwards;
@@ -71,15 +94,7 @@
 }
 
 /* animation classes */
-.fadeInUp {
-	animation: fadeInUp 1.8s .23s ease-out forwards;
-	animation-fill-mode: both;
-}
-.fadeIn {
-	animation: fadeIn 1s .1s ease-out;
-	animation-fill-mode: both;
 
-}
 // .fadeInRight {
 // 	animation: fadeInRight 1.8s 1.2s ease-out both;
 // }

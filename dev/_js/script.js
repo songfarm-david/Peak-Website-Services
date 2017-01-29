@@ -7,7 +7,6 @@
 */
 var contactForm = document.getElementById("contact-form");
 var redirectUrl = "https://peakwebsites.ca/index.php";
-
 function submitForm() {
 	var xhttp = new XMLHttpRequest();
 	url = contactForm.action;
@@ -54,14 +53,12 @@ function submitForm() {
   };
   xhttp.send(data);
 }
-
 $( contactForm ).submit(function( event ) {
 	event.preventDefault();
 	// NOTE: comment out captcha functionality
 	grecaptcha.reset();
 	grecaptcha.execute();
 });
-
 function onSubmit(token) {
 	submitForm(contactForm);
 };
@@ -69,62 +66,32 @@ function onSubmit(token) {
 /**
 * Smooth Scrolling
 */
-// (function($) {
-// 	var height;
-// 	$("a.scroll-link").on("click", function() {
-// 		height = $(window).height();
-// 		$("html, body").animate({ scrollTop: height + "px" }, 1100);
-// 		return;
-// 	})
-//
-// })(jQuery);
-
 var hashTagActive = "";
 $(".scroll-link").on("click touchstart" , function (event) {
-		if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
-				event.preventDefault();
-				//calculate destination place
-				var dest = 0;
-				if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
-						dest = $(document).height() - $(window).height();
-				} else {
-						dest = $(this.hash).offset().top;
-				}
-				//go to destination
-				$('html,body').animate({
-						scrollTop: dest
-				}, 1100, 'swing');
-				hashTagActive = this.hash;
+	if(hashTagActive != this.hash) { //this will prevent if the user click several times the same link to freeze the scroll.
+		event.preventDefault();
+		//calculate destination place
+		var dest = 0;
+		if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+			dest = $(document).height() - $(window).height();
+		} else {
+			dest = $(this.hash).offset().top;
 		}
+		//go to destination
+		$('html,body').animate({
+			scrollTop: dest
+		}, 1100, 'swing');
+		hashTagActive = this.hash;
+	}
 });
 
-
-
-
-
-
-
-
-
-// (function ($) {
-//
-// 	var navbar = $("nav.navbar");
-//
-// 	$("nav button.navbar-toggle").on("click", function(){
-// 		$(navbar).toggleClass("nav-bg-color-active");
-// 	})
-//
-// })(jQuery);
-
 /**
-* Scrollspy
+* Add fixed-nav class to navigation bar
 */
 (function ($) {
-
 	var header = $("body >header"),
 			threshold,
 			ticking = false;
-
 	function scrollSpy(window_top_pos, threshold) {
 		var threshold = 800;
 		if (window_top_pos > threshold) {
@@ -153,10 +120,34 @@ $(".scroll-link").on("click touchstart" , function (event) {
 		// 	}
 		// }
 	});
-
 })(jQuery);
 
+$(window).scroll(function() {
+  var winTop = $(window).scrollTop();
+	var el = $("#special");
+	var pos = $(el).offset().top;
+	console.log(el, winTop);
+  if (pos < winTop + 600) {
+    $(el).addClass("rotate");
+  }
+  $(".service-quality").each(function(){
+    var pos = $(this).offset().top;
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 800) {
+      $(this).addClass("fadeInUp");
+    }
+  });
+});
 
+// (function ($) {
+//
+// 	var navbar = $("nav.navbar");
+//
+// 	$("nav button.navbar-toggle").on("click", function(){
+// 		$(navbar).toggleClass("nav-bg-color-active");
+// 	})
+//
+// })(jQuery);
 
 // (function($) {
 // 	//modernizr checks:
