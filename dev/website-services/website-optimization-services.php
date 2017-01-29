@@ -23,12 +23,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<h3>Website Optimization Services Include:</h3>
 			<ul>
 				<li>Technical SEO</li>
-				<li>Personal Keyword Strategy</li>
-				<li>Competitive Research</li>
+				<li>On-Going Keyword Strategy</li>
+				<li>Competitive Insights</li>
 				<li>Local SEO</li>
 				<li>Website Analytics</li>
 				<li>Monthly SEO Report</li>
 				<li>Optimized Content Building</li>
+				<li>Image Optimization</li>
 			</ul>
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 		</section>
