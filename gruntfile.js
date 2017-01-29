@@ -33,7 +33,6 @@ module.exports = function(grunt) {
 					banner : "/*******************/"
 				},
 				files : {
-					// 'prod/_css/main.css' : 'dev/_less/theme/compile.less',
 					'prod/_css/index.css' : 'dev/_less/index.less',
 					'prod/_css/contact.css' : 'dev/_less/contact.less',
 					'prod/_css/service-index.css' : 'dev/_less/service-index.less',
@@ -194,8 +193,8 @@ module.exports = function(grunt) {
 				}]
 			},
 			images: {
-				src: 'dev/_less/index.less',
-				dest: 'prod/_less/index.less',
+				src: 'prod/_css/index.css',
+				dest: 'prod/_css/index.css',
 				replacements: [{
 					from: '../dev',
 					to: ''
