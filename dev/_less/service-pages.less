@@ -88,28 +88,28 @@ main {
 		padding-right: 0.5em;
 	}
 	// section.features only appears on development-services
-	section.features {
-		.border;
-		h3 {
-			text-align: left;
-			.font-size(2.25);
-			font-weight: bold;
-			color: darken(@hero-color,20%);
-		}
-		ul {
-			padding-left: 0; // follows previous section padding
-			li>div {
-				// background-color: #ddd;
-				padding: 1rem;
-				span {
-					.font-size(2);
-				}
-				img {
-					// width: 100%;
-				}
-			}
-		}
-	}
+	// section.features {
+	// 	.border;
+	// 	h3 {
+	// 		text-align: left;
+	// 		.font-size(2.25);
+	// 		font-weight: bold;
+	// 		color: darken(@hero-color,20%);
+	// 	}
+	// 	ul {
+	// 		padding-left: 0; // follows previous section padding
+	// 		li>div {
+	// 			// background-color: #ddd;
+	// 			padding: 1rem;
+	// 			span {
+	// 				.font-size(2);
+	// 			}
+	// 			img {
+	// 				// width: 100%;
+	// 			}
+	// 		}
+	// 	}
+	// }
 	/* media queries start */
 	@media (min-width: 26.25em) {
 		section .service {
@@ -279,7 +279,6 @@ main {
 	}
 	@media (min-width: 80.25em) {
 		padding-bottom: 6em;
-
 		section.service-types,
 		section .service,
 		section.features>div {
@@ -326,6 +325,12 @@ main {
 			max-width: 65.75rem;
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		/* temporary */
+		section.section-temp {
+			.border;
+			&:extend(section.service-types);
 		}
 	}
 	@media (min-height: 56.25em) {

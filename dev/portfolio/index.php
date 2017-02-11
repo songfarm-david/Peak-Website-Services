@@ -1,6 +1,6 @@
 <?php
 $title = "Portfolio | Peak Website Services";
-$description = "Peak Websites builds and designs websites for the needs of our clients. Some examples include: Wordpress and HTML5 websites and custom-built websites, and more.";
+$description = "Peak Websites builds and designs websites for the needs of our clients. Some examples include: WordPress and HTML5 websites and custom-built websites, and more.";
 $h1 = "Portfolio";
 $h2 = "Recent Work";
 $activePage = basename($_SERVER['PHP_SELF']);

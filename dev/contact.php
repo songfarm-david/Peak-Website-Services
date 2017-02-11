@@ -13,6 +13,7 @@ $h1 = $title;
 	<main id="contact-main">
 
 		<h1 class="fadeIn">Got a question for me? Let's chat.</h1>
+		<p>Call (778) 587-9220 and let's see if we can't do better.</p>
 		<!-- <p>Website Management</p> -->
 		<!-- Web Service Questionnaire -->
 		<section class="fadeIn">

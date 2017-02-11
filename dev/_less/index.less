@@ -195,8 +195,6 @@
 #complicated-web {
 	color: @hero-color;
 	background-color: white;
-	// background-color: #e6f4fb;
-	// background-image: svg-gradient(ellipse at center, #e6f4fb 70%, darken(#e6f4fb,30%));
 	background-image: url(../dev/_images/low-polys.svg);
 	background-position: left top;
 	background-repeat: no-repeat;
@@ -244,12 +242,10 @@
 		width: 100%;
 		text-align: center;
 		height: 10em;
-		background-image: url(../dev/_images/blue-ball.svg);
+		background-image: url(../dev/_images/we-come.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
-
-
 	p>a {
 		text-transform: capitalize;
 		color: inherit;
@@ -278,6 +274,18 @@
 			bottom: -.5em;
 			left: 50%;
 			transform: translateX(-50%);
+		}
+	}
+	a.inline-link {
+		font-size: inherit !important;
+		display: inline;
+		position: static;
+		padding: 0;
+		margin: 0;
+		text-decoration: underline;
+		&::after {
+			content: "";
+			height: 0;
 		}
 	}
 	// desktops
@@ -408,13 +416,13 @@
 		margin: 1rem*@first-modular auto;
 	}
 	#expertise {
-		background-image: url(../dev/_images/icons/expertise.svg);
+		background-image: url(../dev/_images/icons/compass.svg);
 	}
 	#quality {
-		background-image: url(../dev/_images/icons/quality.svg);
+		background-image: url(../dev/_images/icons/flagpole.svg);
 	}
 	#satisfaction {
-		background-image: url(../dev/_images/icons/satisfaction.svg);
+		background-image: url(../dev/_images/icons/earth-whole.svg);
 		margin-top: 1rem;
 	}
 	#columns {

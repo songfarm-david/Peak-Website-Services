@@ -60,6 +60,8 @@
 			// IF Service PAGE
 			if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
 					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
+					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-hosting-services.php' ||
+					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/domain-name-registration.php' ||
 					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
 				// load critical css.
 				$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php

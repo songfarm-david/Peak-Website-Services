@@ -14,22 +14,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">Your website should work <em>for</em> you</p>
-				<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website so you can improve the impact of your online success.</p>
-				<p>Depending on what's important to you and your business, I will create a strategy that will increase your visibility in Search Engines.</p>
+				<p>Having a website is one thing but attracting the right audience to it is another. Let us put our knowledge and expertise to use for you in helping drive the right visitors to your website and optimizing your online success.</p>
+				<p>Through careful analysis of your market and competitors, we create a road map to optimizing your online visibility and deliver on that strategy. Each month, you will receive a Website Visibility Report showing you how your website is developing and also new activity. <a href="#">Search Engine Optimization</a> is not magic, but with the right team behind, can create profound results on your online business.</p>
 			</div>
 		</section>
 
 		<section class="service-types">
 			<h3>Website Optimization Services Include:</h3>
 			<ul>
-				<li>Technical SEO</li>
-				<li>On-Going Keyword Strategy</li>
-				<li>Competitive Insights</li>
-				<li>Local SEO</li>
+				<li>On-Page Optimization</li>
+				<li>Competitor Insights &amp; Analysis</li>
 				<li>Website Analytics</li>
-				<li>Monthly SEO Report</li>
-				<li>Optimized Content Building</li>
-				<li>Image Optimization</li>
+				<li>Targeted Keyword Research</li>
+				<li>Website Visibility Report</li>
+
 			</ul>
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 		</section>

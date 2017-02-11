@@ -18,9 +18,10 @@
 				<a href="/website-services/" data-target="#sub-menu-1" data-toggle="">Services</a>
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
-						<li><a href="/website-services/website-development-services.php">Development</a></li>
-						<li><a href="/website-services/website-maintenance-services.php">Maintenance</a></li>
-						<li><a href="/website-services/website-optimization-services.php">Optimization</a></li>
+						<li><a href="/website-services/website-development-services.php">Website Development</a></li>
+						<li><a href="/website-services/website-maintenance-services.php">Website Maintenance</a></li>
+						<li><a href="/website-services/website-hosting-services.php">Website Hosting</a></li>
+						<li><a href="/website-services/website-optimization-services.php">Search Optimization Optimization</a></li>
 					</ul>
 				</div>
 			</li>

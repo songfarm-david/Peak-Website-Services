@@ -9,9 +9,14 @@ $h2 = "";
 
 	<main>
 
-		<p class="h2">Begin the journey to online success with the right domain name.</p>
-		<p>A domain name is the cornerstone of your digital presence, so it's a good idea to take the time to educate yourself a little on <a href="#what-is-a-domain-name">what a domain name is</a>, <a href="#why-domain-important">why it's important</a>, and learn a <a href="#domain-name-tips">few tips</a> on choosing a good one.</p>
-		<p>If, by the end of this article, you still have questions or need help choosing or registering a domain name, feel free to <a href="#">contact us</a>. We would be happy to help you in selecting a great domain name for your online business and we can <a href="#register-a-domain">register your domain name</a>, too.</p>
+		<section class="bg-image" id="development">
+			<h1 class="hide"><?php echo $h1; ?></h1>
+			<div class="service">
+				<p class="service-title">Begin the journey to online success with the right domain name.</p>
+				<p>A domain name is the cornerstone of your digital presence, so it's a good idea to take the time to educate yourself a little on <a href="#what-is-a-domain-name">what a domain name is</a>, <a href="#why-domain-important">why it's important</a>, learn a <a href="#domain-name-tips">few tips</a> on choosing a good one, and how to go about <a href="#register-a-domain">registering a domain name</a></p>
+				<p>If, by the end of this article, you still have questions or need help choosing or registering a domain name, <a href="#">contact us</a>. We would be happy to help you in selecting a great domain name for your website.</p>
+			</div>
+		</section>
 
 		<h2 id="what-is-a-domain-name">What is a Domain Name?</h2>
 			<p>A domain name is your unique address on the web. When somebody refers you to their website, they will tell you the domain name of their website for you to visit. For example, the domain name of <em>this</em> website is <code>peakwebsites.ca</code> (sometimes you will see a &rdquo;www&ldquo; before the domain name. That is not part of a domain name, don't let that confuse you). Other examples of domain names are <code>google.ca</code> or <code>msn.com</code>. Anyone can register a domain name and usually, it is one of the first things you do when you decide you want to have a website.</p>
@@ -26,7 +31,7 @@ $h2 = "";
 			<!-- <p class="cta-link">Would you like to optimize your website for success? Learn more about <a href="/website-services/website-optimization-services.php">Website Optimization</a>.</p> -->
 
 		<h2 id="domain-name-tips">Tips on Choosing A Domain Name</h2>
-			<p>Before you decide on a domain name, here a few tips to consider:</p>
+			<p>Before you decide on a domain name, here are a few tips to consider:</p>
 			<ul>
 			<li><b>Memorable</b> &mdash; A strong domain name is one that is easy to remember and easy to say. If you can convey your business in a catchy, memorable way through a domain name, it'll go a long way in helping others reach your website as well as make it easier for you, the site owner, to refer people to your site. Don't choose a name that's overly long, complicated, or hard to remember!</li>
 			<li><b>Concise</b> &mdash; It is often in your best interests to choose a domain name that quickly tells the consumer what your website is all about, for an obvious (if rather bias) example, look at the name <code>peakwebsites.ca</code>. It is pretty clear right away what peakwebsites is all about, is it not? Websites! You don't need to re-invent the wheel. You want concise and memorable. If you are a local company, you may consider using local identifiers (such as the name of the city you operate in) in your domain name to help distinguish your unique domain and offer more information about the products/services you provide.</li>
@@ -52,6 +57,7 @@ $h2 = "";
 		<p>Once you have successfully registered a domain name, you now own it, but it isn't doing you much good unless you have a website to go along with it.</p>
 		<p><a href="/index.php">Peak Website Services</a> can build you a great website. Have a look at our <a href="/portfolio/">Portfolio</a> to see some past work, or learn about our <a href="">web design</a> and <a href="">custom website development</a> services.</p>
 
+		<!-- banner here -->
 		<h2>Contact Us</h2>
 		<a href="">PHONE</a>
 		<a href="">Contact Form</a>
