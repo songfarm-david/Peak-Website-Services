@@ -13,7 +13,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">We make it easy to have what you want</p>
-				<p>Whether you are creating your first website or want to improve your existing one, our professional expertise will provide you with the answers to your questions.</p>
+				<p>Whether you are creating your first website or want to improve your existing one, we can deliver to your a professional, beautiful website that suit you and the needs of your business.</p>
 			</div>
 		</section><!--/ end of service -->
 
@@ -32,7 +32,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<p>Have questions or want to find out pricing details? <a href="/contact.php">Get in touch with us</a> for a no-pressure chat about your website goals.</p>
 		</section>
 
-		<section class="section-temp">
+		<!-- NOTE: this section might be too fluffy -->
+		<!-- <section class="section-temp">
 			<h3>About Our Websites</h3>
 			<p>When we build a website, we have a few objectives we strive to meet:</p>
 			<ol>
@@ -43,14 +44,16 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<br>
 			<a href="/about.php">Learn more about Peak</a>
 			<a href="/portfolio/">See our Portfolio</a>
-		</section>
+		</section> -->
 
 		<section class="section-temp">
 			<h3></h3>
-			<p>Apart from building you a great website, we <a href="/website-services/website-hosting.php">host it for you</a> on our <a href="canadian-servers">secure Canadian servers</a> and connect you with a <a href="/website-services/domain-name-registration.php">great domain name</a>.</p>
+			<p>Apart from building you a great website, we can also <a href="/website-services/website-hosting.php">host it for you</a> on our <a href="canadian-servers">secure Canadian servers</a> and connect you with a <a href="/website-services/domain-name-registration.php">great domain name</a>.</p>
+			<a href="#">why are our canadian servers coo?</a>
 			<p>You're in good hands when you go with Peak.</p>
 			<br>
-			<p><a href="/website-services/website-hosting.php">Learn more about our Website Hosting</a>.</p>
+			<!-- NOTE: link to contact?? -->
+			<!-- <p><a href="/website-services/website-hosting.php">Learn more about our Website Hosting</a>.</p> -->
 		</section>
 
 	</main>
