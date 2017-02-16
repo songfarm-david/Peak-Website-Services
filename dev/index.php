@@ -23,13 +23,13 @@ $canonical = "https://peakwebsites.ca/";
 		<!-- Page two -->
 		<section id="complicated-web" class="fadeInUp">
 			<h2>Today's Web Is <em>Complicated</em></h2>
-		 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it looks good on all devices, is quick and easy to use, and servers your business and your customers &mdash; requires professional attention.</p>
+		 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it looks good on all devices, is quick and easy to use, and serves your business and your customers &mdash; requires professional attention.</p>
 			<div>
 				<p id="special" class="">
 					<!-- <b>That's where <em>I</em> come in.</b> -->
 					<!-- NOTE: encode words into svg image -->
 				</p>
-			 	<p>Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal support and attention you can count on.</p>
+			 	<p>Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, and <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal access to your own technical specialist. <em>It's kind of like having your own IT guy!</em></p>
 				<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with Peak Websites?</a>
 
 			</div>
@@ -40,22 +40,22 @@ $canonical = "https://peakwebsites.ca/";
 		<section id="work-with-us">
 			<div id="columns" class="">
 				<div class="service-quality">
-					<h3>Commitment to Quality</h3>
+					<h3>Reach Your Peak</h3>
 					<div id="quality" class="icon-badges"></div>
-					<p>Peak Websites doesn't settle for <em>"just okay"</em>. We go above and beyond the call to provide you with the kind of service you can rely on. <strong>We chose the name Peak Websites for a reason!</strong></p>
+					<p>We are committed to going above and beyond the call to provide you with the kind of service you can rely on. <em>We chose the name Peak Websites for a reason!</em></p>
 				</div>
 				<div class="service-quality">
-					<h3>Industry Expertise</h3>
+					<h3>Stay on Course</h3>
 					<div id="expertise" class="icon-badges"></div>
-					<p>Websites are what we do and part of that means keeping up with the ever-changing world of the web. When you work with us, you can relax and focus on the more important than your website.</p>
+					<p>Websites are what we do and part of that means keeping up with the ever-changing world of the web. When you work with us, you can relax and focus on running.</p>
 				</div>
 				<div class="service-quality">
-					<h3>Satisfaction Guaranteed</h3>
+					<h3>A Better Web</h3>
 					<div id="satisfaction" class="icon-badges"></div>
-					<p>We want to make the web a better place, and that starts with being a better business. Peak stands behind everything it does and will go the extra mile to make sure you're satisfied. Guaranteed!</p>
+					<p>We want to make the web a better place, and that starts with being a better business. We stand behind what we do and will go the extra mile to make sure you're satisfied. Guaranteed!</p>
 				</div>
 			</div>
-			<a href="contact.php" title="contact form">Elevate Your Online Business Today</a>
+			<a href="contact.php" title="contact form">Elevate Your Online Potential</a>
 		</section><!--/ end Floating Section -->
 
 	</main>
