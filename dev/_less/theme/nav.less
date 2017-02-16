@@ -93,6 +93,7 @@ nav {
 		right: 0;
 		display: flex;
 		width: auto;
+		// .border;
 		// margin-right: @1-rem / @first-modular;
 		.navbar-header {
 			display: none;
@@ -135,14 +136,15 @@ nav {
 					opacity: .25;
 					height: auto;
 					display: block;
-					width: auto !important;
+					width: auto;
 					top: 75px;
 					transition: opacity 100ms ease-in;
 					background-color: rgba(255, 255, 255, 0.25);
 					box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
 					li {
-						display: block;
+						display: inline-block;
 						white-space: nowrap;
+						// .border(green);
 						a {
 							padding: @1-rem/@first-modular @1-rem;
 							line-height: @line-height;
@@ -154,7 +156,7 @@ nav {
 					ul.dropdown-content {
 						left: 0;
 						opacity: 1;
-						width: 100%;
+						width: auto;
 					}
 				}
 			}
