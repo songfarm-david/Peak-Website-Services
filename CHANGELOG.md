@@ -17,3 +17,6 @@
 - Optimize page speed with inlining CSS and streamlining resources
 - Create a modal dropdown on form submission
 **Cache fonts**
+
+###4.1
+- Schema.org mark-up integration
