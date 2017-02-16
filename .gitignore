@@ -12,3 +12,6 @@ colors-2.less
 compile.less
 index-critical.less
 queries.less
+
+# remove old global.less file
+_less/global.less
