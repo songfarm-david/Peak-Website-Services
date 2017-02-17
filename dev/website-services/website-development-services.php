@@ -13,14 +13,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="bg-image" id="development">
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
-				<p class="service-title">I make it easy to have what you want</p>
-				<p>Whether you want to give your existing website a face-lift or want a brand new website, I will guide you in making the right decisions for your online business.</p>
-				<!-- <p>I work with a variety of different customers and will guide you, in terms you can understand, towards getting what you need online.</p> -->
+				<p class="service-title">We make it easy to have what you want</p>
+				<p>Whether you are creating your first website or want to improve your existing one, we can deliver to you a professional, beautiful website that suit you and the needs of your business.</p>
 			</div>
 		</section><!--/ end of service -->
 
 		<section class="service-types">
-			<h3>Here are some of the things I can help you with:</h3>
+			<h3>Here are some of the things we can help you with:</h3>
 			<ul>
 				<li>HTML5 Websites</li>
 				<li>WordPress Setup and Management</li>
@@ -31,6 +30,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<li>Mailing Lists</li>
 				<li>Registration Forms</li>
 			</ul>
+			<p>Have questions or want to find out pricing details? <a href="/contact.php">Get in touch with us</a> for a no-pressure chat about your website goals.</p>
 		</section>
 
 			<!-- design services -->
@@ -92,7 +92,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</blockquote> -->
 
 		<!-- perhaps show satisfaction guaranteed stamp -->
-		<p><a href="/contact.php">Contact Me Today</a> to talk about your website development goals and get a free quote.</p>
+		<p><a href="/contact.php">Contact Us Today</a> to talk about your website development goals and get a free quote.</p>
 
 		<!-- service features -->
 			<!-- <div class="service-features" id="website-development"> -->
