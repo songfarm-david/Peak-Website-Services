@@ -14,8 +14,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">Your website should work <em>for</em> you</p>
-				<p>Having a website is one thing but attracting the right audience to it is another. Let me put my knowlegde and tools to use for you in helping drive the right visitors to your website so you can improve the impact of your online success.</p>
-				<p>Depending on what's important to you and your business, I will create a strategy that will increase your visibility in Search Engines.</p>
+				<p>Having a website is one thing but attracting the right audience to it is another. Let us put our knowledge and expertise to use for you in helping drive the right visitors to your website and optimizing your online success.</p>
+				<p>Through careful analysis of your market and competitors, we create a road map to optimizing your online visibility and deliver on that strategy. </p>
 			</div>
 		</section>
 
@@ -34,7 +34,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 		</section>
 
-		<p><a href="/contact.php">Contact Me Today</a> and let's chat about your Search Engine Optimization goals.</p>
+		<p>Let us help you optimize your website. <a href="/contact.php">Contact Us Today</a>.</p>
 
 			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
