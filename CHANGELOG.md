@@ -17,3 +17,6 @@
 - Optimize page speed with inlining CSS and streamlining resources
 - Create a modal dropdown on form submission
 **Cache fonts**
+
+###3.3-live
+- Made modifications to copy: changed all "I" to "We's"
