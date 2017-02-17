@@ -12,10 +12,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="bg-image" id="maintenance">
 			<div class="service">
-				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">Take the load off having an online presence</p>
-				<p>Having a website shouldn't add to your work load. I make sure your website is reliably online, secure, and performing as expected. If you need something changed, I'm there.</p>
-				<p>I'm available to help you with any technical questions you may have, and I provide you with a report each month on the health and activity of your website. <em>You can think of it like having your own IT guy.</em></p>
+				<p>From <a href="#">hosting your website</a> and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
+				<p>Want to change out that landing page image? Need something new on your contact page? <a href="/contact.php">We're there for you</a>.</p>
+				<p>Having a website shouldn't add to your work load. We offer everything you need, all in once place and take the work out of having an online presence.</p>
+				<!-- <p>We monitor your website on our fast, reliable web servers and each quarter present you with <a href="#">Website Growth Report</a> with opportunities for your website and to keep you in the loop with how your website is doing. Should you ever require a change to your website, simply <a href="">call us</a> and we'll take of your concern. <em>You can think of it like having your own IT guy.</em></p> -->
 			</div>
 		</section><!--/ end of section -->
 
@@ -34,7 +35,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
 		</section>
 
-		<p>Let me help you take hold of your website. <a href="/contact.php">Contact Me Today</a> to learn more.</p>
+		<p>Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>
 			<!-- <div class="service-intro container">
 				<span>Take the load off having an online presence.</span>
 				<p>
