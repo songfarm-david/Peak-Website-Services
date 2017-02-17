@@ -13,8 +13,8 @@ $canonical = "https://peakwebsites.ca/";
 			<!-- TEST: img commented out to reduce requests -->
 			<img class="at-only" src="/" alt="The peak of a large, snow-covered mountain on a crisp and cloudy day" />
 			<div class="container callout fadeInUp">
-				<h1 class="">Put Your Business On&nbsp;<span>Top</span></h1>
-				<p>Everything you need to rise above in today's online world.</p>
+				<h1 class="" itemprop="headline">Put Your Business On&nbsp;<span>Top</span></h1>
+				<p itemprop="alternativeHeadline">Everything you need to rise above in today's online world.</p>
 				<a href="/contact">Talk to an expert</a>
 			</div>
 			<!-- <a href="#complicated-web" id="down-arrow" class="scroll-link"></a> -->
@@ -29,7 +29,11 @@ $canonical = "https://peakwebsites.ca/";
 					<!-- <b>That's where <em>I</em> come in.</b> -->
 					<!-- NOTE: encode words into svg image -->
 				</p>
-			 	<p>Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, and <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal access to your own technical specialist. <em>It's kind of like having your own IT guy!</em></p>
+			 	<p itemscope itemtype="https://schema.org/Service">Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, and <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal access to your own technical specialist. <em>It's kind of like having your own IT guy!</em>
+					<meta itemprop="brand" content="Peak Websites">
+					<meta itemprop="provider" content="Peak Websites">
+					<meta itemprop="serviceType" content="Websites Services">
+				</p>
 				<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with Peak Websites?</a>
 
 			</div>

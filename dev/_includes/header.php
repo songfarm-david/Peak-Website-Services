@@ -86,7 +86,11 @@
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>
-	<body>
+	<body itemscope itemtype="https://schema.org/WebSite">
+		<meta itemprop="about" content="Peak Websites is a professional website services company providing web solutions to small business owners">
+		<meta itemprop="author" content="Peak Websites">
+		<meta itemprop="provider" content="Peak Websites Services">
+		<meta itemprop="keywords" content="website services, website development services, website maintenance services, website optimization services">
 		<!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->

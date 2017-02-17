@@ -11,7 +11,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<section>
 			<h1>Wherever you're at, we can help you to get you where you're going.</h1>
-			<div id="service-display">
+			<div id="service-display" itemscope itemtype="https://schema.org/Service">
+				<meta itemprop="brand" content="Peak Websites">
+				<meta itemprop="provider" content="Peak Websites">
+				<meta itemprop="serviceType" content="Websites Services">
 				<div class="row">
 					<div class="col col-4">
 						<a href="/website-services/website-development-services.php">
@@ -21,7 +24,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								<p>Do you need a website? Does your existing website need a facelift? Let me tailor make a state-of-the-art website for you.</p>
 								<button class="green-bg">Learn More</button>
 							</section>
-						</a>	
+						</a>
 					</div>
 
 					<div class="col col-4">
