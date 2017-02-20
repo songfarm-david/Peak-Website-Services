@@ -11,7 +11,7 @@
 		<script type="text/javascript">
 		var WebFontConfig = {
 			google: {
-				families: [ 'Raleway:300,400,700,900' ]
+				families: [ 'Raleway:300,400,700,900','Chivo:900','Oswald:700' ]
 			},
 			timeout: 2000
 		};

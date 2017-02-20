@@ -26,7 +26,8 @@ html {
 }
 /* WebFontLoader plugin, see: https://www.sitepoint.com/improve-page-performance-font-loader/ */
 html.wf-active {
-	@header-font: normal 900 1rem/@line-height 'Raleway', Tahoma, sans-serif;
+	// @header-font: normal 900 1rem/@line-height 'Raleway', Tahoma, sans-serif;
+	@header-font: normal 900 1rem/@line-height 'Chivo', Tahoma, sans-serif;
 	@body-font: normal 400 1rem/@line-height 'Raleway', Tahoma, sans-serif;
 	body {
 		font: @body-font;
@@ -34,12 +35,26 @@ html.wf-active {
 	#business-top {
 		h1 {
 			letter-spacing: 0;
-			font-family: 'Raleway';
+			font-family: 'Chivo';
 			font-weight: 900;
+			line-height: 1;
 		}
 		p {
 			letter-spacing: 0;
 			font-family: 'Raleway';
 		}
 	}
+
+	/**
+	* Headers
+	******************/
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font: @header-font;
+	}
+
 }
