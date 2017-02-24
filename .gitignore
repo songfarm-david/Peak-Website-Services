@@ -3,7 +3,7 @@
 .gitignore
 dev/_css/
 *.md
-#!CHANGELOG.md
+!CHANGELOG.md
 node_modules
 copy_scripts/
 Thumbs.db
