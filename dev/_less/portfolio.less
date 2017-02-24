@@ -7,87 +7,132 @@
 @import 'theme/theme.less';
 
 main {
+
 	background-color: lighten(@background-color,20%);
 	background-image: url(../_images/low-polys.svg);
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	#portfolio {
 		padding: 2.5rem*@first-modular 0.5rem;
 		max-width: 100rem;
 		margin-left: auto;
 		margin-right: auto;
-		h1 {
+
+		/** Main page title styles **/
+		.portfolio-main {
+			margin-left: 1.618%;
+		}
+		.portfolio-main.portfolio-main-title {
+			.font-size(3);
 			color: darken(@hero-color, 15%);
 			font-weight: 700;
-			.font-size(3);
 		}
-		p {
+		.portfolio-main.portfolio-main-description {
+			.font-size(1.5);
 			margin-bottom: 2rem;
 		}
+
+		/** iFrame is connected to portfolio links/thumbnails **/
 		iframe {
 			display: none;
 		}
-		h1, p {
-			margin-left: 1.618%;
+
+		/** portfolio thumbnail source **/
+			#cirs {
+				background-image: url(../_images/portfolio/cirs-mid.png);
+				.grow-1;
+			}
+			#songfarm {
+				background-image: url(../_images/portfolio/songfarm-mid.png);
+				.grow-2;
+			}
+			#luna {
+				background-image: url(../_images/portfolio/luna-mid.png);
+				.grow-3;
+			}
+			#hollis {
+				background-image: url(../_images/portfolio/hollis.png);
+				.grow-4;
+			}
+
+		.portfolio-item {
+			margin-bottom: 2em * @first-modular;
+			.portfolio-title {
+				.font-size(2.25);
+			}
+			.portfolio-description {
+				margin-top: 0;
+				margin-bottom: 1em;
+			}
+			.portfolio-thumbnail-container {
+				display: block;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: top left;
+				box-shadow: 1px 1px 3px 0px #333;
+				height: 100%;
+				min-height: 20em;
+				.growOnHover();
+			}
 		}
-		.image-port {
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: top left;
-			box-shadow: 1px 1px 3px 0px #333;
-			height: 100%;
-			.growOnHover();
-		}
-		.col {
-			margin-bottom: 2rem;
-			height: 15em;
-		}
-		#cirs {
-			background-image: url(../_images/portfolio/cirs-mid.png);
-			.grow-1;
-		}
-		#songfarm {
-			background-image: url(../_images/portfolio/songfarm-mid.png);
-			.grow-2;
-		}
-		#luna {
-			background-image: url(../_images/portfolio/luna-mid.png);
-			.grow-3;
-		}
-		#hollis {
-			background-image: url(../_images/portfolio/hollis.png);
-			.grow-4;
-		}
+
+
 		@media (min-width: 26.25em) {
 			margin-bottom: 2.5rem;
-			.col {
-				height: 35rem;
+			.portfolio-item .portfolio-thumbnail-container {
+				min-height: 30em;
 			}
 		}
 		@media (min-width: 42.5em) {
 			margin-bottom: 3.5rem;
-			.image-port {
-				height: 100%;
-			}
-			.col {
-				height: 42.5rem;
-			}
-			h1 {
+
+			h1.portfolio-main.portfolio-main-title {
 				.font-size(3.5);
 			}
-			p {
-				.font-size(1.25);
+			p.portfolio-main.portfolio-main-description {
+				.font-size(2);
 			}
+
+			.portfolio-item {
+				// .portfolio-desc-container {
+				// 	min-height: 22em;
+				// 	.border;
+				// }
+				.portfolio-thumbnail-container {
+					min-height: 42.5rem;
+					// .border(blue);
+				}
+			}
+
+
 		}
 		@media (min-width: @grid-breakpoint) {
 			margin-bottom: 3.5rem;
-			h1 {
+			.portfolio-item {
+				.portfolio-desc-container {
+					// .border;
+				}
+			}
+			h1.portfolio-main.portfolio-main-title {
 				.font-size(4);
 			}
+			// p.portfolio-main.portfolio-main-description {
+			// 	.font-size(2.5);
+			// }
 			#luna {
-				background-image: url(../_images/portfolio/luna-mid.png);
+				// background-image: url(../_images/portfolio/luna-mid.png);
 				background-position: top center;
+			}
+		}
+
+		@media (min-width: 78em) {
+			.portfolio-item {
+				.portfolio-desc-container {
+					// .border(yellow);
+					// min-height: 18em;
+				}
 			}
 		}
 	}
