@@ -220,9 +220,9 @@ module.exports = function(grunt) {
 		'less:prod',
 		'postcss:prod',
 		// 'image',
+		'replace',
 		'uglify',
 		'htmlmin:prod',
-		'replace',
 	]);
 
 }; // wrapper function
