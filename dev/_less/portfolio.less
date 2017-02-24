@@ -32,6 +32,16 @@ main {
 		.portfolio-main.portfolio-main-description {
 			.font-size(1.5);
 			margin-bottom: 2rem;
+			&::after {
+				/** add visible corner to bottom of description **/
+				content: "";
+				display: block;
+				height: 3px;
+				width: 3%;
+				background-color: @hero-color;
+				position: relative;
+				bottom: -1rem * @first-modular;
+			}
 		}
 
 		/** iFrame is connected to portfolio links/thumbnails **/
@@ -60,11 +70,20 @@ main {
 		.portfolio-item {
 			margin-bottom: 2em * @first-modular;
 			.portfolio-title {
+				color: @hero-color;
 				.font-size(2.25);
 			}
 			.portfolio-description {
 				margin-top: 0;
 				margin-bottom: 1em;
+				abbr,
+				a {
+					text-decoration: none;
+					&:hover,
+					&:focus {
+						text-decoration: underline;
+					}
+				}
 			}
 			.portfolio-thumbnail-container {
 				display: block;
