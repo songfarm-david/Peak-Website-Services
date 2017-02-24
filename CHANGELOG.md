@@ -20,3 +20,7 @@
 
 ###4.1
 - Schema.org mark-up integration
+
+###4.2
+####Redesign portfolio
+- include title, subtitle, description and possibly date combined with previous thumbnail responsiveness
