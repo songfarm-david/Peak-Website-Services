@@ -2,7 +2,7 @@
 		$css;
 
 			// IF IS INDEX PAGE
-			if ($_SERVER['PHP_SELF'] == '/peak/dev/index.php') {
+			if ($_SERVER['PHP_SELF'] == '/index.php') {
 				// load critical css.
 				$css = fopen("_css/index.css",'r');
 				echo '<style>';
@@ -12,7 +12,7 @@
 			}
 
 			// IF IS CONTACT PAGE
-			if ($_SERVER['PHP_SELF'] == '/peak/dev/contact.php') {
+			if ($_SERVER['PHP_SELF'] == '/contact.php') {
 				// load critical css.
 				$css = fopen("_css/contact.css",'r');
 				echo '<style>';
@@ -22,7 +22,7 @@
 			}
 
 			// IF Service PAGE
-			if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/index.php') {
+			if ($_SERVER['PHP_SELF'] == '/website-services/index.php') {
 				// load critical css.
 				$css = fopen("../_css/service-index.css",'r'); // path is relative to /website-services/index.php
 				echo '<style>';
@@ -32,11 +32,11 @@
 			}
 
 			// IF Service PAGE
-			if ($_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-development-services.php' ||
-					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-maintenance-services.php' ||
-					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-hosting-services.php' ||
-					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/domain-name-registration.php' ||
-					$_SERVER['PHP_SELF'] == '/peak/dev/website-services/website-optimization-services.php') {
+			if ($_SERVER['PHP_SELF'] == '/website-services/website-development-services.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/website-maintenance-services.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/website-hosting-services.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/domain-name-registration.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/website-optimization-services.php') {
 				// load critical css.
 				$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
 				echo '<style>';
@@ -46,7 +46,7 @@
 			}
 
 			// IF Service PAGE
-			if ( $_SERVER['PHP_SELF'] == '/peak/dev/portfolio/index.php' ||
+			if ( $_SERVER['PHP_SELF'] == '/portfolio/index.php' ||
 						$_SERVER['PHP_SELF'] == '/peak/prod/portfolio/index.php' ) {
 				// load critical css.
 				$css = fopen("../_css/portfolio.css",'r'); // path is relative to /website-services/index.php
