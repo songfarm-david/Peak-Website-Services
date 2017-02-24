@@ -12,7 +12,8 @@ $h1 = $title;
 
 	<main id="contact-main">
 
-		<h1 class="fadeIn">Got a question for me? Let's chat.</h1>
+		<h1 class="fadeIn">Elevate your Online Potential</h1>
+		<p>Request a free website assessment by one of our trained website technicians and take a the first step towards reaching your peak.</p>
 		<!-- <p>Website Management</p> -->
 		<!-- Web Service Questionnaire -->
 		<section class="fadeIn">
@@ -48,7 +49,7 @@ $h1 = $title;
 					<div class="row">
 						<div class="col col-12">
 							<label for="message">
-								<textarea name="message" rows="1" placeholder="What can I help you with?"></textarea>
+								<textarea name="message" rows="1" placeholder="Tell us what you're looking to achieve"></textarea>
 							</label>
 						</div>
 					</div>

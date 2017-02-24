@@ -20,7 +20,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					<div class="col col-6 portfolio-item">
 						<div class="portfolio-desc-container">
 							<h3 class="portfolio-title">Canadian In-Floor Radiant Solutions</h3>
-							<p class="portfolio-description">This project was a redesign of <a href="http://www.infloorheat.ca/" target="_blank"><abbr title="Canadian In-Floor Radiant Heating">CIRS</abbr> existing website</a>. It was built on top of <a href="http://getbootstrap.com/" target="_blank">BootStrap</a> and coded in HTML5 and CSS3. Special attention was dedicated to accessibility testing and ensuring compatibility with <a href="https://www.w3.org/TR/wai-aria-1.1/">WAI-ARIA</a> specifications. It also features custom JavaScript code for the navigation and mobile cost examples widget.</p>
+							<p class="portfolio-description">This project was a redesign of <a href="http://www.infloorheat.ca/" target="_blank"><abbr title="Canadian In-Floor Radiant Heating">CIRS</abbr> existing website</a>. It was built on top of <a href="http://getbootstrap.com/" target="_blank">BootStrap</a> and coded in HTML5 and CSS3. Special attention was dedicated to accessibility testing and ensuring compatibility with <a href="https://www.w3.org/TR/wai-aria-1.1/" target="_blank">WAI-ARIA</a> specifications. It also features custom JavaScript code for the navigation and mobile cost examples widget.</p>
 						</div>
 						<a href="https://peakwebsites.ca/cirs/" target="cirs_iframe"><div id="cirs" class="portfolio-thumbnail-container"></div></a>
 						<iframe src="#" id="cirs_iframe"></iframe>
