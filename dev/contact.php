@@ -54,7 +54,7 @@ $h1 = $title;
 						</div>
 					</div>
 					<label for="captcha">
-						<button	type="submit" class="g-recaptcha" data-sitekey="6LcoshEUAAAAAFpTCW8ehR9mWxYBI-c-cu1tVWUx" data-callback="onSubmit" name="captcha">
+						<button	type="submit" class="g-recaptcha" data-sitekey="6LcoshEUAAAAAFpTCW8ehR9mWxYBI-c-cu1tVWUx" data-callback="onSubmit" name="captcha" data-size="invisible">
 							Send
 						</button>
 					</label>

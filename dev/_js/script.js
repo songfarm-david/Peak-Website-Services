@@ -7,6 +7,7 @@
 */
 var contactForm = document.getElementById("contact-form");
 var redirectUrl = "https://peakwebsites.ca/index.php";
+
 function submitForm() {
 	var xhttp = new XMLHttpRequest();
 	url = contactForm.action;
@@ -53,12 +54,18 @@ function submitForm() {
   };
   xhttp.send(data);
 }
+
 $( contactForm ).submit(function( event ) {
 	event.preventDefault();
+	// console.log("form submitted - event prevented");
 	// NOTE: comment out captcha functionality
 	grecaptcha.reset();
+	// grecaptcha.render( $(".g-recaptcha"), {
+	// 	'sitekey' : '6LcoshEUAAAAAFpTCW8ehR9mWxYBI-c-cu1tVWUx'
+	// });
 	grecaptcha.execute();
 });
+
 function onSubmit(token) {
 	submitForm(contactForm);
 };
@@ -123,13 +130,18 @@ $(".scroll-link").on("click touchstart" , function (event) {
 })(jQuery);
 
 $(window).scroll(function() {
+	var el, pos = "";
   var winTop = $(window).scrollTop();
-	var el = $("#special");
-	var pos = $(el).offset().top;
-	console.log(el, winTop);
-  if (pos < winTop + 600) {
-    $(el).addClass("rotate");
-  }
+
+	// if id="special" exists on page
+	if ( $("#special").length != 0 ) {
+		var el = $("#special");
+		var pos = $(el).offset().top;
+		if (pos < winTop + 600) {
+			$(el).addClass("rotate");
+		}
+	}
+
   $(".service-quality").each(function(){
     var pos = $(this).offset().top;
     var winTop = $(window).scrollTop();
