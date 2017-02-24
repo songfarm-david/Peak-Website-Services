@@ -72,7 +72,8 @@
 			}
 
 			// IF Service PAGE
-			if ($_SERVER['PHP_SELF'] == '/peak/dev/portfolio/index.php') {
+			if ( $_SERVER['PHP_SELF'] == '/peak/dev/portfolio/index.php' ||
+						$_SERVER['PHP_SELF'] == '/peak/prod/portfolio/index.php' ) {
 				// load critical css.
 				$css = fopen("../_css/portfolio.css",'r'); // path is relative to /website-services/index.php
 				echo '<style>';
