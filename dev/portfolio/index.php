@@ -14,7 +14,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<h1><?php echo $h1; ?></h1>
 
 
-				<p>Below are some of the more recent projects I have undertaken. Click on an image to view the live website.</p>
+				<p>Below are some of the more recent projects from Peak Websites. Click on an image to view the live website.</p>
 
 				<div class="row">
 					<div class="col col-6">

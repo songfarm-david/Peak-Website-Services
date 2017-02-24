@@ -33,14 +33,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
 			</section>
 
-			<!-- Website Health Reports -->
-			<!-- show what a health report might look like -->
-			<article class="article">
-				<h3>Website Growth Reports</h3>
-				<p class="article-sub-title">Follow the trends to better decisions</p>
-				<p>Each quarter, receive a detailed report on your websites activity as well as opportunities to supercharge your growth.</p>
-				<p class="call-out">If you really want to elevate your online presence, <a href="/website-services/website-optimization-services.php">learn about our Website Optimization Services</a>.</p>
-			</article>
+		<p>Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>
+			<!-- <div class="service-intro container">
+				<span>Take the load off having an online presence.</span>
+				<p>
+					Your website is hosted on a quick and secure <em>Canadian webserver</em> and a portion of hours are dedicated each month to ensure that while the internet changes, your website stays <em>healthy</em> and <em>protected</em>.
+				</p>
+			</div> -->
 
 			<article class="article">
 				<h3>Website Monitoring</h3>

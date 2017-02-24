@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<section data-id="service-development" class="service-section">
 								<h2 class="hide">Website Development Services</h2>
 								<h3 class="green-bg" data-name="service-title">Development</h3>
-								<p>Do you need a website? Does your existing website need a facelift? Let me tailor make a state-of-the-art website for you.</p>
+								<p>Do you need a website? Does your existing website need a facelift? Let us build you a website you'll love that's tailor-made for your business.</p>
 								<button class="green-bg">Learn More</button>
 							</section>
 						</a>

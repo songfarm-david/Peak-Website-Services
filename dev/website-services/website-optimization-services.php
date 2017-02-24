@@ -32,7 +32,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<!-- <p>Please <a href="#">Register today</a> for this limited service. <em>Only 10 spots available.</em></p> -->
 		</section>
 
-		<p><a href="/contact.php">Contact Me Today</a> and let's chat about your Search Engine Optimization goals.</p>
+		<p>Let us help you optimize your website. <a href="/contact.php">Contact Us Today</a>.</p>
 
 			<!-- <div class="service-intro">
 				<span>Your website should work <em>for</em> you.</span>
