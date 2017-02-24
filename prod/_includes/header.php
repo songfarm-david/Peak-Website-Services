@@ -11,7 +11,7 @@
 		<script type="text/javascript">
 		var WebFontConfig = {
 			google: {
-				families: [ 'Raleway:300,400,700,900' ]
+				families: [ 'Raleway:300,400,700,900','Chivo:900','Oswald:700' ]
 			},
 			timeout: 2000
 		};
@@ -60,6 +60,8 @@
 			// IF Service PAGE
 			if ($_SERVER['PHP_SELF'] == '/website-services/website-development-services.php' ||
 					$_SERVER['PHP_SELF'] == '/website-services/website-maintenance-services.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/website-hosting-services.php' ||
+					$_SERVER['PHP_SELF'] == '/website-services/domain-name-registration.php' ||
 					$_SERVER['PHP_SELF'] == '/website-services/website-optimization-services.php') {
 				// load critical css.
 				$css = fopen("../_css/service-pages.css",'r'); // path is relative to /website-services/index.php
@@ -70,7 +72,8 @@
 			}
 
 			// IF Service PAGE
-			if ($_SERVER['PHP_SELF'] == '/portfolio/index.php') {
+			if ( $_SERVER['PHP_SELF'] == '/portfolio/index.php' ||
+						$_SERVER['PHP_SELF'] == '/peak/prod/portfolio/index.php' ) {
 				// load critical css.
 				$css = fopen("../_css/portfolio.css",'r'); // path is relative to /website-services/index.php
 				echo '<style>';
@@ -84,7 +87,11 @@
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>
-	<body>
+	<body itemscope itemtype="https://schema.org/WebSite">
+		<meta itemprop="about" content="Peak Websites is a professional website services company providing web solutions to small business owners">
+		<meta itemprop="author" content="Peak Websites">
+		<meta itemprop="provider" content="Peak Websites Services">
+		<meta itemprop="keywords" content="website services, website development services, website maintenance services, website optimization services">
 		<!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->

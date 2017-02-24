@@ -5,6 +5,8 @@
 				<li><a href="https://twitter.com/peak_websites"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 				<li><a href="https://github.com/songfarm-david/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 				<li><a href="http://stackexchange.com/users/3476745/peak"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/peakwebsiteservices/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="https://plus.google.com/115140722630024401107" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
 			</ul>
 		</section> -->
 		<div id="copyright">
