@@ -103,19 +103,23 @@ module.exports = function(grunt) {
 				removeRedundantAttributes: true,
 				removeStyleLinkTypeAttributes: true,
 			},
-			prod : {
-				files : [{
-            expand: true,
-            cwd: 'dev/',
-            src: ['**/*.php','includes/*.php'],
-            dest: 'prod/'
-        }],
-			},
 			dev : {
 				files : {
 					'prod/_includes/header.php' : 'dev/_includes/header.php'
 				}
-			}
+			},
+			prod : {
+				files : [{
+            expand: true,
+            cwd: 'dev/',
+            src: ['**/*.php','_includes/*.php'],
+            dest: 'prod/'
+        }],
+			},
+			// includes: {
+			// 	cwd: 'dev/',
+			// 	src: ''
+			// },
 		},
 		uglify: {
 			options: {
@@ -173,7 +177,7 @@ module.exports = function(grunt) {
 		},
 		replace : {
 			build : {
-				src: ['dev/_includes/header.php','dev/_includes/footer.php', 'dev/_includes/navigation.php'],
+				src: ['prod/_includes/*.php'],
 				dest: 'prod/_includes/',
 				replacements: [{
 					from: '/peak/dev',
@@ -220,9 +224,10 @@ module.exports = function(grunt) {
 		'less:prod',
 		'postcss:prod',
 		// 'image',
-		'replace',
 		'uglify',
 		'htmlmin:prod',
+		'replace',
+
 	]);
 
 }; // wrapper function
