@@ -5,30 +5,30 @@ module.exports = function(grunt) {
 			options : {
 				separator : '\n\n//==================================================\n\n'
 			},
-			dist : {
-				src	: '/dev/_js/**/*.js',
-				dest: '/dev/_js/script.js'
-			},
+			// dist : {
+			// 	src	: '/dev/_js/**/*.js',
+			// 	dest: '/dev/_js/script.js'
+			// },
 			prod : {
 				files: {
-					'prod/_js/script.js': ['dev/_js/*.js','dev/_js/helper/*.js']
+					'prod/_js/script.js': ['dev/_js/script.js','dev/_js/helper/*.js']
 				}
 			},
 		},
 		less : {
 			dev : {
-				options : {
-					compress : false,
-					sourceMap : true,
-					sourceMapFilename : 'dev/_css/main.map.css',
-					banner : "/*******************/"
-				},
+				// options : {
+				// 	compress : false,
+				// 	sourceMap : true,
+				// 	sourceMapFilename : 'dev/_css/main.map.css',
+				// 	banner : "/*******************/"
+				// },
 				files : {
 					'dev/_css/index.css' : 'dev/_less/index.less',
 					'dev/_css/contact.css' : 'dev/_less/contact.less',
 					'dev/_css/service-index.css' : 'dev/_less/service-index.less',
 					'dev/_css/service-pages.css' : 'dev/_less/service-pages.less',
-					'dev/_css/portfolio.css' : 'dev/_less/portfolio.less'
+					'dev/_css/portfolio.css' : 'dev/_less/portfolio.less',
 				}
 			},
 			prod : {
@@ -45,10 +45,10 @@ module.exports = function(grunt) {
 					'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
 					'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
 				}
-			}
+			},
 		},
 		jshint : {
-			dev : ['gruntfile.js','dev/_js/script.js']
+			dev : ['gruntfile.js','dev/_js/*.js'],
 		},
 		watch : {
 			options : {
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 			},
 			less : {
 				files : ['dev/_less/**/*.less'],
-				tasks : ['less']
+				tasks : ['less:dev']
 			},
 			markUp : {
 				files : ['dev/**/*.html','dev/**/*.php']
@@ -72,10 +72,10 @@ module.exports = function(grunt) {
 	      map: true,
 	      processors: [
 	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-	      ]
+	      ],
 	    },
 	    dev: {
-	      src: 'dev/_css/*.css'
+	      src: 'dev/_css/*.css',
 	    },
 			prod: {
 				src: ['prod/_css/*.css','!prod/_css/*.map.css']
@@ -110,16 +110,12 @@ module.exports = function(grunt) {
 			},
 			prod : {
 				files : [{
-            expand: true,
-            cwd: 'dev/',
-            src: ['**/*.php','_includes/*.php'],
-            dest: 'prod/'
+          expand: true,
+          cwd: 'dev/',
+          src: ['**/*.php','_includes/*.php'],
+          dest: 'prod/'
         }],
-			},
-			// includes: {
-			// 	cwd: 'dev/',
-			// 	src: ''
-			// },
+			}
 		},
 		uglify: {
 			options: {
@@ -128,7 +124,8 @@ module.exports = function(grunt) {
 	    },
 	    prod: {
 	      files: {
-	        'prod/_js/script.js': 'dev/_js/*.js',
+	        'prod/_js/script.js': 'dev/_js/script.js',
+					'prod/_js/contact-form.js' : 'dev/_js/contact-form.js'
 	      }
 	    }
 	  },
@@ -215,7 +212,7 @@ module.exports = function(grunt) {
 
 	// register tasks
 	// Default
-	grunt.registerTask('default',['less:dev','postcss:dev','watch']);
+	grunt.registerTask('default',['less:dev','watch']); //,'postcss:dev'
 
 	// Prod
 	grunt.registerTask('prod',[
