@@ -1,30 +1,3 @@
-function submitForm() {
-    var xhttp = new XMLHttpRequest();
-    url = contactForm.action, data = $(contactForm).serialize(), xhttp.open("post", url, !0), 
-    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), xhttp.onreadystatechange = function() {
-        if (4 == this.readyState && 200 == this.status) {
-            var response = JSON.parse(this.responseText), target = document.getElementById("confirmation-msg").querySelector("p"), targetParent = document.getElementById("confirmation-msg"), outputResponse = function() {
-                targetParent.className = "", target.innerHTML = response[1];
-            };
-            response[0] > 0 ? (outputResponse(), setTimeout(function() {
-                targetParent.className = "hide", window.location = redirectUrl;
-            }, 3e3)) : (outputResponse(), setTimeout(function() {
-                targetParent.className = "hide", location.reload();
-            }, 4e3));
-        }
-    }, xhttp.send(data);
-}
-
-function onSubmit(token) {
-    submitForm(contactForm);
-}
-
-var contactForm = document.getElementById("contact-form"), redirectUrl = "https://peakwebsites.ca/index.php";
-
-$(contactForm).submit(function(event) {
-    event.preventDefault(), grecaptcha.reset(), grecaptcha.execute();
-});
-
 var hashTagActive = "";
 
 $(".scroll-link").on("click touchstart", function(event) {
@@ -49,8 +22,12 @@ $(".scroll-link").on("click touchstart", function(event) {
         }), ticking = !0;
     });
 }(jQuery), $(window).scroll(function() {
-    var winTop = $(window).scrollTop(), el = $("#special"), pos = $(el).offset().top;
-    console.log(el, winTop), pos < winTop + 600 && $(el).addClass("rotate"), $(".service-quality").each(function() {
+    var el, pos = "", winTop = $(window).scrollTop();
+    if (0 != $("#special").length) {
+        var el = $("#special"), pos = $(el).offset().top;
+        pos < winTop + 600 && $(el).addClass("rotate");
+    }
+    $(".service-quality").each(function() {
         var pos = $(this).offset().top, winTop = $(window).scrollTop();
         pos < winTop + 800 && $(this).addClass("fadeInUp");
     });
