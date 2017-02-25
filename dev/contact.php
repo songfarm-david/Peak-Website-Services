@@ -18,6 +18,7 @@ $h1 = $title;
 		<!-- Web Service Questionnaire -->
 		<section class="fadeIn">
 			<h2 class="hide">Contact Form</h2>
+
 			<!-- NOTE: this path will need to be changed before deployment -->
 			<form id="contact-form" name="contact-form" action="../process-form.php" method="post">
 				<fieldset>
@@ -49,7 +50,7 @@ $h1 = $title;
 					<div class="row">
 						<div class="col col-12">
 							<label for="message">
-								<textarea name="message" rows="1" placeholder="Tell us what you're looking to achieve"></textarea>
+								<textarea name="message" rows="1" placeholder="Tell us what you're looking to achieve" required></textarea>
 							</label>
 						</div>
 					</div>
@@ -67,15 +68,14 @@ $h1 = $title;
 				</fieldset>
 
 			</form>
-			<!-- NOTE: add a captcha -->
+
 		</section>
 
-		<!-- NOTE: stylized google map of bear mountain/langform -->
 		<!-- Confirmation Message Modal -->
 		<article class="hide" id="confirmation-msg">
 			<h3 class="at-only">Confirmation Message</h3>
 			<div class="modal-content">
-				<p>Thank you for signing up, we'll be in touch with you soon.</p>
+				<p></p>
 			</div>
 		</article>
 

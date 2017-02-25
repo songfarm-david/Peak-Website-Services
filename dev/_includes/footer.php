@@ -29,6 +29,14 @@
 	<script type="text/javascript" src="/peak/dev/_js/helper/bs-collapse.js"></script>
 	<script type="text/javascript" src="/peak/dev/_js/script.js" async defer></script>
 
+	<!-- NOTE: Conditional: Is Contact Page? -->
+	<?php
+		if ( $_SERVER['PHP_SELF'] == '/peak/dev/contact.php' || $_SERVER['PHP_SELF'] == '/peak/prod/contact.php' ) {
+			 // load conditional javascript
+			 echo "<script src=\"_js/contact-form.js\"></script>";
+		}
+	 ?>
+
 
 	<!-- NOTE: Google reCAPTCHA for Contact Form -->
 	<!-- TODO: write php conditional for contact.php -->
