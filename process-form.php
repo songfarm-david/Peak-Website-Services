@@ -36,7 +36,7 @@
 
       // Send the email
       // The '@' surpresses errors.
-      if ( !@mail($sendTo, $subject, $message, $header) ) {
+      if ( @mail($sendTo, $subject, $message, $header) ) {
         // echo 'Thank you for getting in touch. We will respond shortly.';
         // header("Location: " . $redirect . "?return=thank_you");
         $responseCode = 1;
