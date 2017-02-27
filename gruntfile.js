@@ -192,7 +192,7 @@ module.exports = function(grunt) {
 				}]
 			},
 			contactform: {
-				src: 'dev/contact.php',
+				src: 'prod/contact.php',
 				dest: 'prod/contact.php',
 				replacements: [{
 					from: '../process-form.php',
