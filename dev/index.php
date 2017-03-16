@@ -15,7 +15,7 @@ $canonical = "https://peakwebsites.ca/";
 			<div class="container callout fadeInUp">
 				<h1 class="" itemprop="headline">Put Your Business On&nbsp;<span>Top</span></h1>
 				<p itemprop="alternativeHeadline">Everything you need to rise above in today's online world.</p>
-				<a href="/contact">Talk to an expert</a>
+				<a href="/contact">Talk to Us</a>
 			</div>
 			<!-- <a href="#complicated-web" id="down-arrow" class="scroll-link"></a> -->
 		</section><!--/ end of Landing Page -->
@@ -51,7 +51,7 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="service-quality">
 					<h3>Stay on Course</h3>
 					<div id="expertise" class="icon-badges"></div>
-					<p>Websites are what we do and part of that means keeping up with the ever-changing world of the web. When you work with us, you can relax and focus on running.</p>
+					<p>Websites are what we do and part of that means keeping up with the ever-changing world of the web. When you work with us, you can relax and focus on running your business.</p>
 				</div>
 				<div class="service-quality">
 					<h3>A Better Web</h3>

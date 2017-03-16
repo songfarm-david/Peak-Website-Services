@@ -7,13 +7,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-		<!-- WebFontLoader -->
+
+		<!-- WebFontLoader: https://www.sitepoint.com/improve-page-performance-font-loader/ -->
 		<script type="text/javascript">
 		var WebFontConfig = {
 			google: {
-				families: [ 'Raleway:300,400,700,900','Chivo:900','Oswald:700' ]
+				families: [ 'Raleway:300,400,700,800,900' ]
 			},
-			timeout: 2000
+			timeout: 4000
 		};
 		(function(){
 			var wf = document.createElement("script");
@@ -23,6 +24,7 @@
 			document.head.appendChild(wf);
 		})();
 		</script>
+
 		<!-- conditional & critical CSS here -->
 		<?php
 		$css;
@@ -97,5 +99,6 @@
     <![endif]-->
 		<header>
 			<h1 class="hide"><?php echo $h1; ?></h1>
+			<img src="/peak/dev/_images/logo/peak_logo.svg" alt="Logo: Peak Websites" id="brand-logo">
 			<?php include_once('navigation.php') ?>
 		</header>
