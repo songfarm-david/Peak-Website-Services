@@ -162,12 +162,13 @@ module.exports = function(grunt) {
 			compile: {
 				options: {
 					ext: '.png',
-					force: 'true'
+					force: 'true',
+					expand: true
 				},
 				files: [
 					{
-						src: 'dev/_images/portfolio/*.png',
-						dest: 'prod/_images/portfolio'
+						src: 'dev/_images/**/*.png',
+						dest: 'prod/_images/'
 					}
 				]
 			}
