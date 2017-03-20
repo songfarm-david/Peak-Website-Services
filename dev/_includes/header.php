@@ -99,6 +99,6 @@
     <![endif]-->
 		<header>
 			<h1 class="hide"><?php echo $h1; ?></h1>
-			<a href="/peak/dev/"><img src="/peak/dev/_images/logo/peak_logo.svg" alt="Logo: Peak Websites" id="brand-logo"></a>
+			<a href="/peak/dev/"><img src="/peak/dev/_images/logo/peak_logo.png" alt="Logo: Peak Websites" id="brand-logo"></a>
 			<?php include_once('navigation.php') ?>
 		</header>
