@@ -15,11 +15,6 @@
 		color: @link-hover;
 		background-color: @link-hover;
 	}
-	// @media (min-width: 84.444em) {
-	// 	&::after {
-	// 		width: 97%;
-	// 	}
-	// }
 }
 
 nav {
@@ -165,20 +160,29 @@ nav {
 }
 
 .fixed-nav {
-	background-color: #eff8f8;
+	background-color: @hero-color;
 	height: 73px;
 	animation: fadeIn .5s .1s ease-in both; // temporary animation
-	// background-color: @hero-color;
-	box-shadow: 0px 2px 2px 2px @hero-color;
-	nav #primary-nav .dropdown-content {
-		background-color: fadeout(#fff,20%);
+	box-shadow: 0px 1px 1px 2px fadeout(@hero-color, 50%);
+	#primary-nav {
+		a {
+			color: #eee;
+			&:hover {
+				background-color: fadeout(#fff, 25%);
+				color: @hero-color;
+			}
+		}
+		.dropdown-content {
+		background-color: #fff;
 		color: @hero-color;
-		opacity: .8;
+		// opacity: .8;
 		li {
 			a {
 				color: inherit;
 				&:hover {
 					opacity: 1;
+					color: #eee;
+					background-color: @hero-color;
 				}
 				&::after {
 					width: 100%;
@@ -189,6 +193,7 @@ nav {
 				background-color: #fff;
 			}
 		}
+	}
 	}
 }
 .nav-visible {

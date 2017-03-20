@@ -9,6 +9,20 @@
 @import 'helper';
 @import 'colors';
 
+#brand-logo {
+	width: 6rem;
+	max-width: 10rem;
+	height: auto;
+	margin-left: 1rem;
+	margin-top: 1rem/@first-modular;
+}
+.fixed-nav #brand-logo {
+	max-height: 4rem;
+	width: auto;
+	margin-top: 0.25rem;
+	margin-left: 0.25rem
+}
+
 footer {
 	position: static;
 	width: 100%;
@@ -55,25 +69,14 @@ footer {
 	// }
 }
 
-#brand-logo {
-	width: 6rem;
-	max-width: 10rem;
-	height: auto;
-	margin-left: 1rem;
-	margin-top: 1rem/@first-modular;
-}
-.fixed-nav #brand-logo {
-	max-height: 4rem;
-	margin-top: 0.25rem;
-	margin-left: 0.25rem
-}
+
 
 html {
 	font-size: @theme-default-rem;
 	font-size: calc(@theme-default-rem * 1vw);
 
 	body {
-		// font: @body-font;
+		font: @body-font;
 		font-size: @theme-default-em;
 		min-width: @min-width-px;
 		margin: 0;

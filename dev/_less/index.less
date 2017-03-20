@@ -189,7 +189,7 @@
 #complicated-web {
 	color: @hero-color;
 	background-color: white;
-	background-image: url(../dev/_images/low-polys.svg);
+	// background-image: url(../dev/_images/low-polys.svg);
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -440,15 +440,15 @@
 		margin-top: 4rem*@first-modular;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: @hero-color;
-		color: white;
 		box-shadow: none;
 		width: 90%;
 		max-width: 30rem;
+		background-color: transparent;
+		color: @hero-color;
+		border: 1px solid @hero-color;
 		&:hover {
-			background-color: transparent;
-			color: @hero-color;
-			border: 1px solid @hero-color;
+			background-color: @hero-color;
+			color: white;
 		}
 	}
 	@media (min-width: 30em) {
