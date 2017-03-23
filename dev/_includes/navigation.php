@@ -29,6 +29,9 @@
 				<a href="/portfolio/index.php" class="<?php //echo $class = ($activePage == "/peak/dev/portfolio/index.php") ? "active-link" : ""; ?>">Portfolio</a>
 			</li>
 			<li>
+				<a href="/blog/" class="<?php //echo $class = ($activePage == "/peak/dev/portfolio/index.php") ? "active-link" : ""; ?>">Blog</a>
+			</li>
+			<li>
 				<a href="/contact.php" class="<?php //echo $class = ($activePage == "/peak/dev/contact.php") ? "active-link" : ""; ?>">Contact</a>
 			</li>
 		</ul>
