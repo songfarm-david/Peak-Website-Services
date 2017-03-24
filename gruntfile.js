@@ -112,7 +112,7 @@ module.exports = function(grunt) {
 				files : [{
           expand: true,
           cwd: 'dev/',
-          src: ['**/*.php','_includes/*.php'],
+          src: ['**/*.php','_includes/*.php', '!blog/**'],
           dest: 'prod/'
         }],
 			}
