@@ -7,7 +7,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-	<main role="main">
+	<main role="main" id="portfolio-main">
 
 		<!-- Portfolio -->
 		<section id="portfolio">

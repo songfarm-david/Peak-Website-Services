@@ -21,24 +21,23 @@ $canonical = "https://peakwebsites.ca/";
 		</section><!--/ end of Landing Page -->
 
 		<!-- Page two -->
-		<section id="complicated-web" class="fadeInUp">
-			<h2>Today's Web Is <em>Complicated</em></h2>
-		 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it looks good on all devices, is quick and easy to use, and serves your business and your customers &mdash; requires professional attention.</p>
-			<div>
-				<p id="special" class="">
-					<!-- <b>That's where <em>I</em> come in.</b> -->
-					<!-- NOTE: encode words into svg image -->
-				</p>
-			 	<p itemscope itemtype="https://schema.org/Service">Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, and <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal access to your own technical specialist. <em>It's kind of like having your own IT guy!</em>
-					<meta itemprop="brand" content="Peak Websites">
-					<meta itemprop="provider" content="Peak Websites">
-					<meta itemprop="serviceType" content="Websites Services">
-				</p>
-				<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with Peak Websites?</a>
-
+		<section id="complicated-web">
+			<div class="fadeInUp">
+				<h2>Today's Web Is <em>Complicated</em></h2>
+			 	<p>In today's online world, it's important that you make a strong first impression, but having a good website today isn't what it used to be &mdash; making sure it looks good on all devices, is quick and easy to use, and serves your business and your customers &mdash; requires professional attention.</p>
+				<div>
+					<p id="special" class="">
+						<!-- NOTE: encode words into svg image -->
+					</p>
+				 	<p itemscope itemtype="https://schema.org/Service">Peak Website Services provides everything you need for your online business: <a href="/website-services/website-development-services.php" class="inline-link">development</a>, <a href="/website-services/website-maintenance-services.php" class="inline-link">management</a>, and <a href="/website-services/website-optimization-services.php" class="inline-link">optimization</a>.<br> Best of all, you get personal access to your own technical specialist. <em>It's kind of like having your own IT guy!</em>
+						<meta itemprop="brand" content="Peak Websites">
+						<meta itemprop="provider" content="Peak Websites">
+						<meta itemprop="serviceType" content="Websites Services">
+					</p>
+					<a href="#work-with-us" class="scroll-link" title="Why work with us?">So, why work with Peak Websites?</a>
+				</div>
 			</div>
-
-		</section><!--/ end Page two -->
+		</section><!--#complicated-web-->
 
 		<!-- Floating Section -->
 		<section id="work-with-us">
