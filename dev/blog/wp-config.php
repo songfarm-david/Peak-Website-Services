@@ -23,10 +23,10 @@
 define('DB_NAME', 'peakwebs_pkblog');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'peakwebs_pkblog');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '5S(3p6bH7@');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
