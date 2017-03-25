@@ -1,14 +1,10 @@
 #todo
-Complete info on Canadian Based Web Hosting (Website Maintenance Service)
-Complete info on Monthly Health Reports (Website Maintenance Service)
-Revisit copy on website-services/index.php, write service paragraphs
-Finish Contact Form/Questionnaire
-Review/Complete FAQ
+- Add social links to footer (facebook, twitter, google plus)
+- develop content schedule and strategy
 
 ## footer
 Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
 
-* Add css styles that control main above the fold content to head of document
 * Add 404 page.
 * Have a copy of fonts in case the internet goes down!
 * make sure meta description on index.php is based on keywords
@@ -22,6 +18,5 @@ Revisit footer and test for footer vendor dependencies and fallbacks. Found issu
 
 ##link building
 1. Complete passable website version
-2. Create Facebook/LinkedIn page
-3. Submit to website directories
-4. Get others to share.
+2. Submit to website directories
+3. Get others to share.
