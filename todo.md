@@ -1,11 +1,15 @@
 #todo
 - Add social links to footer (facebook, twitter, google plus)
 - develop content schedule and strategy
+- add about section with a bio and photo
+- add a business phone number?
+- design and create a 404 page
+- add logo text *Peak Websites*
+- Complete and send in BBB form
 
 ## footer
 Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
 
-* Add 404 page.
 * Have a copy of fonts in case the internet goes down!
 * make sure meta description on index.php is based on keywords
 
