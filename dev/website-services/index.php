@@ -10,7 +10,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 	<main id="website-services">
 
 		<section>
-			<h1>Wherever you're at, we can help you to get you where you're going.</h1>
+			<h1>Wherever you're at, we can help you get where you're going.</h1>
 			<div id="service-display" itemscope itemtype="https://schema.org/Service">
 				<meta itemprop="brand" content="Peak Websites">
 				<meta itemprop="provider" content="Peak Websites">
