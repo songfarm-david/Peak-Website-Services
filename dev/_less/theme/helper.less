@@ -16,15 +16,7 @@
 	}
 }
 
-footer {
-	color: darken(white, 20%);
-	@media (min-width: 56.25em) {
-		position: static;
-	}
-}
-
 /* transform effect: grow on hover */
-
 .growOnHover {
 	transition: all .25s ease-in-out;
 	&:hover {
@@ -34,32 +26,10 @@ footer {
 		box-shadow: 1px 1px 15px 3px #555;
 	}
 }
-
-// .inline-icon-font {
-// 	font-family: FontAwesome; // change this accordingly
-// 	color: inherit;
-// 	line-height: inherit;
-// 	font-size: inherit;
-// 	position: relative;
-// 	vertical-align: baseline;
-// }
-// overlays & misc
-// .overlay(@bg-color: '#333', @opacity: 0.9) {
-// 	content: "";
-// 	position: absolute;
-// 	top: 0;
-// 	right: 0;
-// 	bottom: 0;
-// 	left: 0;
-// 	opacity: @opacity;
-// 	background-color: @bg-color;
-// }
-
 /* Debugging Tool */
 .border (@color: red, @width: 2px) {
 	border: @width solid @color;
 }
-
 /* visibility classes */
 .hide { display: none; }
 .invisible { visibility: hidden; }
@@ -84,13 +54,11 @@ footer {
   overflow: visible;
   clip: auto;
 }
-
 .clear-float {
   content: '';
   display: table;
   clear: both;
 }
-
 .box-shadow {
 	box-shadow: 0px 3px 5px 2px @hero-color;
 }
