@@ -17,12 +17,12 @@ module.exports = function(grunt) {
 		},
 		less : {
 			dev : {
-				// options : {
-				// 	compress : false,
-				// 	sourceMap : true,
-				// 	sourceMapFilename : 'dev/_css/main.map.css',
-				// 	banner : "/*******************/"
-				// },
+				options : {
+					compress : false,
+					sourceMap : true,
+					sourceMapFilename : 'dev/_css/main.map.css',
+					banner : "/*******************/"
+				},
 				files : {
 					'dev/_css/index.css' : 'dev/_less/index.less',
 					'dev/_css/contact.css' : 'dev/_less/contact.less',
@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 	  },
 		modernizr: {
 		  dist: {
-		    "dest" : "build/modernizr-custom.js",
+		    "dest" : "dev/_js/helper/modernizr-custom.js",
 		    "tests": [
 		      'flexbox'
 		    ],
@@ -129,25 +129,6 @@ module.exports = function(grunt) {
 	      }
 	    }
 	  },
-		// image: {
-    //   static: {
-		// 		options: {
-    //       pngquant: true,
-    //       optipng: false,
-    //       zopflipng: true,
-    //       jpegRecompress: true,
-    //       jpegoptim: true,
-    //       mozjpeg: true,
-    //       gifsicle: true,
-    //       svgo: true
-    //     },
-    //     files: {
-    //       'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
-		// 			'prod/_images/blue-ball.svg' : 'dev/_images/blue-ball.svg',
-		// 			'prod/_images/' : 'dev/_images/branding/peak-website-cover.jpg'
-    //     },
-    //   },
-		// },
 		imagemin: {
 			static: {
 				files: {
@@ -178,16 +159,11 @@ module.exports = function(grunt) {
 				src: ['prod/_includes/*.php'],
 				dest: 'prod/_includes/',
 				replacements: [{
-					from: '/peak/dev',
-					to: ''
-				}, {
+					// alter directory location to root folder
 					from: '../node_modules',
 					to: '/node_modules'
 				}, {
-					from: '../build',
-					to: '/build'
-				}, {
-					// remove live reload text
+					// remove live reload script from production
 					from: '<script src="//localhost:35729/livereload.js"></script>',
 					to: ''
 				}]
@@ -200,14 +176,15 @@ module.exports = function(grunt) {
 					to: '/process-form.php'
 				}]
 			},
-			images: {
-				src: 'prod/_css/index.css',
-				dest: 'prod/_css/index.css',
-				replacements: [{
-					from: '../dev',
-					to: ''
-				}]
-			}
+			/* Commented out as image path was changed to be relative to root directory */
+			// images: {
+			// 	src: 'prod/_css/index.css',
+			// 	dest: 'prod/_css/index.css',
+			// 	replacements: [{
+			// 		from: '../dev',
+			// 		to: ''
+			// 	}]
+			// }
 		}
 	}); // initConfig
 
