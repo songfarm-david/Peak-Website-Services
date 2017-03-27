@@ -15,7 +15,7 @@ $canonical = "https://peakwebsites.ca/";
 			<div class="container callout fadeInUp">
 				<h1 class="" itemprop="headline">Put Your Business On&nbsp;<span>Top</span></h1>
 				<p itemprop="alternativeHeadline">Everything you need to rise above in today's online world.</p>
-				<a href="/contact.php">Talk to Us</a>
+				<a href="/contact.php">Get Started</a>
 			</div>
 			<!-- <a href="#complicated-web" id="down-arrow" class="scroll-link"></a> -->
 		</section><!--/ end of Landing Page -->
