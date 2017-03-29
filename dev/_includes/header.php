@@ -3,11 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?php echo $title; ?></title>
-		<meta name="description" content="<?php echo $description; ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<?php echo $canon = (!empty($canonical)) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
+		<meta name="description" content="<?php echo $description; ?>">
+		<?php echo $canon = ( !empty( $canonical ) ) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
-
 		<!-- WebFontLoader: https://www.sitepoint.com/improve-page-performance-font-loader/ -->
 		<script type="text/javascript">
 			var WebFontConfig = {
@@ -30,7 +29,7 @@
 			$css;
 
 			// IF IS INDEX PAGE
-			if ($_SERVER['PHP_SELF'] == '/index.php') {
+			if ( $_SERVER['PHP_SELF'] == '/index.php' ) {
 				// load critical css.
 				$css = fopen("_css/index.css",'r');
 				echo '<style>';
@@ -39,8 +38,18 @@
 				fclose($css);
 			}
 
+			/**
+				* If Blog
+				*/
+			if ( $_SERVER['PHP_SELF'] == '/dummyblog/dummyblog.php' ) {
+				// load critical css.
+				$stylesheet = fopen("../_css/blog.css",'r');
+				echo '<style>' . fread( $stylesheet, filesize( "../_css/blog.css" ) ) . '</style>';
+				fclose( $stylesheet );
+			}
+
 			// IF IS CONTACT PAGE
-			if ($_SERVER['PHP_SELF'] == '/contact.php') {
+			if ( $_SERVER['PHP_SELF'] == '/contact.php' ) {
 				// load critical css.
 				$css = fopen("_css/contact.css",'r');
 				echo '<style>';
@@ -73,9 +82,8 @@
 				fclose($css);
 			}
 
-			// IF Service PAGE
-			if ( $_SERVER['PHP_SELF'] == '/portfolio/index.php' ||
-						$_SERVER['PHP_SELF'] == '/peak/prod/portfolio/index.php' ) {
+			// IF Portfolio page
+			if ( $_SERVER['PHP_SELF'] == '/portfolio/index.php' ) {
 				// load critical css.
 				$css = fopen("../_css/portfolio.css",'r'); // path is relative to /website-services/index.php
 				echo '<style>';
@@ -90,15 +98,20 @@
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 	</head>
 	<body itemscope itemtype="https://schema.org/WebSite">
+		<!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 		<meta itemprop="about" content="Peak Websites is a professional website services company providing web solutions to small business owners">
 		<meta itemprop="author" content="Peak Websites">
 		<meta itemprop="provider" content="Peak Websites Services">
 		<meta itemprop="keywords" content="website services, website development services, website maintenance services, website optimization services">
-		<!--[if lte IE 9]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-    <![endif]-->
+
 		<header>
 			<h1 class="hide"><?php echo $h1; ?></h1>
-			<a href="/"><img src="/_images/logo/peak_logo.png" alt="Logo: Peak Websites" id="brand-logo"></a>
+			<a href="/" rel="home">
+				<img id="brand-logo" src="/_images/logo/peak_logo.png" alt="Peak Websites Logo">
+			</a>
+
 			<?php include_once('navigation.php') ?>
+
 		</header>
