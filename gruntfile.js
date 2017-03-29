@@ -21,22 +21,22 @@ module.exports = function(grunt) {
 					compress : false,
 					sourceMap : true,
 					sourceMapFilename : 'dev/_css/main.map.css',
-					banner : "/*******************/"
 				},
-				files : {
-					'dev/_css/index.css' : 'dev/_less/index.less',
-					'dev/_css/contact.css' : 'dev/_less/contact.less',
-					'dev/_css/service-index.css' : 'dev/_less/service-index.less',
-					'dev/_css/service-pages.css' : 'dev/_less/service-pages.less',
-					'dev/_css/portfolio.css' : 'dev/_less/portfolio.less',
-				}
+				files: [
+					{
+						expand: true,
+						cwd: 'dev/_less',
+						src: ['*.less'],
+						dest: 'dev/_css',
+						ext: '.css'
+					}
+				],
 			},
 			prod : {
 				options : {
 					compress : true,
 					sourceMap : true,
 					sourceMapFilename : 'prod/_css/main.map.css',
-					banner : "/*******************/"
 				},
 				files : {
 					'prod/_css/index.css' : 'dev/_less/index.less',
