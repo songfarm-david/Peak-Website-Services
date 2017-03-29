@@ -25,10 +25,10 @@ module.exports = function(grunt) {
 				files: [
 					{
 						expand: true,
-						cwd: 'dev/_less',
-						src: ['*.less'],
-						dest: 'dev/_css',
-						ext: '.css'
+						cwd: 'dev/_less', // 'src' matches are relative to this path
+						src: ['*.less'],	// Actual pattern(s) to match
+						dest: 'dev/_css',	// Destination relative to gruntfile.js
+						ext: '.css'				// Destination filepaths will have this extension
 					}
 				],
 			},
