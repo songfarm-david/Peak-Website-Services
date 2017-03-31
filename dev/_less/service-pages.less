@@ -192,6 +192,9 @@ main {
 		p {
 			.font-size(2);
 		}
+		aside.content-aside>p {
+			.font-size(1.75);
+		}
 	}
 	@media (min-width: 51.25em) {
 		section .service {
@@ -420,5 +423,24 @@ main {
 				}
 			}
 		}
+	}
+}
+
+aside.content-aside {
+	border: 1px solid #aaa;
+	background: #eee;
+	margin-top: 2rem*@first-modular;
+	margin-right: 2rem;
+	padding: 1rem;
+	p {
+		margin-top: 1rem/2;
+		font-style: italic;
+		.font-size(.8);
+	}
+	@media (min-width: 54em) {
+		float: left;
+		padding-left: 2rem;
+		min-width: 24em;
+		max-width: 34em;
 	}
 }

@@ -12,18 +12,28 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">You can rely on us to keep your website safe and online</p>
-				<p>Host your website on our reliable, <a href="#canadian-web-servers">Canadian web servers</a> and enjoy the comfort and peace of mind of guaranteed reliability and top-shelf industry protection on your websites.</p>
+				<p>Host your website on our reliable, Canadian Web Servers and enjoy the comfort and peace of mind of guaranteed reliability and top-shelf industry protection on your websites.</p>
 			</div>
+		</section>
 
+		<section class="service-types">
 			<h3>What Is a Web Host?</h3>
-			<p>You can think of a web host as where your website lives on the internet, like renting an apartment for your website to live in on the online world. In more technical terms, website are placed onto special computers called <i>web servers</i> that serve up web pages to prospective visitors via the internet.</p>
+			<p>You can think about a Web Host as where your website lives on the internet, like leasing an apartment for your website online. In more technical terms, website are placed onto special computers called <i>web servers</i> that serve up web pages to internet users when your page is requested.</p>
 
-			<h3>Why Host on Canadian Soil?</h3>
-			<p>If you're at all concerned about the privacy of the information that is on your website, or collected through your website and stored (perhaps information about your customers) then a Canadian-hosted website ensures that your information remains private.<br><br>
-			As far as the <a href="https://en.wikipedia.org/wiki/Patriot_Act" target="_blank">U.S Patriot Act</a> is concerned, there may be little privacy for websites that are hosted in the U.S. Whereas websites that are hosted in Canada are better protected and subject to <a href="https://en.wikipedia.org/wiki/Privacy_Act_(Canada)" target="_blank">Canadian Privacy Laws</a>.</p>
+			<h3>Why Host Your Website on Canadian Soil?</h3>
+			<p>If you're at all concerned about the privacy of the information that is on your website then you will want to host your website in Canada, or in another country that <a href="https://www.whitehouse.gov/the-press-office/2017/03/28/statement-administration-policy-sjres-34-%E2%80%93-disapproving-federal" rel="nofollow" target="_blank">still protects your rights</a> to keeping your personal and sensitive data secure.</p>
+			<aside class="content-aside">
+				<p>If you want to learn more about the recent developments in the United States regarding Internet Privacy, read our <a href="https://peakwebsites.ca/blog/2017/03/29/internet-privacy-bill-2017/">New Internet Privacy Laws in America</a> blog post.</p>
+			</aside>
+
+			<h3>Hosting with Peak Websites</h3>
+			<p>Peak Websites offer top-of-line web hosting on our modern, fast, and secure web servers.</p>
+			<p>Having data centers in both Vancouver and Toronto means optimal coverage across Canada and beyond. In addition, your information is kept private under Canadian federal law.</p>
+			<p>We are also on-call 24/7/365 and include all the bells and whistles in our hosting packages: SSL encryption, Unlimited Email Accounts, and more.</p>
 
 		</section>
 
+		<p>Ready to take action? <a href="/contact.php">Contact Us today</a>!</p>
 
 	</main>
 
