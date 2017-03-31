@@ -11,6 +11,8 @@
 			</section> -->
 			<div id="copyright">
 				<span>&copy; <?php echo date("Y"); ?> Peak Website Services</span>
+				<br>
+				<span>All Rights Reserved.</span>
 			</div>
 		</footer>
 

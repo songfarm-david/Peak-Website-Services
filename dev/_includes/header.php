@@ -111,7 +111,6 @@
 			<a href="/" rel="home">
 				<img id="brand-logo" src="/_images/logo/peak_logo.png" alt="Peak Websites Logo">
 			</a>
-
 			<?php include_once('navigation.php') ?>
-
 		</header>
+		<!-- end of header include -->

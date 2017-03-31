@@ -1,6 +1,6 @@
 <?php
-$title = "Peak Website Services";
-$description = "Peak Website Services offers website development services, website maintenance services, and website optimization services for peak performers in business.";
+$title = "Peak Websites | Online Solutions for Business";
+$description = "Peak Websites is your website solutions company, offering website services that tackle the technical and search engine optimization needs of your business.";
 $h1 = $title;
 $h2 = "";
 $canonical = "https://peakwebsites.ca/";
