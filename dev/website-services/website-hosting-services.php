@@ -1,6 +1,6 @@
 <?php
 $title = "Website Hosting Services | Peak Website Services";
-$description = "Canadian hosted servers protect your privacy. Peak Website Services is your provider of safe, reliable, and secure web hosting. Learn about our costs and fees.";
+$description = "Host your website on our fast, reliable Canadian web servers and protect your data privacy. Peak Websites offers seamless web hosting for your online business needs.";
 $h1 = "Website Hosting Services";
 $h2 = "Website Hosting Service";
 $activePage = basename($_SERVER['PHP_SELF']);
@@ -12,7 +12,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">You can rely on us to keep your website safe and online</p>
-				<p>Host your website on our reliable, Canadian Web Servers and enjoy the comfort and peace of mind of guaranteed reliability and top-shelf industry protection on your websites.</p>
+				<p>Host your website on our reliable, Canadian Web Servers and enjoy the comfort and peace of mind of guaranteed reliability and top-shelf industry protection of your websites.</p>
 			</div>
 		</section>
 
@@ -33,7 +33,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		</section>
 
-		<p>Ready to take action? <a href="/contact.php">Contact Us today</a>!</p>
+		<p class="call-to-action">Ready to take action? <a href="/contact.php">Contact Us today</a>!</p>
 
 	</main>
 

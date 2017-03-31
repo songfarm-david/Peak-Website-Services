@@ -22,16 +22,19 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="service-types">
 			<h3>Website Optimization Services Include:</h3>
 			<ul>
-				<li>Web Strategy</li>
-				<li>Technical Optimization</li>
-				<li>Competitor Insights &amp; Analysis</li>
-				<li>Website Analytics</li>
-				<li>Targeted Keyword Research</li>
-				<li>Personalized Strategy Reports</li>
+				<!-- <li>Web Strategy</li> -->
+				<li>On-Page SEO</li>
+				<li>Competitor Research &amp; Analysis</li>
+				<!-- <li>Website Analytics</li> -->
+				<li>Keyword Research</li>
+				<!-- <li>Personalized Strategy Reports</li> -->
+				<!-- On-Page Optimization
+					This involves the careful review and optimization of on-page technical elements such as Page Title, Meta Description, H1s, Anchor Tags, Page URLS, and more..
+				-->
 			</ul>
 		</section>
 
-		<p>Trust Peak Websites to help you reach your online goals. <a href="/contact.php">Contact Us Today</a>.</p>
+		<p class="call-to-action"><a href="/contact.php">Start optimizing your online presence today</a>!</p>
 
 	</main>
 
