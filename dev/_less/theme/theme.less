@@ -3,37 +3,14 @@
 */
 
 /* import theme specific styles */
-@import 'nav';
 @import 'typography';
 @import 'animations';
 @import 'helper';
 @import 'colors';
+@import 'header';
+@import 'nav';
 
 
-.fixed-nav #brand-logo {
-	max-height: 4rem;
-	width: auto;
-	margin-top: 0.25rem;
-	margin-left: 0.25rem
-}
-
-header {
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	width: 100%;
-	#brand-logo {
-		float: left;
-		width: 5rem;
-		max-width: 10rem;
-		height: auto;
-		margin-left: 1rem/2.5;
-		margin-top: 1rem/2.5;
-		@media (min-width: 46em) {
-			margin-left: 1rem;
-		}
-	}
-}
 
 footer {
 	position: static;

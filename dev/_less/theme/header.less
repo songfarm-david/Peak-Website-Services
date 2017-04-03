@@ -1,0 +1,26 @@
+header {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	#brand-logo {
+		float: left;
+		width: 4.25rem;
+		margin: 0.15rem 0 0.15rem 0.25rem;
+	}
+	.fixed-nav #brand-logo {
+		max-height: 4rem;
+		width: auto;
+		margin-top: 0.25rem;
+		margin-left: 0.25rem
+	}
+	@media (min-width: 56.555em) { // is mobile break-point
+		#brand-logo {
+			width: 5rem;
+			max-width: 10rem;
+			height: auto;
+			margin-left: 1rem/2.5;
+			margin-top: 1rem/2.5;
+		}
+	}
+}

@@ -18,15 +18,9 @@
 }
 
 nav {
-	// position: static;
-	// clear: right;
-	// z-index: 1000;
 	display: block;
 	width: 100%;
 	.font-size(2);
-	// &::after {
-	// 	.clear-float;
-	// }
 	.navbar-header {
 		display: block;
 		height: auto;
@@ -82,14 +76,17 @@ nav {
 			}
 		}
 	}
+	/**
+		* Mobile Breakpoint (ems)
+		*
+		* From Hamburger Menu to Horizontal Display
+		*/
 	@media (min-width: 56.555em) {
 		position: absolute;
 		top: 0;
 		right: 0;
 		display: flex;
 		width: auto;
-		// .border;
-		// margin-right: @1-rem / @first-modular;
 		.navbar-header {
 			display: none;
 		}
