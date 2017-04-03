@@ -11,7 +11,6 @@
 @import 'nav';
 
 
-
 footer {
 	position: static;
 	width: 100%;
@@ -58,12 +57,9 @@ footer {
 	// }
 }
 
-
-
 html {
 	font-size: @theme-default-rem;
 	font-size: calc(@theme-default-rem * 1vw);
-
 	body {
 		font: @body-font;
 		font-size: @theme-default-em;
@@ -91,6 +87,7 @@ h6,
 	text-transform: capitalize;
 }
 p,
+a,
 span {
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	line-height: @line-height;
@@ -123,14 +120,13 @@ h1,
 
 /* links */
 a {
-	color: @hero-color;
 	transition: all 100ms ease-in;
 	&:link,
 	&:visited,
 	&:hover,
 	&:active,
 	&:focus {
-		color: @link-hover;
+		color: #000;
 		outline-width: 0;
 	}
 	&.active-link {
