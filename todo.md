@@ -7,6 +7,9 @@
 - add logo text *Peak Websites*
 - Complete and send in BBB form
 
+#Blog
+- add a subscribe to blog button in the website footer and perhaps somewhere on the blog.
+
 ## footer
 Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
 
