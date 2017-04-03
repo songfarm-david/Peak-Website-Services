@@ -20,7 +20,6 @@ module.exports = function(grunt) {
 				options : {
 					compress : false,
 					sourceMap : true,
-					sourceMapFilename : 'dev/_css/main.map.css',
 				},
 				files: [
 					{
