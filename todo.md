@@ -6,15 +6,16 @@
 - design and create a 404 page
 - add logo text *Peak Websites*
 - Complete and send in BBB form
+- Have a copy of fonts in case the internet goes down
+- Fix prod/includes/includes/ error
 
 #Blog
 - add a subscribe to blog button in the website footer and perhaps somewhere on the blog.
 
 ## footer
-Revisit footer and test for footer vendor dependencies and fallbacks. Found issue when working with jQuery. Unreliable fallback.
-
-* Have a copy of fonts in case the internet goes down!
-* make sure meta description on index.php is based on keywords
+- add social media links
+- add site map with *about* section "Peak Websites is a Search Engine Optimization Company as well as handling website development..."
+- Verify script/dependencies are valid. Test for fallbacks.
 
 #user experience testing
 * go through forms and such on ipad and iphones to see how the user experience is
