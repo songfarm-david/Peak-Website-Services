@@ -1,19 +1,19 @@
 # .gitignore
 
 .gitignore
+
 dev/_css/
-*.md
-!todo.md
-!CHANGELOG.md
-node_modules
+dev/_js/vendor/
 copy_scripts/
+
+services.md
+
+# 3rd-party dependencies
+node_modules
+
+# error fix
+prod/_includes/_includes/
+
+# misc
 Thumbs.db
 google1aee9f593bf6a34f.html
-colors-2.less
-compile.less
-index-critical.less
-queries.less
-
-# remove old global.less file
-_less/global.less
-prod/_includes/_includes/
