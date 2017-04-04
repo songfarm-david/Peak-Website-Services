@@ -1,7 +1,7 @@
 {
   "name": "Peak",
   "version": "1.0.0",
-  "description": "The body of code is designed as somewhat of a jumping-off point into building a fully fluid, grid-based and LESS enhanced development environment.",
+  "description": "Package.json for Peak Websites.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songfarm-david/Peak-Website-Services.git"
@@ -16,17 +16,13 @@
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-htmlmin": "^2.0.0",
-    "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-image": "^2.2.3",
-    "grunt-minify-html": "^2.1.0",
     "grunt-modernizr": "^1.0.2",
-    "grunt-pngmin": "^1.2.0",
     "grunt-postcss": "^0.8.0",
     "grunt-text-replace": "^0.4.0",
     "load-grunt-tasks": "^3.5.2"
-  }
+  },
 }

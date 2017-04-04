@@ -1,17 +1,21 @@
 module.exports = function(grunt) {
+
 	require('load-grunt-tasks')(grunt);
+
 	grunt.initConfig({
-		concat : {
-			options : {
-				separator : '\n\n//==================================================\n\n'
-			},
-			prod : {
-				files: {
-					'prod/_js/script.js': ['dev/_js/script.js','dev/_js/helper/*.js']
-				}
-			},
+		modernizr: {
+		  dist: {
+		    "dest" : "dev/_js/helper/modernizr-custom.js",
+		    "tests": [
+		      'flexbox'
+		    ],
+		    "options": [
+		      "setClasses"
+		    ],
+		    "uglify": true
+		  }
 		},
-		less : {
+		less: {
 			dev : {
 				options : {
 					compress : false,
@@ -41,10 +45,61 @@ module.exports = function(grunt) {
 				}
 			},
 		},
-		jshint : {
-			dev : ['gruntfile.js','dev/_js/*.js'],
+		postcss: {
+	    options: {
+	      map: false,
+	      processors: [
+	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+	      ],
+	    },
+	    dev: {
+	      src: ['dev/_css/*.css','!dev/_css/*.map.css'],
+	    },
+			prod: {
+				options: {
+					map: true
+				},
+				src: ['prod/_css/*.css','!prod/_css/*.map.css']
+			}
+	  },
+		uglify: {
+			options: {
+				mangle: true,
+				beautify: false,
+			},
+	    prod: {
+				files: [
+					{
+						expand: true,
+						cwd: 'dev/_js', 								// 'src' matches are relative to this path, the current working directory
+						src: ['**/*.js','!vendor/**'],	// Exclude the 'Vendor' dir
+						dest: 'prod/_js',								// Destination relative to gruntfile.js
+						ext: '.js'											// Destination filepaths will have this extension
+					}
+				],
+	    }
+	  },
+		concat: {
+			options : {
+				separator : '\n\n//==================================================\n\n'
+			},
+			prod : {
+				files: {
+					'prod/_js/script.js': ['dev/_js/script.js','dev/_js/helper/*.js']
+				}
+			},
 		},
-		watch : {
+		jshint: {
+			dev: {
+				options: {
+					force: true // do not fail task if js errors..
+				},
+				files: {
+					src: ['gruntfile.js','dev/_js/*.js']
+				},
+			},
+		},
+		watch: {
 			options : {
 				spawn: false,
 				livereload: true,
@@ -61,35 +116,8 @@ module.exports = function(grunt) {
 				files : ['dev/**/*.html','dev/**/*.php']
 			}
 		},
-		postcss: {
-	    options: {
-	      map: true,
-	      processors: [
-	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-	      ],
-	    },
-	    dev: {
-	      src: 'dev/_css/*.css',
-	    },
-			prod: {
-				src: ['prod/_css/*.css','!prod/_css/*.map.css']
-			}
-	  },
-		modernizr: {
-		  dist: {
-		    "dest" : "dev/_js/helper/modernizr-custom.js",
-		    "tests": [
-		      'flexbox'
-		    ],
-		    "options": [
-		      "setClasses"
-		    ],
-		    "uglify": true
-		  }
-		},
-		htmlmin : {
+		htmlmin: {
 			options : {
-				// collapseInlineTagWhitespace: true,
 				collapseWhitespace: true,
 				removeComments: true,
 				minifyCSS: true,
@@ -111,45 +139,8 @@ module.exports = function(grunt) {
         }],
 			}
 		},
-		uglify: {
-			options: {
-	      mangle: false,
-				beautify: true
-	    },
-	    prod: {
-	      files: {
-	        'prod/_js/script.js': 'dev/_js/script.js',
-					'prod/_js/contact-form.js' : 'dev/_js/contact-form.js'
-	      }
-	    }
-	  },
-		imagemin: {
-			static: {
-				files: {
-					// 'prod/_images/air-triangulated.jpg': 'dev/_images/air-triangulated.jpg',
-					// 'prod/_images/blue-ball.svg' : 'dev/_images/blue-ball.svg',
-					// 'prod/_images/peak-website-cover.jpg' : 'dev/_images/peak-website-cover.jpg'
-				}
-			},
-		},
-		// pngmin is not a default task
-		pngmin: {
-			compile: {
-				options: {
-					ext: '.png',
-					force: 'true',
-					expand: true
-				},
-				files: [
-					{
-						src: 'dev/_images/**/*.png',
-						dest: 'prod/_images/'
-					}
-				]
-			}
-		},
-		replace : {
-			build : {
+		replace: {
+			build: {
 				src: ['prod/_includes/*.php'],
 				dest: 'prod/_includes/',
 				replacements: [{
@@ -170,33 +161,17 @@ module.exports = function(grunt) {
 					to: '/process-form.php'
 				}]
 			},
-			/* Commented out as image path was changed to be relative to root directory */
-			// images: {
-			// 	src: 'prod/_css/index.css',
-			// 	dest: 'prod/_css/index.css',
-			// 	replacements: [{
-			// 		from: '../dev',
-			// 		to: ''
-			// 	}]
-			// }
 		}
 	}); // initConfig
 
-	// register tasks
-	// Default
-	grunt.registerTask('default',['less:dev','watch']); //,'postcss:dev'
+/**
+	* Development Task
+	*/
+	grunt.registerTask('default',['less:dev','postcss:dev','jshint','watch']);
 
-	// Prod
-	grunt.registerTask('prod',[
-		'modernizr',
-		'concat:prod',
-		'less:prod',
-		'postcss:prod',
-		// 'image',
-		'uglify',
-		'htmlmin:prod',
-		'replace',
+/**
+	* Production Task
+	*/
+	grunt.registerTask('prod',['modernizr','less:prod','postcss:prod','uglify','htmlmin:prod','replace']);
 
-	]);
-
-}; // wrapper function
+}; // module.exports
