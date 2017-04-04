@@ -18,7 +18,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<section class="service-types">
 			<h3>What Is a Web Host?</h3>
-			<p>You can think about a Web Host as where your website lives on the internet, like leasing an apartment for your website online. In more technical terms, website are placed onto special computers called <i>web servers</i> that serve up web pages to internet users when your page is requested.</p>
+			<p>You can think about a Web Host as where your website lives on the internet, like leasing an apartment for your website online.</p>
+			<p>In more technical terms, website are placed onto special computers called <i>web servers</i> that serve up web pages to internet users when your page is requested.</p>
 
 			<h3>Why Host Your Website on Canadian Soil?</h3>
 			<p>If you're at all concerned about the privacy of the information that is on your website then you will want to host your website in Canada, or in another country that <a href="https://www.whitehouse.gov/the-press-office/2017/03/28/statement-administration-policy-sjres-34-%E2%80%93-disapproving-federal" rel="nofollow" target="_blank">still protects your rights</a> to keeping your personal and sensitive data secure.</p>
