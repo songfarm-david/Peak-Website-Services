@@ -5,10 +5,6 @@ module.exports = function(grunt) {
 			options : {
 				separator : '\n\n//==================================================\n\n'
 			},
-			// dist : {
-			// 	src	: '/dev/_js/**/*.js',
-			// 	dest: '/dev/_js/script.js'
-			// },
 			prod : {
 				files: {
 					'prod/_js/script.js': ['dev/_js/script.js','dev/_js/helper/*.js']
@@ -35,7 +31,6 @@ module.exports = function(grunt) {
 				options : {
 					compress : true,
 					sourceMap : true,
-					sourceMapFilename : 'prod/_css/main.map.css',
 				},
 				files : {
 					'prod/_css/index.css' : 'dev/_less/index.less',
@@ -51,8 +46,8 @@ module.exports = function(grunt) {
 		},
 		watch : {
 			options : {
-				spawn : false,
-				livereload : true
+				spawn: false,
+				livereload: true,
 			},
 			scripts : {
 				files : ['dev/_js/**/*.js'],
