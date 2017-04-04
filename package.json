@@ -1,7 +1,7 @@
 {
   "name": "Peak",
   "version": "1.0.0",
-  "description": "Package.json for Peak Websites.",
+  "description": "Package.json for Peak Websites",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songfarm-david/Peak-Website-Services.git"
@@ -25,4 +25,5 @@
     "grunt-text-replace": "^0.4.0",
     "load-grunt-tasks": "^3.5.2"
   },
+  "dependencies": {}
 }

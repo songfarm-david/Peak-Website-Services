@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 		      "setClasses"
 		    ],
 		    "uglify": true
-		  }
+		  },
 		},
 		less: {
 			dev : {
@@ -36,13 +36,22 @@ module.exports = function(grunt) {
 					compress : true,
 					sourceMap : true,
 				},
-				files : {
-					'prod/_css/index.css' : 'dev/_less/index.less',
-					'prod/_css/contact.css' : 'dev/_less/contact.less',
-					'prod/_css/service-index.css' : 'dev/_less/service-index.less',
-					'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
-					'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
-				}
+				files: [
+					{
+						expand: true,
+						cwd: 'dev/_css', // 'src' matches are relative to this path
+						src: ['*.less'],	// Actual pattern(s) to match
+						dest: 'prod/_css',	// Destination relative to gruntfile.js
+						ext: '.css'				// Destination filepaths will have this extension
+					}
+				],
+				// files : {
+				// 	'prod/_css/index.css' : 'dev/_less/index.less',
+				// 	'prod/_css/contact.css' : 'dev/_less/contact.less',
+				// 	'prod/_css/service-index.css' : 'dev/_less/service-index.less',
+				// 	'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
+				// 	'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
+				// },
 			},
 		},
 		postcss: {
@@ -60,7 +69,7 @@ module.exports = function(grunt) {
 					map: true
 				},
 				src: ['prod/_css/*.css','!prod/_css/*.map.css']
-			}
+			},
 	  },
 		uglify: {
 			options: {
@@ -77,7 +86,7 @@ module.exports = function(grunt) {
 						ext: '.js'											// Destination filepaths will have this extension
 					}
 				],
-	    }
+	    },
 	  },
 		concat: {
 			options : {
@@ -114,7 +123,7 @@ module.exports = function(grunt) {
 			},
 			markUp : {
 				files : ['dev/**/*.html','dev/**/*.php']
-			}
+			},
 		},
 		htmlmin: {
 			options : {
@@ -137,7 +146,7 @@ module.exports = function(grunt) {
           src: ['**/*.php','_includes/*.php', '!blog/**'],
           dest: 'prod/'
         }],
-			}
+			},
 		},
 		replace: {
 			build: {
