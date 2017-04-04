@@ -31,15 +31,8 @@
 		<!-- If current page == contact page, load contact form javascript -->
 		<?php	echo $script = $_SERVER['PHP_SELF'] == '/contact.php' ? "<script src=\"_js/contact-form.js\"></script>" : "" ;?>
 
-		<!-- Google Analytics ID tracking since 10/23/2016. -->
-		<script>
-				(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-				function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-				e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-				e.src='https://www.google-analytics.com/analytics.js';
-				r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-				ga('create','UA-86141289-1','auto');ga('send','pageview');
-		</script>
+		<?php include('gA.php'); ?>
+
 		<!-- NOTE: for Grunt Live Reload Server -->
 		<script src="//localhost:35729/livereload.js"></script>
 	</body>
