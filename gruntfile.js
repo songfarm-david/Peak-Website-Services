@@ -31,29 +31,21 @@ module.exports = function(grunt) {
 					}
 				],
 			},
-			// prod : {
-			// 	options : {
-			// 		compress : true,
-			// 		sourceMap : true,
-			// 	},
-			// 	files: [
-			// 		{
-			// 			expand: true,
-			// 			cwd: 'dev/_css', // 'src' matches are relative to this path
-			// 			src: ['*.css','!blog.css'],	// Actual pattern(s) to match
-			// 			dest: 'prod/_css',	// Destination relative to gruntfile.js
-			// 			ext: '.css'				// Destination filepaths will have this extension
-			// 		}
-			// 	],
-			// 	// files : {
-			// 	// 	'prod/_css/index.css' : 'dev/_less/index.less',
-			// 	// 	'prod/_css/contact.css' : 'dev/_less/contact.less',
-			// 	// 	'prod/_css/service-index.css' : 'dev/_less/service-index.less',
-			// 	// 	'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
-			// 	// 	'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
-			// 	// },
-			// },
 		},
+		postcss: {
+	    options: {
+	      map: false,
+	      processors: [
+	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+	      ],
+	    },
+	    dev: {
+	      src: ['dev/_css/*.css']
+	    },
+			prod: {
+				src: ['prod/_css/*.css']
+			},
+	  },
 		cssmin: {
 			options: {
 				keepSpecialComments: 0 // removes comments from source files
@@ -68,23 +60,6 @@ module.exports = function(grunt) {
 		    }]
 		  }
 		},
-		postcss: {
-	    options: {
-	      map: false,
-	      processors: [
-	        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
-	      ],
-	    },
-	    dev: {
-	      src: ['dev/_css/*.css','!dev/_css/*.map.css'],
-	    },
-			prod: {
-				options: {
-					map: true
-				},
-				src: ['prod/_css/*.css','!prod/_css/*.map.css']
-			},
-	  },
 		uglify: {
 			options: {
 				mangle: true,
@@ -102,16 +77,6 @@ module.exports = function(grunt) {
 				],
 	    },
 	  },
-		concat: {
-			options : {
-				separator : '\n\n//==================================================\n\n'
-			},
-			prod : {
-				files: {
-					'prod/_js/script.js': ['dev/_js/script.js','dev/_js/helper/*.js']
-				}
-			},
-		},
 		jshint: {
 			dev: {
 				options: {
@@ -195,6 +160,6 @@ module.exports = function(grunt) {
 /**
 	* Production Task
 	*/
-	grunt.registerTask('prod',['modernizr','less:prod','postcss:prod','uglify','htmlmin:prod','replace']);
+	grunt.registerTask('prod',['modernizr','postcss:prod','cssmin','uglify','htmlmin:prod','replace']);
 
 }; // module.exports
