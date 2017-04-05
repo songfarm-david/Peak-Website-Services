@@ -9,53 +9,22 @@
 @import 'colors';
 @import 'header';
 @import 'nav';
+@import 'footer';
 
+/**
+	* Breakpoint
+	*/
+	@tablet-breakpoint: ~"min-width: 64em";
+	@desktop-breakpoint: ~"min-width: 84.444em";
+	@lg-desktop-breakpoint: ~"min-width: 98.4375em";
 
-footer {
-	position: static;
-	width: 100%;
-	bottom: 0;
-	z-index: -1;
-	font: @body-font;
-	text-align: center;
-	clear: both;
-	padding-top: @1-rem;
-	color: #fff;
-	#social-links {
-		ul {
-			margin-bottom: 0;
-			padding-left: 0;
-			text-align: center;
-			li {
-				display: inline-block;
-				.font-size(2);
-				padding: 12px 6px;
-				padding-bottom: 0;
-				margin-bottom: 0;
-				>a {
-					// .border;
-					color: lighten(@hero-color,10%);
-				}
-			}
-		}
-	}
-	#copyright {
-		text-align: center;
-		width: 100%;
-		.base(padding,0.5);
-		span {
-			.font-size(0);
-			color: inherit;
-		}
-	}
-	// @media (min-width: 48em) {
-	// 	position: fixed;
-	// 	ul {
-	// 		position: relative;
-	// 		top: 15px;
-	// 	}
-	// }
-}
+/**
+	* Content Width
+	*/
+	@tablet-content-width: ~"54em";
+	@desktop-content-width: ~"64em";
+	@lg-desktop-content-width: ~"70em";
+
 
 html {
 	font-size: @theme-default-rem;
@@ -87,7 +56,6 @@ h6,
 	text-transform: capitalize;
 }
 p,
-a,
 span {
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	line-height: @line-height;
@@ -155,7 +123,7 @@ ol,
 dl {
 	margin-top: @1-rem/2;
 	margin-bottom: unit(@line-height, rem);
-	padding-left: unit(@line-height, rem);
+	padding-left: 0;
 	list-style: none;
 	.font-size(1);
 	ul,
@@ -179,7 +147,7 @@ blockquote {
 	font-style: italic;
 	font-size: 100% * @first-modular;
 	border-left: 5px solid @hero-color;
-	.base(padding,0.3);
+	padding: 0.5rem;
 	padding-left: @1-rem;
 	line-height: @first-modular;
 }
