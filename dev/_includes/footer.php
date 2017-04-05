@@ -18,8 +18,6 @@
 					<li><a href="/contact.php" title="Request a Free Assessment">Free Assessment</a></li>
 					<li><a href="mailto:david@peakwebsites.ca?subject=Well,%20Hello!" title="Send us an email">Email Us</a></li>
 				</ul>
-				<br>
-				<hr style="clear:both;">
 			</article>
 			<section id="social-links">
 				<h4 class="at-only">Social Links</h4>

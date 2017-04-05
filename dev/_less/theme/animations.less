@@ -1,7 +1,7 @@
 /**
-* Animation Styles
-*	- generally a list of CSS animations that can be applied
-*/
+	* Animation Styles
+	*	A list of CSS animations that can be applied to elements
+	*/
 @keyframes fadeInUp {
 	0% {
 		transform: translateY(@2-rem);
@@ -13,11 +13,41 @@
 	}
 }
 .fadeInUp {
-	animation: fadeInUp 1.8s .23s ease-out forwards;
-	animation-fill-mode: both;
+animation: fadeInUp 1.8s .23s ease-out forwards;
+animation-fill-mode: both;
+}
+
+/**
+	* Theme Transition
+	*/
+.theme-transition {
+	transition: all .25s ease-out;
+	position: relative;
+}
+/**
+	* Theme Scale
+	*/
+.theme-scale-up {
+	transform: scale(1.25);
+	position: relative;
+	z-index: 10000;
+}
+/**
+	* Used to animate modal dropdown
+	*/
+@-webkit-keyframes animateTop {
+    from {top: -300px; opacity: 0}
+    to {top: 35%; opacity: 1}
+}
+@keyframes animateTop {
+    from {top: -300px; opacity: 0}
+    to {top: 35%; opacity: 1}
 }
 
 
+/**
+	* Spin element 360 degrees and move horizontally
+	*/
 @keyframes rollIn {
 	0% {
 		transform: translateX(-100%) rotateZ(180deg) ;
@@ -32,29 +62,10 @@
 	animation: rollIn 1.25s;
 }
 
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-.fadeIn {
-	animation: fadeIn 1s .1s ease-out;
-	animation-fill-mode: both;
-}
-// @keyframes fadeInRight {
-// 	0% {
-// 		transform: translateX(@1-rem * 3);
-// 		opacity: 0;
-// 	}
-// 	100% {
-// 		transform: translateX(0);
-// 		opacity: 1;
-// 	}
-// }
+/**
+	* Repeating slow "bounce" effect
+	* Used, typically, for arrows
+	*/
 @keyframes bounce {
 	0% {
 		transform: translateY(15%);
@@ -62,53 +73,4 @@
 	100% {
 		transform: translateY(-15%);
 	}
-}
-
-/* grows/bounces in */
-@keyframes grow {
-	0% {
-		transform: scale(.5);
-		opacity: .25;
-	}
-	50% {
-		transform: scale(1.15);
-	}
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
-}
-
-/* attach classes to elements */
-.grow-1 {
-	animation: grow .75s backwards;
-}
-.grow-2 {
-	animation: grow .75s backwards;
-	animation-delay: .1s;
-}
-.grow-3 {
-	animation: grow .75s backwards;
-	animation-delay: .2s;
-}
-.grow-4 {
-	animation: grow .75s backwards;
-	animation-delay: .3s;
-}
-
-/* animation classes */
-
-// .fadeInRight {
-// 	animation: fadeInRight 1.8s 1.2s ease-out both;
-// }
-
-
-/** used to animate modal dropdown */
-@-webkit-keyframes animateTop {
-    from {top: -300px; opacity: 0}
-    to {top: 35%; opacity: 1}
-}
-@keyframes animateTop {
-    from {top: -300px; opacity: 0}
-    to {top: 35%; opacity: 1}
 }

@@ -9,12 +9,12 @@ footer {
 	padding-top: @1-rem;
 	color: #fff;
 	#sitemap {
+		border-bottom: 1px solid #cccccc;
 		ul {
 			padding: 0 0.5em;
 			.sitemap-title {
 				margin-bottom: 0.5rem;
 				.font-size(1);
-				// text-decoration: underline;
 				font-weight: bold;
 			}
 			li:not(.sitemap-title) {
@@ -43,6 +43,16 @@ footer {
 				>a {
 					.font-size(2.8);
 					color: inherit;
+					>i {
+					/**
+						* See 'animations.less'
+						*/
+						.theme-transition();
+					}
+					&:hover >i{
+						.theme-scale-up();
+						color: #fff;
+					}
 				}
 			}
 		}
@@ -61,18 +71,16 @@ footer {
 	*/
 	@media (@tablet-breakpoint) {
 		#sitemap {
-			padding: 1rem 0;
+			padding: 1rem 0 2rem;
 			width: @tablet-content-width;
-			margin: 0 auto;
+			margin: 0 auto 2rem;
+			overflow: hidden;
 			ul {
 				float: left;
 				width: 33%;
 				>.sitemap-title {
 					.font-size(1.25);
 				}
-				// >li:not(.sitemap-title) {
-				// 	text-align: left;
-				// }
 			}
 		}
 		#social-links,
@@ -81,16 +89,28 @@ footer {
 		}
 	}
 	@media (@desktop-breakpoint) {
+		padding-top: 3rem;
 		#sitemap {
 			width: @desktop-content-width;
-			hr {
-				margin-top: 1rem;
+			ul {
+				li.sitemap-title {
+					.font-size(1.5);
+				}
+				li:not(.sitemap-title) > a{
+					.font-size(1.25);
+				}
 			}
+		}
+		#social-links ul li >a {
+			.font-size(3.3);
 		}
 	}
 	@media (@lg-desktop-breakpoint) {
 		#sitemap {
 			width: @lg-desktop-content-width;
+		}
+		#social-links ul li >a {
+			.font-size(3.6);
 		}
 	}
 }

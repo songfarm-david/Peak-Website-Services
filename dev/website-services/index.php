@@ -17,7 +17,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<meta itemprop="serviceType" content="Websites Services">
 				<div class="row">
 					<div class="col col-3">
-						<a href="/website-services/website-development-services.php">
+						<a href="/website-services/website-development-services.php" class="service-link">
 							<section data-id="service-development" class="service-section">
 								<h2 class="hide">Website Development Services</h2>
 								<h3 class="green-bg" data-name="service-title">Development</h3>
@@ -28,7 +28,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</div>
 
 					<div class="col col-3">
-						<a href="/website-services/website-optimization-services.php">
+						<a href="/website-services/website-optimization-services.php" class="service-link">
 							<section data-id="service-optimization" class="service-section">
 								<h2 class="hide">Website Optimization Services</h2>
 								<h3 class="purple-bg" data-name="service-title">Optimization</h3>
@@ -39,7 +39,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</div>
 
 					<div class="col col-3">
-						<a href="/website-services/website-hosting-services.php">
+						<a href="/website-services/website-hosting-services.php" class="service-link">
 							<section data-id="service-hosting" class="service-section">
 								<h2 class="hide">Website Hosting Services</h2>
 								<h3 class="orange-bg" data-name="service-title">Hosting</h3>
@@ -50,7 +50,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</div>
 
 					<div class="col col-3">
-						<a href="/website-services/website-maintenance-services.php">
+						<a href="/website-services/website-maintenance-services.php" class="service-link">
 							<section data-id="service-maintenance" class="service-section">
 								<h2 class="hide">Website Maintenance Services</h2>
 								<h3 class="blue-bg" data-name="service-title">Maintenance</h3>

@@ -54,6 +54,17 @@ main#website-services {
 				text-decoration: none;
 				display: block;
 			}
+		/**
+			*
+			*/
+			a.service-link {
+				.theme-transition();
+				&:hover {
+					.theme-scale-up();
+					transform: scale(1.1);
+					box-shadow: 1px 1px 12px 3px #337592;
+				}
+			}
 			@media (min-width: 46em ) {
 				padding-left: 1rem;
 				padding-right: 1rem;
@@ -212,18 +223,4 @@ main#website-services {
 	@media (min-height: 56em) and (min-width: @grid-breakpoint){
 		height: 100vh;
 	}
-}
-
-/* particular background colors for each service section */
-#service-display section[data-id="service-development"] {
-	background-color: #fbfffb;
-	.grow-1();
-}
-#service-display section[data-id="service-maintenance"] {
-	background-color: #f2fdff;
-	.grow-2();
-}
-#service-display section[data-id="service-optimization"] {
-	background-color: #fbf8ff;
-	.grow-3();
 }
