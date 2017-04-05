@@ -1,21 +1,17 @@
 #todo
-- Add social links to footer (facebook, twitter, google plus)
-- develop content schedule and strategy
-- add about section with a bio and photo
-- add a business phone number?
+- Write `About` section "Peak Websites is a Search Engine Optimization Company as well as handling website development..."
 - design and create a 404 page
 - add logo text *Peak Websites*
 - Complete and send in BBB form
+- Verify child-theme styles and functions working properly
+- Review Contact.php page
+- Add private *Resume* page
 - Have a copy of fonts in case the internet goes down
 - Fix prod/includes/includes/ error
+- Verify script/dependencies in footer are valid. Test for fallbacks.
 
 #Blog
 - add a subscribe to blog button in the website footer and perhaps somewhere on the blog.
-
-## footer
-- add social media links
-- add site map with *about* section "Peak Websites is a Search Engine Optimization Company as well as handling website development..."
-- Verify script/dependencies are valid. Test for fallbacks.
 
 #user experience testing
 * go through forms and such on ipad and iphones to see how the user experience is
