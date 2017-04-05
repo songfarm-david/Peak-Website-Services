@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 			dev : {
 				options : {
 					compress : false,
-					sourceMap : true,
+					sourceMap : false,
 				},
 				files: [
 					{
@@ -31,28 +31,42 @@ module.exports = function(grunt) {
 					}
 				],
 			},
-			prod : {
-				options : {
-					compress : true,
-					sourceMap : true,
-				},
-				files: [
-					{
-						expand: true,
-						cwd: 'dev/_css', // 'src' matches are relative to this path
-						src: ['*.less'],	// Actual pattern(s) to match
-						dest: 'prod/_css',	// Destination relative to gruntfile.js
-						ext: '.css'				// Destination filepaths will have this extension
-					}
-				],
-				// files : {
-				// 	'prod/_css/index.css' : 'dev/_less/index.less',
-				// 	'prod/_css/contact.css' : 'dev/_less/contact.less',
-				// 	'prod/_css/service-index.css' : 'dev/_less/service-index.less',
-				// 	'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
-				// 	'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
-				// },
+			// prod : {
+			// 	options : {
+			// 		compress : true,
+			// 		sourceMap : true,
+			// 	},
+			// 	files: [
+			// 		{
+			// 			expand: true,
+			// 			cwd: 'dev/_css', // 'src' matches are relative to this path
+			// 			src: ['*.css','!blog.css'],	// Actual pattern(s) to match
+			// 			dest: 'prod/_css',	// Destination relative to gruntfile.js
+			// 			ext: '.css'				// Destination filepaths will have this extension
+			// 		}
+			// 	],
+			// 	// files : {
+			// 	// 	'prod/_css/index.css' : 'dev/_less/index.less',
+			// 	// 	'prod/_css/contact.css' : 'dev/_less/contact.less',
+			// 	// 	'prod/_css/service-index.css' : 'dev/_less/service-index.less',
+			// 	// 	'prod/_css/service-pages.css' : 'dev/_less/service-pages.less',
+			// 	// 	'prod/_css/portfolio.css' : 'dev/_less/portfolio.less'
+			// 	// },
+			// },
+		},
+		cssmin: {
+			options: {
+				keepSpecialComments: 0 // removes comments from source files
 			},
+		  target: {
+		    files: [{
+		      expand: true,
+		      cwd: 'dev/_css',
+		      src: ['*.css', '!*.map.css'],
+		      dest: 'prod/_css',
+		      ext: '.css'
+		    }]
+		  }
 		},
 		postcss: {
 	    options: {
