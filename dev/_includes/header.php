@@ -23,7 +23,6 @@
 				document.head.appendChild(wf);
 			})();
 		</script>
-
 		<!-- conditional & critical CSS here -->
 		<?php
 			$css;
@@ -92,7 +91,6 @@
 				fclose($css);
 			}
 		?>
-
 		<link rel="image_src" href="_images/branding/peak-website-cover.jpg">
 		<!-- Google ReCAPTCHA  -->
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>

@@ -28,12 +28,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</div>
 
 					<div class="col col-3">
-						<a href="/website-services/website-maintenance-services.php">
-							<section data-id="service-maintenance" class="service-section">
-								<h2 class="hide">Website Maintenance Services</h2>
-								<h3 class="blue-bg" data-name="service-title">Maintenance</h3>
-								<p>We look after your website while you look after your business. Simple.</p>
-								<button class="blue-bg">Learn More</button>
+						<a href="/website-services/website-optimization-services.php">
+							<section data-id="service-optimization" class="service-section">
+								<h2 class="hide">Website Optimization Services</h2>
+								<h3 class="purple-bg" data-name="service-title">Optimization</h3>
+								<p>Professional Web Optimization for reaching your online business goals.</p>
+								<button class="purple-bg">Learn More</button>
 							</section>
 						</a>
 					</div>
@@ -48,16 +48,18 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							</section>
 						</a>
 					</div>
+
 					<div class="col col-3">
-						<a href="/website-services/website-optimization-services.php">
-							<section data-id="service-optimization" class="service-section">
-								<h2 class="hide">Website Optimization Services</h2>
-								<h3 class="purple-bg" data-name="service-title">Optimization</h3>
-								<p>Professional Web Optimization for reaching your online business goals.</p>
-								<button class="purple-bg">Learn More</button>
+						<a href="/website-services/website-maintenance-services.php">
+							<section data-id="service-maintenance" class="service-section">
+								<h2 class="hide">Website Maintenance Services</h2>
+								<h3 class="blue-bg" data-name="service-title">Maintenance</h3>
+								<p>We look after your website while you look after your business. Simple.</p>
+								<button class="blue-bg">Learn More</button>
 							</section>
 						</a>
 					</div>
+
 				</div>
 			</div>
 		</section>

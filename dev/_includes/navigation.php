@@ -19,9 +19,9 @@
 				<div class="collapse navbar-collapse" id="sub-menu-1">
 					<ul class="dropdown-content">
 						<li><a href="/website-services/website-development-services.php">Website Development</a></li>
-						<li><a href="/website-services/website-maintenance-services.php">Website Maintenance</a></li>
-						<li><a href="/website-services/website-hosting-services.php">Website Hosting</a></li>
 						<li><a href="/website-services/website-optimization-services.php">Website Optimization</a></li>
+						<li><a href="/website-services/website-hosting-services.php">Website Hosting</a></li>
+						<li><a href="/website-services/website-maintenance-services.php">Website Maintenance</a></li>
 					</ul>
 				</div>
 			</li>
