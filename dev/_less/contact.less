@@ -172,21 +172,17 @@
 	@media (min-width: 67.5em) {
 		padding-top: 3em*@first-modular;
 		h1, p {
-			max-width: 80%;
 			margin-left: auto;
 			margin-right: auto;
 		}
 		h1 {
-			.font-size(4.5);
-
+			.font-size(4);
 			margin-bottom: 0.5rem;
 		}
 		p {
 			.font-size(2.25);
 			margin-bottom: 2.5rem;
-			max-width: 75%;
 		}
-
 		#contact-form {
 			fieldset {
 				padding-top: 1em;
@@ -197,8 +193,17 @@
 		}
 	}
 	@media (min-width: 79.75em) {
+		>div .headline {
+			width: 74em;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0 1em;
+			>p {
+				width: 75%;
+			}
+		}
 		h1 {
-			.font-size(4.75);
+			.font-size(4.2);
 			max-width: none;
 		}
 		#contact-form {
@@ -215,7 +220,7 @@
 	@media (min-width: 102.5em) {
 		padding-top: 5em*@first-modular;
 		h1 {
-			.font-size(5);
+			.font-size(4.4);
 			width: auto;
 		}
 		#contact-form {
