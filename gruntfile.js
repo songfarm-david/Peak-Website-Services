@@ -139,7 +139,12 @@ module.exports = function(grunt) {
 					// remove live reload script from production
 					from: '<script src="//localhost:35729/livereload.js"></script>',
 					to: ''
-				}]
+				},
+				// {
+				// 	from: '../functions.php',
+				// 	to: 'functions.php'
+				// }
+			]
 			},
 			contactform: {
 				src: 'prod/contact.php',
@@ -149,7 +154,16 @@ module.exports = function(grunt) {
 					to: '/process-form.php'
 				}]
 			},
+		},
+		copy: {
+			build: {
+				cwd: 'dev/',
+				expand: true, // 'expand: true' required when using option 'cwd'
+				src: ['functions.php'],
+				dest: 'prod/'
+			}
 		}
+
 	}); // initConfig
 
 /**

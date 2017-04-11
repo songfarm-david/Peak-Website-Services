@@ -30,3 +30,9 @@
 ###4.6 - Incorporate WP blog into project
 
 ###4.7 - Edit Landing Page
+
+###4.7.1 - Add initial Favicon
+- Bug: Favicon HTML is loading .png with white background color. Should be transparent
+
+###4.7.2 - Grunt copy
+- Update Gruntfile to include Copy task
