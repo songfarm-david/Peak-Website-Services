@@ -23,7 +23,11 @@
 				document.head.appendChild(wf);
 			})();
 		</script>
-		<!-- conditional & critical CSS here -->
+		<!-- Generate Favicon HTML -->
+		<?php include ('../functions.php');
+			generateFavicon();
+		 ?>
+		<!-- Print Conditional CSS -->
 		<?php
 			$css;
 
