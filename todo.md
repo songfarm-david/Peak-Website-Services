@@ -1,10 +1,7 @@
 #todo
 - Write `About` section "Peak Websites is a Search Engine Optimization Company as well as handling website development..."
-- design and create a 404 page
 - add logo text *Peak Websites*
-- Complete and send in BBB form
-- Verify child-theme styles and functions working properly
-- Review Contact.php page
+- design and create a 404 page
 - Add private *Resume* page
 - Have a copy of fonts in case the internet goes down
 - Fix prod/includes/includes/ error
@@ -17,8 +14,6 @@
 * go through forms and such on ipad and iphones to see how the user experience is
 * browser test the website in IE7 and test for fallbacks.
 * minimize production svgs
-* clean up style sheets
-* refactor colors
 
 ##link building
 1. Complete passable website version
