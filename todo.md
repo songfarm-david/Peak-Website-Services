@@ -1,4 +1,11 @@
 #todo
+- Favicon - troubleshoot favicon icon across IE - ensure transparent background
+- Expand SEO Content page
+	1. Content Strategy
+	2. On-Site Optimization
+	3. Local Search Optimization
+	4. Link building
+	5. Technical SEO 
 - Write `About` section "Peak Websites is a Search Engine Optimization Company as well as handling website development..."
 - add logo text *Peak Websites*
 - design and create a 404 page
