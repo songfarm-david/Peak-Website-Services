@@ -24,9 +24,7 @@
 			})();
 		</script>
 		<!-- Generate Favicon HTML -->
-		<?php include ('../functions.php');
-			generateFavicon();
-		 ?>
+		<?php include('functions.php'); generateFavicons(); ?>
 		<!-- Print Conditional CSS -->
 		<?php
 			$css;
