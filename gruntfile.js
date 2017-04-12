@@ -139,12 +139,7 @@ module.exports = function(grunt) {
 					// remove live reload script from production
 					from: '<script src="//localhost:35729/livereload.js"></script>',
 					to: ''
-				},
-				// {
-				// 	from: '../functions.php',
-				// 	to: 'functions.php'
-				// }
-			]
+				}]
 			},
 			contactform: {
 				src: 'prod/contact.php',
@@ -157,11 +152,21 @@ module.exports = function(grunt) {
 		},
 		copy: {
 			build: {
-				cwd: 'dev/',
-				expand: true, // 'expand: true' required when using option 'cwd'
-				src: ['functions.php'],
-				dest: 'prod/'
-			}
+				files: [
+					{
+						cwd: 'dev/',
+						expand: true, // 'expand: true' required when using option 'cwd'
+						src: ['functions.php'],
+						dest: 'prod/',
+					},
+					{
+						cwd: 'dev/',
+						expand: true, // 'expand: true' required when using option 'cwd'
+						src: ['blog/**'],
+						dest: 'prod/'
+					},
+				]
+			},
 		}
 
 	}); // initConfig
@@ -174,6 +179,6 @@ module.exports = function(grunt) {
 /**
 	* Production Task
 	*/
-	grunt.registerTask('prod',['modernizr','postcss:prod','cssmin','uglify','htmlmin:prod','replace']);
+	grunt.registerTask('prod',['modernizr','postcss:prod','cssmin','uglify','htmlmin:prod','replace','copy:build']);
 
 }; // module.exports
