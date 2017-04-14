@@ -9,143 +9,22 @@
  Tags:         one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
  Text Domain:  twenty-seventeen-child
 */
-footer {
-  position: static;
-  width: 100%;
-  bottom: 0;
-  z-index: -1;
-  font: normal 400 1rem/1.4 'Raleway', Tahoma, sans-serif;
-  text-align: center;
-  clear: both;
-  padding-top: 1.4rem;
-  color: #fff;
-	background-color: #385f7e;
+
+/**
+	* Import footer styles
+	*/
+	@import 'style-footer.css';
+
+/**
+	* Alter height of Custom Header to be shorter
+	*/
+.has-header-image.home.blog .custom-header {
+	height: 30vh;
 }
-footer ul {
-	list-style: none;
-}
-footer #sitemap {
-  border-bottom: 1px solid #cccccc;
-}
-footer #sitemap ul {
-  padding: 0 0.5em;
-}
-footer #sitemap ul .sitemap-title {
-  margin-bottom: 0.5rem;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-footer #sitemap ul li:not(.sitemap-title) {
-  margin-bottom: 0;
-}
-footer #sitemap ul li:not(.sitemap-title) > a {
-  color: #ddd;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-footer #sitemap ul li:not(.sitemap-title) > a:hover {
-  text-decoration: underline;
-}
-footer #social-links ul {
-  margin-bottom: 0;
-  padding-left: 0;
-  text-align: center;
-}
-footer #social-links ul li {
-  display: inline-block;
-  padding: 12px 6px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-footer #social-links ul li > a {
-  font-size: 2.6rem;
-  color: inherit;
-}
-footer #social-links ul li > a > i {
-  /**
-						* See 'animations.less'
-						*/
-  transition: all 0.25s ease-out;
-  position: relative;
-}
-footer #social-links ul li > a:hover > i {
-  transform: scale(1.25);
-  position: relative;
-  z-index: 10000;
-  color: #fff;
-}
-footer #copyright {
-  text-align: center;
-  width: 100%;
-  padding: 0.5em;
-}
-footer #copyright span {
-  font-size: 1rem;
-  color: inherit;
-}
-@media (min-width: 64em) {
-  footer #sitemap {
-    padding: 1rem 0 2rem;
-    width: 54em;
-    margin: 0 auto 2rem;
-    overflow: hidden;
-  }
-  footer #sitemap ul {
-    float: left;
-    width: 33%;
-  }
-  footer #sitemap ul > .sitemap-title {
-    font-size: 1.5rem;
-  }
-  footer #social-links,
-  footer #copyright {
-    clear: left;
-  }
-}
-@media (min-width: 84.444em) {
-  footer {
-    padding-top: 3rem;
-  }
-  footer #sitemap {
-    width: 64em;
-  }
-  footer #sitemap ul li.sitemap-title {
-    font-size: 1.7rem;
-  }
-  footer #sitemap ul li:not(.sitemap-title) > a {
-    font-size: 1.5rem;
-  }
-  footer #social-links ul li > a {
-    font-size: 3rem;
-  }
-}
-@media (min-width: 98.4375em) {
-  footer #sitemap {
-    width: 70em;
-  }
-  footer #social-links ul li > a {
-    font-size: 3.4rem;
-  }
-}
-.at-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-.at-only-focusable:active,
-.at-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-}
+
+/**
+	* Remove fix-width footer wrapper
+	*/
 footer .wrap {
 	max-width: none;
 }

@@ -18,7 +18,12 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
-				<?php include ('../_includes/footer.php'); ?>
+				<?php
+					/**
+					 	* Include Peak Footer
+						*/
+						include ('../_includes/include-parts/footer-elements.php');
+					?>
 				<?php
 					get_template_part( 'template-parts/footer/footer', 'widgets' );
 
