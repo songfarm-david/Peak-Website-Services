@@ -1,3 +1,10 @@
+@import 'typography';
+@import '../base/vars';
+@import 'helper';
+@import 'colors';
+@import '../base/calcs';
+@import 'animations';
+
 footer {
 	position: static;
 	width: 100%;
@@ -8,10 +15,12 @@ footer {
 	clear: both;
 	padding-top: @1-rem;
 	color: #fff;
+	background-color: @hero-color;
 	#sitemap {
 		border-bottom: 1px solid #cccccc;
 		ul {
 			padding: 0 0.5em;
+			list-style: none;
 			.sitemap-title {
 				margin-bottom: 0.5rem;
 				.font-size(1);
