@@ -2,8 +2,8 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.min.js" async defer><\/script>')</script>
 
-<!-- Font Awesome -->
-<script src="https://use.fontawesome.com/ff486a1dc9.js"></script>
+<!-- Include font awesome javascript -->
+<?php include (__DIR__ . '/../include-scripts/font-awesome.php'); ?>
 
 <!-- modernizr-custom -->
 <script type="text/javascript" src="/_js/helper/modernizr-custom.js" async defer></script>

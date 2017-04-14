@@ -1,4 +1,3 @@
-<footer>
 	<article id="sitemap" class="sitemap">
 		<ul>
 			<li class="sitemap-title">Company</li>
@@ -35,4 +34,3 @@
 		<br>
 		<span>All Rights Reserved.</span>
 	</div>
-</footer>
