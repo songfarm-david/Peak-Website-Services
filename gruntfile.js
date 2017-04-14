@@ -28,6 +28,10 @@ module.exports = function(grunt) {
 						src: ['*.less'],	// Actual pattern(s) to match
 						dest: 'dev/_css',	// Destination relative to gruntfile.js
 						ext: '.css'				// Destination filepaths will have this extension
+					},
+					{
+						src: 'dev/_less/theme/footer.less',
+						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-footer.css'
 					}
 				],
 			},
@@ -156,7 +160,7 @@ module.exports = function(grunt) {
 					{
 						cwd: 'dev/',
 						expand: true, // 'expand: true' required when using option 'cwd'
-						src: ['functions.php'],
+						src: ['functions.php','peakLogo.ico'],
 						dest: 'prod/',
 					},
 					{
