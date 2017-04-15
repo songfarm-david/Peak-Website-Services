@@ -24,7 +24,7 @@
 			})();
 		</script>
 		<!-- Generate Favicon HTML -->
-		<?php include('functions.php'); generateFavicons(); ?>
+		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/functions.php'); generateFavicons(); ?>
 		<!-- Print Conditional CSS -->
 		<?php
 			$css;
@@ -109,7 +109,8 @@
 		<header>
 			<h1 class="hide"><?php echo $h1; ?></h1>
 			<a href="/" rel="home">
-				<img id="brand-logo" src="/_images/logo/peak_logo.png" alt="Peak Websites Logo">
+				<img class="brand-logo" src="/_images/logo/peak_logo.png" alt="Peak Websites Logo">
+				<span class="brand-title">Peak Websites</span>
 			</a>
 			<?php include_once('navigation.php') ?>
 		</header>

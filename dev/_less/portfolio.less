@@ -13,7 +13,7 @@ main#portfolio-main {
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	padding-top: 5rem;
 	#portfolio {
 		padding: 2.5rem*@first-modular 0.5rem;
 		max-width: 100rem;
@@ -28,10 +28,6 @@ main#portfolio-main {
 			.font-size(3);
 			color: darken(@hero-color, 5%);
 			font-weight: 700;
-		}
-		.portfolio-main.portfolio-main-description {
-			.font-size(1.5);
-			margin-bottom: 2rem;
 			&::after {
 				/** add visible corner to bottom of description **/
 				content: "";
@@ -42,6 +38,11 @@ main#portfolio-main {
 				position: relative;
 				bottom: -1rem * @first-modular;
 			}
+		}
+		.portfolio-main.portfolio-main-description {
+			.font-size(1.5);
+			margin-bottom: 2rem;
+
 		}
 
 		/** iFrame is connected to portfolio links/thumbnails **/

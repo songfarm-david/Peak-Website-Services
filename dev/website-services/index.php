@@ -5,7 +5,7 @@ $h1 = "Peak Website Services";
 $h2 = "";
 $activePage = basename($_SERVER['PHP_SELF']);
 ?>
-<?php require_once('../_includes/header.php') ?>
+<?php require_once(__DIR__ . '/../_includes/header.php'); ?>
 
 	<main id="website-services">
 
