@@ -106,12 +106,8 @@
 		<meta itemprop="provider" content="Peak Websites Services">
 		<meta itemprop="keywords" content="website services, website development services, website maintenance services, website optimization services">
 
-		<header>
+		<header class="pk-site-header">
 			<h1 class="hide"><?php echo $h1; ?></h1>
-			<a href="/" rel="home">
-				<img class="brand-logo" src="/_images/logo/peak_logo.png" alt="Peak Websites Logo">
-				<span class="brand-title">Peak Websites</span>
-			</a>
-			<?php include_once('navigation.php') ?>
+			<?php require ('include-parts/header-elements.php'); ?>
 		</header>
 		<!-- end of header include -->

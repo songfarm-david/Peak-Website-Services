@@ -10,6 +10,15 @@
  Text Domain:  twenty-seventeen-child
 */
 
+
+/**
+	* Import header styles
+	*/
+	@import 'style-header.css';
+/**
+	* Import nav styles
+	*/
+	@import 'style-nav.css';
 /**
 	* Import footer styles
 	*/
@@ -18,8 +27,12 @@
 /**
 	* Alter height of Custom Header to be shorter
 	*/
-.has-header-image.home.blog .custom-header {
+/*.has-header-image.home.blog .custom-header {
 	height: 30vh;
+}*/
+
+.custom-header {
+	display: none;
 }
 
 /**

@@ -32,6 +32,14 @@ module.exports = function(grunt) {
 					{
 						src: 'dev/_less/theme/footer.less',
 						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-footer.css'
+					},
+					{
+						src: 'dev/_less/theme/header.less',
+						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-header.css'
+					},
+					{
+						src: 'dev/_less/theme/nav.less',
+						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-nav.css'
 					}
 				],
 			},

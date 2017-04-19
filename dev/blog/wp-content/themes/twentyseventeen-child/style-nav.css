@@ -1,0 +1,453 @@
+/**
+* Typography
+*/
+/* Common font fallback*/
+/* fallbacks, see http://ffffallback.com/ */
+html {
+  line-height: 1.4;
+}
+html body {
+  font-family: 'Raleway', Tahoma, sans-serif;
+  font-weight: 400;
+}
+/* WebFontLoader plugin, see: https://www.sitepoint.com/improve-page-performance-font-loader/ */
+/**
+* Headers
+******************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', Tahoma, sans-serif;
+}
+/*
+* THEME VARIABLES
+**/
+/* minimum viewport width */
+/* line-height */
+/* Modular Scales */
+/* Global font sizing */
+/**
+	* Breakpoint
+	*/
+/**
+	* Content Width
+	*/
+/**
+* Helper Classes
+* - common theme classes that roll up a bunch on styles into one
+*/
+/* page container (deprecated) */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+@media (min-width: 40em) {
+  .container {
+    width: 34em;
+  }
+}
+@media (min-width: 48em) {
+  .container {
+    width: 42em;
+  }
+}
+/* transform effect: grow on hover */
+.growOnHover {
+  transition: all 0.25s ease-in-out;
+}
+.growOnHover:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transform-origin: center;
+  box-shadow: 1px 1px 15px 3px #555;
+}
+/* Debugging Tool */
+/* visibility classes */
+.hide {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+/* Make content only available for Assistive Technologies */
+.at-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.at-only-focusable:active,
+.at-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.clear-float {
+  content: '';
+  display: table;
+  clear: both;
+}
+.box-shadow {
+  box-shadow: 0px 3px 5px 2px #385f7e;
+}
+/**
+	* Targets only IE 10 & 11
+	* Removes troublesome background svg image
+	*
+	* source: http://www.mediacurrent.com/blog/write-conditional-css-ie10-and-11
+	*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #complicated-web,
+  #portfolio-main {
+    background-image: none !important;
+    background-color: #fff !important;
+  }
+}
+/**
+* Theme Colors
+*/
+/* helper names */
+/*
+* LESS Calculations
+* - specific helper functions for quick modularity
+*/
+/* Scale Font */
+/* NOTE: deprecated */
+/**
+	* Animation Styles
+	*	A list of CSS animations that can be applied to elements
+	*/
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(2.8rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeInUp {
+  animation: fadeInUp 1.8s 0.23s ease-out forwards;
+  animation-fill-mode: both;
+}
+/**
+	* Theme Transition
+	*/
+.theme-transition {
+  transition: all 0.25s ease-out;
+  position: relative;
+}
+/**
+	* Theme Scale
+	*/
+.theme-scale-up {
+  transform: scale(1.25);
+  position: relative;
+  z-index: 10000;
+}
+/**
+	* Used to animate modal dropdown
+	*/
+@-webkit-keyframes animateTop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 35%;
+    opacity: 1;
+  }
+}
+@keyframes animateTop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 35%;
+    opacity: 1;
+  }
+}
+/**
+	* Spin element 360 degrees and move horizontally
+	*/
+@keyframes rollIn {
+  0% {
+    transform: translateX(-100%) rotateZ(180deg);
+    opacity: .25;
+  }
+  100% {
+    transform: translateX(0) rotateZ(0deg);
+    opacity: 1;
+  }
+}
+.rollIn {
+  animation: rollIn 1.25s;
+}
+/**
+	* Repeating slow "bounce" effect
+	* Used, typically, for arrows
+	*/
+@keyframes bounce {
+  0% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(-15%);
+  }
+}
+/**
+ 	* Navigation Styles
+	*/
+nav {
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  /**
+		* Mobile Breakpoint (ems)
+		*
+		* From Hamburger Menu to Horizontal Display
+		*/
+}
+nav .navbar-header {
+  display: block;
+  height: auto;
+  width: 100%;
+  /**
+	 	 * Hamburger Menu
+		 */
+}
+nav .navbar-header button {
+  display: block;
+  height: 100%;
+  width: auto;
+  float: right;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  background: transparent;
+  margin-right: 0.378rem;
+}
+nav .navbar-header button span.icon-bar {
+  width: 2.2652rem;
+  height: 3px;
+  background-color: #385f7e;
+  display: block;
+  margin: 0;
+  margin: .5rem .5rem;
+}
+nav .navbar-header button:hover {
+  cursor: pointer;
+}
+nav .navbar-collapse {
+  clear: both;
+}
+nav .navbar-collapse ul {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 3px 5px 2px #385f7e;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+}
+nav ul li {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  color: #385f7e;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 56.555em) {
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: auto;
+  }
+  nav .navbar-header {
+    display: none;
+  }
+  nav .navbar-collapse ul {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  nav .collapse {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    background-color: transparent;
+    margin-right: 0;
+  }
+  nav ul li {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav ul li a {
+    padding: 1.4rem 1.5rem;
+    height: auto;
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  nav ul li a:hover::after {
+    content: "";
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: -1.618%;
+    height: 5px;
+    color: #385f7e;
+    background-color: #385f7e;
+  }
+  nav ul li.dropdown-btn {
+    position: relative;
+  }
+  nav ul li.dropdown-btn ul.dropdown-content {
+    position: absolute;
+    left: 5000%;
+    opacity: .25;
+    height: auto;
+    display: block;
+    width: auto;
+    top: 78px;
+    transition: opacity 100ms ease-in;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  }
+  nav ul li.dropdown-btn ul.dropdown-content li {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+    width: 100%;
+  }
+  nav ul li.dropdown-btn ul.dropdown-content li a {
+    padding: 1rem 1.4rem;
+    line-height: 1.4;
+  }
+  nav ul li.dropdown-btn:hover ul.dropdown-content,
+  nav ul li.dropdown-btn:focus ul.dropdown-content {
+    left: 0;
+    opacity: 1;
+    width: auto;
+  }
+}
+.fixed-nav,
+.nav-visible {
+  background-color: #385f7e;
+  height: 73px;
+  animation: fadeIn 0.5s 0.1s ease-in both;
+  box-shadow: 0px 1px 1px 2px rgba(56, 95, 126, 0.5);
+}
+.fixed-nav #primary-nav a,
+.nav-visible #primary-nav a {
+  color: #eee;
+}
+.fixed-nav #primary-nav a:hover,
+.nav-visible #primary-nav a:hover {
+  background-color: #fff;
+  color: #28445b;
+}
+.fixed-nav #primary-nav ul.dropdown-content,
+.nav-visible #primary-nav ul.dropdown-content {
+  background-color: #fff;
+  color: #385f7e;
+  top: 76px;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a,
+.nav-visible #primary-nav ul.dropdown-content li a {
+  color: inherit;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a:hover,
+.nav-visible #primary-nav ul.dropdown-content li a:hover {
+  opacity: 1;
+  color: #eee;
+  background-color: #385f7e;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a::after,
+.nav-visible #primary-nav ul.dropdown-content li a::after {
+  width: 100%;
+  height: 0px;
+}
+.fixed-nav #primary-nav ul.dropdown-content li:hover,
+.nav-visible #primary-nav ul.dropdown-content li:hover {
+  background-color: #fff;
+}
+/**
+ * Navigation 'Active' Styles
+ */
+.nav-active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.nav-active::after {
+  content: "";
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: -1.618%;
+  height: 5px;
+  color: #385f7e;
+  background-color: #385f7e;
+}
+/**
+ * Nav styles when .fixed-nav is applied
+ */
+.fixed-nav .nav-active,
+.nav-visible .nav-active {
+  background-color: #fff;
+}
+.collapse {
+  display: none;
+}
+.collapse.in {
+  display: block;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-duration: .35s;
+  transition-timing-function: ease-out;
+}
+button.navbar-toggle:focus {
+  outline: 0;
+}
+@media (min-width: 56.555em) {
+  .collapse {
+    display: block;
+  }
+}
