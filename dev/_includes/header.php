@@ -8,21 +8,7 @@
 		<?php echo $canon = ( !empty( $canonical ) ) ? "<link rel=\"canonical\" href=\"" . $canonical . "\">\n" : ""; ?>
 		<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
 		<!-- WebFontLoader: https://www.sitepoint.com/improve-page-performance-font-loader/ -->
-		<script type="text/javascript">
-			var WebFontConfig = {
-				google: {
-					families: [ 'Raleway:300,400,700,800,900' ]
-				},
-				timeout: 4000
-			};
-			(function(){
-				var wf = document.createElement("script");
-				wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-					'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-				wf.async = 'true';
-				document.head.appendChild(wf);
-			})();
-		</script>
+		<?php include ( $_SERVER['DOCUMENT_ROOT'] . '/_includes/include-scripts/webFont-loader.php'); ?>
 		<!-- Generate Favicon HTML -->
 		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/functions.php'); generateFavicons(); ?>
 		<!-- Print Conditional CSS -->
