@@ -25,6 +25,9 @@ add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
  * Load Additional scripts
  */
 function load_custom_scripts() {
+  /**
+   * Load Font Awesome from source
+   */
   wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/ff486a1dc9.js' );
 }
 add_action( 'wp_enqueue_scripts', 'load_custom_scripts' );
@@ -33,7 +36,7 @@ add_action( 'wp_enqueue_scripts', 'load_custom_scripts' );
  * Load Google Analytics in the Footer
  */
 function load_googleAnalytics() {
-  include( '../_includes/include-parts/google-analytics.php' );
+  include( $_SERVER['DOCUMENT_ROOT'] . '/_includes/include-scripts/google-analytics.php' );
 }
 add_action( 'wp_footer', 'load_googleAnalytics' );
 ?>
