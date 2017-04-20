@@ -22,7 +22,7 @@
 		<h4 class="at-only">Social Links</h4>
 		<ul>
 			<li><a href="https://www.facebook.com/peakwebsiteservices/" target="_blank" title="Facebook: Peak Websites"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://twitter.com/peak_websites" title="Twitter: Peak Websites"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+			<li><a href="https://twitter.com/peak_website" title="Twitter: Peak Websites"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 			<!-- <li><a href="https://github.com/songfarm-david/"><i class="fa fa-github" aria-hidden="true"></i></a></li> -->
 			<!-- <li><a href="http://stackexchange.com/users/3476745/peak"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li> -->
 			<li><a href="https://www.linkedin.com/in/david-gaskin-75339b134/" target="_blank" title="LinkedIn: Peak Websites"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
