@@ -33,6 +33,14 @@ function load_custom_scripts() {
 add_action( 'wp_enqueue_scripts', 'load_custom_scripts' );
 
 /**
+ * Include WebFont-loader Script into Header
+ */
+function webFont_loader() {
+  include( $_SERVER['DOCUMENT_ROOT'] . '/_includes/include-scripts/webFont-loader.php' );
+}
+add_action( 'wp_head', 'webFont_loader' );
+
+/**
  * Load Google Analytics in the Footer
  */
 function load_googleAnalytics() {
