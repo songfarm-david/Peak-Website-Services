@@ -1,5 +1,5 @@
 <?php $activePage = $_SERVER['PHP_SELF']; ?>
-<nav class="navbar">
+<nav class="navbar pk-site-nav">
 	<h2 class="hide">Main Navigation</h2>
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">

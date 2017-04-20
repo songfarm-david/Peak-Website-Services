@@ -38,9 +38,9 @@
 /**
 	* Remove fix-width footer wrapper
 	*/
-footer .wrap {
+/*footer .wrap {
 	max-width: none;
-}
+}*/
 
 .site-content {
 	padding: 9.5em 0 0; /* added 4em to padding-top */
