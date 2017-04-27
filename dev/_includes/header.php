@@ -28,10 +28,10 @@
 			/**
 				* If Blog
 				*/
-			if ( $_SERVER['PHP_SELF'] == '/dummyblog/dummyblog.php' ) {
+			if ( $_SERVER['PHP_SELF'] == '/about.php' ) {
 				// load critical css.
-				$stylesheet = fopen("../_css/blog.css",'r');
-				echo '<style>' . fread( $stylesheet, filesize( "../_css/blog.css" ) ) . '</style>';
+				$stylesheet = fopen("_css/about.css",'r');
+				echo '<style>' . fread( $stylesheet, filesize( "_css/about.css" ) ) . '</style>';
 				fclose( $stylesheet );
 			}
 
