@@ -138,38 +138,19 @@ blockquote {
 	line-height: @first-modular;
 }
 
-// .cta-link {
-// 	display: block;
-// 	border: 1px solid transparent;
-// 	.base(margin,top,@first-modular);
-// 	text-transform: capitalize;
-// }
+/**
+ * Uniform container width
+ */
+.theme-container {
+	max-width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-// .fixed-nav {
-// 	background-color: fadeout(#fff,20%);
-// 	height: 73px;
-// 	animation: fadeIn .5s .23s ease-in both; // temporary animation
-// 	nav #primary-nav .dropdown-content {
-// 		background-color: fadeout(#fff,20%);
-// 		color: @hero-color;
-// 		opacity: .8;
-// 		li {
-// 			a {
-// 				color: inherit;
-// 				&:hover {
-// 					opacity: 1;
-// 				}
-// 				&::after {
-// 					width: 100%;
-// 					height: 0px;
-// 				}
-// 			}
-// 			&:hover {
-// 				background-color: #fff;
-// 			}
-// 		}
-// 	}
-// }
-// .nav-visible {
-// 	&:extend(.fixed-nav all);
-// }
+
+/**
+ * Page CTA (call-to-action)
+ */
+ .page-cta {
+	 text-transform: capitalize;
+ }

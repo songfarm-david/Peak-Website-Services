@@ -45,3 +45,7 @@
 .site-content {
 	padding: 9.5em 0 0; /* added 4em to padding-top */
 }
+
+header.pk-site-header {
+	position: relative;
+}
