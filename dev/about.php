@@ -1,68 +1,35 @@
 <?php
-$title = "About | Peak Website Services";
-$description = "Peak Website Services is an affordable solution for an exceptional online presence. Website development, website maintenance, website optimization and more.";
+$title = "Peak Websites | About Us";
+$description = "";
 $activePage = basename($_SERVER['PHP_SELF']);
-$h1 = $title;
+$h1 = "About Us";
+$h2;
 ?>
 <?php require_once('_includes/header.php') ?>
 
-	<main>
-		<section id="about-page">
-			<h2 class="hide">About Us</h2>
-			<div class="container">
-				<p class="headline">
-					<span class="hero">Leave the</span> technical <span class="hero">work</span> of building and maintaining a website <span class="hero">to us</span>.
-				</p>
-				<p>
-					Peak Website Services is a professional website services company catering to small-to-medium size businesses. We offer website design and <a href="/website-services/website-development-services.php">development</a> services, including logo creation and branding; we also offer dedicated services for <a href="/website-services/website-maintenance-services.php">maintaining</a> and <a href="/website-services/website-optimization-services.php">optimizing</a> one's online presence.
-				</p>
-				<p>
-					Learn more about our <a href="/website-services/">Website Services</a>.
-				</p>
-			</div>
-		</section>
-		<!-- Core Values -->
-		<section id="about" class="hide">
-			<h2 class="hide">Why Choose Us</h2>
-			<div class="container">
-				<div id="about-intro">
-					<p>
-						There are a few web companies out there, so..<br> <span class="effect">why work with us?</span>
-					</p>
-				</div>
-				<!-- benefits key list -->
-				<ul id="key-list">
-					<li>Eye on the Bigger Picture
-						<p>
-							While there are many steps along the way, we always keep top of mind your business goals.
-						</p>
-					</li>
-					<li>Attention to Detail
-						<p>
-							Because it's the little things that make the biggest difference, quality always comes before quantity.
-						</p>
-					</li>
-					<li>Translate your Vision into Beautiful Reality
-						<p>
-							We balance creativity with industry best practices to deliver high-quality products that reflect the uniqueness of your business.
-						</p>
-					</li>
-					<li>Personal Service and Attention
-						<p>
-							Choosing to work with a smaller client-base means we're always just a phone call away.
-						</p>
-					</li>
-				</ul><!--/ benefits key list -->
+	<main role="main">
 
-				<p id="about-cta">
-					<a href="/peak/about.php">Read More About Us</a>
-				</p>
+		<section id="about" class="pk-about">
+			<div>
+				<h1 class="page-title"><?php echo $h1; ?></h1>
+				<p class="page-sub-title">We take care of the online aspect of your business.</p>
 
+				<p class="para">Peak Websites is a full-service Website Development and Search Engine Optimization (<abbr title="Search Engine Optimization">SEO</abbr>) company based in Victoria, BC, Canada.</p>
+
+				<p class="para">We are a small, personalized and dedicated firm that works with business owners around the world to provide 360&deg; solutions for online business.</p>
+
+				<p class="para">These services include website development and design, website management and maintenance, hosting, as well as strategy internet marketing and SEO. We are your only people you need to call when it comes to your website.</p>
+
+				<!-- With proven results in creating websites and improving website's exposure online, we are the only people you need to call when it comes to your website -->
+
+				<p class="para">Our mission is to help business owners achieve their business goals by facilitating a peak presence online.</p>
+
+				<p><a href="/contact.php" class="page-cta">Contact Us</a></p>
 			</div>
+
+
 		</section>
+
 	</main>
 
-
-
-
-		<?php require_once('_includes/footer.php') ?>
+<?php require_once('_includes/footer.php') ?>

@@ -1,37 +1,97 @@
-// // main styles for /about.php
-// /* this is a different about page */
-// #about-page {
-// 	height: auto;
-// 	background-color: @background-color;
-// 	background-image: url(../_images/backgrounds/circle-mess-multi.svg);
-// 	.base(padding,.5/@first-modular);
-// 	.base(padding,top,1*@second-modular);
-// 	.base(padding,bottom,1);
-// 	.headline {
-// 		font: @header-font;
-// 		color: @pewter-blue;
-// 		.font-size(3);
-// 		line-height: 1.1;
-// 		.hero {
-// 			font-size: inherit;
-// 			line-height: inherit;
-// 			color: #fff;
-// 		}
-// 		text-shadow: -1px 1px 2px @hero-color;
-// 	}
-// 	p {
-// 		color: @hero-color;
-// 	}
-// 	p:last-child {
-// 		font-weight: bold;
-// 		.base(margin,top,1);
-// 		a:hover {
-// 			color: #fff;
-// 		}
-// 	}
-// 	.box-shadow();
-// 	@media (@sm-query) {
-// 		height: 100vh;
-// 		.base(padding,top,4);
-// 	}
-// }
+/**
+	* Index.php (Landing Page)
+	*
+ 	* Import base styles
+	*/
+	@import 'base/base.less';
+	@import 'theme/theme.less';
+
+	main {
+		section#about {
+			padding-top: 5rem;
+			background: #fff;
+			>div {
+				padding: 2.5rem*@first-modular 0.5rem;
+				.theme-container();
+			}
+			.page-title {
+				color: darken(@hero-color, 5%);
+				.font-size(3);
+				&::after {
+					/** add visible corner to bottom of description **/
+					content: "";
+					display: block;
+					height: 3px;
+					width: 3%;
+					background-color: @hero-color;
+					position: relative;
+					bottom: -1rem * @first-modular;
+				}
+			}
+			.page-sub-title {
+				margin-top: 2em;
+			}
+			.page-cta {
+				font-weight: bold;
+				color: @hero-color;
+				.font-size(1.15);
+			}
+			/**
+			 *
+			 */
+			 	@media (min-width: 56.555em) {
+	 				.page-title {
+						.font-size(3.5);
+	 				}
+					p {
+						.font-size(1.15);
+					}
+		 		}
+				@media (@tablet-breakpoint) {
+					>div {
+						width: @tablet-content-width;
+					}
+					.page-title {
+						.font-size(4);
+					}
+					p {
+						.font-size(1.3);
+					}
+					.page-cta {
+						.font-size(1.45);
+					}
+				}
+			@media (@desktop-breakpoint) {
+				>div {
+					width: @desktop-content-width;
+					padding-bottom: 5em;
+				}
+				.page-title {
+					.font-size(4.2);
+				}
+				p {
+					.font-size(1.5);
+				}
+				.page-cta {
+					.font-size(1.65);
+				}
+			}
+			@media (@lg-desktop-breakpoint) {
+				>div {
+					width: @lg-desktop-content-width;
+				}
+				.page-title {
+					.font-size(4.5);
+				}
+				p {
+					.font-size(2);
+				}
+				.page-cta {
+					.font-size(2.15);
+					margin: 2em 0;
+					padding-bottom: 1em;
+				}
+			}
+		}
+
+	}
