@@ -36,3 +36,7 @@
 
 ###4.7.2 - Grunt copy
 - Update Gruntfile to include Copy task
+
+###4.9 -
+- Introduce the About section
+- Create a more templated systematic styles for faster development
