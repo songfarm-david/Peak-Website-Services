@@ -40,3 +40,6 @@
 ###4.9 -
 - Introduce the About section
 - Create a more templated systematic styles for faster development
+
+###5.0
+- Fiddling with using uniform text resizing with the implementation of em-based sizing. This is readily visible on the home page (individual services)
