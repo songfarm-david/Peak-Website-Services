@@ -16,22 +16,25 @@ footer.pk-site-footer {
 	padding-top: @1-rem;
 	color: #fff;
 	background-color: @hero-color;
+	font-size: 1.4em;
 	#sitemap {
 		border-bottom: 1px solid #cccccc;
 		ul {
+			font-size: 1em;
 			padding: 0 0.5em;
 			list-style: none;
 			.sitemap-title {
 				margin-bottom: 0.5rem;
-				.font-size(1);
+				// .font-size(1);
 				font-weight: bold;
+				font-size: 1em;
 			}
 			li:not(.sitemap-title) {
 				margin-bottom: 0;
 				>a {
 					color: #ddd;
 					text-decoration: none;
-					.font-size(.75);
+					font-size: 1em;
 					&:hover {
 						text-decoration: underline;
 					}
@@ -50,7 +53,7 @@ footer.pk-site-footer {
 				padding-bottom: 0;
 				margin-bottom: 0;
 				>a {
-					.font-size(2.8);
+					// .font-size(2.8);
 					color: inherit;
 					>i {
 					/**
@@ -70,8 +73,8 @@ footer.pk-site-footer {
 		text-align: center;
 		width: 100%;
 		padding: 0.5em;
+		font-size: .65em;
 		span {
-			.font-size(0);
 			color: inherit;
 		}
 	}
@@ -81,17 +84,18 @@ footer.pk-site-footer {
 	@media (@tablet-breakpoint) {
 		#sitemap {
 			padding: 1rem 0 2rem;
-			width: @tablet-content-width;
+			// width: @tablet-content-width;
+			max-width: @tablet-content-width;
 			margin: 0 auto 2rem;
 			overflow: hidden;
 			ul {
 				float: left;
 				width: 33%;
 				>li.sitemap-title {
-					.font-size(1.5);
+					// .font-size(1.5);
 				}
 				li:not(.sitemap-title) > a{
-					.font-size(1.25);
+					// .font-size(1.25);
 				}
 			}
 		}
@@ -102,19 +106,21 @@ footer.pk-site-footer {
 	}
 	@media (@desktop-breakpoint) {
 		padding-top: 3rem;
+		font-size: 1.6em;
+
 		#sitemap {
 			width: @desktop-content-width;
 			ul {
 				li.sitemap-title {
-					.font-size(1.75);
+					// .font-size(1.75);
 				}
 				li:not(.sitemap-title) > a{
-					.font-size(1.5);
+					// .font-size(1.5);
 				}
 			}
 		}
 		#social-links ul li >a {
-			.font-size(3.3);
+			// .font-size(3.3);
 		}
 	}
 	@media (@lg-desktop-breakpoint) {
@@ -122,7 +128,7 @@ footer.pk-site-footer {
 			width: @lg-desktop-content-width;
 		}
 		#social-links ul li >a {
-			.font-size(3.8);
+			// .font-size(3.8);
 		}
 	}
 }

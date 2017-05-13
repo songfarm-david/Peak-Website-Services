@@ -1,7 +1,7 @@
 	<article id="sitemap" class="sitemap">
 		<ul>
 			<li class="sitemap-title">Company</li>
-			<li><a href="/about.php" title="About Peak Websites">About</a></li>
+			<li><a href="/about.php" title="About Peak Websites">About Us</a></li>
 			<li><a href="/portfolio/" title="Peak Websites Portfolio">Portfolio</a></li>
 			<li><a href="/blog/" title="Peak Website's Blog">Blog</a></li>
 		</ul>

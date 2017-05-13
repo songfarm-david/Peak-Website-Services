@@ -48,15 +48,19 @@ header.pk-site-header {
 			 .brand-title {
 				 display: block;
 				 height: 100%;
-				 .font-size(3.3);
-				//  padding-left: 5rem;
 				 color: @hero-color;
-				 font-weight: lighter;;
+				 font-weight: lighter;
+				 font-size: 2.25em;
 			 }
 		 }
 	 }
 }
 .fixed-nav {
+	background-color: @hero-color;
+	height: 73px;
+	transition: @transition;
+	animation: fadeIn 0.25s .1s ease-in both; // temporary animation
+	box-shadow: 1px 1px 1px 2px fadeout(#333, 50%);
 	.brand-logo {
 		max-height: 4rem;
 		width: auto;
@@ -64,6 +68,43 @@ header.pk-site-header {
 		margin-left: 0.25rem
 	}
 	.brand-title {
-		color: white;
+		color: white !important;
+	}
+	#primary-nav {
+		a {
+			color: #eee;
+			&:hover {
+				background-color: #fff;
+				color: darken(@hero-color, 10%);
+			}
+		}
+		ul.dropdown-content {
+		background-color: #fff;
+		color: @hero-color;
+		top: 76px;
+		li {
+			a {
+				color: inherit;
+				&:hover {
+					opacity: 1;
+					color: #eee;
+					background-color: @hero-color;
+				}
+				&::after {
+					width: 100%;
+					height: 0px;
+				}
+			}
+			&:hover {
+				background-color: #fff;
+			}
+		}
+		}
+		span.icon-bar {
+			background-color: white !important;
+		}
+	}
+	span.icon-bar {
+		background-color: white !important;
 	}
 }

@@ -16,7 +16,7 @@
 /**
 	* Content Width
 	*/
-	@tablet-content-width: ~"54em";
+	@tablet-content-width: ~"50em";
 	@desktop-content-width: ~"64em";
 	@lg-desktop-content-width: ~"70em";
 
@@ -73,7 +73,7 @@
 		margin: 1.5em auto 0;
 		text-transform: capitalize;
 		letter-spacing: 1px;
-		.font-size(1);
+		// .font-size(1);
 		font-weight: bold;
 		color: @hero-color;
 		background-color: none;
@@ -89,24 +89,24 @@
 			color: #fff;
 		}
 	}
-	a#down-arrow {
-		position: absolute;
-		bottom: 2rem;
-		left: 0;
-		right: 0;
-		margin: auto;
-		background-image: url(/_images/icons/down-arrow.svg);
-		background-repeat: no-repeat;
-		background-color: transparent;
-		box-shadow: none;
-		height: 4rem;
-		width: 4rem;
-		display: none;
-		animation: bounce 1.2s infinite alternate both;
-		&:hover {
-			cursor: pointer;
-		}
-	}
+	// a#down-arrow {
+	// 	position: absolute;
+	// 	bottom: 2rem;
+	// 	left: 0;
+	// 	right: 0;
+	// 	margin: auto;
+	// 	background-image: url(/_images/icons/down-arrow.svg);
+	// 	background-repeat: no-repeat;
+	// 	background-color: transparent;
+	// 	box-shadow: none;
+	// 	height: 4rem;
+	// 	width: 4rem;
+	// 	display: none;
+	// 	animation: bounce 1.2s infinite alternate both;
+	// 	&:hover {
+	// 		cursor: pointer;
+	// 	}
+	// }
 	@media (max-height: 40.88em) {
 		height: 480px;
 		height: 100vh;
@@ -131,10 +131,6 @@
 		}
 		a {
 			.font-size(1.75);
-			// margin-top: 1rem;
-			// // width: 40%;
-			// color: darken(@sea-green,10%);
-			// background-color: fadeout(#fff,90%);
 		}
 
 	}
@@ -203,52 +199,45 @@
 	* Landing Page, 2nd Section
 	*/
 	#business-top + section {
-		background: #fff;
-		// padding: 2rem 0.5rem;
-		color: @hero-color;
 		text-align: center;
-		div.panel {
+		color: @hero-color;
+		background: #fff;
+		.panel {
 			padding: 2em 0.5em 1em;
 		}
-		div.panel.color-1 {
+		.panel.color-1 {
 			background: @hero-color;
-			border-bottom: 1px solid darken(@hero-color, 5%);
 		}
-		div.panel.color-2 {
+		.panel.color-2 {
 			background: #f3f7fb;
-		}
-		h2 {
-			.font-size(3.2);
-			+ .sub-header {
-				margin-bottom: 2rem*@first-modular;
-			}
-		}
-		h3 {
-			.font-size(2.5);
-		}
-		p,
-		a {
-			.font-size(1.3);
+			border-bottom: 1px solid darken(#f3f7fb, 5%);
 		}
 		a {
 			display: block;
 			color: inherit;
 			font-weight: bold;
 			margin-bottom: 2.5rem*@first-modular;
-			// .border;
+		}
+		#intro-copy,
+		#cta-banner {
+			padding: 2.5em 0;
 		}
 		#intro-copy {
 			color: #fff;
+			text-align: center;
+			h2 {
+				.h3;
+				margin-top: 0;
+			}
 		}
 		#cta-banner {
-			.font-size(1.5);
+			text-align: center;
 			p, a {
-				font-size: inherit;
-				font-weight: bold;
+				.h3;
 			}
-			p,
-			a {
-				text-align: center;
+			p {
+				font-weight: lighter;
+				margin-top: 0;
 			}
 		}
 	/**
@@ -256,68 +245,47 @@
 		*/
 		@media (@tablet-breakpoint) {
 			text-align: left;
-
-			div.container {
+			.container {
 				width: @tablet-content-width;
 				margin: 0 auto;
-				#intro-copy,
-				#cta-banner {
-					text-align: center;
-					p,
-					a {
-						.font-size(2.1);
-					}
-				}
-				#intro-copy {
-					margin: 2.25rem*@first-modular auto 3.5rem*@first-modular;
-				}
-				#cta-banner {
-					// margin-top: 3.5rem * @first-modular;
-					padding: 2em 0;
-				}
-				p, a {
-					.font-size(1.5);
-				}
 				a {
-					margin-top: 1rem;
+					margin-top: 1em*@first-modular;
 				}
 			}
-			// div.container.item {
-			// 	padding: 2em 0 1em;
-			// }
+			#intro-copy,
+			#cta-banner,
+			.panel-inner {
+				font-size: 1.2em;
+			}
+			#cta-banner {
+				padding: 2em 0;
+			}
+
 		}
 	/**
 		* Desktop Breakpoint
 		*/
 		@media (@desktop-breakpoint) {
-			div.container {
+			.container {
 				width: @desktop-content-width;
+			}
+			#intro-copy,
+			#cta-banner,
+			.panel-inner {
+				font-size: 1.3em;
 			}
 		}
 	/**
 		* Large Desktop Breakpoint
 		*/
 		@media (@lg-desktop-breakpoint) {
-			div.container {
-				width: 80em;
-				p, a {
-					.font-size(1.8);
-				}
-				#intro-copy {
-					text-align: center;
-					margin-bottom: 2.5rem * @first-modular;
-					width: @lg-desktop-content-width;
-					h2 {
-						.font-size(3.9);
-					}
-				}
-				#intro-copy,
-				#cta-banner {
-					p,
-					a {
-						.font-size(2.4);
-					}
-				}
+			.container {
+				width: @lg-desktop-content-width;
+			}
+			#intro-copy,
+			#cta-banner,
+			.panel-inner {
+				font-size: 1.35em;
 			}
 		}
 	}

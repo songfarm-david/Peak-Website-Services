@@ -294,7 +294,10 @@ footer.pk-site-footer #copyright span {
     float: left;
     width: 33%;
   }
-  footer.pk-site-footer #sitemap ul > .sitemap-title {
+  footer.pk-site-footer #sitemap ul > li.sitemap-title {
+    font-size: 1.7rem;
+  }
+  footer.pk-site-footer #sitemap ul li:not(.sitemap-title) > a {
     font-size: 1.5rem;
   }
   footer.pk-site-footer #social-links,
@@ -310,10 +313,10 @@ footer.pk-site-footer #copyright span {
     width: 64em;
   }
   footer.pk-site-footer #sitemap ul li.sitemap-title {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   footer.pk-site-footer #sitemap ul li:not(.sitemap-title) > a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   footer.pk-site-footer #social-links ul li > a {
     font-size: 3rem;
@@ -324,6 +327,6 @@ footer.pk-site-footer #copyright span {
     width: 70em;
   }
   footer.pk-site-footer #social-links ul li > a {
-    font-size: 3.4rem;
+    font-size: 3.6rem;
   }
 }
