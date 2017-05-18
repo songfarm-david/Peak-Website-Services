@@ -32,7 +32,7 @@ $canonical = "https://peakwebsites.ca/";
 				</div>
 			</div>
 
-			<article class="panel" id="testimonials">
+			<!-- <article class="panel" id="testimonials">
 				<h2 class="hide">Testimonials</h2>
 				<div class="row">
 					<div class="col-3">
@@ -44,7 +44,7 @@ $canonical = "https://peakwebsites.ca/";
 						<p class="testimonial-cite">Nancy Crites</p>
 					</div>
 				</div>
-			</article>
+			</article> -->
 
 			<div class="panel">
 				<div class="container item">

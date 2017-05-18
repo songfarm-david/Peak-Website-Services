@@ -20,8 +20,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<a href="/website-services/website-development-services.php" class="service-link">
 							<section data-id="service-development" class="service-section">
 								<h2 class="hide">Website Development Services</h2>
-								<h3 class="green-bg" data-name="service-title">Development</h3>
-								<p>In-House Developers and Programmers tend to the needs of your website.</p>
+								<h3 class="green-bg service-title" data-name="service-title">Development</h3>
+								<p>Creating a new website or developing the one you've got. We can help!</p>
 								<button class="green-bg">Learn More</button>
 							</section>
 						</a>
@@ -31,7 +31,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<a href="/website-services/website-optimization-services.php" class="service-link">
 							<section data-id="service-optimization" class="service-section">
 								<h2 class="hide">Website Optimization Services</h2>
-								<h3 class="purple-bg" data-name="service-title">Optimization</h3>
+								<h3 class="purple-bg service-title" data-name="service-title">Optimization</h3>
 								<p>Professional Web Optimization for reaching your online business goals.</p>
 								<button class="purple-bg">Learn More</button>
 							</section>
@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<a href="/website-services/website-hosting-services.php" class="service-link">
 							<section data-id="service-hosting" class="service-section">
 								<h2 class="hide">Website Hosting Services</h2>
-								<h3 class="orange-bg" data-name="service-title">Hosting</h3>
+								<h3 class="orange-bg service-title" data-name="service-title">Hosting</h3>
 								<p>Website hosting on our private, safe, and reliable web servers in Canada.</p>
 								<button class="orange-bg">Learn More</button>
 							</section>
@@ -53,7 +53,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<a href="/website-services/website-maintenance-services.php" class="service-link">
 							<section data-id="service-maintenance" class="service-section">
 								<h2 class="hide">Website Maintenance Services</h2>
-								<h3 class="blue-bg" data-name="service-title">Maintenance</h3>
+								<h3 class="blue-bg service-title" data-name="service-title">Maintenance</h3>
 								<p>We look after your website while you look after your business. Simple.</p>
 								<button class="blue-bg">Learn More</button>
 							</section>

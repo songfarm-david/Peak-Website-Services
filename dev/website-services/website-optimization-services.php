@@ -25,8 +25,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- <li>Web Strategy</li> -->
 				<li>On-Page SEO</li>
 				<li>Competitor Research &amp; Analysis</li>
-				<!-- <li>Website Analytics</li> -->
 				<li>Keyword Research</li>
+				<li>Website Analytics</li>
+				<li>Local SEO</li>
+				<li>Social Media Strategy</li>
+				<li>Google AdWords</li>
+				<li>Digital Marketing</li>
 				<!-- <li>Personalized Strategy Reports</li> -->
 				<!-- On-Page Optimization
 					This involves the careful review and optimization of on-page technical elements such as Page Title, Meta Description, H1s, Anchor Tags, Page URLS, and more..

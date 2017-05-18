@@ -142,6 +142,14 @@ h6 {
   animation: fadeInUp 1.8s 0.23s ease-out forwards;
   animation-fill-mode: both;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /**
 	* Theme Transition
 	*/
@@ -242,7 +250,7 @@ header.pk-site-header > a .brand-title {
 @media (min-width: 84.444em) {
   header.pk-site-header > a {
     display: block;
-    width: 30%;
+    max-width: 36%;
     height: 100%;
   }
   header.pk-site-header > a .brand-logo {
@@ -251,10 +259,17 @@ header.pk-site-header > a .brand-title {
   header.pk-site-header > a .brand-title {
     display: block;
     height: 100%;
-    font-size: 3rem;
     color: #385f7e;
     font-weight: lighter;
+    font-size: 2.25em;
   }
+}
+.fixed-nav {
+  background-color: #385f7e;
+  height: 73px;
+  transition: all 100ms ease-in;
+  animation: fadeIn 0.25s 0.1s ease-in both;
+  box-shadow: 1px 1px 1px 2px rgba(51, 51, 51, 0.5);
 }
 .fixed-nav .brand-logo {
   max-height: 4rem;
@@ -263,5 +278,38 @@ header.pk-site-header > a .brand-title {
   margin-left: 0.25rem;
 }
 .fixed-nav .brand-title {
-  color: white;
+  color: white !important;
+}
+.fixed-nav #primary-nav a {
+  color: #eee;
+}
+.fixed-nav #primary-nav a:hover {
+  background-color: #fff;
+  color: #28445b;
+}
+.fixed-nav #primary-nav ul.dropdown-content {
+  background-color: #fff;
+  color: #385f7e;
+  top: 76px;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a {
+  color: inherit;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a:hover {
+  opacity: 1;
+  color: #eee;
+  background-color: #385f7e;
+}
+.fixed-nav #primary-nav ul.dropdown-content li a::after {
+  width: 100%;
+  height: 0px;
+}
+.fixed-nav #primary-nav ul.dropdown-content li:hover {
+  background-color: #fff;
+}
+.fixed-nav #primary-nav span.icon-bar {
+  background-color: white !important;
+}
+.fixed-nav span.icon-bar {
+  background-color: white !important;
 }

@@ -42,7 +42,8 @@ h6,
 	text-transform: capitalize;
 }
 p,
-span {
+span,
+.service-link button {
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	line-height: @line-height;
 	.font-size(1);
@@ -88,6 +89,10 @@ a {
 		color: @link-hover;
 		.nav-active();
 	}
+}
+p > a {
+	font-size: inherit;
+	color: inherit;
 }
 span {
 	font-size: inherit;

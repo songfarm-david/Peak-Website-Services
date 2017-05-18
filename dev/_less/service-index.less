@@ -38,13 +38,14 @@ main#website-services {
 	color: #487F98;
 	padding-bottom: 2rem;
 	height: auto;
+	font-size: 0.5em;
 	section {
 		>h1 {
 			margin: 0 auto 1em;
 			padding: 0;
 			padding-left: 1em;
 			padding-right: 1em;
-			.font-size(2.25);
+			// .font-size(2.25);
 			font-weight: 400;
 		}
 		#service-display {
@@ -58,14 +59,16 @@ main#website-services {
 			*
 			*/
 			a.service-link {
+				display: inline-block;
 				.theme-transition();
+				margin-bottom: 4em;
 				&:hover {
 					.theme-scale-up();
 					transform: scale(1.1);
 					box-shadow: 1px 1px 12px 3px #337592;
 				}
 			}
-			@media (min-width: 46em ) {
+			@media ( min-width: 46em ) {
 				padding-left: 1rem;
 				padding-right: 1rem;
 			}
@@ -77,16 +80,20 @@ main#website-services {
 				background-color: #fff;
 				padding-bottom: 1rem;
 				margin: 0 auto;
-				margin-bottom: 2rem;
+				// margin-bottom: 2rem;
 				box-shadow: 1px 1px 4px 1px #337592;
+				font-size: 1.35em;
 				// see helper.less for growOnHover
 				.fadeInUp;
 				// .growOnHover;
+				.service-title {
+					margin-top: 0;
+				}
 				h3 {
 					padding-top: 1rem;
 					padding-bottom: 1rem;
 					font-weight: 700;
-					.font-size(1.9);
+					// .font-size(1.9);
 					color: white;
 				}
 				h3,
@@ -94,14 +101,15 @@ main#website-services {
 					text-shadow: 0px 1px 2px #666;
 				}
 				p {
-					.font-size(1);
+					// .font-size(1);
 					font-weight: lighter;
 					font-weight: 300;
 					padding: 1rem;
 					margin: 0 auto 1rem;
 				}
 				button {
-					.font-size(1.25);
+					// .font-size(1.25);
+					// font-size: 1.4rem;
 					display: block;
 					box-shadow: 0px 1px 3px 1px #357;
 					max-width: 80%;
@@ -117,18 +125,18 @@ main#website-services {
 	@media (min-width: 28.7em) {
 		section {
 			>h1 {
-				.font-size(2.5);
+				// .font-size(2.5);
 			}
 			#service-display {
 				section.service-section {
 					h3 {
-						.font-size(2.25);
+						// .font-size(2.25);
 					}
 					p {
-						.font-size(1.25);
+						// .font-size(1.25);
 					}
 					button {
-						.font-size(1.5);
+						// .font-size(1.5);
 						margin-bottom: 1rem;
 					}
 				}
@@ -138,84 +146,114 @@ main#website-services {
 	@media (min-width: 37.5em) {
 		section {
 			>h1 {
-			.font-size(3);
+			// .font-size(3);
 			}
 			#service-display {
 				section.service-section {
 					h3 {
-						.font-size(2.5);
+						// .font-size(2.5);
 					}
 					p {
-						.font-size(1.5);
+						// .font-size(1.5);
 					}
 					button {
-						.font-size(1.75);
+						// .font-size(1.75);
 					}
 				}
 			}
 		}
 	}
 	@media (min-width: 47.45em) {
+		font-size: 0.6em;
 		section {
 			>h1 {
-				.font-size(3.5);
+				// .font-size(3.5);
 			}
 			#service-display {
 				section.service-section {
+					// background: green;
+					// font-size: 1.5em;
+				}
+			}
+		}
+	}
+
+	@media (min-width: @grid-breakpoint) {
+		section {
+			>h1 {
+				// .font-size(3.75);
+				max-width: 24em;
+			}
+			#service-display {
+				.col-3 {
+					width: 48%;
+				}
+				max-width: 106rem;
+				margin: 0 auto;
+				section.service-section {
+					// min-width: 300px;
+					// margin: auto 2em;
 					h3 {
-						.font-size(2.75);
+						// .font-size(3);
 					}
 					p {
-						.font-size(1.75);
+						// .font-size(2);
 					}
 					button {
-						.font-size(2);
+						// .font-size(2.25);
 					}
 				}
 			}
 		}
 	}
-	@media (min-width: @grid-breakpoint) {
+	@media (@desktop-breakpoint) {
+		// font-size: .7em;
 		section {
 			>h1 {
-				.font-size(3.75);
-				max-width: 24em;
+				font-size: 6.4em;
+				margin-bottom: 1.5em;
 			}
+			// #service-display {
+			// 	section.service-section {
+			// 		font-size: 1.25em;
+			// 	}
+			// }
+		}
+
+	}
+	@media (@lg-desktop-breakpoint) {
+		// background: blue;
+		section {
 			#service-display {
-				max-width: 106rem;
-				margin: 0 auto;
-				section.service-section {
-					h3 {
-						.font-size(3);
-					}
-					p {
-						.font-size(2);
-					}
-					button {
-						.font-size(2.25);
-					}
+				.col-3 {
+					width: 22.7%;
+					// background: red;
 				}
 			}
+		}
+
+		section.service-section {
+			background: blue;
 		}
 	}
 	@media (min-width: 97em) {
 		padding-top: 5.25rem * @first-modular;
 		section {
 			>h1 {
-				.font-size(4);
+				// .font-size(4);
 				max-width: 24em;
 			}
 			#service-display
 				section.service-section {
 					h3 {
-						.font-size(3.25);
+						// .font-size(3.25);
 					}
 					p {
-						.font-size(1.85);
+						// .font-size(1.85);
 						min-height: 12.5rem;
 					}
 					button {
-						.font-size(2.25);
+						// .font-size(2.25);
 					}
 				}
 			}

@@ -25,6 +25,8 @@
 
 main {
 	background-color: #fff;
+	color: darken(@hero-color,10%);
+
 	padding-bottom: 3em*@first-modular;
 	>section {
 		padding-left: 0.5em;
@@ -33,7 +35,7 @@ main {
 	section .service {
 		padding-top: 3.5rem*@first-modular;
 		padding-bottom: 4rem;
-		color: darken(@hero-color,20%);
+		// color: darken(@hero-color,20%);
 		p {
 			text-align: center;
 		}
@@ -58,7 +60,7 @@ main {
 			font-weight: bold;
 			margin-top: 1em*@first-modular;
 			text-align: left;
-			color: darken(@hero-color,20%);
+			// color: darken(@hero-color,20%);
 			.font-size(1.25);
 		}
 		ul {
@@ -112,6 +114,13 @@ main {
 	}
 	p.call-to-action {
 		font-weight: bold;
+		>a {
+			font-size: inherit;
+			color: inherit;
+		}
+		>a:hover {
+			text-decoration: none;
+		}
 	}
 	/* media queries start */
 	@media (min-width: 26.25em) {

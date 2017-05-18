@@ -250,7 +250,7 @@ header.pk-site-header > a .brand-title {
 @media (min-width: 84.444em) {
   header.pk-site-header > a {
     display: block;
-    width: 30%;
+    max-width: 36%;
     height: 100%;
   }
   header.pk-site-header > a .brand-logo {
