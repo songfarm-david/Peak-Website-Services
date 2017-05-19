@@ -318,7 +318,7 @@ nav.pk-site-nav ul li a {
   nav.pk-site-nav ul li a {
     padding: 1.4rem 1.5rem;
     height: auto;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   nav.pk-site-nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -360,7 +360,7 @@ nav.pk-site-nav ul li a {
   }
   nav.pk-site-nav ul li.dropdown-btn ul.dropdown-content li a {
     padding: 1rem 1.4rem;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   nav.pk-site-nav ul li.dropdown-btn:hover ul.dropdown-content,
   nav.pk-site-nav ul li.dropdown-btn:focus ul.dropdown-content {
