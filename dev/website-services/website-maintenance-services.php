@@ -14,8 +14,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<div class="service">
 				<p class="service-title">Take the load off having an online presence</p>
-				<p>From hosting your website and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
-				<p>Having a website shouldn't add to your work load. We offer everything you need, all in once place and take the work out of having an online presence.</p>
+				<p>Maintaining a website can be a lot of work! That's why we provide a service that handles all the day-to-day website maintainence so you can focus on the more important things.</p>
+
 			</div>
 		</section><!-- #maintenance -->
 
