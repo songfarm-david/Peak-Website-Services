@@ -227,7 +227,7 @@ footer.pk-site-footer {
   padding-top: 1.4rem;
   color: #fff;
   background-color: #385f7e;
-  font-size: 1.4em;
+  font-size: 1em;
   /**
 	*
 	*/
@@ -243,7 +243,7 @@ footer.pk-site-footer #sitemap ul {
 footer.pk-site-footer #sitemap ul .sitemap-title {
   margin-bottom: 0.5rem;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 footer.pk-site-footer #sitemap ul li:not(.sitemap-title) {
   margin-bottom: 0;
@@ -251,7 +251,6 @@ footer.pk-site-footer #sitemap ul li:not(.sitemap-title) {
 footer.pk-site-footer #sitemap ul li:not(.sitemap-title) > a {
   color: #ddd;
   text-decoration: none;
-  font-size: 1em;
 }
 footer.pk-site-footer #sitemap ul li:not(.sitemap-title) > a:hover {
   text-decoration: underline;
@@ -260,6 +259,7 @@ footer.pk-site-footer #social-links ul {
   margin-bottom: 0;
   padding-left: 0;
   text-align: center;
+  font-size: 1.4em;
 }
 footer.pk-site-footer #social-links ul li {
   display: inline-block;
@@ -268,6 +268,7 @@ footer.pk-site-footer #social-links ul li {
   margin-bottom: 0;
 }
 footer.pk-site-footer #social-links ul li > a {
+  font-size: 2em;
   color: inherit;
 }
 footer.pk-site-footer #social-links ul li > a > i {
@@ -287,12 +288,15 @@ footer.pk-site-footer #copyright {
   text-align: center;
   width: 100%;
   padding: 0.5em;
-  font-size: .65em;
+  font-size: .75em;
 }
 footer.pk-site-footer #copyright span {
   color: inherit;
 }
 @media (min-width: 64em) {
+  footer.pk-site-footer {
+    font-size: 1.10em;
+  }
   footer.pk-site-footer #sitemap {
     padding: 1rem 0 2rem;
     max-width: 54em;
@@ -310,8 +314,8 @@ footer.pk-site-footer #copyright span {
 }
 @media (min-width: 84.444em) {
   footer.pk-site-footer {
+    font-size: 1.25em;
     padding-top: 3rem;
-    font-size: 1.6em;
   }
   footer.pk-site-footer #sitemap {
     width: 64em;

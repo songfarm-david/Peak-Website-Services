@@ -16,7 +16,7 @@ footer.pk-site-footer {
 	padding-top: @1-rem;
 	color: #fff;
 	background-color: @hero-color;
-	font-size: 1.4em;
+	font-size: 1em;
 	#sitemap {
 		border-bottom: 1px solid #cccccc;
 		ul {
@@ -25,16 +25,14 @@ footer.pk-site-footer {
 			list-style: none;
 			.sitemap-title {
 				margin-bottom: 0.5rem;
-				// .font-size(1);
 				font-weight: bold;
-				font-size: 1em;
+				font-size: 1.4em;
 			}
 			li:not(.sitemap-title) {
 				margin-bottom: 0;
 				>a {
 					color: #ddd;
 					text-decoration: none;
-					font-size: 1em;
 					&:hover {
 						text-decoration: underline;
 					}
@@ -47,13 +45,14 @@ footer.pk-site-footer {
 			margin-bottom: 0;
 			padding-left: 0;
 			text-align: center;
+			font-size: 1.4em;
 			li {
 				display: inline-block;
 				padding: 12px 6px;
 				padding-bottom: 0;
 				margin-bottom: 0;
 				>a {
-					// .font-size(2.8);
+					font-size: 2em;
 					color: inherit;
 					>i {
 					/**
@@ -73,7 +72,7 @@ footer.pk-site-footer {
 		text-align: center;
 		width: 100%;
 		padding: 0.5em;
-		font-size: .65em;
+		font-size: .75em;
 		span {
 			color: inherit;
 		}
@@ -82,21 +81,15 @@ footer.pk-site-footer {
 	*
 	*/
 	@media (@tablet-breakpoint) {
+		font-size: 1.10em;
 		#sitemap {
 			padding: 1rem 0 2rem;
-			// width: @tablet-content-width;
 			max-width: @tablet-content-width;
 			margin: 0 auto 2rem;
 			overflow: hidden;
 			ul {
 				float: left;
 				width: 33%;
-				>li.sitemap-title {
-					// .font-size(1.5);
-				}
-				li:not(.sitemap-title) > a{
-					// .font-size(1.25);
-				}
 			}
 		}
 		#social-links,
@@ -105,30 +98,17 @@ footer.pk-site-footer {
 		}
 	}
 	@media (@desktop-breakpoint) {
-		padding-top: 3rem;
-		font-size: 1.6em;
+		font-size: 1.25em;
 
+		padding-top: 3rem;
+		// font-size: 1.6em;
 		#sitemap {
 			width: @desktop-content-width;
-			ul {
-				li.sitemap-title {
-					// .font-size(1.75);
-				}
-				li:not(.sitemap-title) > a{
-					// .font-size(1.5);
-				}
-			}
-		}
-		#social-links ul li >a {
-			// .font-size(3.3);
 		}
 	}
 	@media (@lg-desktop-breakpoint) {
 		#sitemap {
 			width: @lg-desktop-content-width;
-		}
-		#social-links ul li >a {
-			// .font-size(3.8);
 		}
 	}
 }

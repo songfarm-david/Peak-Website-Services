@@ -20,16 +20,23 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</section><!-- #maintenance -->
 
 		<section class="service-types">
-			<h3>Website Maintenance Services Include:</h3>
-			<ul>
-				<li>Website Growth Reports</li>
-				<li>Website Monitoring</li>
-				<li>Safe &amp; Secure Web Hosting</li>
-				<li>Unlimited Content Updates</li>
-				<li>Unlimited Technical Support</li>
-				<li><em>Your own personal IT guy</em></li>
-			</ul>
-			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
+
+		</section>
+
+		<section class="price-section">
+			<h3>Maintenance Pricing Packages</h3>
+			<div class="price-plans">
+				<div class="price-plan">
+					<p class="price-plan-name">Molehill</p>
+					<div class="price-plan-price">
+						$50 per month billed annually or $58 month to month
+					</div>
+				</div>
+				<div class="price-plan">
+
+				</div>
+			</div>
+
 		</section>
 
 		<p class="call-to-action">Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>

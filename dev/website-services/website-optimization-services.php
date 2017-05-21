@@ -21,7 +21,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<section class="service-types">
 			<h3>Website Optimization Services Include:</h3>
-			<ul>
+			<ul class="bold-list">
 				<!-- <li>Web Strategy</li> -->
 				<li>On-Page SEO</li>
 				<li>Competitor Research &amp; Analysis</li>

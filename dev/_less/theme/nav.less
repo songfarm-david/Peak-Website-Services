@@ -14,6 +14,7 @@ nav.pk-site-nav {
 	width: 100%;
 	// .font-size(2);
 	font-size: .75em;
+	height: 76px;
 	.navbar-header {
 		display: block;
 		height: auto;
@@ -89,6 +90,7 @@ nav.pk-site-nav {
 			ul {
 				background-color: transparent;
 				box-shadow: none;
+				font-size: 1.4em;
 			}
 		}
 		.collapse {
@@ -99,16 +101,14 @@ nav.pk-site-nav {
 			background-color: transparent;
 			margin-right: 0;
 			li {
-				// flex-direction: column;
-				// justify-content: center;
 				position: relative; // necessary for 'active-link'
 				display: flex;
 				justify-content: flex-end;
 				align-items: center;
 				a {
-					padding: @1-rem 1.5rem;
+					padding: 1.3rem 1.5rem;
 					height: auto;
-					// .font-size(1);
+					.font-size(1);
 					line-height: @line-height;
 					&:hover {
 						.nav-active();
@@ -124,7 +124,7 @@ nav.pk-site-nav {
 					height: auto;
 					display: block;
 					width: auto;
-					top: 76px;
+					top: 78px;
 					transition: opacity 100ms ease-in;
 					background-color: rgba(255, 255, 255, .8);
 					box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);

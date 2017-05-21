@@ -13,22 +13,22 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="service">
 				<h2 class="hide"><?php echo $h2; ?></h2>
 				<p class="service-title">We make it easy to have what you want</p>
-				<p>Whether you are creating your first website or want to improve your existing one, we can deliver to you a professional, beautiful website that suit you and the needs of your business.</p>
+				<p>Whether you are creating your first website or want to improve your existing one, we can deliver to you a professional, beautiful website that suits you and the needs of your business.</p>
 			</div>
 		</section><!--/ end of service -->
 
 		<section class="service-types">
-			<h3>Here are some of the things we can help you with:</h3>
+			<h3>Basic Website</h3>
+			<p>A basic website consists of 5 pages:</p>
 			<ul>
-				<li>HTML5 Websites</li>
-				<li>WordPress Setup and Management</li>
-				<li>Content Management Systems</li>
-				<li>E-Commerce</li>
-				<li>Social Media Integrations</li>
-				<li>Blogs</li>
-				<li>Mailing Lists</li>
-				<li>Registration Forms</li>
+				<li>Homepage</li>
+				<li>About page</li>
+				<li>Products/Services page</li>
+				<li>Contact Page</li>
+				<li>One additional page (like gallery, blog, etc..)</li>
 			</ul>
+			<p>A basic website allows for the ability to edit and add content easily to your website yourself, for instance, if you want have a blog or post updates as you go.</p>
+			<p>The cost of a basic website is <i>$599</i> with each additional pages costing $99.</p>
 		</section>
 
 		<!-- NOTE: this section might be too fluffy -->

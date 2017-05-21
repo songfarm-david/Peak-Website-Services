@@ -34,13 +34,12 @@
 .custom-header {
 	display: none;
 }
+.colors-custom .site-header,
+.site-header {
+	background-color: transparent !important;
+}
 
-/**
-	* Remove fix-width footer wrapper
-	*/
-/*footer .wrap {
-	max-width: none;
-}*/
+
 
 .site-content {
 	padding: 9.5em 0 0; /* added 4em to padding-top */
@@ -48,4 +47,15 @@
 
 header.pk-site-header {
 	position: relative;
+}
+
+/*nav.pk-site-nav ul {
+	font-size: 1.4em;
+}*/
+
+/**
+	* Remove fix-width footer wrapper
+	*/
+.site-footer .wrap {
+	max-width: none;
 }

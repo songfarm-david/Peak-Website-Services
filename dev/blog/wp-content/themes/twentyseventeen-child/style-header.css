@@ -252,6 +252,7 @@ header.pk-site-header > a .brand-title {
     display: block;
     max-width: 36%;
     height: 100%;
+    font-size: 1.4em;
   }
   header.pk-site-header > a .brand-logo {
     margin-right: 0.71428571rem;
@@ -262,6 +263,7 @@ header.pk-site-header > a .brand-title {
     color: #385f7e;
     font-weight: lighter;
     font-size: 2.25em;
+    padding-top: 3px;
   }
 }
 .fixed-nav {
