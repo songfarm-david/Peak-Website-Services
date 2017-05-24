@@ -23,11 +23,11 @@ $canonical = "https://peakwebsites.ca/";
 		<!-- Insert new content here -->
 		<section>
 			<!-- <div> -->
-			<div class="panel color-1">
+			<div class="panel color-1" id="landing-banner">
 				<div class="container">
 					<div id="intro-copy">
 						<h2>Online Success Simplified.</h2>
-						<p class="sub-header">From having a website to being found online &mdash;<br /> <em>Peak Websites</em> makes it easy.</p>
+						<p class="sub-header">From building you a great website to being found online and converting more customers &mdash; we make it easy.</p>
 					</div>
 				</div>
 			</div>
@@ -48,11 +48,12 @@ $canonical = "https://peakwebsites.ca/";
 
 			<div class="panel">
 				<div class="container item">
-					<div class="panel-inner">
+					<div class="panel-inner" id="development">
 						<h3>Web Design &amp; Development</h3>
-						<p>Whether you need something simple or want a full eCommerce solution for your online business, Peak Websites can get you there.</p>
-						<p>We work with you to understand the needs of your website then deliver to you a highly effective and efficient solution that you can feel good about.</p>
-						<p>Should you find your website needs to evolve, we&rsquo;re there with you to meet the demands of your business.</p>
+						<img src="/_images/services/development.svg" alt="">
+						<p>Whether you need a new website or just want to improve you the one you&rsquo;ve got, we can make it happen.</p>
+						<p>We work with you to understand the needs of your website then deliver to you a highly effective and efficient solution that works!</p>
+						<p>Our developers and designers can build you a complete website or help you with custom development solutions as your business grows and evolves.</p>
 						<a href="/website-services/website-development-services.php">Learn more about Website Development.</a>
 					</div>
 				</div>
@@ -63,6 +64,7 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner">
 						<h3>Search Engine Optimization</h3>
+						<img src="/_images/services/SEO.svg" alt="">
 						<p>Competing with the multitude of websites online can be daunting but with the rights tool and guidance, being found online doesn't have to be out of reach.</p>
 						<p>Peak Websites specializes in ensuring that your website is optimized for the core keywords you want to be found for. We then continue to make strides in improving your visibility online by identifying core opportunities to strengthen your position online.</p>
 						<p>Peak Website is your best ally in taking charge of your results online.</p>
@@ -75,6 +77,7 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner">
 						<h3>Website Hosting</h3>
+						<img src="/_images/services/hosting.svg" alt="">
 						<p>Hosting your website on a trusted and reliable server is foundational to the success of your website.</p>
 						<p>At Peak, we host your website on state-of-the-art, industry-grade servers located in Canada and guaranteed to provide safe, secure coverage across North America and beyond.</p>
 						<p>Take advantage of Canadian web hosting and protect your data. You'll have peace of mind your website is safe and online 24/7/365.</p>
@@ -88,6 +91,8 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner">
 						<h3>Website Maintenance</h3>
+						<img src="/_images/services/maintenance-1.svg" alt="">
+
 						<p>You have more important things to do than monitoring the safety and security of your website.</p>
 						<p>We take responsibility for ensuring your website is up, online, free of errors and bugs, and working for you. We do this so you can focus on the more important things - like running your business.</p>
 						<p>At Peak, we treat your website like our own.</p>

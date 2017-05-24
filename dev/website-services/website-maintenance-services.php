@@ -14,29 +14,22 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<h2 class="hide"><?php echo $h2; ?></h2>
 			<div class="service">
 				<p class="service-title">Take the load off having an online presence</p>
-				<p>Maintaining a website can be a lot of work! That's why we provide a service that handles all the day-to-day website maintainence so you can focus on the more important things.</p>
-
+				<p>From hosting your website and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
+				<p>Having a website shouldn't add to your work load. We offer everything you need, all in once place and take the work out of having an online presence.</p>
 			</div>
 		</section><!-- #maintenance -->
 
 		<section class="service-types">
-
-		</section>
-
-		<section class="price-section">
-			<h3>Maintenance Pricing Packages</h3>
-			<div class="price-plans">
-				<div class="price-plan">
-					<p class="price-plan-name">Molehill</p>
-					<div class="price-plan-price">
-						$50 per month billed annually or $58 month to month
-					</div>
-				</div>
-				<div class="price-plan">
-
-				</div>
-			</div>
-
+			<h3>Website Maintenance Services Include:</h3>
+			<ul class="bold-list">
+				<li>Website Growth Reports</li>
+				<li>Website Monitoring</li>
+				<li>Safe &amp; Secure Web Hosting</li>
+				<li>Unlimited Content Updates</li>
+				<li>Unlimited Technical Support</li>
+				<li><em>Your own personal IT guy</em></li>
+			</ul>
+			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
 		</section>
 
 		<p class="call-to-action">Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>

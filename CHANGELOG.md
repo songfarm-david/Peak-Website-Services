@@ -43,3 +43,6 @@
 
 ###5.0
 - Fiddling with using uniform text resizing with the implementation of em-based sizing. This is readily visible on the home page (individual services)
+
+###Peak5.1.1 -
+- Have added svg images for individual services. They are first versions of images and may be replaced. Also note, that images are not styled responsively.

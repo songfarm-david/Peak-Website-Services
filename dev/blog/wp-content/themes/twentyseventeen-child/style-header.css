@@ -227,13 +227,10 @@ header.pk-site-header {
 }
 header.pk-site-header > a {
   text-decoration: none;
-  /* align logo to nav items */
-  margin-top: 2px;
 }
 header.pk-site-header > a .brand-logo {
   float: left;
   width: 4.25rem;
-  margin: 0.35rem 0 0.15rem 0.25rem;
 }
 header.pk-site-header > a .brand-title {
   display: none;
@@ -249,10 +246,7 @@ header.pk-site-header > a .brand-title {
 }
 @media (min-width: 84.444em) {
   header.pk-site-header > a {
-    display: block;
     max-width: 36%;
-    height: 100%;
-    font-size: 1.4em;
   }
   header.pk-site-header > a .brand-logo {
     margin-right: 0.71428571rem;
@@ -263,7 +257,6 @@ header.pk-site-header > a .brand-title {
     color: #385f7e;
     font-weight: lighter;
     font-size: 2.25em;
-    padding-top: 3px;
   }
 }
 .fixed-nav {
@@ -283,7 +276,7 @@ header.pk-site-header > a .brand-title {
   color: white !important;
 }
 .fixed-nav #primary-nav a {
-  color: #eee;
+  color: #fff;
 }
 .fixed-nav #primary-nav a:hover {
   background-color: #fff;

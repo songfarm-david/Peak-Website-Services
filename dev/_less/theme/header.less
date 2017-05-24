@@ -12,15 +12,15 @@ header.pk-site-header {
 	width: 100%;
 	>a {
 		text-decoration: none;
-		/* align logo to nav items */
-		margin-top: 2px;
 		.brand-logo {
 			float: left;
 			width: 4.25rem;
-			margin: 0.35rem 0 0.15rem 0.25rem;
+			// margin: 0.35rem 0 0.15rem 0.25rem;
+			// margin-top: 12px;
 		}
 		.brand-title {
 			display: none;
+			// margin-top: -8px;
 		}
 	}
 
@@ -39,10 +39,10 @@ header.pk-site-header {
 	 */
 	 @media (@desktop-breakpoint) {
 		 >a {
-			 display: block;
+			//  display: block;
 			 max-width: 36%;
-			 height: 100%;
-			 font-size: 1.4em;
+			//  height: 100%;
+			//  font-size: 1.4em;
 			 .brand-logo {
 				 margin-right: 1rem/@first-modular;
 			 }
@@ -52,7 +52,7 @@ header.pk-site-header {
 				 color: @hero-color;
 				 font-weight: lighter;
 				 font-size: 2.25em;
-				 padding-top: 3px;
+				//  padding-top: 3px;
 			 }
 		 }
 	 }
@@ -74,7 +74,7 @@ header.pk-site-header {
 	}
 	#primary-nav {
 		a {
-			color: #eee;
+			color: #fff;
 			&:hover {
 				background-color: #fff;
 				color: darken(@hero-color, 10%);

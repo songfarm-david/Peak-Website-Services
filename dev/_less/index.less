@@ -196,12 +196,30 @@
 }
 
 /**
+	* Banner Image
+	*/
+
+
+/**
 	* Landing Page, 2nd Section
 	*/
 	#business-top + section {
 		text-align: center;
 		color: @hero-color;
 		background: #fff;
+		/**
+			* 2nd Page Banner
+			*/
+		#landing-banner {
+			background-image: svg-gradient(to bottom, @hero-color 30%, darken(@hero-color, 7%));
+			font-size: 1.2em;
+		}
+		/**
+			* Services Images
+			*/
+		#development {
+			
+		}
 		.panel {
 			padding: 2em 0.5em 1em;
 		}
@@ -210,6 +228,8 @@
 		}
 		.panel.color-2 {
 			background: #f3f7fb;
+			border-top: 1px solid darken(#f3f7fb, 5%);
+
 			border-bottom: 1px solid darken(#f3f7fb, 5%);
 		}
 		a {
@@ -285,7 +305,7 @@
 			#intro-copy,
 			#cta-banner,
 			.panel-inner {
-				font-size: 1.35em;
+				// font-size: 1.35em;
 			}
 		}
 	}
