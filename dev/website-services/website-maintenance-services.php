@@ -20,16 +20,68 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		</section><!-- #maintenance -->
 
 		<section class="service-types">
-			<h3>Website Maintenance Services Include:</h3>
-			<ul class="bold-list">
-				<li>Website Growth Reports</li>
-				<li>Website Monitoring</li>
-				<li>Safe &amp; Secure Web Hosting</li>
-				<li>Unlimited Content Updates</li>
-				<li>Unlimited Technical Support</li>
-				<li><em>Your own personal IT guy</em></li>
-			</ul>
-			<!-- <p><a href="#">Register today</a> for this limited service.</p> -->
+			<h3>Website Maintenance Services</h3>
+			<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+			<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
+			<article class="pricing">
+				<h4>Maintenance Pricing</h4>
+				<p>Our maintenance pricing model is as follow:</p>
+				<div class="pricing-table">
+					<div class="pricing-col">
+						<h4 class="pricing-title">Molehill</h4>
+						<div class="price-container">
+							<span class="price-dollar">$</span><span class="price-number">49</span><span class="price-desc">Per month billed bi-annually or annually or $56.35 month-to-month.</span>
+						</div>
+						<div class="price-list">
+							<ul>
+								<li>Daily Website Backups</li>
+								<li>24/7 Security</li>
+								<li>Software Updates</li>
+								<li>Unlimited Support</li>
+							</ul>
+						</div>
+						<div class="price-addendum">
+							Additional development work billed at <strong>$55/hr</strong>.
+						</div>
+					</div>
+					<div class="pricing-col">
+						<h4 class="pricing-title">Mountain</h4>
+						<div class="price-container">
+							<span class="price-dollar">$</span><span class="price-number">149</span><span class="price-desc">Per month billed bi-annually or annually or $171.35 month-to-month.</span>
+						</div>
+						<div class="price-list">
+							<ul>
+								<li>Daily Website Backups</li>
+								<li>24/7 Security</li>
+								<li>Software Updates</li>
+								<li>Unlimited Support</li>
+								<li class="bolded"><em>2 Hours of Development</em></li>
+							</ul>
+						</div>
+						<div class="price-addendum">
+							Additional development work billed at <strong>$45/hr</strong>.
+						</div>
+					</div>
+					<div class="pricing-col">
+						<h4 class="pricing-title">Peak</h4>
+						<div class="price-container">
+							<span class="price-dollar">$</span><span class="price-number">249</span><span class="price-desc">Per month billed bi-annually or annually or $286.35 month-to-month.</span>
+						</div>
+						<div class="price-list">
+							<ul>
+								<li>Daily Website Backups</li>
+								<li>24/7 Security</li>
+								<li>Software Updates</li>
+								<li>Unlimited Support</li>
+								<li class="bolded"><em>4 Hours of Development</em></li>
+							</ul>
+						</div>
+						<div class="price-addendum">
+							Additional development work billed at <strong>$35/hr</strong>.
+						</div>
+					</div>
+				</div>
+			</article>
 		</section>
 
 		<p class="call-to-action">Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>

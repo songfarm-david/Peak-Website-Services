@@ -1,0 +1,67 @@
+/**
+	* Styles for pricing tables on individual service pages
+	*
+	* May 25/17
+	*/
+	.pricing-table {
+		.pricing-col {
+			margin-bottom: 3em;
+			// border-top: 1px solid @hero-color;
+		}
+		.price-container,
+		.price-list {
+			width: 82.5%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.pricing-title {
+			text-align: center;
+			margin-bottom: .75em;
+			border-bottom: 1px solid @hero-color;
+		}
+		.price-container {
+			position: relative;
+			.price-dollar {
+				font-size: 1.4em;
+				position: absolute;
+				top: 2px;
+				left: -25px;
+				display: block;
+			}
+			.price-number {
+				float: left;
+				height: 100%;
+				font-size: 5.2em;
+				line-height: 0.5;
+				padding-bottom: 60px;
+				margin-right: 6px;
+			}
+			.price-desc {
+				font-size: 1em;
+				line-height: 1;
+				text-align: right;
+				vertical-align: text-top;
+			}
+		}
+		.price-list {
+			font-size: 0.85em;
+			margin-top: 1em;
+			margin-bottom: 2em;
+			>p {
+				margin-bottom: 0.25em;
+				font-size: 1em;
+				font-style: italic;
+			}
+			li.bolded {
+				font-weight: bold;
+			}
+		}
+		.price-addendum {
+			background-color: #f3fbf4;
+			border: 1px solid darken(#f3fbf4, 5%);
+			padding: 1em 0.5em;
+			text-align: center;
+			font-size: 1.2em;
+			// line-height: 1.6;
+		}
+	}

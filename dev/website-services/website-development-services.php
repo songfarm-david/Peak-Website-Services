@@ -34,21 +34,21 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p>WordPress allows for easy do-it-yourself content updating, so that if you want to add new content to your website, such as a blog post, for example, this is easily achieved. <em>No coding skills necessary</em>. We will teach you how to do it at <em>no extra charge</em>.</p>
 				<p>If you want to expand your website later on, WordPress is a great option for adding more complex integrations like an email sign-up form, pop-ups, and online payment processing.</p>
 				<p class="cost">The cost of a basic website is $599 with each additional pages costing $99.</p>
-				<!-- <p>For simple and affordable, WordPress is a great option!</p> -->
+				<p>Need a more advanced WordPress option? <a href="/contact.php">Get in touch</a> for a quick quote.</p>
 			</section>
 			<section>
 				<h4>Wix, Squarespace, or Weebly Website</h4>
 				<p>For those who want more control, website builders like Wix, Squarespace, and Weebly make it possible for those without website coding experience to build, design, and create content for a website.</p>
 				<p>However, you may need to help setting it up and getting it online, or to create pages and design your website.</p>
 				<p>Depending on your needs, we can help get you started with one of these website builders for $199 including web hosting.</p>
-				<p><a href="/contact.php">Contact Us</a> for a full quote.</p>
+				<p><a href="/contact.php">Contact us</a> for a full quote.</p>
 			</section>
 			<section>
 				<h4>HTML5 Website</h4>
 				<p>A website built with HTML5 uses the most modern coding languages, is more secure than WordPress and guarantees you something that is uniquely yours.</p>
 				<p>Our design team can deliver a custom look and fully-personalized website that will make your business and brand stand out!</p>
 				<p>HTML5 websites are fully responsive to adjust for mobile screens, are fast and efficient to load, and will set you apart online.</p>
-				<p class="cost">The cost for an HTML5 website starts at $1,000 but varies depending on the size and scope of the project. Please <a href="/contact.php">Contact Us</a> for a quote.</p>
+				<p class="cost">The cost for an HTML5 website starts at $1,000 but varies depending on the size and scope of the project. Please <a href="/contact.php">contact us</a> for a quote.</p>
 			</section>
 			<section>
 				<h4>Custom Development Work</h4>
