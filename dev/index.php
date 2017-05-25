@@ -50,11 +50,11 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner" id="development">
 						<h3>Web Design &amp; Development</h3>
-						<img src="/_images/services/development.svg" alt="">
+						<img src="/_images/services/development.svg" alt="" class="service-image right">
 						<p>Whether you need a new website or just want to improve you the one you&rsquo;ve got, we can make it happen.</p>
 						<p>We work with you to understand the needs of your website then deliver to you a highly effective and efficient solution that works!</p>
 						<p>Our developers and designers can build you a complete website or help you with custom development solutions as your business grows and evolves.</p>
-						<a href="/website-services/website-development-services.php">Learn more about Website Development.</a>
+						<a href="/website-services/website-development-services.php" class="service-button">Learn more about Website Development.</a>
 					</div>
 				</div>
 			</div>
@@ -62,13 +62,13 @@ $canonical = "https://peakwebsites.ca/";
 
 			<div class="panel color-2">
 				<div class="container item">
-					<div class="panel-inner">
+					<div class="panel-inner right">
 						<h3>Search Engine Optimization</h3>
-						<img src="/_images/services/SEO.svg" alt="">
+						<img src="/_images/services/SEO.svg" alt="" class="service-image left">
 						<p>Competing with the multitude of websites online can be daunting but with the rights tool and guidance, being found online doesn't have to be out of reach.</p>
 						<p>Peak Websites specializes in ensuring that your website is optimized for the core keywords you want to be found for. We then continue to make strides in improving your visibility online by identifying core opportunities to strengthen your position online.</p>
 						<p>Peak Website is your best ally in taking charge of your results online.</p>
-						<a href="/website-services/website-optimization-services.php">Learn more about Website Optimization.</a>
+						<a href="/website-services/website-optimization-services.php" class="service-button">Learn more about Website Optimization.</a>
 					</div>
 				</div>
 			</div>
@@ -77,11 +77,11 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner">
 						<h3>Website Hosting</h3>
-						<img src="/_images/services/hosting.svg" alt="">
+						<img src="/_images/services/hosting.svg" alt="" class="service-image right">
 						<p>Hosting your website on a trusted and reliable server is foundational to the success of your website.</p>
 						<p>At Peak, we host your website on state-of-the-art, industry-grade servers located in Canada and guaranteed to provide safe, secure coverage across North America and beyond.</p>
 						<p>Take advantage of Canadian web hosting and protect your data. You'll have peace of mind your website is safe and online 24/7/365.</p>
-						<a href="/website-services/website-hosting-services.php">Learn more about Website Hosting</a>
+						<a href="/website-services/website-hosting-services.php" class="service-button">Learn more about Website Hosting</a>
 					</div>
 				</div>
 			</div>
@@ -89,14 +89,14 @@ $canonical = "https://peakwebsites.ca/";
 
 			<div class="panel color-2">
 				<div class="container item">
-					<div class="panel-inner">
+					<div class="panel-inner right">
 						<h3>Website Maintenance</h3>
-						<img src="/_images/services/maintenance-1.svg" alt="">
+						<img src="/_images/services/maintenance-1.svg" alt="" class="service-image left">
 
 						<p>You have more important things to do than monitoring the safety and security of your website.</p>
 						<p>We take responsibility for ensuring your website is up, online, free of errors and bugs, and working for you. We do this so you can focus on the more important things - like running your business.</p>
 						<p>At Peak, we treat your website like our own.</p>
-						<a href="/website-services/website-maintenance-services.php">Learn more about Website Maintenance</a>
+						<a href="/website-services/website-maintenance-services.php" class="service-button">Learn more about Website Maintenance</a>
 					</div>
 				</div>
 			</div>

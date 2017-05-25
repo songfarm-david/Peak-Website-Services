@@ -4,6 +4,7 @@
 @import 'colors';
 @import '../base/calcs';
 @import 'animations';
+@import "theme"; /* added May/24/2017 */
 
 footer.pk-site-footer {
 	position: static;
@@ -16,6 +17,7 @@ footer.pk-site-footer {
 	padding-top: @1-rem;
 	color: #fff;
 	background-color: @hero-color;
+	.gradient-background();
 	font-size: 1em;
 	#sitemap {
 		border-bottom: 1px solid #cccccc;

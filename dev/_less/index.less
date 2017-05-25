@@ -211,14 +211,18 @@
 			* 2nd Page Banner
 			*/
 		#landing-banner {
-			background-image: svg-gradient(to bottom, @hero-color 30%, darken(@hero-color, 7%));
-			font-size: 1.2em;
+			// font-size: 1.2em;
+			background-color: @hero-color;
+			.gradient-background();
+			#intro-copy {
+				font-size: 1.4em;
+			}
 		}
 		/**
 			* Services Images
 			*/
-		#development {
-			
+		.service-image {
+			max-width: 28em;
 		}
 		.panel {
 			padding: 2em 0.5em 1em;
@@ -233,7 +237,7 @@
 			border-bottom: 1px solid darken(#f3f7fb, 5%);
 		}
 		a {
-			display: block;
+			// display: block;
 			color: inherit;
 			font-weight: bold;
 			margin-bottom: 2.5rem*@first-modular;
@@ -260,6 +264,24 @@
 				margin-top: 0;
 			}
 		}
+		/**
+			*
+			*/
+			.service-button {
+				display: inline-block;
+				padding: 0.5em;
+				background: @hero-color;
+				.gradient-background();
+				color: white;
+				text-decoration: none;
+				transition: all 250ms ease both;
+				&:hover {
+					color: @hero-color;
+					background-image: none;
+					background-color: transparent;
+					text-decoration: underline;
+				}
+			}
 	/**
 		* Table Breakpoint
 		*/
@@ -280,7 +302,16 @@
 			#cta-banner {
 				padding: 2em 0;
 			}
-
+			.service-image {
+				max-width: none;
+				max-width: 24em;
+			}
+			.service-image.left {
+				float: left;
+			}
+			.service-image.right {
+				float: right;
+			}
 		}
 	/**
 		* Desktop Breakpoint
@@ -293,6 +324,9 @@
 			#cta-banner,
 			.panel-inner {
 				font-size: 1.3em;
+			}
+			.panel-inner.right {
+				text-align: right;
 			}
 		}
 	/**

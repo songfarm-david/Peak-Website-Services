@@ -13,7 +13,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section id="portfolio">
 
 			<h1 class="portfolio-main portfolio-main-title"><?php echo $h1; ?></h1>
-				<!-- <p class="portfolio-main portfolio-main-description">Below are some of the more recent projects from Peak Websites.</p> -->
+			<p class="portfolio-main portfolio-main-description">Below are a few of the websites we have created. Contact us with your requirements and we'll guide you in making the best decision for your needs!</p>
 
 				<!-- first row -->
 				<div class="row portfolio-row">

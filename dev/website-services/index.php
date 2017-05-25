@@ -32,7 +32,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<section data-id="service-optimization" class="service-section">
 								<h2 class="hide">Website Optimization Services</h2>
 								<h3 class="purple-bg service-title" data-name="service-title">Optimization</h3>
-								<p>Professional Web Optimization for reaching your online business goals.</p>
+								<p>Optimize your web presence for maximum visitors to your website!</p>
 								<button class="purple-bg">Learn More</button>
 							</section>
 						</a>
@@ -43,7 +43,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<section data-id="service-hosting" class="service-section">
 								<h2 class="hide">Website Hosting Services</h2>
 								<h3 class="orange-bg service-title" data-name="service-title">Hosting</h3>
-								<p>Website hosting on our private, safe, and reliable web servers in Canada.</p>
+								<p>Get web hosting you can trust so you know your website is safe and online.</p>
 								<button class="orange-bg">Learn More</button>
 							</section>
 						</a>
@@ -54,7 +54,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<section data-id="service-maintenance" class="service-section">
 								<h2 class="hide">Website Maintenance Services</h2>
 								<h3 class="blue-bg service-title" data-name="service-title">Maintenance</h3>
-								<p>We look after your website while you look after your business. Simple.</p>
+								<p>We take care of your web presence so you can take care of your business.</p>
 								<button class="blue-bg">Learn More</button>
 							</section>
 						</a>
