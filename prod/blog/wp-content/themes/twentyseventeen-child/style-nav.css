@@ -223,6 +223,7 @@ nav.pk-site-nav {
   display: block;
   width: 100%;
   font-size: .75em;
+  height: 76px;
   /**
 		* Mobile Breakpoint (ems)
 		*
@@ -300,6 +301,7 @@ nav.pk-site-nav ul li a {
   nav.pk-site-nav .navbar-collapse ul {
     background-color: transparent;
     box-shadow: none;
+    font-size: 1.4em;
   }
   nav.pk-site-nav .collapse {
     display: block;
@@ -316,9 +318,10 @@ nav.pk-site-nav ul li a {
     align-items: center;
   }
   nav.pk-site-nav ul li a {
-    padding: 1.4rem 1.5rem;
+    padding: 1.3rem 1.5rem;
     height: auto;
-    line-height: 1.4;
+    font-size: 1.4em;
+    line-height: 1.5;
   }
   nav.pk-site-nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -346,7 +349,7 @@ nav.pk-site-nav ul li a {
     height: auto;
     display: block;
     width: auto;
-    top: 76px;
+    top: 78px;
     transition: opacity 100ms ease-in;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
@@ -360,7 +363,7 @@ nav.pk-site-nav ul li a {
   }
   nav.pk-site-nav ul li.dropdown-btn ul.dropdown-content li a {
     padding: 1rem 1.4rem;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   nav.pk-site-nav ul li.dropdown-btn:hover ul.dropdown-content,
   nav.pk-site-nav ul li.dropdown-btn:focus ul.dropdown-content {
