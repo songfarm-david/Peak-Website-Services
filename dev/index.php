@@ -91,7 +91,7 @@ $canonical = "https://peakwebsites.ca/";
 				<div class="container item">
 					<div class="panel-inner right">
 						<h3>Website Maintenance</h3>
-						<img src="/_images/services/maintenance-1.svg" alt="" class="service-image left">
+						<img src="/_images/services/maintenance.svg" alt="" class="service-image left">
 
 						<p>You have more important things to do than monitoring the safety and security of your website.</p>
 						<p>We take responsibility for ensuring your website is up, online, free of errors and bugs, and working for you. We do this so you can focus on the more important things - like running your business.</p>
