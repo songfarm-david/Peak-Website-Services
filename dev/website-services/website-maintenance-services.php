@@ -7,24 +7,57 @@ $activePage = basename($_SERVER['PHP_SELF']);
 ?>
 <?php require_once('../_includes/header.php') ?>
 
-	<main>
-
+	<main role="main">
 		<!-- service -->
-		<section class="bg-image" id="maintenance">
-			<h2 class="hide"><?php echo $h2; ?></h2>
-			<div class="service">
-				<p class="service-title">Take the load off having an online presence</p>
-				<p>From hosting your website and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
+		<section class="hero-panel" id="maintenance-bg">
+			<div class="hero-panel-container">
+				<h2 class="hide"><?php echo $h2; ?></h2>
+				<p class="hero-title">Take the load off having an online presence</p>
+				<p class="hero-byline">From hosting your website and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
 				<p>Having a website shouldn't add to your work load. We offer everything you need, all in once place and take the work out of having an online presence.</p>
 			</div>
 		</section><!-- #maintenance -->
 
-		<section class="service-types">
-			<h3>Website Maintenance Services</h3>
-			<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
-			<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
-			<article class="pricing">
-				<h4>Maintenance Pricing</h4>
+		<section class="service-container">
+
+			<div class="service-intro-container">
+				<div class="service-intro">
+					<h3 class="service-title">Website Maintenance Services</h3>
+					<p class="service-byline">The stress-free and easy way to have a website</p>
+				</div>
+			</div>
+
+			<section class="panel">
+				<div class="service-unit">
+					<h4>24/7 Security</h4>
+					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+					<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
+				</div>
+			</section>
+
+			<section class="panel color-2">
+				<div class="service-unit">
+					<h4>Daily Website Backups</h4>
+					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				</div>
+			</section>
+
+			<section class="panel">
+				<div class="service-unit">
+					<h4>Software Updates</h4>
+					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				</div>
+			</section>
+
+			<section class="panel color-2">
+				<div class="service-unit">
+					<h4>Unlimited Website Support</h4>
+					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				</div>
+			</section>
+
+			<article class="pricing service-unit panel">
+				<h3>Maintenance Pricing</h3>
 				<p>Our maintenance pricing model is as follow:</p>
 				<div class="pricing-table">
 					<div class="pricing-col">
@@ -82,9 +115,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 					</div>
 				</div>
 			</article>
+
 		</section>
 
-		<p class="call-to-action">Let us help you take hold of your website. <a href="/contact.php">Contact Us Today</a>.</p>
+		<section class="cta-container">
+			<h3 class="hide">Contact Us</h3>
+			<p>Set yourself up for success.</p>
+			<p class="cta"><a href="/contact.php">Contact Us Today</a></p>
+		</section>
+
 
 	</main>
 

@@ -11,7 +11,48 @@
 @import 'nav';
 @import 'footer';
 
+/**
+ * Theme Gradient Background
+ */
+ .gradient-background {
+	 background-image: svg-gradient(to bottom, @hero-color 30%, darken(@hero-color, 7%));
+ }
 
+/**
+ * THeme colors for Panels
+ */
+ .panel {
+	 padding: 2em 0.5em;
+ }
+ .panel.color-1 {
+	 background: @hero-color;
+	 .gradient-background();
+	 color: white;
+ }
+ .panel.color-2 {
+	 background: #f3f7fb;
+	 border-top: 1px solid darken(#f3f7fb, 5%);
+	 border-bottom: 1px solid darken(#f3f7fb, 5%);
+ }
+
+/**
+ * Container helper styles
+ */
+ .container {
+	 width: 100%;
+	 margin: 0 auto;
+	 padding: 0;
+	 @media (@tablet-breakpoint) {
+		 width: @tablet-content-width;
+	 }
+	 @media (@desktop-breakpoint) {
+		 width: @desktop-content-width;
+	 }
+	 @media (@lg-desktop-breakpoint) {
+		 width: @lg-desktop-content-width;
+	 }
+ }
+ 
 html {
 	font-size: @theme-default-rem;
 	font-size: calc(@theme-default-rem * 1vw);
@@ -160,10 +201,3 @@ blockquote {
  .page-cta {
 	 text-transform: capitalize;
  }
-
- /**
- 	* Theme Gradient Background
-	*/
-	.gradient-background {
-		background-image: svg-gradient(to bottom, @hero-color 30%, darken(@hero-color, 7%));
-	}

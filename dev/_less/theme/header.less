@@ -74,7 +74,10 @@ header.pk-site-header {
 	}
 	#primary-nav {
 		a {
-			color: #fff;
+			color: @hero-color;
+			@media (min-width: 66em) {
+				color: #fff;
+			}
 			&:hover {
 				background-color: #fff;
 				color: darken(@hero-color, 10%);
