@@ -11,9 +11,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="hero-panel" id="development-bg">
 			<div class="hero-panel-container">
-				<h2 class="hide"><?php echo $h2; ?></h2>
-				<p class="hero-title">We make it easy to have what you want</p>
-				<p class="hero-byline">Whether you are creating your first website or want to improve your existing one, we can deliver to you a professional, beautiful website that suits you and the needs of your business.</p>
+				<div class="hero-panel-inner">
+					<h2 class="hide"><?php echo $h2; ?></h2>
+					<p class="hero-title">Having a great website can be easy</p>
+					<p class="hero-byline">Whether you are creating your first website or want to improve your existing one, we have solutions to suit the needs of your business.</p>
+				</div>
 			</div>
 		</section><!--/ end of service -->
 
@@ -26,52 +28,59 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 
 			<section class="panel">
-				<div class="service-unit">
-					<h4>Starter WordPress Website</h4>
-					<p>This is a great option for anyone looking to have a strong presence online. A starter WordPress website consists of 5 pages:</p>
-					<ul>
-						<li>Homepage</li>
-						<li>About page</li>
-						<li>Products/Services page</li>
-						<li>Contact Page</li>
-						<li>One additional page (Gallery, Blog, etc..)</li>
-					</ul>
-					<p>WordPress allows for easy do-it-yourself content updating, so that if you want to add new content to your website, such as a blog post, for example, this is easily achieved. <em>No coding skills necessary</em>. We will teach you how to do it at <em>no extra charge</em>.</p>
-					<p>If you want to expand your website later on, WordPress makes it easy to add more complex integrations like an email sign-up form, pop-ups, and online payment processing.</p>
-					<p class="cost">The cost of a basic website is $599 with each additional pages costing $99.</p>
-					<p>Need a more advanced WordPress option? <a href="/contact.php">Get in touch</a> for a quick quote.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Starter WordPress Website</h4>
+						<p>This is a great option for anyone looking to have a strong presence online. A starter WordPress website consists of 5 pages:</p>
+						<ul>
+							<li>Homepage</li>
+							<li>About page</li>
+							<li>Products/Services page</li>
+							<li>Contact Page</li>
+							<li>One additional page (Gallery, Blog, etc..)</li>
+						</ul>
+						<p>WordPress allows for easy do-it-yourself content updating, so that if you want to add new content to your website, such as a blog post, for example, this is easily achieved. <em>No coding skills necessary</em>. We will teach you how to do it at <em>no extra charge</em>.</p>
+						<p>If you want to expand your website later on, WordPress makes it easy to add more complex integrations like an email sign-up form, pop-ups, and online payment processing.</p>
+						<p class="cost">The cost of a basic website is $599 with each additional pages costing $99.</p>
+						<p>Need a more advanced WordPress option? <a href="/contact.php">Get in touch</a> for a quick quote.</p>
+					</div>
 				</div>
-
 			</section>
 
 			<section class="panel color-2">
-				<div class="container service-unit">
-					<h4>Wix, Squarespace, or Weebly Website</h4>
-					<p>For those who want more control, website builders like Wix, Squarespace, and Weebly make it possible for those without website coding experience to build, design, and create content for a website.</p>
-					<p>However, you may need to help setting it up and getting it online, or to create pages and design your website.</p>
-					<p>Depending on your needs, we can help get you started with one of these website builders for $199 including web hosting.</p>
-					<p><a href="/contact.php">Contact us</a> for a full quote.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Wix, Squarespace, or Weebly Website</h4>
+						<p>For those who want more control, website builders like Wix, Squarespace, and Weebly make it possible for those without website coding experience to build, design, and create content for a website.</p>
+						<p>However, you may need to help setting it up and getting it online, or to create pages and design your website.</p>
+						<p>Depending on your needs, we can help get you started with one of these website builders for $199 including web hosting.</p>
+						<p><a href="/contact.php">Contact us</a> for a full quote.</p>
+					</div>
 				</div>
 			</section>
 
 			<section class="panel">
-				<div class="service-unit">
-					<h4>HTML5 Website</h4>
-					<p>A website built with HTML5 uses the most modern coding languages, is more secure than WordPress and guarantees you something that is uniquely yours.</p>
-					<p>Our design team can deliver a custom look and fully-personalized website that will make your business and brand stand out!</p>
-					<p>HTML5 websites are fully responsive to adjust for mobile screens, are fast and efficient to load, and will set you apart online.</p>
-					<p class="cost">The cost for an HTML5 website starts at $1,000 but varies depending on the size and scope of the project. Please <a href="/contact.php">contact us</a> for a quote.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>HTML5 Website</h4>
+						<p>A website built with HTML5 uses the most modern coding languages, is more secure than WordPress and guarantees you something that is uniquely yours.</p>
+						<p>Our design team can deliver a custom look and fully-personalized website that will make your business and brand stand out!</p>
+						<p>HTML5 websites are fully responsive to adjust for mobile screens, are fast and efficient to load, and will set you apart online.</p>
+						<p class="cost">The cost for an HTML5 website starts at $1,000 but varies depending on the size and scope of the project. Please <a href="/contact.php">contact us</a> for a quote.</p>
+					</div>
 				</div>
 			</section>
 
 			<article class="panel special">
-				<div class="service-unit">
-					<h4>Custom Development Work</h4>
-					<img src="/_images/icons/wrench.svg" alt="" class="service-icon">
-					<p>Sometimes you may need to add a new feature to your website, or to update certain aspects of your site to meet the demands of your business.</p>
-					<p>Our developers can assist you in making the proper integrations and provide you with the solution you want.</p>
-					<p class="cost">Development cost for Peak clients is $35/hr <br><span>(*$55/hr for non-clients)</span>.</p>
-				</div>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Custom Development Work</h4>
+						<img src="/_images/icons/wrench.svg" alt="" class="service-icon">
+						<p>Sometimes you may need to add a new feature to your website, or to update certain aspects of your site to meet the demands of your business.</p>
+						<p>Our developers can assist you in making the proper integrations and provide you with the solution you want.</p>
+						<p class="cost">Development cost for Peak clients is $35/hr <br><span>(*$55/hr for non-clients)</span>.</p>
+					</div>
+				</div>	
 			</article>
 
 		</section>
