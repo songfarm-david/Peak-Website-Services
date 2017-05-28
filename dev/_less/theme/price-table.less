@@ -3,121 +3,189 @@
 	*
 	* May 25/17
 	*/
-	.pricing-table {
-		.pricing-col {
-			margin-bottom: 3em;
-			border: 1px solid #ccc;
-			max-width: 30em;
-			margin-left: auto;
-			margin-right: auto;
-			position: relative;
-		}
-		.price-container,
-		.price-list {
-			width: 82.5%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		.pricing-title {
-			text-align: center;
-			margin-bottom: .75em;
-			// border-bottom: 1px solid @hero-color;
-			background-color: @hero-color;
-			color: #fff;
-			padding-top: 0.5em;
-			padding-bottom: 0.5em;
-			margin-top: 0;
-		}
-		.price-container {
-			position: relative;
-			min-height: 76px;
-			.price-dollar {
-				font-size: 1.4em;
-				position: absolute;
-				top: -2px;
-				left: -18px;
-				display: block;
+	.pricing {
+		.container();
+		padding-top: 1.5em;
+		.pricing-inner {
+			>h3, p {
+				text-align: center;
 			}
-			.price-number {
-				float: left;
-				height: 100%;
-				font-size: 5.2em;
-				line-height: 0.5;
-				padding-bottom: 60px;
-				margin-right: 6px;
+			h3 {
+				font-weight: lighter;
 			}
-			.price-desc {
-				font-size: 1em;
-				line-height: 1;
-				text-align: right;
-				vertical-align: text-top;
+			p {
+				margin-top: 0;
+				margin-bottom: 1em;
+				display: none;
 			}
 		}
-		.price-list {
-			font-size: 0.85em;
-			margin-top: 1em;
-			margin-bottom: 2em;
-			>p {
-				margin-bottom: 0.25em;
-				font-size: 1em;
-				font-style: italic;
+		.pricing-table {
+			.pricing-col {
+				margin-bottom: 3em;
+				border: 1px solid #ccc;
+				max-width: 30em;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
 			}
-			ul {
-				list-style: none;
-				li {
-					background-image: url(../_images/icons/checkmark.png);
-					background-repeat: no-repeat;
-					background-size: 24px;
-					background-position: 0 30%;
-					padding-left: 30px;
-				}
+			.price-container,
+			.price-list {
+				width: 88.5%;
+				margin-left: auto;
+				margin-right: 0.5em;
 			}
-			li.bolded {
-				font-weight: bold;
+			.pricing-title {
+				text-align: center;
+				margin-bottom: .75em;
+				// border-bottom: 1px solid @hero-color;
+				background-color: @hero-color;
+				color: #fff;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+				margin-top: 0;
 			}
-		}
-		.price-addendum {
-			background-color: #f3fbf4;
-			border: 1px solid darken(#f3fbf4, 5%);
-			padding: 1em 0.5em;
-			text-align: center;
-			font-size: 1.2em;
-			position: relative;
-		}
-
-		/**
-			* First breakpoint
-			*/
-			@media (@tablet-breakpoint) {
-				/* pricing table */
-				width: 100%;
-				overflow: hidden;
-				.pricing-col {
-					float: left;
-					width: auto;
-					max-width: 33.33%;
-					min-height: 616px;
-				}
-				.price-container {
-					min-height: 96px;
-				}
-				.price-list {
-					min-height: 248px;
-
-				}
-				.price-addendum {
+			.price-container {
+				position: relative;
+				min-height: 88px;
+				.price-dollar {
+					font-size: 1.4em;
 					position: absolute;
-					bottom: 0;
+					top: -2px;
+					left: -18px;
+					display: block;
+				}
+				.price-number {
+					float: left;
+					height: 100%;
+					font-size: 5.2em;
+					line-height: 0.5;
+					padding-bottom: 60px;
+					margin-right: 6px;
+				}
+				.price-desc {
+					// font-size: 1em;
+					// line-height: 1;
+					text-align: right;
+					vertical-align: text-top;
+				}
+			}
+			.price-list {
+				font-size: 0.85em;
+				margin-top: 1em;
+				margin-bottom: 2em;
+				margin-left: 1.5em;
+				>p {
+					margin-bottom: 0.25em;
+					font-size: 1em;
+					font-style: italic;
+				}
+				ul {
+					list-style: none;
+					li {
+						background-image: url(../_images/icons/checkmark.png);
+						background-repeat: no-repeat;
+						background-size: 24px;
+						background-position: 0 30%;
+						padding-left: 30px;
+					}
+				}
+				li.bolded {
+					font-weight: bold;
+				}
+			}
+			.price-addendum {
+				background-color: #f3fbf4;
+				border: 1px solid darken(#f3fbf4, 5%);
+				padding: 1em 0.5em;
+				text-align: center;
+				font-size: 1.2em;
+				position: relative;
+			}
+
+			/**
+				* First breakpoint
+				*/
+				@media (@tablet-breakpoint) {
+					/* pricing table */
+					width: 100%;
+					overflow: hidden;
+					.pricing-col {
+						float: left;
+						width: auto;
+						max-width: 33.33%;
+						min-height: 616px;
+					}
+					.price-container {
+						min-height: 138px;
+						.price-number {
+							padding-bottom: 72px;
+						}
+					}
+					.price-list {
+						min-height: 248px;
+
+					}
+					.price-addendum {
+						position: absolute;
+						bottom: 0;
+					}
+				}
+
+				@media (@desktop-breakpoint) {
+					.pricing-col {
+						min-height: 706px;
+						.price-container {
+							min-height: 168px;
+							.price-number {
+								padding-bottom: 78px;
+							}
+						}
+					}
+
+				}
+
+				@media (@lg-desktop-breakpoint) {
+					.pricing-col {
+						min-height: 700px;
+					}
+				}
+		}
+
+		@media (@tablet-breakpoint) {
+
+			.pricing-inner {
+				>h3, p {
+					text-align: left;
 				}
 			}
 
-			@media (@desktop-breakpoint) {
-				.pricing-col {}
+		}
+
+		@media (@desktop-breakpoint) {
+			padding-top: 2.5em;
+			.pricing-inner {
+				font-size: 1.15em;
+				>h3, p {
+					text-align: left;
+				}
 			}
 
-			@media (@lg-desktop-breakpoint) {
+		}
+
+		@media (@lg-desktop-breakpoint) {
+			padding-top: 2.5em;
+			.pricing-inner {
+				font-size: 1.3em;
+				>h3, p {
+					text-align: left;
+				}
+
 				.pricing-col {
-					min-height: 700px;
+					min-height: 760px;
 				}
+
 			}
+
+		}
+
 	}

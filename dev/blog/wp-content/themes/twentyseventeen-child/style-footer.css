@@ -25,16 +25,16 @@ h6 {
 /*
 * THEME VARIABLES
 **/
-/* minimum viewport width */
-/* line-height */
-/* Modular Scales */
-/* Global font sizing */
 /**
 	* Breakpoint
 	*/
 /**
 	* Content Width
 	*/
+/* minimum viewport width */
+/* line-height */
+/* Modular Scales */
+/* Global font sizing */
 /**
 * Helper Classes
 * - common theme classes that roll up a bunch on styles into one
@@ -659,10 +659,11 @@ footer.pk-site-footer #copyright span {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0.5em;
 }
 @media (min-width: 64em) {
   .container {
+    padding: 0;
     width: 54em;
   }
 }

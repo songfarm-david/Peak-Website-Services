@@ -11,12 +11,13 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<!-- service -->
 		<section class="hero-panel" id="maintenance-bg">
 			<div class="hero-panel-container">
-				<h2 class="hide"><?php echo $h2; ?></h2>
-				<p class="hero-title">Take the load off having an online presence</p>
-				<p class="hero-byline">From hosting your website and registering a domain name to updating content and fixing bugs, working with Peak is like having your own IT guy on speed-dial. We provide you with friendly, personal support for all things online.</p>
-				<p>Having a website shouldn't add to your work load. We offer everything you need, all in once place and take the work out of having an online presence.</p>
+				<div class="hero-panel-inner">
+					<h2 class="hide"><?php echo $h2; ?></h2>
+					<p class="hero-title">Take the stress out of being online</p>
+					<p class="hero-byline">We have everything you need, all in one place, to make having a website a breeze.</p>
+				</div>
 			</div>
-		</section><!-- #maintenance -->
+		</section><!-- #maintenance-bg -->
 
 		<section class="service-container">
 
@@ -28,95 +29,110 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 
 			<section class="panel">
-				<div class="service-unit">
-					<h4>24/7 Security</h4>
-					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
-					<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>24/7 Security</h4>
+						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+						<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
+					</div>
 				</div>
 			</section>
 
 			<section class="panel color-2">
-				<div class="service-unit">
-					<h4>Daily Website Backups</h4>
-					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Daily Website Backups</h4>
+						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+					</div>
 				</div>
+
 			</section>
 
 			<section class="panel">
-				<div class="service-unit">
-					<h4>Software Updates</h4>
-					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Software Updates</h4>
+						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+					</div>
 				</div>
+
 			</section>
 
 			<section class="panel color-2">
-				<div class="service-unit">
-					<h4>Unlimited Website Support</h4>
-					<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+				<div class="panel-container">
+					<div class="service-unit">
+						<h4>Unlimited Website Support</h4>
+						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+					</div>
 				</div>
+
 			</section>
 
-			<article class="pricing service-unit panel">
-				<h3>Maintenance Pricing</h3>
-				<p>Our maintenance pricing model is as follow:</p>
-				<div class="pricing-table">
-					<div class="pricing-col">
-						<h4 class="pricing-title">Molehill</h4>
-						<div class="price-container">
-							<span class="price-dollar">$</span><span class="price-number">49</span><span class="price-desc">Per month billed bi-annually or annually or $56.35 month-to-month.</span>
-						</div>
-						<div class="price-list">
-							<ul>
-								<li>Daily Website Backups</li>
-								<li>24/7 Security</li>
-								<li>Software Updates</li>
-								<li>Unlimited Support</li>
-							</ul>
-						</div>
-						<div class="price-addendum">
-							Additional development work billed at <strong>$55/hr</strong>.
-						</div>
-					</div>
-					<div class="pricing-col">
-						<h4 class="pricing-title">Mountain</h4>
-						<div class="price-container">
-							<span class="price-dollar">$</span><span class="price-number">149</span><span class="price-desc">Per month billed bi-annually or annually or $171.35 month-to-month.</span>
-						</div>
-						<div class="price-list">
-							<ul>
-								<li>Daily Website Backups</li>
-								<li>24/7 Security</li>
-								<li>Software Updates</li>
-								<li>Unlimited Support</li>
-								<li class="bolded"><em>2 Hours of Development</em></li>
-							</ul>
-						</div>
-						<div class="price-addendum">
-							Additional development work billed at <strong>$45/hr</strong>.
-						</div>
-					</div>
-					<div class="pricing-col">
-						<h4 class="pricing-title">Peak</h4>
-						<div class="price-container">
-							<span class="price-dollar">$</span><span class="price-number">249</span><span class="price-desc">Per month billed bi-annually or annually or $286.35 month-to-month.</span>
-						</div>
-						<div class="price-list">
-							<ul>
-								<li>Daily Website Backups</li>
-								<li>24/7 Security</li>
-								<li>Software Updates</li>
-								<li>Unlimited Support</li>
-								<li class="bolded"><em>4 Hours of Development</em></li>
-							</ul>
-						</div>
-						<div class="price-addendum">
-							Additional development work billed at <strong>$35/hr</strong>.
+			<article class="pricing" id="maintenance-pricing">
+				<div class="pricing-outer">
+					<div class="pricing-inner">
+						<h3>Maintenance Pricing</h3>
+						<p>Our maintenance pricing model is as follows:</p>
+						<div class="pricing-table">
+							<div class="pricing-col">
+								<h4 class="pricing-title">Molehill</h4>
+								<div class="price-container">
+									<span class="price-dollar">$</span><span class="price-number">49</span><span class="price-desc">Per month billed annually or $56.35 month-to-month.</span>
+								</div>
+								<div class="price-list">
+									<ul>
+										<li>Daily Website Backups</li>
+										<li>24/7 Security</li>
+										<li>Software Updates</li>
+										<li>Unlimited Support</li>
+									</ul>
+								</div>
+								<div class="price-addendum">
+									Additional development work billed at <strong>$55/hr</strong>.
+								</div>
+							</div>
+							<div class="pricing-col">
+								<h4 class="pricing-title">Mountain</h4>
+								<div class="price-container">
+									<span class="price-dollar">$</span><span class="price-number">149</span><span class="price-desc">Per month billed annually or $171.35 month-to-month.</span>
+								</div>
+								<div class="price-list">
+									<ul>
+										<li>Daily Website Backups</li>
+										<li>24/7 Security</li>
+										<li>Software Updates</li>
+										<li>Unlimited Support</li>
+										<li class="bolded"><em>2 Hours of Development</em></li>
+									</ul>
+								</div>
+								<div class="price-addendum">
+									Additional development work billed at <strong>$45/hr</strong>.
+								</div>
+							</div>
+							<div class="pricing-col">
+								<h4 class="pricing-title">Peak</h4>
+								<div class="price-container">
+									<span class="price-dollar">$</span><span class="price-number">249</span><span class="price-desc">Per month billed annually or $286.35 month-to-month.</span>
+								</div>
+								<div class="price-list">
+									<ul>
+										<li>Daily Website Backups</li>
+										<li>24/7 Security</li>
+										<li>Software Updates</li>
+										<li>Unlimited Support</li>
+										<li class="bolded"><em>4 Hours of Development</em></li>
+									</ul>
+								</div>
+								<div class="price-addendum">
+									Additional development work billed at <strong>$35/hr</strong>.
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</article>
+			</article><!-- #maintenance-pricing -->
 
-		</section>
+		</section><!-- .service-container -->
 
 		<section class="cta-container">
 			<h3 class="hide">Contact Us</h3>

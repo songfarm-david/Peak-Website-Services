@@ -6,19 +6,7 @@
 	@import 'base/base.less';
 	@import 'theme/theme.less';
 
-/**
-	* Breakpoint
-	*/
-	@tablet-breakpoint: ~"min-width: 64em";
-	@desktop-breakpoint: ~"min-width: 84.444em";
-	@lg-desktop-breakpoint: ~"min-width: 98.4375em";
 
-/**
-	* Content Width
-	*/
-	@tablet-content-width: ~"50em";
-	@desktop-content-width: ~"64em";
-	@lg-desktop-content-width: ~"70em";
 
 #business-top {
 	position: relative;
@@ -73,7 +61,6 @@
 		margin: 1.5em auto 0;
 		text-transform: capitalize;
 		letter-spacing: 1px;
-		// .font-size(1);
 		font-weight: bold;
 		color: @hero-color;
 		background-color: none;
@@ -89,24 +76,6 @@
 			color: #fff;
 		}
 	}
-	// a#down-arrow {
-	// 	position: absolute;
-	// 	bottom: 2rem;
-	// 	left: 0;
-	// 	right: 0;
-	// 	margin: auto;
-	// 	background-image: url(/_images/icons/down-arrow.svg);
-	// 	background-repeat: no-repeat;
-	// 	background-color: transparent;
-	// 	box-shadow: none;
-	// 	height: 4rem;
-	// 	width: 4rem;
-	// 	display: none;
-	// 	animation: bounce 1.2s infinite alternate both;
-	// 	&:hover {
-	// 		cursor: pointer;
-	// 	}
-	// }
 	@media (max-height: 40.88em) {
 		height: 480px;
 		height: 100vh;
@@ -224,19 +193,7 @@
 		.service-image {
 			max-width: 28em;
 		}
-		// .panel {
-		// 	padding: 2em 0.5em 1em;
-		// }
-		// .panel.color-1 {
-		// 	background: @hero-color;
-		// }
-		// .panel.color-2 {
-		// 	background: #f3f7fb;
-		// 	border-top: 1px solid darken(#f3f7fb, 5%);
-		// 	border-bottom: 1px solid darken(#f3f7fb, 5%);
-		// }
 		a {
-			// display: block;
 			color: inherit;
 			font-weight: bold;
 			margin-bottom: 2.5rem*@first-modular;
@@ -370,31 +327,3 @@
 		}
 	}
 }
-
-// .cssanimations {
-// 	#complicated-web {
-// 		p#special {
-// 			visibility: hidden;
-// 		}
-// 		p#special.rotate {
-// 			visibility: visible;
-// 			.rollIn();
-// 		}
-// 	}
-// 	#work-with-us {
-// 		.service-quality {
-// 			visibility: hidden;
-// 		}
-// 		.service-quality.fadeInUp {
-// 			visibility: visible;
-// 		}
-// 	}
-// }
-
-/**
-	* Temporary styles
-	*/
-	#complicated-web,
-	#work-with-us {
-		display: none;
-	}

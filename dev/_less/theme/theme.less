@@ -41,8 +41,9 @@
  .container {
 	 width: 100%;
 	 margin: 0 auto;
-	 padding: 0;
+	 padding: 0 0.5em;
 	 @media (@tablet-breakpoint) {
+     padding: 0;
 		 width: @tablet-content-width;
 	 }
 	 @media (@desktop-breakpoint) {
@@ -52,7 +53,7 @@
 		 width: @lg-desktop-content-width;
 	 }
  }
- 
+
 html {
 	font-size: @theme-default-rem;
 	font-size: calc(@theme-default-rem * 1vw);
