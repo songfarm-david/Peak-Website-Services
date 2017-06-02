@@ -1,6 +1,6 @@
 <?php
 $title = "Peak Websites | About Us";
-$description = "";
+$description = "Peak Websites specializes in handling the online aspects of your business. From maintenance to optimization and the steps in between, we are your trusted ally online.";
 $activePage = basename($_SERVER['PHP_SELF']);
 $h1 = "About Us";
 $h2;
