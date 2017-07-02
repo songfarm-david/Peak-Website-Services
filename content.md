@@ -1,5 +1,11 @@
 # Peak Website Services
 
+
+#SEO Page - services update - June 10/17
+Mobile Optimizing - talk about the importance of mobile optimization
+Page Speed Optimization -
+Technical SEO
+
 ## Survey
 	It is important to factor in the aspect of collective customer satisfaction surveys and to best leverage
 	my customer in order to attract and retain future ones.
