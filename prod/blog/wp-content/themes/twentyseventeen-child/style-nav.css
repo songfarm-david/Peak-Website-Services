@@ -25,36 +25,21 @@ h6 {
 /*
 * THEME VARIABLES
 **/
-/* minimum viewport width */
-/* line-height */
-/* Modular Scales */
-/* Global font sizing */
 /**
 	* Breakpoint
 	*/
 /**
 	* Content Width
 	*/
+/* minimum viewport width */
+/* line-height */
+/* Modular Scales */
+/* Global font sizing */
 /**
 * Helper Classes
 * - common theme classes that roll up a bunch on styles into one
 */
 /* page container (deprecated) */
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-@media (min-width: 40em) {
-  .container {
-    width: 34em;
-  }
-}
-@media (min-width: 48em) {
-  .container {
-    width: 42em;
-  }
-}
 /* transform effect: grow on hover */
 .growOnHover {
   transition: all 0.25s ease-in-out;
