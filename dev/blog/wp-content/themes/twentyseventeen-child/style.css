@@ -11,51 +11,187 @@
 */
 
 
-/**
-	* Import header styles
-	*/
-	@import 'style-header.css';
-/**
-	* Import nav styles
-	*/
-	@import 'style-nav.css';
-/**
-	* Import footer styles
-	*/
-	@import 'style-footer.css';
 
-/**
-	* Alter height of Custom Header to be shorter
-	*/
-/*.has-header-image.home.blog .custom-header {
-	height: 30vh;
-}*/
+	/*@import 'style-header.css';*/
+
+	/*@import 'style-nav.css';*/
+
+	/*@import 'style-footer.css';*/
+
+	@import "theme.css";
 
 .custom-header {
 	display: none;
 }
-.colors-custom .site-header,
-.site-header {
-	background-color: transparent !important;
-}
-
-
-
+/**
+	* add custom top padding
+	*/
 .site-content {
-	padding: 9.5em 0 0; /* added 4em to padding-top */
+	padding: 9.5em 0 0;
 }
 
 header.pk-site-header {
 	position: relative;
 }
 
-/*nav.pk-site-nav ul {
-	font-size: 1.4em;
-}*/
-
 /**
 	* Remove fix-width footer wrapper
 	*/
 .site-footer .wrap {
 	max-width: none;
+}
+
+/**
+ 	* remove featured image on single post
+	*/
+.single-featured-image-header {
+	display: none;
+}
+
+#content {
+	font-size: 1.4em;
+}
+
+#main .entry-header h1.entry-title {
+	font-weight: 800;
+	font-size: 2.827em;
+	margin-top: 0;
+	color: #28445b;
+}
+
+.entry-header h2.entry-title {
+	font-weight: 800;
+	font-size: 2.827em;
+}
+/* make header color dark blue */
+.entry-header .entry-title a {
+	color: #28445b;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4 {
+	font-weight: 800;
+	color: #28445b;
+}
+.entry-content h2 {
+	font-size: 1.999em;
+}
+.entry-content h3,
+h3#reply-title {
+	font-size: 1.414em;
+	font-weight: bolder;
+	color: #28445b;
+}
+.entry-content h4 {
+	font-size: 1em;
+}
+.entry-content p {
+	line-height: 1.6666em;
+	color: #28445b;
+}
+.entry-content ul {
+	padding-left: 1em;
+	list-style: initial;
+}
+.entry-meta {
+	font-size: .60em;
+}
+/**
+	* affect size of image captions
+	*/
+.wp-caption {
+	font-size: 0.9em;
+}
+
+/* fix style of search field */
+button {
+	display: inline;
+	width: auto;
+}
+a:not([rel="home"]) {
+	font-size: 1em;
+}
+
+/* recent posts styles */
+.widget ul {
+	font-size: 1.4em;
+}
+.widget ul li {
+	padding: 0.5em 0;
+	margin-bottom: 0;
+}
+
+button, input[type="button"], input[type="submit"] {
+	background-color: #385f7e;
+	/*font-size: 0.8em;*/
+}
+label {
+	color: #28445b;
+}
+p, span, ul, ol {
+	font-size: 1em;
+}
+
+/**
+	* Special content
+	*/
+.special-content {
+	border: 1px solid #414b57;
+	background-color: aliceblue;
+	padding: 1em;
+	font-style: italic;
+	box-shadow: 2px 2px 3px 0px #414b57;
+}
+
+/**
+	* Update content width
+	*/
+@media screen and (min-width: 48em) {
+	.wrap {
+		max-width: 1200px;
+	}
+}
+
+/**
+	* sidebar breakpoint
+	*/
+@media screen and (min-width: 48em) {
+	.has-sidebar #primary,
+	.has-sidebar:not(.error404) #primary,
+	.has-sidebar #secondary {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 56.55em) {
+	.has-sidebar #primary,
+	.has-sidebar:not(.error404) #primary {
+		float: left;
+		width: 58%;
+		/*border: 2px solid green;*/
+	}
+	.has-sidebar #secondary {
+		float: right;
+		padding-top: 0;
+		width: 36%;
+		/*border: 2px solid red;*/
+	}
+}
+
+/**
+	* MC sign up form
+	*/
+#mc_embed_signup h2 {
+	color: #385f7e;
+	/*font-size: 1.999em;*/
+}
+#mc_embed_signup .indicates-required {
+	display: none;
+}
+#mc_embed_signup form {
+	padding-left: 0 !important;
 }

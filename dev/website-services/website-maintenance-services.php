@@ -81,14 +81,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</div>
 								<div class="price-list">
 									<ul>
-										<li>Daily Website Backups</li>
-										<li>24/7 Security</li>
-										<li>Software Updates</li>
-										<li>Unlimited Support</li>
+										<li class="check">Daily Website Backups</li>
+										<li class="check">24/7 Security</li>
+										<li class="check">Software Updates</li>
+										<li class="check">Unlimited Support</li>
+										<li>&nbsp;</li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional development work billed at <strong>$55/hr</strong>.
+									Additional website updates billed at <strong>$55/hr</strong>.
 								</div>
 							</div>
 							<div class="pricing-col">
@@ -98,15 +99,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</div>
 								<div class="price-list">
 									<ul>
-										<li>Daily Website Backups</li>
-										<li>24/7 Security</li>
-										<li>Software Updates</li>
-										<li>Unlimited Support</li>
-										<li class="bolded"><em>2 Hours of Development</em></li>
+										<li class="check">Daily Website Backups</li>
+										<li class="check">24/7 Security</li>
+										<li class="check">Software Updates</li>
+										<li class="check">Unlimited Support</li>
+										<li class="check bolded"><em>2 Hours of Updates</em></li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional development work billed at <strong>$45/hr</strong>.
+									Additional website updates billed at <strong>$45/hr</strong>.
 								</div>
 							</div>
 							<div class="pricing-col">
@@ -116,15 +117,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</div>
 								<div class="price-list">
 									<ul>
-										<li>Daily Website Backups</li>
-										<li>24/7 Security</li>
-										<li>Software Updates</li>
-										<li>Unlimited Support</li>
-										<li class="bolded"><em>4 Hours of Development</em></li>
+										<li class="check">Daily Website Backups</li>
+										<li class="check">24/7 Security</li>
+										<li class="check">Software Updates</li>
+										<li class="check">Unlimited Support</li>
+										<li class="check bolded"><em>4 Hours of Updates</em></li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional development work billed at <strong>$35/hr</strong>.
+									Additional website updates billed at <strong>$35/hr</strong>.
 								</div>
 							</div>
 						</div>

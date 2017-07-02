@@ -80,16 +80,24 @@
 				}
 				ul {
 					list-style: none;
+					padding-bottom: 2em;
 					li {
-						background-image: url(../_images/icons/checkmark.png);
+						background-image: none;
 						background-repeat: no-repeat;
 						background-size: 24px;
 						background-position: 0 30%;
-						padding-left: 30px;
+						padding-left: 40px;
+						&.check {
+							background-image: url(../_images/icons/checkmark.png);
+						}
+						&.ex {
+							background-image: url(../_images/icons/ex.png);
+							// color: #ccc;
+						}
+						&.bolded {
+							font-weight: bold;
+						}
 					}
-				}
-				li.bolded {
-					font-weight: bold;
 				}
 			}
 			.price-addendum {
@@ -99,6 +107,7 @@
 				text-align: center;
 				font-size: 1.2em;
 				position: relative;
+				width: 100%;
 			}
 
 			/**
@@ -125,7 +134,7 @@
 
 					}
 					.price-addendum {
-						position: absolute;
+						position: relative;
 						bottom: 0;
 					}
 				}
@@ -179,7 +188,7 @@
 					text-align: left;
 				}
 				.pricing-col {
-					min-height: 760px;
+					// min-height: 760px;
 				}
 
 			}

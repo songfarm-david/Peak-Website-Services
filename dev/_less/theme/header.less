@@ -6,7 +6,7 @@
 @import 'animations';
 
 header.pk-site-header {
-	position: fixed;
+	position: absolute;
 	z-index: 1000;
 	top: 0;
 	width: 100%;
@@ -56,60 +56,66 @@ header.pk-site-header {
 			 }
 		 }
 	 }
-}
-.fixed-nav {
-	background-color: @hero-color;
-	height: 73px;
-	transition: @transition;
-	animation: fadeIn 0.25s .1s ease-in both; // temporary animation
-	box-shadow: 1px 1px 1px 2px fadeout(#333, 50%);
-	.brand-logo {
-		max-height: 4rem;
-		width: auto;
-		margin-top: 0.25rem;
-		margin-left: 0.25rem
-	}
-	.brand-title {
-		color: white !important;
-	}
-	#primary-nav {
-		a {
-			color: @hero-color;
-			@media (min-width: 66em) {
-				color: #fff;
-			}
-			&:hover {
-				background-color: #fff;
-				color: darken(@hero-color, 10%);
-			}
-		}
-		ul.dropdown-content {
-		background-color: #fff;
-		color: @hero-color;
-		top: 76px;
-		li {
-			a {
-				color: inherit;
-				&:hover {
-					opacity: 1;
-					color: #eee;
-					background-color: @hero-color;
-				}
-				&::after {
-					width: 100%;
-					height: 0px;
-				}
-			}
-			&:hover {
-				background-color: #fff;
-			}
-		}
-		}
-		span.icon-bar {
-			background-color: white !important;
-		}
-	}
-	span.icon-bar {
-		background-color: white !important;
-	}
+
+
+	 &.fixed-nav {
+	 	position: fixed;
+	 	background-color: @hero-color;
+		background-image: svg-gradient(to bottom, @hero-color 50%, darken(@hero-color, 10%));
+	 	height: 73px;
+	 	transition: @transition;
+	 	animation: fadeIn 0.25s .1s ease-in both; // temporary animation
+	 	box-shadow: 1px 1px 1px 2px fadeout(#333, 50%);
+	 	.brand-logo {
+	 		max-height: 4rem;
+	 		width: auto;
+	 		margin-top: 0.25rem;
+	 		margin-left: 0.25rem
+	 	}
+	 	.brand-title {
+	 		color: white !important;
+	 	}
+	 	#primary-nav {
+	 		a {
+	 			color: @hero-color;
+	 			@media (min-width: 66em) {
+	 				color: #fff;
+	 			}
+	 			&:hover {
+	 				background-color: #fff;
+	 				color: darken(@hero-color, 10%);
+	 			}
+	 		}
+	 		ul.dropdown-content {
+	 		background-color: #fff;
+	 		color: @hero-color;
+	 		top: 76px;
+	 		li {
+	 			a {
+	 				color: inherit;
+	 				&:hover {
+	 					opacity: 1;
+	 					color: #eee;
+	 					background-color: @hero-color;
+	 				}
+	 				&::after {
+	 					width: 100%;
+	 					height: 0px;
+	 				}
+	 			}
+	 			&:hover {
+	 				background-color: #fff;
+	 			}
+	 		}
+	 		}
+	 		span.icon-bar {
+	 			background-color: white !important;
+	 		}
+	 	}
+	 	span.icon-bar {
+	 		background-color: white !important;
+	 	}
+	 }
+
+
 }

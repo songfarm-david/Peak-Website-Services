@@ -2,103 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://peakwebsites.ca/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/contact.php</loc>
-    <lastmod>2017-04-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://peakwebsites.ca/website-services/</loc>
-    <lastmod>2017-04-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://peakwebsites.ca/website-services/website-optimization-services.php</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/portfolio/</loc>
-    <lastmod>2017-04-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://peakwebsites.ca/website-services/website-development-services.php</loc>
-    <lastmod>2017-04-04</lastmod>
+    <loc>https://peakwebsites.ca/about.php</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/website-services/website-hosting-services.php</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/blog/2017/03/29/internet-privacy-bill-2017/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <loc>https://peakwebsites.ca/contact.php</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/blog/2017/03/28/how-google-works-in-3-minutes/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <loc>https://peakwebsites.ca/website-services/</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://peakwebsites.ca/blog/author/peakwebsites/</loc>
-    <lastmod>2017-04-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/blog/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/blog/category/hosting/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/blog/google-search-site-operator/</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/blog/category/web/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/blog/2017/03/17/google-search-site-operator/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <loc>https://peakwebsites.ca/blog/internet-privacy-laws-2017/</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://peakwebsites.ca/blog/2017/03/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <loc>https://peakwebsites.ca/blog/new-email-scam-2017/</loc>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/blog/how-to-get-more-google-reviews/</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/blog/author/peakwebsites/</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/portfolio/</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/blog/how-google-works-in-3-minutes/</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://peakwebsites.ca/website-services/website-development-services.php</loc>
+    <lastmod>2017-06-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/blog/category/seo/</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://peakwebsites.ca/website-services/website-maintenance-services.php</loc>
-    <lastmod>2017-04-04</lastmod>
+    <lastmod>2017-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
