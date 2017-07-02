@@ -10,7 +10,7 @@
 	</div>
 	<div class="collapse navbar-collapse" id="primary-nav">
 		<ul>
-			<li><a href="/index.php">Home</a></li>
+			<li><a href="/about.php">About</a></li>
 			<!-- <li>
 				<a href="/about.php" class="<?php //echo $class = ($activePage == "about.php") ? "active-link" : ""; ?>">About</a>
 			</li> -->
