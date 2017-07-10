@@ -86,7 +86,8 @@ h6,
 }
 p,
 span,
-.service-link button {
+.service-link button,
+ul, ol {
 	margin: unit(@first-modular, rem) 0 unit(@first-modular/2, rem);
 	line-height: @line-height;
 	.font-size(1);
@@ -137,7 +138,9 @@ p > a {
 	font-size: inherit;
 	color: inherit;
 }
-span {
+span,
+code,
+pre {
 	font-size: inherit;
 	line-height: inherit;
 	margin: inherit;
@@ -156,10 +159,10 @@ label,	input,	button	{
 ul,
 ol,
 dl {
-	margin-top: @1-rem/2;
-	margin-bottom: unit(@line-height, rem);
-	padding-left: 0;
-	list-style: none;
+	// margin-top: @1-rem/2;
+	// margin-bottom: unit(@line-height, rem);
+	// padding-left: 0;
+	// list-style: none;
 	font-size: 1.4em;
 	ul,
 	ol,
@@ -203,3 +206,27 @@ blockquote {
  .page-cta {
 	 text-transform: capitalize;
  }
+
+#testimonials {
+  box-shadow: 0px 2px 3px 1px #ccc;
+  background-color: cornsilk;
+  .testimonial-text {
+    font-style: italic;
+  }
+  @media (@tablet-breakpoint) {
+    overflow: hidden;
+    .testimonial-image {
+      float: left;
+      margin-right: 1em;
+    }
+    .testimonial-text {
+      margin: auto;
+    }
+  }
+}
+
+.table-of-contents {
+  border: 3px solid #28445b;
+  padding-left: 1em;
+  background-color: #fffaf0
+}

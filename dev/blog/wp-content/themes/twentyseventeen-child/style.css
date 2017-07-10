@@ -91,10 +91,32 @@ h3#reply-title {
 	line-height: 1.6666em;
 	color: #28445b;
 }
-.entry-content ul {
+.entry-content ul,
+.entry-content ol {
 	padding-left: 1em;
 	list-style: initial;
 }
+.entry-content ol {
+	list-style: decimal;
+}
+.entry-content ul li,
+.entry-content ol li,
+.entry-content ul li > a,
+.entry-content ol li > a {
+	color: #28445b;
+}
+/**
+	* fix color of link decoration
+	*/
+.entry-content a,
+.entry-content a:hover {
+	box-shadow: none;
+	color: #28445b;
+}
+.entry-content a:hover {
+	text-decoration: underline;
+}
+
 .entry-meta {
 	font-size: .60em;
 }
@@ -143,6 +165,7 @@ p, span, ul, ol {
 	padding: 1em;
 	font-style: italic;
 	box-shadow: 2px 2px 3px 0px #414b57;
+	margin: 1.4em 0 1em;
 }
 
 /**
