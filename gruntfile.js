@@ -29,6 +29,10 @@ module.exports = function(grunt) {
 						dest: 'dev/_css',	// Destination relative to gruntfile.js
 						ext: '.css'				// Destination filepaths will have this extension
 					},
+					{
+						src: 'dev/_less/theme/theme.less',
+						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/theme.css'
+					},
 					// {
 					// 	src: 'dev/_less/theme/footer.less',
 					// 	dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-footer.css'
@@ -41,10 +45,6 @@ module.exports = function(grunt) {
 					// 	src: 'dev/_less/theme/nav.less',
 					// 	dest: 'dev/blog/wp-content/themes/twentyseventeen-child/style-nav.css'
 					// }
-					{
-						src: 'dev/_less/theme/theme.less',
-						dest: 'dev/blog/wp-content/themes/twentyseventeen-child/theme.css'
-					}
 				],
 			},
 		},

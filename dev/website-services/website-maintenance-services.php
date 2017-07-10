@@ -13,8 +13,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="hero-panel-container">
 				<div class="hero-panel-inner">
 					<h2 class="hide"><?php echo $h2; ?></h2>
-					<p class="hero-title">Take the stress out of being online</p>
-					<p class="hero-byline">We have everything you need, all in one place, to make having a website a breeze.</p>
+					<p class="hero-title">Let us take care of your online presence</p>
+					<p class="hero-byline">You can trust us to keep your website safe, secure, and online.</p>
 				</div>
 			</div>
 		</section><!-- #maintenance-bg -->
@@ -31,9 +31,10 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<section class="panel">
 				<div class="panel-container">
 					<div class="service-unit">
-						<h4>24/7 Security</h4>
-						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
-						<p>Our maintenance services are designed to protect your asset and to ensure that your website keeps on humming!</p>
+						<h4>There When You Need Us</h4>
+						<p>The best thing about working with us is that you have your own personal web developer and SEO on your side.</p>
+						<p>We are available to update your website when inspiration strikes and provide you with the tools and support you need to thrive online.</p>
+						<p>You've got a business to run. Let us do what we do best: rocking your online presence.</p>
 					</div>
 				</div>
 			</section>
@@ -41,18 +42,17 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<section class="panel color-2">
 				<div class="panel-container">
 					<div class="service-unit">
-						<h4>Daily Website Backups</h4>
-						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+						<h4>24/7 Security</h4>
+						<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
 					</div>
 				</div>
-
 			</section>
 
 			<section class="panel">
 				<div class="panel-container">
 					<div class="service-unit">
-						<h4>Software Updates</h4>
-						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+						<h4>Regular Back-Ups</h4>
+						<p>The last thing you want is to lose your website data. At Peak, we back it up regularly so you never have to worry about losing it all and starting at square one.</p>
 					</div>
 				</div>
 
@@ -61,11 +61,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<section class="panel color-2">
 				<div class="panel-container">
 					<div class="service-unit">
-						<h4>Unlimited Website Support</h4>
-						<p>When you've got a business to run, the last thing you want to do is have to worry about whether your website is up-to-date, secure, and protected against data loss.</p>
+						<h4>Keeping an Eye on your Website</h4>
+						<p>We regular check the health and performance of your website so if things start to shift, for better or worse, we are there to take the appropriate action.</p>
+						<p>Instead of stressing about your website, you can relax and focus on growing your business.</p>
 					</div>
 				</div>
-
 			</section>
 
 			<article class="pricing" id="maintenance-pricing">
@@ -137,7 +137,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 		<section class="cta-container">
 			<h3 class="hide">Contact Us</h3>
-			<p>Set yourself up for success.</p>
+			<p>Take a load off</p>
 			<p class="cta"><a href="/contact.php">Contact Us Today</a></p>
 		</section>
 
