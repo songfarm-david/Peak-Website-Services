@@ -664,6 +664,12 @@ a.active-link::after {
   color: #385f7e;
   background-color: #385f7e;
 }
+a {
+  text-decoration: underline;
+}
+a:hover {
+  color: #008b8b;
+}
 p > a {
   font-size: inherit;
   color: inherit;
@@ -1010,6 +1016,12 @@ a.active-link::after {
   height: 5px;
   color: #385f7e;
   background-color: #385f7e;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  color: #008b8b;
 }
 p > a {
   font-size: inherit;
