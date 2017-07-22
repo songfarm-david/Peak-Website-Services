@@ -47,7 +47,7 @@ $canonical = "https://peakwebsites.ca/";
 			</article> -->
 
 			<div class="panel">
-				<div class="container item">
+				<div class="container">
 					<div class="panel-inner" id="development">
 						<h3>Web Design &amp; Development</h3>
 						<img src="/_images/services/development.svg" alt="" class="service-image right">
@@ -92,7 +92,6 @@ $canonical = "https://peakwebsites.ca/";
 					<div class="panel-inner right">
 						<h3>Website Maintenance</h3>
 						<img src="/_images/services/maintenance.svg" alt="" class="service-image left">
-
 						<p>You have more important things to do than monitoring the safety and security of your website.</p>
 						<p>We take responsibility for ensuring your website is up, online, free of errors and bugs, and working for you. We do this so you can focus on the more important things - like running your business.</p>
 						<p>At Peak, we treat your website like our own.</p>
@@ -101,11 +100,21 @@ $canonical = "https://peakwebsites.ca/";
 				</div>
 			</div>
 
+			<article class="panel" id="testimonials">
+				<div class="container">
+					<div class="panel-inner">
+						<h3 class="at-only">Testimonials</h3>
+						<img class="testimonial-image" src="/_images/testimonies/nancy-crites.png" alt="A headshot of Nancy Crites">
+						<span><p class="testimonial-text">This is just filler text. David did such a great job! I would definitely recommend him to anyone else!</p></span>
+					</div>
+				</div>
+			</article>
+
 			<div class="panel">
 				<div class="container">
 					<div id="cta-banner">
-						<p>Working with us is a no-brainer.</p>
-						<a href="/contact.php">Get Started Today</a>
+						<p>Take the work out of succeeding online.</p>
+						<a href="/website-services/">Get Started Today</a>
 					</div>
 				</div>
 			</div>
