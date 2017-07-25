@@ -236,3 +236,14 @@ blockquote {
   padding-left: 1em;
   background-color: #fffaf0
 }
+
+
+/**
+  * Temporary font-sizing adjustments witin a media query to
+  * decrease page font size on desktops but revert to larger text beyond that
+  */
+@media (min-width: 900px) and (max-width: 1200px) {
+  body {
+    font-size: 0.9em;
+  }
+}
