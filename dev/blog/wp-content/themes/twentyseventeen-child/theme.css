@@ -765,6 +765,15 @@ blockquote {
   padding-left: 1em;
   background-color: #fffaf0;
 }
+/**
+  * Temporary font-sizing adjustments witin a media query to
+  * decrease page font size on desktops but revert to larger text beyond that
+  */
+@media (min-width: 900px) and (max-width: 1200px) {
+  body {
+    font-size: 0.9em;
+  }
+}
 /* added May/24/2017 */
 footer.pk-site-footer {
   position: static;
@@ -1117,4 +1126,13 @@ blockquote {
   border: 3px solid #28445b;
   padding-left: 1em;
   background-color: #fffaf0;
+}
+/**
+  * Temporary font-sizing adjustments witin a media query to
+  * decrease page font size on desktops but revert to larger text beyond that
+  */
+@media (min-width: 900px) and (max-width: 1200px) {
+  body {
+    font-size: 0.9em;
+  }
 }

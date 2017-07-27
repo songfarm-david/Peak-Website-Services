@@ -71,49 +71,51 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<article class="pricing" id="maintenance-pricing">
 				<div class="pricing-outer">
 					<div class="pricing-inner">
-						<h3>Maintenance Pricing</h3>
+						<h3>Website Maintenance Service Plans</h3>
 						<p>Our maintenance pricing model is as follows:</p>
 						<div class="pricing-table">
 							<div class="pricing-col">
 								<h4 class="pricing-title">Molehill</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">49</span><span class="price-desc">Per month billed annually or $56.35 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">99</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
 										<li class="check">Daily Website Backups</li>
 										<li class="check">24/7 Security</li>
 										<li class="check">Software Updates</li>
-										<li class="check">Unlimited Support</li>
-										<li>&nbsp;</li>
+										<li class="ex">Unlimited Support</li>
+										<li class="ex">Health and Performance Report</li>
+										<li class="check bolded"><em>1 Hour of Updates</em></li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$55/hr</strong>.
+									Additional website updates billed at <strong>$50/hr</strong>.
 								</div>
 							</div>
 							<div class="pricing-col">
 								<h4 class="pricing-title">Mountain</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">149</span><span class="price-desc">Per month billed annually or $171.35 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">189</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
 										<li class="check">Daily Website Backups</li>
 										<li class="check">24/7 Security</li>
 										<li class="check">Software Updates</li>
-										<li class="check">Unlimited Support</li>
+										<li class="ex">Unlimited Support</li>
+										<li class="check">Quarterly Health and Performance Report</li>
 										<li class="check bolded"><em>2 Hours of Updates</em></li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$45/hr</strong>.
+									Additional website updates billed at <strong>$40/hr</strong>.
 								</div>
 							</div>
 							<div class="pricing-col">
 								<h4 class="pricing-title">Peak</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">249</span><span class="price-desc">Per month billed annually or $286.35 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">279</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
@@ -121,16 +123,18 @@ $activePage = basename($_SERVER['PHP_SELF']);
 										<li class="check">24/7 Security</li>
 										<li class="check">Software Updates</li>
 										<li class="check">Unlimited Support</li>
+										<li class="check">Monthly Health and Performance Report</li>
 										<li class="check bolded"><em>4 Hours of Updates</em></li>
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$35/hr</strong>.
+									Additional website updates billed at <strong>$30/hr</strong>.
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- <p class="post-text">Need more than 4 hours of updates a month? Contact us for a custom quote.</p> -->
 			</article><!-- #maintenance-pricing -->
 
 		</section><!-- .service-container -->

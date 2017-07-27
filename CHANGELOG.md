@@ -46,3 +46,9 @@
 
 ###Peak5.1.1 -
 - Have added svg images for individual services. They are first versions of images and may be replaced. Also note, that images are not styled responsively.
+
+###Peak5.2.3
+- Change pricing tables
+	- remove annual billing
+	- update copy
+	- update features

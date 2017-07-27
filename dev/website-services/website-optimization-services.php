@@ -141,24 +141,25 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<article class="pricing" id="seo-pricing">
 				<div class="pricing-outer">
 					<div class="pricing-inner">
-						<h3>Optimization Pricing</h3>
+						<h3>Website Optimization Service Plans</h3>
 						<p>Our maintenance pricing model is as follows:</p>
 						<div class="pricing-table">
 							<div class="pricing-col">
 								<h4 class="pricing-title">Hike</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">179</span><span class="price-desc">Per month billed annually or $223.75 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">179</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
 										<li class="check bolded">10 Keywords</li>
+										<li class="check">Keyword Research</li>
 										<li class="check">On-Page SEO</li>
 										<li class="check">Local SEO</li>
 										<li class="check">Link-Building</li>
 										<li class="ex">Competitive Analysis</li>
 										<!-- <li class="ex">Google Analytics</li> -->
-										<li class="check">Regular Website Audit</li>
-										<li class="check">Monthly SEO Report</li>
+										<li class="ex">Regular Website Audit</li>
+										<li class="ex">Monthly SEO Report</li>
 										<li class="check bolded">2 Hours SEO/month</li>
 									</ul>
 								</div>
@@ -167,20 +168,21 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</div>
 							</div>
 							<div class="pricing-col">
-								<h4 class="pricing-title">Scale</h4>
+								<h4 class="pricing-title">Trek</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">379</span><span class="price-desc">Per month billed annually or $454.80 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">379</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
 										<li class="check bolded">25 Keywords</li>
+										<li class="check">Keyword Research</li>
 										<li class="check">On-Page SEO</li>
-										<li class="check">Local SEO (if applicable)</li>
+										<li class="check">Local SEO</li>
 										<li class="check">Link-Building</li>
 										<li class="check">Competitive Analysis</li>
 										<!-- <li class="ex">Google Analytics</li> -->
-										<li class="check">Regular Website Audit</li>
-										<li class="check">Monthly SEO Report</li>
+										<li class="check">Quarterly Website Audit</li>
+										<li class="check">Quarterly SEO Report</li>
 										<li class="check bolded">4 Hours SEO/month</li>
 									</ul>
 								</div>
@@ -189,19 +191,20 @@ $activePage = basename($_SERVER['PHP_SELF']);
 								</div>
 							</div>
 							<div class="pricing-col">
-								<h4 class="pricing-title">Trek</h4>
+								<h4 class="pricing-title">Scale</h4>
 								<div class="price-container">
-									<span class="price-dollar">$</span><span class="price-number">579</span><span class="price-desc">Per month billed annually or $665.85 month-to-month.</span>
+									<span class="price-dollar">$</span><span class="price-number">579</span><span class="price-desc">Billed month-to-month</span>
 								</div>
 								<div class="price-list">
 									<ul>
 										<li class="check bolded">Up to 75 Keywords</li>
+										<li class="check">Keyword Research</li>
 										<li class="check">On-Page SEO</li>
-										<li class="check">Local SEO (if applicable)</li>
+										<li class="check">Local SEO</li>
 										<li class="check">Link-Building</li>
 										<li class="check">Competitive Analysis</li>
 										<!-- <li class="check">Google Analytics</li> -->
-										<li class="check">Website Audit</li>
+										<li class="check">Monthly Website Audit</li>
 										<li class="check">Monthly SEO Report</li>
 										<li class="check bolded">8 Hours SEO/month</li>
 									</ul>
