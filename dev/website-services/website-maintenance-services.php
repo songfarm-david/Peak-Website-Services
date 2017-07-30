@@ -52,34 +52,42 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</div>
 			</section>
 
-			<section class="panel color-2">
+			<section class="panel color-2 feature-grid">
 				<div class="panel-container">
-					<div class="service-unit">
-						<h4>24/7 Security</h4>
-						<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
+					<div class="service-unit row">
+						<h3>Website Maintenance Features</h3>
+						<p>Included in all our Website Maintenance Plans:</p>
+						<div class="col col-4">
+							<h4>24/7 Security</h4>
+							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
+						</div>
+						<div class="col col-4">
+							<h4>Daily Backups</h4>
+							<p>Have peace of mind knowing that your website is backed up in case of data loss or malicious intrusions.</p>
+						</div>
+						<div class="col col-4">
+							<h4>Unlimited Content Updates</h4>
+							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
+						</div>
+					</div>
+					<div class="service-unit row">
+						<div class="col col-4">
+							<h4>Personal Service</h4>
+							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
+						</div>
+						<div class="col col-4">
+							<h4>No Contracts</h4>
+							<p>Our service plans are billed month-to-month so come and go as you please; upgrade or downgrade your service as required. No contracts involved.</p>
+						</div>
+						<div class="col col-4">
+							<h4>Quick Turnaround</h4>
+							<p>No more waiting for weeks to get something changed on your website. With us, most updates happen in 1-2 days.</p>
+						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="panel">
-				<div class="panel-container">
-					<div class="service-unit">
-						<h4>Regular Back-Ups</h4>
-						<p>The last thing you want is to lose your website data. At Peak, we back it up regularly so you never have to worry about losing it all and starting at square one.</p>
-					</div>
-				</div>
-
-			</section>
-
-			<section class="panel color-2">
-				<div class="panel-container">
-					<div class="service-unit">
-						<h4>Keeping an Eye on your Website</h4>
-						<p>We regular check the health and performance of your website so if things start to shift, for better or worse, we are there to take the appropriate action.</p>
-						<p>Instead of stressing about your website, you can relax and focus on growing your business.</p>
-					</div>
-				</div>
-			</section>
+			
 
 			<article class="pricing" id="maintenance-pricing">
 				<div class="pricing-outer">
