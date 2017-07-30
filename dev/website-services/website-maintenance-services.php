@@ -13,8 +13,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<div class="hero-panel-container">
 				<div class="hero-panel-inner">
 					<h2 class="hide"><?php echo $h2; ?></h2>
-					<p class="hero-title">Let us take care of your online presence</p>
-					<p class="hero-byline">You can trust us to keep your website safe, secure, and online.</p>
+					<p class="hero-title">Your Business is Your Business.<br> Our Business is Websites.</p>
+					<p class="hero-byline">Expert Maintenance to keep your website online and thriving.</p>
 				</div>
 			</div>
 		</section><!-- #maintenance-bg -->
@@ -31,10 +31,23 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<section class="panel">
 				<div class="panel-container">
 					<div class="service-unit">
-						<h4>There When You Need Us</h4>
-						<p>The best thing about working with us is that you have your own personal web developer and SEO on your side.</p>
-						<p>We are available to update your website when inspiration strikes and provide you with the tools and support you need to thrive online.</p>
-						<p>You've got a business to run. Let us do what we do best: rocking your online presence.</p>
+						<p>Your website is pivotal to your online success. It's one of the first places a potential customer goes when deciding whether they want to trust and spend their money on you, where they go to get a sense of your credibility and what you're all about.</p>
+						<p><em>Don't let them down.</em></p>
+						<p>Your website might already have a lot going for it but it's important that it doesn't get stale. Worse yet, that it's hacked and is no longer working for your business.</p>
+						<p>Without the right experience and know-how, your website is at risk.</p>
+						<p>Don't go it alone.</p>
+						<p>We understand that your website is one of your most important assets online and work with you 24/7 to ensure your website is secure, up-to-date, and working to serve your business.</p>
+						<p>You can count on us to:</p>
+						<ul>
+							<li>Be responsible for all the technical details (domain registrations, hosting services, logins and passwords)</li>
+							<li>Answer any technical questions you may have</li>
+							<li>Provide professional, on-time service</li>
+							<li>Solve your online problems</li>
+						</ul>
+						<br>
+						<div class="button-container">
+							<a href="#maintenance-pricing" class="service-button">See Website Maintenance Service Plans</a>
+						</div>
 					</div>
 				</div>
 			</section>
