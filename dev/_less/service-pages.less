@@ -151,32 +151,6 @@ main {
 		}
 	}
 
-	.cta-container {
-		padding: 2em 0.5em;
-		text-align: center;
-		color: #385f7e;
-		>p {
-			.h3;
-			text-transform: capitalize;
-			margin-top: 0;
-		}
-		>p:not(.cta) {
-			font-weight: lighter;
-			margin-top: 0;
-		}
-		p.cta {
-			font-weight: bold;
-			clear: both;
-			>a {
-				font-size: inherit;
-				color: inherit;
-				&:hover {
-					text-decoration: none;
-				}
-			}
-		}
-	}
-
 	@media (@tablet-breakpoint) {
 
 		.hero-panel {
@@ -198,7 +172,6 @@ main {
 					font-size: 0.95em;
 				}
 			}
-
 			.panel-container {
 				width: @tablet-content-width;
 				margin: 0 auto;
@@ -209,18 +182,8 @@ main {
 				.service-unit {
 					font-size: 1.15em;
 				}
-
-
 			}
-
 		}
-
-		.cta-container {
-			padding: 3em 0;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
 	}
 
 	@media (@desktop-breakpoint) {
@@ -257,9 +220,9 @@ main {
 
 		}
 
-		.cta-container {
-			font-size: 1.3em;
-		}
+		// .cta-container {
+		// 	font-size: 1.3em;
+		// }
 
 	}
 
@@ -286,14 +249,7 @@ main {
 				}
 			}
 		}
-
-		.cta-container {
-			font-size: 1.4em;
-			width: 51em;
-		}
-
 	}
-
 }
 
 .flexbox main {
@@ -407,7 +363,47 @@ aside.content-aside {
 /**
 	* Features Grid
 	*/
-.feature-grid .col {
-	font-size: 85%;
-	text-align: center;
+.feature-grid {
+	padding-bottom: 4rem*@first-modular;
+	margin-top: 1em;
+	.title,
+	.subtitle,
+	.col {
+		text-align: center;
+	}
+	.feature {
+		.feature-header {
+			font-size: 125%;
+			font-family: Verdana;
+		}
+	}
+	@media (@desktop-breakpoint) {
+		.title {
+			margin-bottom: 0;
+		}
+		.subtitle {
+			margin: 0 0 1em;
+			font-size: 150%;
+		}
+		.feature {
+			font-size: 85%;
+		}
+	}
+}
+
+
+.small-list {
+	width: 80%;
+	margin: 2rem*@first-modular auto;
+	font-size: 100%;
+	font-family: @second-font;
+	display: none;
+	li {
+		margin-left: 1em * @first-modular;
+		// font-size: 1em;
+	}
+	p {
+		font-size: inherit;
+		font-weight: bold;
+	}
 }
