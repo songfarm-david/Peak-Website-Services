@@ -24,56 +24,56 @@
 	background-position: center top; // make sure top
 }
 
+/**
+	* Set a max-width, centered container for mobile
+	*/
+.mobile-max-width {
+	max-width: 52em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 main {
 	background-color: #fff;
 	color: @hero-color;
 
 	/**
-		* Set a max-width, centered container for mobile
-		*/
-	.mobile-max-width {
-		max-width: 52em;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	/**
 		* A distinct, colored panel
 		*/
-	.special {
-		background-color: #e2ffe8;
-		background-image: svg-gradient(to bottom, lighten(#e2ffe8,3%) 50%, #e2ffe8);
-		border-top: 1px solid darken(#e2ffe8, 5%);
-		border-bottom: 1px solid darken(#e2ffe8, 5%);
-		color: #285b4b;
-		box-shadow: 0px 2px 4px 0px #285b4b;
-		.service-unit {
-			border-right: 5px solid #285b4b;
-			padding-right: 2em !important;
-			padding-bottom: 0;
-		}
-		.service-icon {
-			max-width: 12em;
-			float: right;
-			margin-left: 1em;
-		}
-		.cost {
-			font-weight: 700;
-			>span {
-				font-weight: 300;
-			}
-		}
-		@media (@tablet-breakpoint) {
-			.service-unit {
-				text-align: right;
-			}
-			.service-icon {
-				float: left;
-				margin-right: 1em;
-				max-width: 14em;
-			}
-		}
-	}
+	// .special {
+	// 	background-color: #e2ffe8;
+	// 	background-image: svg-gradient(to bottom, lighten(#e2ffe8,3%) 50%, #e2ffe8);
+	// 	border-top: 1px solid darken(#e2ffe8, 5%);
+	// 	border-bottom: 1px solid darken(#e2ffe8, 5%);
+	// 	color: #285b4b;
+	// 	box-shadow: 0px 2px 4px 0px #285b4b;
+	// 	.service-unit {
+	// 		border-right: 5px solid #285b4b;
+	// 		padding-right: 2em !important;
+	// 		padding-bottom: 0;
+	// 	}
+	// 	.service-icon {
+	// 		max-width: 12em;
+	// 		float: right;
+	// 		margin-left: 1em;
+	// 	}
+	// 	.cost {
+	// 		font-weight: 700;
+	// 		>span {
+	// 			font-weight: 300;
+	// 		}
+	// 	}
+	// 	@media (@tablet-breakpoint) {
+	// 		.service-unit {
+	// 			text-align: right;
+	// 		}
+	// 		.service-icon {
+	// 			float: left;
+	// 			margin-right: 1em;
+	// 			max-width: 14em;
+	// 		}
+	// 	}
+	// }
 
 	.hero-panel {
 		padding: 6em 1em 3em;
@@ -98,6 +98,9 @@ main {
 
 	.service-container {
 
+		/** this really isn't semantically right
+			* this is a decorative bar
+			*/
 		.service-intro-container {
 			.gradient-background();
 			color: #fff;
@@ -107,6 +110,7 @@ main {
 			.service-intro {
 				padding: 2em 0.5em 2.5em;
 				font-size: 0.8em;
+				/** content hidden **/
 				display: none;
 				.service-title {
 					margin-bottom: 0;
@@ -119,35 +123,35 @@ main {
 		}
 
 		.panel-container {
-			.service-unit {
-				font-size: 1em;
-				.mobile-max-width();
-				ul {
-					list-style-type: circle;
-					padding: 0 0 0 1.5em;
-					li {
-						color: inherit;
-						margin-bottom: 0.25rem;
-						line-height: @line-height;
-						&:last-of-type {
-							margin-bottom: 0;
-						}
-						>a {
-							font-style: inherit;
-							font-size: inherit;
-							font-weight: inherit;
-							line-height: inherit;
-							text-decoration: none;
-							&:hover {
-								text-decoration: underline;
-							}
-						}
-					}
-				}
-				p.cost {
-					font-style: italic;
-				}
-			}
+			// .service-unit {
+			// 	font-size: 1em;
+			// 	.mobile-max-width();
+			// 	ul {
+			// 		list-style-type: circle;
+			// 		padding: 0 0 0 1.5em;
+			// 		li {
+			// 			color: inherit;
+			// 			margin-bottom: 0.25rem;
+			// 			line-height: @line-height;
+			// 			&:last-of-type {
+			// 				margin-bottom: 0;
+			// 			}
+			// 			>a {
+			// 				font-style: inherit;
+			// 				font-size: inherit;
+			// 				font-weight: inherit;
+			// 				line-height: inherit;
+			// 				text-decoration: none;
+			// 				&:hover {
+			// 					text-decoration: underline;
+			// 				}
+			// 			}
+			// 		}
+			// 	}
+			// 	p.cost {
+			// 		font-style: italic;
+			// 	}
+			// }
 		}
 	}
 
@@ -175,13 +179,13 @@ main {
 			.panel-container {
 				width: @tablet-content-width;
 				margin: 0 auto;
-				.service-unit {
-					max-width: none;
-					padding: 0;
-				}
-				.service-unit {
-					font-size: 1.15em;
-				}
+				// .service-unit {
+				// 	max-width: none;
+				// 	padding: 0;
+				// }
+				// .service-unit {
+				// 	font-size: 1.15em;
+				// }
 			}
 		}
 	}
@@ -213,9 +217,9 @@ main {
 
 			.panel-container {
 				width: @desktop-content-width;
-				.service-unit {
-					font-size: 1.3em;
-				}
+				// .service-unit {
+				// 	font-size: 1.3em;
+				// }
 			}
 
 		}

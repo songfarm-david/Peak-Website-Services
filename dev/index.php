@@ -32,28 +32,14 @@ $canonical = "https://peakwebsites.ca/";
 				</div>
 			</div>
 
-			<!-- <article class="panel" id="testimonials">
-				<h2 class="hide">Testimonials</h2>
-				<div class="row">
-					<div class="col-3">
-						<img src="" alt="">
-					</div>
-					<div class="col-9">
-						<p class="testimonial-title">Nancy Crites</p>
-						<p class="testimonial-body">This is a simple testimonial placeholder. It only demonstrates how a testimonial might look on the website!</p>
-						<p class="testimonial-cite">Nancy Crites</p>
-					</div>
-				</div>
-			</article> -->
-
 			<div class="panel">
 				<div class="container">
 					<div class="panel-inner" id="development">
 						<h3>Web Design &amp; Development</h3>
 						<img src="/_images/services/development.svg" alt="" class="service-image right">
-						<p>Whether you need a new website or just want to improve you the one you&rsquo;ve got, we can make it happen.</p>
-						<p>We work with you to understand the needs of your website then deliver to you a highly effective and efficient solution that works!</p>
-						<p>Our developers and designers can build you a complete website or help you with custom development solutions as your business grows and evolves.</p>
+						<p>Websites can become outdated or they may need to grow.</p>
+						<p>Whether your website is due for an upgrade or it needs to adapt to a new demand, Peak Websites will deliver.</p>
+						<p>We will provide you with the outcome you're looking for quickly and at a price you can afford.</p>
 						<a href="/website-services/website-development-services.php" class="service-button">Learn more about Website Development.</a>
 					</div>
 				</div>

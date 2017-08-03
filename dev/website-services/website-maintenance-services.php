@@ -93,7 +93,6 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<p class="cta"><a href="/contact.php">Get Started Today</a></p>
 			</section>
 
-
 			<!-- put Testimonial here -->
 			<article class="panel testimonials-panel">
 				<div class="container">
@@ -105,12 +104,11 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</div>
 			</article>
 
-
 			<!-- Website Maintenance Questions -->
 			<section class="panel"><!-- need a module or identifying name for this unit -->
-				<div class="container">
-					<div class="panel-inner">
-						<h4>Questions About Website Maintenance</h4>
+				<div class="panel-container">
+					<div class="panel-inner service-unit">
+						<h3 class="title">Questions About Website Maintenance</h3>
 						<p class="question">How does Website Maintenance work?</p>
 						<p>When you sign up for one of our fixed <a href="#">monthly service packages</a>, you are guaranteed a set portion of hours dedicated to adding or updating content on your website. This is on on top of the already included <a href="#">features</a>.</p>
 						<p>When you have the need to change or add content to your website, simply send us an email detailing what you want done and we’ll take care of the rest.</p>
