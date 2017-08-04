@@ -17,7 +17,8 @@ footer.pk-site-footer {
 	padding-top: @1-rem;
 	color: #fff;
 	background-color: @hero-color;
-	.gradient-background();
+	// .gradient-background();
+	background-color: #3f515d;
 	font-size: 1em;
 	#sitemap {
 		border-bottom: 1px solid #cccccc;
@@ -100,12 +101,16 @@ footer.pk-site-footer {
 		}
 	}
 	@media (@desktop-breakpoint) {
-		font-size: 1.25em;
+		font-size: 1.15em;
 		padding-top: 3rem;
 		// font-size: 1.6em;
 		#sitemap {
 			width: @desktop-content-width;
 			max-width: none;
+		}
+		ul li {
+			line-height: 1.618;
+			font-size: 90%;
 		}
 	}
 	@media (@lg-desktop-breakpoint) {
