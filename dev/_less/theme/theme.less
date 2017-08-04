@@ -80,6 +80,13 @@
   .title {
     font-weight: bold;
   }
+  p:not(.byline) {
+    font-family: verdana;
+    font-size: 1.2em;
+  }
+  p.byline {
+    margin-bottom: 1em * @second-modular;
+  }
 
 }
 /**
@@ -152,46 +159,48 @@
 	margin-right: auto;
 }
 
- .cta-container {
-   padding: 2em 0.5em;
-   text-align: center;
-   color: #385f7e;
-   .gradient-background();
-   color: #fff;
-   width: 100%;
-   >p {
-     .h3;
-     text-transform: capitalize;
-     margin-top: 0;
-   }
-   >p:not(.cta) {
-     font-weight: lighter;
-     margin-top: 0;
-   }
-   p.cta {
-     font-weight: bold;
-     clear: both;
-     >a {
-       font-size: inherit;
-       color: inherit;
-       &:hover {
-         text-decoration: none;
-       }
+.cta-container {
+  padding: 2em 0.5em;
+  text-align: center;
+  color: #385f7e;
+  .gradient-background();
+  color: #fff;
+  width: 100%;
+  box-shadow: 0px 3px 15px 1px #000;
+  position: relative;
+  >p {
+   .h3;
+   text-transform: capitalize;
+   margin-top: 0;
+  }
+  >p:not(.cta) {
+   font-weight: lighter;
+   margin-top: 0;
+  }
+  p.cta {
+   font-weight: bold;
+   clear: both;
+   >a {
+     font-size: inherit;
+     color: inherit;
+     &:hover {
+       text-decoration: none;
      }
    }
-   @media (@tablet-breakpoint) {
-     padding: 3em 0;
-     margin-left: auto;
-     margin-right: auto;
-   }
-   @media (@desktop-breakpoint) {
-     font-size: 1.3em;
-   }
-   @media (@lg-desktop-breakpoint) {
-     font-size: 1.4em;
-     // width: 51em;
-   }
- }
+  }
+  @media (@tablet-breakpoint) {
+   padding: 3em 0;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  @media (@desktop-breakpoint) {
+   font-size: 1.3em;
+  }
+  @media (@lg-desktop-breakpoint) {
+   font-size: 1.4em;
+   // width: 51em;
+  }
+}
 
    /**
     * Page CTA (call-to-action)
@@ -207,13 +216,13 @@
   .cmp-testimonials.panel {
      box-shadow: 0px 2px 3px 1px #ccc;
      padding: 4em*@first-modular 0;
-     background-color: cornsilk;
+     background-color: cadetblue;
      text-align: center;
-     background-attachment: fixed;
-     background-image: url();
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-color: #ccc;
+    //  background-attachment: fixed;
+    //  background-image: url('../_images/backgrounds/texture-2-edit.jpg');
+    //  background-repeat: no-repeat;
+    //  background-size: cover;
+    //  background-color: #5F0F40;
      .testimonial-inner {
        padding: 0 1em;
        .testimonial-image {
@@ -223,10 +232,15 @@
        }
        .testimonial-text {
          font-style: italic;
-         color: black;
+         color: #353348;
          font-weight: bold;
          margin: 0;
          line-height: @line-height-2;
+       }
+       .cite {
+         color: #353348;
+         font-weight: lighter;
+         font-style: italic;
        }
      }
      @media (@tablet-breakpoint) {
@@ -254,7 +268,11 @@
          .testimonial-text {
            display: inline-block;
            vertical-align: middle;
-           line-height: normal;
+           line-height: @second-modular;
+         }
+         .cite {
+           font-size: 1.15em;
+           text-align: right;
          }
        }
      }

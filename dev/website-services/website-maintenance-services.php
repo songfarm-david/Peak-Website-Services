@@ -211,12 +211,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<section class="panel cmp-faq color-2"><!-- need a module or identifying name for this unit -->
 				<div class="container">
 					<div class="panel-inner">
-						<h4>Website Maintenance Examples</h4>
-						<p>Here are some examples of the types of maintenance work you might have done during the month:</p>
+						<h4 class="title">Website Maintenance Examples</h4>
+						<p class="byline">Here are some examples of the types of maintenance work you might have done during the month:</p>
 						<p><span class="title">Content Updates/Additions/Omissions - </span>We can change, add, or remove the content on your website, whether text, images, or other multimedia. Simply let us know what you want done and we’ll do the rest!</p>
 						<p><span class="title">Search Engine Optimizations - </span>We know a thing or two about SEO and how to optimize your website and pages for the best results in search.</p>
 						<p>For quick optimizations, we can fine-tune your page to better communicate with search engines and fortify your chances in Google and other search engines.</p>
-						<p>For a more in-depth SEO strategy, see our <a href="#">Website Optimization Services</a>.</p></li>
+						<p>For a more in-depth SEO strategy, see our <a href="/website-services/website-optimization-services.php">Website Optimization Services</a>.</p></li>
 						<p><span class="title">Technical Fixes - </span>We monitor every website to make sure it’s performing as expected. When something does go awry, we are quick to put things back on track.</p>
 						<p>This is one of the biggest values of having us on your side: our quick response and dedication to your website and business.</p>
 						<p><span class="title">Performance and Optimization Updates - </span>A slow-loading website can hurt your reputation and your ranking position in search engines.</p>
