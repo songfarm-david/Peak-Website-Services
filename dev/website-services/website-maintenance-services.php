@@ -94,7 +94,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</section>
 
 			<!-- put Testimonial here -->
-			<article class="panel testimonials-panel">
+			<article class="panel cmp-testimonials">
 				<div class="container">
 					<div class="panel-inner">
 						<h3 class="at-only">Testimonials</h3>

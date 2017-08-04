@@ -16,17 +16,18 @@
 	@desktop-content-width: ~"64em";
 	@lg-desktop-content-width: ~"74em";
 
-	
+	/* Modular Scales */
+	@first-modular: 1.4; // was 1.333
+	@second-modular: 1.5;
 
 /* minimum viewport width */
 @min-width-px: unit(320, px);
 
 /* line-height */
-@line-height: 1.5;
+@line-height: @first-modular;
+@line-height-2: @second-modular;
 
-/* Modular Scales */
-@first-modular: 1.4; // was 1.333
-@second-modular: 1.618;
+
 
 /* Global font sizing */
 @browser-default: 16; // px as reference

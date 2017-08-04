@@ -86,15 +86,7 @@ $canonical = "https://peakwebsites.ca/";
 				</div>
 			</div>
 
-			<article class="panel" id="testimonials">
-				<div class="container">
-					<div class="panel-inner">
-						<h3 class="at-only">Testimonials</h3>
-						<img class="testimonial-image" src="/_images/testimonies/nancy-crites.png" alt="A headshot of Nancy Crites">
-						<span><p class="testimonial-text">This is just filler text. David did such a great job! I would definitely recommend him to anyone else!</p></span>
-					</div>
-				</div>
-			</article>
+			<?php include('_includes/components/testimonial.php') ?>
 
 			<div class="panel">
 				<div class="container">
