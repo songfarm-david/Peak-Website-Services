@@ -172,116 +172,86 @@
 /**
 	* Landing Page, 2nd Section
 	*/
-	.main-container {
-		text-align: center;
-		color: darken(@hero-color, 12%);
-		background: #fff;
-		/**
-			* 2nd Page Banner
-			*/
-		#landing-banner {
-			// font-size: 1.2em;
-			background-color: @hero-color;
-			.gradient-background();
-			#intro-copy {
-				font-size: 1.4em;
-			}
-		}
-		/**
-			* Services Images
-			*/
-		.service-image {
-			max-width: 28em;
-		}
-		// a {
-		// 	color: inherit;
-		// 	font-weight: bold;
-		// 	margin-bottom: 2.5rem*@first-modular;
-		// }
-		#intro-copy,
-		#cta-banner {
-			padding: 2.5em 0;
-		}
-		#intro-copy {
+.main-container {
+	text-align: center;
+	color: darken(@hero-color, 12%);
+	background: #fff;
+	#landing-banner {
+		background-color: @hero-color;
+		.gradient-background();
+		.intro-copy {
 			color: #fff;
 			text-align: center;
 			h2 {
-				.h3;
-				margin-top: 0;
+				margin: 0;
 			}
-		}
-		#cta-banner {
-			text-align: center;
-			p, a {
-				.h3;
-			}
-			p {
-				font-weight: lighter;
-				margin-top: 0;
-			}
-		}
-
-	/**
-		* Table Breakpoint
-		*/
-		@media (@tablet-breakpoint) {
-			text-align: left;
-			.container {
-				width: @tablet-content-width;
-				margin: 0 auto;
-				a {
-					margin-top: 1em*@first-modular;
-				}
-			}
-			#intro-copy,
-			#cta-banner,
-			.panel-inner {
-				font-size: 1.2em;
-			}
-			#cta-banner {
-				padding: 2em 0;
-			}
-			.service-image {
-				// max-width: none;
-				max-width: 24em;
-			}
-			.service-image.left {
-				float: left;
-			}
-			.service-image.right {
-				float: right;
-			}
-		}
-	/**
-		* Desktop Breakpoint
-		*/
-		@media (@desktop-breakpoint) {
-			.container {
-				width: @desktop-content-width;
-			}
-			#intro-copy,
-			#cta-banner,
-			.panel-inner {
-				font-size: 1.3em;
-			}
-			.panel-inner.right {
-				text-align: right;
-			}
-		}
-	/**
-		* Large Desktop Breakpoint
-		*/
-		@media (@lg-desktop-breakpoint) {
-			.container {
-				width: @lg-desktop-content-width;
-			}
-			#intro-copy,
-			#cta-banner,
-			.panel-inner {
-				// font-size: 1.35em;
+			> p {
+				font-size: @first-modular * 100%;
 			}
 		}
 	}
+	.intro-copy,
+	#cta-banner {
+		padding: 2.5em 0;
+	}
+	#cta-banner {
+		text-align: center;
+		p, a {
+			.h3;
+		}
+		p {
+			font-weight: lighter;
+			margin-top: 0;
+		}
+	}
+
+	@media (@tablet-breakpoint) {
+		text-align: left;
+		#landing-banner {
+			.intro-copy {
+				p {
+					font-size: (@first-modular * 100%) * @first-modular;
+				}
+			}
+		}
+		.container {
+			width: @tablet-content-width;
+			margin: 0 auto;
+			a {
+				margin-top: 1em*@first-modular;
+			}
+		}
+		#cta-banner {
+			padding: 2em 0;
+		}
+	}
+
+	@media (@desktop-breakpoint) {
+		#landing-banner {
+			font-size: 100%;
+			.intro-copy {
+				font-size: 115%;
+			}
+		}
+		.container {
+			width: @desktop-content-width;
+		}
+
+		.panel-inner.right {
+			text-align: right;
+		}
+	}
+
+	@media (@lg-desktop-breakpoint) {
+		.container {
+			width: @lg-desktop-content-width;
+		}
+		.panel-inner {
+			font-size: 150%;
+			.border(blue);
+		}
+	}
+}
 
 
 

@@ -23,6 +23,29 @@
  */
  .panel {
 	 padding: 2rem*@first-modular 0.5em;
+   .panel-inner {
+      .feature-image {
+        max-width: 17.9em;
+        margin: 1em 0 1em/@first-modular;
+        .border;
+      }
+   }
+   @media (@tablet-breakpoint) {
+     .feature-image {
+       &.left {
+         float: left;
+         margin-right: 1em*@second-modular;
+       }
+       &.right {
+         float: right;
+         margin-left: 1em*@second-modular;
+       }
+     }
+     &.right-align {
+       text-align: right;
+     }
+   }
+
  }
  .panel.color-1 {
 	 background: @hero-color;
@@ -75,7 +98,7 @@
      text-decoration: none;
      color: white;
      background: @hero-color;
-     border-radius: 3px;
+     border-radius: 6px;
      .hvr-shutter-in-vertical();
      .hvr-grow();
    }
@@ -158,9 +181,13 @@
    	 text-transform: capitalize;
     }
 
+    /**
+      * Testimonials Component
+      * Aug 2nd, 2017
+      */
    .cmp-testimonials.panel {
      box-shadow: 0px 2px 3px 1px #ccc;
-     padding: 4rem*@first-modular 0;
+     padding: 4em*@first-modular 0;
      background-color: cornsilk;
      text-align: center;
      background-attachment: fixed;
@@ -168,7 +195,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-color: #ccc;
-     .panel-inner {
+     .testimonial-inner {
        padding: 0 1em;
        .testimonial-image {
          max-width: 180px;
@@ -184,9 +211,9 @@
        }
      }
      @media (@tablet-breakpoint) {
-       overflow: hidden;
+      //  overflow: hidden;
        font-size: 125%;
-       .panel-inner {
+       .testimonial-inner {
          padding: 0 1em/@first-modular;
          .testimonial-text {
            width: 80%;
@@ -195,7 +222,8 @@
        }
      }
      @media (@desktop-breakpoint) {
-       .panel-inner {
+       .testimonial-inner {
+         font-size: 1rem * 1.5;
          margin: 0 auto;
          width: 65%;
          min-height: 200px;
@@ -212,10 +240,10 @@
        }
      }
      @media (@lg-desktop-breakpoint) {
-       font-size: 125%;
+       font-size: 1rem * 1.75;
        // padding: 6rem*@first-modular 0;
 
-       .panel-inner {
+       .testimonial-inner {
          width: 80%;
        }
      }
