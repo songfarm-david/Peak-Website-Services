@@ -47,7 +47,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</ul>
 						<br>
 						<div class="button-container">
-							<a href="#maintenance-pricing" class="button-cta-1 button-wireframe">See Website Maintenance Service Plans</a>
+							<a href="#maintenance-pricing" class="button-cta-1">See Website Maintenance Service Plans</a>
 						</div>
 					</div>
 				</div>
@@ -59,28 +59,34 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<h3 class="title">Website Maintenance Features</h3>
 						<p class="subtitle">Included in all our Website Maintenance Plans:</p>
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/security.png" alt="" class="feature-photo">
 							<h4 class="feature-header">24/7 Security</h4>
 							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
 						</div>
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/back-ups.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Daily Backups</h4>
 							<p>Have peace of mind knowing that your website is backed up in case of data loss or malicious intrusions.</p>
 						</div>
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/updates.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Unlimited Content Updates</h4>
-							<p></p>
+							<p>Let us take care of updating your website. When inspiration strikes or you want something updated, we're just an email away.</p>
 						</div>
 					</div>
 					<div class="panel-inner service-unit row">
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/service.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Personal Service</h4>
 							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
 						</div>
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/no-contract.png" alt="" class="feature-photo">
 							<h4 class="feature-header">No Contracts</h4>
 							<p>Our service plans are billed month-to-month so come and go as you please; upgrade or downgrade your service as required. No contracts involved.</p>
 						</div>
 						<div class="col col-4 feature">
+							<img src="/_images/icons/service-feature-icons/speed.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Quick Turnaround</h4>
 							<p>No more waiting for weeks to get something changed on your website. With us, most updates happen in 1-2 days.</p>
 						</div>
@@ -109,7 +115,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<p>Each month, you’ll get a detailed report about your website’s traffic, it’s performance, the work we did, and what we have in mind for the future.</p>
 						<p>Anyway you slice it, you’re investment is put to good use.</p>
 
-						<p class="question">How does Website Maintenance work?</p>
+						<p class="question">How fast can I expect updates to be completed?</p>
 						<p>A typical service request will be completed within 48 hours and often within 12 - 24 hours. In the event of larger undertakings, updates may take a few days.</p>
 						<p>In any case, the work will get done when we say it will.</p>
 
