@@ -71,14 +71,14 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<div class="col col-4 feature">
 							<img src="/_images/icons/service-feature-icons/updates.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Unlimited Content Updates</h4>
-							<p>Let us take care of updating your website. When inspiration strikes or you want something updated, we're just an email away.</p>
+							<p>There is no limit to the amount of updates you can request in a month.</p>
 						</div>
 					</div>
 					<div class="panel-inner service-unit row">
 						<div class="col col-4 feature">
 							<img src="/_images/icons/service-feature-icons/service.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Personal Service</h4>
-							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
+							<p>You get personal, 1-on-1 service when you work with us.</p>
 						</div>
 						<div class="col col-4 feature">
 							<img src="/_images/icons/service-feature-icons/no-contract.png" alt="" class="feature-photo">
@@ -88,7 +88,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<div class="col col-4 feature">
 							<img src="/_images/icons/service-feature-icons/speed.png" alt="" class="feature-photo">
 							<h4 class="feature-header">Quick Turnaround</h4>
-							<p>No more waiting for weeks to get something changed on your website. With us, most updates happen in 1-2 days.</p>
+							<p>No more waiting for weeks to get something changed on your website. With us, most updates happen within days.</p>
 						</div>
 					</div>
 				</div>
@@ -142,7 +142,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			<article class="pricing" id="maintenance-pricing">
 				<div class="pricing-outer">
 					<div class="pricing-inner">
-						<h3>Website Maintenance Service Plans</h3>
+						<h3>Website Maintenance Service Packages</h3>
 						<p>Our maintenance pricing model is as follows:</p>
 						<div class="pricing-table">
 							<div class="pricing-col">
