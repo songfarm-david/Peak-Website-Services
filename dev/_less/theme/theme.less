@@ -60,27 +60,23 @@
  }
 
  /**
-   *
+   * Theme Buttons
    */
    .button-container {
      text-align: center;
      margin-bottom: 1rem*@first-modular;
    }
-   .service-button {
+   .button-cta-1 {
      display: inline-block;
+     vertical-align: middle;
+     position: relative;
      padding: 0.5em;
-     background: @hero-color;
-     .gradient-background();
-     color: white;
      text-decoration: none;
-     transition: all 250ms ease;
+     color: white;
+     background: @hero-color;
      border-radius: 3px;
-     &:hover {
-       color: @hero-color;
-       background-image: none;
-       background-color: transparent;
-       text-decoration: underline;
-     }
+     .hvr-shutter-in-vertical();
+     .hvr-grow();
    }
    /**
    * alternate style 1
@@ -99,7 +95,7 @@
        color: white;
      }
    }
-   .service-button.center {
+   .button-cta-1.center {
      text-align: center;
    }
 

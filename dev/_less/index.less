@@ -172,9 +172,9 @@
 /**
 	* Landing Page, 2nd Section
 	*/
-	#business-top + section {
+	.main-container {
 		text-align: center;
-		color: @hero-color;
+		color: darken(@hero-color, 12%);
 		background: #fff;
 		/**
 			* 2nd Page Banner
@@ -193,11 +193,11 @@
 		.service-image {
 			max-width: 28em;
 		}
-		a {
-			color: inherit;
-			font-weight: bold;
-			margin-bottom: 2.5rem*@first-modular;
-		}
+		// a {
+		// 	color: inherit;
+		// 	font-weight: bold;
+		// 	margin-bottom: 2.5rem*@first-modular;
+		// }
 		#intro-copy,
 		#cta-banner {
 			padding: 2.5em 0;
@@ -220,7 +220,7 @@
 				margin-top: 0;
 			}
 		}
-		
+
 	/**
 		* Table Breakpoint
 		*/

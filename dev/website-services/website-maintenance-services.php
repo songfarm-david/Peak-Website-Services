@@ -46,7 +46,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</ul>
 						<br>
 						<div class="button-container">
-							<a href="#maintenance-pricing" class="service-button button-wireframe">See Website Maintenance Service Plans</a>
+							<a href="#maintenance-pricing" class="button-cta-1 button-wireframe">See Website Maintenance Service Plans</a>
 						</div>
 					</div>
 				</div>
