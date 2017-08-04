@@ -14,7 +14,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<div class="hero-panel-inner">
 					<h2 class="hide"><?php echo $h2; ?></h2>
 					<p class="hero-title">Your Business is Your Business.<br> Our Business is Websites.</p>
-					<p class="hero-byline">Expert Maintenance to keep your website online and thriving.</p>
+					<p class="hero-byline">Expert care to keep your website online and thriving.</p>
 				</div>
 			</div>
 		</section><!-- #maintenance-bg -->
@@ -29,14 +29,15 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</div>
 
 			<section class="panel">
-				<div class="panel-container">
-					<div class="service-unit">
-						<p>Your website is pivotal to your online success. It's one of the first places a potential customer to get a sense of your credibility and what your business is all about.</p>
-						<p>Your website might already have a lot going for it but it's important that it doesn't get stale. Worse yet, that it's hacked and is no longer working for your business.</p>
-						<p>Without the right experience and know-how, you're running blind.</p>
-						<p><strong>Don't go it alone.</strong></p>
+				<div class="container">
+					<div class="panel-inner">
+						<p><strong>Your website</strong> is pivotal to your online success. It's one of the first places a potential customer goes to get a sense of your credibility and what your business is all about.</p>
+						<p>So doesn't it make sense to have a professional on your side?</p>
+						<p>Your website might already have a lot going for it but don't leave it to gather dust. An unmonitored website is a liability.</p>
 						<p>We understand that your website is one of your most important assets online.</p>
+						<!-- <p>Without the right experience and know-how, you're running blind.</p> -->
 						<p>We maintain your website month after month, ensuring it stays secure and up-to-date, and are standing by to make changes to it when you need a fix or when inspiration strikes.</p>
+						<!-- <p><strong>Don't go it alone.</strong></p> -->
 						<ul class="small-list">
 							<p>You can count on us to:</p>
 							<li>Be responsible for all the technical details (domain registrations, hosting services, logins and passwords)</li>
@@ -54,7 +55,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 
 			<section class="panel color-3 feature-grid">
 				<div class="panel-container">
-					<div class="service-unit row">
+					<div class="panel-inner service-unit row">
 						<h3 class="title">Website Maintenance Features</h3>
 						<p class="subtitle">Included in all our Website Maintenance Plans:</p>
 						<div class="col col-4 feature">
@@ -70,7 +71,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<p></p>
 						</div>
 					</div>
-					<div class="service-unit row">
+					<div class="panel-inner service-unit row">
 						<div class="col col-4 feature">
 							<h4 class="feature-header">Personal Service</h4>
 							<p>We regularly monitor and ensure your website is working as expected and protected against online threats.</p>
@@ -94,20 +95,12 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</section>
 
 			<!-- put Testimonial here -->
-			<article class="panel cmp-testimonials">
-				<div class="container">
-					<div class="panel-inner">
-						<h3 class="at-only">Testimonials</h3>
-						<img class="testimonial-image" src="/_images/testimonies/nancy-crites.png" alt="A headshot of Nancy Crites">
-						<p class="testimonial-text">This is just filler text. David did such a great job! I would definitely recommend him to anyone else!</p>
-					</div>
-				</div>
-			</article>
+			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_includes/components/testimonial.php' ); ?>
 
 			<!-- Website Maintenance Questions -->
-			<section class="panel"><!-- need a module or identifying name for this unit -->
-				<div class="panel-container">
-					<div class="panel-inner service-unit">
+			<section class="panel cmp-faq"><!-- need a module or identifying name for this unit -->
+				<div class="container">
+					<div class="panel-inner">
 						<h3 class="title">Questions About Website Maintenance</h3>
 						<p class="question">How does Website Maintenance work?</p>
 						<p>When you sign up for one of our fixed <a href="#">monthly service packages</a>, you are guaranteed a set portion of hours dedicated to adding or updating content on your website. This is on on top of the already included <a href="#">features</a>.</p>

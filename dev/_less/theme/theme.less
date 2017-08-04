@@ -24,12 +24,16 @@
  .panel {
 	 padding: 2rem*@first-modular 0.5em;
    .panel-inner {
-      .feature-image {
+     .border;
+     .feature-image {
         max-width: 17.9em;
         margin: 1em 0 1em/@first-modular;
       }
    }
    @media (@tablet-breakpoint) {
+     .panel-inner {
+       font-size: 110%;
+     }
      .feature-image {
        &.left {
          float: left;
@@ -44,7 +48,16 @@
        text-align: right;
      }
    }
-
+   @media (@desktop-breakpoint) {
+     .panel-inner {
+       font-size: 125%;
+     }
+   }
+   @media (@lg-desktop-breakpoint) {
+     .panel-inner {
+       font-size: 135%;
+     }
+   }
  }
  .panel.color-1 {
 	 background: @hero-color;
@@ -60,8 +73,14 @@
    background: #f8f0fb;
    background: #fdf7ff;
    background: #f7fffa;
+   background: #eef0ef;
  }
 
+.cmp-faq {
+  .question {
+    font-weight: bold;
+  }
+}
 /**
  * Container helper styles
  */
@@ -84,94 +103,94 @@
  /**
    * Theme Buttons
    */
-   .button-container {
-     text-align: center;
-     margin-bottom: 1rem*@first-modular;
+.button-container {
+ text-align: center;
+ margin-bottom: 1rem*@first-modular;
+}
+.button-cta-1 {
+ display: inline-block;
+ vertical-align: middle;
+ position: relative;
+ margin: unit(@second-modular, em) 0;
+ padding: 0.5em;
+ text-decoration: none;
+ color: white;
+ background: @hero-color;
+ border-radius: 6px;
+ .hvr-shutter-in-vertical();
+ .hvr-grow();
+}
+/**
+* alternate style 1
+*/
+.button-wireframe {
+ background-color: #62c323;
+ background-color: #4cb474;
+ background-image: url();
+ color: #fff;
+ font-weight: bold;
+ padding: 0.5em 1em;
+//  margin-top: 1rem*@first-modular;
+ &:hover {
+   text-decoration: none;
+   background-color: @hero-color;
+   color: white;
+ }
+}
+.button-cta-1.center {
+ text-align: center;
+}
+
+
+/**
+  * Uniform container width
+  */
+.theme-container {
+	max-width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ .cta-container {
+   padding: 2em 0.5em;
+   text-align: center;
+   color: #385f7e;
+   .gradient-background();
+   color: #fff;
+   width: 100%;
+   >p {
+     .h3;
+     text-transform: capitalize;
+     margin-top: 0;
    }
-   .button-cta-1 {
-     display: inline-block;
-     vertical-align: middle;
-     position: relative;
-     margin: unit(@second-modular, em) 0;
-     padding: 0.5em;
-     text-decoration: none;
-     color: white;
-     background: @hero-color;
-     border-radius: 6px;
-     .hvr-shutter-in-vertical();
-     .hvr-grow();
+   >p:not(.cta) {
+     font-weight: lighter;
+     margin-top: 0;
    }
-   /**
-   * alternate style 1
-   */
-   .button-wireframe {
-     background-color: #62c323;
-     background-color: #4cb474;
-     background-image: url();
-     color: #fff;
+   p.cta {
      font-weight: bold;
-     padding: 0.5em 1em;
-    //  margin-top: 1rem*@first-modular;
-     &:hover {
-       text-decoration: none;
-       background-color: @hero-color;
-       color: white;
-     }
-   }
-   .button-cta-1.center {
-     text-align: center;
-   }
-
-
-   /**
-    * Uniform container width
-    */
-   .theme-container {
-   	max-width: 100rem;
-   	margin-left: auto;
-   	margin-right: auto;
-   }
-
-   .cta-container {
-     padding: 2em 0.5em;
-     text-align: center;
-     color: #385f7e;
-     .gradient-background();
-     color: #fff;
-     width: 100%;
-     >p {
-       .h3;
-       text-transform: capitalize;
-       margin-top: 0;
-     }
-     >p:not(.cta) {
-       font-weight: lighter;
-       margin-top: 0;
-     }
-     p.cta {
-       font-weight: bold;
-       clear: both;
-       >a {
-         font-size: inherit;
-         color: inherit;
-         &:hover {
-           text-decoration: none;
-         }
+     clear: both;
+     >a {
+       font-size: inherit;
+       color: inherit;
+       &:hover {
+         text-decoration: none;
        }
      }
-     @media (@tablet-breakpoint) {
-       padding: 3em 0;
-       margin-left: auto;
-       margin-right: auto;
-     }
-     @media (@desktop-breakpoint) {
-       font-size: 1.3em;
-     }
-     @media (@lg-desktop-breakpoint) {
-       font-size: 1.4em;
-       // width: 51em;
-     }
    }
+   @media (@tablet-breakpoint) {
+     padding: 3em 0;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   @media (@desktop-breakpoint) {
+     font-size: 1.3em;
+   }
+   @media (@lg-desktop-breakpoint) {
+     font-size: 1.4em;
+     // width: 51em;
+   }
+ }
 
    /**
     * Page CTA (call-to-action)
@@ -184,7 +203,7 @@
       * Testimonials Component
       * Aug 2nd, 2017
       */
-   .cmp-testimonials.panel {
+  .cmp-testimonials.panel {
      box-shadow: 0px 2px 3px 1px #ccc;
      padding: 4em*@first-modular 0;
      background-color: cornsilk;
@@ -246,7 +265,7 @@
          width: 80%;
        }
      }
-   }
+ }
 
    .table-of-contents {
      border: 3px solid #28445b;
@@ -259,11 +278,11 @@
      * Temporary font-sizing adjustments witin a media query to
      * decrease page font size on desktops but revert to larger text beyond that
      */
-   @media (min-width: 900px) and (max-width: 1200px) {
-     body {
-       font-size: 0.9em;
-     }
-   }
+// @media (min-width: 900px) and (max-width: 1200px) {
+//  body {
+//    font-size: 0.9em;
+//  }
+// }
 
 html {
 	font-size: @theme-default-rem;
@@ -280,7 +299,7 @@ html {
     @media (@lg-desktop-breakpoint) {
       main {
         .panel {
-          font-size: 0.8rem;
+          // font-size: 0.8rem;
         }
       }
     }

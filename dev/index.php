@@ -86,16 +86,13 @@ $canonical = "https://peakwebsites.ca/";
 				</div>
 			</div>
 
-			<?php include('_includes/components/testimonial.php') ?>
+			<?php //include('_includes/components/testimonial.php') ?>
 
-			<div class="panel">
-				<div class="container">
-					<div id="cta-banner">
-						<p>Take the work out of succeeding online.</p>
-						<a href="/website-services/">Get Started Today</a>
-					</div>
-				</div>
-			</div>
+			<section class="cta-container">
+				<h3 class="hide">Contact Us</h3>
+				<p>Take the work out of succeeding online.</p>
+				<p class="cta"><a href="/contact.php">Get Started Today</a></p>
+			</section>
 
 			<!-- </div> -->
 		</section>
