@@ -53,7 +53,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				</div>
 			</section>
 
-			<section class="panel color-3 feature-grid">
+			<section class="panel color-2 feature-grid">
 				<div class="panel-container">
 					<div class="panel-inner service-unit row">
 						<h3 class="title">Website Maintenance Features</h3>
@@ -91,14 +91,18 @@ $activePage = basename($_SERVER['PHP_SELF']);
 							<p>No more waiting for weeks to get something changed on your website. With us, most updates happen within days.</p>
 						</div>
 					</div>
+					<div class="panel-inner cta-unit">
+						<p>Ready to take the next step?</p>
+						<a href="/contact.php" class="button-cta-1">Get Started Today</a>
+					</div>
 				</div>
 			</section>
 
-			<section class="cta-container">
+			<!-- <section class="cta-container">
 				<h3 class="hide">Contact Us</h3>
 				<p>Ready to take the next step?</p>
 				<p class="cta"><a href="/contact.php">Get Started Today</a></p>
-			</section>
+			</section> -->
 
 			<!-- put Testimonial here -->
 			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_includes/components/testimonial.php' ); ?>
@@ -108,31 +112,34 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<div class="container">
 					<div class="panel-inner">
 						<h3 class="title">Questions About Website Maintenance</h3>
-						<p class="question">How does Website Maintenance work?</p>
-						<p>When you sign up for one of our fixed <a href="#">monthly service packages</a>, you are guaranteed a set portion of hours dedicated to adding or updating content on your website. This is on on top of the already included <a href="#">features</a>.</p>
-						<p>When you have the need to change or add content to your website, simply send us an email detailing what you want done and we’ll take care of the rest.</p>
-						<p>If you can’t find anything you want done that month, the hours included in your package will be used to address other aspects of your website, like SEO, or technical performance.</p>
-						<p>Each month, you’ll get a detailed report about your website’s traffic, it’s performance, the work we did, and what we have in mind for the future.</p>
-						<p>Anyway you slice it, you’re investment is put to good use.</p>
+						<div class="columns">
+							<p class="question">How does Website Maintenance work?</p>
+							<p>When you sign up for one of our fixed <a href="#">monthly service packages</a>, you are guaranteed a set portion of hours dedicated to adding or updating content on your website. This is on on top of the already included <a href="#">features</a>.</p>
+							<p>When you have the need to change or add content to your website, simply send us an email detailing what you want done and we’ll take care of the rest.</p>
+							<p>If you can’t find anything you want done that month, the hours included in your package will be used to address other aspects of your website, like SEO, or technical performance.</p>
+							<p>Each month, you’ll get a detailed report about your website’s traffic, it’s performance, the work we did, and what we have in mind for the future.</p>
+							<p>Anyway you slice it, you’re investment is put to good use.</p>
 
-						<p class="question">How fast can I expect updates to be completed?</p>
-						<p>A typical service request will be completed within 48 hours and often within 12 - 24 hours. In the event of larger undertakings, updates may take a few days.</p>
-						<p>In any case, the work will get done when we say it will.</p>
+							<p class="question">How fast can I expect updates to be completed?</p>
+							<p>A typical service request will be completed within 48 hours and often within 12 - 24 hours. In the event of larger undertakings, updates may take a few days.</p>
+							<p>In any case, the work will get done when we say it will.</p>
 
-						<p class="question">Do I have to sign a contract?</p>
-						<p>No. All of our website maintenance packages are paid month-to-month. You are free to cancel at any time as well as upgrade or downgrade your service as you see fit.</p>
+							<p class="question">Do I have to sign a contract?</p>
+							<p>No. All of our website maintenance packages are paid month-to-month. You are free to cancel at any time as well as upgrade or downgrade your service as you see fit.</p>
 
-						<p class="question">What can I expect in a Website Health and Traffic Report?</p>
-						<p>A Website Health and Traffic Report is a great way to let you know how your website is performing both on the customer-facing side, your web traffic, and in terms of the technical and performance-related front.</p>
-						<p>We want you to understand how your website is doing so that, together, we can make better informed decisions in how we service and maintain your website for optimal results.</p>
-						<p>Each month, we will give you insights into who’s coming to your website and how they’re behaving once they’re there. We’ll also tell you what search terms they’re using to find you online.</p>
-						<p>In addition to that, we’ll let you know how your website is performing from a technical perspective so there are no surprises down the road.</p>
-						<p>In our experience, there is no better way of making progress than measuring current success, and our Website Health and Traffic Reports do just that!</p>
+							<p class="question">What can I expect in a Website Health and Traffic Report?</p>
+							<p>A Website Health and Traffic Report is a great way to let you know how your website is performing both on the customer-facing side, your web traffic, and in terms of the technical and performance-related front.</p>
+							<p>We want you to understand how your website is doing so that, together, we can make better informed decisions in how we service and maintain your website for optimal results.</p>
+							<p>Each month, we will give you insights into who’s coming to your website and how they’re behaving once they’re there. We’ll also tell you what search terms they’re using to find you online.</p>
+							<p>In addition to that, we’ll let you know how your website is performing from a technical perspective so there are no surprises down the road.</p>
+							<p>In our experience, there is no better way of making progress than measuring current success, and our Website Health and Traffic Reports do just that!</p>
 
-						<p class="question">Do you really offer Unlimited Content Updates?</p>
-						<p>Well, we are human after all. But yes, there isn’t a limit to what you can request.</p>
-						<p>Of course, each package offers different pricing structures and benefits should you go over your monthly allotted time.</p>
-						<p>If you expect you will need more time regularly, contact us for a custom quote.</p>
+							<p class="question">Do you really offer Unlimited Content Updates?</p>
+							<p>Well, we are human after all. But yes, there isn’t a limit to what you can request.</p>
+							<p>Of course, each package offers different pricing structures and benefits should you go over your monthly allotted time.</p>
+							<p>If you expect you will need more time regularly, contact us for a custom quote.</p>
+						</div>
+
 
 					</div>
 				</div>
@@ -163,7 +170,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$50/hr</strong>.
+									<p>Additional website updates billed at <strong>$50/hr</strong>.</p>
 								</div>
 							</div>
 							<div class="pricing-col">
@@ -182,7 +189,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$40/hr</strong>.
+									<p>Additional website updates billed at <strong>$40/hr</strong>.</p>
 								</div>
 							</div>
 							<div class="pricing-col">
@@ -201,7 +208,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 									</ul>
 								</div>
 								<div class="price-addendum">
-									Additional website updates billed at <strong>$30/hr</strong>.
+									<p>Additional website updates billed at <strong>$30/hr</strong>.</p>
 								</div>
 							</div>
 						</div>
@@ -210,22 +217,55 @@ $activePage = basename($_SERVER['PHP_SELF']);
 				<!-- <p class="post-text">Need more than 4 hours of updates a month? Contact us for a custom quote.</p> -->
 			</article><!-- #maintenance-pricing -->
 
+			<div class="panel">
+				<div class="container">
+					<div class="panel-inner cta-unit no-margin">
+						<p class="hide">Ready to take the next step?</p>
+						<a href="/contact.php" class="button-cta-1">Get Started Today</a>
+					</div>
+				</div>
+			</div>
+
 			<section class="panel cmp-faq color-2"><!-- need a module or identifying name for this unit -->
 				<div class="container">
 					<div class="panel-inner">
 						<h4 class="title">Website Maintenance Examples</h4>
 						<p class="byline">Here are some examples of the types of maintenance work you might have done during the month:</p>
-						<p><span class="title">Content Updates/Additions/Omissions - </span>We can change, add, or remove the content on your website, whether text, images, or other multimedia. Simply let us know what you want done and we’ll do the rest!</p>
-						<p><span class="title">Search Engine Optimizations - </span>We know a thing or two about SEO and how to optimize your website and pages for the best results in search.</p>
-						<p>For quick optimizations, we can fine-tune your page to better communicate with search engines and fortify your chances in Google and other search engines.</p>
-						<p>For a more in-depth SEO strategy, see our <a href="/website-services/website-optimization-services.php">Website Optimization Services</a>.</p></li>
-						<p><span class="title">Technical Fixes - </span>We monitor every website to make sure it’s performing as expected. When something does go awry, we are quick to put things back on track.</p>
-						<p>This is one of the biggest values of having us on your side: our quick response and dedication to your website and business.</p>
-						<p><span class="title">Performance and Optimization Updates - </span>A slow-loading website can hurt your reputation and your ranking position in search engines.</p>
-						<p>We check regularly the performance aspect of your site. If a website becomes slow or unresponsive, we go in and make the necessary adjustments so that it loads fast and is responsive to your customers</p></li>
-						<p><span class="title">Feature Integrations - </span>Want or need some new functionality on your website? Leave it to us. We can integrate into your site the functionality you’re looking for.</p>
-						<p><span class="title">User Experience Improvements - </span>The flow and ease of use of your website matters not just for your visitors but for search engines, too.</p>
-						<p>We can help to make your site easier to use and navigate for your site visitors which results in better user satisfaction and ultimately more conversions.</p>
+						<div class="row">
+							<div class="col col-6">
+								<p><span class="title">User Experience Improvements - </span>The flow and ease of use of your website matters not just for your visitors but for search engines, too.</p>
+								<p>We can help to make your site easier to use and navigate for your site visitors which results in better user satisfaction and ultimately more conversions.</p>
+							</div>
+							<div class="col col-6">
+								<p><span class="title">Search Engine Optimizations - </span>We know a thing or two about SEO and how to optimize your website and pages for the best results in search.</p>
+								<p>For quick optimizations, we can fine-tune your page to better communicate with search engines and fortify your chances in Google and other search engines.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-6">
+								<p><span class="title">Technical Fixes - </span>We monitor every website to make sure it’s performing as expected. When something does go awry, we are quick to put things back on track.</p>
+								<p>This is one of the biggest values of having us on your side: our quick response and dedication to your website and business.</p>
+							</div>
+							<div class="col col-6">
+								<p><span class="title">Performance and Optimization Updates - </span>A slow-loading website can hurt your reputation and your ranking position in search engines.</p>
+								<p>We check regularly the performance aspect of your site. If a website becomes slow or unresponsive, we go in and make the necessary adjustments so that it loads fast and is responsive to your customers</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-6">
+								<p><span class="title">Feature Integrations - </span>Want or need some new functionality on your website? Leave it to us. We can integrate into your site the functionality you’re looking for.</p>
+							</div>
+							<div class="col col-6">
+								<p><span class="title">Content Updates/Additions/Omissions - </span>We can change, add, or remove the content on your website, whether text, images, or other multimedia. Simply let us know what you want done and we’ll do the rest!</p>
+							</div>
+						</div>
+
+
+
+
+
+
+
 						<!-- <p><span class="title">More Examples:</span></p>
 						<ul>
 							<li></li>
@@ -241,7 +281,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 		<section class="cta-container">
 			<h3 class="hide">Contact Us</h3>
 			<p>Take a load off</p>
-			<p class="cta"><a href="/contact.php">Contact Us Today</a></p>
+			<p class="cta hvr-grow"><a href="/contact.php">Contact Us Today</a></p>
 		</section>
 
 

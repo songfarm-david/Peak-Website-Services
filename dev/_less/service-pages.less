@@ -26,12 +26,67 @@
 }
 
 /**
-	* Set a max-width, centered container for mobile
+	* this should go somewhere more global
 	*/
 .mobile-max-width {
 	max-width: 52em;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.hero-panel {
+	color: darken(@hero-color, 10%);
+	text-align: center;
+	height: 61.8vh;
+	position: relative;
+	.hero-panel-container {
+		.mobile-max-width();
+		.hero-panel-inner {
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			height: 200px;
+			.hero-title,
+			.hero-byline {
+				margin: 0;
+			}
+			.hero-title {
+				font-size: 2em;
+				font-weight: 700;
+				color: darken(@hero-color,10%);
+				text-transform: capitalize;
+				margin-bottom: 1rem * @first-modular;
+			}
+			.hero-byline {
+				font-size: 1.4em;
+			}
+		}
+	}
+	@media (@tablet-breakpoint) {
+		font-size: 150%;
+		.hero-panel-container {
+			max-width: none;
+			width: @tablet-content-width;
+			.hero-panel-inner {
+				font-size: 1.2em;
+			}
+		}
+	}
+	@media (@desktop-breakpoint) {
+		.hero-panel {
+			.hero-panel-container {
+				width: @desktop-content-width;
+			}
+		}
+	}
+	@media (@lg-desktop-breakpoint) {
+		.hero-panel-container {
+			width: @lg-desktop-content-width;
+		}
+	}
 }
 
 main {
@@ -75,39 +130,18 @@ main {
 	// 		}
 	// 	}
 	// }
-
-	.hero-panel {
-		padding: 6em 1em 3em;
-		color: darken(@hero-color, 10%);
-		text-align: center;
-		.hero-panel-container {
-			.mobile-max-width();
-			.hero-panel-inner {
-				font-size: 1em;
-				.hero-title {
-					font-size: 2em;
-					font-weight: 700;
-					color: darken(@hero-color,10%);
-					text-transform: capitalize;
-				}
-				.hero-byline {
-					font-size: 1.6em;
-				}
-			}
-		}
-	}
-
 	.service-container {
 
 		/** this really isn't semantically right
 			* this is a decorative bar
 			*/
 		.service-intro-container {
-			.gradient-background();
+			// .gradient-background();
 			color: #fff;
 			text-align: center;
 			height: 30px;
-			box-shadow: 0px 2px 3px 0px darken(@hero-color, 25%);
+			box-shadow: 0px 1px 3px 0px darken(@hero-color, 15%);
+			background-color: #dbe7f9;
 			.service-intro {
 				padding: 2em 0.5em 2.5em;
 				font-size: 0.8em;
@@ -157,19 +191,6 @@ main {
 	}
 
 	@media (@tablet-breakpoint) {
-
-		.hero-panel {
-			padding: 7.5em 0 3.75em;
-
-			.hero-panel-container {
-				max-width: none;
-				width: @tablet-content-width;
-				.hero-panel-inner {
-					font-size: 1.2em;
-				}
-			}
-		}
-
 		.service-container {
 
 			.service-intro-container {
@@ -192,23 +213,10 @@ main {
 	}
 
 	@media (@desktop-breakpoint) {
-
-		.hero-panel {
-			padding: 8.5em 0 4.25em;
-			// height: 16em;
-			.hero-panel-container {
-				width: @desktop-content-width;
-				// display: none;
-				.hero-panel-inner {
-					font-size: 1.35em;
-				}
-			}
-		}
-
 		.service-container {
 
 			.service-intro-container {
-				height: 60px;
+				.base(height, 1);
 				// display: none;
 				.service-intro {
 					font-size: 1.1em;
@@ -224,7 +232,6 @@ main {
 			}
 
 		}
-
 		// .cta-container {
 		// 	font-size: 1.3em;
 		// }
@@ -232,20 +239,6 @@ main {
 	}
 
 	@media (@lg-desktop-breakpoint) {
-
-		.hero-panel {
-			padding: 10em 0 5em;
-			.hero-panel-container {
-				width: @lg-desktop-content-width;
-				.hero-panel-inner {
-					font-size: 1.8em;
-					.hero-byline {
-						font-size: 1.4em;
-					}
-				}
-			}
-		}
-
 		.service-container {
 			.panel-container {
 				width: @lg-desktop-content-width;
@@ -370,7 +363,7 @@ aside.content-aside {
 	*/
 .feature-grid {
 	padding-bottom: 4rem*@first-modular;
-	margin-top: 1em;
+	// margin-top: 1em;
 	.title,
 	.subtitle {
 		font-family: @first-font;

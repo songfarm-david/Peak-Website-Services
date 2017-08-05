@@ -4,8 +4,8 @@
 	* May 25/17
 	*/
 	.pricing {
-		.container();
 		padding-top: 1.5em;
+
 		.pricing-inner {
 			>h3, p {
 				text-align: center;
@@ -16,10 +16,13 @@
 			p {
 				margin-top: 0;
 				margin-bottom: 1em;
-				display: none;
 			}
 		}
 		.pricing-table {
+			span {
+				margin: 0;
+				padding: 0;
+			}
 			.pricing-col {
 				margin-bottom: 3em;
 				border: 1px solid #ccc;
@@ -41,45 +44,46 @@
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
 				margin-top: 0;
+				margin-bottom: 0;
 			}
 			.price-container {
 				position: relative;
 				min-height: 54px;
 				width: 52.5%;
+				font-family: @first-font;
+				display: table;
 				.price-dollar {
 					font-size: 1.4em;
 					position: absolute;
-					top: -2px;
+					top: 10px;
 					left: -18px;
 					display: block;
 				}
+				.price-number,
+				.price-desc {
+					display: table-cell;
+				}
 				.price-number {
-					float: left;
+					vertical-align: top;
 					height: 100%;
 					font-size: 5em;
-					line-height: 0.5;
-					// padding-bottom: 60px;
-					margin-right: 6px;
+					line-height: 1;
 				}
 				.price-desc {
-					margin-left: 0;
-					text-align: right;
-					vertical-align: text-top;
+					vertical-align: bottom;
+					font-style: italic;
+					line-height: 1.6;
 				}
 			}
 			.price-list {
-				font-size: 0.85em;
-				margin-top: 1em;
-				margin-bottom: 2em;
-				margin-left: 1.5em;
-				>p {
-					margin-bottom: 0.25em;
-					font-size: 1em;
-					font-style: italic;
-				}
+				margin: 1.9rem auto;
+				// >p {
+				// 	margin-bottom: 0.25em;
+				// 	font-size: 1em;
+				// 	font-style: italic;
+				// }
 				ul {
 					list-style: none;
-					// padding-bottom: 2em;
 					li {
 						background-image: none;
 						background-repeat: no-repeat;
@@ -91,7 +95,6 @@
 						}
 						&.ex {
 							background-image: url(../_images/icons/ex.png);
-							// color: #ccc;
 						}
 						&.bolded {
 							font-weight: bold;
@@ -100,21 +103,38 @@
 				}
 			}
 			.price-addendum {
-				background-color: #f3fbf4;
+				background-color: @secondary-color;
+				color: white;
 				border: 1px solid darken(#f3fbf4, 5%);
 				padding: 1em 0.5em;
 				text-align: center;
-				font-size: 1.2em;
+				// font-size: 1.2em;
 				position: relative;
 				width: 100%;
+				>p {
+					margin: 0;
+				}
 			}
+
+
+			.price-list,
+			.price-addendum {
+				font-size: 80%;
+			}
+			.price-list {
+				padding-left: 2.8rem;
+				li {
+					line-height: 1.2;
+				}
+			}
+
 
 			/**
 				* First breakpoint
 				*/
 				@media (@tablet-breakpoint) {
 					/* pricing table */
-					width: 100%;
+					// width: 100%;
 					overflow: hidden;
 					.pricing-col {
 						float: left;
@@ -129,9 +149,16 @@
 						.price-number {
 							padding-bottom: 24px;
 						}
+						.price-desc {
+							vertical-align: middle;
+						}
 					}
 					.price-list {
-						min-height: 248px;
+						min-height: 300px;
+						margin: 0 auto;
+						ul {
+							margin: 0;
+						}
 					}
 					.price-addendum {
 						position: relative;
@@ -146,6 +173,7 @@
 							min-height: 90px;
 							.price-number {
 								padding-bottom: 24px;
+								.h1();
 							}
 						}
 					}
@@ -160,42 +188,31 @@
 		}
 
 		@media (@tablet-breakpoint) {
-
-			.pricing-inner {
-				// >h3, p {
-				// 	text-align: left;
-				// }
+			max-width: @extra-width;
+			margin-left: auto;
+			margin-right: auto;
+			.price-list {
+				padding: .61em 0 1em 0.25em;
 			}
-
 		}
 
 		@media (@desktop-breakpoint) {
 			padding-top: 2.5em;
+			.pricing-inner {
+				font-size: 1.15em;
+			}
 			.pricing-table {
 				margin-bottom: 2em * @second-modular;
 			}
-			.pricing-inner {
-				font-size: 1.15em;
-				// >h3, p {
-				// 	text-align: left;
-				// }
+			.price-list,
+			.price-addendum {
+				font-size: 87.5%;
 			}
-
 		}
-
 		@media (@lg-desktop-breakpoint) {
 			padding-top: 2.5em;
 			.pricing-inner {
 				font-size: 1.2em;
-				>h3, p {
-					// text-align: left;
-				}
-				.pricing-col {
-					// min-height: 760px;
-				}
-
 			}
-
 		}
-
 	}

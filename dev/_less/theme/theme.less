@@ -17,6 +17,10 @@
  .gradient-background {
 	 background-image: svg-gradient(to bottom, @hero-color 30%, darken(@hero-color, 7%));
  }
+ .gradient-background-hover {
+   background-image: svg-gradient(to bottom, @purple-color 30%, darken(@purple-color, 7%));
+
+ }
 
 /**
  * THeme colors for Panels
@@ -82,7 +86,8 @@
   }
   p:not(.byline) {
     font-family: @second-font;
-    font-size: 1.2em;
+    font-size: 1.15em;
+    line-height: 1.3;
   }
   p.question,
   p.byline {
@@ -92,6 +97,27 @@
   p.byline {
     margin-bottom: 1em * @second-modular;
   }
+  @media (@tablet-breakpoint) {
+    .row {
+      margin-left: -1.5%;
+    }    
+  }
+  @media (@desktop-breakpoint) {
+    .base(padding,bottom,2);
+
+    .panel-inner {
+      .question {
+        margin-top: 0;
+      }
+      .columns {
+        .base(margin,top,1);
+        -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+       -moz-columns: 100px 2; /* Firefox */
+       columns: 100px 2;
+      }
+    }
+  }
+
 }
 
 /**
@@ -173,6 +199,7 @@
   width: 100%;
   box-shadow: 0px 3px 15px 1px #000;
   position: relative;
+  // .theme-transition();
   >p {
    .h3;
    text-transform: capitalize;
@@ -194,6 +221,13 @@
      }
    }
   }
+  // &:hover,
+  // &:focus,
+  // &:active {
+  //   // background-image: none;
+  //   background-color: @purple-color;
+  //   .gradient-background-hover();
+  // }
   @media (@tablet-breakpoint) {
    padding: 3em 0;
    margin-left: auto;
@@ -457,4 +491,24 @@ blockquote {
 	padding: 0.5rem;
 	padding-left: @1-rem;
 	line-height: @first-modular;
+}
+
+
+.cta-unit {
+  text-align: center;
+  .base(margin,top,2);
+  >p {
+    .h3();
+    font-family:@first-font;
+    margin-bottom: 0;
+  }
+  &.no-margin {
+    margin: 0;
+    position: relative;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    a {
+      margin: 0;
+    }
+  }
 }
