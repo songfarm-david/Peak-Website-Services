@@ -139,6 +139,8 @@ $activePage = basename($_SERVER['PHP_SELF']);
 			</section>
 			<!--#end Website Maintenance Questions -->
 
+			<hr class="hr">
+
 			<article class="pricing" id="maintenance-pricing">
 				<div class="pricing-outer">
 					<div class="pricing-inner">

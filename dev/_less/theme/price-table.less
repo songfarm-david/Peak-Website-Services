@@ -30,9 +30,8 @@
 			}
 			.price-container,
 			.price-list {
-				width: 88.5%;
 				margin-left: auto;
-				margin-right: 0.5em;
+				margin-right: auto;
 			}
 			.pricing-title {
 				text-align: center;
@@ -45,7 +44,8 @@
 			}
 			.price-container {
 				position: relative;
-				min-height: 88px;
+				min-height: 54px;
+				width: 52.5%;
 				.price-dollar {
 					font-size: 1.4em;
 					position: absolute;
@@ -56,14 +56,13 @@
 				.price-number {
 					float: left;
 					height: 100%;
-					font-size: 5.2em;
+					font-size: 5em;
 					line-height: 0.5;
-					padding-bottom: 60px;
+					// padding-bottom: 60px;
 					margin-right: 6px;
 				}
 				.price-desc {
-					// font-size: 1em;
-					// line-height: 1;
+					margin-left: 0;
 					text-align: right;
 					vertical-align: text-top;
 				}
@@ -121,17 +120,18 @@
 						float: left;
 						width: auto;
 						max-width: 33.33%;
-						min-height: 616px;
+						// min-height: 616px;
 					}
 					.price-container {
-						min-height: 138px;
+						min-height: 90px;
+						margin-top: 1em;
+						width: 80%;
 						.price-number {
-							padding-bottom: 72px;
+							padding-bottom: 24px;
 						}
 					}
 					.price-list {
 						min-height: 248px;
-
 					}
 					.price-addendum {
 						position: relative;
@@ -141,11 +141,11 @@
 
 				@media (@desktop-breakpoint) {
 					.pricing-col {
-						min-height: 706px;
+						// min-height: 706px;
 						.price-container {
-							min-height: 168px;
+							min-height: 90px;
 							.price-number {
-								padding-bottom: 78px;
+								padding-bottom: 24px;
 							}
 						}
 					}
@@ -154,7 +154,7 @@
 
 				@media (@lg-desktop-breakpoint) {
 					.pricing-col {
-						min-height: 700px;
+						// min-height: 700px;
 					}
 				}
 		}
@@ -162,20 +162,23 @@
 		@media (@tablet-breakpoint) {
 
 			.pricing-inner {
-				>h3, p {
-					text-align: left;
-				}
+				// >h3, p {
+				// 	text-align: left;
+				// }
 			}
 
 		}
 
 		@media (@desktop-breakpoint) {
 			padding-top: 2.5em;
+			.pricing-table {
+				margin-bottom: 2em * @second-modular;
+			}
 			.pricing-inner {
 				font-size: 1.15em;
-				>h3, p {
-					text-align: left;
-				}
+				// >h3, p {
+				// 	text-align: left;
+				// }
 			}
 
 		}
@@ -185,7 +188,7 @@
 			.pricing-inner {
 				font-size: 1.2em;
 				>h3, p {
-					text-align: left;
+					// text-align: left;
 				}
 				.pricing-col {
 					// min-height: 760px;
