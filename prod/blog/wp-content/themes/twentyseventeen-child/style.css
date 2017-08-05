@@ -115,6 +115,7 @@ h3#reply-title {
 }
 .entry-content a:hover {
 	text-decoration: underline;
+	color: #008b8b;
 }
 
 .entry-meta {

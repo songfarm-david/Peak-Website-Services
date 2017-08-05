@@ -5,14 +5,12 @@
 /**
 * Typography
 */
-/* Common font fallback*/
 /* fallbacks, see http://ffffallback.com/ */
 html {
   line-height: 1.4;
 }
 html body {
-  font-family: 'Raleway', Tahoma, sans-serif;
-  font-weight: 400;
+  font: normal 400 1em/1.4 'Open Sans', sans-serif;
 }
 /* WebFontLoader plugin, see: https://www.sitepoint.com/improve-page-performance-font-loader/ */
 /**
@@ -651,8 +649,13 @@ button.navbar-toggle:focus {
   font-weight: bold;
 }
 .cmp-faq p:not(.byline) {
-  font-family: verdana;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+}
+.cmp-faq p.question,
+.cmp-faq p.byline {
+  font-family: 'Raleway', Tahoma, sans-serif;
+  font-size: 1.35em;
 }
 .cmp-faq p.byline {
   margin-bottom: 1.5em;
@@ -797,6 +800,7 @@ button.navbar-toggle:focus {
 .cta-container p.cta {
   font-weight: bold;
   clear: both;
+  font-family: 'Raleway', Tahoma, sans-serif;
 }
 .cta-container p.cta > a {
   font-size: inherit;
@@ -920,7 +924,6 @@ html {
   overflow-x: hidden;
 }
 html body {
-  font: normal 400 1em/1.4 'Raleway', Tahoma, sans-serif;
   font-size: 1em;
   min-width: 320px;
   margin: 0;
@@ -1076,7 +1079,7 @@ footer.pk-site-footer {
   width: 100%;
   bottom: 0;
   z-index: -1;
-  font: normal 400 1em/1.4 'Raleway', Tahoma, sans-serif;
+  font: normal 400 1em/1.4 'Open Sans', sans-serif;
   text-align: center;
   clear: both;
   padding-top: 1.4rem;
@@ -1245,8 +1248,13 @@ footer.pk-site-footer #copyright span {
   font-weight: bold;
 }
 .cmp-faq p:not(.byline) {
-  font-family: verdana;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+}
+.cmp-faq p.question,
+.cmp-faq p.byline {
+  font-family: 'Raleway', Tahoma, sans-serif;
+  font-size: 1.35em;
 }
 .cmp-faq p.byline {
   margin-bottom: 1.5em;
@@ -1391,6 +1399,7 @@ footer.pk-site-footer #copyright span {
 .cta-container p.cta {
   font-weight: bold;
   clear: both;
+  font-family: 'Raleway', Tahoma, sans-serif;
 }
 .cta-container p.cta > a {
   font-size: inherit;
@@ -1514,7 +1523,6 @@ html {
   overflow-x: hidden;
 }
 html body {
-  font: normal 400 1em/1.4 'Raleway', Tahoma, sans-serif;
   font-size: 1em;
   min-width: 320px;
   margin: 0;
