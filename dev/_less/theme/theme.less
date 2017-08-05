@@ -27,6 +27,8 @@
  */
  .panel {
 	 padding: 2rem*@first-modular 0.5em;
+   .base(padding,top,1);
+   .base(padding,bottom,1);
    .panel-inner {
      .feature-image {
         max-width: 17.9em;
@@ -95,12 +97,12 @@
     font-size: 1.35em;
   }
   p.byline {
-    margin-bottom: 1em * @second-modular;
+    margin: 0;
   }
   @media (@tablet-breakpoint) {
     .row {
       margin-left: -1.5%;
-    }    
+    }
   }
   @media (@desktop-breakpoint) {
     .base(padding,bottom,2);

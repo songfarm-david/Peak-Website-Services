@@ -47,7 +47,7 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						</ul>
 						<br>
 						<div class="button-container">
-							<a href="#maintenance-pricing" class="button-cta-1">See Website Maintenance Service Plans</a>
+							<a href="#maintenance-pricing" class="button-cta-1">See Website Maintenance Service Packages</a>
 						</div>
 					</div>
 				</div>
@@ -233,45 +233,39 @@ $activePage = basename($_SERVER['PHP_SELF']);
 						<p class="byline">Here are some examples of the types of maintenance work you might have done during the month:</p>
 						<div class="row">
 							<div class="col col-6">
-								<p><span class="title">User Experience Improvements - </span>The flow and ease of use of your website matters not just for your visitors but for search engines, too.</p>
+								<p><span class="title">User Experience Improvements</span></p>
+								<p>The flow and ease of use of your website matters not just for your visitors but for search engines, too.</p>
 								<p>We can help to make your site easier to use and navigate for your site visitors which results in better user satisfaction and ultimately more conversions.</p>
 							</div>
 							<div class="col col-6">
-								<p><span class="title">Search Engine Optimizations - </span>We know a thing or two about SEO and how to optimize your website and pages for the best results in search.</p>
+								<p><span class="title">Search Engine Optimizations</span></p>
+								<p>We know a thing or two about SEO and how to optimize your website and pages for the best results in search.</p>
 								<p>For quick optimizations, we can fine-tune your page to better communicate with search engines and fortify your chances in Google and other search engines.</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col col-6">
-								<p><span class="title">Technical Fixes - </span>We monitor every website to make sure it’s performing as expected. When something does go awry, we are quick to put things back on track.</p>
+								<p><span class="title">Technical Fixes</span></p>
+								<p>We monitor every website to make sure it’s performing as expected. When something does go awry, we are quick to put things back on track.</p>
 								<p>This is one of the biggest values of having us on your side: our quick response and dedication to your website and business.</p>
 							</div>
 							<div class="col col-6">
-								<p><span class="title">Performance and Optimization Updates - </span>A slow-loading website can hurt your reputation and your ranking position in search engines.</p>
+								<p><span class="title">Performance and Optimization Updates</span></p>
+								<p>A slow-loading website can hurt your reputation and your ranking position in search engines.</p>
 								<p>We check regularly the performance aspect of your site. If a website becomes slow or unresponsive, we go in and make the necessary adjustments so that it loads fast and is responsive to your customers</p>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col col-6">
-								<p><span class="title">Feature Integrations - </span>Want or need some new functionality on your website? Leave it to us. We can integrate into your site the functionality you’re looking for.</p>
+								<p><span class="title">Feature Integrations</span></p>
+								<p>Want or need some new functionality on your website? Leave it to us. We can integrate into your site the functionality you’re looking for.</p>
 							</div>
 							<div class="col col-6">
-								<p><span class="title">Content Updates/Additions/Omissions - </span>We can change, add, or remove the content on your website, whether text, images, or other multimedia. Simply let us know what you want done and we’ll do the rest!</p>
+								<p><span class="title">Content Updates/Additions/Omissions</span></p>
+								<p>We can change, add, or remove the content on your website, whether text, images, or other multimedia. Simply let us know what you want done and we’ll do the rest!</p>
 							</div>
 						</div>
 
-
-
-
-
-
-
-						<!-- <p><span class="title">More Examples:</span></p>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul> -->
 					</div>
 				</div>
 			</section>
