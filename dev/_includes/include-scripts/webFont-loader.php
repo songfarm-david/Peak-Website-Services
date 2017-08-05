@@ -1,9 +1,12 @@
 <script type="text/javascript">
 	var WebFontConfig = {
 		google: {
-			families: [ 'Raleway:300,400,700,800,900' ]
+			families: [
+				'Raleway:300,400,700',
+				'OpenSans'
+			 ]
 		},
-		timeout: 4000
+		timeout: 3300
 	};
 	(function(){
 		var wf = document.createElement("script");

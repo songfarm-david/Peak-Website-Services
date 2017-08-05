@@ -81,14 +81,19 @@
     font-weight: bold;
   }
   p:not(.byline) {
-    font-family: verdana;
+    font-family: @second-font;
     font-size: 1.2em;
+  }
+  p.question,
+  p.byline {
+    font-family: @first-font;
+    font-size: 1.35em;
   }
   p.byline {
     margin-bottom: 1em * @second-modular;
   }
-
 }
+
 /**
  * Container helper styles
  */
@@ -180,6 +185,7 @@
   p.cta {
    font-weight: bold;
    clear: both;
+   font-family: @first-font;
    >a {
      font-size: inherit;
      color: inherit;
@@ -308,7 +314,8 @@ html {
 	font-size: calc(@theme-default-rem * 1vw);
   overflow-x: hidden;
 	body {
-		font: @body-font;
+		// font: @body-font;
+    // font-family: @second-font;
 		font-size: @theme-default-em;
 		min-width: @min-width-px;
 		margin: 0;
